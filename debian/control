@@ -1,0 +1,186 @@
+Source: kdebase-workspace
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>
+Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdelibs5-dev (>= 3.93.0),
+ network-manager-dev, libbluetooth-dev, libnm-util-dev, libraw1394-dev
+Standards-Version: 3.7.2
+
+Package: kdebase-workspace
+Section: kde
+Architecture: all
+Depends:  kcontrol (>= ${binary:Version}), 
+ kdebase-workspace-bin (>= ${binary:Version}), kdebase-workspace-data (>= ${binary:Version}),
+ klipper (>= ${binary:Version}), kmenuedit (>= ${binary:Version}), 
+ kpager (>= ${binary:Version}), ksplash (>= ${binary:Version}),
+ ksysguard (>= ${binary:Version}), ktip (>= ${binary:Version}),
+ kwin (>= ${binary:Version}), systemsettings (>= ${binary:Version}),
+Recommends: kdm (>= ${binary:Version})
+Description: base components from the official KDE release
+ KDE (the K Desktop Environment) is a powerful Open Source graphical desktop
+ environment for Unix workstations. It combines ease of use, contemporary
+ functionality, and outstanding graphical design with the technological
+ superiority of the Unix operating system.
+
+Package: kdebase-workspace-bin
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: core binaries for the KDE base module
+ This package contains miscellaneous programs needed by other KDE applications,
+ particularly those in the KDE base module.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+
+Package: kdebase-workspace-data
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: shared data files for the KDE base module
+ This package contains the architecture-independent shared data files needed
+ for a basic KDE desktop installation.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+
+Package: kdebase-workspace-dev
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}, kdebase-workspace (>= ${binary:Version}),
+ network-manager-dev, libbluetooth-dev, libnm-util-dev, libraw1394-dev
+Description: development files for the KDE base module
+ This package contains headers and other development files needed to compile
+ software based on the KDE base module.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+
+Package: kdm
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}, xbase-clients
+Provides: x-display-manager
+Description: X display manager for KDE
+ kdm manages a collection of X servers, which may be on the local host or
+ remote machines. It provides services similar to those provided by init,
+ getty, and login on character-based terminals: prompting for login name and
+ password, authenticating the user, and running a session. kdm supports XDMCP
+ (X Display Manager Control Protocol) and can also be used to run a chooser
+ process which presents the user with a menu of possible hosts that offer XDMCP
+ display management.
+ .
+ A collection of icons to associate with individual users is included with KDE,
+ but as part of the kdepasswd package.
+ .
+ The menu package will help to provide KDM with a list of window managers that
+ can be launched, if the window manager does not register with KDM already.
+ Most users won't need this.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+
+Package: klipper
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: clipboard utility for KDE
+ klipper provides standard clipboard functions (cut and paste, history saving)
+ plus additional features, like the ability to offer actions to take dependent
+ on the clipboard contents. For example, it can launch a web browser if the
+ clipboard contains a URL.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+
+Package: kmenuedit
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: menu editor for KDE
+ The KDE menu editor allows you to make customisations to the KDE menu
+ structure.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+
+Package: kpager
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: desktop pager for KDE
+ This package contains KDE's desktop pager, which displays your virtual
+ desktops iconically in a window, along with icons of any running applications.
+ It is used to switch between applications or desktops.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase' packages for more information.
+
+Package: ksplash
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: the KDE splash screen
+ This package includes the KDE Splash screen, which is seen when a KDE session
+ is launched.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+
+Package: ksysguardd
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: system guard daemon for KDE
+ KDE System Guard Daemon is the daemon part of ksysguard. The daemon can be
+ installed on a remote machine to enable ksysguard on another machine to
+ monitor it through the daemon running there.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+
+Package: ksysguard
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: system guard for KDE
+ KDE System Guard allows you to monitor various statistics about your computer.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+
+Package: ktip
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: useful tips for KDE
+ ktip provides many useful tips on using KDE when you log in.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+
+Package: kwin
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Provides: x-window-manager
+Description: the KDE window manager
+ This package contains the default X window manager for KDE.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+
+
+Package: systemsettings
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: KDE System Settings Center
+ KDE System Settings Center is the replacement for kcontrol. It is an improved
+ user interface hosting various modules for configuring the desktop and other
+ aspects of the system.
+  .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+

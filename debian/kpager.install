@@ -1,0 +1,7 @@
+usr/bin/kpager
+usr/share/applications/kde4/kpager.desktop
+usr/share/dbus-1/interfaces/org.kde.KPager.xml
+usr/share/icons/hicolor/16x16/apps/kpager.png
+usr/share/icons/hicolor/22x22/apps/kpager.png
+usr/share/icons/hicolor/32x32/apps/kpager.png
+usr/share/icons/hicolor/48x48/apps/kpager.png

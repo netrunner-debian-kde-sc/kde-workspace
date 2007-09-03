@@ -1,0 +1,16 @@
+usr/bin/klipper
+usr/lib/libkdeinit4_klipper.so
+usr/share/applications/kde4/klipper.desktop
+usr/share/autostart/klipper.desktop
+usr/share/icons/hicolor/128x128/apps/klipper.png
+usr/share/icons/hicolor/16x16/apps/klipper.png
+usr/share/icons/hicolor/22x22/apps/klipper.png
+usr/share/icons/hicolor/32x32/apps/klipper.png
+usr/share/icons/hicolor/48x48/apps/klipper.png
+usr/share/icons/hicolor/64x64/apps/klipper.png
+usr/share/icons/hicolor/scalable/apps/klipper.svgz
+usr/share/kde4/apps/kconf_update/klipper-1-2.pl
+usr/share/kde4/apps/kconf_update/klipper-kde31.sh
+usr/share/kde4/apps/kconf_update/klipperrc.upd
+usr/share/kde4/apps/kconf_update/klippershortcuts.upd
+usr/share/kde4/apps/kicker/applets/klipper.desktop
