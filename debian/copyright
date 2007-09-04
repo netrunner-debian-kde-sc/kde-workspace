@@ -122,8 +122,313 @@ Files under kcminit/
 
 Files under kcontrol/
 
+ kcontrol/access/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/access/cr128-app-access.png ~ unspec ~ unspec
+ kcontrol/access/cr16-app-access.png ~ unspec ~ unspec
+ kcontrol/access/cr22-app-access.png ~ unspec ~ unspec
+ kcontrol/access/cr32-app-access.png ~ unspec ~ unspec
+ kcontrol/access/cr48-app-access.png ~ unspec ~ unspec
+ kcontrol/access/cr64-app-access.png ~ unspec ~ unspec
+ kcontrol/access/crsc-app-access.svgz ~ unspec ~ unspec
+ kcontrol/accessibility/accessibilityconfigwidget.ui ~ unspec ~ unspec
+ kcontrol/accessibility/accessibilityconfigwidget.ui.h ~ unspec ~ unspec
+ kcontrol/accessibility/accessibility.cpp ~ LGPLv2 ~   Copyright : (c) 2000 Matthias Hölzer-Klüpfel
+ kcontrol/accessibility/accessibility.desktop ~ unspec ~ unspec
+ kcontrol/accessibility/accessibility.h ~ LGPLv2 ~   Copyright : (c) 2000 Matthias Hölzer-Klüpfel
+ kcontrol/accessibility/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/accessibility/kcm_accessibility.kcfg ~ unspec ~ unspec
+ kcontrol/accessibility/Messages.sh ~ unspec ~ unspec
+ kcontrol/accessibility/settings.kcfgc ~ unspec ~ unspec
+ kcontrol/access/kaccess.cpp ~ unspec ~ unspec
+ kcontrol/access/kaccess.desktop ~ unspec ~ unspec
+ kcontrol/access/kaccess.h ~ unspec ~ unspec
+ kcontrol/access/kaccess.notifyrc ~ unspec ~ unspec
+ kcontrol/access/kcmaccess.cpp ~ unspec ~  *  Copyright (c) 2000 Matthias H�zer-Klpfel
+ kcontrol/access/kcmaccess.desktop ~ unspec ~ unspec
+ kcontrol/access/kcmaccess.h ~ unspec ~  * Copyright (c) 2000 Matthias H�zer-Klpfel <hoelzer@kde.org>
+ kcontrol/access/main.cpp ~ unspec ~ unspec
+ kcontrol/access/Messages.sh ~ unspec ~ unspec
+ kcontrol/background/background.desktop ~ unspec ~ unspec
+ kcontrol/background/background.knsrc ~ unspec ~ unspec
+ kcontrol/background/bgadvanced.cpp ~ GPLv2 ~ Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+                                              Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+ kcontrol/background/bgadvanced.h ~ GPLv2 ~  Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+                                             Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+ kcontrol/background/bgadvanced_ui.ui ~ unspec ~ unspec
+ kcontrol/background/bgdefaults.h ~ GPLv2 ~ Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+ kcontrol/background/bgdialog.cpp ~ GPLv2 ~ Copyright (c) 2005 David Saxton <david@bluehaze.org>
+                                            Copyright (c) 2003 Waldo Bastian <bastian@kde.org>
+                                            Copyright (c) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+                                            Copyright (c) 1996 Martin R. Jones
+                                            Copyright (c) 1997 Matthias Hoelzer
+                                            Copyright (c) 1997 Mark Donohoe
+                                            Copyright (c) 1998 Stephan Kulow
+                                            Copyright (c) 1998 Matej Koss
+ kcontrol/background/bgdialog.h ~ GPLv2 ~ Copyright (c) 2003 Waldo Bastian <bastian@kde.org>
+ kcontrol/background/bgdialog_ui.ui ~ unspec ~ unspec
+ kcontrol/background/bgmonitor.cpp ~ GPLv2 ~ Copyright (C) 2002 Laurent Montel <montell@club-internet.fr>
+                                             Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+                                             Copyright (C) 2005 David Saxton <david@bluehaze.org>
+ kcontrol/background/bgmonitor.h ~ GPLv2 ~ Copyright (C) 2002 Laurent Montel <montell@club-internet.fr>
+                                            Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+                                            Copyright (C) 2005 David Saxton <david@bluehaze.org>
+ kcontrol/background/bgrender.cpp ~ LGPLv2 ~ Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+ kcontrol/background/bgrender.h ~ LGPLv2 ~  Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+ kcontrol/background/bgsettings.cpp ~ LGPLv2 ~ Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+ kcontrol/background/bgsettings.h ~ LGPLv2 ~ Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+ kcontrol/background/bgwallpaper.cpp ~ GPLv2 ~ Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+                                               Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+ kcontrol/background/bgwallpaper.h ~ GPLv2 ~ Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+                                             Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+ kcontrol/background/bgwallpaper_ui.ui ~ unspec ~ unspec
+ kcontrol/background/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/background/cr128-app-background.png ~ unspec ~ unspec
+ kcontrol/background/cr16-app-background.png ~ unspec ~ unspec
+ kcontrol/background/cr22-app-background.png ~ unspec ~ unspec
+ kcontrol/background/cr32-app-background.png ~ unspec ~ unspec
+ kcontrol/background/cr48-app-background.png ~ unspec ~ unspec
+ kcontrol/background/cr64-app-background.png ~ unspec ~ unspec
+ kcontrol/background/crsc-app-background.svgz ~ unspec ~ unspec
+ kcontrol/background/main.cpp ~ GPLv2 ~ Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+                                        Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+                                        Copyright (c)  Martin R. Jones 1996
+ kcontrol/background/main.h ~ GPLv2 ~ Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+ kcontrol/background/Messages.sh ~ unspec ~ unspec
+ kcontrol/background/pics/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/background/pics/monitor.png ~ unspec ~ unspec
+ kcontrol/bell/bell.cpp ~ GPLv2h ~ Copyright (c) 1997 Christian Czezatke (e9025461@student.tuwien.ac.at)
+                                                 1998 Bernd Wuebben <wuebben@kde.org>
+                                                 2000 Matthias Elter <elter@kde.org>
+                                                 2001 Carsten PFeiffer <pfeiffer@kde.org>
+ kcontrol/bell/bell.desktop ~ unspec ~ unspec
+ kcontrol/bell/bell.h ~ GPLv2h ~ Copyright (c) 1997 Christian Czezatke (e9025461@student.tuwien.ac.at)
+                                               1998 Bernd Wuebben <wuebben@kde.org>
+                                               2000 Matthias Elter <elter@kde.org>
+ kcontrol/bell/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/bell/cr128-app-bell.png ~ unspec ~ unspec
+ kcontrol/bell/cr16-app-bell.png ~ unspec ~ unspec
+ kcontrol/bell/cr22-app-bell.png ~ unspec ~ unspec
+ kcontrol/bell/cr32-app-bell.png ~ unspec ~ unspec
+ kcontrol/bell/cr48-app-bell.png ~ unspec ~ unspec
+ kcontrol/bell/cr64-app-bell.png ~ unspec ~ unspec
+ kcontrol/bell/crsc-app-bell.svgz ~ unspec ~ unspec
+ kcontrol/bell/Messages.sh ~ unspec ~ unspec
+ kcontrol/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/colors/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/colors/colorscm.cpp ~ unspec ~ Copyright (c)  Mark Donohoe 1997
+ kcontrol/colors/colorscm.h ~ unspec ~ Copyright (c)  Mark Donohoe 1997
+ kcontrol/colors/colors.desktop ~ unspec ~ unspec
+ kcontrol/colors/cr128-app-colors.png ~ unspec ~ unspec
+ kcontrol/colors/cr16-app-colors.png ~ unspec ~ unspec
+ kcontrol/colors/cr22-app-colors.png ~ unspec ~ unspec
+ kcontrol/colors/cr32-app-colors.png ~ unspec ~ unspec
+ kcontrol/colors/cr48-app-colors.png ~ unspec ~ unspec
+ kcontrol/colors/cr64-app-colors.png ~ unspec ~ unspec
+ kcontrol/colors/crsc-app-colors.svgz ~ unspec ~ unspec
+ kcontrol/colors/kcolortreewidget.cpp ~ unspec ~ Olivier Goffart
+ kcontrol/colors/kcolortreewidget.h ~ unspec ~ Olivier Goffart
+ kcontrol/colors/Messages.sh ~ unspec ~ unspec
+ kcontrol/colors/stdclient_bitmaps.h ~ unspec ~ unspec
+ kcontrol/colors/widgetcanvas.cpp ~ unspec ~ Copyright (c)  Mark Donohoe 1998
+ kcontrol/colors/widgetcanvas.h ~ unspec ~ Copyright (c)  Mark Donohoe 1998
+
+
+*** not finished ***
 
 Files under kdm/
+
+ kdm/backend/access.c ~ MIT ~ Copyright 1990, 1998  The Open Group
+                              Copyright 2001,2004 Oswald Buddenhagen <ossi@kde.org>
+                              Copyright 2002 Sun Microsystems, Inc.  All rights reserved.
+ kdm/backend/auth.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+ kdm/backend/bootman.c ~ MIT ~ Copyright 2005 Stephan Kulow <coolo@kde.org>
+ kdm/backend/choose.c ~ MIT ~ Copyright 1990, 1998  The Open Group
+                              Copyright 2002-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/client.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                              Copyright 2000-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/CMakeLists.txt ~ unspec ~ unspec
+ kdm/backend/ctrl.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                            Copyright 2001-2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/daemon.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                              Copyright 2000,2001,2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/dm_auth.h ~ MIT ~ Copyright 1998 by Thomas E. Dickey <dickey@clark.net>
+ kdm/backend/dm.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                          Copyright 2000-2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/dm_error.h ~ MIT ~ Copyright 1998 by Thomas E. Dickey <dickey@clark.net>
+ kdm/backend/dm.h ~ MIT ~ Copyright 1988, 1998  The Open Group
+                          Copyright 2000-2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/dm_socket.h ~ MIT ~ Copyright 1998 by Thomas E. Dickey <dickey@clark.net>
+                                 Copyright 2002-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/dpylist.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                               Copyright 2000-2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/error.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                             Copyright 2000-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/genauth.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                               Copyright 2003-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/greet.h ~ MIT ~ Copyright 2001-2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/Imakefile ~ unspec ~ unspec
+ kdm/backend/inifile.c ~ MIT ~ Copyright 2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/krb5auth.c ~ MIT ~ Copyright 1994, 1998  The Open Group
+                                Copyright 2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/mitauth.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                               Copyright 2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/netaddr.c ~ MIT ~ Copyright 1991, 1998  The Open Group
+                               Copyright 2002 Sun Microsystems, Inc.  All rights reserved.
+ kdm/backend/policy.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                              Copyright 2001 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/printf.c ~ MIT ~ Copyright 2001,2002,2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/process.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                               Copyright 2001-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/protodpy.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+ kdm/backend/reset.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+ kdm/backend/resource.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                                Copyright 2000-2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/rpcauth.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+ kdm/backend/server.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                              Copyright 2001,2003,2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/session.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                               Copyright 2000-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/sessreg.c ~ MIT ~ Copyright 1990, 1998  The Open Group
+                               Copyright 2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/socket.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                              Copyright 2002 Sun Microsystems, Inc.  All rights reserved.
+                              Copyright 2002,2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/streams.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                               Copyright 2002,2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/util.c ~ MIT ~ Copyright 1989, 1998  The Open Group
+                            Copyright 2000-2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/xdmauth.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                               Copyright 2001,2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/backend/xdmcp.c ~ MIT ~ Copyright 1988, 1998  The Open Group
+                             Copyright 2002 Sun Microsystems, Inc.  All rights reserved.
+                             Copyright 2001-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/ChangeLog ~ unspec ~ unspec
+ kdm/CMakeLists.txt ~ unspec ~ unspec
+ kdm/config.def ~ MIT ~ Copyright 2004-2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/ConfigureChecks.cmake ~ unspec ~ unspec
+ kdm/confproc.pl ~ MIT ~ Copyright 2004-2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/CMakeLists.txt ~ unspec ~ unspec
+ kdm/kfrontend/genkdmconf.c ~ GPLv2h ~ Copyright (C) 2001-2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kchooser.cpp ~ GPLv2h ~ Copyright (C) 2002-2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kchooser.h ~ GPLv2h ~ Copyright (C) 2002-2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kconsole.cpp ~ GPLv2h ~ Copyright (C) 2002-2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kconsole.h ~ GPLv2h ~ Copyright (C) 2002-2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kdmclock.cpp ~ GPLv2h ~ Copyright (C) 2000 Espen Sand, espen@kde.org
+ kdm/kfrontend/kdmclock.h ~ GPLv2h ~ Copyright (C) 2000 Espen Sand, espen@kde.org
+ kdm/kfrontend/kdm_config.c ~ GPLv2h ~ Copyright (C) 2001-2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kdmconfig.cpp ~ GPLv2h ~ Copyright (C) 1997, 1998 Steffen Hansen <hansen@kde.org>
+                                        Copyright (C) 2000-2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kdmconfig.h ~ GPLv2h ~ Copyright (C) 1997, 1998, 2000 Steffen Hansen <hansen@kde.org>
+                                      Copyright (C) 2000-2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kdmctl.c ~ GPLv2h ~ Copyright (C) 2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kdm_greet.c ~ GPLv2h ~ Copyright (C) 2001-2003 Oswald Buddenhagen <ossi@kde.org>
+                                      Copyright 1988, 1998  Keith Packard, MIT X Consortium/The Open Group
+                                      * XTest part: Copyright (C) 2000-2001 Lubos Lunak <l.lunak@kde.org>
+                                      * XKB part:   Copyright (C) 2001-2002 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kdm_greet.h ~ GPLv2h ~ Copyright (C) 2001-2003 Oswald Buddenhagen <ossi@kde.org>
+                                      Copyright 1988, 1998  Keith Packard, MIT X Consortium/The Open Group
+ kdm/kfrontend/kdmshutdown.cpp ~ GPLv2h ~ Copyright (C) 1997, 1998, 2000 Steffen Hansen <hansen@kde.org>
+                                          Copyright (C) 2000-2003,2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kdmshutdown.h ~ GPLv2h ~ Copyright (C) 1997, 1998 Steffen Hansen <hansen@kde.org>
+                                        Copyright (C) 2000-2003,2005 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kfdialog.cpp ~ GPLv2h ~ Copyright (C) 1997, 1998 Steffen Hansen <hansen@kde.org>
+                                       Copyright (C) 2000-2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kfdialog.h ~ GPLv2h ~ Copyright (C) 1997, 1998 Steffen Hansen <hansen@kde.org>
+                                     Copyright (C) 2000-2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kgapp.cpp ~ GPLv2h ~ Copyright (C) 1997, 1998 Steffen Hansen <hansen@kde.org>
+                                    Copyright (C) 2000-2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kgapp.h ~ GPLv2h ~ Copyright (C) 1997, 1998 Steffen Hansen <hansen@kde.org>
+                                  Copyright (C) 2000-2003 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kgdialog.cpp ~ GPLv2h ~ Copyright (C) 1997, 1998 Steffen Hansen <hansen@kde.org>
+                                       Copyright (C) 2000-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kgdialog.h ~ GPLv2h ~ Copyright (C) 1997, 1998 Steffen Hansen <hansen@kde.org>
+                                     Copyright (C) 2000-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kgreeter.cpp ~ GPLv2h ~ Copyright (C) 1997, 1998, 2000 Steffen Hansen <hansen@kde.org>
+                                       Copyright (C) 2000-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kgreeter.h ~ GPLv2h ~ Copyright (C) 1997, 1998 Steffen Hansen <hansen@kde.org>
+                                     Copyright (C) 2000-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kgverify.cpp ~ GPLv2h ~ Copyright (C) 1997, 1998, 2000 Steffen Hansen <hansen@kde.org>
+                                       Copyright (C) 2000-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/kgverify.h ~ GPLv2h ~ Copyright (C) 1997, 1998 Steffen Hansen <hansen@kde.org>
+                                     Copyright (C) 2000-2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/krootimage.cpp ~ GPLv2h ~ Copyright (C) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+                                         Copyright (C) 2002,2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/krootimage.h ~ GPLv2h ~ Copyright (C) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+                                       Copyright (C) 2002,2004 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/Messages.sh ~ unspec ~ unspec
+ kdm/kfrontend/pics/* ~ unspec ~ unspec
+ kdm/kfrontend/sessions/* ~ unspec ~ unspec
+ kdm/kfrontend/themer/kdmitem.cpp ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                             Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                             Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                             Copyright (C) 2004 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmitem.h ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                           Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                           Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                           Copyright (C) 2004 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmlabel.cpp ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                              Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                              Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                              Copyright (C) 2004 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmlabel.h ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                            Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                            Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                            Copyright (C) 2004 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmlayout.cpp ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                               Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                               Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                               Copyright (C) 2004 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmlayout.h ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                             Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                             Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                             Copyright (C) 2004 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmlist.cpp ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                             Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                             Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                             Copyright (C) 2004,2006 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmlist.h ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                           Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                           Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                           Copyright (C) 2004,2006 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmpixmap.cpp ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                               Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                               Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                               Copyright (C) 2004 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmpixmap.h ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                             Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                             Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                             Copyright (C) 2004 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmrect.cpp ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                             Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                             Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                             Copyright (C) 2004 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmrect.h ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                           Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                           Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                           Copyright (C) 2004 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmthemer.cpp ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                               Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                               Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                               Copyright (C) 2004 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/kdmthemer.h ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                             Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                             Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                             Copyright (C) 2004 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/parse.cpp ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                           Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                           Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                           Copyright (C) 2004,2006 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themer/parse.h ~ GPLv2h ~ Copyright (C) 2003 by Unai Garro <ugarro@users.sourceforge.net>
+                                         Copyright (C) 2004 by Enrico Ros <rosenric@dei.unipd.it>
+                                         Copyright (C) 2004 by Stephan Kulow <coolo@kde.org>
+                                         Copyright (C) 2004,2006 by Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/themes/* ~ unspec ~ unspec
+ kdm/kfrontend/utils.cpp ~ GPLv2h ~ Copyright (C) 2005-2006 Oswald Buddenhagen <ossi@kde.org>
+ kdm/kfrontend/utils.h ~ GPLv2h ~ Copyright (C) 2005-2006 Oswald Buddenhagen <ossi@kde.org>
+ kdm/README ~ ~ unspec ~ unspec
+ kdm/TODO ~ unspec ~ unspec
+
+
 Files under khotkeys/
 Files under kicker/
 Files under klipper/
