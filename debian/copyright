@@ -1082,6 +1082,140 @@ Files under kdm/
 
 
 Files under khotkeys/
+
+ khotkeys/app/app.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/app/app.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/app/CMakeLists.txt ~ unspec ~ unspec
+ khotkeys/app/kded.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/app/kded.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/app/khotkeys.desktop ~ unspec ~ unspec
+ khotkeys/arts/soundrecorder_arts.cpp ~ GPLv2h ~  *   Copyright (C) 2005 by Olivier Goffart   *
+ khotkeys/arts/soundrecorder_arts.h ~ GPLv2h ~  *   Copyright (C) 2005 by Olivier Goffart   *
+ khotkeys/arts/voicerecorder_arts.cpp ~ GPLv2 ~  Copyright (C) 2005 Olivier Goffgart <ogoffart @ kde.org>
+ khotkeys/AUTHORS ~ unspec ~ unspec
+ khotkeys/CMakeLists.txt ~ unspec ~ unspec
+ khotkeys/config-khotkeys.h.cmake ~ unspec ~ unspec
+ khotkeys/configure.in.in ~ unspec ~ unspec
+ khotkeys/data/CMakeLists.txt ~ unspec ~ unspec
+ khotkeys/data/kde32b1.khotkeys ~ unspec ~ unspec
+ khotkeys/data/khotkeys_32b1_update.upd ~ unspec ~ unspec
+ khotkeys/data/khotkeys_printscreen.upd ~ unspec ~ unspec
+ khotkeys/data/konqueror_gestures_kde321.khotkeys ~ unspec ~ unspec
+ khotkeys/data/konqueror_gestures_kde321_update.upd ~ unspec ~ unspec
+ khotkeys/data/printscreen.khotkeys ~ unspec ~ unspec
+ khotkeys/kcontrol/action_group_tab.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/action_group_tab.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/action_list_widget.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/action_list_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/actions_listview.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/actions_listview.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/actions_listview_widget.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/actions_listview_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/activate_window_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/CMakeLists.txt ~ unspec ~ unspec
+ khotkeys/kcontrol/command_url_widget.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/command_url_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/condition_list_widget.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/condition_list_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/dcop_widget.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/dcop_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/general_settings_tab.cpp ~ GPLv2 ~  Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/general_settings_tab.h ~ GPLv2 ~  Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/general_tab.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/general_tab.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/gesturedrawer.cpp ~ GPLv2 ~  Copyright (C) 2003 Mike Pilone <mpilone@slac.com>
+                                               Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/gesturedrawer.h ~ GPLv2 ~  Copyright (C) 2003 Mike Pilone <mpilone@slac.com>
+                                             Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/gesturerecorder.cpp ~ GPLv2 ~  Copyright (C) 2003 Mike Pilone <mpilone@slac.com>
+                                                 Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/gesturerecorder.h ~ GPLv2 ~  Copyright (C) 2003 Mike Pilone <mpilone@slac.com>
+                                               Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/gesturerecordpage.cpp ~ GPLv2 ~  Copyright (C) 2003 Mike Pilone <mpilone@slac.com>
+                                                   Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/gesturerecordpage.h ~ GPLv2 ~  Copyright (C) 2003 Mike Pilone <mpilone@slac.com>
+                                                 Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/gestures_settings_tab.cpp ~ GPLv2 ~  Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/gestures_settings_tab.h ~ GPLv2 ~  Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/gesture_triggers_tab.cpp ~ GPLv2 ~  Copyright (C) 1999-2002 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/gesture_triggers_tab.h ~ GPLv2 ~  Copyright (C) 1999-2002 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/hi16-app-khotkeys.png ~ unspec ~ unspec
+ khotkeys/kcontrol/hi32-app-khotkeys.png ~ unspec ~ unspec
+ khotkeys/kcontrol/info_tab.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/info_tab.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/kcmkhotkeys.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/kcmkhotkeys.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/keyboard_input_widget.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/keyboard_input_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/khotkeys.desktop ~ unspec ~ unspec
+ khotkeys/kcontrol/main_buttons_widget.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/main_buttons_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/menuedit.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/menuedit.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/menuentry_widget.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/menuentry_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/tab_widget.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/tab_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/triggers_tab.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/triggers_tab.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/ui/* ~ unspec ~ unspec
+ khotkeys/kcontrol/voicerecorder.cpp ~ GPLv2 ~  Copyright (C) 2005 Olivier Goffgart <ogoffart @ kde.org>
+ khotkeys/kcontrol/voicerecorder.h ~ GPLv2 ~  Copyright (C) 2005 Olivier Goffgart <ogoffart @ kde.org>
+ khotkeys/kcontrol/voicerecordpage.cpp ~ GPLv2 ~  Copyright (C) 2005 Olivier Goffart  < ogoffart @ kde.org >
+ khotkeys/kcontrol/voicerecordpage.h ~ GPLv2 ~  Copyright (C) 2005 Olivier Goffart  < ogoffart @ kde.org >
+ khotkeys/kcontrol/voice_settings_tab.cpp ~ GPLv2 ~  Copyright (C) 2005        Olivier Goffart <ogoffart @ kde.org>
+ khotkeys/kcontrol/voice_settings_tab.h ~ GPLv2 ~  Copyright (C) 2005        Olivier Goffart <ogoffart @ kde.org>
+ khotkeys/kcontrol/windowdef_list_widget.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/windowdef_list_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/windowdef_simple_widget.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/windowdef_simple_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/windowselector.cpp ~ GPLv2 ~  Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/windowselector.h ~ GPLv2 ~  Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/window_trigger_widget.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/kcontrol/window_trigger_widget.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/khotkeys.desktop ~ unspec ~ unspec
+ khotkeys/Messages.sh ~ unspec ~ unspec
+ khotkeys/README ~ unspec ~  KHotKeys Copyright 1999-2002 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/action_data.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/action_data.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/actions.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/actions.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/conditions.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/conditions.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/gestures.cpp ~ GPLv2 ~  Copyright (C) 1999-2002 Lubos Lunak <l.lunak@kde.org>
+                                        Copyright (c) 1996,1997,1998,1999  Mark F. Willey, ETLA Technical
+ khotkeys/shared/gestures.h ~ GPLv2 ~  Copyright (C) 1999-2002 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/input.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/input.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/khlistbox.cpp ~ GPLv2 ~  Copyright (C) 1999-2002 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/khlistbox.h ~ GPLv2 ~  Copyright (C) 1999-2002 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/khlistview.cpp ~ GPLv2 ~  Copyright (C) 1999-2002 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/khlistview.h ~ GPLv2 ~  Copyright (C) 1999-2002 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/khotkeysglobal.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/khotkeysglobal.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/settings.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/settings.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/sound.cpp ~ GPLv2h ~  *   Copyright (C) 2005 by Olivier Goffart   
+ khotkeys/shared/sound.h ~ GPLv2h ~  *   Copyright (C) 2005 by Olivier Goffart   
+ khotkeys/shared/soundrecorder.cpp ~ GPLv2h ~  *   Copyright (C) 2005 by Olivier Goffart  
+ khotkeys/shared/soundrecorder.h ~ GPLv2 ~  *   Copyright (C) 2005 by Olivier Goffart   
+ khotkeys/shared/triggers.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/triggers.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/voices.cpp ~ GPLv2 ~  Copyright (C) 2005 Olivier Goffart  <ogoffart @ kde.org>
+ khotkeys/shared/voices.h ~ GPLv2 ~  Copyright (C) 2005 Olivier Goffart  <ogoffart @ kde.org>
+ khotkeys/shared/voicesignature.cpp ~ GPLv2 ~  *   Copyright (C) 2005 by Olivier Goffart   
+ khotkeys/shared/voicesignature.h ~ GPLv2 ~  *   Copyright (C) 2005 by Olivier Goffart   
+ khotkeys/shared/windows.cpp ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/shared/windows.h ~ GPLv2 ~  Copyright (C) 1999-2001 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/TODO ~ unspec ~ unspec
+ khotkeys/update/CMakeLists.txt ~ unspec ~ unspec
+ khotkeys/update/update.cpp ~ GPLv2 ~  Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/wrk/cpp_template ~ GPLv2 ~  Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/wrk/header_template ~ GPLv2 ~  Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ khotkeys/wrk/new ~ unspec ~ unspec
+
+
+
 Files under kicker/
 Files under klipper/
 Files under kmenuedit/
