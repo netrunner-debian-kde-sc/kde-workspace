@@ -74,10 +74,6 @@ Description: X display manager for KDE
  A collection of icons to associate with individual users is included with KDE,
  but as part of the kdepasswd package.
  .
- The menu package will help to provide KDM with a list of window managers that
- can be launched, if the window manager does not register with KDM already.
- Most users won't need this.
- .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
 
@@ -180,7 +176,7 @@ Description: KDE System Settings Center
  KDE System Settings Center is the replacement for kcontrol. It is an improved
  user interface hosting various modules for configuring the desktop and other
  aspects of the system.
-  .
+ .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
 
