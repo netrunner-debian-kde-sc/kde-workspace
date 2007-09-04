@@ -38,7 +38,7 @@ the GNU General Public License:
 
 
 
-The documentation docbook files in this package, placed under docs/, are under 
+The documentation docbook files in this package, placed under doc/, are under 
 the GNU Free Documentation License:
 
     | Permission is granted to copy, distribute and/or modify this
@@ -52,6 +52,98 @@ the GNU Free Documentation License:
 
 As well, all the Manpages.dox included are under this license, unless specified 
 otherwise below.
+
+
+kdebase-workspace copyright situation is a bit complex. The following table tries 
+to detail the copyright/license information of the files that are not under the 
+directories detailed above.
+
+ file ~	license	~ copyright holder
+------~---------~------------------
+
+Files
+
+ CMakeLists.txt ~ unspec ~ unspec
+ config-unix.h.cmake ~ unspec ~ unspec
+ ConfigureChecks.cmake ~ unspec ~ unspec
+ config-workspace.h.cmake ~ unspec ~ unspec
+ config-X11.h.cmake ~ unspec ~ unspec
+ COPYING ~ unspec ~ unspec
+ COPYING-DOCS ~ unspec ~ unspec
+ COPYING.LIB ~ unspec ~ unspec
+ kde.pamd ~ unspec ~ unspec
+ kscreensaver.pamd ~ unspec ~ unspec
+ Mainpage.dox ~ unspec ~ unspec
+ mkpamserv ~ unspec ~ unspec
+ README ~ unspec ~ unspec
+ README.pam ~ unspec ~ unspec
+ startkde.cmake ~ unspec ~ unspec
+
+
+Files under cmake/
+
+ cmake/CMakeLists.txt ~ unspec ~ unspec
+ cmake/modules/CMakeLists.txt ~ unspec ~ unspec
+ cmake/modules/FindLibXKlavier.cmake ~ unspec ~ unspec
+ cmake/modules/FindPAM.cmake ~ unspec ~ unspec
+ cmake/modules/FindRAW1394.cmake ~ unspec ~ unspec
+ cmake/modules/FindSensors.cmake ~ unspec ~ unspec
+ cmake/modules/UnixAuth.cmake ~ unspec ~ unspec
+
+
+Files under kcheckpass/
+
+ kcheckpass/checkpass_aix.c ~ LGPLv2h ~ Copyright (c) 2001 Reza Arbab <arbab@austin.ibm.com>
+                                        Copyright (c) 2003 Oswald Buddenhagen <ossi@kde.org>
+ kcheckpass/checkpass_etcpasswd.c ~ LGPLv2h ~ Copyright (c) 1998 Christian Esken <esken@kde.org> 
+                                              Copyright (c) 2003 Oswald Buddenhagen <ossi@kde.org>
+ kcheckpass/checkpass_osfc2passwd.c ~ LGPLv2h ~ Copyright (C) 1999 Mark Davies <mark@MCS.VUW.AC.NZ>
+                                                Copyright (C) 2003 Oswald Buddenhagen <ossi@kde.org>
+                                                Copyright (c) 1995 Christophe Wolfhugel
+ kcheckpass/checkpass_pam.c ~ LGPLv2h ~ Copyright (C) 1998 Caldera, Inc.
+                                        Copyright (C) 2003 Oswald Buddenhagen <ossi@kde.org>
+ kcheckpass/checkpass_shadow.c ~ LGPLv2h ~ Copyright (C) 1998 Christian Esken <esken@kde.org>
+                                           Copyright (C) 2003 Oswald Buddenhagen <ossi@kde.org>
+ kcheckpass/CMakeLists.txt ~ unspec ~ unspec 
+ kcheckpass/config-kcheckpass.h.cmake ~ unspec ~ unspec
+ kcheckpass/kcheckpass.c ~ LGPLv2h ~ Copyright (C) 1998, Caldera, Inc.
+ kcheckpass/kcheckpass-enums.h ~ LGPLv2h ~ Copyright (C) 1998, Caldera, Inc.
+ kcheckpass/kcheckpass.h ~ LGPLv2 ~  *	Copyright (C) 1998, Caldera, Inc.
+ kcheckpass/README ~ ~ unspec ~ unspec
+
+
+Files under kcminit/
+
+ kcminit/CMakeLists.txt ~ unspec ~ unspec
+ kcminit/main.cpp ~ LGPLv2h ~   Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ kcminit/main.h ~ LGPLv2h ~   Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ kcminit/Messages.sh ~ unspec ~ unspec
+
+
+Files under kcontrol/
+
+
+Files under kdm/
+Files under khotkeys/
+Files under kicker/
+Files under klipper/
+Files under kmenuedit/
+Files under kpager/
+Files under krunner/
+Files under kscreensaver/
+Files under ksmserver/
+Files under ksplash/
+Files under kstartupconfig/
+Files under ksysguard/
+Files under ksystraycmd/
+Files under ktip/
+Files under kwin/
+Files under libs/
+Files under menu/
+Files under plasma/
+Files under solid/
+Files under systemsettings/
+Files under wallpapers/
 
 
 
