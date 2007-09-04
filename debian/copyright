@@ -231,9 +231,661 @@ Files under kcontrol/
  kcontrol/colors/stdclient_bitmaps.h ~ unspec ~ unspec
  kcontrol/colors/widgetcanvas.cpp ~ unspec ~ Copyright (c)  Mark Donohoe 1998
  kcontrol/colors/widgetcanvas.h ~ unspec ~ Copyright (c)  Mark Donohoe 1998
+ kcontrol/dateandtime/clock.desktop ~ unspec ~ unspec
+ kcontrol/dateandtime/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/dateandtime/cr128-app-clock.png ~ unspec ~ unspec
+ kcontrol/dateandtime/cr128-app-date.png ~ unspec ~ unspec
+ kcontrol/dateandtime/cr16-app-clock.png ~ unspec ~ unspec
+ kcontrol/dateandtime/cr16-app-date.png ~ unspec ~ unspec
+ kcontrol/dateandtime/cr22-app-date.png ~ unspec ~ unspec
+ kcontrol/dateandtime/cr32-app-clock.png ~ unspec ~ unspec
+ kcontrol/dateandtime/cr32-app-date.png ~ unspec ~ unspec
+ kcontrol/dateandtime/cr48-app-clock.png ~ unspec ~ unspec
+ kcontrol/dateandtime/cr48-app-date.png ~ unspec ~ unspec
+ kcontrol/dateandtime/cr64-app-clock.png ~ unspec ~ unspec
+ kcontrol/dateandtime/cr64-app-date.png ~ unspec ~ unspec
+ kcontrol/dateandtime/crsc-app-date.svgz ~ unspec ~ unspec
+ kcontrol/dateandtime/dtime.cpp ~ GPLv2h ~  *  Copyright (C) 1998 Luca Montecchiani <m.luca@usa.net>
+ kcontrol/dateandtime/dtime.h ~ GPLv2h ~  *  Copyright (C) 1998 Luca Montecchiani <m.luca@usa.net>
+ kcontrol/dateandtime/main.cpp ~ GPLv2h ~  *  Copyright (C) 1998 Luca Montecchiani <m.luca@usa.net>
+ kcontrol/dateandtime/main.h ~ GPLv2h ~  *  Copyright (C) 1998 Luca Montecchiani <m.luca@usa.net>
+ kcontrol/dateandtime/Messages.sh ~ unspec ~ unspec
+ kcontrol/dateandtime/tzone.cpp ~ GPLv2h ~  *  Copyright (C) 1998 Luca Montecchiani <m.luca@usa.net>
+ kcontrol/dateandtime/tzone.h ~ GPLv2h ~  *  Copyright (C) 1998 Luca Montecchiani <m.luca@usa.net>
+ kcontrol/dateandtime/xpm/world.xpm ~ unspec ~ unspec
+ kcontrol/energy/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/energy/cr128-app-energy_star.png ~ unspec ~ unspec
+ kcontrol/energy/cr16-app-energy_star.png ~ unspec ~ unspec
+ kcontrol/energy/cr32-app-energy_star.png ~ unspec ~ unspec
+ kcontrol/energy/cr48-app-energy_star.png ~ unspec ~ unspec
+ kcontrol/energy/cr64-app-energy_star.png ~ unspec ~ unspec
+ kcontrol/energy/energy.cpp ~ GPLv2 ~  * Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+ kcontrol/energy/energy.desktop ~ unspec ~ unspec
+ kcontrol/energy/energy.h ~ GPLv2 ~  * Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+ kcontrol/energy/Messages.sh ~ unspec ~ unspec
+ kcontrol/energy/pics/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/energy/pics/energybig.png ~ unspec ~ unspec
+ kcontrol/energy/pics/lo-energy.png ~ unspec ~ unspec
+ kcontrol/fonts/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/fonts/cr128-app-fonts.png ~ unspec ~ unspec
+ kcontrol/fonts/cr16-app-fonts.png ~ unspec ~ unspec
+ kcontrol/fonts/cr22-app-fonts.png ~ unspec ~ unspec
+ kcontrol/fonts/cr32-app-fonts.png ~ unspec ~ unspec
+ kcontrol/fonts/cr48-app-fonts.png ~ unspec ~ unspec
+ kcontrol/fonts/cr64-app-fonts.png ~ unspec ~ unspec
+ kcontrol/fonts/crsc-app-fonts.svgz ~ unspec ~ unspec
+ kcontrol/fonts/fonts.cpp ~ unspec ~ Copyright (c)  Mark Donohoe 1997,  lars Knoll 1999, Rik Hemsley 2000
+ kcontrol/fonts/fonts.desktop ~ unspec ~ unspec
+ kcontrol/fonts/fonts.h ~ unspec ~ Copyright (c)  Mark Donohoe 1997, Lars Knoll 1999
+ kcontrol/fonts/kxftconfig.cpp ~ LGPLv2h ~    Copyright (c) 2002 Craig Drummond <craig@kde.org>
+ kcontrol/fonts/kxftconfig.h ~ LGPLv2h ~    Copyright (c) 2002 Craig Drummond <craig@kde.org>
+ kcontrol/fonts/Messages.sh ~ unspec ~ unspec
+ kcontrol/hardware/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/hardware/display/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/hardware/display/display.cpp ~ GPLv2h ~    Copyright (C) 2003-2004 Nadeem Hasan <nhasan@kde.org>
+ kcontrol/hardware/display/display.desktop ~ unspec ~ unspec
+ kcontrol/hardware/display/display.h ~ GPLv2h ~    Copyright (C) 2003 Nadeem Hasan <nhasan@kde.org>
+ kcontrol/hardware/display/Messages.sh ~ unspec ~ unspec
+ kcontrol/hardware/joystick/caldialog.cpp ~ LGPLv2 ~ Copyright (C) 2003 by Martin Koller                                 
+ kcontrol/hardware/joystick/caldialog.h ~ LGPLv2 ~  Copyright (C) 2003 by Martin Koller                                   
+ kcontrol/hardware/joystick/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/hardware/joystick/joydevice.cpp ~ LGPLv2 ~ Copyright (C) 2003 by Martin Koller                                  
+ kcontrol/hardware/joystick/joydevice.h ~ LGPLv2 ~ Copyright (C) 2003 by Martin Koller                                   
+ kcontrol/hardware/joystick/joystick.cpp ~ LGPLv2 ~ Copyright (C) 2003 by Martin Koller                                   
+ kcontrol/hardware/joystick/joystick.desktop ~ unspec ~ unspec
+ kcontrol/hardware/joystick/joystick.h ~ LGPLv2 ~ Copyright (C) 2003 by Martin Koller                                  
+ kcontrol/hardware/joystick/joywidget.cpp ~ LGPLv2 ~ Copyright (C) 2003,2005,2006 by Martin Koller                        
+ kcontrol/hardware/joystick/joywidget.h ~ LGPLv2 ~ Copyright (C) 2003,2005,2006 by Martin Koller                         
+ kcontrol/hardware/joystick/Messages.sh ~ unspec ~ unspec
+ kcontrol/hardware/joystick/poswidget.cpp ~ LGPLv2 ~ Copyright (C) 2003,2005,2006 by Martin Koller                        
+ kcontrol/hardware/joystick/poswidget.h ~ LGPLv2 ~ Copyright (C) 2003,2005,2006 by Martin Koller                        
+ kcontrol/infocenter/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/infocenter/info/AUTHORS ~ unspec ~ unspec
+ kcontrol/infocenter/info/ChangeLog ~ unspec ~ unspec
+ kcontrol/infocenter/info/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/infocenter/info/config-infocenter.h.cmake ~ unspec ~ unspec
+ kcontrol/infocenter/info/configure.in.in ~ unspec ~ unspec
+ kcontrol/infocenter/info/devices.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/info/dma.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/info/info_aix.cpp ~ unspec ~ Reza Arbab <arbab@austin.ibm.com>
+ kcontrol/infocenter/info/info.cpp ~ unspec ~ (C) 1998-2003 by Helge Deller <deller@kde.org>
+ kcontrol/infocenter/info/info_fbsd.cpp ~ unspec ~ unspec
+ kcontrol/infocenter/info/info_generic.cpp ~ GPL ~ 1998 by Helge Deller 
+ kcontrol/infocenter/info/info.h ~ unspec ~ unspec
+ kcontrol/infocenter/info/info_hpux.cpp ~ unspec ~ 1998-1999 by Helge Deller (deller@gmx.de)
+ kcontrol/infocenter/info/info_linux.cpp ~ unspec ~ (C) Copyright 1998-2001 by Helge Deller <deller@gmx.de>
+ kcontrol/infocenter/info/info_netbsd.cpp ~ PD ~ unspec
+ kcontrol/infocenter/info/info_openbsd.cpp ~ PD ~ unspec
+ kcontrol/infocenter/info/info_osx.cpp ~ LGPLv2h ~  *  Copyright (c) 2003 Benjamin Reed <ranger@befunk.com>
+ kcontrol/infocenter/info/info_sgi.cpp ~ unspec ~ unspec
+ kcontrol/infocenter/info/info_solaris.cpp ~ unspec ~ Torsten Kasch <tk@Genetik.Uni-Bielefeld.DE>
+ kcontrol/infocenter/info/info_svr4.cpp ~ unspec ~ Written 20-Feb-99 by Ronald Joe Record (rr@sco.com)
+ kcontrol/infocenter/info/interrupts.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/info/ioports.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/info/main.cpp ~ GPLv2h ~ Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ kcontrol/infocenter/info/memory.cpp ~ GPLv2h ~ Copyright (c) 1999-2002 Helge Deller <deller@gmx.de>
+ kcontrol/infocenter/info/memory.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/info/memory_fbsd.cpp ~ unspec ~ unspec
+ kcontrol/infocenter/info/memory.h ~ unspec ~ unspec
+ kcontrol/infocenter/info/memory_hpux.cpp ~ unspec ~ Implemented on 24.04.1999 by Helge Deller (deller@gmx.de)
+ kcontrol/infocenter/info/memory_linux.cpp ~ unspec ~ unspec
+ kcontrol/infocenter/info/memory_netbsd.cpp ~ unspec ~ unspec
+ kcontrol/infocenter/info/memory_osx.cpp ~ GPLv2h ~  *  Copyright (c) 2003 Benjamin Reed <ranger@befunk.com>
+ kcontrol/infocenter/info/memory_sgi.cpp ~ unspec ~ unspec
+ kcontrol/infocenter/info/memory_solaris.cpp ~ unspec ~ Implemented on 24.04.1999 by Helge Deller (deller@gmx.de)
+ kcontrol/infocenter/info/memory_tru64.cpp ~ unspec ~ Implemented by Tom Leitner, Tom@radar.tu-graz.ac.at
+ kcontrol/infocenter/info/Messages.sh ~ unspec ~ unspec
+ kcontrol/infocenter/info/opengl.cpp ~ GPLv2h ~ Copyright (C) 2004 by Ilya Korniyko  <k_ilya@ukr.net>                 
+                                                Copyright (C) 1999-2002  Brian Paul                                   
+ kcontrol/infocenter/info/opengl.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/info/partitions.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/info/pci.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/info/processor.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/info/scsi.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/info/sound.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/info/xserver.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/nics/AUTHORS ~ unspec ~ unspec
+ kcontrol/infocenter/nics/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/infocenter/nics/config-nic.h.cmake ~ unspec ~ unspec
+ kcontrol/infocenter/nics/Messages.sh ~ unspec ~ unspec
+ kcontrol/infocenter/nics/nic.cpp ~ GPLv2h ~ Copyright (C) 2001 Alexander Neundorf <neundorf@kde.org>
+ kcontrol/infocenter/nics/nic.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/nics/nic.h ~ GPLv2h ~ Copyright (C) 2001 Alexander Neundorf <neundorf@kde.org>
+ kcontrol/infocenter/pics/* ~ unspec ~ unspec
+ kcontrol/infocenter/usbview/classes.i18n ~ unspec ~ unspec
+ kcontrol/infocenter/usbview/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/infocenter/usbview/kcmusb.cpp ~ GPLv2h ~ Copyright (C) 2001 by Matthias Hoelzer-Kluepfel <mhk@caldera.de>      
+ kcontrol/infocenter/usbview/kcmusb.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/usbview/kcmusb.h ~ GPLv2h ~ Copyright (C) 2001 by Matthias Hoelzer-Kluepfel <mhk@caldera.de>      
+ kcontrol/infocenter/usbview/Messages.sh ~ unspec ~ unspec
+ kcontrol/infocenter/usbview/usbdb.cpp ~ GPLv2h ~ Copyright (C) 2001 by Matthias Hoelzer-Kluepfel <mhk@caldera.de>      
+ kcontrol/infocenter/usbview/usbdb.h ~ GPLv2h ~  Copyright (C) 2001 by Matthias Hoelzer-Kluepfel <mhk@caldera.de>      
+ kcontrol/infocenter/usbview/usbdevices.cpp ~ GPLv2h ~ Copyright (C) 2001 by Matthias Hoelzer-Kluepfel <mhk@caldera.de>   
+ kcontrol/infocenter/usbview/usbdevices.h ~ GPLv2h ~  Copyright (C) 2001 by Matthias Hoelzer-Kluepfel <mhk@caldera.de>      
+ kcontrol/infocenter/usbview/usb.ids ~ unspec ~ unspec
+ kcontrol/infocenter/view1394/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/infocenter/view1394/kcmview1394.desktop ~ unspec ~ unspec
+ kcontrol/infocenter/view1394/Messages.sh ~ unspec ~ unspec
+ kcontrol/infocenter/view1394/oui.db ~ unspec ~ unspec
+ kcontrol/infocenter/view1394/README ~ unspec ~ unspec
+ kcontrol/infocenter/view1394/view1394.cpp ~ GPLv2h ~ Copyright (C) 2003 Alexander Neundorf <neundorf@kde.org>
+ kcontrol/infocenter/view1394/view1394.h ~ GPLv2h ~ Copyright (C) 2003 Alexander Neundorf <neundorf@kde.org>
+ kcontrol/infocenter/view1394/view1394widget.ui ~ unspec ~ unspec
+ kcontrol/input/AUTHORS ~ unspec ~ unspec
+ kcontrol/input/ChangeLog ~ unspec ~ unspec
+ kcontrol/input/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/input/config-kcontrol-input.h.cmake ~ unspec ~ unspec
+ kcontrol/input/consoleUserPerms ~ unspec ~ unspec
+ kcontrol/input/core/bitmaps.h ~ GPLv2 ~ Copyright (C) 2003 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/core/themepage.cpp ~ GPLv2 ~ Copyright (C) 2003 Fredrik Höglund <fredrik@kde.org>
+                                              Copyright (c) 2000 Rik Hemsley <rik@kde.org>
+ kcontrol/input/core/themepage.h ~ GPLv2 ~ Copyright (C) 2003 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/cr16-app-input_devices_settings.png ~ unspec ~ unspec
+ kcontrol/input/cr32-app-input_devices_settings.png ~ unspec ~ unspec
+ kcontrol/input/cr48-app-input_devices_settings.png ~ unspec ~ unspec
+ kcontrol/input/cursor_large.bdf ~ unspec ~ COPYRIGHT "(C) 2000 Rik Hemsley <rik@kde.org>"
+ kcontrol/input/cursor_large_black.pcf.gz ~ unspec ~ unspec
+ kcontrol/input/cursor_large_white.pcf.gz ~ unspec ~ unspec
+ kcontrol/input/cursor_small_white.pcf.gz ~ unspec ~ unspec
+ kcontrol/input/kapplymousetheme.cpp ~ GPLv2h ~ Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+                                                Copyright (c) 2005 Lubos Lunak <l.lunak@kde.org>
+ kcontrol/input/kmousedlg.ui ~ unspec ~ unspec
+ kcontrol/input/logitechmouse_base.ui ~ unspec ~ unspec
+ kcontrol/input/logitechmouse.cpp ~ GPLv2h ~  * Copyright (C) 2004 Brad Hards <bradh@frogmouth.net>
+ kcontrol/input/logitechmouse.h ~ GPLv2h ~  * Copyright (C) 2004 Brad Hards <bradh@frogmouth.net>
+ kcontrol/input/logitechmouse.usermap ~ unspec ~ unspec
+ kcontrol/input/main.cpp ~ GPLv2h ~  * Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ kcontrol/input/Messages.sh ~ unspec ~ unspec
+ kcontrol/input/mouse.cpp ~ GPLv2h ~ Copyright (c) 1997 Patrick Dowler dowler@morgul.fsh.uvic.ca
+                                     Copyright (c) 1999 Dirk A. Mueller <dmuell@gmx.net>
+                                     Copyright (c) 2000 David Faure <faure@kde.org>
+                                     Copyright (c) 2000 Bernd Gehrmann
+                                     Copyright (c) 2000 Rik Hemsley <rik@kde.org>
+                                     Copyright (c) 2000 Brad Hughes <bhughes@trolltech.com>
+                                     Copyright (c) 2001 Ralf Nolden <nolden@kde.org>
+                                     Copyright (C) 2004 Brad Hards <bradh@frogmouth.net>
+ kcontrol/input/mouse_cursor_theme.upd ~ unspec ~ unspec
+ kcontrol/input/mouse.desktop ~ unspec ~ unspec
+ kcontrol/input/mouse.h ~ GPLv2h ~ Copyright (c) 1997 Patrick Dowler dowler@morgul.fsh.uvic.ca
+                                   Copyright (c) 1999 Dirk A. Mueller <dmuell@gmx.net>
+                                   Copyright (c) 2000 David Faure <faure@kde.org>
+ kcontrol/input/pics/* ~ unspec ~ unspec
+ kcontrol/input/xcursor/bitmaps.h ~ GPLv2 ~ Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+                                            QCursor images Copyright © 1992-2006 Trolltech AS.
+                                            KCursor images Copyright © 1998 Kurt Granroth <granroth@kde.org>
+ kcontrol/input/xcursor/cursortheme.cpp ~ GPLv2 ~  * Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/cursortheme.h ~ GPLv2 ~  * Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/itemdelegate.cpp ~ GPLv2 ~  * Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/itemdelegate.h ~ GPLv2 ~  * Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/legacytheme.cpp ~ GPLv2 ~ Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+                                                  Copyright © 1987, 1998 The Open Group
+                                                  Copyright © 1987       Digital Equipment Corporation
+ kcontrol/input/xcursor/legacytheme.h ~ GPLv2 ~  * Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/previewwidget.cpp ~ GPLv2 ~  * Copyright © 2003-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/previewwidget.h ~ GPLv2 ~  * Copyright © 2003-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/sortproxymodel.cpp ~ LPLv2 ~  * Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/sortproxymodel.h ~ GPLv2 ~  * Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/thememodel.cpp ~ GPLv2 ~  * Copyright © 2005-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/thememodel.h ~ GPLv2 ~  * Copyright © 2005-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/themepage.cpp ~ GPLv2 ~  * Copyright © 2003-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/themepage.h ~ GPLv2 ~  * Copyright © 2003-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/themepage.ui ~ unspec ~ unspec
+ kcontrol/input/xcursor/xcursortheme.cpp ~ GPLv2 ~  * Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/input/xcursor/xcursortheme.h ~ GPLv2 ~  * Copyright © 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ kcontrol/kdm/anchor.png ~ unspec ~ unspec
+ kcontrol/kdm/AUTHORS ~ unspec ~ unspec
+ kcontrol/kdm/background.cpp ~ GPL ~ Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+                                     Copyright (c)  Martin R. Jones 1996
+ kcontrol/kdm/background.h ~ GPL ~ Copyright (C) 1999 Geert Jansen <g.t.jansen@stud.tue.nl>
+ kcontrol/kdm/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/kdm/cr128-app-kdmconfig.png ~ unspec ~ unspec
+ kcontrol/kdm/cr16-app-kdmconfig.png ~ unspec ~ unspec
+ kcontrol/kdm/cr22-app-kdmconfig.png ~ unspec ~ unspec
+ kcontrol/kdm/cr32-app-kdmconfig.png ~ unspec ~ unspec
+ kcontrol/kdm/cr48-app-kdmconfig.png ~ unspec ~ unspec
+ kcontrol/kdm/cr64-app-kdmconfig.png ~ unspec ~ unspec
+ kcontrol/kdm/kbackedcombobox.cpp ~ GPLv2h ~     Copyright (C) 2004-2005 Oswald Buddenhagen <ossi@kde.org>
+ kcontrol/kdm/kbackedcombobox.h ~ GPLv2h ~     Copyright (C) 2004-2005 Oswald Buddenhagen <ossi@kde.org>
+ kcontrol/kdm/kdm-conv.cpp ~ GPLv2h ~     Copyright (C) 2000 Oswald Buddenhagen <ossi@kde.org>
+ kcontrol/kdm/kdm-conv.h ~ GPLv2h ~     Copyright (C) 2000 Oswald Buddenhagen <ossi@kde.org>
+ kcontrol/kdm/kdm.desktop ~ unspec ~ unspec
+ kcontrol/kdm/kdm-dlg.cpp ~ GPLv2h ~   Copyright (C) 1997-1998 Thomas Tanghus (tanghus@earthling.net)
+ kcontrol/kdm/kdm-dlg.h ~ GPLv2h ~     Copyright (C) 1997 Thomas Tanghus (tanghus@earthling.net)
+ kcontrol/kdm/kdm-gen.cpp ~ GPLv2h ~     Copyright (C) 1997 Thomas Tanghus (tanghus@earthling.net)
+ kcontrol/kdm/kdm-gen.h ~ GPLv2h ~     Copyright (C) 1997 Thomas Tanghus (tanghus@earthling.net)
+ kcontrol/kdm/kdm.knsrc ~ unspec ~ unspec
+ kcontrol/kdm/kdm-shut.cpp ~ GPLv2h ~     Copyright (C) 1997-1998 Thomas Tanghus (tanghus@earthling.net)
+ kcontrol/kdm/kdm-shut.h ~ GPLv2h ~     Copyright (C) 1997 Thomas Tanghus (tanghus@earthling.net)
+ kcontrol/kdm/kdm-theme.cpp ~ GPLv2h ~ Copyright (C) 2005-2006 by Stephen Leaf <smileaf@smileaf.org>         
+                                       Copyright (C) 2006 by Oswald Buddenhagen <ossi@kde.org>               
+ kcontrol/kdm/kdm-theme.h ~ GPLv2h ~  Copyright (C) 2005-2006 by Stephen Leaf <smileaf@smileaf.org>         
+                                      Copyright (C) 2006 by Oswald Buddenhagen <ossi@kde.org>               
+ kcontrol/kdm/kdm-users.cpp ~ GPLv2h ~     Copyright (C) 1997 Thomas Tanghus (tanghus@earthling.net)
+ kcontrol/kdm/kdm-users.h ~ GPLv2h ~     Copyright (C) 1997 Thomas Tanghus (tanghus@earthling.net)
+ kcontrol/kdm/main.cpp ~ GPLv2h ~  * Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ kcontrol/kdm/main.h ~ GPLv2h ~  * Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ kcontrol/kdm/Messages.sh ~ unspec ~ unspec
+ kcontrol/kdm/positioner.cpp ~ GPLv2h ~     Copyright (C) 2006 Oswald Buddenhagen <ossi@kde.org>
+ kcontrol/kdm/positioner.h ~ GPLv2h ~     Copyright (C) 2006 Oswald Buddenhagen <ossi@kde.org>
+ kcontrol/keys/ChangeLog ~ unspec ~ unspec
+ kcontrol/keys/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/keys/convertShortcuts.pl ~ unspec ~ unspec
+ kcontrol/keys/cr128-app-key_bindings.png ~ unspec ~ unspec
+ kcontrol/keys/cr16-app-key_bindings.png ~ unspec ~ unspec
+ kcontrol/keys/cr22-app-key_bindings.png ~ unspec ~ unspec
+ kcontrol/keys/cr32-app-key_bindings.png ~ unspec ~ unspec
+ kcontrol/keys/cr48-app-key_bindings.png ~ unspec ~ unspec
+ kcontrol/keys/cr64-app-key_bindings.png ~ unspec ~ unspec
+ kcontrol/keys/kaccel.upd ~ unspec ~ unspec
+ kcontrol/keys/kde3.kksrc ~ unspec ~ unspec
+ kcontrol/keys/kde4.kksrc ~ unspec ~ unspec
+ kcontrol/keys/keyconfig.cpp ~ unspec ~ Copyright (c)  Mark Donohoe 1998
+                                        Copyright (c)  Matthias Ettrich 1998
+                                        Layout fixes copyright (c) 2000 Preston Brown <pbrown@kde.org>
+ kcontrol/keys/keyconfig.h ~ unspec ~ Copyright (c)  Mark Donohoe 1998
+                                      Copyright (c)  Matthias Ettrich 1998
+ kcontrol/keys/keys.desktop ~ unspec ~ unspec
+ kcontrol/keys/khotkeys.cpp ~ GPLv2h ~ Copyright (C) 2000 Matthias Elter <elter@kde.org>
+                                                          Lubos Lunak    <l.lunak@email.cz>
+ kcontrol/keys/khotkeys.h ~ GPLv2h ~ Copyright (C) 2000 Matthias Elter <elter@kde.org>
+                                                        Lubos Lunak    <l.lunak@email.cz>
+ kcontrol/keys/mac4.kksrc ~ unspec ~ unspec
+ kcontrol/keys/main.cpp ~ GPLv2h ~  * Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ kcontrol/keys/main.h ~ GPLv2h ~  * Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ kcontrol/keys/Messages.sh ~ unspec ~ unspec
+ kcontrol/keys/README ~ unspec ~ unspec
+ kcontrol/keys/shortcuts.cpp ~ GPLv2h ~ Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+                                        Copyright (c) 2001 Ellis Whitehead <ellis@kde.org>
+ kcontrol/keys/shortcuts.h ~ GPLv2h ~ Copyright (c) 1999 Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+ kcontrol/keys/treeview.cpp ~ GPLv2h ~ Copyright (C) 2000 Matthias Elter <elter@kde.org>
+                                       Copyright (C) 2001-2002 Raffaele Sandrini <sandrini@kde.org)
+ kcontrol/keys/treeview.h ~ GPLv2h ~  Copyright (C) 2000 Matthias Elter <elter@kde.org>
+                                       Copyright (C) 2001-2002 Raffaele Sandrini <sandrini@kde.org)
+ kcontrol/keys/unix3.kksrc ~ unspec ~ unspec
+ kcontrol/keys/win3.kksrc ~ unspec ~ unspec
+ kcontrol/keys/win4.kksrc ~ unspec ~ unspec
+ kcontrol/keys/wm3.kksrc ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/cr16-app-kfontview.png ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/cr22-app-kfontview.png ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/cr32-app-kfontview.png ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/cr48-app-kfontview.png ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/cr64-app-kfontview.png ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/CreateParent.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/apps/crsc-app-kfontview.svgz ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/Installer.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/apps/Installer.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/apps/installfont.desktop ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/kfontview.desktop ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/kfontviewui.rc ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/ox16-app-kfontview.png ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/ox22-app-kfontview.png ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/ox32-app-kfontview.png ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/ox48-app-kfontview.png ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/ox64-app-kfontview.png ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/oxsc-app-kfontview.svgz ~ unspec ~ unspec
+ kcontrol/kfontinst/apps/Printer.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/apps/Viewer.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/apps/Viewer.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/AUTHORS ~ unspec ~ unspec
+ kcontrol/kfontinst/ChangeLog ~ unspec ~ unspec
+ kcontrol/kfontinst/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/ActionDialog.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/ActionDialog.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/cr16-action-disablefont.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/cr16-action-enablefont.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/cr16-action-newfont.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/cr22-action-disablefont.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/cr22-action-enablefont.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/cr22-action-newfont.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/cr32-action-disablefont.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/cr32-action-enablefont.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/cr32-action-newfont.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/DuplicatesDialog.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/DuplicatesDialog.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/FcQuery.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/FcQuery.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/FontFilter.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/FontFilter.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/fontinst.desktop ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/FontList.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/FontLister.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/FontLister.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/FontList.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/GroupList.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/GroupList.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/JobRunner.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/JobRunner.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/KCmFontInst.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/KCmFontInst.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/ox16-action-addfont.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/ox16-action-disablefont.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/ox16-action-enablefont.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/ox16-action-fontstatus.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/oxsc-action-addfont.svgz ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/oxsc-action-disablefont.svgz ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/oxsc-action-enablefont.svgz ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/oxsc-action-fontstatus.svgz ~ unspec ~ unspec
+ kcontrol/kfontinst/kcmfontinst/PrintDialog.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kcmfontinst/PrintDialog.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kio/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/kfontinst/kio/fonts.desktop ~ unspec ~ unspec
+ kcontrol/kfontinst/kio/fonts.protocol ~ unspec ~ unspec
+ kcontrol/kfontinst/kio/Helper.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kio/Helper.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kio/KioFonts.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kio/KioFonts.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kio/ox128-mimetypes-fonts-package.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kio/ox16-mimetypes-fonts-package.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kio/ox22-mimetypes-fonts-package.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kio/ox32-mimetypes-fonts-package.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kio/ox48-mimetypes-fonts-package.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kio/ox64-mimetypes-fonts-package.png ~ unspec ~ unspec
+ kcontrol/kfontinst/kio/oxsc-mimetypes-fonts-package.svgz ~ unspec ~ unspec
+ kcontrol/kfontinst/kio/Server.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kio/Server.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kio/Socket.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kio/Socket.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kio/SuProc.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/kio/SuProc.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/lib/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/kfontinst/lib/DisabledFonts.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/lib/DisabledFonts.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/lib/Fc.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/lib/FcEngine.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/lib/FcEngine.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/lib/Fc.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/lib/KfiConstants.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/lib/kfontinst_export.h ~ GPLv2 ~     Copyright (C) 2006 Matthias Kretz <kretz@kde.org>
+ kcontrol/kfontinst/lib/Misc.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/lib/Misc.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/Messages.sh ~ unspec ~ unspec
+ kcontrol/kfontinst/oxsc-app-preferences-desktop-font-installer.svgz ~ unspec ~ unspec
+ kcontrol/kfontinst/strigi-analyzer/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/kfontinst/strigi-analyzer/FontEngine.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/strigi-analyzer/FontEngine.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/strigi-analyzer/FontThroughAnalyzer.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/strigi-analyzer/FontThroughAnalyzer.h ~ GPLv2 ~  * Copyright 2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/thumbnail/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/kfontinst/thumbnail/FontThumbnail.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/thumbnail/fontthumbnail.desktop ~ unspec ~ unspec
+ kcontrol/kfontinst/thumbnail/FontThumbnail.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/viewpart/CharTip.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+                                                       Copyright (C) 1998, 1999 Torben Weis <weis@kde.org>
+                                                       Copyright (C) 2000, 2001, 2002 David Faure <faure@kde.org>
+                                                       Copyright (C) 2004 Martin Koller <m.koller@surfeu.at>
+ kcontrol/kfontinst/viewpart/CharTip.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/viewpart/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/kfontinst/viewpart/COPYING.UNICODE ~ unspec ~ unspec
+ kcontrol/kfontinst/viewpart/download-unicode-files.sh ~ unspec ~ unspec
+ kcontrol/kfontinst/viewpart/FontPreview.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/viewpart/FontPreview.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/viewpart/FontViewPart.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/viewpart/FontViewPart.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/viewpart/generate-unicode-tables.pl ~ unspec ~ unspec
+ kcontrol/kfontinst/viewpart/kfontviewpart.desktop ~ unspec ~ unspec
+ kcontrol/kfontinst/viewpart/kfontviewpart.rc ~ unspec ~ unspec
+ kcontrol/kfontinst/viewpart/PreviewSelectAction.cpp ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/viewpart/PreviewSelectAction.h ~ GPLv2 ~  * Copyright 2003-2007 Craig Drummond <craig@kde.org>
+ kcontrol/kfontinst/viewpart/UnicodeBlocks.h ~ unspec ~ unspec
+ kcontrol/kfontinst/viewpart/UnicodeCategories.h ~ unspec ~ unspec
+ kcontrol/kfontinst/viewpart/UnicodeScripts.h ~ unspec ~ unspec
+ kcontrol/krdb/ad/* ~ unspec ~ unspec
+ kcontrol/krdb/AUTHORS ~ unspec ~ unspec
+ kcontrol/krdb/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/krdb/kcmdisplayrc.upd ~ unspec ~ unspec
+ kcontrol/krdb/kcs/* ~ unspec ~ unspec
+ kcontrol/krdb/krdb.cpp ~ GPL ~ ** Copyright (C) 1998 by Mark Donohoe
+                                ** Copyright (C) 1999 by Dirk A. Mueller (reworked for KDE 2.0)
+                                ** Copyright (C) 2001 by Matthias Ettrich (add support for GTK applications )
+                                ** Copyright (C) 2001 by Waldo Bastian <bastian@kde.org>
+                                ** Copyright (C) 2002 by Karol Szwed <gallium@kde.org>
+ kcontrol/krdb/krdb.h ~ GPLv2 ~    Copyright (c) 2001 Waldo Bastian <bastian@kde.org>
+ kcontrol/krdb/Messages.sh ~ unspec ~ unspec
+ kcontrol/krdb/pics/* ~ unspec ~ unspec
+ kcontrol/krdb/themes/* ~ unspec ~ unspec
+ kcontrol/kthememanager/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/kthememanager/cr128-app-kthememgr.png ~ unspec ~ unspec
+ kcontrol/kthememanager/cr16-app-kthememgr.png ~ unspec ~ unspec
+ kcontrol/kthememanager/cr22-app-kthememgr.png ~ unspec ~ unspec
+ kcontrol/kthememanager/cr32-app-kthememgr.png ~ unspec ~ unspec
+ kcontrol/kthememanager/cr48-app-kthememgr.png ~ unspec ~ unspec
+ kcontrol/kthememanager/cr64-app-kthememgr.png ~ unspec ~ unspec
+ kcontrol/kthememanager/installktheme.desktop ~ unspec ~ unspec
+ kcontrol/kthememanager/kdeinstallktheme ~ unspec ~ unspec
+ kcontrol/kthememanager/knewthemedlg.cpp ~ GPLv2h ~ Copyright (C) 2003 Lukas Tinkl <lukas@kde.org>
+ kcontrol/kthememanager/knewthemedlg.h ~ GPLv2h ~ Copyright (C) 2003 Lukas Tinkl <lukas@kde.org>
+ kcontrol/kthememanager/ktheme.cpp ~ GPLv2h ~ Copyright (C) 2003 Lukas Tinkl <lukas@kde.org>
+ kcontrol/kthememanager/kthemedlg.ui ~ unspec ~ unspec
+ kcontrol/kthememanager/kthemedlg.ui.h ~ unspec ~ unspec
+ kcontrol/kthememanager/ktheme.h ~ GPLv2h ~ Copyright (C) 2003 Lukas Tinkl <lukas@kde.org>
+ kcontrol/kthememanager/kthememanager.cpp ~ GPLv2h ~ Copyright (C) 2003 Lukas Tinkl <lukas@kde.org>
+ kcontrol/kthememanager/kthememanager.desktop ~ unspec ~ unspec
+ kcontrol/kthememanager/kthememanager.h ~ GPLv2h ~ Copyright (C) 2003 Lukas Tinkl <lukas@kde.org>
+ kcontrol/kthememanager/Messages.sh ~ unspec ~ unspec
+ kcontrol/kthememanager/NEWS ~ unspec ~ unspec
+ kcontrol/kthememanager/newthemewidget.ui ~ unspec ~ unspec
+ kcontrol/kthememanager/README ~ unspec ~ unspec
+ kcontrol/kthememanager/TODO ~ unspec ~ unspec
+ kcontrol/kxkb/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/kxkb/cr16-app-keyboard_layout.png ~ unspec ~ unspec
+ kcontrol/kxkb/cr16-app-keyboard.png ~ unspec ~ unspec
+ kcontrol/kxkb/cr22-app-keyboard.png ~ unspec ~ unspec
+ kcontrol/kxkb/cr32-app-keyboard_layout.png ~ unspec ~ unspec
+ kcontrol/kxkb/cr32-app-keyboard.png ~ unspec ~ unspec
+ kcontrol/kxkb/cr48-app-keyboard_layout.png ~ unspec ~ unspec
+ kcontrol/kxkb/cr48-app-keyboard.png ~ unspec ~ unspec
+ kcontrol/kxkb/extension.cpp ~ unspec ~ unspec
+ kcontrol/kxkb/extension.h ~ unspec ~ unspec
+ kcontrol/kxkb/kcmlayout.cpp ~ unspec ~ unspec
+ kcontrol/kxkb/kcmlayout.h ~ unspec ~ unspec
+ kcontrol/kxkb/kcmlayoutwidget.ui ~ unspec ~ unspec
+ kcontrol/kxkb/kcmmisc.cpp ~ GPLv2h ~  * Copyright (c) 1997 Patrick Dowler dowler@morgul.fsh.uvic.ca
+                                       * Copyright (c) 1999 Dirk A. Mueller <dmuell@gmx.net>
+                                       Copyright (C) 2000-2001 Lubos Lunak        <l.lunak@kde.org>
+                                       Copyright (C) 2001      Oswald Buddenhagen <ossi@kde.org>
 
-
-*** not finished ***
+ kcontrol/kxkb/kcmmisc.h ~ GPLv2h ~  * Copyright (c) 1997 Patrick Dowler dowler@morgul.fsh.uvic.ca
+ kcontrol/kxkb/kcmmiscwidget.ui ~ unspec ~ unspec
+ kcontrol/kxkb/keyboard.desktop ~ unspec ~ unspec
+ kcontrol/kxkb/keyboard_layout.desktop ~ unspec ~ unspec
+ kcontrol/kxkb/kxkb_adaptor.cpp ~ GPLv2h ~    Copyright (C) 2006 David Faure <faure@kde.org>
+ kcontrol/kxkb/kxkb_adaptor.h ~ GPLv2h ~    Copyright (C) 2006 David Faure <faure@kde.org>
+ kcontrol/kxkb/kxkbapp.cpp ~ hGPLv2h ~     Copyright (C) 2001, S.R.Haque <srhaque@iee.org>.
+	                                   Copyright (C) 2006, Andriy Rysin <rysin@kde.org>
+ kcontrol/kxkb/kxkbapp.h ~ GPLvh ~ Copyright (C) 2001, S.R.Haque <srhaque@iee.org>. 
+                          	   Copyright (C) 2006, Andriy Rysin <rysin@kde.org>
+ kcontrol/kxkb/kxkb_applet.cpp ~ unspec ~ unspec
+ kcontrol/kxkb/kxkb_applet.h ~ LGPLv2 ~  *   Copyright (C) 2007 Andriy Rysin                                 *
+ kcontrol/kxkb/kxkbbindings.cpp ~ unspec ~ unspec
+ kcontrol/kxkb/kxkbconfig.cpp ~ unspec ~  Andriy Rysin <rysin@kde.org>, (C) 2006
+ kcontrol/kxkb/kxkbconfig.h ~ unspec ~  Andriy Rysin <rysin@kde.org>, (C) 2006
+ kcontrol/kxkb/kxkbcore.cpp ~ GPLv2h ~  Copyright (C) 2001, S.R.Haque <srhaque@iee.org>.
+	                                Copyright (C) 2006, Andriy Rysin <rysin@kde.org>. 
+ kcontrol/kxkb/kxkbcore.h ~ LGPLv2 ~ Copyright (C) 2001, S.R.Haque <srhaque@iee.org>. 
+	                             Copyright (C) 2006, Andriy Rysin <rysin@kde.org>.
+ kcontrol/kxkb/kxkb.desktop ~ unspec ~ unspec
+ kcontrol/kxkb/kxkb_part.cpp ~ unspec ~ unspec
+ kcontrol/kxkb/kxkb_part.h ~ unspec ~ unspec
+ kcontrol/kxkb/kxkbwidget.cpp ~ unspec ~  Andriy Rysin <rysin@kde.org>, (C) 2006
+ kcontrol/kxkb/kxkbwidget.h ~ unspec ~  Andriy Rysin <rysin@kde.org>, (C) 2006
+ kcontrol/kxkb/layoutmap.cpp ~ unspec ~  Andriy Rysin <rysin@kde.org>, (C) 2006
+ kcontrol/kxkb/layoutmap.h ~ unspec ~  Andriy Rysin <rysin@kde.org>, (C) 2006
+ kcontrol/kxkb/LICENSE ~  unspec ~  unspec
+ kcontrol/kxkb/Messages.sh ~ unspec ~ unspec
+ kcontrol/kxkb/pics/* ~ unspec ~ unspec
+ kcontrol/kxkb/pixmap.cpp ~ unspec ~ unspec
+ kcontrol/kxkb/pixmap.h ~ unspec ~ unspec
+ kcontrol/kxkb/rules.cpp ~ unspec ~ unspec
+ kcontrol/kxkb/rules.h ~ unspec ~ unspec
+ kcontrol/kxkb/tests/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/kxkb/tests/kcm_keyboard_test.cpp ~ unspec ~ unspec
+ kcontrol/kxkb/TODO ~ unspec ~ unspec
+ kcontrol/kxkb/x11helper.cpp ~ unspec ~ unspec
+ kcontrol/kxkb/x11helper.h ~ unspec ~ unspec
+ kcontrol/kxkb/xklavier_adaptor.cpp ~ unspec ~ unspec
+ kcontrol/kxkb/xklavier_adaptor.h ~ unspec ~ unspec
+ kcontrol/launch/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/launch/kcmlaunch.cpp ~ GPLv2h ~ Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kcontrol/launch/kcmlaunch.desktop ~ unspec ~ unspec
+ kcontrol/launch/kcmlaunch.h ~ GPLv2h ~  Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kcontrol/launch/Messages.sh ~ unspec ~ unspec
+ kcontrol/PURPOSE ~ unspec ~ unspec
+ kcontrol/randr/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/randr/collapsiblewidget.cpp ~ GPLv2 ~    Copyright (C) 2005 Daniel Molkentin <molkentin@kde.org>
+ kcontrol/randr/collapsiblewidget.h ~ GPLv2 ~    Copyright (C) 2005 Daniel Molkentin <molkentin@kde.org>
+ kcontrol/randr/cr128-app-randr.png ~ unspec ~ unspec
+ kcontrol/randr/cr16-app-randr.png ~ unspec ~ unspec
+ kcontrol/randr/cr22-app-randr.png ~ unspec ~ unspec
+ kcontrol/randr/cr32-app-randr.png ~ unspec ~ unspec
+ kcontrol/randr/cr48-app-randr.png ~ unspec ~ unspec
+ kcontrol/randr/cr64-app-randr.png ~ unspec ~ unspec
+ kcontrol/randr/krandrapp.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                          * Copyright (c) 2002,2003 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/krandrapp.h ~ GPLv2h ~  * Copyright (c) 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                        * Copyright (c) 2002 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/krandrmodule.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                             * Copyright (c) 2002,2003 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/krandrmodule.h ~ GPLv2h ~  * Copyright (c) 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                           * Copyright (c) 2002 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/krandrpassivepopup.cpp ~ GPLv2h ~  * Copyright (c) 2003 Lubos Lunak <l.lunak@kde.org>
+ kcontrol/randr/krandrpassivepopup.h ~ GPLv2h ~  * Copyright (c) 2003 Lubos Lunak <l.lunak@kde.org>
+ kcontrol/randr/krandrtray.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                           * Copyright (c) 2002,2003 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/krandrtray.desktop ~ unspec ~ unspec
+ kcontrol/randr/krandrtray.h ~ GPLv2h ~  * Copyright (c) 2002 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/ktimerdialog.cpp ~ GPLv2h ~  *  Copyright (C) 2002 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/ktimerdialog.h ~ GPLv2h ~  *  Copyright (C) 2002 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/layoutmanager.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/layoutmanager.h ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/legacyrandrconfigbase.ui ~ unspec ~ unspec
+ kcontrol/randr/legacyrandrconfig.cpp ~ GPLv2h ~  * Copyright (c) 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                                  * Copyright (c) 2002 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/legacyrandrconfig.h ~ GPLv2h ~  * Copyright (c) 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                                * Copyright (c) 2002 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/legacyrandrscreen.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                                  * Copyright (c) 2002,2003 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/legacyrandrscreen.h ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                                * Copyright (c) 2002,2003 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/main.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                     * Copyright (c) 2002,2003 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/Messages.sh ~ unspec ~ unspec
+ kcontrol/randr/outputconfigbase.ui ~ unspec ~ unspec
+ kcontrol/randr/outputconfig.cpp ~ GPLv2h ~  * Copyright (c) 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/outputconfig.h ~ GPLv2h ~  * Copyright (c) 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/outputgraphicsitem.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/outputgraphicsitem.h ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/randrconfigbase.ui ~ unspec ~ unspec
+ kcontrol/randr/randrconfig.cpp ~ GPLv2h ~  * Copyright (c) 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/randrconfig.h ~ GPLv2h ~  * Copyright (c) 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/randr.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                      * Copyright (c) 2002,2003 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/randrcrtc.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/randrcrtc.h ~ GPLv2h ~  * Copyright (c) 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/randr.desktop ~ unspec ~ unspec
+ kcontrol/randr/randrdisplay.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                             * Copyright (c) 2002,2003 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/randrdisplay.h ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                           * Copyright (c) 2002,2003 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/randr.h ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+                                    * Copyright (c) 2002,2003 Hamish Rodda <rodda@kde.org>
+ kcontrol/randr/randrmode.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/randrmode.h ~ GPLv2h ~  * Copyright (c) 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/randroutput.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/randroutput.h ~ GPLv2h ~  * Copyright (c) 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/randrscreen.cpp ~ GPLv2h ~  * Copyright (c) 2007      Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/randrscreen.h ~ GPLv2h ~  * Copyright (c) 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+ kcontrol/randr/TODO ~ unspec ~ unspec
+ kcontrol/screensaver/advanceddialog.cpp ~ unspec ~ unspec
+ kcontrol/screensaver/advanceddialog.h ~ unspec ~ unspec
+ kcontrol/screensaver/advanceddialogimpl.ui ~ unspec ~ unspec
+ kcontrol/screensaver/category_list ~ unspec ~ unspec
+ kcontrol/screensaver/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/screensaver/config-screensaver.h.cmake ~ unspec ~ unspec
+ kcontrol/screensaver/cr128-app-kscreensaver.png ~ unspec ~ unspec
+ kcontrol/screensaver/cr16-app-kscreensaver.png ~ unspec ~ unspec
+ kcontrol/screensaver/cr22-app-kscreensaver.png ~ unspec ~ unspec
+ kcontrol/screensaver/cr32-app-kscreensaver.png ~ unspec ~ unspec
+ kcontrol/screensaver/cr48-app-kscreensaver.png ~ unspec ~ unspec
+ kcontrol/screensaver/cr64-app-kscreensaver.png ~ unspec ~ unspec
+ kcontrol/screensaver/kssmonitor.h ~ unspec ~ unspec
+ kcontrol/screensaver/kswidget.cpp ~ unspec ~ unspec
+ kcontrol/screensaver/kswidget.h ~ unspec ~ unspec
+ kcontrol/screensaver/Messages.sh ~ unspec ~ unspec
+ kcontrol/screensaver/saverconfig.cpp ~ unspec ~ unspec
+ kcontrol/screensaver/saverconfig.h ~ unspec ~ unspec
+ kcontrol/screensaver/saverlist.cpp ~ unspec ~ unspec
+ kcontrol/screensaver/saverlist.h ~ unspec ~ unspec
+ kcontrol/screensaver/screensaver.desktop ~ unspec ~ unspec
+ kcontrol/screensaver/scrnsave.cpp ~ unspec ~ Copyright (c)  Martin R. Jones 1996,1999,2002
+ kcontrol/screensaver/scrnsave.h ~ unspec ~ Copyright (c)  Martin R. Jones 1996
+                                            Copyright (C) Chris Howells 2004
+ kcontrol/screensaver/testwin.cpp ~ unspec ~ unspec
+ kcontrol/screensaver/testwin.h ~ unspec ~ unspec
+ kcontrol/smartcard/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/smartcard/configure.in.in ~ unspec ~ unspec
+ kcontrol/smartcard/Messages.sh ~ unspec ~ unspec
+ kcontrol/smartcard/nosmartcardbase.ui ~ unspec ~ unspec
+ kcontrol/smartcard/smartcardbase.ui ~ unspec ~ unspec
+ kcontrol/smartcard/smartcard.cpp ~ GPLv2h ~ Copyright (c) 2001 George Staikos <staikos@kde.org>
+                                        * Copyright (c) 2001 Fernando Llobregat <fernando.llobregat@free.fr>
+ kcontrol/smartcard/smartcard.desktop ~ unspec ~ unspec
+ kcontrol/smartcard/smartcard.h ~ GPLv2h ~ Copyright (c) 2001 George Staikos <staikos@kde.org>
+ kcontrol/smserver/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/smserver/kcmsmserver.cpp ~ GPLv2h ~ Copyright (c) 2000,2002 Oswald Buddenhagen <ossi@kde.org>
+                                              Copyright (c) 2000 Kurt Granroth <granroth@kde.org>
+ kcontrol/smserver/kcmsmserver.desktop ~ unspec ~ unspec
+ kcontrol/smserver/kcmsmserver.h ~ GPLv2h ~ Copyright (c) 2000 Oswald Buddenhagen <ob6@inf.tu-dresden.de>
+                                            Copyright (c) 2000 Kurt Granroth <granroth@kde.org>
+ kcontrol/smserver/Messages.sh ~ unspec ~ unspec
+ kcontrol/smserver/smserverconfigdlg.ui ~ unspec ~ unspec
+ kcontrol/smserver/smserverconfigimpl.cpp ~ GPLv2h ~     copyright            : (C) 2001 by stulle
+ kcontrol/smserver/smserverconfigimpl.h ~ GPLv2h ~     copyright            : (C) 2001 by stulle
+ kcontrol/style/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/style/cr16-app-style.png ~ unspec ~ unspec
+ kcontrol/style/cr22-app-style.png ~ unspec ~ unspec
+ kcontrol/style/cr32-app-style.png ~ unspec ~ unspec
+ kcontrol/style/cr48-app-style.png ~ unspec ~ unspec
+ kcontrol/style/cr64-app-style.png ~ unspec ~ unspec
+ kcontrol/style/kcmstyle.cpp ~ GPLv2 ~  * Copyright (C) 2002 Karol Szwed <gallium@kde.org>
+                                        * Copyright (C) 2002 Daniel Molkentin <molkentin@kde.org>
+                                        * Copyright (C) 2007 Urs Wolfer <uwolfer @ kde.org>
+                                        * Portions Copyright (C) 2000 TrollTech AS.
+ kcontrol/style/kcmstyle.h ~ GPLv2 ~  * Copyright (C) 2002 Karol Szwed <gallium@kde.org>
+                                        Copyright (C) 2002 Daniel Molkentin <molkentin@kde.org>
+                                        Copyright (C) 2007 Urs Wolfer <uwolfer @ kde.org>
+                                        Portions Copyright (C) TrollTech AS.
+                                        Copyright (C) 1997-2002 kcmdisplay Authors.
+ kcontrol/style/keramik/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/style/keramik/keramikconf.cpp ~ MIT ~ Copyright (c) 2003 Maksim Orlovich <maksim.orlovich@kdemail.net>
+ kcontrol/style/keramik/keramikconf.h ~ MIT ~ Copyright (c) 2003 Maksim Orlovich <maksim.orlovich@kdemail.net>
+ kcontrol/style/keramik/Messages.sh ~ unspec ~ unspec
+ kcontrol/style/menupreview.cpp ~ GPLv2 ~  * Copyright (C) 2002 Karol Szwed <gallium@kde.org>
+ kcontrol/style/menupreview.h ~ GPLv2 ~  * Copyright (C) 2002 Karol Szwed <gallium@kde.org>
+ kcontrol/style/Messages.sh ~ unspec ~ unspec
+ kcontrol/style/styleconfdialog.cpp ~ GPLv2 ~ Copyright (c) 2003 Maksim Orlovich <maksim.orlovich@kdemail.net>
+ kcontrol/style/styleconfdialog.h ~ GPLv2 ~ Copyright (c) 2003 Maksim Orlovich <maksim.orlovich@kdemail.net>
+ kcontrol/style/style.desktop ~ unspec ~ unspec
+ kcontrol/style/stylepreview.ui ~ unspec ~ unspec
+ kcontrol/taskbar/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/taskbar/kcmtaskbar.cpp ~ GPLv2h ~ Copyright (c) 2000 Kurt Granroth <granroth@kde.org>
+                                            Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kcontrol/taskbar/kcmtaskbar.desktop ~ unspec ~ unspec
+ kcontrol/taskbar/kcmtaskbar.h ~ GPLv2h ~ Copyright (c) 2000 Kurt Granroth <granroth@kde.org>
+                                          Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kcontrol/taskbar/kcmtaskbarui.ui ~ unspec ~ unspec
+ kcontrol/taskbar/Messages.sh ~ unspec ~ unspec
+ kcontrol/TODO ~ unspec ~ unspec
+ kcontrol/xinerama/CMakeLists.txt ~ unspec ~ unspec
+ kcontrol/xinerama/kcmxinerama.cpp ~ GPLv2h ~  * Copyright (c) 2002-2004 George Staikos <staikos@kde.org>
+ kcontrol/xinerama/kcmxinerama.h ~ hGPLv2h ~  * Copyright (c) 2002-2004 George Staikos <staikos@kde.org>
+ kcontrol/xinerama/Messages.sh ~ unspec ~ unspec
+ kcontrol/xinerama/test_kcm_xinerama.cpp ~ unspec ~ unspec
+ kcontrol/xinerama/xinerama.desktop ~ unspec ~ unspec
+ kcontrol/xinerama/xineramawidget.cpp ~ GPLv2h ~  * Copyright (c) 2002-2004 George Staikos <staikos@kde.org>
+ kcontrol/xinerama/xineramawidget.h ~ GPLv2h ~  * Copyright (c) 2002-2004 George Staikos <staikos@kde.org>
+ kcontrol/xinerama/xineramawidget.ui ~ unspec ~ unspec
 
 Files under kdm/
 
