@@ -2805,7 +2805,142 @@ Files under kwin/
 
 
 Files under libs/
-TODO
+
+ libs/CMakeLists.txt ~ unspec ~ unspec
+ libs/kdm/CMakeLists.txt ~ unspec ~ unspec
+ libs/kdm/kgreet_classic.cpp ~ GPLv2 ~ Copyright (C) 1997, 1998, 2000 Steffen Hansen <hansen@kde.org>
+                                      Copyright (C) 2000-2003 Oswald Buddenhagen <ossi@kde.org>
+ libs/kdm/kgreet_classic.h ~ GPLv2 ~ Copyright (C) 1997, 1998 Steffen Hansen <hansen@kde.org>
+                                    Copyright (C) 2000-2003 Oswald Buddenhagen <ossi@kde.org>
+ libs/kdm/kgreeterplugin.h ~ LGPLv2 ~ Copyright (C) 2003 Oswald Buddenhagen <ossi@kde.org>
+                                     Copyright (C) 2003 Fabian Kaiser <xfk@softpro.de>
+ libs/kdm/kgreet_winbind.cpp ~ GPLv2 ~ Copyright (C) 1997, 1998, 2000 Steffen Hansen <hansen@kde.org>
+                                      Copyright (C) 2000-2004 Oswald Buddenhagen <ossi@kde.org>
+ libs/kdm/kgreet_winbind.h ~ GPLv2 ~ Copyright (C) 1997, 1998 Steffen Hansen <hansen@kde.org>
+                                    Copyright (C) 2000-2003 Oswald Buddenhagen <ossi@kde.org>
+ libs/kdm/Messages.sh ~ unspec ~ unspec
+ libs/Mainpage.dox ~ unspec ~ unspec
+ libs/plasma/abstractrunner.cpp ~ LGPLv2h ~ Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/abstractrunner.h ~ LGPLv2h ~ Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/animator.cpp ~ LGPLv2 ~  Copyright 2007 Aaron Seigo <aseigo@kde.org>
+                                    2007 Alexis Ménard <darktears31@gmail.com>
+ libs/plasma/animator.h ~ LGPLv2 ~ Copyright 2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/applet.cpp ~ LGPLv2 ~ Copyright 2005 by Aaron Seigo <aseigo@kde.org>
+                                   Copyright 2007 by Riccardo Iaconelli <riccardo@kde.org>
+ libs/plasma/applet.h ~ LGPLv2 ~ Copyright 2006-2007 by Aaron Seigo <aseigo@kde.org>
+                                Copyright 2007 by Riccardo Iaconelli <riccardo@kde.org>
+ libs/plasma/CMakeLists.txt ~ unspec ~ unspec
+ libs/plasma/configxml.cpp ~ LGPLv2 ~Copyright 2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/configxml.h ~ LGPLv2 ~  Copyright 2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/corona.cpp ~ LGPLv2 ~ Copyright 2007 Matt Broadstone <mbroadst@gmail.com>
+                                  Copyright 2007 Aaron Seigo <aseigo@kde.org>
+                                  Copyright 2007 Riccardo Iaconelli <riccardo@kde.org>
+ libs/plasma/corona.h ~ LGPLv2 ~    Copyright 2007 Matt Broadstone <mbroadst@gmail.com>
+ libs/plasma/datacontainer.cpp ~ LGPLv2 ~ Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/datacontainer.h ~ LGPLv2 ~    Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/dataengine.cpp ~ LGPLv2h ~    Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/dataengine.h ~ LGPLv2h ~    Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/dataenginemanager.cpp ~ LGPLv2h ~    Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/dataenginemanager.h ~ LGPLv2h ~    Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/effects/blur.cpp ~ LGPLv2 ~    Copyright 2007 Jani Huhtanen <jani.huhtanen@tut.fi>
+ libs/plasma/glapplet.cpp ~ LGPLv2 ~    Copyright 2007 Zack Rusin <zack@kde.org>
+ libs/plasma/glapplet.h ~ LGPLv2 ~    Copyright 2007 Zack Rusin <zack@kde.org>
+ libs/plasma/includes/* ~ unspec ~ unspec
+ libs/plasma/karambamanager.cpp ~ LGPLv2 ~    Copyright 2007 Alexander Wiedenbruch <wirr01@gmail.com>
+ libs/plasma/karambamanager.h ~ LGPLv2 ~    Copyright 2007 Alexander Wiedenbruch <wirr01@gmail.com>
+ libs/plasma/Mainpage.dox ~ unspec ~ unspec
+ libs/plasma/Messages.sh ~ unspec ~ unspec
+ libs/plasma/package.cpp ~ LGPLv2h ~   Copyright 2007 by Aaron Seigo <aseigo@kde.org>                        
+                                      Copyright 2007 by Riccardo Iaconelli <riccardo@kde.org>              
+ libs/plasma/package.h ~ LGPLv2h ~   Copyright 2007 by Aaron Seigo <aseigo@kde.org>                        
+                                    Copyright 2007 by Riccardo Iaconelli <riccardo@kde.org>
+ libs/plasma/packagemetadata.cpp ~ LGPLv2h ~   Copyright 2007 by Riccardo Iaconelli  <ruphy@fsfe.org>                
+ libs/plasma/packagemetadata.h ~ LGPLv2h ~   Copyright 2007 by Riccardo Iaconelli  <ruphy@fsfe.org>                
+ libs/plasma/packages.cpp ~ LGPLv2h ~   Copyright 2007 by Aaron Seigo <aseigo@kde.org>                        
+ libs/plasma/packages_p.h ~ LGPLv2h ~   Copyright 2007 by Aaron Seigo <aseigo@kde.org>                        
+ libs/plasma/packagestructure.cpp ~ LGPLv2h ~   Copyright 2007 by Aaron Seigo <aseigo@kde.org>                        
+ libs/plasma/packagestructure.h ~ LGPLv2h ~   Copyright 2007 by Aaron Seigo <aseigo@kde.org>   
+ libs/plasma/phase.cpp ~ LGPLv2 ~    Copyright 2007 Aaron Seigo <aseigo@kde.org>
+                                  2007 Alexis Ménard <darktears31@gmail.com>
+ libs/plasma/phase.h ~ LGPLv2 ~    Copyright 2007 Aaron Seigo <aseigo@kde.org>
+                                  2007 Alexis Ménard <darktears31@gmail.com>
+ libs/plasma/plasma.cpp ~ LGPLv2 ~    Copyright 2005 by Aaron Seigo <aseigo@kde.org>
+ libs/plasma/plasma_export.h ~ LGPLv2h ~     Copyright 2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/plasma.h ~ LGPLv2 ~    Copyright 2005 by Aaron Seigo <aseigo@kde.org>
+ libs/plasma/README ~ unspec ~ unspec
+ libs/plasma/scriptengine.cpp ~ LGPLv2h ~    Copyright 2007 by Aaron Seigo <aseigo@kde.org>
+ libs/plasma/scriptengine.h ~ LGPLv2h ~    Copyright 2007 by Aaron Seigo <aseigo@kde.org>
+ libs/plasma/servicetypes/plasma-animator.desktop ~ unspec ~ unspec
+ libs/plasma/servicetypes/plasma-applet.desktop ~ unspec ~ unspec
+ libs/plasma/servicetypes/plasma-dataengine.desktop ~ unspec ~ unspec
+ libs/plasma/servicetypes/plasma-scriptengine.desktop ~ unspec ~ unspec
+ libs/plasma/shadowitem.cpp ~ LGPLv2 ~    Copyright 2007 by Zack Rusin <zack@kde.org>
+ libs/plasma/shadowitem_p.h ~ LGPLv2 ~    Copyright 2007 by Zack Rusin <zack@kde.org>
+ libs/plasma/svg.cpp ~ LGPLv2h ~    Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/svg.h ~ LGPLv2h ~    Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/theme.cpp ~ LGPLv2 ~    Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/theme.h ~ LGPLv2 ~    Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ libs/plasma/widgets/boxlayout.cpp ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/boxlayout.h ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/checkbox.cpp ~ LGPLv2 ~    Copyright 2007 by Siraj Razick <siraj@kde.org>
+ libs/plasma/widgets/checkbox.h ~ LGPLv2 ~    Copyright 2007 by Siraj Razick <siraj@kde.org>
+                                             Copyright 2007 by Matt Broadstone <mbroadst@gmail.com>
+ libs/plasma/widgets/CMakeLists.txt ~ unspec ~ unspec
+ libs/plasma/widgets/flash.cpp ~ LGPLv2 ~    Copyright 2007 by André Duffeck <andre@duffeck.de>
+ libs/plasma/widgets/flash.h ~ LGPLv2 ~    Copyright 2007 by André Duffeck <andre@duffeck.de>
+ libs/plasma/widgets/hboxlayout.cpp ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/hboxlayout.h ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/icon.cpp ~ LGPLv2 ~    Copyright 2007 by Aaron Seigo <aseigo@kde.org>
+                                           Copyright 2007 by Riccardo Iaconelli <riccardo@kde.org>
+                                           Copyright 2007 by Matt Broadstone <mbroadst@gmail.com>
+                                           Copyright 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ libs/plasma/widgets/icon.h ~ LGPLv2 ~   Copyright (C) 2007 by Siraj Razick <siraj@kde.org>
+                                        Copyright (C) 2007 by Riccardo Iaconelli <riccardo@kde.org>
+                                        Copyright (C) 2007 by Matt Broadstone <mbroadst@gmail.com>
+ libs/plasma/widgets/icon_p.h ~ LGPLv2 ~ Copyright (C) 2007 by Aaron Seigo <aseigo@kde.org>
+                                        Copyright (C) 2007 by Matt Broadstone <mbroadst@gmail.com>
+                                        Copyright (C) 2006-2007 Fredrik Höglund <fredrik@kde.org>
+ libs/plasma/widgets/label.cpp ~ unspec ~ unspec
+ libs/plasma/widgets/label.h ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/layoutanimator.cpp ~ LGPLv2h ~     Copyright 2007 by Robert Knight <robertknight@gmail.com>
+ libs/plasma/widgets/layoutanimator.h ~ LGPLv2h ~     Copyright 2007 by Robert Knight <robertknight@gmail.com>
+ libs/plasma/widgets/layout.cpp ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/layout.h ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/layoutitem.cpp ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/layoutitem.h ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/lineedit.cpp ~ LGPLv2 ~    Copyright 2007 by Alexander Wiedenbruch <mail@wiedenbruch.de>
+ libs/plasma/widgets/lineedit.h ~ LGPLv2 ~    Copyright 2007 by Alexander Wiedenbruch <mail@wiedenbruch.de>
+ libs/plasma/widgets/pushbutton.cpp ~ LGPLv2 ~    Copyright 2007 by Siraj Razick <siraj@kde.org>
+                                               Copyright 2007 by Matt Broadstone <mbroadst@gmail.com>
+ libs/plasma/widgets/pushbutton.h ~ LGPLv2 ~  Copyright 2007 by Siraj Razick <siraj@kde.org>
+                                            Copyright 2007 by Matias Valdenegro <mvaldenegro@informatica.utem.cl>
+                                            Copyright 2007 by Matt Broadstone <mbroadst@gmail.com>
+ libs/plasma/widgets/radiobutton.cpp ~ LGPLv2 ~    Copyright 2007 by Rafael Fernández López <ereslibre@gmail.com>
+ libs/plasma/widgets/radiobutton.h ~ LGPLv2 ~    Copyright 2007 by Rafael Fernández López <ereslibre@gmail.com>
+ libs/plasma/widgets/rectangle.cpp ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/rectangle.h ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/signalplotter.cpp ~ LGPLv2 ~ Copyright 1999 - 2002 Chris Schlaeger <cs@kde.org>
+                                                 Copyright 2006 John Tapsell <tapsell@kde.org>
+ libs/plasma/widgets/signalplotter.h ~ LGPLv2 ~   Copyright 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ libs/plasma/widgets/tests/CMakeLists.txt ~ unspec ~ unspec
+ libs/plasma/widgets/tests/testLayouts.cpp ~ unspec ~ unspec
+ libs/plasma/widgets/vboxlayout.cpp ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/vboxlayout.h ~ LGPLv2 ~    Copyright 2007 by Matias Valdenegro T. <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/widget.cpp ~ LGPLv2 ~    Copyright 2007 by Alexander Wiedenbruch <mail@wiedenbruch.de> and Matias Valdenegro <mvaldenegro@informatica.utem.cl>
+ libs/plasma/widgets/widget.h ~ LGPLv2 ~ Copyright 2007 by Alexander Wiedenbruch <mail@wiedenbruch.de> and Matias Valdenegro <mvaldenegro@informatica.utem.cl>
+ libs/workspace/CMakeLists.txt ~ unspec ~ unspec
+ libs/workspace/dmctl.cpp ~ LGPLv2h ~    Copyright (C) 2004 Oswald Buddenhagen <ossi@kde.org>
+ libs/workspace/dmctl.h ~ LGPLv2h ~ Copyright (C) 2004,2005 Oswald Buddenhagen <ossi@kde.org>
+                                   Copyright (C) 2005 Stephan Kulow <coolo@kde.org>
+ libs/workspace/kwindowlistmenu.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                            Matthias Ettrich <ettrich@kde.org>
+ libs/workspace/kwindowlistmenu.h ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                            Matthias Ettrich <ettrich@kde.org>
+ libs/workspace/kworkspace.cpp ~ LGPLv2h ~     Copyright (C) 1997 Matthias Kalle Dalheimer (kalle@kde.org)
+ libs/workspace/kworkspace.h ~ LGPLv2h ~     Copyright (C) 1997 Matthias Kalle Dalheimer (kalle@kde.org)
+ libs/workspace/Mainpage.dox ~ unspec ~ unspec
+ libs/workspace/Messages.sh ~ unspec ~ unspec
+
 
 Files under menu/
  menu/* ~ unspec ~ unspec
