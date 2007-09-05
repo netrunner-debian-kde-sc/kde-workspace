@@ -12,6 +12,7 @@ Section: kde
 Architecture: all
 Depends:  kcontrol (>= ${binary:Version}), 
  kdebase-workspace-bin (>= ${binary:Version}), kdebase-workspace-data (>= ${binary:Version}),
+ kicker (>= ${binary:Version}),
  klipper (>= ${binary:Version}), kmenuedit (>= ${binary:Version}), 
  kpager (>= ${binary:Version}), ksplash (>= ${binary:Version}),
  ksysguard (>= ${binary:Version}), ktip (>= ${binary:Version}),
@@ -73,6 +74,17 @@ Description: X display manager for KDE
  .
  A collection of icons to associate with individual users is included with KDE,
  but as part of the kdepasswd package.
+ .
+ This package is part of KDE, and a component of the KDE base module.
+ See the 'kde' and 'kdebase-workspace' packages for more information.
+
+Package: kicker
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: desktop panel for KDE
+ Kicker provides the KDE panel on you desktop. It can be used as a program
+ launcher and can load plugins to provide additional functionality.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.

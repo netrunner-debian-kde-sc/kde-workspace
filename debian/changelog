@@ -2,8 +2,10 @@ kdebase-workspace (4:3.93.0-1) experimental; urgency=low
 
   * KDE4 beta2, first upload to the Debian archive.
   * kdebase-workspace has been split from kdebase. 
+  * Shipping kicker as empty package because it has been disabled in this release
+    due to several problems.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 31 Aug 2007 10:48:52 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 05 Sep 2007 19:43:05 +0200
 
 kdebase (4:3.92.0-1) experimental; urgency=low
 
