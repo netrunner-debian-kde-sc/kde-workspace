@@ -1675,10 +1675,230 @@ The above copyright notice and this permission notice shall be included in
 
 
 Files under klipper/
+
+ klipper/applet.cpp ~ GPLv2h ~ Copyright (C) by Andrew Stanley-Jones
+                              Copyright (C) 2000 by Carsten Pfeiffer <pfeiffer@kde.org>
+ klipper/applet.h ~ GPLv2h ~  Copyright (C) Andrew Stanley-Jones
+ klipper/clipboardpoll.cpp ~ GPLv2h ~    Copyright (C) 2003 by Lubos Lunak <l.lunak@kde.org>
+ klipper/clipboardpoll.h ~ GPLv2h ~    Copyright (C) 2003 by Lubos Lunak <l.lunak@kde.org>
+ klipper/CMakeLists.txt ~ unspec ~ unspec
+ klipper/configdialog.cpp ~ GPLv2h ~    Copyright (C) 2000 by Carsten Pfeiffer <pfeiffer@kde.org>
+ klipper/configdialog.h ~ GPLv2h ~    Copyright (C) 2000 by Carsten Pfeiffer <pfeiffer@kde.org>
+ klipper/hi128-app-klipper.png ~ unspec ~ unspec
+ klipper/hi16-app-klipper.png ~ unspec ~ unspec
+ klipper/hi22-app-klipper.png ~ unspec ~ unspec
+ klipper/hi32-app-klipper.png ~ unspec ~ unspec
+ klipper/hi48-app-klipper.png ~ unspec ~ unspec
+ klipper/hi64-app-klipper.png ~ unspec ~ unspec
+ klipper/hisc-app-klipper.svgz ~ unspec ~ unspec
+ klipper/history.cpp ~ GPLv2h ~ Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+                               Copyright (C) by Andrew Stanley-Jones
+                               Copyright (C) 2000 by Carsten Pfeiffer <pfeiffer@kde.org>
+ klipper/history.h ~ GPLv2h ~ Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+                             Copyright (C) Andrew Stanley-Jones
+ klipper/historyimageitem.cpp ~ GPLv2h ~    Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/historyimageitem.h ~ GPLv2h ~    Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/historyitem.cpp ~ GPLv2h ~    Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/historyitem.h ~ GPLv2h ~    Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/historystringitem.cpp ~ GPLv2h ~    Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/historystringitem.h ~ GPLv2h ~    Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/historyurlitem.cpp ~ GPLv2h ~    Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/historyurlitem.h ~ GPLv2h ~    Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/klipper-1-2.pl ~ unspec ~ unspec
+ klipper/klipperbindings.cpp ~ GPLv2h ~    Copyright (C) by Andrew Stanley-Jones
+ klipper/klipper.cpp ~ GPLv2h ~ Copyright (C) by Andrew Stanley-Jones
+                               Copyright (C) 2000 by Carsten Pfeiffer <pfeiffer@kde.org>
+                               Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/klipper.desktop ~ unspec ~ unspec
+ klipper/klipper.h ~ GPLv2h ~ Copyright (C) by Andrew Stanley-Jones
+                             Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/klipper-kde31.sh ~ unspec ~ unspec
+ klipper/klipperpopup.cpp ~ GPLv2h ~ Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+                                    Copyright (C) by Andrew Stanley-Jones
+                                    Copyright (C) 2000 by Carsten Pfeiffer <pfeiffer@kde.org>
+ klipper/klipperpopup.h ~ GPLv2h ~    Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/klipperrc.desktop ~ unspec ~ unspec
+ klipper/klipperrc.upd ~ unspec ~ unspec
+ klipper/klippershortcuts.upd ~ unspec ~ unspec
+ klipper/main.cpp ~ GPLv2h ~    Copyright (C) Andrew Stanley-Jones
+ klipper/Messages.sh ~ unspec ~ unspec
+ klipper/popupproxy.cpp ~ GPLv2h ~ Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/popupproxy.h ~ GPLv2h ~ Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/tray.cpp ~ GPLv2h ~ Copyright (C) by Andrew Stanley-Jones
+                            Copyright (C) 2000 by Carsten Pfeiffer <pfeiffer@kde.org>
+                            Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/tray.h ~ GPLv2h ~ Copyright (C) by Andrew Stanley-Jones
+                          Copyright (C) 2004  Esben Mose Hansen <kde@mosehansen.dk>
+ klipper/urlgrabber.cpp ~ GPLv2h ~    Copyright (C) (C) 2000,2001,2002 by Carsten Pfeiffer <pfeiffer@kde.org>
+ klipper/urlgrabber.h ~ GPLv2h ~    Copyright (C) 2000 by Carsten Pfeiffer <pfeiffer@kde.org>
+ klipper/version.h ~ GPLv2h ~    Copyright (C) Andrew Stanley-Jones
+
+
 Files under kmenuedit/
+
+ kmenuedit/basictab.cpp ~ GPLv2h ~  *   Copyright (C) 2000 Matthias Elter <elter@kde.org>
+ kmenuedit/basictab.h ~ GPLv2h ~  *   Copyright (C) 2000 Matthias Elter <elter@kde.org>
+ kmenuedit/CMakeLists.txt ~ unspec ~ unspec
+ kmenuedit/hi16-app-kmenuedit.png ~ unspec ~ unspec
+ kmenuedit/hi22-app-kmenuedit.png ~ unspec ~ unspec
+ kmenuedit/hi32-app-kmenuedit.png ~ unspec ~ unspec
+ kmenuedit/hi48-app-kmenuedit.png ~ unspec ~ unspec
+ kmenuedit/kcontroleditui.rc ~ unspec ~ unspec
+ kmenuedit/kcontrol_main.cpp ~ GPLv2h ~ Copyright (C) 2000 Matthias Elter <elter@kde.org>
+                                       Copyright (C) 2001-2002 Raffaele Sandrini <sandrini@kde.org>
+                                       Copyright (C) 2004 Waldo Bastian <bastian@kde.org>
+ kmenuedit/khotkeys.cpp ~ GPLv2h ~ Copyright (C) 2000 Matthias Elter <elter@kde.org>
+ kmenuedit/khotkeys.h ~ GPLv2h ~  Copyright (C) 2000 Matthias Elter <elter@kde.org>
+ kmenuedit/kmenuedit.cpp ~ GPLv2h ~ Copyright (C) 2000 Matthias Elter <elter@kde.org>
+                                   Copyright (C) 2001-2002 Raffaele Sandrini <sandrini@kde.org)
+ kmenuedit/kmenuedit.desktop ~ unspec ~ unspec
+ kmenuedit/kmenuedit.h ~ GPLv2h ~ Copyright (C) 2000 Matthias Elter <elter@kde.org>
+ kmenuedit/kmenueditui.rc ~ unspec ~ unspec
+ kmenuedit/main.cpp ~ GPLv2h ~ Copyright (C) 2000 Matthias Elter <elter@kde.org>
+                              Copyright (C) 2001-2002 Raffaele Sandrini <sandrini@kde.org)
+ kmenuedit/menufile.cpp ~ GPLv2h ~ Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+ kmenuedit/menufile.h ~ GPLv2h ~ Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+ kmenuedit/menuinfo.cpp ~ GPLv2h ~ Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+ kmenuedit/menuinfo.h ~ GPLv2h ~ Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+ kmenuedit/Messages.sh ~ unspec ~ unspec
+ kmenuedit/pixmaps/* ~ unspec ~ unspec
+ kmenuedit/treeview.cpp ~ GPLv2h ~ Copyright (C) 2000 Matthias Elter <elter@kde.org>
+                                  Copyright (C) 2001-2002 Raffaele Sandrini <sandrini@kde.org)
+                                  Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+ kmenuedit/treeview.h ~ GPLv2h ~ Copyright (C) 2000 Matthias Elter <elter@kde.org>
+                                Copyright (C) 2001-2002 Raffaele Sandrini <sandrini@kde.org>
+                                Copyright (C) 2003 Waldo Bastian <bastian@kde.org>
+
+
 Files under kpager/
+
+ kpager/CMakeLists.txt ~ unspec ~ unspec
+ kpager/config.cpp ~ GPLv2h ~     Copyright (C) 2000  Antonio Larrosa Jimenez <larossa@kde.org>
+ kpager/config.h ~ GPLv2h ~     Copyright (C) 2000  Antonio Larrosa Jimenez <larrosa@kde.org>
+ kpager/desktop.cpp ~ GPLv2h ~     Copyright (C) 2000  Antonio Larrosa Jimenez <larrosa@kde.org>
+ kpager/desktop.h ~ GPLv2h ~     Copyright (C) 2000  Antonio Larrosa Jimenez <larrosa@kde.org>
+ kpager/hi16-app-kpager.png ~ unspec ~ unspec
+ kpager/hi22-app-kpager.png ~ unspec ~ unspec
+ kpager/hi32-app-kpager.png ~ unspec ~ unspec
+ kpager/hi48-app-kpager.png ~ unspec ~ unspec
+ kpager/kpager.cpp ~ GPLv2h ~     Copyright (C) 2000  Antonio Larrosa Jimenez <larrosa@kde.org>
+ kpager/kpager.desktop ~ unspec ~ unspec
+ kpager/kpager.h ~ GPLv2h ~     Copyright (C) 2000  Antonio Larrosa Jimenez <larrosa@kde.org>
+ kpager/ksharedpixmap.cpp ~ LGPLv2h ~  * Copyright (C) 1999,2000 Geert Jansen <jansen@kde.org>
+ kpager/ksharedpixmap.h ~ LGPLv2h ~  * Copyright (C) 1999,2000 Geert Jansen <jansen@kde.org>
+ kpager/main.cpp ~ GPLv2h ~     Copyright (C) 1998-2000  Antonio Larrosa Jimenez <larrosa@kde.org>
+ kpager/Messages.sh ~ unspec ~ unspec
+ kpager/org.kde.KPager.xml ~ unspec ~ unspec
+ kpager/TODO ~ unspec ~ unspec
+ kpager/windowdrag.cpp ~ GPLv2h ~     Copyright (C) 1998,99,2000  Antonio Larrosa Jimenez <larrosa@kde.org>
+ kpager/windowdrag.h ~ GPLv2h ~     Copyright (C) 1998,99,2000  Antonio Larrosa Jimenez <larrosa@kde.org>
+
+
 Files under krunner/
+
+ krunner/CMakeLists.txt ~ unspec ~ unspec
+ krunner/collapsiblewidget.cpp ~ LGPLv2 ~    Copyright (C) 2005 Daniel Molkentin <molkentin@kde.org>
+ krunner/collapsiblewidget.h ~ LGPLv2 ~    Copyright (C) 2005 Daniel Molkentin <molkentin@kde.org>
+ krunner/config-xautolock.h.cmake ~ unspec ~ unspec
+ krunner/HACKING ~ unspec ~ unspec
+ krunner/interface.cpp ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/interface.h ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/klaunch.kcfg ~ unspec ~ unspec
+ krunner/klaunchsettings.kcfgc ~ unspec ~ unspec
+ krunner/krunnerapp.cpp ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/krunnerapp.h ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/krunner.desktop ~ unspec ~ unspec
+ krunner/krunnerdialog.cpp ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/krunnerdialog.h ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/kscreensaversettings.kcfg ~ unspec ~ unspec
+ krunner/kscreensaversettings.kcfgc ~ unspec ~ unspec
+ krunner/lock/autologout.cc ~ unspec ~ Copyright 2004 Chris Howells <howells@kde.org>
+ krunner/lock/autologout.h ~ unspec ~ Copyright 1999 Martin R. Jones <mjones@kde.org>
+                                      Copyright 2003 Oswald Buddenhagen <ossi@kde.org>
+ krunner/lock/CMakeLists.txt ~ unspec ~ unspec
+ krunner/lock/config-krunner-lock.h.cmake ~ unspec ~ unspec
+ krunner/lock/lockdlg.cc ~ unspec ~ Copyright 1999 Martin R. Jones <mjones@kde.org>
+                                    Copyright 2003 Chris Howells <howells@kde.org>
+                                    Copyright 2003 Oswald Buddenhagen <ossi@kde.org>
+ krunner/lock/lockdlg.h ~ unspec ~ Copyright 1999 Martin R. Jones <mjones@kde.org>
+                                   Copyright 2003 Oswald Buddenhagen <ossi@kde.org>
+ krunner/lock/lockprocess.cc ~ LGPLv2 ~ Copyright 1999 Martin R. Jones <mjones@kde.org>
+                                        Copyright 2003 Oswald Buddenhagen <ossi@kde.org>
+ krunner/lock/lockprocess.h ~ LGPLv2 ~ Copyright 1999 Martin R. Jones <mjones@kde.org>
+                                     Copyright 2003 Oswald Buddenhagen <ossi@kde.org>
+ krunner/lock/main.cc ~ LGPLv2h ~ Copyright (C) 1999 David Faure
+                                   Copyright 2003 Oswald Buddenhagen <ossi@kde.org>
+ krunner/lock/main.h ~ LGPLv2h ~    Copyright 2003 Oswald Buddenhagen <ossi@kde.org>
+ krunner/main.cpp ~ LGPLv2 ~ Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+                             Copyright (C) 2006 Zack Rusin <zack@kde.org>
+ krunner/Messages.sh ~ unspec ~ unspec
+ krunner/org.freedesktop.ScreenSaver.xml ~ unspec ~ unspec
+ krunner/org.kde.krunner.App.xml ~ unspec ~ unspec
+ krunner/org.kde.krunner.Interface.xml ~ unspec ~ unspec
+ krunner/README ~ unspec ~ unspec
+ krunner/restartingapplication.cpp ~ LGPLv2 ~ Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/restartingapplication.h ~ LGPLv2 ~ Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/runners/calculator/calculatorrunner.cpp ~ LGPLv2 ~ Copyright (C) 2007 Barış Metin <baris@pardus.org.tr>
+                                                            Copyright (C) 2006 David Faure <faure@kde.org>
+ krunner/runners/calculator/calculatorrunner.h ~ LGPLv2 ~  *   Copyright (C) 2007 Barış Metin <baris@pardus.org.tr>
+ krunner/runners/calculator/CMakeLists.txt ~ unspec ~ unspec
+ krunner/runners/calculator/krunner_calculatorrunner.desktop ~ unspec ~ unspec
+ krunner/runners/CMakeLists.txt ~ unspec ~ unspec
+ krunner/runners/krunnerrunner.desktop ~ unspec ~ unspec
+ krunner/runners/search/CMakeLists.txt ~ unspec ~ unspec
+ krunner/runners/search/krunner_searchrunner.desktop ~ unspec ~ unspec
+ krunner/runners/search/searchrunner.cpp ~ LGPLv2 ~ Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+                                                    2007 Jos van den Oever <jos@vandenoever.info>
+ krunner/runners/search/searchrunner.h ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+
+ krunner/runners/services/servicerunner.cpp ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/runners/services/servicerunner.h ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/runners/sessions/sessionrunner.cpp ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/runners/sessions/sessionrunner.h ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/runners/shell/shellOptions.ui ~ unspec ~ unspec
+ krunner/runners/shell/shellrunner.cpp ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ krunner/runners/shell/shellrunner.h ~ LGPLv2 ~  *   Copyright (C) 2006 Aaron Seigo <aseigo@kde.org>
+ 
+ krunner/saverengine.cpp ~ unspec ~Copyright 1999 Martin R. Jones <mjones@kde.org>
+ krunner/saverengine.h ~ unspec ~ Copyright 1999 Martin R. Jones <mjones@kde.org>
+ krunner/startupid.cpp ~ LGPLv2h ~ Copyright (C) 2001 Lubos Lunak <l.lunak@kde.org>
+ krunner/startupid.h ~ LGPLv2h ~ Copyright (C) 2001 Lubos Lunak <l.lunak@kde.org>
+ krunner/xautolock_c.h ~ GPLv2 ~ Copyright 1990,1992-1999,2001-2002 by Stefan De Troch and Michel Eyckmans.
+ krunner/xautolock.cpp ~ unspec ~ Copyright 1999 Martin R. Jones <mjones@kde.org>
+                                  Copyright 2003 Lubos Lunak <l.lunak@kde.org>
+ krunner/xautolock_diy.c ~ GPLv2 ~  * Copyright 1990,1992-1999,2001-2002 by Stefan De Troch and Michel Eyckmans.
+ krunner/xautolock_engine.c ~ GPLv2 ~  * Copyright 1990,1992-1999,2001-2002 by Stefan De Troch and Michel Eyckmans.
+ krunner/xautolock.h ~ unspec ~ Copyright 1999 Martin R. Jones <mjones@kde.org>
+
+
 Files under kscreensaver/
+
+ kscreensaver/CMakeLists.txt ~ unspec ~ unspec
+ kscreensaver/kblank_screensaver/blankscrn.cpp ~ unspec ~ Copyright (c)  Martin R. Jones 1996
+ kscreensaver/kblank_screensaver/blankscrn.h ~ unspec ~ Copyright (c)  Martin R. Jones 1996
+ kscreensaver/kblank_screensaver/CMakeLists.txt ~ unspec ~ unspec
+ kscreensaver/kblank_screensaver/kblank.desktop ~ unspec ~ unspec
+ kscreensaver/kblank_screensaver/Messages.sh ~ unspec ~ unspec
+ kscreensaver/krandom_screensaver/CMakeLists.txt ~ unspec ~ unspec
+ kscreensaver/krandom_screensaver/krandom.desktop ~ unspec ~ unspec
+ kscreensaver/krandom_screensaver/Messages.sh ~ unspec ~ unspec
+ kscreensaver/krandom_screensaver/random.cpp ~ unspec ~ Copyright (c)  Martin R. Jones 1999
+ kscreensaver/krandom_screensaver/random.h ~ LGPLv2 ~  Copyright (c) 2003 Chris Howells <howells@kde.org>
+
+
+ kscreensaver/libkscreensaver/CMakeLists.txt ~ unspec ~ unspec
+ kscreensaver/libkscreensaver/kscreensaver.cpp ~ LGPLv2h ~ Copyright (c) 2001  Martin R. Jones <mjones@kde.org>
+ kscreensaver/libkscreensaver/kscreensaver.h ~ LGPLv2h ~ Copyright (c) 2001  Martin R. Jones <mjones@kde.org>
+                                                        Copyright 2006  David Faure <faure@kde.org>
+ kscreensaver/libkscreensaver/kscreensaver-kde3to4-porting.py ~ LGPLv2 ~ # Copyright David Faure <faure@kde.org>
+ kscreensaver/libkscreensaver/kscreensaver_vroot.h ~ MIT ~ Copyright 1991 by Andreas Stolcke                     **/
+                                                          Copyright 1990 by Solbourne Computer Inc.                 **/
+ kscreensaver/libkscreensaver/main.cpp ~ LGPLv2h ~     Copyright (c) 2001  Martin R. Jones <mjones@kde.org>
+ kscreensaver/libkscreensaver/Messages.sh ~ unspec ~ unspec
+ kscreensaver/libkscreensaver/screensaver.desktop ~ unspec ~ unspec
+ kscreensaver/README ~ unspec ~ unspec
+
+
 Files under ksmserver/
 Files under ksplash/
 Files under kstartupconfig/
