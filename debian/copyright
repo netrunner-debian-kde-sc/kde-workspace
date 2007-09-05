@@ -1217,6 +1217,463 @@ Files under khotkeys/
 
 
 Files under kicker/
+
+ kicker/applets/CMakeLists.txt ~ unspec ~ unspec
+ kicker/applets/lockout/CMakeLists.txt ~ unspec ~ unspec
+ kicker/applets/lockout/lockout.cpp ~ MIT ~ Copyright (c) 2001 Carsten Pfeiffer <pfeiffer@kde.org>
+                                                         2001 Matthias Elter   <elter@kde.org>
+                                                         2001 Martijn Klingens <mklingens@yahoo.com>
+ kicker/applets/lockout/lockout.desktop ~ unspec ~ unspec
+ kicker/applets/lockout/lockout.h ~ unspec ~ unspec
+ kicker/applets/lockout/Messages.sh ~ unspec ~ unspec
+ kicker/applets/lockout/README ~ unspec ~ unspec
+ kicker/applets/media/CMakeLists.txt ~ unspec ~ unspec
+ kicker/applets/media/mediaapplet.cpp ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/applets/media/mediaapplet.desktop ~ unspec ~ unspec
+ kicker/applets/media/mediaapplet.h ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/applets/media/mediumbutton.cpp ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/applets/media/mediumbutton.h ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/applets/media/Messages.sh ~ unspec ~ unspec
+ kicker/applets/media/preferencesdialog.cpp ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/applets/media/preferencesdialog.h ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/applets/menu/CMakeLists.txt ~ unspec ~ unspec
+ kicker/applets/menu/menuapplet.cpp ~ MIT ~ Copyright (c) 2002 Siegfried Nijssen <snijssen@liacs.nl>
+                                           Copyright (c) 2003 Lubos Lunak <l.lunak@suse.cz>
+ kicker/applets/menu/menuapplet.desktop ~ unspec ~ unspec
+ kicker/applets/menu/menuapplet.h ~ MIT ~ Copyright (c) 2002 Siegfried Nijssen <snijssen@liacs.nl>
+                                         Copyright (c) 2003 Lubos Lunak <l.lunak@suse.cz>
+ kicker/applets/menu/Messages.sh ~ unspec ~ unspec
+ kicker/applets/minipager/CMakeLists.txt ~ unspec ~ unspec
+ kicker/applets/minipager/Messages.sh ~ unspec ~ unspec
+ kicker/applets/minipager/minipagerapplet.desktop ~ unspec ~ unspec
+ kicker/applets/minipager/pagerapplet.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/applets/minipager/pagerapplet.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/applets/minipager/pagerbutton.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+The above copyright notice and this permission notice shall be included in
+ kicker/applets/minipager/pagerbutton.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/applets/minipager/pagersettings.kcfg ~ unspec ~ unspec
+ kicker/applets/minipager/pagersettings.kcfgc ~ unspec ~ unspec
+ kicker/applets/naughty/CMakeLists.txt ~ unspec ~ unspec
+ kicker/applets/naughty/configure.in.in ~ unspec ~ unspec
+ kicker/applets/naughty/cr16-app-runprocesscatcher.png ~ unspec ~ unspec
+ kicker/applets/naughty/cr22-app-runprocesscatcher.png ~ unspec ~ unspec
+ kicker/applets/naughty/cr32-app-runprocesscatcher.png ~ unspec ~ unspec
+ kicker/applets/naughty/Messages.sh ~ unspec ~ unspec
+ kicker/applets/naughty/NaughtyApplet.cpp ~ GPLv2h ~     Copyright 2000 Rik Hemsley (rikkus) <rik@kde.org>
+ kicker/applets/naughty/naughtyapplet.desktop ~ unspec ~ unspec
+ kicker/applets/naughty/NaughtyApplet.h ~ GPLv2h ~     Copyright 2000 Rik Hemsley (rikkus) <rik@kde.org>
+ kicker/applets/naughty/NaughtyConfigDialog.cpp ~ GPLv2h ~     Copyright 2000 Rik Hemsley (rikkus) <rik@kde.org>
+ kicker/applets/naughty/NaughtyConfigDialog.h ~ GPLv2h ~     Copyright 2000 Rik Hemsley (rikkus) <rik@kde.org>
+ kicker/applets/naughty/naughty-happy.png ~ unspec ~ unspec
+ kicker/applets/naughty/NaughtyProcessMonitor.cpp ~ GPLv2h ~     Copyright 2000 Rik Hemsley (rikkus) <rik@kde.org>
+ kicker/applets/naughty/NaughtyProcessMonitor.h ~ GPLv2h ~     Copyright 2000 Rik Hemsley (rikkus) <rik@kde.org>
+ kicker/applets/naughty/naughty-sad.png ~ unspec ~ unspec
+ kicker/applets/run/CMakeLists.txt ~ unspec ~ unspec
+ kicker/applets/run/Messages.sh ~ unspec ~ unspec
+ kicker/applets/run/runapplet.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/applets/run/runapplet.desktop ~ unspec ~ unspec
+ kicker/applets/run/runapplet.h ~ MIT ~ Copyright (c) 2000 Matthias Elter
+ kicker/applets/systemtray/CMakeLists.txt ~ unspec ~ unspec
+ kicker/applets/systemtray/cr128-app-systemtray.png ~ unspec ~ unspec
+ kicker/applets/systemtray/cr16-app-systemtray.png ~ unspec ~ unspec
+ kicker/applets/systemtray/cr22-app-systemtray.png ~ unspec ~ unspec
+ kicker/applets/systemtray/cr32-app-systemtray.png ~ unspec ~ unspec
+ kicker/applets/systemtray/cr48-app-systemtray.png ~ unspec ~ unspec
+ kicker/applets/systemtray/cr64-app-systemtray.png ~ unspec ~ unspec
+ kicker/applets/systemtray/crsc-app-systemtray.svgz ~ unspec ~ unspec
+ kicker/applets/systemtray/Messages.sh ~ unspec ~ unspec
+ kicker/applets/systemtray/systemtrayapplet.cpp ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/applets/systemtray/systemtrayapplet.desktop ~ unspec ~ unspec
+ kicker/applets/systemtray/systemtrayapplet.h ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/applets/taskbar/CMakeLists.txt ~ unspec ~ unspec
+ kicker/applets/taskbar/Messages.sh ~ unspec ~ unspec
+ kicker/applets/taskbar/taskbarapplet.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/applets/taskbar/taskbarapplet.desktop ~ unspec ~ unspec
+ kicker/applets/taskbar/taskbarapplet.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/applets/trash/CMakeLists.txt ~ unspec ~ unspec
+ kicker/applets/trash/Messages.sh ~ unspec ~ unspec
+ kicker/applets/trash/trashapplet.cpp ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/applets/trash/trashapplet.desktop ~ unspec ~ unspec
+ kicker/applets/trash/trashapplet.h ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/applets/trash/trashbutton.cpp ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/applets/trash/trashbutton.h ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/AUTHORS ~ LGPLv2 ~ unspec ~ unspec
+ kicker/ChangeLog ~ unspec ~ unspec
+ kicker/CMakeLists.txt ~ unspec ~ unspec
+ kicker/data/* ~ unspec ~ unspec
+ kicker/DESIGN ~ unspec ~ unspec
+ kicker/extensions/CMakeLists.txt ~ unspec ~ unspec
+ kicker/extensions/dockbar/CMakeLists.txt ~ unspec ~ unspec
+ kicker/extensions/dockbar/dockbarextension.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter
+ kicker/extensions/dockbar/dockbarextension.desktop ~ unspec ~ unspec
+ kicker/extensions/dockbar/dockbarextension.h ~ MIT ~ Copyright (c) 2000 Matthias Elter
+ kicker/extensions/dockbar/dockcontainer.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/extensions/dockbar/dockcontainer.h ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/extensions/dockbar/Messages.sh ~ unspec ~ unspec
+ kicker/extensions/kasbar/ChangeLog ~ unspec ~ unspec
+ kicker/extensions/kasbar/CMakeLists.txt ~ unspec ~ unspec
+ kicker/extensions/kasbar/DESIGN ~ unspec ~ unspec
+ kicker/extensions/kasbar/docs.h ~ unspec ~ unspec
+ kicker/extensions/kasbar/Doxyfile ~ unspec ~ unspec
+ kicker/extensions/kasbar/kasaboutdlg.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasaboutdlg.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasbarapp.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasbar.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasbarextension.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasbarextension.desktop ~ unspec ~ unspec
+ kicker/extensions/kasbar/kasbarextension.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasbar.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasclockitem.cpp ~ unspec ~ unspec
+ kicker/extensions/kasbar/kasclockitem.h ~ unspec ~ unspec
+ kicker/extensions/kasbar/kasgrouper.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasgrouper.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasgroupitem.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasgroupitem.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasitem.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasitem.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasloaditem.cpp ~ unspec ~ unspec
+ kicker/extensions/kasbar/kasloaditem.h ~ unspec ~ unspec
+ kicker/extensions/kasbar/kaspopup.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kaspopup.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasprefsdlg.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasprefsdlg.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasresources.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasstartupitem.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kasstartupitem.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kastasker.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kastasker.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kastaskitem.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kastaskitem.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kastaskpopup.cpp ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/kastaskpopup.h ~ GPLv2h ~ ** Copyright (C) 2001-2004 Richard Moore <rich@kde.org>
+ kicker/extensions/kasbar/Messages.sh ~ unspec ~ unspec
+ kicker/extensions/kasbar/TODO ~ unspec ~ unspec
+ kicker/extensions/kasbar/version.h ~ unspec ~ unspec
+ kicker/extensions/sidebar/CMakeLists.txt ~ unspec ~ unspec
+ kicker/extensions/sidebar/Messages.sh ~ unspec ~ unspec
+ kicker/extensions/sidebar/sidebarextension.cpp ~ GPLv2h ~     copyright            : (C) 2003 Joseph Wenninger
+ kicker/extensions/sidebar/sidebarextension.desktop ~ unspec ~ unspec
+ kicker/extensions/sidebar/sidebarextension.h ~ GPLv2h ~     copyright            : (C) 2003 Joseph Wenninger
+ kicker/extensions/taskbar/CMakeLists.txt ~ unspec ~ unspec
+ kicker/extensions/taskbar/cr128-app-taskbar.png ~ unspec ~ unspec
+ kicker/extensions/taskbar/cr16-app-taskbar.png ~ unspec ~ unspec
+ kicker/extensions/taskbar/cr22-app-taskbar.png ~ unspec ~ unspec
+ kicker/extensions/taskbar/cr32-app-taskbar.png ~ unspec ~ unspec
+ kicker/extensions/taskbar/cr48-app-taskbar.png ~ unspec ~ unspec
+ kicker/extensions/taskbar/cr64-app-taskbar.png ~ unspec ~ unspec
+ kicker/extensions/taskbar/Messages.sh ~ unspec ~ unspec
+ kicker/extensions/taskbar/taskbarextension.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/extensions/taskbar/taskbarextension.desktop ~ unspec ~ unspec
+ kicker/extensions/taskbar/taskbarextension.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/HACKING ~ unspec ~ unspec
+ kicker/kicker/buttons/bookmarksbutton.cpp ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/bookmarksbutton.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/bookmarks.desktop ~ unspec ~ unspec
+ kicker/kicker/buttons/browserbutton.cpp ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/browserbutton.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/browser.desktop ~ unspec ~ unspec
+ kicker/kicker/buttons/CMakeLists.txt ~ unspec ~ unspec
+ kicker/kicker/buttons/desktopbutton.cpp ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/desktopbutton.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/desktop.desktop ~ unspec ~ unspec
+ kicker/kicker/buttons/exec.desktop ~ unspec ~ unspec
+ kicker/kicker/buttons/extensionbutton.cpp ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/extensionbutton.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/kbutton.cpp ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/kbutton.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/kmenu.desktop ~ unspec ~ unspec
+ kicker/kicker/buttons/nonkdeappbutton.cpp ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/nonkdeappbutton.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/servicebutton.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/servicebutton.h ~ MIT ~ Copyright (c) 2001 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/servicemenubutton.cpp ~ MIT ~ Copyright (c) 1996-2002 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/servicemenubutton.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/urlbutton.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/urlbutton.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/windowlistbutton.cpp ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/windowlistbutton.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/buttons/windowlist.desktop ~ unspec ~ unspec
+ kicker/kicker/CMakeLists.txt ~ unspec ~ unspec
+ kicker/kicker/core/applethandle.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/applethandle.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/childpanelextension.desktop ~ unspec ~ unspec
+ kicker/kicker/core/CMakeLists.txt ~ unspec ~ unspec
+ kicker/kicker/core/container_applet.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/container_applet.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/containerarea.cpp ~ MIT ~ Copyright (c) 1996-2004 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/containerarea.h ~ MIT ~ Copyright (c) 1996-2004 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/containerarealayout.cpp ~ MIT ~ Copyright (c) 1996-2004 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/containerarealayout.h ~ MIT ~ Copyright (c) 1996-2004 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/container_base.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/container_base.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/container_button.cpp ~ MIT ~ Copyright (c) 1996-2003 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/container_button.h ~ MIT ~ Copyright (c) 1996-2003 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/container_extension.cpp ~ MIT ~ Copyright (c) 2004-2005 Aaron J. Seigo <aseigo@kde.org>
+                                                   Copyright (c) 2000-2001 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/container_extension.h ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/kicker/core/default-apps ~ unspec ~ unspec
+ kicker/kicker/core/extensionmanager.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/kicker/core/extensionmanager.h ~ MIT ~ Copyright (c) 2000 Matthias Elter
+ kicker/kicker/core/kickerbindings.cpp ~ MIT ~ Copyright (c) 2001-2004 Matthias Elter <elter@kde.org>
+ kicker/kicker/core/kicker.cpp ~ MIT ~   Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/kicker.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/main.cpp ~ MIT ~ Copyright (c) 1996-2002 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/menumanager.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/menumanager.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/panelextension.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter
+ kicker/kicker/core/panelextension.h ~ MIT ~ Copyright (c) 2000 Matthias Elter
+ kicker/kicker/core/pluginmanager.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/pluginmanager.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/showdesktop.cpp ~ MIT ~ Copyright (c) 1996-2001,2002 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/showdesktop.h ~ MIT ~ Copyright (c) 1996-2000,2002 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/unhidetrigger.cpp ~ MIT ~ Copyright (c) 2002 John Firebaugh <jfirebaugh@kde.org>
+ kicker/kicker/core/unhidetrigger.h ~ MIT ~ Copyright (c) 2002 John Firebaugh <jfirebaugh@kde.org>
+ kicker/kicker/core/userrectsel.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/core/userrectsel.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/kcmkicker.desktop ~ unspec ~ unspec
+ kicker/kicker/kicker-3.1-properSizeSetting.pl ~ unspec ~ unspec
+ kicker/kicker/kicker-3.4-reverseLayout.cpp ~ unspec ~ unspec
+ kicker/kicker/kicker-3.5-kconfigXTize.pl ~ unspec ~ unspec
+ kicker/kicker/kicker-3.5-taskbarEnums.pl ~ unspec ~ unspec
+ kicker/kicker/kickerrc.upd ~ unspec ~ unspec
+ kicker/kicker/Messages.sh ~ unspec ~ unspec
+ kicker/kicker/panel.desktop ~ unspec ~ unspec
+ kicker/kicker/ui/addapplet.cpp ~ MIT ~ Copyright (c) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+                                       Copyright (c) 2005 Marc Cramdal
+                                       Copyright (c) 2005 Aaron Seigo <aseigo@kde.org>
+ kicker/kicker/ui/addapplet.h ~ MIT ~ Copyright (c) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+                                     Copyright (c) 2005 Marc Cramdal
+                                     Copyright (c) 2005 Aaron Seigo <aseigo@kde.org>
+ kicker/kicker/ui/addapplet_mnu.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/addappletvisualfeedback.cpp ~ MIT ~ Copyright (c) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+                                                     Copyright (c) 2004-2005 Aaron J. Seigo <aseigo@kde.org>
+                                                     Copyright (c) 2004 Zack Rusin <zrusin@kde.org>
+ kicker/kicker/ui/addappletvisualfeedback.h ~ MIT ~ Copyright (c) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+                                                   Copyright (c) 2004-2005 Aaron J. Seigo <aseigo@kde.org>
+                                                   Copyright (c) 2004 Zack Rusin <zrusin@kde.org>
+ kicker/kicker/ui/addbutton_mnu.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/addbutton_mnu.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/addextension_mnu.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/addextension_mnu.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/appletitemdelegate.cpp ~ LGPLv2 ~   * Copyright (C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+ kicker/kicker/ui/appletitemdelegate.h ~ LGPLv2 ~   * Copyright (C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+ kicker/kicker/ui/appletlistmodel.cpp ~ LGPLv2 ~   * Copyright (C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+ kicker/kicker/ui/appletlistmodel.h ~ LGPLv2 ~   * Copyright (C) 2007, 2006 Rafael Fernández López <ereslibre@gmail.com>
+ kicker/kicker/ui/appletop_mnu.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/appletop_mnu.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/appletview.ui ~ unspec ~ unspec
+ kicker/kicker/ui/browser_dlg.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/browser_dlg.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/browser_mnu.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/kicker/ui/browser_mnu.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/kicker/ui/exe_dlg.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/exe_dlg.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/extensionop_mnu.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/extensionop_mnu.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/hidebutton.cpp ~ GPLv2h ~ Copyright (C) 2003-2004 Nadeem Hasan <nhasan@kde.org>
+                                           Copyright (C) 2004 Aaron J. Seigo <aseigo@kde.org>
+ kicker/kicker/ui/hidebutton.h ~ GPLv2h ~  Copyright (C) 2003-2004 Nadeem Hasan <nhasan@kde.org>
+ kicker/kicker/ui/k_mnu.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/k_mnu.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/nonKDEButtonSettings.ui ~ unspec ~ unspec
+ kicker/kicker/ui/panelmenuiteminfo.h ~ MIT ~ Copyright (c) 2003 Aaron J. Seigo
+ kicker/kicker/ui/quickbrowser_mnu.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/kicker/ui/quickbrowser_mnu.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/kicker/ui/recentapps.cpp ~ MIT ~ Copyright (c) 2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/recentapps.h ~ MIT ~ Copyright (c) 2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/removeapplet_mnu.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/kicker/ui/removeapplet_mnu.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/kicker/ui/removebutton_mnu.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/kicker/ui/removebutton_mnu.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/kicker/ui/removecontainer_mnu.cpp ~ MIT ~ Copyreght (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/kicker/ui/removecontainer_mnu.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/kicker/ui/removeextension_mnu.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/kicker/ui/removeextension_mnu.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/kicker/ui/service_mnu.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/kicker/ui/service_mnu.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/libkicker/abstractpanelmanager.cpp ~ GPLv2 ~  * Copyright (c) 2005 Aaron J. Seigo <aseigo@kde.org>
+ kicker/libkicker/abstractpanelmanager.h ~ GPLv2 ~  * Copyright (c) 2005 Aaron J. Seigo <aseigo@kde.org>
+ kicker/libkicker/appletinfo.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/libkicker/appletinfo.h ~ MIT~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/libkicker/CMakeLists.txt ~ unspec ~ unspec
+ kicker/libkicker/extensioninfo.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/libkicker/extensioninfo.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/libkicker/extensionSettings.kcfg ~ unspec ~ unspec
+ kicker/libkicker/extensionSettings.kcfgc ~ unspec ~ unspec
+ kicker/libkicker/kickerSettings.kcfg ~ unspec ~ unspec
+ kicker/libkicker/kickerSettings.kcfgc ~ unspec ~ unspec
+ kicker/libkicker/kickertip.cpp ~ MIT ~ Copyright (c) 2004 Zack Rusin <zrusin@kde.org>
+                                                          Sami Kyostil <skyostil@kempele.fi>
+                                                          Aaron J. Seigo <aseigo@kde.org>
+ kicker/libkicker/kickertip.h ~ MIT ~ Copyright (c) 2004 Zack Rusin <zrusin@kde.org>
+                                                          Sami Kyostil <skyostil@kempele.fi>
+                                                          Aaron J. Seigo <aseigo@kde.org>
+ kicker/libkicker/kpanelapplet.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter
+ kicker/libkicker/kpanelapplet.h ~ MIT ~ Copyright (c) 2000 Matthias Elter
+ kicker/libkicker/kpanelextension.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter
+ kicker/libkicker/kpanelextension.h ~ MIT ~ Copyright (c) 2000 Matthias Elter
+ kicker/libkicker/kpanelmenu.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+                                            (c) Michael Goffioul <kdeprint@swing.be>
+ kicker/libkicker/kpanelmenu.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+                                            (c) Michael Goffioul <kdeprint@swing.be>
+ kicker/libkicker/kshadowengine.cpp ~ LGPLv2 ~  * Copyright (C) 2003 Laur Ivan <laurivan@eircom.net>
+ kicker/libkicker/kshadowengine.h ~ LGPLv2 ~  * Copyright (C) 2003 Laur Ivan <laurivan@eircom.net>
+ kicker/libkicker/kshadowsettings.cpp ~ LGPLv2 ~  * Copyright (C) 2003 Laur Ivan <laurivan@eircom.net>
+ kicker/libkicker/kshadowsettings.h ~ LGPLv2 ~  * Copyright (C) 2003 Laur Ivan <laurivan@eircom.net>
+ kicker/libkicker/menuinfo.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/libkicker/menuinfo.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/libkicker/Messages.sh ~ unspec ~ unspec
+ kicker/libkicker/panelbutton.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/libkicker/panelbutton.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/libkicker/paneldrag.cpp ~ MIT ~ Copyright (c) 2004 Aaron J. Seigo <aseigo@kde.org>
+                                          2004 Stephen Depooter <sbdep@woot.net> 
+ kicker/libkicker/paneldrag.h ~ MIT ~ Copyright (c) 2004 Aaron J. Seigo <aseigo@kde.org>
+ kicker/libkicker/panner.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+                                    2004 Stephen Depooter <sbdep@woot.net>
+ kicker/libkicker/panner.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/libkicker/simplebutton.cpp ~ GPLv2h ~ Copyright (C) 2003-2004 Nadeem Hasan <nhasan@kde.org>
+                                             Copyright (C) 2004-2005 Aaron J. Seigo <aseigo@kde.org>
+ kicker/libkicker/simplebutton.h ~ GPLv2h ~ Copyright (C) 2003-2004 Nadeem Hasan <nhasan@kde.org>
+                                           Copyright (C) 2004-2005 Aaron J. Seigo <aseigo@kde.org>
+ kicker/libkicker/utils.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/libkicker/utils.h ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/menuext/CMakeLists.txt ~ unspec ~ unspec
+ kicker/menuext/find/CMakeLists.txt ~ unspec ~ unspec
+ kicker/menuext/find/find.desktop ~ unspec ~ unspec
+ kicker/menuext/find/findmenu.cpp ~ GPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+ kicker/menuext/find/findmenu.h ~ GPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+ kicker/menuext/find/kfind.desktop ~ unspec ~ unspec
+ kicker/menuext/find/Messages.sh ~ unspec ~ unspec
+ kicker/menuext/find/websearch.desktop ~ unspec ~ unspec
+ kicker/menuext/kdeprint/CMakeLists.txt ~ unspec ~ unspec
+ kicker/menuext/kdeprint/Messages.sh ~ unspec ~ unspec
+ kicker/menuext/kdeprint/printmenu.desktop ~ unspec ~ unspec
+ kicker/menuext/kdeprint/print_mnu.cpp ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/menuext/kdeprint/print_mnu.h ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/menuext/konq-profiles/CMakeLists.txt ~ unspec ~ unspec
+ kicker/menuext/konq-profiles/konquerormenu.desktop ~ unspec ~ unspec
+ kicker/menuext/konq-profiles/konqy_menu.cpp ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/menuext/konq-profiles/konqy_menu.h ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/menuext/konq-profiles/Messages.sh ~ unspec ~ unspec
+ kicker/menuext/konsole/CMakeLists.txt ~ unspec ~ unspec
+ kicker/menuext/konsole/konsolebookmarkhandler.cpp ~ unspec ~ unspec
+ kicker/menuext/konsole/konsolebookmarkhandler.h ~ unspec ~ unspec
+ kicker/menuext/konsole/konsolemenu.desktop ~ unspec ~ unspec
+ kicker/menuext/konsole/konsole_mnu.cpp ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/menuext/konsole/konsole_mnu.h ~ MIT ~ Copyright (c) 1996-2001 the kicker authors. See file AUTHORS.
+ kicker/menuext/konsole/Messages.sh ~ unspec ~ unspec
+ kicker/menuext/prefmenu/CMakeLists.txt ~ unspec ~ unspec
+ kicker/menuext/prefmenu/Messages.sh ~ unspec ~ unspec
+ kicker/menuext/prefmenu/prefmenu.cpp ~ MIT ~ Copyright (c) 1996-2002 the kicker authors. See file AUTHORS.
+ kicker/menuext/prefmenu/prefmenu.desktop ~ unspec ~ unspec
+ kicker/menuext/prefmenu/prefmenu.h ~ MIT ~ Copyright (c) 1996-2002 the kicker authors. See file AUTHORS.
+ kicker/menuext/recentdocs/CMakeLists.txt ~ unspec ~ unspec
+ kicker/menuext/recentdocs/Messages.sh ~ unspec ~ unspec
+ kicker/menuext/recentdocs/recentdocs.desktop ~ unspec ~ unspec
+ kicker/menuext/recentdocs/recentdocsmenu.cpp ~ MIT ~ Copyright (c) 1996-2000 the kicker authors. See file AUTHORS.
+ kicker/menuext/recentdocs/recentdocsmenu.h ~ MIT ~ Copyright (c) 1996-2002 the kicker authors. See file AUTHORS.
+ kicker/menuext/remote/CMakeLists.txt ~ unspec ~ unspec
+ kicker/menuext/remote/Messages.sh ~ unspec ~ unspec
+ kicker/menuext/remote/remotemenu.cpp ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/menuext/remote/remotemenu.desktop ~ unspec ~ unspec
+ kicker/menuext/remote/remotemenu.h ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/menuext/system/CMakeLists.txt ~ unspec ~ unspec
+ kicker/menuext/system/Messages.sh ~ unspec ~ unspec
+ kicker/menuext/system/systemmenu.cpp ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/menuext/system/systemmenu.desktop ~ unspec ~ unspec
+ kicker/menuext/system/systemmenu.h ~ LGPLv2h ~    Copyright (c) 2004 Kevin Ottens <ervin ipsquad net>
+ kicker/proxy/appletproxy.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/proxy/appletproxy.h ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/proxy/CMakeLists.txt ~ unspec ~ unspec
+ kicker/proxy/extensiondebugger.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/proxy/extensiondebugger.h ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/proxy/Messages.sh ~ unspec ~ unspec
+ kicker/rich-ideas.txt ~ unspec ~ unspec
+ kicker/settings/advancedDialog.cpp ~ GPLv2h ~  *  Copyright (c) 2002 Aaron J. Seigo <aseigo@olympusproject.org>
+ kicker/settings/advancedDialog.h ~ GPLv2h ~  *  Copyright (c) 2002 Aaron J. Seigo <aseigo@olympusproject.org>
+ kicker/settings/advancedOptions.ui ~ unspec ~ unspec
+ kicker/settings/applettab_impl.cpp ~ GPLv2h ~  *  Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/settings/applettab_impl.h ~ GPLv2h ~  *  Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/settings/applettab.ui ~ unspec ~ unspec
+ kicker/settings/CMakeLists.txt ~ unspec ~ unspec
+ kicker/settings/cr16-app-kcmkicker.png ~ unspec ~ unspec
+ kicker/settings/cr22-app-kcmkicker.png ~ unspec ~ unspec
+ kicker/settings/cr32-app-kcmkicker.png ~ unspec ~ unspec
+ kicker/settings/extensionInfo.cpp ~ GPLv2h ~ Copyright (c) 2001 John Firebaugh <jfirebaugh@kde.org>
+                                             Copyright (c) 2002 Aaron J. Seigo <aseigo@olympusproject.org>
+ kicker/settings/extensionInfo.h ~ GPLv2h ~ Copyright (c) 2001 John Firebaugh <jfirebaugh@kde.org>
+                                           Copyright (c) 2002 Aaron J. Seigo <aseigo@olympusproject.org>
+ kicker/settings/hidingconfig.cpp ~ GPLv2h ~  *  Copyright (c) 2005      Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+ kicker/settings/hidingconfig.h ~ GPLv2h ~  *  Copyright (c) 2005      Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+ kicker/settings/hidingtab_impl.cpp ~ GPLv2h ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                              Copyright (c) 2002 Aaron Seigo <aseigo@olympusproject.org>
+ kicker/settings/hidingtab_impl.h ~ GPLv2h ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                            Copyright (c) 2002 Aaron Seigo <aseigo@olympusproject.org>
+ kicker/settings/hidingtab.ui ~ unspec ~ unspec
+ kicker/settings/kcmodulecontainer.cpp ~ GPLv2h ~     Copyright (C) 2004 Frans Englich <frans.englich@telia.com>
+ kicker/settings/kcmodulecontainer.h ~ GPLv2h ~     Copyright (C) 2004 Frans Englich <frans.englich@telia.com>
+ kicker/settings/kicker_config_appearance.desktop ~ unspec ~ unspec
+ kicker/settings/kicker_config_arrangement.desktop ~ unspec ~ unspec
+ kicker/settings/kicker_config.desktop ~ unspec ~ unspec
+ kicker/settings/kicker_config_hiding.desktop ~ unspec ~ unspec
+ kicker/settings/kicker_config_menus.desktop ~ unspec ~ unspec
+ kicker/settings/lookandfeelconfig.cpp ~ GPLv2h ~  *  Copyright (c) 2005      Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+ kicker/settings/lookandfeelconfig.h ~ GPLv2h ~  *  Copyright (c) 2005      Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+ kicker/settings/lookandfeeltab_impl.cpp ~ GPLv2h ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                                   Copyright (c) 2000 Aaron J. Seigo <aseigo@olympusproject.org>
+ kicker/settings/lookandfeeltab_impl.h ~ GPLv2h ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                                 Copyright (c) 2000 Aaron J. Seigo <aseigo@olympusproject.org>
+ kicker/settings/lookandfeeltab_kcm.cpp ~ GPLv2h ~  *  Copyright (c) 2002 Stephan Binner <binner@kde.org>
+ kicker/settings/lookandfeeltab_kcm.h ~ GPLv2h ~  *  Copyright (c) 2002 Stephan Binner <binner@kde.org>
+ kicker/settings/lookandfeeltab.ui ~ unspec ~ unspec
+ kicker/settings/main.cpp ~ GPLv2h ~  *  Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/settings/main.h ~ GPLv2h ~  *  Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/settings/menuconfig.cpp ~ GPLv2h ~  *  Copyright (c) 2005      Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+ kicker/settings/menuconfig.h ~ GPLv2h ~  *  Copyright (c) 2005      Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+ kicker/settings/menutab_impl.cpp ~ GPLv2h ~  *  Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/settings/menutab_impl.h ~ GPLv2h ~  *  Copyright (c) 2000 Matthias Elter <elter@kde.org>
+ kicker/settings/menutab.ui ~ unspec ~ unspec
+ kicker/settings/Messages.sh ~ unspec ~ unspec
+ kicker/settings/panel.desktop ~ unspec ~ unspec
+ kicker/settings/positionconfig.cpp ~ GPLv2h ~  *  Copyright (c) 2005      Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+ kicker/settings/positionconfig.h ~ GPLv2h ~  *  Copyright (c) 2005      Stefan Nikolaus <stefan.nikolaus@kdemail.net>
+ kicker/settings/positiontab_impl.cpp ~ GPLv2h ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                                Copyright (c) 2002 Aaron Seigo <aseigo@olympusproject.org>
+ kicker/settings/positiontab_impl.h ~ GPLv2h ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                              Copyright (c) 2002 Aaron Seigo <aseigo@olympusproject.org>
+ kicker/settings/positiontab.ui ~ unspec ~ unspec
+ kicker/taskbar/CMakeLists.txt ~ unspec ~ unspec
+ kicker/taskbar/Messages.sh ~ unspec ~ unspec
+ kicker/taskbar/taskbarbindings.cpp ~ MIT ~ Copyright (c) 2001-2004 Matthias Elter <elter@kde.org>
+ kicker/taskbar/taskbar.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+                                   Copyright (c) 2004 Sebastian Wolff
+                                   Copyright (c) 2005 Aaron Seigo <aseigo@kde.org>
+ kicker/taskbar/taskbar.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+ kicker/taskbar/taskbar.kcfg ~ unspec ~ unspec
+ kicker/taskbar/taskbarsettings.kcfgc ~ unspec ~ unspec
+ kicker/taskbar/taskcontainer.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+                                         Copyright (c) 2002 John Firebaugh <jfirebaugh@kde.org>
+                                         Copyright (c) 2005 Aaron Seigo <aseigo@kde.org>
+ kicker/taskbar/taskcontainer.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+                                       Copyright (c) 2002 John Firebaugh <jfirebaugh@kde.org>
+ kicker/taskmanager/CMakeLists.txt ~ unspec ~ unspec
+ kicker/taskmanager/Messages.sh ~ unspec ~ unspec
+ kicker/taskmanager/tasklmbmenu.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+                                           Copyright (c) 2002 John Firebaugh <jfirebaugh@kde.org>
+ kicker/taskmanager/tasklmbmenu.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+                                         Copyright (c) 2002 John Firebaugh <jfirebaugh@kde.org>
+ kicker/taskmanager/taskmanager.cpp ~ MIT ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                           Copyright (C) 2004 Hans Oischinger
+ kicker/taskmanager/taskmanager.h ~ MIT ~ Copyright (c) 2000-2001 Matthias Elter <elter@kde.org>
+                                         Copyright (c) 2001 Richard Moore <rich@kde.org>
+ kicker/taskmanager/taskrmbmenu.cpp ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+                                           Copyright (c) 2001 John Firebaugh <jfirebaugh@kde.org>
+ kicker/taskmanager/taskrmbmenu.h ~ MIT ~ Copyright (c) 2001 Matthias Elter <elter@kde.org>
+                                         Copyright (c) 2001 John Firebaugh <jfirebaugh@kde.org>
+ kicker/TODO ~ unspec ~ unspec
+ kicker/TODO_KDE4 ~ unspec ~ unspec
+
+
 Files under klipper/
 Files under kmenuedit/
 Files under kpager/
