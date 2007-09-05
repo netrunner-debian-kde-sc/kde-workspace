@@ -2805,11 +2805,76 @@ Files under kwin/
 
 
 Files under libs/
+TODO
+
 Files under menu/
+ menu/* ~ unspec ~ unspec
+
 Files under plasma/
+TODO
+
 Files under solid/
+TODO
+
 Files under systemsettings/
+
+ systemsettings/AUTHOR ~ unspec ~ unspec
+ systemsettings/categories/* ~ unspec ~ unspec
+ systemsettings/CMakeLists.txt ~ unspec ~ unspec
+ systemsettings/HACKING ~ unspec ~ unspec
+ systemsettings/hi128-app-systemsettings.png ~ unspec ~ unspec
+ systemsettings/hi16-app-systemsettings.png ~ unspec ~ unspec
+ systemsettings/hi22-app-systemsettings.png ~ unspec ~ unspec
+ systemsettings/hi32-app-systemsettings.png ~ unspec ~ unspec
+ systemsettings/hi48-app-systemsettings.png ~ unspec ~ unspec
+ systemsettings/hi64-app-systemsettings.png ~ unspec ~ unspec
+
+ systemsettings/kcmodulemenu.cpp ~ LGPLv2h ~  * Copyright (C) 2005 Benjamin C Meyer (ben+kcmodulemenu at meyerhome dot net)
+ systemsettings/kcmodulemenu.h ~ LGPLv2h ~  * Copyright (C) 2005 Benjamin C Meyer (ben+kcmodulemenu at meyerhome dot net)
+ systemsettings/kcmsearch.cpp ~ GPLv2h ~  * Copyright (C) 2005 Benjamin C Meyer
+ systemsettings/kcmsearch.h ~ GPLv2h ~  * Copyright (C) 2005 Benjamin C Meyer
+ systemsettings/kcmultiwidget.cpp ~ LGPLv2 ~ Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                            Copyright (c) 2003 Daniel Molkentin <molkentin@kde.org>
+                                            Copyright (c) 2003 Matthias Kretz <kretz@kde.org>
+                                            Copyright (c) 2004 Frans Englich <englich@kde.org>
+ systemsettings/kcmultiwidget.h ~ LGPLv2 ~   Copyright (c) 2000 Matthias Elter <elter@kde.org>
+                                            Copyright (c) 2003 Daniel Molkentin <molkentin@kde.org>
+                                            Copyright (c) 2003 Matthias Kretz <kretz@kde.org>
+ systemsettings/kicongrouppage.cpp ~ LGPLv2h ~    Copyright (c) 2007 Michael D. Stemle, Jr. <manchicken@notsosoft.net>
+ systemsettings/kicongrouppage.h ~ LGPLv2h ~    Copyright (c) 2007 Michael D. Stemle, Jr. <manchicken@notsosoft.net>
+ systemsettings/LAYOUT.html ~ unspec ~ unspec
+ systemsettings/main.cpp ~ GPLv2h ~  * Copyright (C) 2005 Benjamin C Meyer
+ systemsettings/mainwindow.cpp ~ GPLv2h ~  * Copyright (C) 2005 Benjamin C Meyer (ben+systempreferences at meyerhome dot net)
+ systemsettings/mainwindow.h ~ GPLv2h ~  * Copyright (C) 2005 Benjamin C Meyer (ben+systempreferences at meyerhome dot net)
+ systemsettings/Messages.sh ~ unspec ~ unspec
+ systemsettings/moduleiconitem.cpp ~ GPLv2h ~  * Copyright (C) 2005 Benjamin C Meyer
+ systemsettings/moduleiconitem.h ~ GPLv2h ~  * Copyright (C) 2005 Benjamin C Meyer
+ systemsettings/modulesview.cpp ~ GPLv2h ~  * Copyright (C) 2005 Benjamin C Meyer (ben+systempreferences at meyerhome dot net)
+ systemsettings/modulesview.h ~ GPLv2h ~  * Copyright (C) 2005 Benjamin C Meyer (ben+systempreferences at meyerhome dot net)
+ systemsettings/systemsettings.desktop ~ unspec ~ unspec
+ systemsettings/systemsettingsrc ~ unspec ~ unspec
+ systemsettings/systemsettingsui.rc ~ unspec ~ unspec
+ systemsettings/TODO ~ unspec ~ unspec
+ systemsettings/version.h ~ GPLv2h ~  * Copyright (C) 2005 Benjamin C Meyer (ben+systempreferences at meyerhome dot net)
+
+
 Files under wallpapers/
+
+As you can read in wallpapers/CREDITS: 
+  | triplegears.jpg - Jörg Gastner <gastner@t-online.de>
+  | kde_box - francesco@hermanitosverdes.org
+  | default_blue.jpg - Qwertz <kraftw@gmx.de>
+  | seaofconero.jpg - Andrea Rizzi <rizzi@kde.org>
+  | blue-bend.jpg - Everaldo Coelho <everaldo@everaldo.com>
+  |
+  | License: free for commercial and noncommercial usage, distribution and
+  | modification
+  |
+  | The following tiles are courteously provided by  Bowie J. Poag / PROPAGANDA:
+  | 
+  | Chicken-Songs-2.jpg, No-Ones-Laughing-3.jpg, Time-For-Lunch-2.jpg, Totally-New-Product-1.jpg, Won-Ton-Soup-3.jpg
+  |
+  | License: Copyleft
 
 
 
