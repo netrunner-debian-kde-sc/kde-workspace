@@ -1900,10 +1900,399 @@ Files under kscreensaver/
 
 
 Files under ksmserver/
+
+ ksmserver/client.cpp ~ MIT ~ Copyright 2000 Matthias Ettrich <ettrich@kde.org>
+                             Copyright 2005 Lubos Lunak <l.lunak@kde.org>
+                             Copyright 1999 Matthias Ettrich <ettrich@kde.org>
+                             Copyright 1999 Preston Brown <pbrown@kde.org>
+ ksmserver/CMakeLists.txt ~ unspec ~ unspec
+ ksmserver/config-ksmserver.h.cmake ~ unspec ~ unspec
+ ksmserver/global.h ~ MIT ~ Copyright 2000 Matthias Ettrich <ettrich@kde.org>
+ ksmserver/KSMServerInterface.h ~ MIT ~ Copyright 2000 Matthias Ettrich <ettrich@kde.org>
+ ksmserver/ksmserver.upd ~ unspec ~ unspec
+ ksmserver/legacy.cpp ~ MIT ~ Copyright 2000 Matthias Ettrich <ettrich@kde.org>
+                             Copyright 2005 Lubos Lunak <l.lunak@kde.org>
+                             Copyright 1999 Matthias Ettrich <ettrich@kde.org>
+                             Copyright 1999 Preston Brown <pbrown@kde.org>
+ ksmserver/LICENSE ~ unspec ~ unspec
+ ksmserver/main.cpp ~ MIT ~ Copyright 2000 Matthias Ettrich <ettrich@kde.org>
+ ksmserver/Messages.sh ~ unspec ~ unspec
+ ksmserver/move_session_config.sh ~ unspec ~ unspec
+ ksmserver/org.kde.KSMServerInterface.xml ~ unspec ~ unspec
+ ksmserver/README ~ unspec ~ unspec
+ ksmserver/server2.h ~ MIT ~ Copyright 2004-2005 Lubos Lunak <l.lunak@kde.org>
+ ksmserver/server.cpp ~ MIT ~ Copyright 2000 Matthias Ettrich <ettrich@kde.org>
+                             Copyright 2005 Lubos Lunak <l.lunak@kde.org>
+                             Copyright 1999 Matthias Ettrich <ettrich@kde.org>
+                             Copyright 1999 Preston Brown <pbrown@kde.org>
+ ksmserver/server.h ~ MIT ~ Copyright 2000 Matthias Ettrich <ettrich@kde.org>
+ ksmserver/shutdown.cpp ~ MIT ~ Copyright 2000 Matthias Ettrich <ettrich@kde.org>
+                               Copyright 1999 Matthias Ettrich <ettrich@kde.org>
+                               Copyright 1999 Preston Brown <pbrown@kde.org>
+ ksmserver/shutdowndlg.cpp ~ MIT ~ Copyright 2000 Matthias Ettrich <ettrich@kde.org>
+ ksmserver/shutdowndlg.h ~ MIT ~ Copyright 2000 Matthias Ettrich <ettrich@kde.org>
+ ksmserver/shutdownkonq.png ~ unspec ~ unspec
+ ksmserver/startup.cpp ~ MIT ~ Copyright 2000 Matthias Ettrich <ettrich@kde.org>
+                              Copyright 2005 Lubos Lunak <l.lunak@kde.org>
+                              Copyright 1999 Matthias Ettrich <ettrich@kde.org>
+                              Copyright 1999 Preston Brown <pbrown@kde.org>
+ ksmserver/tests/CMakeLists.txt ~ unspec ~ unspec
+ ksmserver/tests/test.cpp ~ unspec ~ unspec
+
+
 Files under ksplash/
+
+ ksplash/CMakeLists.txt ~ unspec ~ unspec
+ ksplash/kcm/CMakeLists.txt ~ unspec ~ unspec
+ ksplash/kcm/installer.cpp ~ GPLv2 ~ Copyright Ravikiran Rajagopal 2003 
+                                    Copyright (c) 1998 Stefan Taferner <taferner@kde.org>               
+ ksplash/kcm/installer.h ~ LGPLv2 ~ Copyright Ravikiran Rajagopal 2003                                   
+                                   Copyright (c) 1998 Stefan Taferner <taferner@kde.org>               
+ ksplash/kcm/ksplashthememgr.desktop ~ unspec ~ unspec
+ ksplash/kcm/main.cpp ~ GPLv2 ~  Copyright Ravikiran Rajagopal 2003                                  
+ ksplash/kcm/Messages.sh ~ unspec ~ unspec
+ ksplash/kcm/pics/* ~ unspec ~ unspec
+ ksplash/ksplashx/asm_scale.S ~ unspec ~ unspec
+ ksplash/ksplashx/CMakeLists.txt ~ unspec ~ unspec
+ ksplash/ksplashx/defs.cpp ~ unspec ~ unspec
+ ksplash/ksplashx/defs.h ~ unspec ~ unspec
+ ksplash/ksplashx/kcpuinfo.cpp ~ MIT ~  * Copyright (C) 2003 Fredrik H�glund <fredrik@kde.org>
+ ksplash/ksplashx/kcpuinfo.h ~ MIT ~  * Copyright (C) 2003 Fredrik H�glund <fredrik@kde.org>
+ ksplash/ksplashx/main.cpp ~ unspec ~ unspec
+ ksplash/ksplashx/pixmap.cpp ~ unspec ~ unspec
+ ksplash/ksplashx/pixmap.h ~ unspec ~ unspec
+ ksplash/ksplashx/qcolor.cpp ~ GPLv2 ~ ** Copyright (C) 1992-2002 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qcolor.h ~ GPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qcolor_p.cpp ~ GPLv2 ~ ** Copyright (C) 2000 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qcolor_p.h ~ GPLv2 ~ ** Copyright (C) 2000 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qcolor_x11.cpp ~ 	GPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qdatastream.h ~ unspec ~ unspec
+ ksplash/ksplashx/qglobal.cpp ~ unspec ~ unspec
+ ksplash/ksplashx/qglobal.h ~ unspec ~ unspec
+ ksplash/ksplashx/qimage.cpp ~ GPLv2 ~ Copyright (C) 1992-2003 Trolltech AS.  All rights reserved.
+                                     Copyright (C) 1989, 1991 by Jef Poskanzer.
+ ksplash/ksplashx/qimage.h ~ GPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qnamespace.h ~ GPLv2 ~ ** Copyright (C) 1992-2003 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qpngio.cpp ~ GPLv2 ~ ** Copyright (C) 1992-2003 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qpoint.h ~ LPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qrect.cpp ~ GPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qrect.h ~ LPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qshared.h ~ GPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qsize.cpp ~ GPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qsize.h ~ GPLv2 ~ ** Copyright (C) 1992-2000 Trolltech AS.  All rights reserved.
+ ksplash/ksplashx/qwindowdefs.h ~ unspec ~ unspec
+ ksplash/ksplashx/qwinexport.h ~ unspec ~ unspec
+ ksplash/ksplashx/README ~ unspec ~ unspec
+ ksplash/ksplashx/scale/CMakeLists.txt ~ unspec ~ unspec
+ ksplash/ksplashx/scale.cpp ~ MIT ~  Copyright (C) 2004 Daniel M. Duley <dan.duley@verizon.net>
+                                    Copyright (C) 2000 Carsten Haitzler and various contributors (see AUTHORS)
+ ksplash/ksplashx/scale.h ~ unspec ~ unspec
+ ksplash/ksplashx/scale/main.cpp ~ unspec ~ unspec
+ ksplash/ksplashx/splash.cpp ~ unspec ~ unspec
+ ksplash/ksplashx/splash.h ~ unspec ~ unspec
+ ksplash/ksplashx/themes/*~ unspec ~ unspec
+ ksplash/ksplashx/utils/*~ unspec ~ unspec
+ ksplash/ksplashx/x11_defs.cpp ~ unspec ~ unspec
+ ksplash/ksplashx/x11_defs.h ~ unspec ~ unspec
+ ksplash/none/CMakeLists.txt ~ unspec ~ unspec
+ ksplash/none/Theme.rc ~ unspec ~ unspec
+ ksplash/README ~ unspec ~ unspec
+ ksplash/simple/CMakeLists.txt ~ unspec ~ unspec
+ ksplash/simple/main.cpp ~ GPLv2 ~ Copyright 2004 Lubos Lunak <l.lunak@kde.org>                          *
+ ksplash/simple/Preview.png ~ unspec ~ unspec
+ ksplash/simple/Theme.rc ~ unspec ~ unspec
+
+
 Files under kstartupconfig/
+
+kstartupconfig/CMakeLists.txt ~ unspec ~ unspec
+kstartupconfig/kdostartupconfig.cpp ~ MIT ~  Copyright (C) 2005 Lubos Lunak        <l.lunak@kde.org>
+kstartupconfig/kstartupconfig.cpp ~ MIT~  Copyright (C) 2005 Lubos Lunak        <l.lunak@kde.org>
+
+
 Files under ksysguard/
+
+ ksysguard/CContLib/ccont.c ~ LGPLv2h ~ 	Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+ ksysguard/CContLib/ccont.h ~ LGPLv2h ~ 	Copyright (c) 2002 Tobias Koenig <tokoe@kde.org>
+ ksysguard/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/configure.in.in ~ unspec ~ unspec
+ ksysguard/cr128-app-ksysguard.png ~ unspec ~ unspec
+ ksysguard/cr16-app-ksysguard.png ~ unspec ~ unspec
+ ksysguard/cr32-app-ksysguard.png ~ unspec ~ unspec
+ ksysguard/cr48-app-ksysguard.png ~ unspec ~ unspec
+ ksysguard/cr64-app-ksysguard.png ~ unspec ~ unspec
+ ksysguard/example/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/example/ksysguarddrc ~ unspec ~ unspec
+ ksysguard/example/ksysguard.notifyrc ~ unspec ~ unspec
+ ksysguard/gui/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/gui/default_theme.svg ~ unspec ~ unspec
+ ksysguard/gui/HostConnector.cc ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/HostConnector.h ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/KSGAppletSettings.cc ~ GPLv2h ~     Copyright ( C ) 2002 Nadeem Hasan ( nhasan@kde.org )
+ ksysguard/gui/KSGAppletSettings.h ~ GPLv2h ~     Copyright ( C ) 2002 Nadeem Hasan ( nhasan@kde.org )
+ ksysguard/gui/ksgrd/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/gui/ksgrd/SensorAgent.cc ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/ksgrd/SensorAgent.h ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/ksgrd/SensorClient.h ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+                                                 Copyright (c) 2006 John Tapsell <tapsell@kde.org>
+ ksysguard/gui/ksgrd/SensorManager.cc ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/ksgrd/SensorManager.h ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/ksgrd/SensorShellAgent.cc ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/ksgrd/SensorShellAgent.h ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/ksgrd/SensorSocketAgent.cc ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/ksgrd/SensorSocketAgent.h ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/KSysGuardApplet.cc ~ GPLv2h ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/ksysguardapplet.desktop ~ unspec ~ unspec
+ ksysguard/gui/KSysGuardApplet.h ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/KSysGuardApplet.xml ~ unspec ~ unspec
+ ksysguard/gui/ksysguard.cc ~ GPLv2 ~ Copyright (c) 2006 John Tapsell <john.tapsell@kdemail.org>
+                                     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/ksysguard.desktop ~ unspec ~ unspec
+ ksysguard/gui/ksysguard.h ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/ksysguardui.rc ~ unspec ~ unspec
+ ksysguard/gui/Messages.sh ~ unspec ~ unspec
+ ksysguard/gui/ProcessTable.sgrd ~ unspec ~ unspec
+ ksysguard/gui/SensorBrowser.cc ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorBrowser.h ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/BarGraph.cc ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/BarGraph.h ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/DancingBars.cc ~ GPLv2 ~     Copyright (c) 1999, 2000, 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/DancingBars.h ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/DancingBarsSettings.cc ~ GPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/SensorDisplayLib/DancingBarsSettings.h ~ GPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/SensorDisplayLib/DummyDisplay.cc ~ GPLv2 ~     Copyright (c) 1999, 2000, 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/DummyDisplay.h ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/FancyPlotter.cc ~ GPLv2 ~     Copyright (c) 1999 - 2002 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/FancyPlotter.h ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/FancyPlotterSettings.cc ~ GPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/SensorDisplayLib/FancyPlotterSettings.h ~ GPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/SensorDisplayLib/ListView.cc ~ GPLv2 ~     Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/SensorDisplayLib/ListView.h ~ GPLv2 ~     Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/SensorDisplayLib/ListViewSettings.cc ~ GPLv2h ~    Copyright ( C ) 2003 Nadeem Hasan <nhasan@kde.org>
+ ksysguard/gui/SensorDisplayLib/ListViewSettings.h ~ GPLv2h ~    Copyright ( C ) 2003 Nadeem Hasan <nhasan@kde.org>
+ ksysguard/gui/SensorDisplayLib/ListViewSettingsWidget.ui ~ unspec ~ unspec
+ ksysguard/gui/SensorDisplayLib/LogFile.cc ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/SensorDisplayLib/LogFile.h ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/SensorDisplayLib/LogFileSettings.ui ~ unspec ~ unspec
+ ksysguard/gui/SensorDisplayLib/MultiMeter.cc ~ LGPLv2 ~   Copyright (c) 1999, 2000, 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/MultiMeter.h ~ LGPLv2 ~   Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/MultiMeterSettings.cc ~ GPLv2h ~    Copyright ( C ) 2003 Nadeem Hasan <nhasan@kde.org>
+ ksysguard/gui/SensorDisplayLib/MultiMeterSettings.h ~ GPLv2h ~    Copyright ( C ) 2003 Nadeem Hasan <nhasan@kde.org>
+ ksysguard/gui/SensorDisplayLib/MultiMeterSettingsWidget.ui ~ unspec ~ unspec
+ ksysguard/gui/SensorDisplayLib/ProcessController.cc ~ GPLv2 ~ 	Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+	                                                        Copyright (c) 2006 John Tapsell <john.tapsell@kdemail.net>
+ ksysguard/gui/SensorDisplayLib/ProcessController.h ~ GPLv2 ~ Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+                                              	             Copyright (c) 2006 John Tapsell <john.tapsell@kdemail.net>
+ ksysguard/gui/SensorDisplayLib/ProcessWidgetUI.ui ~ unspec ~ unspec
+ ksysguard/gui/SensorDisplayLib/SensorDisplay.cc ~ GPLv2 ~     Copyright (c) 1999 - 2002 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/SensorDisplay.h ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorDisplayLib/SensorLogger.cc ~ LGPLv2 ~   Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/SensorDisplayLib/SensorLoggerDlg.cc ~ GPLv2h ~    Copyright ( C ) 2003 Nadeem Hasan <nhasan@kde.org>
+ ksysguard/gui/SensorDisplayLib/SensorLoggerDlg.h ~ GPLv2h ~    Copyright ( C ) 2003 Nadeem Hasan <nhasan@kde.org>
+ ksysguard/gui/SensorDisplayLib/SensorLoggerDlgWidget.ui ~ unspec ~ unspec
+ ksysguard/gui/SensorDisplayLib/SensorLogger.h ~ GPLv2 ~   Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/SensorDisplayLib/SensorLoggerSettings.cc ~ GPLv2h ~    Copyright ( C ) 2003 Nadeem Hasan <nhasan@kde.org>
+ ksysguard/gui/SensorDisplayLib/SensorLoggerSettings.h ~ GPLv2h ~    Copyright ( C ) 2003 Nadeem Hasan <nhasan@kde.org>
+ ksysguard/gui/SensorDisplayLib/SensorLoggerSettingsWidget.ui ~ unspec ~ unspec
+ ksysguard/gui/SensorDisplayLib/SensorModel.cc ~ GPLv2 ~     Copyright (c) 2006 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/SensorDisplayLib/SensorModel.h ~ GPLv2 ~     Copyright (c) 2006 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/SensorDisplayLib/SignalPlotter.cc ~ GPLv2 ~ Copyright (c) 1999 - 2002 Chris Schlaeger <cs@kde.org>
+                                                          Copyright (c) 2006 John Tapsell <tapsell@kde.org>
+ ksysguard/gui/SensorDisplayLib/SignalPlotter.h ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorFrame.cc ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SensorFrame.h ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SharedSettings.h ~ GPLv2 ~     Copyright (c) 2006 John Tapsell <tapsell@kde.org>
+ ksysguard/gui/SignalIDs.h ~ GPLv2 ~     Copyright (c) 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/StyleEngine.cc ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/StyleEngine.h ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/SystemLoad.sgrd ~ unspec ~ unspec
+ ksysguard/gui/TimerSettings.cc ~ GPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/TimerSettings.h ~ GPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+ ksysguard/gui/WorkSheet.cc ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/WorkSheet.h ~ GPLv2 ~     Copyright (c) 1999 - 2002 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/WorkSheetSettings.cc ~ GPLv2 ~     Copyright (c) 1999 - 2002 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/WorkSheetSettings.h ~ GPLv2 ~     Copyright (c) 1999 - 2002 Chris Schlaeger <cs@kde.org>
+ ksysguard/gui/Workspace.cc ~ GPLv2 ~ Copyright (c) 1999 - 2002 Chris Schlaeger <cs@kde.org>
+                                     Copyright (c) 2006 John Tapsell <tapsell@kde.org>
+ ksysguard/gui/Workspace.h ~ GPLv2 ~  Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/ksysguardd/Command.c ~ GPLv2h ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Command.h ~ GPLv2h ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/conf.c ~ GPLv2 ~     Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/conf.h ~ GPLv2 ~     Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/config-ksysguardd.h.cmake ~ unspec ~ unspec
+ ksysguard/ksysguardd/FreeBSD/apm.c ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/FreeBSD/apm.h ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/FreeBSD/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/ksysguardd/FreeBSD/CPU.c ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/FreeBSD/CPU.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/FreeBSD/diskstat.c ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/FreeBSD/diskstat.h ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/FreeBSD/loadavg.c ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/FreeBSD/loadavg.h ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/FreeBSD/logfile.c ~ GPLv2h ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/FreeBSD/logfile.h ~ GPLv2h ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/FreeBSD/Memory.c ~ GPLv2h ~ 	Copyright (c) 1999-2000 Hans Petter Bieker <bieker@kde.org>
+	                                                Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/FreeBSD/Memory.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/FreeBSD/netdev.c ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/FreeBSD/netdev.h ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/FreeBSD/ProcessList.c ~ GPLv2h ~ 	Copyright (c) 1999-2000 Hans Petter Bieker<bieker@kde.org>
+                                                   	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/FreeBSD/ProcessList.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Irix/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/ksysguardd/Irix/cpu.c ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Irix/cpu.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Irix/LoadAvg.c ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Irix/LoadAvg.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Irix/Memory.c ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Irix/Memory.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Irix/NetDev.c ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/Irix/NetDev.h ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/Irix/ProcessList.c ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Irix/ProcessList.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/ksysguardd.c ~ GPLv2 ~  Copyright (c) 1999 - 2003 Chris Schlaeger <cs@kde.org>
+                                                           Tobias Koenig <tokoe@kde.org>
+                                             2006 Greg Martyn <greg.martyn@gmail.com>
+                                             Solaris support by Torsten Kasch <tk@Genetik.Uni-Bielefeld.DE>
+ ksysguard/ksysguardd/ksysguardd.h ~ GPLv2 ~     Copyright (c) 1999-2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/acpi.c ~ GPLv2 ~  Copyright (c) 2003 Stephan Uhlmann <su@su2.info> 
+                                            Copyright (c) 2005 Sirtaj Singh Kang <taj@kde.org> -- Battery fixes and Thermal
+ ksysguard/ksysguardd/Linux/acpi.h ~ GPLv2 ~     Copyright (c) 2003 Stephan Uhlmann <su@su2.info>
+ ksysguard/ksysguardd/Linux/apm.c ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/apm.h ~ GPLv2 ~     Copyright (c) 1999 - 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/ksysguardd/Linux/cpuinfo.c ~ GPLv2 ~     Copyright (c) 2000-2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/cpuinfo.h ~ GPLv2 ~     Copyright (c) 2000-2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/diskstat.c ~ GPLv2 ~     Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/Linux/diskstat.h ~ GPLv2 ~     Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/Linux/diskstats.c ~ GPLv2 ~     Copyright (c) 2006 Greg Martyn <greg.martyn@gmail.com>
+ ksysguard/ksysguardd/Linux/diskstats.h ~ GPLv2 ~     Copyright (c) 2006 Greg Martyn <greg.martyn@gmail.com>
+ ksysguard/ksysguardd/Linux/i8k.c ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/i8k.h ~ GPLv2 ~     Copyright (c) 1999 - 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/lmsensors.c ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/lmsensors.h ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/loadavg.c ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/loadavg.h ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/logfile.c ~ GPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/Linux/logfile.h ~ GPLv2 ~     Copyright (c) 2003 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/Linux/Memory.c ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/Memory.h ~ GPLv2h ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/netdev.c ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/netdev.h ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/netstat.c ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/Linux/netstat.h ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/Linux/ProcessList.c ~ GPLv2 ~     Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/ProcessList.h ~ GPLv2h ~     Copyright (c) 1999 - 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/softraid.c ~ GPLv2 ~  Copyright (c) 2007 Greg Martyn <greg.martyn@gmail.com>, John Tapsell <tapsell@kde.org>
+ ksysguard/ksysguardd/Linux/softraid.h ~ GPLv2 ~     Copyright (c) 2006 Greg Martyn <greg.martyn@gmail.com>
+ ksysguard/ksysguardd/Linux/stat.c ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/stat.h ~ GPLv2 ~     Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Linux/uptime.c ~ LGPLv2 ~     Copyright (c) 2006 Greg Martyn <greg.martyn@gmail.com>
+ ksysguard/ksysguardd/Linux/uptime.h ~ LGPLv2 ~     Copyright (c) 2006 Greg Martyn <greg.martyn@gmail.com>
+ ksysguard/ksysguardd/Linux/xres.c ~ GPLv2h ~  *   Copyright (c) 2006 John Tapsell <john.tapsell@kde.org>
+ ksysguard/ksysguardd/modules.h ~ GPLv2 ~     Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/NetBSD/apm.c ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/NetBSD/apm.h ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/NetBSD/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/ksysguardd/NetBSD/CPU.c ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/NetBSD/CPU.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/NetBSD/diskstat.c ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/NetBSD/diskstat.h ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/NetBSD/loadavg.c ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/NetBSD/loadavg.h ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/NetBSD/logfile.c ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/NetBSD/logfile.h ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/NetBSD/Memory.c ~ GPLv2h ~ Copyright (c) 1999-2000 Hans Petter Bieker <bieker@kde.org>
+                                          	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/NetBSD/Memory.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/NetBSD/netdev.c ~ GPLv2 ~   Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/NetBSD/netdev.h ~ GPLv2 ~ 	Copyright (c) 2001 Tobias Koenig <tokoe@kde.org>
+ ksysguard/ksysguardd/NetBSD/ProcessList.c ~ GPLv2h ~ 	Copyright (c) 1999-2000 Hans Petter Bieker<bieker@kde.org>
+	                                               Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/NetBSD/ProcessList.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/OpenBSD/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/ksysguardd/OpenBSD/cpu.c ~ GPLv2h ~     Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/OpenBSD/cpu.h ~ GPLv2h ~     Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/OpenBSD/memory.c ~ GPLv2h ~     Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+                                                 Copyright (c) 1999-2000 Hans Petter Bieker <bieker@kde.org>
+ ksysguard/ksysguardd/OpenBSD/memory.h ~ GPLv2h ~     Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/OpenBSD/ProcessList.c ~ GPLv2h ~ 	Copyright (c) 1999-2000 Hans Petter Bieker<bieker@kde.org>
+	                                        Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/OpenBSD/ProcessList.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Porting-HOWTO ~ unspec ~ unspec
+ ksysguard/ksysguardd/PWUIDCache.c ~ GPLv2 ~     Copyright (c) 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/PWUIDCache.h ~ GPLv2 ~     Copyright (c) 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Solaris/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/ksysguardd/Solaris/LoadAvg.c ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Solaris/LoadAvg.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Solaris/Memory.c ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Solaris/Memory.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Solaris/NetDev.c ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Solaris/NetDev.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Solaris/ProcessList.c ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Solaris/ProcessList.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Tru64/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/ksysguardd/Tru64/LoadAvg.c ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Tru64/LoadAvg.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Tru64/Memory.c ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Tru64/Memory.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Tru64/NetDev.c ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+ ksysguard/ksysguardd/Tru64/NetDev.h ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/libksysguard/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/libksysguard/processcore/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/libksysguard/processcore/Messages.sh ~ unspec ~ unspec
+ ksysguard/libksysguard/processcore/process.cpp ~ LGPLv2 ~     Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/processcore/processes_base_p.h ~ LGPLv2 ~     Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/processcore/processes.cpp ~ LGPLv2 ~     Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/processcore/processes_freebsd_p.cpp ~ LGPLv2 ~   Copyright (C) 2007 Manolo Valdes <nolis71cu@gmail.com>
+ ksysguard/libksysguard/processcore/processes.h ~ LGPLv2 ~     Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/processcore/processes_linux_p.cpp ~ LGPLv2 ~  Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/processcore/processes_local_p.cpp ~ LGPLv2 ~     Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/processcore/processes_local_p.h ~ LGPLv2 ~   Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/processcore/processes_openbsd_p.cpp ~ LGPLv2 ~  Copyright (C) 2007 Manolo Valdes <nolis71cu@gmail.com>
+ ksysguard/libksysguard/processcore/processes_remote_p.cpp ~ LGPLv2 ~     Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/processcore/processes_remote_p.h ~ LGPLv2 ~     Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/processcore/process.h ~ LGPLv2 ~     Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/processui/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/libksysguard/processui/ksysguardprocesslist.cpp ~ GPLv2 ~ Copyright (c) 1999 - 2001 Chris Schlaeger <cs@kde.org>
+	                                                         Copyright (c) 2006 - 2007 John Tapsell <john.tapsell@kde.org>
+ ksysguard/libksysguard/processui/ksysguardprocesslist.h ~ GPLv2 ~ Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+	                                                   Copyright (c) 2006 John Tapsell <john.tapsell@kdemail.net>
+ ksysguard/libksysguard/processui/ksysguard.widgets ~ unspec ~ unspec
+ ksysguard/libksysguard/processui/Messages.sh ~ unspec ~ unspec
+ ksysguard/libksysguard/processui/ProcessFilter.cc ~ GPLv2 ~ 	Copyright (c) 2006 John Tapsell <john.tapsell@kdemail.net>
+ ksysguard/libksysguard/processui/ProcessFilter.h ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+                                                	Copyright (c) 2006 John Tapsell <john.tapsell@kdemail.net>
+ ksysguard/libksysguard/processui/ProcessModel.cc ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+	                                                  Copyright (c) 2006 John Tapsell <john.tapsell@kde.org>
+ ksysguard/libksysguard/processui/ProcessModel.h ~ GPLv2 ~ 	Copyright (c) 1999, 2000 Chris Schlaeger <cs@kde.org>
+                                                     	Copyright (c) 2006 John Tapsell <john.tapsell@kdemail.net>
+ ksysguard/libksysguard/processui/ProcessModel_p.h ~ unspec ~ unspec
+ ksysguard/libksysguard/processui/ProcessWidgetUI.ui ~ unspec ~ unspec
+ ksysguard/libksysguard/processui/ReniceDlg.cc ~ GPLv2h ~ 	Copyright (c) 1999 Chris Schlaeger <cs@kde.org>
+ ksysguard/libksysguard/processui/ReniceDlg.h ~ GPLv2h ~     Copyright (c) 2006 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/processui/ReniceDlgUi.ui ~ unspec ~ unspec
+ ksysguard/libksysguard/tests/CMakeLists.txt ~ unspec ~ unspec
+ ksysguard/libksysguard/tests/guitest.cpp ~ LGPLv2 ~     Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/tests/guitest.h ~ LGPLv2 ~     Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/tests/processtest.cpp ~ LGPLv2 ~     Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/libksysguard/tests/processtest.h ~ LGPLv2 ~     Copyright (C) 2007 John Tapsell <tapsell@kde.org>
+ ksysguard/pics/* ~ unspec ~ unspec
+ ksysguard/README ~ unspec ~ unspec
+ ksysguard/version.h ~ unspec ~ unspec
+
+
 Files under ksystraycmd/
+
+ ksystraycmd/CMakeLists.txt ~ unspec ~ unspec
+ ksystraycmd/ksystraycmd.cpp ~ unspec ~ unspec
+ ksystraycmd/ksystraycmd.h ~ unspec ~ unspec
+ ksystraycmd/main.cpp ~ unspec ~ unspec
+ ksystraycmd/Messages.sh ~ unspec ~ unspec
+ ksystraycmd/README ~ unspec ~ unspec
+
+
 Files under ktip/
 Files under kwin/
 Files under libs/
