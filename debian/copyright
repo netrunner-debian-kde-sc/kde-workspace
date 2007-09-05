@@ -2943,10 +2943,74 @@ Files under libs/
 
 
 Files under menu/
+
  menu/* ~ unspec ~ unspec
 
 Files under plasma/
-TODO
+
+ plasma/animators/CMakeLists.txt ~ unspec ~ unspec
+ plasma/animators/default/CMakeLists.txt ~ unspec ~ unspec
+ plasma/animators/default/defaultAnimator.cpp ~ LGPLv2h ~  *   Copyright 2007 Aaron Seigo <aseigo@kde.org>
+ plasma/animators/default/defaultAnimator.h ~ LGPLv2h ~  *   Copyright 2007 Aaron Seigo <aseigo@kde.org>
+ plasma/animators/default/plasma-animator-default.desktop ~ unspec ~ unspec
+ plasma/animators/Mainpage.dox ~ unspec ~ unspec
+ plasma/applets/clock/clockConfig.ui ~ unspec ~ unspec
+ plasma/applets/clock/clock.cpp ~ GPLv2h ~ Copyright 2005,2006,2007 by Siraj Razick <siraj@kdemail.net>          
+                                          Copyright 2007 by Riccardo Iaconelli <riccardo@kde.org>               
+ plasma/applets/clock/clock.h ~ GPLv2h ~  Copyright 2005,2006,2007 by Siraj Razick <siraj@kdemail.net>          
+                                         Copyright 2007 by Riccardo Iaconelli <riccardo@kde.org>               
+ plasma/applets/clock/CMakeLists.txt ~ unspec ~ unspec
+ plasma/applets/clock/Messages.sh ~ unspec ~ unspec
+ plasma/applets/clock/plasma-clock-default.desktop ~ unspec ~ unspec
+ plasma/applets/CMakeLists.txt ~ unspec ~ unspec
+ plasma/applets/Mainpage.dox ~ unspec ~ unspec
+ plasma/applets/url/CMakeLists.txt ~ unspec ~ unspec
+ plasma/applets/url/plasma-applet-url.desktop ~ unspec ~ unspec
+ plasma/applets/url/url.cpp ~ GPLv2h ~  *   Copyright 2007 by Aaron Seigo <aseigo@kde.org>
+ plasma/applets/url/url.h ~ LPLv2h ~  *   Copyright 2005,2006,2007 by Siraj Razick                         
+ plasma/AUTHORS ~ unspec ~ unspec
+ plasma/CMakeLists.txt ~ unspec ~ unspec
+ plasma/desktoptheme/* ~ unspec ~ unspec
+ plasma/engineexplorer/CMakeLists.txt ~ unspec ~ unspec
+ plasma/engineexplorer/engineexplorer.cpp ~ GPLv2h ~  *   Copyright 2007 Aaron Seigo <aseigo@kde.org>
+ plasma/engineexplorer/engineexplorer.h ~ GPLv2h ~  *   Copyright 2007 Aaron Seigo <aseigo@kde.org>
+ plasma/engineexplorer/engineexplorer.ui ~ unspec ~ unspec
+ plasma/engineexplorer/main.cpp ~ GPLv2h ~  *   Copyright 2006 Aaron Seigo <aseigo@kde.org>
+ plasma/engineexplorer/Messages.sh ~ unspec ~ unspec
+ plasma/engines/CMakeLists.txt ~ unspec ~ unspec
+ plasma/engines/Mainpage.dox ~ unspec ~ unspec
+ plasma/engines/time/CMakeLists.txt ~ unspec ~ unspec
+ plasma/engines/time/plasma-engine-time.desktop ~ unspec ~ unspec
+ plasma/engines/time/timeengine.cpp ~ LGPLv2h ~  *   Copyright 2007 Aaron Seigo <aseigo@kde.org>
+ plasma/engines/time/timeengine.h ~ LGPLv2h ~  *   Copyright 2007 Aaron Seigo <aseigo@kde.org>
+ plasma/HACKING ~ unspec ~ unspec
+ plasma/Mainpage.dox ~ unspec ~ unspec
+
+
+
+ plasma/plasma/CMakeLists.txt ~ unspec ~ unspec
+ plasma/plasma/controlbox.cpp ~ LGPLv2 ~  Copyright 2007 by Matt Williams <matt@milliams.com>
+ plasma/plasma/controlbox.h ~ LGPLv2 ~ Copyright 2007 by Matt Williams <matt@milliams.com>
+ plasma/plasma/desktopview.cpp ~ GPLv2h ~ Copyright 2007 Aaron Seigo <aseigo@kde.org>
+                                         Copyright 2007 Matt Broadstone <mbroadst@gmail.com>
+ plasma/plasma/desktopview.h ~ GPLv2h ~  *   Copyright 2007 Aaron Seigo <aseigo@kde.org>
+ plasma/plasma/main.cpp ~ LGPLv2 ~  *   Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+ plasma/plasma/Messages.sh ~ unspec ~ unspec
+ plasma/plasma/org.kde.plasma.App.xml ~ unspec ~ unspec
+ plasma/plasma/panel.cpp ~ LGPLv2h ~ Copyright 2007 by Matt Broadstone <mbroadst@kde.org>
+                                    Copyright 2007 by Robert Knight <robertknight@gmail.com>
+ plasma/plasma/panel.h ~ LGPLv2h ~ Copyright 2007 by Matt Broadstone <mbroadst@kde.org>
+                                  Copyright 2007 by Robert Knight <robertknight@gmail.com>
+ plasma/plasma/plasmaapp.cpp ~ LGPLv2 ~ Copyright 2006 Aaron Seigo <aseigo@kde.org>
+                                       Copyright 2007 Matt Broadstone <mbroadst@gmail.com>
+ plasma/plasma/plasmaapp.h ~ LGPLv2h ~ Copyright 2006, 2007 Aaron Seigo <aseigo@kde.org>
+ plasma/plasma/plasma.desktop ~ unspec ~ unspec
+ plasma/plasma/rootwidget.cpp ~ LGPLv2 ~  Copyright 2006-2007 Aaron Seigo <aseigo@kde.org>
+                                         Copyright 2007 Matt Broadstone <mbroadst@gmail.com>
+ plasma/plasma/rootwidget.h ~ LGPLv2 ~ Copyright 2006, 2007 Aaron Seigo <aseigo@kde.org>
+                                      Copyright 2007 Matt Broadstone <mbroadst@gmail.com>
+ plasma/README ~ unspec ~ unspec
+
 
 Files under solid/
 TODO
