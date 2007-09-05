@@ -3013,7 +3013,243 @@ Files under plasma/
 
 
 Files under solid/
-TODO
+
+ solid/bluez/bluez-bluetoothinputdevice.cpp ~ LGPLv2 ~ Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                      Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/bluez/bluez-bluetoothinputdevice.h ~ LGPLv2 ~   Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                      Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/bluez/bluez-bluetoothinterface.cpp ~ LGPLv2 ~   Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                      Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/bluez/bluez-bluetoothinterface.h ~ LGPLv2 ~     Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                      Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/bluez/bluez-bluetoothmanager.cpp ~ LGPLv2 ~     Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                      Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/bluez/bluez-bluetoothmanager.h ~ LGPLv2 ~     Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                    Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/bluez/bluez-bluetoothremotedevice.cpp ~ LGPLv2 ~  Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                        Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/bluez/bluez-bluetoothremotedevice.h ~ LGPLv2 ~  Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                       Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/bluez/bluez-bluetoothsecurityadaptor.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                          Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+                                                          Copyright (C) 2007 Juan González Aguilera <jaguilera@opsiland.info>
+ solid/bluez/bluez-bluetoothsecurityadaptor.h ~ LGPLv2 ~   Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                          Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+                                                          Copyright (C) 2007 Juan González Aguilera <jaguilera@opsiland.info>
+ solid/bluez/bluez-bluetoothsecurity.cpp ~ LGPLv2 ~  Copyright (C) 2007 Juan González <jaguilera@opsiland.info>
+ solid/bluez/bluez-bluetoothsecurity.h ~ LGPLv2 ~  Copyright (C) 2007 Juan González <jaguilera@opsiland.info>
+ solid/bluez/bluezcalljob.cpp ~ LGPLv2 ~  Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+                                         Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/bluez/bluezcalljob.h ~ LGPLv2 ~  Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+                                       Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/bluez/CMakeLists.txt ~ unspec ~ unspec
+ solid/bluez/module.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                 Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/bluez/solid_bluez.desktop ~ unspec ~ unspec
+ solid/bluez/tests/blueztest.cpp ~ unspec ~ unspec
+ solid/bluez/tests/CMakeLists.txt ~ unspec ~ unspec
+ solid/CMakeLists.txt ~ unspec ~ unspec
+ solid/control/backends/CMakeLists.txt ~ unspec ~ unspec
+ solid/control/backends/fakebluetooth/CMakeLists.txt ~ unspec ~ unspec
+ solid/control/backends/fakebluetooth/fakebluetoothinputdevice.cpp ~ LGPLv2 ~ Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/backends/fakebluetooth/fakebluetoothinputdevice.h ~ LGPLv2 ~  Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/backends/fakebluetooth/fakebluetoothinterface.cpp ~ LGPLv2 ~  Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/backends/fakebluetooth/fakebluetoothinterface.h ~ LGPLv2 ~ Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/backends/fakebluetooth/fakebluetoothmanager.cpp ~ LGPLv2 ~  Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/backends/fakebluetooth/fakebluetoothmanager.h ~ LGPLv2 ~   Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/backends/fakebluetooth/fakebluetoothremotedevice.cpp ~ LGPLv2 ~ Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/backends/fakebluetooth/fakebluetoothremotedevice.h ~ LGPLv2 ~ Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/backends/fakebluetooth/fakebluetoothsecurity.cpp ~ LGPLv2 ~ Copyright (C) 2007 Juan González <jaguilera@opsiland.info>
+ solid/control/backends/fakebluetooth/fakebluetoothsecurity.h ~ LGPLv2 ~ Copyright (C) 2007 Juan González <jaguilera@opsiland.info>
+ solid/control/backends/fakebluetooth/fakebluetooth.xml ~ unspec ~ unspec
+ solid/control/backends/fakebluetooth/module.cpp ~ LGPLv2 ~  Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/backends/fakebluetooth/solid_fakebluetooth.desktop ~ unspec ~ unspec
+ solid/control/backends/fakebluetooth/tests/CMakeLists.txt ~ unspec ~ unspec
+ solid/control/backends/fakebluetooth/tests/fakebluetoothtest.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>, Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/backends/fakebluetooth/tests/fakebluetoothtest.h ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>, Copyright (C) 2006 Daniel Gollub <dgollub@suse.de>
+ solid/control/backends/fakenet/CMakeLists.txt ~ unspec ~ unspec
+ solid/control/backends/fakenet/fakenetwork.cpp ~ LGPLv2 ~     Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/backends/fakenet/fakenetwork.h ~ LGPLv2 ~     Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/backends/fakenet/fakenetworking.xml ~ unspec ~ unspec
+ solid/control/backends/fakenet/fakenetworkinterface.cpp ~ LGPLv2 ~     Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/backends/fakenet/fakenetworkinterface.h ~ LGPLv2 ~   Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/backends/fakenet/fakenetworkmanager.cpp ~ LGPLv2 ~   Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/backends/fakenet/fakenetworkmanager.h ~ LGPLv2 ~   Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/backends/fakenet/fakewirelessnetwork.cpp ~ LGPLv2 ~     Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/backends/fakenet/fakewirelessnetwork.h ~ LGPLv2 ~   Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/backends/fakenet/module.cpp ~ LGPLv2 ~     Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/backends/fakenet/solid_fakenet.desktop ~ unspec ~ unspec
+ solid/control/backends/fakenet/tests/CMakeLists.txt ~ unspec ~ unspec
+ solid/control/backends/fakenet/tests/fakenetworktest.cpp ~ LGPLv2 ~  Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/backends/fakenet/tests/fakenetworktest.h ~ LGPLv2 ~  Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/CMakeLists.txt ~ unspec ~ unspec
+ solid/control/solid/CMakeLists.txt ~ unspec ~ unspec
+ solid/control/solid/control/authentication.cpp ~ LGPLv2 ~ Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+                                                          Copyright (C) 2006,2007 Will Stephenson <wstephenson@kde.org>
+ solid/control/solid/control/authentication.h ~ LGPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+                                                          Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ solid/control/solid/control/bluetoothinputdevice.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                          Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/bluetoothinputdevice.h ~ LGPLv2 ~ Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                              Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/bluetoothinterface.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                              Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/bluetoothinterface.h ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                            Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/bluetoothmanager.cpp ~ LGPLv2 ~     Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                              Copyright (C) 2006 Kévin Ottens <ervin@kde.org>
+                                                              Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/bluetoothmanager.h ~ LGPLv2 ~     Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                              Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+                                                              Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/bluetoothremotedevice.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                              Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/bluetoothremotedevice.h ~ LGPLv2 ~ Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                               Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/bluetoothsecurity.cpp ~ LGPLv2 ~  Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                              Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+                                                              Copyright (C) 2007 Juan González <jaguilera@opsiland.info>
+ solid/control/solid/control/bluetoothsecurity.h ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                           Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+                                                           Copyright (C) 2007 Juan González <jaguilera@opsiland.info>
+ solid/control/solid/control/CMakeLists.txt ~ unspec ~ unspec
+ solid/control/solid/control/frontendobject.cpp ~ LGPLv2 ~     Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/frontendobject_p.h ~ LGPLv2 ~     Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/ifaces/authentication.cpp ~ LGPLv2 ~ Copyright (C) 2006,2007 Will Stephenson <wstephenson@kde.org>
+ solid/control/solid/control/ifaces/authentication.h ~ LGPLv2 ~ Copyright (C) 2006,2007 Will Stephenson <wstephenson@kde.org>
+ solid/control/solid/control/ifaces/bluetoothinputdevice.cpp ~ LGPLv2 ~ Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>, Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/ifaces/bluetoothinputdevice.h ~ LGPLv2 ~ Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>, Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/ifaces/bluetoothinterface.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>, Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/ifaces/bluetoothinterface.h ~ LGPLv2 ~ Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                                   Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/ifaces/bluetoothmanager.cpp ~ LGPLv2 ~ Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                                   Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/ifaces/bluetoothmanager.h ~ LGPLv2 ~  Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                                  Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/ifaces/bluetoothremotedevice.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>, Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/ifaces/bluetoothremotedevice.h ~ LGPLv2 ~ Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+    Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/solid/control/ifaces/bluetoothsecurity.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                              Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+                                                              Copyright (C) 2007 Juan González <jaguilera@opsiland.info>
+ solid/control/solid/control/ifaces/bluetoothsecurity.h ~ LGPLv2 ~ Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+                                                              Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+                                                              Copyright (C) 2007 Juan González <jaguilera@opsiland.info>
+ solid/control/solid/control/ifaces/CMakeLists.txt ~ unspec ~ unspec
+ solid/control/solid/control/ifaces/network.cpp ~ LGPLv2 ~     Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/solid/control/ifaces/network.h ~ LGPLv2 ~     Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/solid/control/ifaces/networkinterface.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/solid/control/ifaces/networkinterface.h ~ LGPLv2 ~  Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/solid/control/ifaces/networkmanager.cpp ~ LGPLv2 ~   Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/solid/control/ifaces/networkmanager.h ~ LGPLv2 ~   Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/solid/control/ifaces/powermanager.cpp ~ LGPLv2 ~    Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/ifaces/powermanager.h ~ LGPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/ifaces/wirelessnetwork.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/control/solid/control/ifaces/wirelessnetwork.h ~ LGPLv2 ~  Copyright (C) 2006,2007 Will Stephenson <wstephenson@kde.org>
+ solid/control/solid/control/managerbase.cpp ~ LGPLv2 ~     Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/managerbase_p.h ~ LGPLv2 ~     Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/Messages.sh ~ unspec ~ unspec
+ solid/control/solid/control/network.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                   Copyright (C) 2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/network.h ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                  Copyright (C) 2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/networking.cpp ~ LGPLv2 ~  Copyright (C) 2006-2007 Will Stephenson <wstephenson@kde.org>
+                                                       Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/networking.h ~ LGPLv2 ~  Copyright (C) 2006-2007 Will Stephenson <wstephenson@kde.org>
+                                                     Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/networking_p.h ~ LGPLv2 ~ Copyright (C) 2006-2007 Will Stephenson <wstephenson@kde.org>
+                                                      Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/networkinterface.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                           Copyright (C) 2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/networkinterface.h ~ LGPLv2 ~ Copyright (C) 2006,2007 Will Stephenson <wstephenson@kde.org>
+                                                          Copyright (C) 2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/networkmanager.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                          Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/networkmanager.h ~ LGPLv2 ~     Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                          Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/networkmanager_p.h ~ LGPLv2 ~     Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                          Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/network_p.h ~ LGPLv2 ~  Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                    Copyright (C) 2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/org.kde.Solid.Networking.xml ~ unspec ~ unspec
+ solid/control/solid/control/powermanager.cpp ~ LGPLv2 ~ Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/powermanager.h ~ LGPLv2 ~ Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/powermanager_p.h ~ LGPLv2 ~ Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/singletondefs.h ~ LGPLv2 ~ Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/solidbluetoothmanager.desktop ~ unspec ~ unspec
+ solid/control/solid/control/solid_control_export.h ~ LGPLv2h ~     Copyright (C) 2006 David Faure <faure@kde.org>
+ solid/control/solid/control/solidnetworkmanager.desktop ~ unspec ~ unspec
+ solid/control/solid/control/solidpowermanager.desktop ~ unspec ~ unspec
+ solid/control/solid/control/wirelessnetwork.cpp ~ LGPLv2 ~ Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                           Copyright (C) 2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/control/wirelessnetwork.h ~ LGPLv2 ~  Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+                                                          Copyright (C) 2007 Kevin Ottens <ervin@kde.org>
+ solid/control/solid/soliddefs_p.h ~ LGPLv2 ~     Copyright (C) 2006-2007 Kevin Ottens <ervin@kde.org>
+ solid/control/tests/CMakeLists.txt ~ unspec ~ unspec
+ solid/control/tests/solidbluetoothtest.cpp ~ LGPLv2 ~ Copyright (C) 2005 Kevin Ottens <ervin@kde.org>
+                                                      Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/tests/solidbluetoothtest.h ~ LGPLv2 ~ Copyright (C) 2005 Kevin Ottens <ervin@kde.org>
+                                                     Copyright (C) 2007 Daniel Gollub <dgollub@suse.de>
+ solid/control/tests/solidnettest.cpp ~ LGPLv2 ~     Copyright (C) 2005 Kevin Ottens <ervin@kde.org>
+ solid/control/tests/solidnettest.h ~ LGPLv2 ~     Copyright (C) 2005 Kevin Ottens <ervin@kde.org>
+ solid/hal/CMakeLists.txt ~ unspec ~ unspec
+ solid/hal/halpower.cpp ~ LGPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/hal/halpower.h ~ LGPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/hal/halsuspendjob.cpp ~ LGPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/hal/halsuspendjob.h ~ LGPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/hal/module_power.cpp ~ LGPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/hal/solid_hal_power.desktop ~ unspec ~ unspec
+ solid/kcm/backendchooser.cpp ~ GPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/kcm/backendchooser.h ~ GPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/kcm/backendchooser.ui ~ unspec ~ unspec
+ solid/kcm/CMakeLists.txt ~ unspec ~ unspec
+ solid/kcm/kcmsolid.cpp ~ LPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/kcm/kcm_solid.desktop ~ unspec ~ unspec
+ solid/kcm/kcmsolid.h ~ GPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/kcm/Messages.sh ~ unspec ~ unspec
+ solid/Mainpage.dox ~ unspec ~ unspec
+ solid/networking/CMakeLists.txt ~ unspec ~ unspec
+ solid/networking/DESIGN ~ unspec ~ unspec
+ solid/networking/KDE4_PLAN ~ unspec ~ unspec
+ solid/networking/kded/CMakeLists.txt ~ unspec ~ unspec
+ solid/networking/kded/network.cpp ~ LGPLv2 ~     Copyright (C) 2005,2007 Will Stephenson <wstephenson@kde.org>
+ solid/networking/kded/network.h ~ LGPLv2 ~     Copyright (C) 2005,2007 Will Stephenson <wstephenson@kde.org>
+ solid/networking/kded/networkstatus.cpp ~ LGPLv2 ~     Copyright (C) 2005,2007 Will Stephenson <wstephenson@kde.org>
+ solid/networking/kded/networkstatus.desktop ~ unspec ~ unspec
+ solid/networking/kded/networkstatus.h ~ LGPLv2 ~     Copyright (C) 2005,2007 Will Stephenson <wstephenson@kde.org>
+ solid/networking/org.kde.Solid.Networking.Service.xml ~ unspec ~ unspec
+ solid/networking/README ~ unspec ~ unspec
+ solid/networking/README.statetransition ~ unspec ~ unspec
+ solid/networking/tests/CMakeLists.txt ~ unspec ~ unspec
+ solid/networking/tests/networkingservice.cpp ~ GPLv2 ~     Copyright (C) 2005,2007 Will Stephenson <wstephenson@kde.org>
+ solid/networking/tests/networkingservice.h ~ GPLv2h ~     Copyright (C) 2005,2007 Will Stephenson <wstephenson@kde.org>
+ solid/networking/tests/networkingserviceview.ui ~ unspec ~ unspec
+ solid/networkmanager/CMakeLists.txt ~ unspec ~ unspec
+ solid/networkmanager/cr22-app-networkmanager.png ~ unspec ~ unspec
+ solid/networkmanager/cr32-app-networkmanager.png ~ unspec ~ unspec
+ solid/networkmanager/cr64-app-networkmanager.png ~ unspec ~ unspec
+ solid/networkmanager/module.cpp ~ LGPLv2 ~     Copyright (C) 2006 Will Stephenson <wstephenson@kde.org>
+ solid/networkmanager/NetworkManager-dbushelper.cpp ~ LGPLv2 ~     Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ solid/networkmanager/NetworkManager-dbushelper.h ~ LGPLv2 ~     Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ solid/networkmanager/NetworkManager-network.cpp ~ LGPLv2 ~     Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ solid/networkmanager/NetworkManager-network.h ~ LGPLv2 ~     Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ solid/networkmanager/NetworkManager-networkinterface.cpp ~ LGPLv2 ~  Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ solid/networkmanager/NetworkManager-networkinterface.h ~ LGPLv2 ~  Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ solid/networkmanager/NetworkManager-networkmanager.cpp ~ LGPLv2 ~   Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ solid/networkmanager/NetworkManager-networkmanager.h ~ LGPLv2 ~  Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ solid/networkmanager/NetworkManager-wirelessnetwork.cpp ~ LGPLv2 ~  Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ solid/networkmanager/NetworkManager-wirelessnetwork.h ~ LGPLv2 ~  Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ solid/networkmanager/org.freedesktop.NetworkManager.xml.notes ~ unspec ~ unspec
+ solid/networkmanager/solid_networkmanager.desktop ~ unspec ~ unspec
+ solid/networkmanager/tests/CMakeLists.txt ~ unspec ~ unspec
+ solid/networkmanager/tests/listdevices.cpp ~ LGPLv2 ~   Copyright (C) 2007 Will Stephenson <wstephenson@kde.org>
+ solid/networkmanager/tests/nmobject.cpp ~ unspec ~ unspec
+ solid/networkmanager/tests/nmobject.h ~ unspec ~ unspec
+ solid/solidshell/CMakeLists.txt ~ unspec ~ unspec
+ solid/solidshell/main.cpp ~ LGPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/solidshell/main.h ~ LGPLv2 ~     Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+ solid/solidshell/Messages.sh ~ unspec ~ unspec
+
 
 Files under systemsettings/
 
