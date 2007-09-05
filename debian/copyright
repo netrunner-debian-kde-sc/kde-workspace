@@ -2294,7 +2294,516 @@ Files under ksystraycmd/
 
 
 Files under ktip/
+
+ ktip/CMakeLists.txt ~ unspec ~ unspec
+ ktip/hi128-app-ktip.png ~ unspec ~ unspec
+ ktip/hi16-app-ktip.png ~ unspec ~ unspec
+ ktip/hi22-app-ktip.png ~ unspec ~ unspec
+ ktip/hi32-app-ktip.png ~ unspec ~ unspec
+ ktip/hi48-app-ktip.png ~ unspec ~ unspec
+ ktip/hi64-app-ktip.png ~ unspec ~ unspec
+ ktip/hisc-app-ktip.svgz ~ unspec ~ unspec
+ ktip/ktip.desktop ~ unspec ~ unspec
+ ktip/ktipwindow.cpp ~ GPLv2 ~ Copyright (c) 2000, Matthias Hoelzer-Kluepfel
+                              Copyright (c) 2002 Tobias Koenig <tokoe82@yahoo.de>
+ ktip/Messages.sh ~ unspec ~ unspec
+ ktip/pics/CMakeLists.txt ~ unspec ~ unspec
+ ktip/pics/wizard_small.png ~ unspec ~ unspec
+ ktip/tips ~ unspec ~ unspec
+
+
 Files under kwin/
+
+ kwin/activation.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                              Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/atoms.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                         Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/atoms.h ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                       Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/bridge.cpp ~ LGPLv2 ~ Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/bridge.h ~ GPLv2 ~ Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/client.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                          Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/client.h ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                        Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/clients/b2/b2client.cpp ~ unspec ~  *   Copyright (c) 2003, 2004, 2006 Luciano Montanaro <mikelima@cirulla.net>
+ kwin/clients/b2/b2client.h ~ unspec ~ unspec
+ kwin/clients/b2/b2.desktop ~ unspec ~ unspec
+ kwin/clients/b2/bitmaps.h ~ unspec ~ unspec
+ kwin/clients/b2/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/b2/config/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/b2/config/config.cpp ~ unspec ~ Copyright (c) 2001 Karol Szwed <gallium@kde.org> 
+                                             Copyright (c) 2007 Luciano Montanaro <mikelima@cirulla.net>
+ kwin/clients/b2/config/config.h ~ unspec ~ Copyright (c) 2001 Karol Szwed <gallium@kde.org> 
+                                            Copyright (c) 2007 Luciano Montanaro <mikelima@cirulla.net>
+ kwin/clients/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/kde2/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/kde2/config/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/kde2/config/config.cpp ~ unspec~  Copyright (c) 2001 Karol Szwed <gallium@kde.org>
+ kwin/clients/kde2/config/config.h ~ unspec~  Copyright (c) 2001 Karol Szwed <gallium@kde.org>
+ kwin/clients/kde2/kde2.cpp ~ unspec ~ Copyright (C) 1999, 2001 Daniel Duley <mosfet@kde.org>
+                                      Matthias Ettrich <ettrich@kde.org>
+                                      Karol Szwed <gallium@kde.org>
+ kwin/clients/kde2/kde2.desktop ~ unspec ~ unspec
+ kwin/clients/kde2/kde2.h ~ unspec ~ Copyright (C) 1999, 2001 Daniel Duley <mosfet@kde.org>
+                                      Matthias Ettrich <ettrich@kde.org>
+                                      Karol Szwed <gallium@kde.org>
+ kwin/clients/keramik/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/keramik/config/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/keramik/config/config.cpp ~ GPLv2h ~ Copyright (C) 2002 Fredrik Höglund <fredrik@kde.org>
+                                                  Copyright (c) 2001 Karol Szwed <gallium@kde.org>
+ kwin/clients/keramik/config/config.h ~ GPLv2h ~ Copyright (C) 2002 Fredrik Höglund <fredrik@kde.org>
+                                                Copyright (c) 2001 Karol Szwed <gallium@kde.org>
+ kwin/clients/keramik/config/keramikconfig.ui ~ unspec ~ unspec
+ kwin/clients/keramik/keramik.cpp ~ GPLv2h ~  * Copyright (C) 2002 Fredrik H�lund <fredrik@kde.org>
+ kwin/clients/keramik/keramik.desktop ~ unspec ~ unspec
+ kwin/clients/keramik/keramik.h ~ GPLv2h ~  * Copyright (C) 2002 Fredrik Höglund <fredrik@kde.org>
+ kwin/clients/keramik/pics/* ~ unspec ~ unspec
+ kwin/clients/keramik/tiles.qrc ~ unspec ~ unspec
+ kwin/clients/kwmtheme/cli_installer/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/kwmtheme/cli_installer/main.cpp ~ unspec ~ unspec
+ kwin/clients/kwmtheme/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/kwmtheme/kwmthemeclient.cpp ~ unspec ~ unspec
+ kwin/clients/kwmtheme/kwmthemeclient.h ~ unspec ~ unspec
+ kwin/clients/kwmtheme/kwmtheme.desktop ~ unspec ~ unspec
+ kwin/clients/kwmtheme/pics/* ~ unspec ~ unspec
+ kwin/clients/laptop/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/laptop/laptopclient.cpp ~ unspec ~ Copyright (c) 2005 Sandro Giessl <sandro@giessl.com>
+                                                Copyright (c) 2003 Luciano Montanaro <mikelima@cirulla.net>
+ kwin/clients/laptop/laptopclient.h ~ LGPLv2 ~  Copyright (c) 2005 Sandro Giessl <sandro@giessl.com>
+ kwin/clients/laptop/laptop.desktop ~ unspec ~ unspec
+ kwin/clients/Messages.sh ~ unspec ~ unspec
+ kwin/clients/modernsystem/btnhighcolor.h ~ unspec ~ unspec
+ kwin/clients/modernsystem/buttondata.h ~ unspec ~ unspec
+ kwin/clients/modernsystem/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/modernsystem/config/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/modernsystem/config/config.cpp ~ unspec ~ unspec
+ kwin/clients/modernsystem/config/config.h ~ unspec ~ unspec
+ kwin/clients/modernsystem/modernsys.cpp ~ GPLv2h ~   Copyright (C) 1999 Daniel M. Duley <mosfet@kde.org>
+ kwin/clients/modernsystem/modernsys.h ~ unspec ~ unspec
+ kwin/clients/modernsystem/modernsystem.desktop ~ unspec ~ unspec
+ kwin/clients/oxygen/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/oxygen/definitions.cpp ~ MIT ~ Copyright (c) 2006, 2007 Riccardo Iaconelli <ruphy@fsfe.org>
+ kwin/clients/oxygen/helper.cpp ~ LGPLv2 ~  * Copyright 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>
+ kwin/clients/oxygen/helper.h ~ LGPLv2 ~  * Copyright 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>
+ kwin/clients/oxygen/lib/helper.cpp ~ LGPLv2 ~ Copyright 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>
+                                              Copyright 2007 Casper Boemann <cbr@boemann.dk>
+                                              Copyright 2007 Fredrik Höglund <fredrik@kde.org>
+ kwin/clients/oxygen/lib/helper.h ~ LGPLv2 ~ Copyright 2007 Matthew Woehlke <mw_triad@users.sourceforge.net>
+                                            Copyright 2007 Casper Boemann <cbr@boemann.dk>
+                                            Copyright 2007 Fredrik Höglund <fredrik@kde.org>
+
+ kwin/clients/oxygen/oxygenbutton.cpp ~ MIT ~ Copyright (c) 2006, 2007 Riccardo Iaconelli <ruphy@fsfe.org>
+                                             Copyright (c) 2006, 2007 Casper Boemann <cbr@boemann.dk>
+ kwin/clients/oxygen/oxygenbutton.h ~ MIT ~ Copyright (c) 2006, 2007 Riccardo Iaconelli <ruphy@fsfe.org>
+ kwin/clients/oxygen/oxygenclient.cpp ~ unspec ~ Copyright (c) 2003, 2004 David Johnson
+                                                Copyright (c) 2006, 2007 Casper Boemann <cbr@boemann.dk>
+                                                Copyright (c) 2006, 2007 Riccardo Iaconelli <ruphy@fsfe.org>
+ kwin/clients/oxygen/oxygenclient.desktop ~ unspec ~ unspec
+ kwin/clients/oxygen/oxygenclient.h ~ MIT ~ Copyright (c) 2003, 2004 David Johnson <david@usermode.org>
+                                           Copyright (c) 2006, 2007 Riccardo Iaconelli <ruphy@fsfe.org>
+ kwin/clients/oxygen/oxygen.cpp ~ MIT ~ Copyright (c) 2006, 2007 Riccardo Iaconelli <ruphy@fsfe.org>
+ kwin/clients/oxygen/oxygen.h ~ MIT ~ // Copyright (c) 2006, 2007 Riccardo Iaconelli <ruphy@fsfe.org>
+ kwin/clients/oxygen/snippet.cpp ~ unspec ~ unspec
+ kwin/clients/plastik/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/plastik/config/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/plastik/config/config.cpp ~ GPLv2 ~   Copyright (C) 2003 Sandro Giessl <ceebx@users.sourceforge.net>
+                                                   Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/plastik/config/configdialog.ui ~ unspec ~ unspec
+ kwin/clients/plastik/config/config.h ~ GPLv2 ~   Copyright (C) 2003 Sandro Giessl <ceebx@users.sourceforge.net>
+                                                Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/plastik/misc.cpp ~ GPLv2h ~ Copyright (C) 2003 Sandro Giessl <ceebx@users.sourceforge.net>
+                                         Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/plastik/misc.h ~ GPLv2h ~   Copyright (C) 2003 Sandro Giessl <ceebx@users.sourceforge.net>
+                                         Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/plastik/plastikbutton.cpp ~ GPLv2h ~   Copyright (C) 2003-2005 Sandro Giessl <sandro@giessl.com>
+                                                    Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/plastik/plastikbutton.h ~ GPLv2h ~   Copyright (C) 2003-2005 Sandro Giessl <sandro@giessl.com>
+                                                  Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/plastik/plastikclient.cpp ~ GPLv2h ~  Copyright (C) 2003-2005 Sandro Giessl <sandro@giessl.com>
+                                                   Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/plastik/plastikclient.h ~ GPLv2h ~  Copyright (C) 2003-2005 Sandro Giessl <sandro@giessl.com>
+                                                 Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/plastik/plastik.cpp ~ GPLv2h ~   Copyright (C) 2003-2005 Sandro Giessl <sandro@giessl.com>
+                                              Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/plastik/plastik.desktop ~ unspec ~ unspec
+ kwin/clients/plastik/plastik.h ~ GPLv2h ~   Copyright (C) 2003-2005 Sandro Giessl <sandro@giessl.com>
+                                            Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/PORTING ~ unspec ~ unspec
+ kwin/clients/quartz/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/quartz/config/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/quartz/config/config.cpp  ~ unspec ~ Copyright (c) 2001 Karol Szwed <gallium@kde.org> 
+ kwin/clients/quartz/config/config.h  ~ unspec ~ Copyright (c) 2001 Karol Szwed <gallium@kde.org> 
+
+ kwin/clients/quartz/quartz.cpp ~ LGPLv2 ~  * Copyright (C) 2005 Sandro Giessl <sandro@giessl.com>
+                                            Copyright (c) 2001 Karol Szwed <gallium@kde.org> 
+ kwin/clients/quartz/quartz.desktop ~ unspec ~ unspec
+ kwin/clients/quartz/quartz.h ~ LGPLv2 ~  Copyright (C) 2005 Sandro Giessl <sandro@giessl.com>
+                                         Copyright (c) 2001 Karol Szwed <gallium@kde.org> 
+ kwin/clients/redmond/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/redmond/redmond.cpp ~ unspec ~  Copyright (c) 2001 Karol Szwed <gallium@kde.org> 
+ kwin/clients/redmond/redmond.desktop ~ unspec ~ unspec
+ kwin/clients/redmond/redmond.h ~ unspec ~  Copyright (c) 2001-2003 Karol Szwed <gallium@kde.org> 
+ kwin/clients/REQUIREMENTS_FOR_CVS ~ unspec ~ unspec
+ kwin/clients/test/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/test/test.cpp ~ unspec ~ unspec
+ kwin/clients/test/test.desktop ~ unspec ~ unspec
+ kwin/clients/test/test.h ~ unspec ~ unspec
+ kwin/clients/web/CMakeLists.txt ~ unspec ~ unspec
+ kwin/clients/web/WebButton.cpp ~ GPLv2h ~   Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/web/WebButton.h ~ GPLv2h ~   Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/web/Web.cpp ~ GPLv2h ~  Copyright (C) 2005 Sandro Giessl <sandro@giessl.com>
+                                    Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/clients/web/web.desktop ~ unspec ~ unspec
+ kwin/clients/web/Web.h ~ GPLv2h ~ Copyright (C) 2005 Sandro Giessl <sandro@giessl.com>
+                                  Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/CMakeLists.txt ~ unspec ~ unspec
+ kwin/COMPLIANCE ~ unspec ~ unspec
+ kwin/composite.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/COMPOSITE_HOWTO ~ unspec ~ unspec
+ kwin/COMPOSITE_TODO ~ unspec ~ unspec
+ kwin/config-kwin.h.cmake ~ unspec ~ unspec
+ kwin/CONFIGURING ~ unspec ~ unspec
+ kwin/cr16-app-kwin.png ~ unspec ~ unspec
+ kwin/cr32-app-kwin.png ~ unspec ~ unspec
+ kwin/cr48-app-kwin.png ~ unspec ~ unspec
+ kwin/data/CMakeLists.txt ~ unspec ~ unspec
+ kwin/data/fsp_workarounds_1.kwinrules ~ unspec ~ unspec
+ kwin/data/kwin3_plugin.pl ~ unspec ~ unspec
+ kwin/data/kwin3_plugin.upd ~ unspec ~ unspec
+ kwin/data/kwin_focus1.sh ~ unspec ~ unspec
+ kwin/data/kwin_focus1.upd ~ unspec ~ unspec
+ kwin/data/kwin_focus2.sh ~ unspec ~ unspec
+ kwin/data/kwin_focus2.upd ~ unspec ~ unspec
+ kwin/data/kwin_fsp_workarounds_1.upd ~ unspec ~ unspec
+ kwin/data/kwiniconify.upd ~ unspec ~ unspec
+ kwin/data/kwinsticky.upd ~ unspec ~ unspec
+ kwin/data/kwin.upd ~ unspec ~ unspec
+ kwin/data/kwinupdatewindowsettings.upd ~ unspec ~ unspec
+ kwin/data/pluginlibFix.pl ~ unspec ~ unspec
+ kwin/data/pop.wav ~ unspec ~ unspec
+ kwin/data/update_default_rules.cpp ~ GPLv2 ~ Copyright (C) 2005 Lubos Lunak <l.lunak@kde.org>
+ kwin/data/update_window_settings.cpp ~ GPLv2 ~ Copyright (C) 2004 Lubos Lunak <l.lunak@kde.org>
+ kwin/deleted.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/deleted.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/blur.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/blur.desktop ~ unspec ~ unspec
+ kwin/effects/blur.h ~ LGPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/boxswitch.cpp ~ GPLv2 ~ Copyright (C) 2007 Philip Falkner <philip.falkner@gmail.com>
+ kwin/effects/boxswitch.desktop ~ unspec ~ unspec
+ kwin/effects/boxswitch.h ~ GPLv2 ~ Copyright (C) 2007 Philip Falkner <philip.falkner@gmail.com>
+ kwin/effects/CMakeLists.txt ~ unspec ~ unspec
+ kwin/effects.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/data/* ~ unspec ~ unspec
+ kwin/effects/demo_liquid.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/demo_liquid.desktop ~ unspec ~ unspec
+ kwin/effects/demo_liquid.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/demo_shakymove.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/demo_shakymove.desktop ~ unspec ~ unspec
+ kwin/effects/demo_shakymove.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/demo_shiftworkspaceup.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/demo_shiftworkspaceup.desktop ~ unspec ~ unspec
+ kwin/effects/demo_shiftworkspaceup.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/demo_showpicture.cpp ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/demo_showpicture.desktop ~ unspec ~ unspec
+ kwin/effects/demo_showpicture.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/demo_taskbarthumbnail.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/demo_taskbarthumbnail.desktop ~ unspec ~ unspec
+ kwin/effects/demo_taskbarthumbnail.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/demo_wavywindows.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/demo_wavywindows.desktop ~ unspec ~ unspec
+ kwin/effects/demo_wavywindows.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/desktopgrid.cpp ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/desktopgrid.desktop ~ unspec ~ unspec
+ kwin/effects/desktopgrid.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/dialogparent.cpp ~ GPLv2 ~ Copyright (C) 2006 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/dialogparent.desktop ~ unspec ~ unspec
+ kwin/effects/dialogparent.h ~ GPLv2 ~ Copyright (C) 2006 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/diminactive.cpp ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/diminactive.desktop ~ unspec ~ unspec
+ kwin/effects/diminactive.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/drunken.cpp ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/drunken.desktop ~ unspec ~ unspec
+ kwin/effects/drunken.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/explosion.desktop ~ unspec ~ unspec
+ kwin/effects/explosioneffect.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/explosioneffect.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/fade.cpp ~ GPLv2 ~ Copyright (C) 2007 Philip Falkner <philip.falkner@gmail.com>
+ kwin/effects/fade.desktop ~ unspec ~ unspec
+ kwin/effects/fade.h ~ GPLv2 ~ Copyright (C) 2007 Philip Falkner <philip.falkner@gmail.com>
+ kwin/effects/fallapart.cpp ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/fallapart.desktop ~ unspec ~ unspec
+ kwin/effects/fallapart.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/flame.cpp ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/flame.desktop ~ unspec ~ unspec
+ kwin/effects/flame.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/howto.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/howto.desktop ~ unspec ~ unspec
+ kwin/effects/howto.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/invert.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/invert.desktop ~ unspec ~ unspec
+ kwin/effects/invert.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/kwineffect.desktop ~ unspec ~ unspec
+ kwin/effects/lookingglass.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/lookingglass.desktop ~ unspec ~ unspec
+ kwin/effects/lookingglass.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/magnifier.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/magnifier.desktop ~ unspec ~ unspec
+ kwin/effects/magnifier.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/maketransparent.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/maketransparent.desktop ~ unspec ~ unspec
+ kwin/effects/maketransparent.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/minimizeanimation.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/minimizeanimation.desktop ~ unspec ~ unspec
+ kwin/effects/minimizeanimation.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/mousemark.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/mousemark.desktop ~ unspec ~ unspec
+ kwin/effects/mousemark.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/presentwindows_config.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/presentwindows_config.desktop ~ unspec ~ unspec
+ kwin/effects/presentwindows_config.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/presentwindows.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/presentwindows.desktop ~ unspec ~ unspec
+ kwin/effects/presentwindows.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/scalein.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/scalein.desktop ~ unspec ~ unspec
+ kwin/effects/scalein.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/shadow_config.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/shadow_config.desktop ~ unspec ~ unspec
+ kwin/effects/shadow_config.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/shadow.cpp ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/shadow.desktop ~ unspec ~ unspec
+ kwin/effects/shadow.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/sharpen.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/sharpen.desktop ~ unspec ~ unspec
+ kwin/effects/sharpen.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/showfps.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/showfps.desktop ~ unspec ~ unspec
+ kwin/effects/showfps.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/test_fbo.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/test_fbo.desktop ~ unspec ~ unspec
+ kwin/effects/test_fbo.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/effects/test_input.cpp ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/test_input.desktop ~ unspec ~ unspec
+ kwin/effects/test_input.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/test_thumbnail.cpp ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/test_thumbnail.desktop ~ unspec ~ unspec
+ kwin/effects/test_thumbnail.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/thumbnailaside.cpp ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/thumbnailaside.desktop ~ unspec ~ unspec
+ kwin/effects/thumbnailaside.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/trackmouse.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/trackmouse.desktop ~ unspec ~ unspec
+ kwin/effects/trackmouse.h ~ GPLv2 ~ Copyright (C) 2007 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/videorecord.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/videorecord.desktop ~ unspec ~ unspec
+ kwin/effects/videorecord.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/zoom.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/effects/zoom.desktop ~ unspec ~ unspec
+ kwin/effects/zoom.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/events.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>  
+                          Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/geometry.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                           Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/geometrytip.cpp ~ GPLv2 ~ Copyright (c) 2003, Karol Szwed <kszwed@kde.org>
+ kwin/geometrytip.h ~ GPLv2 ~ Copyright (c) 2003, Karol Szwed <kszwed@kde.org>
+ kwin/group.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                         Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/group.h ~ LGPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                        Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/HACKING ~ unspec ~ unspec
+ kwin/kcmkwin/CMakeLists.txt ~ unspec ~ unspec
+ kwin/kcmkwin/kwincompositing/advanced.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/kcmkwin/kwincompositing/advanced.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/kcmkwin/kwincompositing/advanced.ui ~ unspec ~ unspec
+ kwin/kcmkwin/kwincompositing/CMakeLists.txt ~ unspec ~ unspec
+ kwin/kcmkwin/kwincompositing/kwincompositing.desktop ~ unspec ~ unspec
+ kwin/kcmkwin/kwincompositing/main.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/kcmkwin/kwincompositing/main.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/kcmkwin/kwincompositing/main.ui ~ unspec ~ unspec
+ kwin/kcmkwin/kwincompositing/Messages.sh ~ unspec ~ unspec
+ kwin/kcmkwin/kwindecoration/buttons.cpp ~ GPLv2h ~ Copyright (c) 2004, Sandro Giessl <sandro@giessl.com>
+	                                           Copyright (c) 2001 Karol Szwed <gallium@kde.org>
+	                                           Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/kcmkwin/kwindecoration/buttons.h ~ GPLv2h ~  Copyright (c) 2004, Sandro Giessl <sandro@giessl.com>
+	                                          Copyright (c) 2001 Karol Szwed <gallium@kde.org>
+	                                          Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/kcmkwin/kwindecoration/CMakeLists.txt ~ unspec ~ unspec
+ kwin/kcmkwin/kwindecoration/kwindecoration.cpp ~ GPLv2h ~ Copyright (c) 2001 Karol Szwed <gallium@kde.org>
+	                                                  Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/kcmkwin/kwindecoration/kwindecoration.desktop ~ unspec ~ unspec
+ kwin/kcmkwin/kwindecoration/kwindecoration.h ~ GPLv2h ~ Copyright (c) 2001 Karol Szwed <gallium@kde.org>
+	                                                Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/kcmkwin/kwindecoration/Messages.sh ~ unspec ~ unspec
+ kwin/kcmkwin/kwindecoration/pixmaps.h ~ GPLv2h ~ Copyright (c) 2004, Sandro Giessl <sandro@giessl.com>
+	                                         Copyright (c) 2001 Karol Szwed <gallium@kde.org>
+	                                         Copyright (C) 2001 Rik Hemsley (rikkus) <rik@kde.org>
+ kwin/kcmkwin/kwindecoration/preview.cpp ~ GPLv2h ~  * Copyright (c) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/kcmkwin/kwindecoration/preview.h ~ GPLv2h ~  * Copyright (c) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/kcmkwin/kwineffects/CMakeLists.txt ~ unspec ~ unspec
+ kwin/kcmkwin/kwineffects/kwineffects.desktop ~ unspec ~ unspec
+ kwin/kcmkwin/kwineffects/main.cpp ~ LGPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/kcmkwin/kwineffects/main.h ~ LGPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/kcmkwin/kwineffects/Messages.sh ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/AUTHORS ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/ChangeLog ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/CMakeLists.txt ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/cr128-app-kcmkwm.png ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/cr16-app-kcmkwm.png ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/cr22-app-kcmkwm.png ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/cr32-app-kcmkwm.png ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/cr48-app-kcmkwm.png ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/cr64-app-kcmkwm.png ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/crsc-app-kcmkwm.svgz ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/kwinactions.desktop ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/kwinadvanced.desktop ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/kwinfocus.desktop ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/kwinmoving.desktop ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/kwinoptions.desktop ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/main.cpp ~ GPLv2h ~  Copyright (c) 2001 Waldo Bastian <bastian@kde.org>
+ kwin/kcmkwin/kwinoptions/main.h ~ GPLv2h ~  Copyright (c) 2001 Waldo Bastian <bastian@kde.org>
+ kwin/kcmkwin/kwinoptions/Messages.sh ~ unspec ~ unspec
+ kwin/kcmkwin/kwinoptions/mouse.cpp ~ GPLv2h ~  Copyright (c) 1998 Matthias Ettrich <ettrich@kde.org>
+ kwin/kcmkwin/kwinoptions/mouse.h ~ GPLv2h ~ Copyright (c) 1998 Matthias Ettrich <ettrich@kde.org>
+ kwin/kcmkwin/kwinoptions/windows.cpp ~ GPLv2h ~ Copyright (c) 1997 Patrick Dowler dowler@morgul.fsh.uvic.ca
+                                                Copyright (c) 2001 Waldo Bastian bastian@kde.org
+ kwin/kcmkwin/kwinoptions/windows.h ~ GPLv2h ~  Copyright (c) 1997 Patrick Dowler dowler@morgul.fsh.uvic.ca
+                                               Copyright (c) 2001 Waldo Bastian bastian@kde.org
+ kwin/kcmkwin/kwinrules/CMakeLists.txt ~ unspec ~ unspec
+ kwin/kcmkwin/kwinrules/detectwidgetbase.ui ~ unspec ~ unspec
+ kwin/kcmkwin/kwinrules/detectwidget.cpp ~ GPLv2h ~  * Copyright (c) 2004 Lubos Lunak <l.lunak@kde.org>
+ kwin/kcmkwin/kwinrules/detectwidget.h ~ GPLv2h ~  * Copyright (c) 2004 Lubos Lunak <l.lunak@kde.org>
+ kwin/kcmkwin/kwinrules/editshortcutbase.ui ~ unspec ~ unspec
+ kwin/kcmkwin/kwinrules/kcm.cpp ~ GPLv2h ~  * Copyright (c) 2004 Lubos Lunak <l.lunak@kde.org>
+ kwin/kcmkwin/kwinrules/kcm.h ~ GPLv2h ~  * Copyright (c) 2004 Lubos Lunak <l.lunak@kde.org>
+ kwin/kcmkwin/kwinrules/kwinrules.desktop ~ unspec ~ unspec
+ kwin/kcmkwin/kwinrules/kwinsrc.cpp ~ unspec ~ unspec
+ kwin/kcmkwin/kwinrules/main.cpp ~ GPLv2h ~  * Copyright (c) 2004 Lubos Lunak <l.lunak@kde.org>
+ kwin/kcmkwin/kwinrules/Messages.sh ~ unspec ~ unspec
+ kwin/kcmkwin/kwinrules/ruleslistbase.ui ~ unspec ~ unspec
+ kwin/kcmkwin/kwinrules/ruleslist.cpp ~ GPLv2h ~  * Copyright (c) 2004 Lubos Lunak <l.lunak@kde.org>
+ kwin/kcmkwin/kwinrules/ruleslist.h ~ GPLv2h ~  * Copyright (c) 2004 Lubos Lunak <l.lunak@kde.org>
+ kwin/kcmkwin/kwinrules/ruleswidgetbase.ui ~ unspec ~ unspec
+ kwin/kcmkwin/kwinrules/ruleswidget.cpp ~ GPLv2h ~  * Copyright (c) 2004 Lubos Lunak <l.lunak@kde.org>
+ kwin/kcmkwin/kwinrules/ruleswidget.h ~ GPLv2h ~  * Copyright (c) 2004 Lubos Lunak <l.lunak@kde.org>
+ kwin/killer/CMakeLists.txt ~ unspec ~ unspec
+ kwin/killer/killer.cpp ~ MIT ~  Copyright (C) 2003 Lubos Lunak        <l.lunak@kde.org>
+ kwin/killwindow.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org> 
+                              Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/killwindow.h ~ LGPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                             Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/kwinbindings.cpp ~ unspec ~ unspec
+ kwin/kwin.kcfg ~ unspec ~ unspec
+ kwin/kwin.notifyrc ~ unspec ~ unspec
+ kwin/layers.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                          Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/CMakeLists.txt ~ unspec ~ unspec
+ kwin/lib/kcommondecoration.cpp ~ MIT ~   Copyright (C) 2005 Sandro Giessl <sandro@giessl.com>
+ kwin/lib/kcommondecoration.h ~ MIT ~   Copyright (C) 2005 Sandro Giessl <sandro@giessl.com>
+ kwin/lib/kdecoration.cpp ~ MIT ~ Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/kdecorationfactory.cpp ~ MIT ~ Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/kdecorationfactory.h ~ MIT ~ Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/kdecoration.h ~ MIT ~ Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/kdecoration_p.cpp ~ MIT ~ Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/kdecoration_p.h ~ MIT ~ Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/kdecoration_plugins_p.cpp ~ MIT ~ Copyright (C) 1999, 2000    Daniel M. Duley <mosfet@kde.org>
+                                           Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/kdecoration_plugins_p.h ~ MIT ~ Copyright (C) 1999, 2000    Daniel M. Duley <mosfet@kde.org>
+                                         Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/kwineffects.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/kwineffects.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/kwinglobals.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/kwinglobals.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/lib/kwinglutils.cpp ~ GPLv2 ~ Copyright (C) 2006-2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/lib/kwinglutils_funcs.cpp ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/lib/kwinglutils_funcs.h ~ GPLv2 ~ Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/lib/kwinglutils.h ~ GPLv2 ~ Copyright (C) 2006-2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/lib/kwinshadereffect.cpp ~ GPLv2 ~ Copyright (C) 2006-2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/lib/kwinshadereffect.h ~ GPLv2 ~ Copyright (C) 2006-2007 Rivo Laks <rivolaks@hot.ee>
+ kwin/lib/Mainpage.dox ~ unspec ~ unspec
+ kwin/lib/Messages.sh ~ unspec ~ unspec
+ kwin/LICENSE ~ unspec ~ unspec
+ kwin/main.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                        Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/main.h ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                      Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/Mainpage.dox ~ unspec ~ unspec
+ kwin/manage.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                          Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/Messages.sh ~ unspec ~ unspec
+ kwin/NEWCOLORSCHEME.README ~ unspec ~ unspec
+ kwin/notifications.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                                 Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/notifications.h ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                               Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/options.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                           Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/options.h ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                         Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/org.kde.KWin.xml ~ unspec ~ unspec
+ kwin/placement.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                             Copyright (C) 1997 to 2002 Cristian Tibirna <tibirna@kde.org>
+                             Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/placement.h ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                           Copyright (C) 1997 to 2002 Cristian Tibirna <tibirna@kde.org>
+                           Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/plugins.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000    Daniel M. Duley <mosfet@kde.org>
+                           Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/plugins.h ~ GPLv2 ~ Copyright (C) 1999, 2000    Daniel M. Duley <mosfet@kde.org>
+                         Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/popupinfo.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                             Copyright (C) 2002 Alexander Kellett <lypanov@kde.org>
+                             Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/popupinfo.h ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                           Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/README ~ unspec ~ unspec
+ kwin/rules.cpp ~ GPLv2 ~ Copyright (C) 2004 Lubos Lunak <l.lunak@kde.org>
+ kwin/rules.h ~ GPLv2 ~ Copyright (C) 2004 Lubos Lunak <l.lunak@kde.org>
+ kwin/scene_basic.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/scene_basic.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/scene.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/scene.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/scene_opengl.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/scene_opengl.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/scene_xrender.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/scene_xrender.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/sm.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                      Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/sm.h ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                    Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/tabbox.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                          Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/tabbox.h ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                        Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/tools/CMakeLists.txt ~ unspec ~ unspec
+ kwin/tools/decobenchmark/CMakeLists.txt ~ unspec ~ unspec
+ kwin/tools/decobenchmark/main.cpp ~ GPLv2h ~  Copyright (c) 2005 Sandro Giessl <sandro@giessl.com>
+                                             Copyright (c) 2005 Luciano Montanaro <mikelima@cirulla.net>
+ kwin/tools/decobenchmark/main.h ~ GPLv2h ~  Copyright (c) 2005 Sandro Giessl <sandro@giessl.com>
+                                            Copyright (c) 2005 Luciano Montanaro <mikelima@cirulla.net>
+ kwin/tools/decobenchmark/preview.cpp ~ GPLv2h ~ Copyright (c) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/tools/decobenchmark/preview.h ~ GPLv2h ~  Copyright (c) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/tools/test_gravity.cpp ~ unspec ~ unspec
+ kwin/tools/xreply/Makefile ~ unspec ~ unspec
+ kwin/tools/xreply/xreply.c ~ unspec ~ unspec
+ kwin/toplevel.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/toplevel.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/unmanaged.cpp ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/unmanaged.h ~ GPLv2 ~ Copyright (C) 2006 Lubos Lunak <l.lunak@kde.org>
+ kwin/useractions.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                               Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/utils.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org> 
+                         Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/utils.h ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                       Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/wm-spec/* ~ unspec ~ unspec
+ kwin/workspace.cpp ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                             Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+ kwin/workspace.h ~ GPLv2 ~ Copyright (C) 1999, 2000 Matthias Ettrich <ettrich@kde.org>
+                           Copyright (C) 2003 Lubos Lunak <l.lunak@kde.org>
+
+
 Files under libs/
 Files under menu/
 Files under plasma/
