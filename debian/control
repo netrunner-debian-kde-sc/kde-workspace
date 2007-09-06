@@ -10,9 +10,8 @@ Standards-Version: 3.7.2
 Package: kdebase-workspace
 Section: kde
 Architecture: all
-Depends:  kcontrol (>= ${binary:Version}), 
- kdebase-workspace-bin (>= ${binary:Version}), kdebase-workspace-data (>= ${binary:Version}),
- kicker (>= ${binary:Version}),
+Depends:  kdebase-workspace-bin (>= ${binary:Version}), 
+ kdebase-workspace-data (>= ${binary:Version}), kicker (>= ${binary:Version}),
  klipper (>= ${binary:Version}), kmenuedit (>= ${binary:Version}), 
  kpager (>= ${binary:Version}), ksplash (>= ${binary:Version}),
  ksysguard (>= ${binary:Version}), ktip (>= ${binary:Version}),
