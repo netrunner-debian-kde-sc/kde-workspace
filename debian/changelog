@@ -1,3 +1,10 @@
+kdebase-workspace (4:3.93.0-2) experimental; urgency=low
+
+  * Merge: kicker, kmenuedit, kpager, ksplash and ktip.
+  * Fix kdebase-workspace deps.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 06 Sep 2007 21:35:32 +0200
+
 kdebase-workspace (4:3.93.0-1) experimental; urgency=low
 
   * KDE4 beta2, first upload to the Debian archive.

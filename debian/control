@@ -11,10 +11,8 @@ Package: kdebase-workspace
 Section: kde
 Architecture: all
 Depends:  kdebase-workspace-bin (>= ${binary:Version}), 
- kdebase-workspace-data (>= ${binary:Version}), kicker (>= ${binary:Version}),
- klipper (>= ${binary:Version}), kmenuedit (>= ${binary:Version}), 
- kpager (>= ${binary:Version}), ksplash (>= ${binary:Version}),
- ksysguard (>= ${binary:Version}), ktip (>= ${binary:Version}),
+ kdebase-workspace-data (>= ${binary:Version}), 
+ klipper (>= ${binary:Version}), ksysguard (>= ${binary:Version}), 
  kwin (>= ${binary:Version}), systemsettings (>= ${binary:Version}),
 Recommends: kdm (>= ${binary:Version})
 Description: base components from the official KDE release
@@ -77,17 +75,6 @@ Description: X display manager for KDE
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
 
-Package: kicker
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: desktop panel for KDE
- Kicker provides the KDE panel on you desktop. It can be used as a program
- launcher and can load plugins to provide additional functionality.
- .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
-
 Package: klipper
 Section: kde
 Architecture: any
@@ -97,40 +84,6 @@ Description: clipboard utility for KDE
  plus additional features, like the ability to offer actions to take dependent
  on the clipboard contents. For example, it can launch a web browser if the
  clipboard contains a URL.
- .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
-
-Package: kmenuedit
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: menu editor for KDE
- The KDE menu editor allows you to make customisations to the KDE menu
- structure.
- .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
-
-Package: kpager
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: desktop pager for KDE
- This package contains KDE's desktop pager, which displays your virtual
- desktops iconically in a window, along with icons of any running applications.
- It is used to switch between applications or desktops.
- .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase' packages for more information.
-
-Package: ksplash
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: the KDE splash screen
- This package includes the KDE Splash screen, which is seen when a KDE session
- is launched.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
@@ -153,16 +106,6 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Description: system guard for KDE
  KDE System Guard allows you to monitor various statistics about your computer.
- .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
-
-Package: ktip
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
-Description: useful tips for KDE
- ktip provides many useful tips on using KDE when you log in.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
