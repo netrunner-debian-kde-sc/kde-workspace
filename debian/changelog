@@ -1,3 +1,11 @@
+kdebase-workspace (4:3.93.0-3) UNRELEASED; urgency=low
+
+  +++ Changes by Armin Berres:
+
+  * Remove some Oxygen icons from ksysguard which are already shipped by kdebase-data
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Sep 2007 16:54:13 +0200
+
 kdebase-workspace (4:3.93.0-2) experimental; urgency=low
 
   * Merge: kicker, kmenuedit, kpager, ksplash and ktip.
