@@ -572,6 +572,7 @@ usr/share/kde4/apps/kcontroledit/icons/crystalsvg/32x32/actions/menu_new.png
 usr/share/kde4/apps/kcontroledit/icons/crystalsvg/32x32/actions/menu_new_sep.png
 usr/share/kde4/apps/kcontroledit/icons/locolor/16x16/actions/menu_new.png
 usr/share/kde4/apps/kcontroledit/kcontroleditui.rc
+usr/share/kde4/apps/kdm/sessions/kde.desktop usr/share/xsessions
 usr/share/kde4/apps/kmenuedit/icons/crystalsvg/22x22/actions/menu_new.png
 usr/share/kde4/apps/kmenuedit/icons/crystalsvg/22x22/actions/menu_new_sep.png
 usr/share/kde4/apps/kmenuedit/icons/crystalsvg/32x32/actions/menu_new.png
