@@ -1,0 +1,100 @@
+diff -Naur kdebase-workspace.orig/kcontrol/kdm/kdm-dlg.cpp kdebase-workspace.patched/kcontrol/kdm/kdm-dlg.cpp
+--- kdebase-workspace.orig/kcontrol/kdm/kdm-dlg.cpp	2007-09-15 13:31:20.000000000 +0200
++++ kdebase-workspace.patched/kcontrol/kdm/kdm-dlg.cpp	2007-09-16 16:12:04.000000000 +0200
+@@ -279,7 +279,7 @@
+ 
+ 	// Read the greeting string
+ 	greetstr_lined->setText( configGrp.readEntry( "GreetString",
+-	                                            i18n("Welcome to %s at %n") ) );
++	                                            i18n("Welcome to Debian at %n") ) );
+ 
+ 	// Regular logo or clock
+ 	QString logoArea = configGrp.readEntry( "LogoArea", "Logo" );
+@@ -307,7 +307,7 @@
+ 
+ void KDMDialogWidget::defaults()
+ {
+-	greetstr_lined->setText( i18n("Welcome to %s at %n") );
++	greetstr_lined->setText( i18n("Welcome to Debian at %n") );
+ 	logoRadio->setChecked( true );
+ 	slotAreaRadioClicked( KdmLogo );
+ 	setLogo( "" );
+diff -Naur kdebase-workspace.orig/kdm/config.def kdebase-workspace.patched/kdm/config.def
+--- kdebase-workspace.orig/kdm/config.def	2007-09-15 13:31:20.000000000 +0200
++++ kdebase-workspace.patched/kdm/config.def	2007-09-16 16:13:35.000000000 +0200
+@@ -47,11 +47,11 @@
+ #endif
+ 
+ #if defined(BSD) || defined(__linux__)
+-# define DEF_USER_PATH KDM_DEF_USER_PATH
+-# define DEF_SYSTEM_PATH KDM_DEF_SYSTEM_PATH
++# define DEF_USER_PATH "/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games"
++# define DEF_SYSTEM_PATH "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11"
+ #else
+-# define DEF_USER_PATH KDM_DEF_USER_PATH ":/usr/ucb"
+-# define DEF_SYSTEM_PATH KDM_DEF_SYSTEM_PATH ":/etc:/usr/ucb"
++# define DEF_USER_PATH "/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games:/usr/ucb"
++# define DEF_SYSTEM_PATH "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/etc:/usr/ucb"
+ #endif
+ 
+ #if 0 /*def HASXDMAUTH*/
+@@ -1356,7 +1356,7 @@
+  This string is subject to word splitting.
+  </para><para>
+  The default is something reasonable for the system on which &kdm; was built,
+- like <command>/usr/X11R6/bin/X</command>.
++ like <command>/usr/bin/X</command>.
+ 
+ Key: ServerArgsLocal
+ Type: string
+@@ -1931,10 +1931,10 @@
+ 
+ Key: SessionsDirs
+ Type: list
+-Default: KDMDATA "/sessions"
++Default: "/usr/share/xsessions,/var/lib/menu-xdg/xsessions,/usr/share/apps/kdm/sessions"
+ User: core
+ User: greeter-c
+-Instance: #*/"/etc/X11/sessions,/usr/share/xsessions"
++Instance: #*/"/usr/share/xsessions,/var/lib/menu-xdg/xsessions,/usr/share/apps/kdm/sessions"
+ Comment:
+  The directories containing session type definitions in .desktop format.
+ Description:
+@@ -2000,7 +2000,7 @@
+ 
+ Key: UseSessReg
+ Type: bool
+-Default: true
++Default: false
+ User: core
+ Instance: #*/!
+ Comment:
+@@ -2096,9 +2096,9 @@
+ 
+ Key: GreetString
+ Type: string
+-Default: "Welcome to %s at %n"
++Default: "Welcome to Debian at %n"
+ User: greeter
+-Instance: #*/"K Desktop Environment (%n)"
++Instance: #*/"Welcome to Debian at %n"
+ Comment:
+  The headline in the greeter. The following character pairs are replaced:
+  - %d -> current display
+@@ -2532,7 +2532,6 @@
+ Default: 0
+ User: greeter
+ Instance: #*/
+-Update: upd_forgingseed
+ Comment:
+  Random seed for forging saved session types, etc. of unknown users.
+  This value should be random but constant across the login domain.
+@@ -2629,7 +2628,7 @@
+ Type: bool
+ Default: true
+ User: greeter
+-Instance: :*/false
++Instance: :*/true
+ Comment: &
+ Description:
+  Show the <guilabel>Restart X Server</guilabel>/<guilabel>Close Connection</guilabel> action in the greeter.

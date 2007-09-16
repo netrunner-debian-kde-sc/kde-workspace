@@ -1,0 +1,19 @@
+diff -Naur kdebase-workspace.orig/kdm/kfrontend/kgreeter.cpp kdebase-workspace.patched/kdm/kfrontend/kgreeter.cpp
+--- kdebase-workspace.orig/kdm/kfrontend/kgreeter.cpp	2007-09-15 13:31:20.000000000 +0200
++++ kdebase-workspace.patched/kdm/kfrontend/kgreeter.cpp	2007-09-16 15:02:20.000000000 +0200
+@@ -327,7 +327,6 @@
+ KGreeter::putSession( const QString &type, const QString &name, bool hid, const char *exe )
+ {
+ 	int prio = exe ? (!strcmp( exe, "default" ) ? 0 :
+-	                  !strcmp( exe, "custom" ) ? 1 :
+ 	                  !strcmp( exe, "failsafe" ) ? 3 : 2) : 2;
+ 	for (int i = 0; i < sessionTypes.size(); i++)
+ 		if (sessionTypes[i].type == type) {
+@@ -356,7 +355,6 @@
+ 				            dsk.readEntry( "Exec" ).toLatin1() );
+ 			}
+ 	putSession( "default", i18n("Default"), false, "default" );
+-	putSession( "custom", i18n("Custom"), false, "custom" );
+ 	putSession( "failsafe", i18n("Failsafe"), false, "failsafe" );
+ 	qSort( sessionTypes );
+ 	for (int i = 0; i < sessionTypes.size() && !sessionTypes[i].hid; i++) {

@@ -1,1 +1,8 @@
 01_kdehome_kde4.diff
+02_kdmrc_defaults.diff
+03_genkdmconf.diff
+04_genkdm_make.diff
+05_kdm_no_custom.diff
+06_kdm_X_path.diff
+07_be_better_at_honouring_user_kdm_theming.diff
+08_kdm_override_docs.diff
