@@ -1,4 +1,4 @@
-kdebase-workspace (4:3.93.0-3) UNRELEASED; urgency=low
+kdebase-workspace (4:3.94.0-1) UNRELEASED; urgency=low
 
   +++ Changes by Armin Berres:
 
@@ -6,7 +6,7 @@ kdebase-workspace (4:3.93.0-3) UNRELEASED; urgency=low
   * Port Debian specific settings and patches for kdm from KDE3
   * Move kde.desktop into kdebase-workspace-data and install it in /usr/share/xsessions
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Sep 2007 20:30:25 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Sep 2007 14:54:58 +0200
 
 kdebase-workspace (4:3.93.0-2) experimental; urgency=low
 
