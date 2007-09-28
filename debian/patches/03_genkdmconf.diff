@@ -1,6 +1,5 @@
-diff -Naur kdebase-workspace.orig/kdm/kfrontend/genkdmconf.c kdebase-workspace.patched/kdm/kfrontend/genkdmconf.c
---- kdebase-workspace.orig/kdm/kfrontend/genkdmconf.c	2007-09-15 13:31:20.000000000 +0200
-+++ kdebase-workspace.patched/kdm/kfrontend/genkdmconf.c	2007-09-16 14:54:06.000000000 +0200
+--- a/kdm/kfrontend/genkdmconf.c
++++ b/kdm/kfrontend/genkdmconf.c
 @@ -516,7 +516,7 @@
  "# right hand sides can match.\n"
  "#\n"
@@ -18,7 +17,7 @@ diff -Naur kdebase-workspace.orig/kdm/kfrontend/genkdmconf.c kdebase-workspace.p
 +"#*		CHOOSER BROADCAST	#any indirect host can get a chooser\n"
  "\n"
  "#\n"
- "# If you'd prefer to configure the set of hosts each terminal sees,\n"
+ "# If you would prefer to configure the set of hosts each terminal sees,\n"
 @@ -570,35 +570,25 @@
  "#! /bin/sh\n"
  "# Xstartup - run as root before session starts\n"
@@ -35,7 +34,7 @@ diff -Naur kdebase-workspace.orig/kdm/kfrontend/genkdmconf.c kdebase-workspace.p
  "\n"
 -#ifdef _AIX
 -"# We create a pseudodevice for finger.  (host:0 becomes xdm/host_0)\n"
--"# Without it, finger errors out with \"Can't stat /dev/host:0\".\n"
+-"# Without it, finger errors out with \"Cannot stat /dev/host:0\".\n"
 -"#\n"
 -"#devname=`echo $DISPLAY | cut -c1-8`\n"
 -"#if [ ! -d /dev/xdm ]; then\n"

@@ -1,7 +1,6 @@
-diff -Naur kdebase-workspace.orig/kdm/kfrontend/CMakeLists.txt kdebase-workspace.patched/kdm/kfrontend/CMakeLists.txt
---- kdebase-workspace.orig/kdm/kfrontend/CMakeLists.txt	2007-09-15 13:31:20.000000000 +0200
-+++ kdebase-workspace.patched/kdm/kfrontend/CMakeLists.txt	2007-09-16 14:59:10.000000000 +0200
-@@ -106,5 +106,5 @@
+--- a/kdm/kfrontend/CMakeLists.txt
++++ b/kdm/kfrontend/CMakeLists.txt
+@@ -108,5 +108,5 @@
  
  ## use 'GENKDMCONF_FLAGS=... make install' to override
  install(CODE "
