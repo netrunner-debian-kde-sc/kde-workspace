@@ -2,15 +2,16 @@ kdebase-workspace (4:3.94.0-1) UNRELEASED; urgency=low
 
   +++ Changes by Armin Berres:
 
-  * Remove some Oxygen icons from ksysguard which are already shipped by kdebase-data
-  * Port Debian specific scripts, settings and patches for kdm, konsole, kwin and 
-    more from KDE3
+  * Remove some Oxygen icons from ksysguard which are already shipped by
+    kdebase-data.
+  * Port Debian specific scripts, settings and patches for kdm, konsole, kwin and
+    more from KDE3.
   * Add conflict of kdm with desktop-base << 4.0.4 because of missing
-    KdmGreeterTheme.desktop
+    KdmGreeterTheme.desktop.
   * Move kde.desktop into kdebase-workspace-data and install it in
-    /usr/share/xsessions
+    /usr/share/xsessions.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Sep 2007 17:52:23 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Sep 2007 22:53:33 +0200
 
 kdebase-workspace (4:3.93.0-2) experimental; urgency=low
 
