@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>
-Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdelibs5-dev (>= 3.93.0),
+Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdelibs5-dev (>= 3.94.0),
  network-manager-dev, libbluetooth-dev, libnm-util-dev, libraw1394-dev
 Standards-Version: 3.7.2
 

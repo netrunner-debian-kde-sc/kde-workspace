@@ -6,16 +6,7 @@ usr/lib/libprocesscore.so.4.0.0
 usr/lib/libprocessui.so.4.0.0
 usr/share/applications/kde4/ksysguard.desktop
 usr/share/icons/crystalsvg/128x128/apps/ksysguard.png
-usr/share/icons/crystalsvg/16x16/apps/computer.png
-usr/share/icons/crystalsvg/16x16/apps/daemon.png
-usr/share/icons/crystalsvg/16x16/apps/kdeapp.png
-usr/share/icons/crystalsvg/16x16/apps/kernel.png
-usr/share/icons/crystalsvg/16x16/apps/ksysguardd.png
 usr/share/icons/crystalsvg/16x16/apps/ksysguard.png
-usr/share/icons/crystalsvg/16x16/apps/running.png
-usr/share/icons/crystalsvg/16x16/apps/shell.png
-usr/share/icons/crystalsvg/16x16/apps/unknownapp.png
-usr/share/icons/crystalsvg/16x16/apps/waiting.png
 usr/share/icons/crystalsvg/32x32/apps/ksysguard.png
 usr/share/icons/crystalsvg/48x48/apps/ksysguard.png
 usr/share/icons/crystalsvg/64x64/apps/ksysguard.png

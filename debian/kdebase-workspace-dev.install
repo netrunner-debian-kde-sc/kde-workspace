@@ -11,7 +11,6 @@ usr/include/KDE/Plasma/DataEngine
 usr/include/KDE/Plasma/DataEngineManager
 usr/include/KDE/Plasma/GLApplet
 usr/include/KDE/Plasma/Package
-usr/include/KDE/Plasma/Packager
 usr/include/KDE/Plasma/PackageStructure
 usr/include/KDE/Plasma/Phase
 usr/include/KDE/Plasma/Plasma

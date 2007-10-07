@@ -10,8 +10,9 @@ kdebase-workspace (4:3.94.0-1) UNRELEASED; urgency=low
     KdmGreeterTheme.desktop.
   * Move kde.desktop into kdebase-workspace-data and install it in
     /usr/share/xsessions.
+  * Update *.install files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Sep 2007 23:16:09 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 08 Oct 2007 01:10:11 +0200
 
 kdebase-workspace (4:3.93.0-2) experimental; urgency=low
 

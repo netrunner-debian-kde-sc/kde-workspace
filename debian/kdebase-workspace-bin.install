@@ -9,7 +9,6 @@ usr/bin/kdeinstallktheme
 usr/bin/kdostartupconfig
 usr/bin/khotkeys
 usr/bin/kmenuedit
-usr/bin/kpager
 usr/bin/krandom.kss
 usr/bin/krandrtray
 usr/bin/krdb
@@ -62,7 +61,6 @@ usr/lib/kde4/kstyle_keramik_config.so
 usr/lib/kde4/libexec/test_kcm_xinerama
 usr/lib/kde4/plasma_animator_default.so
 usr/lib/kde4/plasma_applet_clock.so
-usr/lib/kde4/plasma_applet_url.so
 usr/lib/kde4/plasma_engine_time.so
 usr/lib/kde4/solid_bluez.so
 usr/lib/kde4/solid_fakebluetooth.so

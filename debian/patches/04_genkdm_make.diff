@@ -1,6 +1,6 @@
 --- a/kdm/kfrontend/CMakeLists.txt
 +++ b/kdm/kfrontend/CMakeLists.txt
-@@ -108,5 +108,5 @@
+@@ -110,5 +110,5 @@
  
  ## use 'GENKDMCONF_FLAGS=... make install' to override
  install(CODE "
