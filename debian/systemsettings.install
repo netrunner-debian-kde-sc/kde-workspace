@@ -11,17 +11,6 @@ usr/share/kde4/apps/systemsettings/systemsettingsui.rc
 usr/share/kde4/services/ion-bbcukmet.desktop
 usr/share/kde4/services/ion-envcan.desktop
 usr/share/kde4/services/ion-noaa.desktop
-usr/share/kde4/services/plasma-applet-systemtray.desktop
-usr/share/kde4/services/plasma-battery-default.desktop
-usr/share/kde4/services/plasma-clock-analog.desktop
-usr/share/kde4/services/plasma-containment-desktop.desktop
-usr/share/kde4/services/plasma-containment-panel.desktop
-usr/share/kde4/services/plasma-engine-dict.desktop
-usr/share/kde4/services/plasma-engine-filebrowser.desktop
-usr/share/kde4/services/plasma-engine-powermanagement.desktop
-usr/share/kde4/services/plasma-engine-weather.desktop
-usr/share/kde4/services/plasma-pager-default.desktop
-usr/share/kde4/services/plasma-tasks-default.desktop
 usr/share/kde4/services/settings-about-me.desktop
 usr/share/kde4/services/settings-accessibility.desktop
 usr/share/kde4/services/settings-advanced-user-settings.desktop

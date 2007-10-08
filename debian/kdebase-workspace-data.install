@@ -366,8 +366,10 @@ usr/share/kde4/apps/desktoptheme/default/widgets/bar_meter_vertical.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/battery.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/clock.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/connection-established.svg
+usr/share/kde4/apps/desktoptheme/default/widgets/digital-clock.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/iconbutton.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/panel-background.svg
+usr/share/kde4/apps/desktoptheme/default/widgets/picture-frame-default.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/plot-background.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/toolbox-button.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/wallpaper.svg
@@ -393,8 +395,10 @@ usr/share/kde4/apps/kconf_update/kcmdisplayrc.upd
 usr/share/kde4/apps/kconf_update/khotkeys_32b1_update.upd
 usr/share/kde4/apps/kconf_update/konqueror_gestures_kde321_update.upd
 usr/share/kde4/apps/kconf_update/ksmserver.upd
+usr/share/kde4/apps/kconf_update/kwin_on_off.upd
 usr/share/kde4/apps/kconf_update/mouse_cursor_theme.upd
 usr/share/kde4/apps/kconf_update/move_session_config.sh
+usr/share/kde4/apps/kconf_update/on-off_to_true-false.sh
 usr/share/kde4/apps/kcontrol/pics/anchor.png
 usr/share/kde4/apps/kcontrol/pics/energybig.png
 usr/share/kde4/apps/kcontrol/pics/lo-energy.png
@@ -457,6 +461,7 @@ usr/share/kde4/apps/kdisplay/color-schemes/Windows2000.kcsrc
 usr/share/kde4/apps/kdisplay/color-schemes/Windows95.kcsrc
 usr/share/kde4/apps/kdisplay/color-schemes/WindowsXP.kcsrc
 usr/share/kde4/apps/kdisplay/color-schemes/YellowOnBlue.kcsrc
+usr/share/kde4/apps/kdm/sessions/kde.desktop
 usr/share/kde4/apps/kdm/sessions/kde.desktop usr/share/xsessions
 usr/share/kde4/apps/khotkeys/kde32b1.khotkeys
 usr/share/kde4/apps/khotkeys/konqueror_gestures_kde321.khotkeys
@@ -553,7 +558,22 @@ usr/share/kde4/services/opengl.desktop
 usr/share/kde4/services/partitions.desktop
 usr/share/kde4/services/pci.desktop
 usr/share/kde4/services/plasma-animator-default.desktop
+usr/share/kde4/services/plasma-applet-systemtray.desktop
+usr/share/kde4/services/plasma-battery-default.desktop
+usr/share/kde4/services/plasma-clock-analog.desktop
+usr/share/kde4/services/plasma-clock-digital.desktop
+usr/share/kde4/services/plasma-containment-desktop.desktop
+usr/share/kde4/services/plasma-containment-panel.desktop
+usr/share/kde4/services/plasma-engine-dict.desktop
+usr/share/kde4/services/plasma-engine-filebrowser.desktop
+usr/share/kde4/services/plasma-engine-mouse.desktop
+usr/share/kde4/services/plasma-engine-powermanagement.desktop
+usr/share/kde4/services/plasma-engine-tasks.desktop
 usr/share/kde4/services/plasma-engine-time.desktop
+usr/share/kde4/services/plasma-engine-weather.desktop
+usr/share/kde4/services/plasma-frame-default.desktop
+usr/share/kde4/services/plasma-pager-default.desktop
+usr/share/kde4/services/plasma-tasks-default.desktop
 usr/share/kde4/services/processor.desktop
 usr/share/kde4/services/randr.desktop
 usr/share/kde4/services/screensaver.desktop
@@ -576,6 +596,7 @@ usr/share/kde4/servicetypes/screensaver.desktop
 usr/share/kde4/servicetypes/solidbluetoothmanager.desktop
 usr/share/kde4/servicetypes/solidnetworkmanager.desktop
 usr/share/kde4/servicetypes/solidpowermanager.desktop
+usr/share/kde4/servicetypes/weather_ion.desktop
 usr/share/wallpapers/All-Good-People-1.jpg
 usr/share/wallpapers/All-Good-People-1.jpg.desktop
 usr/share/wallpapers/Chicken-Songs-2.jpg
