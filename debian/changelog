@@ -11,8 +11,9 @@ kdebase-workspace (4:3.94.0-1) UNRELEASED; urgency=low
   * Move kde.desktop into kdebase-workspace-data and install it in
     /usr/share/xsessions.
   * Update *.install files.
+  * Add libstrigiqtdbusclient-dev as build dependency (needed for kickoff).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 08 Oct 2007 01:10:11 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Oct 2007 19:41:44 +0200
 
 kdebase-workspace (4:3.93.0-2) experimental; urgency=low
 
