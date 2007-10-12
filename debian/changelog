@@ -13,6 +13,10 @@ kdebase-workspace (4:3.94.0-1) UNRELEASED; urgency=low
   * Update *.install files.
   * Add libstrigiqtdbusclient-dev as build dependency (needed for kickoff).
 
+  +++ Changes by Fathi Boudra:
+
+  * Add libqimageblitz-dev build dependency.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Oct 2007 19:41:44 +0200
 
 kdebase-workspace (4:3.93.0-2) experimental; urgency=low
