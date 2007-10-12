@@ -48,7 +48,8 @@ Package: kdebase-workspace-dev
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace (>= ${binary:Version}),
- network-manager-dev, libbluetooth-dev, libnm-util-dev, libraw1394-dev
+ kdelibs5-dev, network-manager-dev, libbluetooth-dev, libnm-util-dev,
+ libraw1394-dev
 Description: development files for the KDE base module
  This package contains headers and other development files needed to compile
  software based on the KDE base module.
