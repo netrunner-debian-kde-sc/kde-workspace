@@ -549,6 +549,7 @@ usr/share/kde4/services/kdm.desktop
 usr/share/kde4/services/keys.desktop
 usr/share/kde4/services/khotkeys.desktop
 usr/share/kde4/services/krunner_calculatorrunner.desktop
+usr/share/kde4/services/krunner_searchrunner.desktop
 usr/share/kde4/services/ksplashthememgr.desktop
 usr/share/kde4/services/kthememanager.desktop
 usr/share/kde4/services/memory.desktop
@@ -572,6 +573,7 @@ usr/share/kde4/services/plasma-engine-tasks.desktop
 usr/share/kde4/services/plasma-engine-time.desktop
 usr/share/kde4/services/plasma-engine-weather.desktop
 usr/share/kde4/services/plasma-frame-default.desktop
+usr/share/kde4/services/plasma-launcher-applet.desktop
 usr/share/kde4/services/plasma-pager-default.desktop
 usr/share/kde4/services/plasma-tasks-default.desktop
 usr/share/kde4/services/processor.desktop

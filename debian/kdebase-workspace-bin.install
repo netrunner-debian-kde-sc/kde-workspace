@@ -8,6 +8,7 @@ usr/bin/kcontroledit
 usr/bin/kdeinstallktheme
 usr/bin/kdostartupconfig
 usr/bin/khotkeys
+usr/bin/kickoff
 usr/bin/kmenuedit
 usr/bin/krandom.kss
 usr/bin/krandrtray
@@ -59,7 +60,9 @@ usr/lib/kde4/kded_khotkeys.so
 usr/lib/kde4/kded_networkstatus.so
 usr/lib/kde4/kgreet_classic.so
 usr/lib/kde4/kgreet_winbind.so
+usr/lib/kde4/kickoff_plasma_applet_launcher.so
 usr/lib/kde4/krunner_calculatorrunner.so
+usr/lib/kde4/krunner_searchrunner.so
 usr/lib/kde4/kstyle_keramik_config.so
 usr/lib/kde4/libexec/test_kcm_xinerama
 usr/lib/kde4/plasma_animator_default.so
