@@ -3,9 +3,9 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>
-Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdelibs5-dev (>= 3.94.0),
- network-manager-dev, libbluetooth-dev, libnm-util-dev, libqimageblitz-dev,
- libraw1394-dev, libstrigiqtdbusclient-dev
+Build-Depends: cdbs, debhelper (>= 5), quilt, cmake,
+ kdepimlibs5-dev (>= 3.94.0), network-manager-dev, libbluetooth-dev,
+ libnm-util-dev, libqimageblitz-dev, libraw1394-dev, libstrigiqtdbusclient-dev
 Standards-Version: 3.7.2
 
 Package: kdebase-workspace
@@ -48,8 +48,8 @@ Package: kdebase-workspace-dev
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace (>= ${binary:Version}),
- kdelibs5-dev, network-manager-dev, libbluetooth-dev, libnm-util-dev,
- libraw1394-dev
+ kdepimlibs5-dev (>= 3.94.0), network-manager-dev, libbluetooth-dev,
+ libnm-util-dev, libqimageblitz-dev, libraw1394-dev, libstrigiqtdbusclient-dev
 Description: development files for the KDE base module
  This package contains headers and other development files needed to compile
  software based on the KDE base module.

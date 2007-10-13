@@ -12,7 +12,7 @@ kdebase-workspace (4:3.94.0-1) UNRELEASED; urgency=low
     /usr/share/xsessions.
   * Update *.install files.
   * Add libstrigiqtdbusclient-dev as build dependency (needed for kickoff).
-  * Add dependency of kdebase-workspace-dev on kdelibs5-dev.
+  * Add dependency of kdebase-workspace-dev on kdepimlibs5-dev.
 
   +++ Changes by Fathi Boudra:
 
