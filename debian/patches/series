@@ -1,3 +1,4 @@
+05_fix_kde_confdir.diff
 06_kdehome_kde4.diff
 07_kdmrc_defaults.diff
 08_genkdmconf.diff
