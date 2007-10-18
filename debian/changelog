@@ -18,10 +18,6 @@ kdebase-workspace (4:3.94.0-1) experimental; urgency=low
 
   * Add libqimageblitz-dev build dependency.
 
-  +++ Changes by Sune Vuorela:
-
-  * Fix kde config dir in kdm.
-
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Oct 2007 13:55:32 +0200
 
 kdebase-workspace (4:3.93.0-2) experimental; urgency=low
