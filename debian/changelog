@@ -13,12 +13,15 @@ kdebase-workspace (4:3.94.0-1) experimental; urgency=low
   * Update *.install files.
   * Add libstrigiqtdbusclient-dev as build dependency (needed for kickoff).
   * Add dependency of kdebase-workspace-dev on kdepimlibs5-dev.
+  * Cherry pick some patches from upstream which are needed for
+    co-installability of kde4base and kde3libs and a correct search path for
+    kdm. Namely r726655, r725907, r725662, r725652, r725648 and r725642.
 
   +++ Changes by Fathi Boudra:
 
   * Add libqimageblitz-dev build dependency.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Oct 2007 13:55:32 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 19:51:37 +0200
 
 kdebase-workspace (4:3.93.0-2) experimental; urgency=low
 
