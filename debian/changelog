@@ -1,5 +1,7 @@
 kdebase-workspace (4:3.94.0-1) experimental; urgency=low
 
+  * svn branch pull to r726786.
+
   +++ Changes by Armin Berres:
 
   * Remove some Oxygen icons from ksysguard which are already shipped by
@@ -13,9 +15,6 @@ kdebase-workspace (4:3.94.0-1) experimental; urgency=low
   * Update *.install files.
   * Add libstrigiqtdbusclient-dev as build dependency (needed for kickoff).
   * Add dependency of kdebase-workspace-dev on kdepimlibs5-dev.
-  * Cherry pick some patches from upstream which are needed for
-    co-installability of kde4base and kde3libs and a correct search path for
-    kdm. Namely r726655, r725907, r725662, r725652, r725648 and r725642.
 
   +++ Changes by Fathi Boudra:
 
