@@ -1,5 +1,6 @@
 usr/include/KDE/Plasma/AbstractRunner
 usr/include/KDE/Plasma/Applet
+usr/include/KDE/Plasma/AppletBrowser
 usr/include/KDE/Plasma/ConfigXml
 usr/include/KDE/Plasma/Containment
 usr/include/KDE/Plasma/DataContainer
@@ -73,6 +74,7 @@ usr/include/plasma/widgets/layoutanimator.h
 usr/include/plasma/widgets/layoutitem.h
 usr/include/plasma/widgets/lineedit.h
 usr/include/plasma/widgets/meter.h
+usr/include/plasma/widgets/nodelayout.h
 usr/include/plasma/widgets/progressbar.h
 usr/include/plasma/widgets/pushbutton.h
 usr/include/plasma/widgets/radiobutton.h

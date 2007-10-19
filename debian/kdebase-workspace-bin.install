@@ -6,9 +6,8 @@ usr/bin/kcminit
 usr/bin/kcminit_startup
 usr/bin/kcontroledit
 usr/bin/kdeinstallktheme
-usr/bin/kdostartupconfig
+usr/bin/kdostartupconfig4
 usr/bin/khotkeys
-usr/bin/kickoff
 usr/bin/kmenuedit
 usr/bin/krandom.kss
 usr/bin/krandrtray
@@ -19,7 +18,7 @@ usr/bin/ksmserver
 usr/bin/ksplashsimple
 usr/bin/ksplashx
 usr/bin/ksplashx_scale
-usr/bin/kstartupconfig
+usr/bin/kstartupconfig4
 usr/bin/ksystraycmd
 usr/bin/ktip
 usr/bin/plasma
@@ -60,16 +59,15 @@ usr/lib/kde4/kded_khotkeys.so
 usr/lib/kde4/kded_networkstatus.so
 usr/lib/kde4/kgreet_classic.so
 usr/lib/kde4/kgreet_winbind.so
-usr/lib/kde4/kickoff_plasma_applet_launcher.so
 usr/lib/kde4/krunner_calculatorrunner.so
 usr/lib/kde4/krunner_searchrunner.so
+usr/lib/kde4/krunner_webshortcuts.so
 usr/lib/kde4/kstyle_keramik_config.so
 usr/lib/kde4/libexec/test_kcm_xinerama
 usr/lib/kde4/plasma_animator_default.so
 usr/lib/kde4/plasma_applet_battery.so
 usr/lib/kde4/plasma_applet_clock.so
 usr/lib/kde4/plasma_applet_dig_clock.so
-usr/lib/kde4/plasma_applet_frame.so
 usr/lib/kde4/plasma_applet_pager.so
 usr/lib/kde4/plasma_applet_systemtray.so
 usr/lib/kde4/plasma_applet_tasks.so
@@ -82,6 +80,9 @@ usr/lib/kde4/plasma_engine_powermanagement.so
 usr/lib/kde4/plasma_engine_tasks.so
 usr/lib/kde4/plasma_engine_time.so
 usr/lib/kde4/plasma_engine_weather.so
+usr/lib/kde4/plasma_engine_hotplug.so
+usr/lib/kde4/plasma_engine_places.so
+usr/lib/kde4/plasma_engine_soliddevice.so
 usr/lib/kde4/solid_bluez.so
 usr/lib/kde4/solid_fakebluetooth.so
 usr/lib/kde4/solid_fakenet.so

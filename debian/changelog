@@ -1,13 +1,16 @@
 kdebase-workspace (4:3.94.0-1) experimental; urgency=low
 
-  * svn branch pull to r726786.
+  +++ Changes by Fathi Boudra:
 
+  * Pull SVN branch to r726786.
+  * Add libqimageblitz-dev build dependency.
+  
   +++ Changes by Armin Berres:
 
   * Remove some Oxygen icons from ksysguard which are already shipped by
     kdebase-data.
-  * Port Debian specific scripts, settings and patches for kdm, konsole, kwin and
-    more from KDE3.
+  * Port Debian specific scripts, settings and patches for kdm, konsole, kwin
+    and more from KDE3.
   * Add conflict of kdm with desktop-base << 4.0.4 because of missing
     KdmGreeterTheme.desktop.
   * Move kde.desktop into kdebase-workspace-data and install it in
@@ -15,11 +18,7 @@ kdebase-workspace (4:3.94.0-1) experimental; urgency=low
   * Update *.install files.
   * Add libstrigiqtdbusclient-dev as build dependency (needed for kickoff).
   * Add dependency of kdebase-workspace-dev on kdepimlibs5-dev.
-
-  +++ Changes by Fathi Boudra:
-
-  * Add libqimageblitz-dev build dependency.
-
+ 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 19:51:37 +0200
 
 kdebase-workspace (4:3.93.0-2) experimental; urgency=low

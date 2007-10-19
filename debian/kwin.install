@@ -14,11 +14,15 @@ usr/lib/kde4/kwin3_oxy.so
 usr/lib/kde4/kwin3_plastik.so
 usr/lib/kde4/kwin3_quartz.so
 usr/lib/kde4/kwin3_web.so
+usr/lib/kde4/kwin3_laptop.so
+usr/lib/kde4/kwin3_modernsys.so
+usr/lib/kde4/kwin3_redmond.so
 usr/lib/kde4/kwin4_effect_builtins.so
 usr/lib/kde4/kwin4_effect_tests.so
 usr/lib/kde4/kwin_b2_config.so
 usr/lib/kde4/kwin_kde2_config.so
 usr/lib/kde4/kwin_keramik_config.so
+usr/lib/kde4/kwin_modernsys_config.so
 usr/lib/kde4/kwin_plastik_config.so
 usr/lib/kde4/kwin_quartz_config.so
 usr/lib/libkdecorations.so.4
@@ -58,6 +62,9 @@ usr/share/kde4/apps/kwin/oxygenclient.desktop
 usr/share/kde4/apps/kwin/plastik.desktop
 usr/share/kde4/apps/kwin/quartz.desktop
 usr/share/kde4/apps/kwin/web.desktop
+usr/share/kde4/apps/kwin/laptop.desktop
+usr/share/kde4/apps/kwin/modernsystem.desktop
+usr/share/kde4/apps/kwin/redmond.desktop
 usr/share/kde4/config.kcfg/kwin.kcfg
 usr/share/kde4/services/kwinactions.desktop
 usr/share/kde4/services/kwinadvanced.desktop
