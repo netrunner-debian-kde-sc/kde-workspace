@@ -137,3 +137,12 @@ Description: KDE System Settings Center
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
 
+Package: kdebase-workspace-dbg
+Section: devel
+Architecture: any
+Priority: extra
+Depends: kdebase-workspace (= ${binary:Version}), kdepimlibs-dbg
+Description: debugging symbols for kdebase-workspace
+ This package contains the debugging symbols associated with kdebase-workspace.
+ They will automatically be used by gdb for debugging kdebase-workspace-related
+ issues.
