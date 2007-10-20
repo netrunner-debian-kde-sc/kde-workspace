@@ -1,8 +1,14 @@
 kdebase-workspace (4:3.94.0-2) experimental; urgency=low
 
+  +++ Changes by Fathi Boudra:
+
+  * Add libcaptury-dev build dependency.
+
+  +++ Changes by Armin Berres:
+
   * Add debug package.
 
- -- Armin Berres <trigger+debian@space-based.de>  Fri, 19 Oct 2007 19:39:24 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Oct 2007 11:26:35 +0200
 
 kdebase-workspace (4:3.94.0-1) experimental; urgency=low
 
@@ -10,7 +16,7 @@ kdebase-workspace (4:3.94.0-1) experimental; urgency=low
 
   * Pull SVN branch to r726786.
   * Add libqimageblitz-dev build dependency.
-  
+
   +++ Changes by Armin Berres:
 
   * Remove some Oxygen icons from ksysguard which are already shipped by
@@ -24,7 +30,7 @@ kdebase-workspace (4:3.94.0-1) experimental; urgency=low
   * Update *.install files.
   * Add libstrigiqtdbusclient-dev as build dependency (needed for kickoff).
   * Add dependency of kdebase-workspace-dev on kdepimlibs5-dev.
- 
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Oct 2007 19:51:37 +0200
 
 kdebase-workspace (4:3.93.0-2) experimental; urgency=low
