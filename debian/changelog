@@ -7,8 +7,10 @@ kdebase-workspace (4:3.94.0-2) experimental; urgency=low
   +++ Changes by Armin Berres:
 
   * Add debug package.
+  * Let kdebase-workspace-dev strictly depend on the same binary version of
+    kdebase-workspace.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Oct 2007 11:26:35 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Oct 2007 13:00:31 +0200
 
 kdebase-workspace (4:3.94.0-1) experimental; urgency=low
 
