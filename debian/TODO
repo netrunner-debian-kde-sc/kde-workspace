@@ -1,0 +1,2 @@
+plasma expects breakage in ABI => split libplasma out in seperate package
+split rest of the libs in kdebase-workspace-bin out in kdebase-workspace-libs and maybe even more packages depending on upstreams predictions on abi-stability
