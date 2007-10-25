@@ -2,6 +2,7 @@ kdebase-workspace (4:3.94.0-2) experimental; urgency=low
 
   +++ Changes by Fathi Boudra:
 
+  * Pull SVN branch to r729279.
   * Add libcaptury-dev build dependency.
   * Add *videorecord* to kwin package.
 
