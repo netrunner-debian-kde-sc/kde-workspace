@@ -1,8 +1,9 @@
-kdebase-workspace (4:3.94.0-2) experimental; urgency=low
+kdebase-workspace (4:3.95.0-1) experimental; urgency=low
+
+  * New upstream release: KDE4 beta 4.
 
   +++ Changes by Fathi Boudra:
 
-  * Pull SVN branch to r729279.
   * Add libcaptury-dev build dependency.
   * Add *videorecord* to kwin package.
 
@@ -11,7 +12,7 @@ kdebase-workspace (4:3.94.0-2) experimental; urgency=low
   * Add debug package.
   * Let kdebase-workspace-dev strictly depend on the same binary version of
     kdebase-workspace.
-  * Build depend on kdepimlibs >= 3.94.0-3.
+  * Build depend on kdepimlibs >= 3.95.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Oct 2007 13:14:59 +0200
 
