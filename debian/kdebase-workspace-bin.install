@@ -113,3 +113,10 @@ usr/lib/libtaskmanager.so.4
 usr/lib/libtaskmanager.so.4.0.0
 usr/lib/libweather_ion.so.4
 usr/lib/libweather_ion.so.4.0.0
+usr/bin/kickoff
+usr/lib/kde4/kcm_keyboard.so
+usr/lib/kde4/kcm_kwin4_effect_builtins.so
+usr/lib/kde4/plasma_applet_devicenotifier.so
+usr/lib/kde4/plasma_applet_launcher.so
+usr/lib/kde4/plasma_applet_lockout.so
+usr/lib/kde4/plasma_applet_url.so

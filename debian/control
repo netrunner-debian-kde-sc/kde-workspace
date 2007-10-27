@@ -119,6 +119,7 @@ Package: kwin
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
+Replaces: kdebase-workspace-bin (<< 3.95.0)
 Provides: x-window-manager
 Description: the KDE window manager
  This package contains the default X window manager for KDE.
