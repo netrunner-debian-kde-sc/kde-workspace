@@ -6,7 +6,7 @@ Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pus
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake,
  kdepimlibs5-dev (>= 3.95.0), network-manager-dev, libbluetooth-dev,
  libcaptury-dev, libnm-util-dev, libqimageblitz-dev, libraw1394-dev,
- libstrigiqtdbusclient-dev
+ libstrigiqtdbusclient-dev, libxkbfile-dev
 Standards-Version: 3.7.2
 
 Package: kdebase-workspace

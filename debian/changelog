@@ -13,8 +13,9 @@ kdebase-workspace (4:3.95.0-1) experimental; urgency=low
   * Let kdebase-workspace-dev strictly depend on the same binary version of
     kdebase-workspace.
   * Build depend on kdepimlibs >= 3.95.0.
+  * Build depend on libxkbfile-dev. 
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Oct 2007 13:14:59 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Oct 2007 12:56:51 +0000
 
 kdebase-workspace (4:3.94.0-1) experimental; urgency=low
 
