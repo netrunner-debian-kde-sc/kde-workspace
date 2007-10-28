@@ -15,6 +15,7 @@ kdebase-workspace (4:3.95.0-1) experimental; urgency=low
   * Let kdebase-workspace-dev strictly depend on the same binary version of
     kdebase-workspace.
   * Build depend on kdepimlibs >= 3.95.0.
+  * Build depend on libxkbfile-dev.
   * Update *.install files.
   * Kwin replaces kdebase-workspace-bin << 3.95.0 because of moved
     /usr/lib/libkdecorations.so.4.
