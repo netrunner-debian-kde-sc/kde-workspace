@@ -6,6 +6,7 @@ kdebase-workspace (4:3.95.0-1) experimental; urgency=low
 
   * Add libcaptury-dev build dependency.
   * Add *videorecord* to kwin package.
+  * Add kdebase-workspace-data build dependency to kdebase-workspace-bin.
 
   +++ Changes by Armin Berres:
 
