@@ -537,6 +537,7 @@ usr/share/kde4/config.kcfg/klaunch.kcfg
 usr/share/kde4/config.kcfg/kscreensaversettings.kcfg
 usr/share/kde4/services/ScreenSavers/kblank.desktop
 usr/share/kde4/services/ScreenSavers/krandom.desktop
+usr/share/kde4/services/accessibility.desktop
 usr/share/kde4/services/background.desktop
 usr/share/kde4/services/bell.desktop
 usr/share/kde4/services/clock.desktop
@@ -561,6 +562,7 @@ usr/share/kde4/services/kded/khotkeys.desktop
 usr/share/kde4/services/kded/networkstatus.desktop
 usr/share/kde4/services/kdm.desktop
 usr/share/kde4/services/keyboard.desktop
+usr/share/kde4/services/keyboard_layout.desktop
 usr/share/kde4/services/keys.desktop
 usr/share/kde4/services/khotkeys.desktop
 usr/share/kde4/services/ksplashthememgr.desktop
