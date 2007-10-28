@@ -4,7 +4,8 @@ kdebase-workspace (4:3.95.0-1) experimental; urgency=low
 
   +++ Changes by Fathi Boudra:
 
-  * Add libcaptury-dev build dependency.
+  * Add libcaptury-dev, libglu1-mesa-dev, libsensors-dev, libusb-dev,
+    libxklavier11-dev, libxxf86misc-dev and mesa-common-dev build dependencies.
   * Add *videorecord* to kwin package.
   * Add kdebase-workspace-data build dependency to kdebase-workspace-bin.
 
@@ -14,7 +15,6 @@ kdebase-workspace (4:3.95.0-1) experimental; urgency=low
   * Let kdebase-workspace-dev strictly depend on the same binary version of
     kdebase-workspace.
   * Build depend on kdepimlibs >= 3.95.0.
-  * Build depend on libxkbfile-dev.
   * Update *.install files.
   * Kwin replaces kdebase-workspace-bin << 3.95.0 because of moved
     /usr/lib/libkdecorations.so.4.
