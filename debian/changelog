@@ -4,8 +4,8 @@ kdebase-workspace (4:3.95.0-1) experimental; urgency=low
 
   +++ Changes by Fathi Boudra:
 
-  * Add libcaptury-dev, libglu1-mesa-dev, libsensors-dev, libusb-dev,
-    libxklavier11-dev, libxxf86misc-dev and mesa-common-dev build dependencies.
+  * Add libcaptury-dev, libsensors-dev, libusb-dev, libxklavier11-dev and
+    libxxf86misc-dev build dependencies.
   * Add *videorecord* to kwin package.
   * Add kdebase-workspace-data build dependency to kdebase-workspace-bin.
 
