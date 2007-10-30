@@ -36,8 +36,7 @@ Description: core binaries for the KDE base module
 
 Package: kdebase-workspace-data
 Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}
+Architecture: all
 Description: shared data files for the KDE base module
  This package contains the architecture-independent shared data files needed
  for a basic KDE desktop installation.

@@ -20,8 +20,9 @@ kdebase-workspace (4:3.95.0-1) experimental; urgency=low
   * Update *.install files.
   * Kwin replaces kdebase-workspace-bin << 3.95.0 because of moved
     /usr/lib/libkdecorations.so.4.
+  * Make kdebase-workspace-data arch all.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Oct 2007 16:23:52 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 31 Oct 2007 00:44:04 +0100
 
 kdebase-workspace (4:3.94.0-1) experimental; urgency=low
 
