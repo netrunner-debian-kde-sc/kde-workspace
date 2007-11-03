@@ -6,7 +6,9 @@ Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pus
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 3.95.0),
  libbluetooth-dev, libcaptury-dev, libnm-util-dev, libqimageblitz-dev,
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev, libusb-dev,
- libxkbfile-dev, libxklavier11-dev, libxxf86misc-dev, network-manager-dev
+ libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
+ libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
+ network-manager-dev
 Standards-Version: 3.7.2
 
 Package: kdebase-workspace
@@ -50,7 +52,9 @@ Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace (= ${binary:Version}), kdepimlibs5-dev (>= 3.95.0),
  libbluetooth-dev, libcaptury-dev, libnm-util-dev, libqimageblitz-dev,
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev, libusb-dev,
- libxkbfile-dev, libxklavier11-dev, libxxf86misc-dev, network-manager-dev
+ libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
+ libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
+ network-manager-dev
 Description: development files for the KDE base module
  This package contains headers and other development files needed to compile
  software based on the KDE base module.
