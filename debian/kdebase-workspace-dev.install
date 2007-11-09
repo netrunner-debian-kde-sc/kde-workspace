@@ -36,8 +36,8 @@ usr/include/ksysguard/process.h
 usr/include/ksysguard/processes.h
 usr/include/kwineffects.h
 usr/include/kwinglobals.h
-usr/include/libworkspace/kwindowlistmenu.h
-usr/include/libworkspace/kworkspace.h
+usr/include/kworkspace/kwindowlistmenu.h
+usr/include/kworkspace/kworkspace.h
 usr/include/plasma/abstractrunner.h
 usr/include/plasma/animator.h
 usr/include/plasma/applet.h

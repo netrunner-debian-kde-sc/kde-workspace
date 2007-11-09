@@ -10,7 +10,7 @@ usr/lib/kde4/kcm_kwinrules.so
 usr/lib/kde4/kwin3_b2.so
 usr/lib/kde4/kwin3_kde2.so
 usr/lib/kde4/kwin3_keramik.so
-usr/lib/kde4/kwin3_oxy.so
+usr/lib/kde4/kwin3_oxygen.so
 usr/lib/kde4/kwin3_plastik.so
 usr/lib/kde4/kwin3_quartz.so
 usr/lib/kde4/kwin3_web.so
@@ -18,7 +18,6 @@ usr/lib/kde4/kwin3_laptop.so
 usr/lib/kde4/kwin3_modernsys.so
 usr/lib/kde4/kwin3_redmond.so
 usr/lib/kde4/kwin4_effect_builtins.so
-usr/lib/kde4/kwin4_effect_tests.so
 usr/lib/kde4/kwin4_effect_videorecord.so
 usr/lib/kde4/kwin_b2_config.so
 usr/lib/kde4/kwin_kde2_config.so
@@ -72,18 +71,13 @@ usr/share/kde4/services/kwinadvanced.desktop
 usr/share/kde4/services/kwin/boxswitch.desktop
 usr/share/kde4/services/kwincompositing.desktop
 usr/share/kde4/services/kwindecoration.desktop
-usr/share/kde4/services/kwin/demo_shakymove.desktop
-usr/share/kde4/services/kwin/demo_shiftworkspaceup.desktop
 usr/share/kde4/services/kwin/demo_taskbarthumbnail.desktop
 usr/share/kde4/services/kwin/desktopgrid.desktop
 usr/share/kde4/services/kwin/dialogparent.desktop
 usr/share/kde4/services/kwin/diminactive.desktop
-usr/share/kde4/services/kwin/drunken.desktop
 usr/share/kde4/services/kwin/fade.desktop
 usr/share/kde4/services/kwin/fallapart.desktop
-usr/share/kde4/services/kwin/flame.desktop
 usr/share/kde4/services/kwinfocus.desktop
-usr/share/kde4/services/kwin/howto.desktop
 usr/share/kde4/services/kwin/maketransparent.desktop
 usr/share/kde4/services/kwin/minimizeanimation.desktop
 usr/share/kde4/services/kwinmoving.desktop
@@ -91,8 +85,6 @@ usr/share/kde4/services/kwinoptions.desktop
 usr/share/kde4/services/kwin/presentwindows.desktop
 usr/share/kde4/services/kwinrules.desktop
 usr/share/kde4/services/kwin/scalein.desktop
-usr/share/kde4/services/kwin/test_input.desktop
-usr/share/kde4/services/kwin/test_thumbnail.desktop
 usr/share/kde4/services/kwin/thumbnailaside.desktop
 usr/share/kde4/services/kwin/zoom.desktop
 usr/share/kde4/services/kwin/videorecord.desktop

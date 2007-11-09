@@ -386,7 +386,6 @@ usr/share/kde4/apps/desktoptheme/default/widgets/iconbutton.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/panel-background.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/plot-background.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/toolbox-button.svg
-usr/share/kde4/apps/desktoptheme/desktoptheme-default.desktop
 usr/share/kde4/apps/kaccess/kaccess.notifyrc
 usr/share/kde4/apps/kcminput/cursor_large_black.pcf.gz
 usr/share/kde4/apps/kcminput/cursor_large_white.pcf.gz
@@ -597,7 +596,6 @@ usr/share/kde4/services/plasma-engine-soliddevice.desktop
 usr/share/kde4/services/plasma-engine-tasks.desktop
 usr/share/kde4/services/plasma-engine-time.desktop
 usr/share/kde4/services/plasma-engine-weather.desktop
-usr/share/kde4/services/plasma-launcher-applet.desktop
 usr/share/kde4/services/plasma-pager-default.desktop
 usr/share/kde4/services/plasma-runner-calculator.desktop
 usr/share/kde4/services/plasma-runner-search.desktop

@@ -11,7 +11,6 @@ usr/share/icons/crystalsvg/32x32/apps/ksysguard.png
 usr/share/icons/crystalsvg/48x48/apps/ksysguard.png
 usr/share/icons/crystalsvg/64x64/apps/ksysguard.png
 usr/share/kde4/apps/kicker/applets/ksysguardapplet.desktop
-usr/share/kde4/apps/ksysguard/default_theme.svg
 usr/share/kde4/apps/ksysguard/KSysGuardApplet.xml
 usr/share/kde4/apps/ksysguard/ksysguard.notifyrc
 usr/share/kde4/apps/ksysguard/ksysguardui.rc

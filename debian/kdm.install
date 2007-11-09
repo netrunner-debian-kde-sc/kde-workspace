@@ -10,10 +10,10 @@ etc/kde4/kdm/Xstartup
 etc/kde4/kdm/Xwilling
 usr/bin/genkdmconf
 usr/bin/kdm
-usr/bin/kdm_config
 usr/bin/kdmctl
-usr/bin/kdm_greet
-usr/bin/krootimage
+usr/lib/kde4/libexec/kdm_config
+usr/lib/kde4/libexec/kdm_greet
+usr/lib/kde4/libexec/krootimage
 usr/share/kde4/apps/doc/kdm/README
 usr/share/kde4/apps/kdm/pics/kdelogo-crystal.png
 usr/share/kde4/apps/kdm/pics/kdelogo.png
