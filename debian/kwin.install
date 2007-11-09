@@ -7,6 +7,7 @@ usr/lib/kde4/kcm_kwincompositing.so
 usr/lib/kde4/kcm_kwindecoration.so
 usr/lib/kde4/kcm_kwinoptions.so
 usr/lib/kde4/kcm_kwinrules.so
+usr/lib/kde4/kcm_kwindesktop.so
 usr/lib/kde4/kwin3_b2.so
 usr/lib/kde4/kwin3_kde2.so
 usr/lib/kde4/kwin3_keramik.so

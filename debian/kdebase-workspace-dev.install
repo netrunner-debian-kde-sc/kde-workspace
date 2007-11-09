@@ -56,6 +56,8 @@ usr/include/plasma/phase.h
 usr/include/plasma/plasma.h
 usr/include/plasma/plasma_export.h
 usr/include/plasma/scriptengine.h
+usr/include/plasma/searchaction.h
+usr/include/plasma/searchcontext.h
 usr/include/plasma/shadowitem_p.h
 usr/include/plasma/svg.h
 usr/include/plasma/taskmanager.h

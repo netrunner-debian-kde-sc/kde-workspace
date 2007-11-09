@@ -11,6 +11,7 @@ usr/share/dbus-1/interfaces/org.freedesktop.ScreenSaver.xml
 usr/share/dbus-1/interfaces/org.kde.KSMServerInterface.xml
 usr/share/dbus-1/interfaces/org.kde.krunner.App.xml
 usr/share/dbus-1/interfaces/org.kde.krunner.Interface.xml
+usr/share/dbus-1/interfaces/org.kde.screensaver.xml
 usr/share/desktop-directories/kde-development-translation.directory
 usr/share/desktop-directories/kde-development-webdevelopment.directory
 usr/share/desktop-directories/kde-development.directory
@@ -371,6 +372,8 @@ usr/share/icons/oxygen/16x16/apps/shell.png
 usr/share/icons/oxygen/16x16/apps/unknownapp.png
 usr/share/icons/oxygen/16x16/apps/waiting.png
 usr/share/kde4/apps/color-schemes/*
+usr/share/kde4/apps/desktoptheme/metadata.desktop
+usr/share/kde4/apps/desktoptheme/default/colors
 usr/share/kde4/apps/desktoptheme/default/dialogs/background.svg
 usr/share/kde4/apps/desktoptheme/default/dialogs/shutdowndlg.svg
 usr/share/kde4/apps/desktoptheme/default/dialogs/shutdowndlgbuttonglow.svg
@@ -529,6 +532,7 @@ usr/share/kde4/apps/kthememanager/themes/YellowOnBlue-big/YellowOnBlue-big.previ
 usr/share/kde4/apps/kthememanager/themes/YellowOnBlue-big/YellowOnBlue-big.xml
 usr/share/kde4/apps/kthememanager/themes/YellowOnBlue/YellowOnBlue.preview.png
 usr/share/kde4/apps/kthememanager/themes/YellowOnBlue/YellowOnBlue.xml
+usr/share/kde4/apps/plasmoidviewer/checker.png
 usr/share/kde4/apps/solid/actions/test-predicate-openinwindow.desktop
 usr/share/kde4/apps/solidfakebluetoothbackend/fakebluetooth.xml
 usr/share/kde4/apps/solidfakenetbackend/fakenetworking.xml
@@ -541,6 +545,7 @@ usr/share/kde4/services/background.desktop
 usr/share/kde4/services/bell.desktop
 usr/share/kde4/services/clock.desktop
 usr/share/kde4/services/colors.desktop
+usr/share/kde4/services/desktop.desktop
 usr/share/kde4/services/devices.desktop
 usr/share/kde4/services/display.desktop
 usr/share/kde4/services/dma.desktop
@@ -577,6 +582,7 @@ usr/share/kde4/services/opengl.desktop
 usr/share/kde4/services/partitions.desktop
 usr/share/kde4/services/pci.desktop
 usr/share/kde4/services/plasma-animator-default.desktop
+usr/share/kde4/services/plasma-applet-launcher.desktop
 usr/share/kde4/services/plasma-applet-devicenotifier.desktop
 usr/share/kde4/services/plasma-applet-lockout.desktop
 usr/share/kde4/services/plasma-applet-systemtray.desktop
@@ -597,6 +603,7 @@ usr/share/kde4/services/plasma-engine-tasks.desktop
 usr/share/kde4/services/plasma-engine-time.desktop
 usr/share/kde4/services/plasma-engine-weather.desktop
 usr/share/kde4/services/plasma-pager-default.desktop
+usr/share/kde4/services/plasma-runner-bookmarks.desktop
 usr/share/kde4/services/plasma-runner-calculator.desktop
 usr/share/kde4/services/plasma-runner-search.desktop
 usr/share/kde4/services/plasma-runner-webshortcuts.desktop

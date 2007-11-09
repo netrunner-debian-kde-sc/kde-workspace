@@ -1,7 +1,6 @@
 usr/bin/kaccess
 usr/bin/kapplymousetheme
 usr/bin/kblankscrn.kss
-usr/bin/kcheckpass
 usr/bin/kcminit
 usr/bin/kcminit_startup
 usr/bin/kcontroledit
@@ -25,6 +24,7 @@ usr/bin/ktip
 usr/bin/kxkb
 usr/bin/plasma
 usr/bin/plasmaengineexplorer
+usr/bin/plasmoidviewer
 usr/bin/solidshell
 usr/bin/startkde
 
@@ -33,6 +33,8 @@ usr/lib/kconf_update_bin/khotkeys_update
 usr/lib/kde4/ion_bbcukmet.so
 usr/lib/kde4/ion_envcan.so
 usr/lib/kde4/ion_noaa.so
+
+usr/lib/kde4/libexec/kcheckpass
 
 usr/lib/kde4/kcm_access.so
 usr/lib/kde4/kcm_accessibility.so
@@ -71,6 +73,7 @@ usr/lib/kde4/kded_networkstatus.so
 usr/lib/kde4/kgreet_classic.so
 usr/lib/kde4/kgreet_winbind.so
 
+usr/lib/kde4/krunner_bookmarksrunner.so
 usr/lib/kde4/krunner_calculatorrunner.so
 usr/lib/kde4/krunner_searchrunner.so
 usr/lib/kde4/krunner_webshortcuts.so
