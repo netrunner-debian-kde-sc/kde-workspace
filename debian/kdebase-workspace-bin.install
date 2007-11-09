@@ -55,7 +55,6 @@ usr/lib/kde4/kcm_keys.so
 usr/lib/kde4/kcm_khotkeys.so
 usr/lib/kde4/kcm_ksplashthemes.so
 usr/lib/kde4/kcm_kthememanager.so
-usr/lib/kde4/kcm_kwin4_effect_builtins.so
 usr/lib/kde4/kcm_launch.so
 usr/lib/kde4/kcm_nic.so
 usr/lib/kde4/kcm_randr.so
