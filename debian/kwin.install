@@ -57,6 +57,7 @@ usr/share/kde4/apps/kconf_update/kwinupdatewindowsettings.upd
 usr/share/kde4/apps/kconf_update/pluginlibFix.pl
 usr/share/kde4/apps/kwin/b2.desktop
 usr/share/kde4/apps/kwin/default_rules/fsp_workarounds_1.kwinrules
+usr/share/kde4/apps/kwin/default_rules/plasma_desktop_containment.kwinrules
 usr/share/kde4/apps/kwin/kde2.desktop
 usr/share/kde4/apps/kwin/keramik.desktop
 usr/share/kde4/apps/kwin/kwin.notifyrc

@@ -1,3 +1,14 @@
+kdebase-workspace (4:3.96.0-1) experimental; urgency=low
+
+  +++ Changes by Sune Vuorela:
+
+  * New upstream release
+  * Split out libplasma in seperate package
+  * Update some install files
+  * Refresh patches
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 21:00:09 +0000
+
 kdebase-workspace (4:3.95.2-1) experimental; urgency=low
 
   * New upstream release.

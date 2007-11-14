@@ -5,11 +5,6 @@ usr/lib/libksgrd.so.4.0.0
 usr/lib/libprocesscore.so.4.0.0
 usr/lib/libprocessui.so.4.0.0
 usr/share/applications/kde4/ksysguard.desktop
-usr/share/icons/crystalsvg/128x128/apps/ksysguard.png
-usr/share/icons/crystalsvg/16x16/apps/ksysguard.png
-usr/share/icons/crystalsvg/32x32/apps/ksysguard.png
-usr/share/icons/crystalsvg/48x48/apps/ksysguard.png
-usr/share/icons/crystalsvg/64x64/apps/ksysguard.png
 usr/share/kde4/apps/kicker/applets/ksysguardapplet.desktop
 usr/share/kde4/apps/ksysguard/KSysGuardApplet.xml
 usr/share/kde4/apps/ksysguard/ksysguard.notifyrc

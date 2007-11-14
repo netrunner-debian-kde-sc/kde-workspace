@@ -1,7 +1,8 @@
-diff -Naur kdebase-workspace.orig/kdm/config.def kdebase-workspace.patched/kdm/config.def
---- kdebase-workspace.orig/kdm/config.def	2007-09-15 13:31:20.000000000 +0200
-+++ kdebase-workspace.patched/kdm/config.def	2007-09-15 13:48:04.000000000 +0200
-@@ -2657,7 +2657,7 @@
+Index: b/kdm/config.def
+===================================================================
+--- a/kdm/config.def
++++ b/kdm/config.def
+@@ -2658,7 +2658,7 @@
  Type: string
  Default: ""
  User: greeter

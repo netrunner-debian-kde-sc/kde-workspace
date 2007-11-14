@@ -1,6 +1,7 @@
-diff -Naur kdebase-workspace.orig/kcontrol/kdm/kdm-dlg.cpp kdebase-workspace.patched/kcontrol/kdm/kdm-dlg.cpp
---- kdebase-workspace.orig/kcontrol/kdm/kdm-dlg.cpp	2007-09-15 13:31:20.000000000 +0200
-+++ kdebase-workspace.patched/kcontrol/kdm/kdm-dlg.cpp	2007-09-16 16:12:04.000000000 +0200
+Index: b/kcontrol/kdm/kdm-dlg.cpp
+===================================================================
+--- a/kcontrol/kdm/kdm-dlg.cpp
++++ b/kcontrol/kdm/kdm-dlg.cpp
 @@ -279,7 +279,7 @@
  
  	// Read the greeting string
@@ -19,9 +20,10 @@ diff -Naur kdebase-workspace.orig/kcontrol/kdm/kdm-dlg.cpp kdebase-workspace.pat
  	logoRadio->setChecked( true );
  	slotAreaRadioClicked( KdmLogo );
  	setLogo( "" );
-diff -Naur kdebase-workspace.orig/kdm/config.def kdebase-workspace.patched/kdm/config.def
---- kdebase-workspace.orig/kdm/config.def	2007-09-15 13:31:20.000000000 +0200
-+++ kdebase-workspace.patched/kdm/config.def	2007-09-16 16:13:35.000000000 +0200
+Index: b/kdm/config.def
+===================================================================
+--- a/kdm/config.def
++++ b/kdm/config.def
 @@ -47,11 +47,11 @@
  #endif
  
@@ -38,7 +40,7 @@ diff -Naur kdebase-workspace.orig/kdm/config.def kdebase-workspace.patched/kdm/c
  #endif
  
  #if 0 /*def HASXDMAUTH*/
-@@ -1356,7 +1356,7 @@
+@@ -1357,7 +1357,7 @@
   This string is subject to word splitting.
   </para><para>
   The default is something reasonable for the system on which &kdm; was built,
@@ -47,7 +49,7 @@ diff -Naur kdebase-workspace.orig/kdm/config.def kdebase-workspace.patched/kdm/c
  
  Key: ServerArgsLocal
  Type: string
-@@ -1931,10 +1931,10 @@
+@@ -1932,10 +1932,10 @@
  
  Key: SessionsDirs
  Type: list
@@ -60,7 +62,7 @@ diff -Naur kdebase-workspace.orig/kdm/config.def kdebase-workspace.patched/kdm/c
  Comment:
   The directories containing session type definitions in .desktop format.
  Description:
-@@ -2000,7 +2000,7 @@
+@@ -2001,7 +2001,7 @@
  
  Key: UseSessReg
  Type: bool
@@ -69,7 +71,7 @@ diff -Naur kdebase-workspace.orig/kdm/config.def kdebase-workspace.patched/kdm/c
  User: core
  Instance: #*/!
  Comment:
-@@ -2096,9 +2096,9 @@
+@@ -2097,9 +2097,9 @@
  
  Key: GreetString
  Type: string
@@ -81,7 +83,7 @@ diff -Naur kdebase-workspace.orig/kdm/config.def kdebase-workspace.patched/kdm/c
  Comment:
   The headline in the greeter. The following character pairs are replaced:
   - %d -> current display
-@@ -2532,7 +2532,6 @@
+@@ -2533,7 +2533,6 @@
  Default: 0
  User: greeter
  Instance: #*/
@@ -89,7 +91,7 @@ diff -Naur kdebase-workspace.orig/kdm/config.def kdebase-workspace.patched/kdm/c
  Comment:
   Random seed for forging saved session types, etc. of unknown users.
   This value should be random but constant across the login domain.
-@@ -2629,7 +2628,7 @@
+@@ -2630,7 +2629,7 @@
  Type: bool
  Default: true
  User: greeter

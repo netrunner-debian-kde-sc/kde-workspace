@@ -1,6 +1,7 @@
-diff -Naur kdebase-workspace.orig/kdm/backend/dm.c kdebase-workspace.patched/kdm/backend/dm.c
---- kdebase-workspace.orig/kdm/backend/dm.c	2007-09-15 13:31:20.000000000 +0200
-+++ kdebase-workspace.patched/kdm/backend/dm.c	2007-09-16 15:12:10.000000000 +0200
+Index: b/kdm/backend/dm.c
+===================================================================
+--- a/kdm/backend/dm.c
++++ b/kdm/backend/dm.c
 @@ -39,6 +39,7 @@
  #include "dm_error.h"
  
@@ -9,7 +10,7 @@ diff -Naur kdebase-workspace.orig/kdm/backend/dm.c kdebase-workspace.patched/kdm
  #include <string.h>
  #include <unistd.h>
  #include <stdarg.h>
-@@ -565,6 +566,16 @@
+@@ -588,6 +589,16 @@
  		debug( "exec %\"[s\n", argv );
  		(void)execv( argv[0], argv );
  		logError( "X server %\"s cannot be executed\n", argv[0] );
@@ -26,9 +27,10 @@ diff -Naur kdebase-workspace.orig/kdm/backend/dm.c kdebase-workspace.patched/kdm
  		exit( 1 );
  	case -1:
  		logError( "Forking X server for remote login failed: %m" );
-diff -Naur kdebase-workspace.orig/kdm/backend/server.c kdebase-workspace.patched/kdm/backend/server.c
---- kdebase-workspace.orig/kdm/backend/server.c	2007-09-15 13:31:20.000000000 +0200
-+++ kdebase-workspace.patched/kdm/backend/server.c	2007-09-16 15:12:28.000000000 +0200
+Index: b/kdm/backend/server.c
+===================================================================
+--- a/kdm/backend/server.c
++++ b/kdm/backend/server.c
 @@ -41,6 +41,7 @@
  #include <X11/Xlib.h>
  

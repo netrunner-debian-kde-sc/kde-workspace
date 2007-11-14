@@ -1,3 +1,5 @@
+Index: b/kdm/kfrontend/CMakeLists.txt
+===================================================================
 --- a/kdm/kfrontend/CMakeLists.txt
 +++ b/kdm/kfrontend/CMakeLists.txt
 @@ -110,5 +110,5 @@

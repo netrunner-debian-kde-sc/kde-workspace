@@ -1,5 +1,7 @@
---- kdebase-workspace-3.93.0/startkde.cmake	2007-08-31 23:59:44.000000000 +0200
-+++ kdebase-workspace-3.93.0/startkde.cmake	2007-08-31 23:59:55.000000000 +0200
+Index: b/startkde.cmake
+===================================================================
+--- a/startkde.cmake
++++ b/startkde.cmake
 @@ -55,7 +55,7 @@
  # The user's personal KDE directory is usually ~/.kde, but this setting
  # may be overridden by setting KDEHOME.

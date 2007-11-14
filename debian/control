@@ -54,7 +54,7 @@ Depends: ${shlibs:Depends}, kdebase-workspace (= ${binary:Version}), kdepimlibs5
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7), libusb-dev,
  libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
  libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
- network-manager-dev
+ network-manager-dev, libplasma1 (= ${binary:Version})
 Description: development files for the KDE base module
  This package contains headers and other development files needed to compile
  software based on the KDE base module.
@@ -152,3 +152,11 @@ Description: debugging symbols for kdebase-workspace
  This package contains the debugging symbols associated with kdebase-workspace.
  They will automatically be used by gdb for debugging kdebase-workspace-related
  issues.
+
+Package: libplasma1
+Section: libs
+Architecture: any
+Priority: optional
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-data
+Description: library for the plasma kde4 desktop
+ This package contains the library and plugins for the kde4 desktop.
