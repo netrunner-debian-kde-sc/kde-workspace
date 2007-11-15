@@ -158,5 +158,6 @@ Section: libs
 Architecture: any
 Priority: optional
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-data
+Replaces: kdebase-workspace-bin (<< 4:3.96.0)
 Description: library for the plasma kde4 desktop
  This package contains the library and plugins for the kde4 desktop.
