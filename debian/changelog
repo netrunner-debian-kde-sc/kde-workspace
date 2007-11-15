@@ -8,6 +8,11 @@ kdebase-workspace (4:3.96.0-1) experimental; urgency=low
   * Update some install files.
   * Refresh patches.
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump build depend on kdepimlibs >= 3.96.0
+  * Remove duplicated files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 21:00:09 +0000
 
 kdebase-workspace (4:3.95.2-1) experimental; urgency=low

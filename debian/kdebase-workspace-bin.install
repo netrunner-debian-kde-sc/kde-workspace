@@ -80,32 +80,6 @@ usr/lib/kde4/kstyle_keramik_config.so
 
 usr/lib/kde4/libexec/test_kcm_xinerama
 
-usr/lib/kde4/plasma_animator_default.so
-
-usr/lib/kde4/plasma_applet_battery.so
-usr/lib/kde4/plasma_applet_clock.so
-usr/lib/kde4/plasma_applet_devicenotifier.so
-usr/lib/kde4/plasma_applet_dig_clock.so
-usr/lib/kde4/plasma_applet_launcher.so
-usr/lib/kde4/plasma_applet_lockout.so
-usr/lib/kde4/plasma_applet_pager.so
-usr/lib/kde4/plasma_applet_systemtray.so
-usr/lib/kde4/plasma_applet_tasks.so
-usr/lib/kde4/plasma_applet_url.so
-
-usr/lib/kde4/plasma_containment_desktop.so
-usr/lib/kde4/plasma_containment_panel.so
-
-usr/lib/kde4/plasma_engine_dict.so
-usr/lib/kde4/plasma_engine_filebrowser.so
-usr/lib/kde4/plasma_engine_mouse.so
-usr/lib/kde4/plasma_engine_powermanagement.so
-usr/lib/kde4/plasma_engine_tasks.so
-usr/lib/kde4/plasma_engine_time.so
-usr/lib/kde4/plasma_engine_weather.so
-usr/lib/kde4/plasma_engine_hotplug.so
-usr/lib/kde4/plasma_engine_places.so
-usr/lib/kde4/plasma_engine_soliddevice.so
 
 usr/lib/kde4/solid_bluez.so
 usr/lib/kde4/solid_fakebluetooth.so
@@ -128,8 +102,6 @@ usr/lib/libksgrd.so.4
 usr/lib/libkwineffects.so.1
 usr/lib/libkworkspace.so.4
 usr/lib/libkworkspace.so.4.0.0
-usr/lib/libplasma.so.1
-usr/lib/libplasma.so.1.0.0
 usr/lib/libprocesscore.so.4
 usr/lib/libprocessui.so.4
 usr/lib/libsolidcontrol.so.4

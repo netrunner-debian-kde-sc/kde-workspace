@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fboudra@free.fr>. Armin Berres <trigger+debian@space-based.de>
-Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 3.95.2),
+Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 3.96.0),
  libbluetooth-dev, libcaptury-dev, libnm-util-dev, libqimageblitz-dev,
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7), libusb-dev,
  libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
@@ -49,7 +49,7 @@ Description: shared data files for the KDE base module
 Package: kdebase-workspace-dev
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-workspace (= ${binary:Version}), kdepimlibs5-dev (>= 3.95.2),
+Depends: ${shlibs:Depends}, kdebase-workspace (= ${binary:Version}), kdepimlibs5-dev (>= 3.96.0),
  libbluetooth-dev, libcaptury-dev, libnm-util-dev, libqimageblitz-dev,
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7), libusb-dev,
  libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
