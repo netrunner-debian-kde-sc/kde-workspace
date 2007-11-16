@@ -1,7 +1,7 @@
 kdebase-workspace (4:3.96.0-1) experimental; urgency=low
 
   * New upstream release.
-  
+
   +++ Changes by Sune Vuorela:
 
   * Split out libplasma in separate package.
@@ -13,7 +13,11 @@ kdebase-workspace (4:3.96.0-1) experimental; urgency=low
   * Bump build depend on kdepimlibs >= 3.96.0
   * Remove duplicated files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 21:00:09 +0000
+  +++ Changes by Armin Berres:
+
+  * Split out libplasma-dev.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Nov 2007 17:10:02 +0000
 
 kdebase-workspace (4:3.95.2-1) experimental; urgency=low
 
