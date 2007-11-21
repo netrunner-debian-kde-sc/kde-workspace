@@ -8,14 +8,14 @@ Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 3.96.0)
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7), libusb-dev,
  libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
  libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
- network-manager-dev
+ network-manager-dev, sharutils
 Standards-Version: 3.7.2
 
 Package: kdebase-workspace
 Section: kde
 Architecture: all
 Depends:  kdebase-workspace-bin (>= ${binary:Version}), 
- kdebase-workspace-data (>= ${binary:Version}), 
+ kdebase-workspace-data (>= ${binary:Version}),
  klipper (>= ${binary:Version}), ksysguard (>= ${binary:Version}), 
  kwin (>= ${binary:Version}), systemsettings (>= ${binary:Version}),
 Recommends: kdm (>= ${binary:Version})

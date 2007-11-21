@@ -1,3 +1,11 @@
 #!/usr/bin/make -f
 
 include debian/cdbs/kde.mk
+
+makebuilddir::
+	uudecode -o ksplash/simple/full/Preview.png debian/img/Preview_full.png.uu
+	uudecode -o ksplash/simple/small/Preview.png debian/img/Preview_small.png.uu
+
+clean::
+	rm -f ksplash/simple/full/Preview.png
+	rm -f ksplash/simple/small/Preview.png
