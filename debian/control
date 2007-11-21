@@ -54,7 +54,7 @@ Depends: ${shlibs:Depends}, kdebase-workspace (= ${binary:Version}), kdepimlibs5
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7), libusb-dev,
  libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
  libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
- network-manager-dev, libplasma1 (= ${binary:Version})
+ network-manager-dev
 Description: development files for the KDE base module
  This package contains headers and other development files needed to compile
  software based on the KDE base module.
@@ -166,7 +166,7 @@ Package: libplasma-dev
 Section: libdevel
 Architecture: all
 Priority: optional
-Depends: libplasma1 (= ${source:Version}), kdelibs5-dev (>= 3.96.0)
+Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 3.96.0)
 Replaces: kdebase-workspace-dev (<< 4:3.96.0)
 Description: development files for the plasma kde4 desktop
  This package contains headers and other development files needed to compile
