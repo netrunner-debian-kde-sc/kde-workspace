@@ -1,7 +1,7 @@
 kdebase-workspace (4:3.96.0-2) experimental; urgency=low
 
   * Upgrade everything but kdm to r739381.
-  * build depend on sharutils for uudecoding the new images.
+  * Build depend on sharutils for uudecoding the new images.
 
  -- Armin Berres <trigger+debian@space-based.de>  Wed, 21 Nov 2007 20:06:24 +0100
 
