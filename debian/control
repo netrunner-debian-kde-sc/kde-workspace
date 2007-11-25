@@ -17,7 +17,7 @@ Architecture: all
 Depends:  kdebase-workspace-bin (>= ${binary:Version}), 
  kdebase-workspace-data (>= ${binary:Version}),
  klipper (>= ${binary:Version}), ksysguard (>= ${binary:Version}), 
- kwin (>= ${binary:Version}), systemsettings (>= ${binary:Version}),
+ kwin (>= ${binary:Version}), systemsettings (>= ${binary:Version})
 Recommends: kdm (>= ${binary:Version})
 Description: base components from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical desktop
@@ -28,7 +28,8 @@ Description: base components from the official KDE release
 Package: kdebase-workspace-bin
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${binary:Version})
+Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${binary:Version}),
+ dbus-x11
 Description: core binaries for the KDE base module
  This package contains miscellaneous programs needed by other KDE applications,
  particularly those in the KDE base module.

@@ -1,3 +1,11 @@
+kdebase-workspace (4:3.96.0-3) UNRELEASED; urgency=low
+
+  +++ Changes by Fathi Boudra:
+
+  * Add dbus-x11 dependency to kdebase-workspace-bin. We need dbus-launch.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Nov 2007 00:00:15 +0100
+
 kdebase-workspace (4:3.96.0-2) experimental; urgency=low
 
   * Upgrade everything but kdm to r739381.
