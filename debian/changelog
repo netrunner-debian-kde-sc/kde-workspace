@@ -1,4 +1,12 @@
-kdebase-workspace (4:3.96.0-3) UNRELEASED; urgency=low
+kdebase-workspace (4:3.97.0-1) experimental; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * Bump build-dep to >=3.97.0.
+  * Update *.install files. Move some libraries to their right package.
+  * Update Standards-Version to 3.7.3.
 
   +++ Changes by Fathi Boudra:
 

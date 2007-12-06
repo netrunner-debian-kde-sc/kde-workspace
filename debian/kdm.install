@@ -1,4 +1,3 @@
-../local/kdm.options etc/kde4/kdm/
 etc/kde4/kdm/backgroundrc
 etc/kde4/kdm/kdmrc
 etc/kde4/kdm/README
@@ -8,12 +7,14 @@ etc/kde4/kdm/Xsession
 etc/kde4/kdm/Xsetup
 etc/kde4/kdm/Xstartup
 etc/kde4/kdm/Xwilling
+../local/kdm.options etc/kde4/kdm/
 usr/bin/genkdmconf
 usr/bin/kdm
 usr/bin/kdmctl
 usr/lib/kde4/libexec/kdm_config
 usr/lib/kde4/libexec/kdm_greet
 usr/lib/kde4/libexec/krootimage
+usr/share/kde4/apps/doc/kdm/greeter.dtd
 usr/share/kde4/apps/doc/kdm/README
 usr/share/kde4/apps/kdm/pics/kdelogo-crystal.png
 usr/share/kde4/apps/kdm/pics/kdelogo.png

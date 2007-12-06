@@ -1,8 +1,6 @@
 usr/include/kcommondecoration.h
-usr/include/kdecoration.h
-usr/include/kdecoration_p.h
-usr/include/kdecoration_plugins_p.h
 usr/include/kdecorationfactory.h
+usr/include/kdecoration.h
 usr/include/kgreeterplugin.h
 usr/include/kscreensaver.h
 usr/include/kscreensaver_vroot.h
@@ -11,11 +9,11 @@ usr/include/ksgrd/SensorClient.h
 usr/include/ksgrd/SensorManager.h
 usr/include/ksgrd/SensorShellAgent.h
 usr/include/ksgrd/SensorSocketAgent.h
-usr/include/ksysguard/ProcessFilter.h
-usr/include/ksysguard/ProcessModel.h
 usr/include/ksysguard/ksysguardprocesslist.h
-usr/include/ksysguard/process.h
 usr/include/ksysguard/processes.h
+usr/include/ksysguard/ProcessFilter.h
+usr/include/ksysguard/process.h
+usr/include/ksysguard/ProcessModel.h
 usr/include/kwineffects.h
 usr/include/kwinglobals.h
 usr/include/kworkspace/kwindowlistmenu.h
@@ -51,8 +49,8 @@ usr/lib/libkwineffects.so
 usr/lib/libkworkspace.so
 usr/lib/libprocesscore.so
 usr/lib/libprocessui.so
-usr/lib/libsolidcontrol.so
 usr/lib/libsolidcontrolifaces.so
+usr/lib/libsolidcontrol.so
 usr/lib/libtaskmanager.so
 usr/lib/libweather_ion.so
 usr/share/kde4/apps/cmake/modules/FindLibXKlavier.cmake
