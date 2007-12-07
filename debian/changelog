@@ -4,8 +4,10 @@ kdebase-workspace (4:3.97.0-1) experimental; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Bump build-dep to >=3.97.0.
+  * Bump build-dep to >=4:3.97.0.
+  * Update patches, fix offset and remake.
   * Update *.install files. Move some libraries to their right package.
+  * Remove README.Debian, packages are stable now.
   * Update Standards-Version to 3.7.3.
 
   +++ Changes by Fathi Boudra:
