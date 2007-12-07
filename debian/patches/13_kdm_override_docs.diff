@@ -1,8 +1,6 @@
-Index: b/kdm/config.def
-===================================================================
 --- a/kdm/config.def
 +++ b/kdm/config.def
-@@ -90,6 +90,12 @@
+@@ -87,6 +87,12 @@
  <kdmrc>
   &kdm; master configuration file
   _
