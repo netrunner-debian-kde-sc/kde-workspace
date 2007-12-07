@@ -54,7 +54,7 @@ Index: b/kdm/config.def
  Key: SessionsDirs
  Type: list
 -Default: *KDMDATA "/sessions"
-+Default: "/usr/share/xsessions,/var/lib/menu-xdg/xsessions,/usr/share/apps/kdm/sessions"
++Default: *"/usr/share/xsessions,/var/lib/menu-xdg/xsessions,/usr/share/apps/kdm/sessions"
  User: core
  User: greeter-c
 -Instance: */KDMCONF "/sessions," KDMDATA "/sessions"

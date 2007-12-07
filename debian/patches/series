@@ -1,4 +1,5 @@
 06_kdehome_kde4.diff
+07_kdmrc_defaults.diff
 08_genkdmconf.diff
 09_genkdm_make.diff
 10_kdm_no_custom.diff

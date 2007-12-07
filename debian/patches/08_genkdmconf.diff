@@ -1,5 +1,3 @@
-Index: b/kdm/kfrontend/genkdmconf.c
-===================================================================
 --- a/kdm/kfrontend/genkdmconf.c
 +++ b/kdm/kfrontend/genkdmconf.c
 @@ -532,7 +532,7 @@
@@ -74,7 +72,7 @@ Index: b/kdm/kfrontend/genkdmconf.c
  
  static const char def_reset[] =
  "#! /bin/sh\n"
-@@ -629,12 +619,13 @@
+@@ -630,12 +620,13 @@
  "#devname=`echo $DISPLAY | cut -c1-8`\n"
  "#exec sessreg -d -l xdm/$devname -h \"`echo $DISPLAY | cut -d: -f1`\""
  #else
@@ -93,7 +91,7 @@ Index: b/kdm/kfrontend/genkdmconf.c
  
  static const char def_session1[] =
  "#! /bin/sh\n"
-@@ -666,6 +657,7 @@
+@@ -667,6 +658,7 @@
  "    [ -f $zhome/.zprofile ] && . $zhome/.zprofile\n"
  "    [ -f $zdir/zlogin ] && . $zdir/zlogin\n"
  "    [ -f $zhome/.zlogin ] && . $zhome/.zlogin\n"
@@ -101,7 +99,7 @@ Index: b/kdm/kfrontend/genkdmconf.c
  "    ;;\n"
  "  */csh|*/tcsh)\n"
  "    # [t]cshrc is always sourced automatically.\n"
-@@ -682,28 +674,8 @@
+@@ -683,28 +675,8 @@
  "    [ -f $HOME/.profile ] && . $HOME/.profile\n"
  "    ;;\n"
  "esac\n"
@@ -132,7 +130,7 @@ Index: b/kdm/kfrontend/genkdmconf.c
  
  static const char def_background[] =
  "[Desktop0]\n"
-@@ -1032,29 +1004,6 @@
+@@ -1068,29 +1040,6 @@
  
  	if (maxTTY)
  		return;
