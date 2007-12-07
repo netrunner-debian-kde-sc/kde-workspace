@@ -167,7 +167,7 @@ Package: libplasma-dev
 Section: libdevel
 Architecture: all
 Priority: optional
-Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 3.97.0)
+Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 4:3.97.0)
 Replaces: kdebase-workspace-dev (<< 4:3.96.0)
 Description: development files for the plasma kde4 desktop
  This package contains headers and other development files needed to compile

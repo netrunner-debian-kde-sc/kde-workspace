@@ -14,9 +14,9 @@ kdebase-workspace (4:3.97.0-1) experimental; urgency=low
 
   +++ Changes by Armin Berres:
 
-  * Depend on epoched version of kdepimlibs5-dev.
+  * Depend on epoched version of kdepimlibs5-dev and kdelibs5-dev.
 
- -- Armin Berres <trigger+debian@space-based.de>  Fri, 07 Dec 2007 13:02:21 +0100
+ -- Armin Berres <trigger+debian@space-based.de>  Fri, 07 Dec 2007 13:18:19 +0100
 
 kdebase-workspace (4:3.96.0-2) experimental; urgency=low
 
