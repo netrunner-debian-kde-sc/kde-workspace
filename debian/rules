@@ -1,13 +1,4 @@
 #!/usr/bin/make -f
 
+export LDFLAGS+="-Wl,--as-needed"
 include debian/cdbs/kde.mk
-
-makebuilddir::
-	mkdir -p ksplash/simple/full/
-	mkdir -p ksplash/simple/small/
-	uudecode -o ksplash/simple/full/Preview.png debian/img/Preview_full.png.uu
-	uudecode -o ksplash/simple/small/Preview.png debian/img/Preview_small.png.uu
-
-clean::
-	rm -f ksplash/simple/full/Preview.png
-	rm -f ksplash/simple/small/Preview.png
