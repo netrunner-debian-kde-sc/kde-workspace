@@ -3,7 +3,7 @@ kdebase-workspace (4:3.97.0-1) experimental; urgency=low
   * New upstream release.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Bump build-dep to >=3.97.0.
   * Update *.install files. Move some libraries to their right package.
   * Update Standards-Version to 3.7.3.
@@ -12,7 +12,11 @@ kdebase-workspace (4:3.97.0-1) experimental; urgency=low
 
   * Add dbus-x11 dependency to kdebase-workspace-bin. We need dbus-launch.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Nov 2007 00:00:15 +0100
+  +++ Changes by Armin Berres:
+
+  * Depend on epoched version of kdepimlibs5-dev.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Fri, 07 Dec 2007 13:02:21 +0100
 
 kdebase-workspace (4:3.96.0-2) experimental; urgency=low
 
