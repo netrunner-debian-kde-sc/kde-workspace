@@ -40,7 +40,7 @@ Index: b/kdm/config.def
  #endif
  
  #if 0 /*def HASXDMAUTH*/
-@@ -1357,7 +1357,7 @@
+@@ -1355,7 +1355,7 @@
   This string is subject to word splitting.
   </para><para>
   The default is something reasonable for the system on which &kdm; was built,
@@ -49,20 +49,20 @@ Index: b/kdm/config.def
  
  Key: ServerArgsLocal
  Type: string
-@@ -1932,10 +1932,10 @@
+@@ -1930,10 +1930,10 @@
  
  Key: SessionsDirs
  Type: list
--Default: KDMDATA "/sessions"
+-Default: *KDMDATA "/sessions"
 +Default: "/usr/share/xsessions,/var/lib/menu-xdg/xsessions,/usr/share/apps/kdm/sessions"
  User: core
  User: greeter-c
--Instance: #*/"/etc/X11/sessions,/usr/share/xsessions"
+-Instance: */KDMCONF "/sessions," KDMDATA "/sessions"
 +Instance: #*/"/usr/share/xsessions,/var/lib/menu-xdg/xsessions,/usr/share/apps/kdm/sessions"
+ Update: upd_sessionsdirs
  Comment:
-  The directories containing session type definitions in .desktop format.
- Description:
-@@ -2001,7 +2001,7 @@
+  The directories containing session type definitions in .desktop format,
+@@ -2002,7 +2002,7 @@
  
  Key: UseSessReg
  Type: bool
@@ -71,7 +71,7 @@ Index: b/kdm/config.def
  User: core
  Instance: #*/!
  Comment:
-@@ -2097,9 +2097,9 @@
+@@ -2096,9 +2096,9 @@
  
  Key: GreetString
  Type: string

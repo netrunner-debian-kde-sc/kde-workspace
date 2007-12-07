@@ -2,7 +2,7 @@ Index: b/kdm/kfrontend/genkdmconf.c
 ===================================================================
 --- a/kdm/kfrontend/genkdmconf.c
 +++ b/kdm/kfrontend/genkdmconf.c
-@@ -531,7 +531,7 @@
+@@ -532,7 +532,7 @@
  "# right hand sides can match.\n"
  "#\n"
  "\n"
@@ -11,7 +11,7 @@ Index: b/kdm/kfrontend/genkdmconf.c
  "\n"
  "#\n"
  "# To hardwire a specific terminal to a specific host, you can\n"
-@@ -549,7 +549,7 @@
+@@ -550,7 +550,7 @@
  "# so this may not work in all environments.\n"
  "#\n"
  "\n"
@@ -20,7 +20,7 @@ Index: b/kdm/kfrontend/genkdmconf.c
  "\n"
  "#\n"
  "# If you would prefer to configure the set of hosts each terminal sees,\n"
-@@ -585,35 +585,25 @@
+@@ -586,35 +586,25 @@
  "#! /bin/sh\n"
  "# Xstartup - run as root before session starts\n"
  "\n"
