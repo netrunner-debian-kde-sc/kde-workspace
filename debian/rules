@@ -2,3 +2,5 @@
 
 export LDFLAGS+="-Wl,--as-needed"
 include debian/cdbs/kde.mk
+
+DEB_CMAKE_EXTRA_FLAGS += -DKDE4_KDM_PAM_SERVICE=kdm

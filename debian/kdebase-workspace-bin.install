@@ -61,8 +61,6 @@ usr/lib/kde4/kcm_view1394.so
 usr/lib/kde4/kcm_xinerama.so
 usr/lib/kde4/kded_khotkeys.so
 usr/lib/kde4/kded_networkstatus.so
-usr/lib/kde4/kgreet_classic.so
-usr/lib/kde4/kgreet_winbind.so
 usr/lib/kde4/krunner_bookmarksrunner.so
 usr/lib/kde4/krunner_calculatorrunner.so
 usr/lib/kde4/krunner_searchrunner.so

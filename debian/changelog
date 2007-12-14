@@ -1,3 +1,18 @@
+kdebase-workspace (4:3.97.0-2) experimental; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Fix a few issues with kdm. Among other things, this should make it
+    possible to use kdm4 with KDE3:
+    - debian/control: add libpam0g-dev to Build-depends to enable PAM
+      support for KDM. This adds support for locales!
+    - debian/rules: pass -DKDE4_KDM_PAM_SERVICE=kdm to make kdm use
+    /etc/pam.d/{kdm,kdm-np} instead of default /etc/pam.d/{kde,kde-np}
+    - debian/kdm.install: move greeters here from kdebase-workspace-bin
+    - debian/control: adjust kdm conflicts due to the last change above.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Dec 2007 10:25:59 +0200
+
 kdebase-workspace (4:3.97.0-1) experimental; urgency=low
 
   * New upstream release.

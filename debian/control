@@ -8,7 +8,7 @@ Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 4:3.97.
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7), libusb-dev,
  libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
  libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
- network-manager-dev
+ network-manager-dev, libpam0g-dev
 Standards-Version: 3.7.3
 
 Package: kdebase-workspace
@@ -67,7 +67,7 @@ Package: kdm
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, xbase-clients
-Conflicts: desktop-base (<< 4.0.4)
+Conflicts: desktop-base (<< 4.0.4), kdebase-workspace-bin (<< 4:3.97.0-2)
 Provides: x-display-manager
 Description: X display manager for KDE
  kdm manages a collection of X servers, which may be on the local host or
