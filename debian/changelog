@@ -11,7 +11,11 @@ kdebase-workspace (4:3.97.0-2) experimental; urgency=low
     - debian/kdm.install: move greeters here from kdebase-workspace-bin
     - debian/control: adjust kdm conflicts due to the last change above.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Dec 2007 10:25:59 +0200
+  +++ Changes by Armin Berres:
+
+  * Remove extra LDFLAGS. Included via CDBS now.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Dec 2007 23:54:40 +0100
 
 kdebase-workspace (4:3.97.0-1) experimental; urgency=low
 
