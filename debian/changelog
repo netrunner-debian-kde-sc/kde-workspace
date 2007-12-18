@@ -1,8 +1,14 @@
 kdebase-workspace (4:3.97.0-3) experimental; urgency=low
 
-  * Remove extra LDFLAGS. Included via CDBS now. 
+  +++ Changes by Armin Berres:
 
- -- Armin Berres <trigger+debian@space-based.de>  Tue, 18 Dec 2007 00:02:35 +0000
+  * Remove extra LDFLAGS. Included via CDBS now.
+
+  +++ Changes by Modestas Vainius:
+
+  * Add myself to uploaders.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 18 Dec 2007 03:57:43 +0200
 
 kdebase-workspace (4:3.97.0-2) experimental; urgency=low
 
