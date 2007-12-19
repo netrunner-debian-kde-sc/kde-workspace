@@ -5,12 +5,13 @@ kdebase-workspace (4:3.97.0-3) experimental; urgency=low
   * Remove extra LDFLAGS. Included via CDBS now.
   * Let kdebase-workspace-bin depend on the source and not the binary version
     of kdebase-workspace-data.
+  * Make dependency of libplasma1 on kdebase-workspace-data versioned.
 
   +++ Changes by Modestas Vainius:
 
   * Add myself to uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 19 Dec 2007 13:38:09 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 19 Dec 2007 16:28:39 +0100
 
 kdebase-workspace (4:3.97.0-2) experimental; urgency=low
 
