@@ -3,12 +3,14 @@ kdebase-workspace (4:3.97.0-3) experimental; urgency=low
   +++ Changes by Armin Berres:
 
   * Remove extra LDFLAGS. Included via CDBS now.
+  * Let kdebase-workspace-bin depend on the source and not the binary version
+    of kdebase-workspace-data.
 
   +++ Changes by Modestas Vainius:
 
   * Add myself to uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 18 Dec 2007 03:57:43 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 19 Dec 2007 13:38:09 +0100
 
 kdebase-workspace (4:3.97.0-2) experimental; urgency=low
 

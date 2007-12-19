@@ -28,7 +28,7 @@ Description: base components from the official KDE release
 Package: kdebase-workspace-bin
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${binary:Version}),
+Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${source:Version}),
  dbus-x11
 Description: core binaries for the KDE base module
  This package contains miscellaneous programs needed by other KDE applications,
