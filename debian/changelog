@@ -6,12 +6,17 @@ kdebase-workspace (4:3.97.0-3) experimental; urgency=low
   * Let kdebase-workspace-bin depend on the source and not the binary version
     of kdebase-workspace-data.
   * Make dependency of libplasma1 on kdebase-workspace-data versioned.
+  * Add conflict of kdebase-workspace-data with ksmserver to force its
+    removal.
+  * kdebase-workspace-bin and kdebase-workspace-data replace kdebase-bin and
+    kmenuedit from KDE 3.
+  * kdebase-workspace-data replaces kdebase-data from KDE 3.
 
   +++ Changes by Modestas Vainius:
 
   * Add myself to uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 19 Dec 2007 16:28:39 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 20 Dec 2007 15:26:10 +0100
 
 kdebase-workspace (4:3.97.0-2) experimental; urgency=low
 

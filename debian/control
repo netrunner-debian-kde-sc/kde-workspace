@@ -28,6 +28,8 @@ Description: base components from the official KDE release
 Package: kdebase-workspace-bin
 Section: kde
 Architecture: any
+Replaces: kdebase-bin (<< 4:3.93.0), kcontrol, kmenuedit
+Conflicts: kcontrol, kmenuedit
 Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${source:Version}),
  dbus-x11
 Description: core binaries for the KDE base module
@@ -40,6 +42,8 @@ Description: core binaries for the KDE base module
 Package: kdebase-workspace-data
 Section: kde
 Architecture: all
+Conflicts: ksmserver, kmenuedit
+Replaces: ksmserver, kdebase-bin (<< 4:3.93.0), kdebase-data (<< 4:3.93.0), kmenuedit
 Description: shared data files for the KDE base module
  This package contains the architecture-independent shared data files needed
  for a basic KDE desktop installation.
