@@ -11,12 +11,14 @@ kdebase-workspace (4:3.97.0-3) experimental; urgency=low
   * kdebase-workspace-bin and kdebase-workspace-data replace kdebase-bin and
     kmenuedit from KDE 3.
   * kdebase-workspace-data replaces kdebase-data from KDE 3.
+  * Add patch to change the kde directory used by kstartupconfig4 to .kde4
+    (Closes: #457635).
 
   +++ Changes by Modestas Vainius:
 
   * Add myself to uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 20 Dec 2007 15:26:10 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Dec 2007 17:40:29 +0100
 
 kdebase-workspace (4:3.97.0-2) experimental; urgency=low
 

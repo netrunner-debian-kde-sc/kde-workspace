@@ -1,0 +1,13 @@
+kstartupconfig doesn't use any kdelibs, that's why it doesn't know about .kde4.
+No need to push upstream, should be removed before upload to unstable.
+--- a/kstartupconfig/kstartupconfig.cpp
++++ b/kstartupconfig/kstartupconfig.cpp
+@@ -81,7 +81,7 @@
+     else if( getenv( "HOME" ))
+         {
+         strlcpy( kdehome, getenv( "HOME" ), 1024 );
+-        strlcat( kdehome, "/.kde", 1024  );
++        strlcat( kdehome, "/.kde4", 1024  );
+         }
+     else
+         return 1;
