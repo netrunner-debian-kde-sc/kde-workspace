@@ -19,8 +19,6 @@ usr/include/KDE/Plasma/Svg
 usr/include/KDE/Plasma/Theme
 usr/include/KDE/Plasma/UiLoader
 usr/include/KDE/Plasma/View
-usr/include/plasma/dialog.h
-usr/include/plasma/layouts/fliplayout.h
 usr/include/plasma/abstractrunner.h
 usr/include/plasma/animator.h
 usr/include/plasma/appletbrowser.h
@@ -31,9 +29,11 @@ usr/include/plasma/corona.h
 usr/include/plasma/datacontainer.h
 usr/include/plasma/dataengine.h
 usr/include/plasma/dataenginemanager.h
+usr/include/plasma/dialog.h
 usr/include/plasma/glapplet.h
 usr/include/plasma/layouts/borderlayout.h
 usr/include/plasma/layouts/boxlayout.h
+usr/include/plasma/layouts/fliplayout.h
 usr/include/plasma/layouts/flowlayout.h
 usr/include/plasma/layouts/freelayout.h
 usr/include/plasma/layouts/hboxlayout.h
