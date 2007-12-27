@@ -34,6 +34,8 @@ usr/lib/libkdeinit4_kwin_rules_dialog.so
 usr/lib/libkdeinit4_kwin.so
 usr/lib/libkwineffects.so.1
 usr/lib/libkwineffects.so.1.0.0
+usr/lib/libkwinnvidiahack.so.4
+usr/lib/libkwinnvidiahack.so.4.0.0
 usr/share/dbus-1/interfaces/org.kde.KWin.xml
 usr/share/kde4/apps/kconf_update/kwin3_plugin.pl
 usr/share/kde4/apps/kconf_update/kwin3_plugin.upd

@@ -19,6 +19,8 @@ usr/include/KDE/Plasma/Svg
 usr/include/KDE/Plasma/Theme
 usr/include/KDE/Plasma/UiLoader
 usr/include/KDE/Plasma/View
+usr/include/plasma/dialog.h
+usr/include/plasma/layouts/fliplayout.h
 usr/include/plasma/abstractrunner.h
 usr/include/plasma/animator.h
 usr/include/plasma/appletbrowser.h

@@ -8,7 +8,6 @@ usr/lib/kde4/plasma_applet_lockout.so
 usr/lib/kde4/plasma_applet_pager.so
 usr/lib/kde4/plasma_applet_systemtray.so
 usr/lib/kde4/plasma_applet_tasks.so
-usr/lib/kde4/plasma_applet_url.so
 usr/lib/kde4/plasma_containment_desktop.so
 usr/lib/kde4/plasma_containment_panel.so
 usr/lib/kde4/plasma_engine_dict.so
@@ -22,6 +21,8 @@ usr/lib/kde4/plasma_engine_tasks.so
 usr/lib/kde4/plasma_engine_time.so
 usr/lib/kde4/plasma_engine_weather.so
 usr/lib/kde4/plasma_scriptengine_qscript.so
+usr/lib/kde4/plasma_applet_icon.so
+usr/lib/kde4/plasma_applet_simplelauncher.so
 usr/lib/libkdeinit4_plasma.so
 usr/lib/libplasma.so.1
 usr/lib/libplasma.so.1.0.0
