@@ -16,10 +16,6 @@ kdebase-workspace (4:3.98.0~svn753247-1) experimental; urgency=low
   * Add patch to change the kde directory used by kstartupconfig4 to .kde4
     (Closes: #457635).
 
-  +++ Changes by Modestas Vainius:
-
-  * Add myself to uploaders.
-
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Bump build-dep to >= 4:3.98.0~svn753247-1.
@@ -30,8 +26,9 @@ kdebase-workspace (4:3.98.0~svn753247-1) experimental; urgency=low
   * Revert kdm/kfrontend/kgreeter.cpp back to its state when rc2 was released.
     Debian kdm theme (and probably other themes as well) are borked, but X
     does not crash and users can login (patch 15_revert_kgreeter.cpp_to_rc2.diff) 
+  * Add myself to uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Dec 2007 22:50:17 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Dec 2007 22:15:25 +0100
 
 kdebase-workspace (4:3.97.0-2) experimental; urgency=low
 
