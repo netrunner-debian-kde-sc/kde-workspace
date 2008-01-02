@@ -1,0 +1,11 @@
+--- a/kdm/kfrontend/kgreeter.cpp
++++ b/kdm/kfrontend/kgreeter.cpp
+@@ -321,7 +321,7 @@
+ 			if (!default_pix.load( _faceDir + "/.default.face" ))
+ 				logError( "Cannot open default user face\n" );
+ 		QSize ns( 48, 48 );
+-		if (default_pix.size() != ns) {
++		if (!default_pix.isNull() && default_pix.size() != ns) {
+ 			default_pix =
+ 			  default_pix.convertToFormat( QImage::Format_ARGB32 ).scaled( ns, Qt::KeepAspectRatio, Qt::SmoothTransformation );
+ 			expandFace( default_pix );

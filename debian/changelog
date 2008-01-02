@@ -6,6 +6,7 @@ kdebase-workspace (4:3.98.0~svn755919-1) experimental; urgency=low
 
   * Update installed files.
   * Update patches.
+  * Add proper patch to fix the kdm crash.
   * Raise build-dep to >= 4:3.98.0~svn755919-1.
   * Make kdebase-workspace-data conflict with KDE 3's kdebase-data.
 

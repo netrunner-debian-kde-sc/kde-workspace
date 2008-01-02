@@ -7,4 +7,4 @@
 12_be_better_at_honouring_user_kdm_theming.diff
 13_kdm_override_docs.diff
 14_correct_kde4home_for_kstartupconfig4.diff
-15_revert_kgreeter.cpp_to_rc2.diff
+15_fix_kdm_crash.diff
