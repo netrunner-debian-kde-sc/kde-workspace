@@ -1,6 +1,6 @@
-kdebase-workspace (4:3.98.0~svn755919-1) UNRELEASED; urgency=low
+kdebase-workspace (4:3.98.0~svn755919-1) experimental; urgency=low
 
-  * New svn snapshot release.
+  * New svn snapshot release to revision 755919.
 
   +++ Changes by Armin Berres:
 
