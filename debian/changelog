@@ -1,12 +1,19 @@
 kdebase-workspace (4:3.98.0~svn755919-1) UNRELEASED; urgency=low
 
-  * Svn snapshot of revision 755919.
+  * New svn snapshot release.
+
+  +++ Changes by Armin Berres:
+
   * Update installed files.
   * Update patches.
   * Raise build-dep to >= 4:3.98.0~svn755919-1.
   * Make kdebase-workspace-data conflict with KDE 3's kdebase-data.
 
- -- Armin Berres <trigger+debian@space-based.de>  Wed, 02 Jan 2008 15:27:27 +0000
+  +++ Changes by Fathi Boudra:
+
+  * Add libphonon-dev build dependency.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Jan 2008 15:27:27 +0000
 
 kdebase-workspace (4:3.98.0~svn753247-1) experimental; urgency=low
 

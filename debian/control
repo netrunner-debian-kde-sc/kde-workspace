@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>. Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 4:3.98.0~svn755919-1),
- libbluetooth-dev, libcaptury-dev, libnm-util-dev, libqimageblitz-dev,
+ libbluetooth-dev, libcaptury-dev, libphonon-dev, libnm-util-dev, libqimageblitz-dev,
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7), libusb-dev,
  libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
  libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
