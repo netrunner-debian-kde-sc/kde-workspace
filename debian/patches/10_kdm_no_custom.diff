@@ -1,6 +1,6 @@
 --- a/kdm/kfrontend/kgreeter.cpp
 +++ b/kdm/kfrontend/kgreeter.cpp
-@@ -332,7 +332,6 @@
+@@ -388,7 +388,6 @@
  KGreeter::putSession( const QString &type, const QString &name, bool hid, const char *exe )
  {
  	int prio = exe ? (!strcmp( exe, "default" ) ? 0 :
@@ -8,7 +8,7 @@
  	                  !strcmp( exe, "failsafe" ) ? 3 : 2) : 2;
  	for (int i = 0; i < sessionTypes.size(); i++)
  		if (sessionTypes[i].type == type) {
-@@ -361,7 +360,6 @@
+@@ -417,7 +416,6 @@
  				            dsk.readEntry( "Exec" ).toLatin1() );
  			}
  	putSession( "default", i18n("Default"), false, "default" );

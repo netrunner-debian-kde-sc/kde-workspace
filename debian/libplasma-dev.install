@@ -1,11 +1,14 @@
 usr/include/KDE/Plasma/AbstractRunner
+usr/include/KDE/Plasma/Animator
 usr/include/KDE/Plasma/Applet
 usr/include/KDE/Plasma/AppletBrowser
 usr/include/KDE/Plasma/ConfigXml
 usr/include/KDE/Plasma/Containment
+usr/include/KDE/Plasma/Corona
 usr/include/KDE/Plasma/DataContainer
 usr/include/KDE/Plasma/DataEngine
 usr/include/KDE/Plasma/DataEngineManager
+usr/include/KDE/Plasma/Dialog
 usr/include/KDE/Plasma/GLApplet
 usr/include/KDE/Plasma/Package
 usr/include/KDE/Plasma/PackageMetadata
@@ -53,7 +56,6 @@ usr/include/plasma/searchcontext.h
 usr/include/plasma/searchmatch.h
 usr/include/plasma/shadowitem_p.h
 usr/include/plasma/svg.h
-usr/include/plasma/taskmanager.h
 usr/include/plasma/theme.h
 usr/include/plasma/uiloader.h
 usr/include/plasma/view.h

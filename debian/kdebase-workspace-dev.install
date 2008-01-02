@@ -14,6 +14,7 @@ usr/include/ksysguard/processes.h
 usr/include/ksysguard/ProcessFilter.h
 usr/include/ksysguard/process.h
 usr/include/ksysguard/ProcessModel.h
+usr/include/kwinconfig.h
 usr/include/kwineffects.h
 usr/include/kwinglobals.h
 usr/include/kworkspace/kwindowlistmenu.h
@@ -42,6 +43,9 @@ usr/include/solid/control/powermanager.h
 usr/include/solid/control/singletondefs.h
 usr/include/solid/control/solid_control_export.h
 usr/include/solid/control/wirelessnetwork.h
+usr/include/taskmanager/startup.h
+usr/include/taskmanager/task.h
+usr/include/taskmanager/taskmanager.h
 usr/lib/libkdecorations.so
 usr/lib/libkscreensaver.so
 usr/lib/libksgrd.so

@@ -1,182 +1,182 @@
---- kdebase-workspace-3.97.0/kdm/kfrontend/kgreeter.cpp	2007-12-05 16:12:43.000000000 +0200
-+++ kdebase-workspace-3.98.0~svn753247/kdm/kfrontend/kgreeter.cpp	2007-12-27 02:22:32.000000000 +0200
-@@ -38,20 +38,24 @@
+--- a/kdm/kfrontend/kgreeter.cpp
++++ b/kdm/kfrontend/kgreeter.cpp
+@@ -38,24 +38,20 @@
  #include <KConfigGroup>
  
  #include <QAction>
-+#include <QBuffer>
+-#include <QBuffer>
  #include <QDir>
  #include <QFile>
-+#include <QImageReader>
+-#include <QImageReader>
  #include <QKeyEvent>
  #include <QLabel>
  #include <QListWidget>
  #include <QListWidgetItem>
  #include <QMenu>
  #include <QMovie>
-+#include <QPainter>
+-#include <QPainter>
  #include <QPushButton>
  #include <QStyle>
  
  #include <sys/types.h>
  #include <stdlib.h>
  #include <unistd.h>
-+#include <fcntl.h>
+-#include <fcntl.h>
  #include <pwd.h>
  #include <grp.h>
  
-@@ -63,7 +67,7 @@
+@@ -67,7 +63,7 @@
  		: QListWidget( parent )
  		, cachedSizeHint( -1, 0 )
  	{
--		setSizePolicy( QSizePolicy::Preferred, QSizePolicy::Ignored );
-+		setSizePolicy( QSizePolicy::Minimum, QSizePolicy::Ignored );
+-		setSizePolicy( QSizePolicy::Minimum, QSizePolicy::Ignored );
++		setSizePolicy( QSizePolicy::Preferred, QSizePolicy::Ignored );
  		setUniformItemSizes( true );
  		setVerticalScrollMode( ScrollPerPixel );
  		setIconSize( QSize( 48, 48 ) );
-@@ -179,6 +183,23 @@
+@@ -183,23 +179,6 @@
  	delete stsGroup;
  }
  
-+static void
-+expandFace( QImage &img )
-+{
-+	if (img.width() < 48) {
-+		QImage nimg( 48, img.height(), QImage::Format_ARGB32 );
-+		nimg.fill( 0 );
-+		QPainter p( &nimg );
-+		p.drawImage( (48 - img.width()) / 2, 0, img );
-+		img = nimg;
-+	}
-+}
-+
-+#define FILE_LIMIT_ICON 20
-+#define FILE_LIMIT_IMAGE 200
-+#define PIXEL_LIMIT_ICON 100
-+#define PIXEL_LIMIT_IMAGE 300
-+
+-static void
+-expandFace( QImage &img )
+-{
+-	if (img.width() < 48) {
+-		QImage nimg( 48, img.height(), QImage::Format_ARGB32 );
+-		nimg.fill( 0 );
+-		QPainter p( &nimg );
+-		p.drawImage( (48 - img.width()) / 2, 0, img );
+-		img = nimg;
+-	}
+-}
+-
+-#define FILE_LIMIT_ICON 20
+-#define FILE_LIMIT_IMAGE 200
+-#define PIXEL_LIMIT_ICON 100
+-#define PIXEL_LIMIT_IMAGE 300
+-
  void
  KGreeter::insertUser( const QImage &default_pix,
                        const QString &username, struct passwd *ps )
-@@ -197,16 +218,48 @@
+@@ -218,48 +197,16 @@
  		nd = 1;
  	QImage p;
  	do {
--		QString fn = dp ?
--		             QFile::decodeName( ps->pw_dir ) + "/.face" :
--		             _faceDir + '/' + username + ".face";
--		if (p.load( fn + ".icon" ) || p.load( fn )) {
--			QSize ns( 48, 48 );
--			if (p.size() != ns)
--				p = p.convertToFormat( QImage::Format_RGB32 ).scaled( ns, Qt::KeepAspectRatio, Qt::SmoothTransformation );
--			goto gotit;
-+		dp ^= 1;
-+		QByteArray fn = !dp ?
-+		                QByteArray( ps->pw_dir ) + '/' :
-+		                QFile::encodeName( _faceDir + '/' + username );
-+		fn += ".face.icon";
-+		int fd, ico;
-+		if ((fd = open( fn.data(), O_RDONLY | O_NONBLOCK )) < 0) {
-+			fn.chop( 5 );
-+			if ((fd = open( fn.data(), O_RDONLY | O_NONBLOCK )) < 0)
-+				continue;
-+			ico = 0;
-+		} else
-+			ico = 1;
-+		QFile f;
-+		f.open( fd, QFile::ReadOnly );
-+		int fs = f.size();
-+		if (fs > (ico ? FILE_LIMIT_ICON : FILE_LIMIT_IMAGE) * 1000) {
-+			logWarn( "%s exceeds file size limit (%dkB)\n",
-+			         fn.data(), ico ? FILE_LIMIT_ICON : FILE_LIMIT_IMAGE );
-+			continue;
-+		}
-+		QByteArray fc = f.read( fs );
-+		::close( fd );
-+		QBuffer buf( &fc );
-+		buf.open( QBuffer::ReadOnly );
-+		QImageReader ir( &buf );
-+		QSize sz = ir.size();
-+		int lim = ico ? PIXEL_LIMIT_ICON : PIXEL_LIMIT_IMAGE;
-+		if (sz.width() > lim || sz.height() > lim) {
-+			logWarn( "%s exceeds image dimension limit (%dx%d)\n",
-+			         fn.data(), lim, lim );
-+			continue;
-+		}
-+		sz.scale( 48, 48, Qt::KeepAspectRatio );
-+		ir.setScaledSize( sz );
-+		p = ir.read();
-+		if (p.isNull()) {
-+			logInfo( "%s is no valid image\n", fn.data() );
-+			continue;
+-		dp ^= 1;
+-		QByteArray fn = !dp ?
+-		                QByteArray( ps->pw_dir ) + '/' :
+-		                QFile::encodeName( _faceDir + '/' + username );
+-		fn += ".face.icon";
+-		int fd, ico;
+-		if ((fd = open( fn.data(), O_RDONLY | O_NONBLOCK )) < 0) {
+-			fn.chop( 5 );
+-			if ((fd = open( fn.data(), O_RDONLY | O_NONBLOCK )) < 0)
+-				continue;
+-			ico = 0;
+-		} else
+-			ico = 1;
+-		QFile f;
+-		f.open( fd, QFile::ReadOnly );
+-		int fs = f.size();
+-		if (fs > (ico ? FILE_LIMIT_ICON : FILE_LIMIT_IMAGE) * 1000) {
+-			logWarn( "%s exceeds file size limit (%dkB)\n",
+-			         fn.data(), ico ? FILE_LIMIT_ICON : FILE_LIMIT_IMAGE );
+-			continue;
+-		}
+-		QByteArray fc = f.read( fs );
+-		::close( fd );
+-		QBuffer buf( &fc );
+-		buf.open( QBuffer::ReadOnly );
+-		QImageReader ir( &buf );
+-		QSize sz = ir.size();
+-		int lim = ico ? PIXEL_LIMIT_ICON : PIXEL_LIMIT_IMAGE;
+-		if (sz.width() > lim || sz.height() > lim) {
+-			logWarn( "%s exceeds image dimension limit (%dx%d)\n",
+-			         fn.data(), lim, lim );
+-			continue;
+-		}
+-		sz.scale( 48, 48, Qt::KeepAspectRatio );
+-		ir.setScaledSize( sz );
+-		p = ir.read();
+-		if (p.isNull()) {
+-			logInfo( "%s is no valid image\n", fn.data() );
+-			continue;
++		QString fn = dp ?
++		             QFile::decodeName( ps->pw_dir ) + "/.face" :
++		             _faceDir + '/' + username + ".face";
++		if (p.load( fn + ".icon" ) || p.load( fn )) {
++			QSize ns( 48, 48 );
++			if (p.size() != ns)
++				p = p.convertToFormat( QImage::Format_RGB32 ).scaled( ns, Qt::KeepAspectRatio, Qt::SmoothTransformation );
++			goto gotit;
  		}
--		dp = 1 - dp;
-+		expandFace( p );
-+		goto gotit;
+-		expandFace( p );
+-		goto gotit;
++		dp = 1 - dp;
  	} while (--nd >= 0);
  	p = default_pix;
    gotit:
-@@ -268,9 +321,11 @@
+@@ -321,11 +268,9 @@
  			if (!default_pix.load( _faceDir + "/.default.face" ))
  				logError( "Cannot open default user face\n" );
  		QSize ns( 48, 48 );
--		if (default_pix.size() != ns)
-+		if (default_pix.size() != ns) {
+-		if (default_pix.size() != ns) {
++		if (default_pix.size() != ns)
  			default_pix =
--			  default_pix.convertToFormat( QImage::Format_RGB32 ).scaled( ns, Qt::KeepAspectRatio, Qt::SmoothTransformation );
-+			  default_pix.convertToFormat( QImage::Format_ARGB32 ).scaled( ns, Qt::KeepAspectRatio, Qt::SmoothTransformation );
-+			expandFace( default_pix );
-+		}
+-			  default_pix.convertToFormat( QImage::Format_ARGB32 ).scaled( ns, Qt::KeepAspectRatio, Qt::SmoothTransformation );
+-			expandFace( default_pix );
+-		}
++			  default_pix.convertToFormat( QImage::Format_RGB32 ).scaled( ns, Qt::KeepAspectRatio, Qt::SmoothTransformation );
  	}
  	if (_showUsers == SHOW_ALL) {
  		UserList noUsers( _noUsers );
-@@ -316,6 +371,7 @@
+@@ -371,7 +316,6 @@
  		}
  	}
  	endpwent();
-+	endgrent();
+-	endgrent();
  	if (_sortUsers) {
  		if (userView)
  			userView->sortItems();
-@@ -380,14 +436,16 @@
+@@ -434,16 +378,14 @@
  {
  	struct passwd *pw;
  
--	if (userView && (pw = getpwnam( curUser.toLocal8Bit().data() ))) {
--		QString theUser = QString::fromLocal8Bit( pw->pw_name );
--		for (int i = 0, rc = userView->model()->rowCount(); i < rc; i++) {
--			UserListViewItem *item =
--				static_cast<UserListViewItem *>(userView->item( i ));
--			if (item->login == theUser) {
--				userView->setCurrentItem( item );
--				goto oke;
-+	if (userView) {
-+		if ((pw = getpwnam( curUser.toLocal8Bit().data() ))) {
-+			QString theUser = QString::fromLocal8Bit( pw->pw_name );
-+			for (int i = 0, rc = userView->model()->rowCount(); i < rc; i++) {
-+				UserListViewItem *item =
-+					static_cast<UserListViewItem *>(userView->item( i ));
-+				if (item->login == theUser) {
-+					userView->setCurrentItem( item );
-+					goto oke;
-+				}
+-	if (userView) {
+-		if ((pw = getpwnam( curUser.toLocal8Bit().data() ))) {
+-			QString theUser = QString::fromLocal8Bit( pw->pw_name );
+-			for (int i = 0, rc = userView->model()->rowCount(); i < rc; i++) {
+-				UserListViewItem *item =
+-					static_cast<UserListViewItem *>(userView->item( i ));
+-				if (item->login == theUser) {
+-					userView->setCurrentItem( item );
+-					goto oke;
+-				}
++	if (userView && (pw = getpwnam( curUser.toLocal8Bit().data() ))) {
++		QString theUser = QString::fromLocal8Bit( pw->pw_name );
++		for (int i = 0, rc = userView->model()->rowCount(); i < rc; i++) {
++			UserListViewItem *item =
++				static_cast<UserListViewItem *>(userView->item( i ));
++			if (item->login == theUser) {
++				userView->setCurrentItem( item );
++				goto oke;
  			}
  		}
  		userView->clearSelection();
-@@ -810,14 +868,14 @@
+@@ -866,14 +808,14 @@
  	if ((itm = themer->findNode( "language_button" ))) // not implemented yet
  		itm->setVisible( false );
  
--#ifdef WITH_KDM_XCONSOLE
- 	if (console_node) {
-+#ifdef WITH_KDM_XCONSOLE
+-	if (console_node) {
+ #ifdef WITH_KDM_XCONSOLE
++	if (console_node) {
  		if (consoleView)
  			console_node->setWidget( consoleView );
  		else
-+#endif
+-#endif
  			console_rect->setVisible( false );
  	}
--#endif
++#endif
  
  	if (xauth_warning && (_authorized || !_authComplain))
  		xauth_warning->setVisible( false );
