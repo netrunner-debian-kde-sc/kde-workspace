@@ -13,6 +13,7 @@ usr/share/kde4/services/settings-appearance.desktop
 usr/share/kde4/services/settings-bluetooth.desktop
 usr/share/kde4/services/settings-computer-administration.desktop
 usr/share/kde4/services/settings-desktop.desktop
+usr/share/kde4/services/settings-display.desktop
 usr/share/kde4/services/settings-general.desktop
 usr/share/kde4/services/settings-keyboard-and-mouse.desktop
 usr/share/kde4/services/settings-look-and-feel.desktop
@@ -24,5 +25,4 @@ usr/share/kde4/services/settings-regional-and-language.desktop
 usr/share/kde4/services/settings-sharing.desktop
 usr/share/kde4/services/settings-system.desktop
 usr/share/kde4/services/settings-window-behaviour.desktop
-usr/share/kde4/services/settings-display.desktop
 usr/share/kde4/servicetypes/systemsettingscategory.desktop

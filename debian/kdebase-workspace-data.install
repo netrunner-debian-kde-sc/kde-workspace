@@ -400,14 +400,6 @@ usr/share/wallpapers/Curls_on_Green/contents/images/1600x1200.jpg
 usr/share/wallpapers/Curls_on_Green/contents/images/1920x1200.jpg
 usr/share/wallpapers/Curls_on_Green/contents/screenshot.png
 usr/share/wallpapers/Curls_on_Green/metadata.desktop
-usr/share/wallpapers/EOS/contents/images/1024x768.jpg
-usr/share/wallpapers/EOS/contents/images/1280x1024.jpg
-usr/share/wallpapers/EOS/contents/images/1280x800.jpg
-usr/share/wallpapers/EOS/contents/images/1440x900.jpg
-usr/share/wallpapers/EOS/contents/images/1600x1200.jpg
-usr/share/wallpapers/EOS/contents/images/1920x1200.jpg
-usr/share/wallpapers/EOS/contents/screenshot.png
-usr/share/wallpapers/EOS/metadata.desktop
 usr/share/wallpapers/Emotion/contents/images/1024x768.jpg
 usr/share/wallpapers/Emotion/contents/images/1280x1024.jpg
 usr/share/wallpapers/Emotion/contents/images/1280x800.jpg
@@ -416,6 +408,14 @@ usr/share/wallpapers/Emotion/contents/images/1600x1200.jpg
 usr/share/wallpapers/Emotion/contents/images/1920x1200.jpg
 usr/share/wallpapers/Emotion/contents/screenshot.png
 usr/share/wallpapers/Emotion/metadata.desktop
+usr/share/wallpapers/EOS/contents/images/1024x768.jpg
+usr/share/wallpapers/EOS/contents/images/1280x1024.jpg
+usr/share/wallpapers/EOS/contents/images/1280x800.jpg
+usr/share/wallpapers/EOS/contents/images/1440x900.jpg
+usr/share/wallpapers/EOS/contents/images/1600x1200.jpg
+usr/share/wallpapers/EOS/contents/images/1920x1200.jpg
+usr/share/wallpapers/EOS/contents/screenshot.png
+usr/share/wallpapers/EOS/metadata.desktop
 usr/share/wallpapers/Fields_of_Peace/contents/images/1024x768.jpg
 usr/share/wallpapers/Fields_of_Peace/contents/images/1280x1024.JPG
 usr/share/wallpapers/Fields_of_Peace/contents/images/1280x800.JPG
@@ -496,4 +496,3 @@ usr/share/wallpapers/There_is_Rain_on_the_Table/contents/images/1600x1200.jpg
 usr/share/wallpapers/There_is_Rain_on_the_Table/contents/images/1920x1200.jpg
 usr/share/wallpapers/There_is_Rain_on_the_Table/contents/screenshot.png
 usr/share/wallpapers/There_is_Rain_on_the_Table/metadata.desktop
-

@@ -114,11 +114,11 @@ usr/share/kde4/services/kwin/sharpen_config.desktop
 usr/share/kde4/services/kwin/sharpen.desktop
 usr/share/kde4/services/kwin/showfps.desktop
 usr/share/kde4/services/kwin/showpaint.desktop
+usr/share/kde4/services/kwin/taskbarthumbnail.desktop
 usr/share/kde4/services/kwin/thumbnailaside.desktop
 usr/share/kde4/services/kwin/trackmouse_config.desktop
 usr/share/kde4/services/kwin/trackmouse.desktop
 usr/share/kde4/services/kwin/videorecord.desktop
 usr/share/kde4/services/kwin/zoom.desktop
 usr/share/kde4/servicetypes/kwineffect.desktop
-usr/share/kde4/services/kwin/taskbarthumbnail.desktop
 usr/share/sounds/pop.wav
