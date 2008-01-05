@@ -64,7 +64,6 @@ usr/lib/kde4/kded_networkstatus.so
 usr/lib/kde4/krunner_bookmarksrunner.so
 usr/lib/kde4/krunner_calculatorrunner.so
 usr/lib/kde4/krunner_locations.so
-usr/lib/kde4/krunner_searchrunner.so
 usr/lib/kde4/krunner_webshortcuts.so
 usr/lib/kde4/kstyle_keramik_config.so
 usr/lib/kde4/libexec/kcheckpass

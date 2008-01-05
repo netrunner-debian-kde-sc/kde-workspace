@@ -87,7 +87,6 @@ usr/share/kde4/services/kwin/blur.desktop
 usr/share/kde4/services/kwin/boxswitch.desktop
 usr/share/kde4/services/kwincompositing.desktop
 usr/share/kde4/services/kwindecoration.desktop
-usr/share/kde4/services/kwin/demo_taskbarthumbnail.desktop
 usr/share/kde4/services/kwin/desktopgrid.desktop
 usr/share/kde4/services/kwin/dialogparent.desktop
 usr/share/kde4/services/kwin/diminactive.desktop
@@ -121,4 +120,5 @@ usr/share/kde4/services/kwin/trackmouse.desktop
 usr/share/kde4/services/kwin/videorecord.desktop
 usr/share/kde4/services/kwin/zoom.desktop
 usr/share/kde4/servicetypes/kwineffect.desktop
+usr/share/kde4/services/kwin/taskbarthumbnail.desktop
 usr/share/sounds/pop.wav
