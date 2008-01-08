@@ -1,0 +1,13 @@
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -9,6 +9,10 @@
+ find_package(Strigi REQUIRED)
+ find_package(Blitz REQUIRED)
+ 
++macro_optional_find_package(USB)
++macro_optional_find_package(Fontconfig)
++macro_optional_find_package(OpenGL)
++
+ include (MacroLibrary)
+ include (KDE4Defaults)
+ 
