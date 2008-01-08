@@ -8,11 +8,6 @@ kdebase-workspace (4:4.0.0-1) UNRELEASED; urgency=low
   * Bump build-depends to >= 4.0.0-1.
   * Remove patch 15_fix_kdm_crash no needed now.
 
-  +++ Changes by Fathi Boudra:
-
-  * Add patch to fix detection of optional features
-    from upstream revision 758600.
-
   +++ Changes by Matthew Rosewarne:
 
   * Add Homepage: to control.
