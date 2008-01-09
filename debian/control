@@ -21,10 +21,14 @@ Depends:  kdebase-workspace-bin (>= ${binary:Version}),
  kwin (>= ${binary:Version}), systemsettings (>= ${binary:Version})
 Recommends: kdm (>= ${binary:Version})
 Description: base components from the official KDE release
- KDE (the K Desktop Environment) is a powerful Open Source graphical desktop
- environment for Unix workstations. It combines ease of use, contemporary
- functionality, and outstanding graphical design with the technological
- superiority of the Unix operating system.
+ KDE is produced by an international technology team that creates free and open
+ source software for desktop and portable computing. Among KDE's products are a
+ modern desktop system for Linux and UNIX platforms, comprehensive office
+ productivity and groupware suites and hundreds of software titles in many
+ categories including Internet and web applications, multimedia, entertainment,
+ educational, graphics and software development.
+ .
+ This package provides a basic KDE 4 desktop installation.
 
 Package: kdebase-workspace-bin
 Section: kde
@@ -35,11 +39,10 @@ Suggests: x11-xkb-utils
 Replaces: kdebase-bin (<< 4:3.93.0), kcontrol, kmenuedit
 Conflicts: kcontrol, kmenuedit
 Description: core binaries for the KDE base module
- This package contains miscellaneous programs needed by other KDE applications,
- particularly those in the KDE base module.
+ This package contains miscellaneous programs needed for a basic KDE desktop
+ installation.
  .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
+ This package is part of the KDE 4 base workspace module.
 
 Package: kdebase-workspace-data
 Section: kde
@@ -47,11 +50,10 @@ Architecture: all
 Conflicts: ksmserver, kmenuedit, kdebase-data (<< 4:3.90.1)
 Replaces: ksmserver, kdebase-bin (<< 4:3.93.0), kdebase-data (<< 4:3.93.0), kmenuedit
 Description: shared data files for the KDE base module
- This package contains the architecture-independent shared data files needed
- for a basic KDE desktop installation.
+ This package contains architecture-independent shared data files needed for a
+ basic KDE desktop installation.
  .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
+ This package is part of the KDE 4 base workspace module.
 
 Package: kdebase-workspace-dev
 Section: kde
@@ -64,10 +66,9 @@ Depends: ${shlibs:Depends}, kdebase-workspace (= ${binary:Version}), kdepimlibs5
  network-manager-dev
 Description: development files for the KDE base module
  This package contains headers and other development files needed to build
- software that uses the KDE base module.
+ software that uses the KDE base workspace module.
  .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
+ This package is part of the KDE 4 base workspace module.
 
 Package: kdm
 Section: kde
@@ -84,8 +85,7 @@ Description: KDE Display Manager for X11
  KDM supports custom themes and can display a list of users with icons.
  Additional user icons can be found in the 'kdepasswd' package.
  .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
+ This package is part of the KDE 4 base workspace module.
 
 Package: klipper
 Section: kde
@@ -96,8 +96,7 @@ Description: clipboard utility for KDE
  contents and can automatically perform actions when certain items are
  selected, such as launch a web browser when a URL is selected.
  .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
+ This package is part of the KDE 4 base workspace module.
 
 Package: ksysguardd
 Section: kde
@@ -107,8 +106,7 @@ Description: system guard daemon for KDE
  KDE System Guard Daemon can be installed on a remote system so that the KDE
  System Guard can connect to and monitor it.
  .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
+ This package is part of the KDE 4 base workspace module.
 
 Package: ksysguard
 Section: kde
@@ -120,8 +118,7 @@ Description: system guard for KDE
  In addition to monitoring the local system, it can connect to remote systems
  running the KDE System Guard Daemon, which is in the 'ksysguardd' package.
  .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
+ This package is part of the KDE 4 base workspace module.
 
 Package: kwin
 Section: kde
@@ -133,9 +130,7 @@ Description: the KDE window manager
  This package contains the KDE window manager, featuring hardware-accelerated
  compositing effects.
  .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
-
+ This package is part of the KDE 4 base workspace module.
 
 Package: systemsettings
 Section: kde
@@ -145,8 +140,7 @@ Description: KDE System Settings Center
  KDE System Settings is an improved user interface for configuring the desktop
  and other aspects of the system.
  .
- This package is part of KDE, and a component of the KDE base module.
- See the 'kde' and 'kdebase-workspace' packages for more information.
+ This package is part of the KDE 4 base workspace module.
 
 Package: kdebase-workspace-dbg
 Section: devel
