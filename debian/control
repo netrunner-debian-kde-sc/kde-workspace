@@ -164,7 +164,6 @@ Architecture: any
 Priority: optional
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-data (= ${binary:Version})
 Replaces: kdebase-workspace-bin (<< 4:3.96.0)
-Homepage: http://plasma.kde.org/
 Description: library for the KDE 4 Plasma desktop
  This package contains the KDE 4 Plasma desktop library and plugins.
 
@@ -174,7 +173,6 @@ Architecture: all
 Priority: optional
 Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Replaces: kdebase-workspace-dev (<< 4:3.96.0)
-Homepage: http://plasma.kde.org/
 Description: development files for the KDE 4 Plasma desktop
  This package contains headers and other development files needed to build
  software that uses the KDE 4 Plasma desktop.

@@ -7,13 +7,14 @@ kdebase-workspace (4:4.0.0-1) UNRELEASED; urgency=low
   * Update *.install files.
   * Bump build-depends to >= 4.0.0-1.
   * Remove patch 15_fix_kdm_crash no needed now.
+  * Update years in copyright file.
 
   +++ Changes by Matthew Rosewarne:
 
   * Add Homepage: to control.
   * Tweak package descriptions.
-  * Replace dependency on xbase-clients to x11-utils & x11-xserver-utils
-  * Replace source:Version with binary:Version
+  * Replace dependency on xbase-clients to x11-utils & x11-xserver-utils.
+  * Replace source:Version with binary:Version.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Jan 2008 08:05:28 +0100
 
