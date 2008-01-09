@@ -29,10 +29,11 @@ Description: base components from the official KDE release
 Package: kdebase-workspace-bin
 Section: kde
 Architecture: any
+Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${binary:Version}),
+ dbus-x11, x11-utils, x11-xserver-utils
+Suggests: x11-xkb-utils
 Replaces: kdebase-bin (<< 4:3.93.0), kcontrol, kmenuedit
 Conflicts: kcontrol, kmenuedit
-Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${source:Version}),
- dbus-x11
 Description: core binaries for the KDE base module
  This package contains miscellaneous programs needed by other KDE applications,
  particularly those in the KDE base module.
@@ -62,8 +63,8 @@ Depends: ${shlibs:Depends}, kdebase-workspace (= ${binary:Version}), kdepimlibs5
  libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
  network-manager-dev
 Description: development files for the KDE base module
- This package contains headers and other development files needed to compile
- software based on the KDE base module.
+ This package contains headers and other development files needed to build
+ software that uses the KDE base module.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
@@ -71,20 +72,17 @@ Description: development files for the KDE base module
 Package: kdm
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, xbase-clients
+Depends: ${shlibs:Depends}
+Suggests: kdepasswd
 Conflicts: desktop-base (<< 4.0.4), kdebase-workspace-bin (<< 4:3.97.0-2)
 Provides: x-display-manager
-Description: X display manager for KDE
- kdm manages a collection of X servers, which may be on the local host or
- remote machines. It provides services similar to those provided by init,
- getty, and login on character-based terminals: prompting for login name and
- password, authenticating the user, and running a session. kdm supports XDMCP
- (X Display Manager Control Protocol) and can also be used to run a chooser
- process which presents the user with a menu of possible hosts that offer XDMCP
- display management.
+Description: KDE Display Manager for X11
+ KDM manages a collection of X servers running on local or remote machines.
+ It allows users to easily log into their preferred desktop environment, connect
+ to a remote XDMCP server, or shut down the system.
  .
- A collection of icons to associate with individual users is included with KDE,
- but as part of the kdepasswd package.
+ KDM supports custom themes and can display a list of users with icons.
+ Additional user icons can be found in the 'kdepasswd' package.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
@@ -94,10 +92,9 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: clipboard utility for KDE
- klipper provides standard clipboard functions (cut and paste, history saving)
- plus additional features, like the ability to offer actions to take dependent
- on the clipboard contents. For example, it can launch a web browser if the
- clipboard contains a URL.
+ Klipper is the KDE clipboard utility. It stores a history of the clipboard
+ contents and can automatically perform actions when certain items are
+ selected, such as launch a web browser when a URL is selected.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
@@ -107,9 +104,8 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: system guard daemon for KDE
- KDE System Guard Daemon is the daemon part of ksysguard. The daemon can be
- installed on a remote machine to enable ksysguard on another machine to
- monitor it through the daemon running there.
+ KDE System Guard Daemon can be installed on a remote system so that the KDE
+ System Guard can connect to and monitor it.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
@@ -119,7 +115,10 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: system guard for KDE
- KDE System Guard allows you to monitor various statistics about your computer.
+ KDE System Guard allows you to monitor various statistics about your system.
+ .
+ In addition to monitoring the local system, it can connect to remote systems
+ running the KDE System Guard Daemon, which is in the 'ksysguardd' package.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
@@ -131,7 +130,8 @@ Depends: ${shlibs:Depends}
 Replaces: kdebase-workspace-bin (<< 3.95.0)
 Provides: x-window-manager
 Description: the KDE window manager
- This package contains the default X window manager for KDE.
+ This package contains the KDE window manager, featuring hardware-accelerated
+ compositing effects.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
@@ -142,9 +142,8 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: KDE System Settings Center
- KDE System Settings Center is the replacement for kcontrol. It is an improved
- user interface hosting various modules for configuring the desktop and other
- aspects of the system.
+ KDE System Settings is an improved user interface for configuring the desktop
+ and other aspects of the system.
  .
  This package is part of KDE, and a component of the KDE base module.
  See the 'kde' and 'kdebase-workspace' packages for more information.
@@ -163,11 +162,11 @@ Package: libplasma1
 Section: libs
 Architecture: any
 Priority: optional
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-data (= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-data (= ${binary:Version})
 Replaces: kdebase-workspace-bin (<< 4:3.96.0)
 Homepage: http://plasma.kde.org/
-Description: library for the plasma kde4 desktop
- This package contains the library and plugins for the kde4 desktop.
+Description: library for the KDE 4 Plasma desktop
+ This package contains the KDE 4 Plasma desktop library and plugins.
 
 Package: libplasma-dev
 Section: libdevel
@@ -176,6 +175,6 @@ Priority: optional
 Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Replaces: kdebase-workspace-dev (<< 4:3.96.0)
 Homepage: http://plasma.kde.org/
-Description: development files for the plasma kde4 desktop
- This package contains headers and other development files needed to compile
- software based on the plasma kde4 desktop.
+Description: development files for the KDE 4 Plasma desktop
+ This package contains headers and other development files needed to build
+ software that uses the KDE 4 Plasma desktop.
