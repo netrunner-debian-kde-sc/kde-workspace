@@ -47,6 +47,8 @@ usr/include/taskmanager/startup.h
 usr/include/taskmanager/task.h
 usr/include/taskmanager/taskmanager.h
 usr/lib/libkdecorations.so
+usr/lib/libkfontinst.so
+usr/lib/libkfontinstui.so
 usr/lib/libkscreensaver.so
 usr/lib/libksgrd.so
 usr/lib/libkwineffects.so

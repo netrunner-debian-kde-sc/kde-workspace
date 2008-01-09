@@ -7,6 +7,8 @@ usr/bin/kcminit_startup
 usr/bin/kcontroledit
 usr/bin/kdeinstallktheme
 usr/bin/kdostartupconfig4
+usr/bin/kfontinst
+usr/bin/kfontview
 usr/bin/khotkeys
 usr/bin/kmenuedit
 usr/bin/krandom.kss
@@ -28,6 +30,7 @@ usr/bin/plasmoidviewer
 usr/bin/solidshell
 usr/bin/startkde
 usr/lib/kconf_update_bin/khotkeys_update
+usr/lib/kde4/fontthumbnail.so
 usr/lib/kde4/ion_bbcukmet.so
 usr/lib/kde4/ion_envcan.so
 usr/lib/kde4/ion_noaa.so
@@ -38,6 +41,7 @@ usr/lib/kde4/kcm_clock.so
 usr/lib/kde4/kcm_colors.so
 usr/lib/kde4/kcm_display.so
 usr/lib/kde4/kcm_energy.so
+usr/lib/kde4/kcm_fontinst.so
 usr/lib/kde4/kcm_fonts.so
 usr/lib/kde4/kcm_info.so
 usr/lib/kde4/kcm_input.so
@@ -61,12 +65,16 @@ usr/lib/kde4/kcm_view1394.so
 usr/lib/kde4/kcm_xinerama.so
 usr/lib/kde4/kded_khotkeys.so
 usr/lib/kde4/kded_networkstatus.so
+usr/lib/kde4/kfontviewpart.so
+usr/lib/kde4/kio_fonts.so
 usr/lib/kde4/krunner_bookmarksrunner.so
 usr/lib/kde4/krunner_calculatorrunner.so
 usr/lib/kde4/krunner_locations.so
 usr/lib/kde4/krunner_webshortcuts.so
 usr/lib/kde4/kstyle_keramik_config.so
 usr/lib/kde4/libexec/kcheckpass
+usr/lib/kde4/libexec/kfontprint
+usr/lib/kde4/libexec/kio_fonts_helper
 usr/lib/kde4/libexec/test_kcm_xinerama
 usr/lib/kde4/solid_bluez.so
 usr/lib/kde4/solid_fakebluetooth.so
@@ -82,6 +90,10 @@ usr/lib/libkdeinit4_kmenuedit.so
 usr/lib/libkdeinit4_krunner.so
 usr/lib/libkdeinit4_ksmserver.so
 usr/lib/libkdeinit4_kxkb.so
+usr/lib/libkfontinst.so.4
+usr/lib/libkfontinst.so.4.0.0
+usr/lib/libkfontinstui.so.4
+usr/lib/libkfontinstui.so.4.0.0
 usr/lib/libkscreensaver.so.5
 usr/lib/libkscreensaver.so.5.0.0
 usr/lib/libkworkspace.so.4
@@ -94,3 +106,4 @@ usr/lib/libtaskmanager.so.4
 usr/lib/libtaskmanager.so.4.0.0
 usr/lib/libweather_ion.so.4
 usr/lib/libweather_ion.so.4.0.0
+usr/lib/strigi/strigita_font.so

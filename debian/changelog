@@ -16,6 +16,10 @@ kdebase-workspace (4:4.0.0-1) UNRELEASED; urgency=low
   * Replace dependency on xbase-clients to x11-utils & x11-xserver-utils.
   * Replace source:Version with binary:Version.
 
+  +++ Changes by Fathi Boudra:
+
+  * Update kdebase-workspace-*.install files. Add fonts related files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Jan 2008 08:05:28 +0100
 
 kdebase-workspace (4:3.98.0~svn755919-1) experimental; urgency=low
