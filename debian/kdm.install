@@ -1,4 +1,12 @@
 ../local/kdm.options etc/kde4/kdm/
+etc/kde4/kdm/backgroundrc
+etc/kde4/kdm/kdmrc
+etc/kde4/kdm/Xaccess
+etc/kde4/kdm/Xreset
+etc/kde4/kdm/Xsession
+etc/kde4/kdm/Xsetup
+etc/kde4/kdm/Xstartup
+etc/kde4/kdm/Xwilling
 usr/bin/genkdmconf
 usr/bin/kdm
 usr/bin/kdmctl
