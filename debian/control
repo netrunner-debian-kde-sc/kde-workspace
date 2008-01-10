@@ -33,7 +33,7 @@ Description: base components from the official KDE release
 Package: kdebase-workspace-bin
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${binary:Version}),
+Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${source:Version}),
  dbus-x11, x11-utils, x11-xserver-utils
 Suggests: x11-xkb-utils
 Replaces: kdebase-bin (<< 4:3.93.0), kcontrol, kmenuedit
@@ -58,7 +58,7 @@ Description: shared data files for the KDE base module
 Package: kdebase-workspace-dev
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-workspace (= ${binary:Version}), kdepimlibs5-dev (>= 4:4.0.0-1),
+Depends: ${shlibs:Depends}, kdebase-workspace (= ${source:Version}), kdepimlibs5-dev (>= 4:4.0.0-1),
  libplasma-dev, libbluetooth-dev, libcaptury-dev, libnm-util-dev, libqimageblitz-dev,
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7), libusb-dev,
  libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
@@ -146,7 +146,7 @@ Package: kdebase-workspace-dbg
 Section: devel
 Architecture: any
 Priority: extra
-Depends: kdebase-workspace (= ${binary:Version}), kdepimlibs-dbg
+Depends: kdebase-workspace (= ${source:Version}), kdepimlibs-dbg
 Description: debugging symbols for kdebase-workspace
  This package contains the debugging symbols associated with kdebase-workspace.
  They will automatically be used by gdb for debugging kdebase-workspace-related
@@ -156,7 +156,7 @@ Package: libplasma1
 Section: libs
 Architecture: any
 Priority: optional
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-data (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-data (= ${source:Version})
 Replaces: kdebase-workspace-bin (<< 4:3.96.0)
 Description: library for the KDE 4 Plasma desktop
  This package contains the KDE 4 Plasma desktop library and plugins.
@@ -165,7 +165,7 @@ Package: libplasma-dev
 Section: libdevel
 Architecture: all
 Priority: optional
-Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
+Depends: libplasma1 (>= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Replaces: kdebase-workspace-dev (<< 4:3.96.0)
 Description: development files for the KDE 4 Plasma desktop
  This package contains headers and other development files needed to build

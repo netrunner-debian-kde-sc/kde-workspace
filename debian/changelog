@@ -14,7 +14,6 @@ kdebase-workspace (4:4.0.0-1) experimental; urgency=low
   * Add Homepage: to control.
   * Tweak package descriptions.
   * Replace dependency on xbase-clients to x11-utils and x11-xserver-utils.
-  * Replace source:Version with binary:Version.
 
   +++ Changes by Fathi Boudra:
 
