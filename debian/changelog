@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.0.0-2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.0-2) experimental; urgency=low
 
   * Readd various kdm configuration files which were not installed by
     accident.
