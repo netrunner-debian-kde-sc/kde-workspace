@@ -1,3 +1,5 @@
+Don't move --no-old to another place. $ENV{DESTDIR} is likely empty then.
+When anyone knows why -- please tell me.
 --- a/kdm/kfrontend/CMakeLists.txt
 +++ b/kdm/kfrontend/CMakeLists.txt
 @@ -113,5 +113,5 @@
@@ -5,5 +7,5 @@
  set(FACE_SRC_PATH "${CMAKE_CURRENT_SOURCE_DIR}/pics")
  install(CODE "
 -exec_program(\"${CMAKE_CURRENT_BINARY_DIR}/genkdmconf\" ARGS --in '${KDM_PATH}' --no-in-notice --face-src '${FACE_SRC_PATH}' \$GENKDMCONF_FLAGS)
-+exec_program(\"${CMAKE_CURRENT_BINARY_DIR}/genkdmconf\" ARGS --in '${KDM_PATH}' --no-in-notice --face-src '${FACE_SRC_PATH}' \$GENKDMCONF_FLAGS --no-old)
++exec_program(\"${CMAKE_CURRENT_BINARY_DIR}/genkdmconf\" ARGS --no-old --in '${KDM_PATH}' --no-in-notice --face-src '${FACE_SRC_PATH}'  \$GENKDMCONF_FLAGS)
  ")
