@@ -1,6 +1,6 @@
 --- a/kdm/config.def
 +++ b/kdm/config.def
-@@ -2659,7 +2659,7 @@
+@@ -2656,7 +2656,7 @@
  Type: string
  Default: ""
  User: greeter
