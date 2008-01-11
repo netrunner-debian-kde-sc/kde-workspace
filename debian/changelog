@@ -1,3 +1,9 @@
+kdebase-workspace (4:4.0.0-3) UNRELEASED; urgency=low
+
+  * Install kdm-np insto /etc/pam.d/ to get working auto-login.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Fri, 11 Jan 2008 14:52:17 +0100
+
 kdebase-workspace (4:4.0.0-2) experimental; urgency=low
 
   * Add patch to install various kdm configuration files into the correct 
