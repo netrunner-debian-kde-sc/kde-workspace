@@ -36,8 +36,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${source:Version}),
  dbus-x11, x11-utils, x11-xserver-utils
 Suggests: x11-xkb-utils
-Replaces: kdebase-bin (<< 4:3.93.0), kcontrol, kmenuedit
-Conflicts: kcontrol, kmenuedit
+Replaces: kdebase-bin (<< 4:3.93.0), kcontrol, kmenuedit, ktip
+Conflicts: kcontrol
 Description: core binaries for the KDE base module
  This package contains miscellaneous programs needed for a basic KDE desktop
  installation.
@@ -47,8 +47,8 @@ Description: core binaries for the KDE base module
 Package: kdebase-workspace-data
 Section: kde
 Architecture: all
-Conflicts: ksmserver, kmenuedit, kdebase-data (<< 4:3.90.1)
-Replaces: ksmserver, kdebase-bin (<< 4:3.93.0), kdebase-data (<< 4:3.93.0), kmenuedit
+Conflicts: ksmserver, kmenuedit, kdebase-data (<< 4:3.90.1), ktip
+Replaces: ksmserver, kdebase-bin (<< 4:3.93.0), kdebase-data (<< 4:3.93.0), kmenuedit, ktip
 Description: shared data files for the KDE base module
  This package contains architecture-independent shared data files needed for a
  basic KDE desktop installation.
