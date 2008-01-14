@@ -47,7 +47,7 @@ Description: core binaries for the KDE base module
 Package: kdebase-workspace-data
 Section: kde
 Architecture: all
-Conflicts: ksmserver, kmenuedit, kdebase-data (<< 4:3.90.1), ktip
+Conflicts: ksmserver, kdebase-bin (<< 4:3.93.0), kdebase-data (<< 4:3.90.1), kmenuedit, ktip
 Replaces: ksmserver, kdebase-bin (<< 4:3.93.0), kdebase-data (<< 4:3.93.0), kmenuedit, ktip
 Description: shared data files for the KDE base module
  This package contains architecture-independent shared data files needed for a
