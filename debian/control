@@ -4,11 +4,11 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>. Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 4:4.0.0-1),
- libbluetooth-dev, libcaptury-dev, libphonon-dev, libnm-util-dev, libqimageblitz-dev,
- libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7), libusb-dev,
- libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
- libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
- network-manager-dev, libpam0g-dev
+ libbluetooth-dev, libcaptury-dev, libdbus-1-dev, libphonon-dev, libnm-util-dev,
+ libpam0g-dev, libqimageblitz-dev, libraw1394-dev, libsensors-dev,
+ libstrigiqtdbusclient-dev (>= 0.5.7-2), libusb-dev, libxkbfile-dev,
+ libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxklavier11-dev,
+ libxrandr-dev, libxrender-dev, libxxf86misc-dev, network-manager-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 
@@ -59,11 +59,12 @@ Package: kdebase-workspace-dev
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace (= ${source:Version}), kdepimlibs5-dev (>= 4:4.0.0-1),
- libplasma-dev, libbluetooth-dev, libcaptury-dev, libnm-util-dev, libqimageblitz-dev,
- libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7), libusb-dev,
- libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
- libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
- network-manager-dev
+ libbluetooth-dev, libcaptury-dev, libdbus-1-dev, libphonon-dev, libnm-util-dev,
+ libpam0g-dev, libqimageblitz-dev, libraw1394-dev, libsensors-dev,
+ libstrigiqtdbusclient-dev (>= 0.5.7-2), libusb-dev, libxkbfile-dev,
+ libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxklavier11-dev,
+ libxrandr-dev, libxrender-dev, libxxf86misc-dev, network-manager-dev,
+ libplasma-dev
 Description: development files for the KDE base module
  This package contains headers and other development files needed to build
  software that uses the KDE base workspace module.

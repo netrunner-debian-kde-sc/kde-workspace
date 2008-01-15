@@ -1,10 +1,17 @@
 kdebase-workspace (4:4.0.0-3) UNRELEASED; urgency=low
 
-  * Install kdm-np insto /etc/pam.d/ to get working auto-login.
-  * Install documentation how to use kwin with composite.
+  +++ Changes by Armin Berres:
+
+  * Install kdm-np into /etc/pam.d/ to get working auto-login.
+  * Install documentation of how to use kwin with composite.
   * Add conflicts and replaces for a smoother upgrade.
 
- -- Armin Berres <trigger+debian@space-based.de>  Fri, 11 Jan 2008 21:50:17 +0100
+  +++ Changes by Fathi Boudra:
+
+  * Add ConsoleKit support patch.
+  * Add libdbus-1-dev build dependency.
+
+ -- Fathi Boudra <fabo@debian.org>  Tue, 15 Jan 2008 10:48:07 +0100
 
 kdebase-workspace (4:4.0.0-2) experimental; urgency=low
 
