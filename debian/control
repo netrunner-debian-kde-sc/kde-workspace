@@ -2,7 +2,7 @@ Source: kdebase-workspace
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>. Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>. Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 4:4.0.0-1),
  libbluetooth-dev, libcaptury-dev, libdbus-1-dev, libphonon-dev, libnm-util-dev,
  libpam0g-dev, libqimageblitz-dev, libraw1394-dev, libsensors-dev,
@@ -15,12 +15,11 @@ Homepage: http://www.kde.org/
 Package: kdebase-workspace
 Section: kde
 Architecture: all
-Depends:  kdebase-workspace-bin (>= ${binary:Version}), 
- kdebase-workspace-data (>= ${binary:Version}),
- klipper (>= ${binary:Version}), ksysguard (>= ${binary:Version}), 
+Depends:  kdebase-workspace-bin (>= ${binary:Version}),
+ klipper (>= ${binary:Version}), ksysguard (>= ${binary:Version}),
  kwin (>= ${binary:Version}), systemsettings (>= ${binary:Version})
 Recommends: kdm (>= ${binary:Version})
-Description: base components from the official KDE release
+Description: Base components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -36,10 +35,10 @@ Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${source:Version}),
  dbus-x11, x11-utils, x11-xserver-utils
 Suggests: x11-xkb-utils
-Replaces: kdebase-bin (<< 4:3.93.0), kcontrol, kmenuedit, ktip
+Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip
 Conflicts: kcontrol
-Description: core binaries for the KDE base module
- This package contains miscellaneous programs needed for a basic KDE desktop
+Description: Core binaries for the KDE 4 base module
+ This package contains miscellaneous programs needed for a basic KDE 4 desktop
  installation.
  .
  This package is part of the KDE 4 base workspace module.
@@ -47,27 +46,29 @@ Description: core binaries for the KDE base module
 Package: kdebase-workspace-data
 Section: kde
 Architecture: all
-Conflicts: ksmserver, kdebase-bin (<< 4:3.93.0), kdebase-data (<< 4:3.90.1), kmenuedit, ktip
-Replaces: ksmserver, kdebase-bin (<< 4:3.93.0), kdebase-data (<< 4:3.93.0), kmenuedit, ktip
-Description: shared data files for the KDE base module
+Conflicts: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
+ kmenuedit, ktip
+Replaces: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
+ kmenuedit, ktip
+Description: Shared data files for the KDE 4 base module
  This package contains architecture-independent shared data files needed for a
- basic KDE desktop installation.
+ basic KDE 4 desktop installation.
  .
  This package is part of the KDE 4 base workspace module.
 
 Package: kdebase-workspace-dev
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-workspace (= ${source:Version}), kdepimlibs5-dev (>= 4:4.0.0-1),
- libbluetooth-dev, libcaptury-dev, libdbus-1-dev, libphonon-dev, libnm-util-dev,
- libpam0g-dev, libqimageblitz-dev, libraw1394-dev, libsensors-dev,
- libstrigiqtdbusclient-dev (>= 0.5.7-2), libusb-dev, libxkbfile-dev,
- libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxklavier11-dev,
- libxrandr-dev, libxrender-dev, libxxf86misc-dev, network-manager-dev,
- libplasma-dev
-Description: development files for the KDE base module
+Depends: ${shlibs:Depends}, kdebase-workspace (= ${source:Version}),
+ kdepimlibs5-dev (>= 4:4.0.0-1), libbluetooth-dev, libcaptury-dev,
+ libdbus-1-dev, libphonon-dev, libnm-util-dev, libpam0g-dev, libqimageblitz-dev,
+ libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7-2),
+ libusb-dev, libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
+ libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
+ network-manager-dev, libplasma-dev
+Description: Development files for the KDE 4 base module
  This package contains headers and other development files needed to build
- software that uses the KDE base workspace module.
+ software that uses the KDE 4 base workspace module.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -76,7 +77,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: kdepasswd
-Conflicts: desktop-base (<< 4.0.4), kdebase-workspace-bin (<< 4:3.97.0-2)
+Conflicts: desktop-base (<< 4.0.4)
 Provides: x-display-manager
 Description: KDE Display Manager for X11
  KDM manages a collection of X servers running on local or remote machines.
@@ -92,8 +93,8 @@ Package: klipper
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: clipboard utility for KDE
- Klipper is the KDE clipboard utility. It stores a history of the clipboard
+Description: Clipboard utility for KDE 4
+ Klipper is the KDE 4 clipboard utility. It stores a history of the clipboard
  contents and can automatically perform actions when certain items are
  selected, such as launch a web browser when a URL is selected.
  .
@@ -103,7 +104,7 @@ Package: ksysguardd
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: system guard daemon for KDE
+Description: System Guard Daemon for KDE 4
  KDE System Guard Daemon can be installed on a remote system so that the KDE
  System Guard can connect to and monitor it.
  .
@@ -113,7 +114,7 @@ Package: ksysguard
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: system guard for KDE
+Description: System Guard for KDE 4
  KDE System Guard allows you to monitor various statistics about your system.
  .
  In addition to monitoring the local system, it can connect to remote systems
@@ -125,10 +126,9 @@ Package: kwin
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Replaces: kdebase-workspace-bin (<< 3.95.0)
 Provides: x-window-manager
-Description: the KDE window manager
- This package contains the KDE window manager, featuring hardware-accelerated
+Description: The KDE 4 window manager
+ This package contains the KDE 4 window manager, featuring hardware-accelerated
  compositing effects.
  .
  This package is part of the KDE 4 base workspace module.
@@ -137,8 +137,8 @@ Package: systemsettings
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: KDE System Settings Center
- KDE System Settings is an improved user interface for configuring the desktop
+Description: KDE 4 System Settings
+ System Settings is an improved user interface for configuring the desktop
  and other aspects of the system.
  .
  This package is part of the KDE 4 base workspace module.
@@ -147,8 +147,8 @@ Package: kdebase-workspace-dbg
 Section: devel
 Architecture: any
 Priority: extra
-Depends: kdebase-workspace (= ${source:Version}), kdepimlibs-dbg
-Description: debugging symbols for kdebase-workspace
+Depends: kdebase-workspace (= ${binary:Version}), kdepimlibs-dbg
+Description: Debugging symbols for kdebase-workspace
  This package contains the debugging symbols associated with kdebase-workspace.
  They will automatically be used by gdb for debugging kdebase-workspace-related
  issues.
@@ -157,17 +157,16 @@ Package: libplasma1
 Section: libs
 Architecture: any
 Priority: optional
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-data (= ${source:Version})
-Replaces: kdebase-workspace-bin (<< 4:3.96.0)
-Description: library for the KDE 4 Plasma desktop
- This package contains the KDE 4 Plasma desktop library and plugins.
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ kdebase-workspace-data (= ${source:Version})
+Description: Library for the KDE 4 Plasma desktop
+ This package contains the KDE 4 Plasma library and plugins.
 
 Package: libplasma-dev
 Section: libdevel
 Architecture: all
 Priority: optional
 Depends: libplasma1 (>= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
-Replaces: kdebase-workspace-dev (<< 4:3.96.0)
-Description: development files for the KDE 4 Plasma desktop
+Description: Development files for the KDE 4 Plasma desktop
  This package contains headers and other development files needed to build
- software that uses the KDE 4 Plasma desktop.
+ software that uses the KDE 4 Plasma library.

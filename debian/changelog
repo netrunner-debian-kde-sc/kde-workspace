@@ -11,7 +11,14 @@ kdebase-workspace (4:4.0.0-3) UNRELEASED; urgency=low
   * Add ConsoleKit support patch.
   * Add libdbus-1-dev build dependency.
 
- -- Fathi Boudra <fabo@debian.org>  Tue, 15 Jan 2008 10:48:07 +0100
+  +++ Changes by Matthew Rosewarne:
+
+  * Add README.Debian for kwin about compositing support.
+  * Tweak package descriptions.
+  * Change KDE 4 dependency version to 4:4.0.0-1.
+  * Remove unnecessary Replaces.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 14 Jan 2008 17:08:06 -0500
 
 kdebase-workspace (4:4.0.0-2) experimental; urgency=low
 
