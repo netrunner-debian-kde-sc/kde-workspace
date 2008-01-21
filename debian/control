@@ -147,7 +147,7 @@ Package: kdebase-workspace-dbg
 Section: devel
 Architecture: any
 Priority: extra
-Depends: kdebase-workspace (= ${binary:Version}), kdepimlibs-dbg
+Depends: kdebase-runtime-dbg
 Description: Debugging symbols for kdebase-workspace
  This package contains the debugging symbols associated with kdebase-workspace.
  They will automatically be used by gdb for debugging kdebase-workspace-related

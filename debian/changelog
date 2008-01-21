@@ -17,6 +17,7 @@ kdebase-workspace (4:4.0.0-3) UNRELEASED; urgency=low
   * Tweak package descriptions.
   * Change KDE 4 dependency version to 4:4.0.0-1.
   * Remove unnecessary Replaces.
+  * Change kdebase-workspace-dbg Depends to kdebase-runtime-dbg.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 14 Jan 2008 17:08:06 -0500
 
