@@ -15,10 +15,10 @@ Homepage: http://www.kde.org/
 Package: kdebase-workspace
 Section: kde
 Architecture: all
-Depends:  kdebase-workspace-bin (>= ${binary:Version}),
- klipper (>= ${binary:Version}), ksysguard (>= ${binary:Version}),
- kwin (>= ${binary:Version}), systemsettings (>= ${binary:Version})
-Recommends: kdm (>= ${binary:Version})
+Depends:  kdebase-workspace-bin (>= ${source:Version}),
+ klipper (>= ${source:Version}), ksysguard (>= ${source:Version}),
+ kwin (>= ${source:Version}), systemsettings (>= ${source:Version})
+Recommends: kdm (>= ${source:Version})
 Description: Base components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -58,14 +58,16 @@ Description: Shared data files for the KDE 4 base module
 
 Package: kdebase-workspace-dev
 Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}, kdebase-workspace (= ${source:Version}),
+Architecture: all
+Depends: ${shlibs:Depends}, kdebase-workspace-bin (= ${source:Version}),
+ kdm (= ${source:Version}), ksysguard (= ${source:Version}),
+ kwin (= ${source:Version}), libplasma-dev (= ${source:Version}),
  kdepimlibs5-dev (>= 4:4.0.0-1), libbluetooth-dev, libcaptury-dev,
  libdbus-1-dev, libphonon-dev, libnm-util-dev, libpam0g-dev, libqimageblitz-dev,
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7-2),
  libusb-dev, libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
  libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
- network-manager-dev, libplasma-dev
+ network-manager-dev
 Description: Development files for the KDE 4 base module
  This package contains headers and other development files needed to build
  software that uses the KDE 4 base workspace module.
@@ -148,6 +150,7 @@ Section: devel
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
+Suggests: kdebase-workspace (= ${source:Version})
 Description: Debugging symbols for kdebase-workspace
  This package contains the debugging symbols associated with kdebase-workspace.
  They will automatically be used by gdb for debugging kdebase-workspace-related
@@ -166,7 +169,7 @@ Package: libplasma-dev
 Section: libdevel
 Architecture: all
 Priority: optional
-Depends: libplasma1 (>= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
+Depends: libplasma1 (= ${source:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: Development files for the KDE 4 Plasma desktop
  This package contains headers and other development files needed to build
  software that uses the KDE 4 Plasma library.
