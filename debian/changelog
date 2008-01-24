@@ -16,7 +16,6 @@ kdebase-workspace (4:4.0.0-3) UNRELEASED; urgency=low
   * Add README.Debian for kwin about compositing support.
   * Tweak package descriptions.
   * Change KDE 4 dependency version to 4:4.0.0-1.
-  * Change kdebase-workspace-dev to Architecture: all.
   * More specific dependencies for kdebase-workspace-dev.
   * Remove unnecessary Replaces.
   * Use source:Version for kdebase-workspace metapackage.

@@ -58,10 +58,10 @@ Description: Shared data files for the KDE 4 base module
 
 Package: kdebase-workspace-dev
 Section: kde
-Architecture: all
-Depends: ${shlibs:Depends}, kdebase-workspace-bin (= ${source:Version}),
- kdm (= ${source:Version}), ksysguard (= ${source:Version}),
- kwin (= ${source:Version}), libplasma-dev (= ${source:Version}),
+Architecture: any
+Depends: ${shlibs:Depends}, kdebase-workspace-bin (= ${binary:Version}),
+ kdm (= ${binary:Version}), ksysguard (= ${binary:Version}),
+ kwin (= ${binary:Version}), libplasma-dev (= ${binary:Version}),
  kdepimlibs5-dev (>= 4:4.0.0-1), libbluetooth-dev, libcaptury-dev,
  libdbus-1-dev, libphonon-dev, libnm-util-dev, libpam0g-dev, libqimageblitz-dev,
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7-2),
@@ -167,7 +167,7 @@ Description: Library for the KDE 4 Plasma desktop
 
 Package: libplasma-dev
 Section: libdevel
-Architecture: all
+Architecture: any
 Priority: optional
 Depends: libplasma1 (= ${source:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: Development files for the KDE 4 Plasma desktop
