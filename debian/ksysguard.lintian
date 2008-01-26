@@ -1,0 +1,3 @@
+ksysguard: shlib-missing-in-control-file libkdeinit4_ksysguard.so for usr/lib/libkdeinit4_ksysguard.so
+ksysguard: package-name-doesnt-match-sonames libkdeinit4-ksysguard libksgrd4 libprocesscore4 libprocessui4
+

@@ -25,6 +25,8 @@ kdebase-workspace (4:4.0.0-3) experimental; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Update to debhelper 6.
+  * Add lintian overides for kdebase-workspace-bin, klipper, ksysguard, kwin
+    and libplasma1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Jan 2008 05:31:52 +0100
 

@@ -1,0 +1,11 @@
+kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_kcminit.so for usr/lib/libkdeinit4_kcminit.so
+kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_kmenuedit.so for usr/lib/libkdeinit4_kmenuedit.so
+kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_kxkb.so for usr/lib/libkdeinit4_kxkb.so
+kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_ksmserver.so for usr/lib/libkdeinit4_ksmserver.so
+kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_kcminit_startup.so for usr/lib/libkdeinit4_kcminit_startup.so
+kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_krunner.so for usr/lib/libkdeinit4_krunner.so
+kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_khotkeys.so for usr/lib/libkdeinit4_khotkeys.so
+kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_kaccess.so for usr/lib/libkdeinit4_kaccess.so
+kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_kcontroledit.so for usr/lib/libkdeinit4_kcontroledit.so
+kdebase-workspace-bin: package-name-doesnt-match-sonames libkdeinit4-kaccess libkdeinit4-kcminit libkdeinit4-kcminit_startup libkdeinit4-kcontroledit libkdeinit4-khotkeys libkdeinit4-kmenuedit libkdeinit4-krunner libkdeinit4-ksmserver libkdeinit4-kxkb libkfontinst4 libkfontinstui4 libkscreensaver5 libkworkspace4 libsolidcontrol4 libsolidcontrolifaces4 libtaskmanager4 libweather-ion4
+
