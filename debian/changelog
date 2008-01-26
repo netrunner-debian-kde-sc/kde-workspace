@@ -25,6 +25,7 @@ kdebase-workspace (4:4.0.0-3) experimental; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Update to debhelper 6.
+  * Add dependency on debconf to kdm.
   * Add lintian overides for kdebase-workspace-bin, klipper, ksysguard, kwin
     and libplasma1.
 
