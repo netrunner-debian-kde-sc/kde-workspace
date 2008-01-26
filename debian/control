@@ -19,7 +19,7 @@ Depends:  kdebase-workspace-bin (>= ${source:Version}),
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}),
  kwin (>= ${source:Version}), systemsettings (>= ${source:Version})
 Recommends: kdm (>= ${source:Version})
-Description: Base components from the official KDE 4 release
+Description: base components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -37,7 +37,7 @@ Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${source:Version}),
 Suggests: x11-xkb-utils
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip
 Conflicts: kcontrol
-Description: Core binaries for the KDE 4 base module
+Description: core binaries for the KDE 4 base module
  This package contains miscellaneous programs needed for a basic KDE 4 desktop
  installation.
  .
@@ -50,7 +50,7 @@ Conflicts: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
  kmenuedit, ktip
 Replaces: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
  kmenuedit, ktip
-Description: Shared data files for the KDE 4 base module
+Description: shared data files for the KDE 4 base module
  This package contains architecture-independent shared data files needed for a
  basic KDE 4 desktop installation.
  .
@@ -68,7 +68,7 @@ Depends: ${shlibs:Depends}, kdebase-workspace-bin (= ${binary:Version}),
  libusb-dev, libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
  libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
  network-manager-dev
-Description: Development files for the KDE 4 base module
+Description: development files for the KDE 4 base module
  This package contains headers and other development files needed to build
  software that uses the KDE 4 base workspace module.
  .
@@ -95,7 +95,7 @@ Package: klipper
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: Clipboard utility for KDE 4
+Description: clipboard utility for KDE 4
  Klipper is the KDE 4 clipboard utility. It stores a history of the clipboard
  contents and can automatically perform actions when certain items are
  selected, such as launch a web browser when a URL is selected.
@@ -129,7 +129,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Provides: x-window-manager
-Description: The KDE 4 window manager
+Description: the KDE 4 window manager
  This package contains the KDE 4 window manager, featuring hardware-accelerated
  compositing effects.
  .
@@ -151,7 +151,7 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdebase-workspace (= ${source:Version})
-Description: Debugging symbols for kdebase-workspace
+Description: debugging symbols for kdebase-workspace
  This package contains the debugging symbols associated with kdebase-workspace.
  They will automatically be used by gdb for debugging kdebase-workspace-related
  issues.
@@ -162,7 +162,7 @@ Architecture: any
 Priority: optional
 Depends: ${shlibs:Depends}, ${misc:Depends},
  kdebase-workspace-data (= ${source:Version})
-Description: Library for the KDE 4 Plasma desktop
+Description: library for the KDE 4 Plasma desktop
  This package contains the KDE 4 Plasma library and plugins.
 
 Package: libplasma-dev
@@ -170,6 +170,6 @@ Section: libdevel
 Architecture: any
 Priority: optional
 Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
-Description: Development files for the KDE 4 Plasma desktop
+Description: development files for the KDE 4 Plasma desktop
  This package contains headers and other development files needed to build
  software that uses the KDE 4 Plasma library.
