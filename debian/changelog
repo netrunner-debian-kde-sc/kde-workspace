@@ -1,9 +1,3 @@
-kdebase-workspace (4:4.0.0-4) UNRELEASED; urgency=low
-
-  * ... 
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 26 Jan 2008 06:52:27 +0100
-
 kdebase-workspace (4:4.0.0-3) experimental; urgency=low
 
   +++ Changes by Armin Berres:
@@ -30,7 +24,6 @@ kdebase-workspace (4:4.0.0-3) experimental; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Update to debhelper 6.
   * Add dependency on debconf to kdm.
   * Add lintian overides for kdebase-workspace-bin, klipper, ksysguard, kwin
     and libplasma1.
