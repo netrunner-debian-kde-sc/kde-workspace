@@ -169,7 +169,7 @@ Package: libplasma-dev
 Section: libdevel
 Architecture: any
 Priority: optional
-Depends: libplasma1 (= ${source:Version}), kdelibs5-dev (>= 4:4.0.0-1)
+Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
 Description: Development files for the KDE 4 Plasma desktop
  This package contains headers and other development files needed to build
  software that uses the KDE 4 Plasma library.

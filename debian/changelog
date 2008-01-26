@@ -21,7 +21,6 @@ kdebase-workspace (4:4.0.0-3) experimental; urgency=low
   * Use source:Version for kdebase-workspace metapackage.
   * Change kdebase-workspace-dbg Depends to kdebase-runtime-dbg.
   * Add Suggests: kdebase-workspace to kdebase-workspace-dbg.
-  * Tighten libplasma-dev dependency version.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
