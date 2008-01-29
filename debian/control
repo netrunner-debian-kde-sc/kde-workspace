@@ -33,7 +33,7 @@ Package: kdebase-workspace-bin
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${source:Version}),
- dbus-x11, x11-utils, x11-xserver-utils
+ x11-utils, x11-xserver-utils
 Suggests: x11-xkb-utils
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip
 Conflicts: kcontrol
