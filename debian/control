@@ -78,7 +78,7 @@ Package: kdm
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, debconf | debconf-2.0
-Recommends: desktop-base, logrotate, xserver-xorg-core | xserver,
+Recommends: logrotate, xserver-xorg-core | xserver,
  kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
 Suggests: kdepasswd
 Conflicts: desktop-base (<< 4.0.4)
