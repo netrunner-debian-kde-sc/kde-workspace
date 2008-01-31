@@ -8,6 +8,7 @@ usr/lib/libprocesscore.so.4.0.0
 usr/lib/libprocessui.so.4
 usr/lib/libprocessui.so.4.0.0
 usr/share/applications/kde4/ksysguard.desktop
+usr/share/doc/kde4/HTML/en/ksysguard/common
 usr/share/kde4/apps/kicker/applets/ksysguardapplet.desktop
 usr/share/kde4/apps/ksysguard/KSysGuardApplet.xml
 usr/share/kde4/apps/ksysguard/ksysguard.notifyrc

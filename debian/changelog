@@ -6,7 +6,15 @@ kdebase-workspace (4:4.0.1-1) UNRELEASED; urgency=low
     now provided by kdelibs5.
   * Add X server, session, and terminal Recommends to kdm.
 
- -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Thu, 31 Jan 2008 12:28:48 -0500
+  +++ Armin Berres:
+
+  * Update installed files.
+  * Move files from kdebase-workspace-data into kdm and kwin.
+  * Refresh 09_genkdm_make.diff.
+  * Bump build-depends to >= 4.0.1-1.
+  * Revert obsolete patch 15_fix_kdm_build_system.diff.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jan 2008 21:28:30 +0100
 
 kdebase-workspace (4:4.0.0-3) experimental; urgency=low
 

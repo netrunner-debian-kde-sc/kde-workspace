@@ -1,12 +1,14 @@
-../local/kdm.options etc/kde4/kdm/
 etc/kde4/kdm/backgroundrc
 etc/kde4/kdm/kdmrc
+etc/kde4/kdm.knsrc
+etc/kde4/kdm/README
 etc/kde4/kdm/Xaccess
 etc/kde4/kdm/Xreset
 etc/kde4/kdm/Xsession
 etc/kde4/kdm/Xsetup
 etc/kde4/kdm/Xstartup
 etc/kde4/kdm/Xwilling
+../local/kdm.options etc/kde4/kdm/
 usr/bin/genkdmconf
 usr/bin/kdm
 usr/bin/kdmctl
@@ -15,6 +17,11 @@ usr/lib/kde4/kgreet_winbind.so
 usr/lib/kde4/libexec/kdm_config
 usr/lib/kde4/libexec/kdm_greet
 usr/lib/kde4/libexec/krootimage
+usr/share/doc/kde4/HTML/en/kdm/common
+usr/share/doc/kde4/HTML/en/kdm/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kdm/index.docbook
+usr/share/doc/kde4/HTML/en/kdm/kdmrc-ref.docbook
+usr/share/doc/kde4/HTML/en/kdm/theme-ref.docbook
 usr/share/kde4/apps/doc/kdm/greeter.dtd
 usr/share/kde4/apps/doc/kdm/README
 usr/share/kde4/apps/kdm/pics/kdelogo-crystal.png
@@ -76,3 +83,4 @@ usr/share/kde4/apps/kdm/themes/circles/help.png
 usr/share/kde4/apps/kdm/themes/circles/KdmGreeterTheme.desktop
 usr/share/kde4/apps/kdm/themes/circles/options.png
 usr/share/kde4/apps/kdm/themes/circles/screenshot.png
+usr/share/kde4/services/kdm.desktop

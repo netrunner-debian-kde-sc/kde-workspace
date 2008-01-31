@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 4:4.0.0-1),
+Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 4:4.0.1-1),
  libbluetooth-dev, libcaptury-dev, libdbus-1-dev, libphonon-dev, libnm-util-dev,
  libpam0g-dev, libqimageblitz-dev, libraw1394-dev, libsensors-dev,
  libstrigiqtdbusclient-dev (>= 0.5.7-2), libusb-dev, libxkbfile-dev,
@@ -81,6 +81,7 @@ Depends: ${shlibs:Depends}, debconf | debconf-2.0
 Recommends: logrotate, xserver-xorg-core | xserver,
  kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
 Suggests: kdepasswd
+Replaces: kdebase-workspace-data (<< 4:4.0.1-1)
 Conflicts: desktop-base (<< 4.0.4)
 Provides: x-display-manager
 Description: KDE Display Manager for X11
@@ -131,6 +132,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Provides: x-window-manager
+Replaces: kdebase-workspace-data (<< 4:4.0.1-1)
 Description: the KDE 4 window manager
  This package contains the KDE 4 window manager, featuring hardware-accelerated
  compositing effects.
