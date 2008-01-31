@@ -1,9 +1,10 @@
-kdebase-workspace (4:4.0.0-4) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.1-1) UNRELEASED; urgency=low
 
   +++ Changes by Matthew Rosewarne:
 
   * Remove Depends: dbus-x11 from kdebase-workspace-bin,
     now provided by kdelibs5.
+  * Add desktop-base, X server, session, and terminal Recommends to kdm.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Jan 2008 09:28:30 +0100
 
