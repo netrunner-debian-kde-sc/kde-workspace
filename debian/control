@@ -19,7 +19,7 @@ Depends:  kdebase-workspace-bin (>= ${source:Version}),
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}),
  kwin (>= ${source:Version}), systemsettings (>= ${source:Version})
 Recommends: kdm (>= ${source:Version})
-Description: base components from the official KDE 4 release
+Description: base workspace components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -37,7 +37,7 @@ Depends: ${shlibs:Depends}, kdebase-workspace-data (= ${source:Version}),
 Suggests: x11-xkb-utils
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip
 Conflicts: kcontrol
-Description: core binaries for the KDE 4 base module
+Description: core binaries for the KDE 4 base workspace module
  This package contains miscellaneous programs needed for a basic KDE 4 desktop
  installation.
  .
@@ -50,7 +50,7 @@ Conflicts: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
  kmenuedit, ktip
 Replaces: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
  kmenuedit, ktip
-Description: shared data files for the KDE 4 base module
+Description: shared data files for the KDE 4 base workspace module
  This package contains architecture-independent shared data files needed for a
  basic KDE 4 desktop installation.
  .
@@ -68,11 +68,9 @@ Depends: ${shlibs:Depends}, kdebase-workspace-bin (= ${binary:Version}),
  libusb-dev, libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
  libxklavier11-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
  network-manager-dev
-Description: development files for the KDE 4 base module
- This package contains headers and other development files needed to build
- software that uses the KDE 4 base workspace module.
- .
- This package is part of the KDE 4 base workspace module.
+Description: development files for the KDE 4 base workspace module
+ This package contains development files for building software that uses
+ libraries from the KDE 4 base workspace module.
 
 Package: kdm
 Section: kde
@@ -155,10 +153,9 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdebase-workspace (= ${source:Version})
-Description: debugging symbols for kdebase-workspace
- This package contains the debugging symbols associated with kdebase-workspace.
- They will automatically be used by gdb for debugging kdebase-workspace-related
- issues.
+Description: debugging symbols for the KDE 4 base workspace module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE 4 base workspace module.
 
 Package: libplasma1
 Section: libs
