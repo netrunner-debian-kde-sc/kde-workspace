@@ -3,7 +3,7 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs, debhelper (>= 5), quilt, cmake, kdepimlibs5-dev (>= 4:4.0.1-1),
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake, kdepimlibs5-dev (>= 4:4.0.1-1),
  libbluetooth-dev, libcaptury-dev, libdbus-1-dev, libphonon-dev, libnm-util-dev,
  libpam0g-dev, libqimageblitz-dev, libraw1394-dev, libsensors-dev,
  libstrigiqtdbusclient-dev (>= 0.5.7-2), libusb-dev, libxkbfile-dev,
@@ -62,7 +62,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-bin (= ${binary:Version}),
  kdm (= ${binary:Version}), ksysguard (= ${binary:Version}),
  kwin (= ${binary:Version}), libplasma-dev (= ${binary:Version}),
- kdepimlibs5-dev (>= 4:4.0.0-1), libbluetooth-dev, libcaptury-dev,
+ kdepimlibs5-dev (>= 4:4.0.1-1), libbluetooth-dev, libcaptury-dev,
  libdbus-1-dev, libphonon-dev, libnm-util-dev, libpam0g-dev, libqimageblitz-dev,
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7-2),
  libusb-dev, libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
@@ -170,7 +170,7 @@ Package: libplasma-dev
 Section: libdevel
 Architecture: any
 Priority: optional
-Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.0-1)
+Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.1-1)
 Description: development files for the KDE 4 Plasma desktop
  This package contains headers and other development files needed to build
  software that uses the KDE 4 Plasma library.
