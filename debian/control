@@ -11,6 +11,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake, kdepimlibs5-dev
  libxrandr-dev, libxrender-dev, libxxf86misc-dev, network-manager-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdebase-workspace
+Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdebase-workspace
 
 Package: kdebase-workspace
 Section: kde

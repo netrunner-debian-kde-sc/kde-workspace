@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.0.1-1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.1-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -18,9 +18,13 @@ kdebase-workspace (4:4.0.1-1) UNRELEASED; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
  
-  * Update to debhelper 6.
+  * Bump compat/debhelper to 6.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Feb 2008 04:05:22 +0100
+  +++ Changes by Fathi Boudra:
+
+  * Add Vcs-Browser and Vcs-Svn fields.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 04 Feb 2008 15:19:44 +0100
 
 kdebase-workspace (4:4.0.0-3) experimental; urgency=low
 
