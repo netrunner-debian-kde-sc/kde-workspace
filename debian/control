@@ -75,7 +75,7 @@ Description: development files for the KDE 4 base workspace module
  libraries from the KDE 4 base workspace module.
 
 Package: kdm
-Section: kde
+Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}, debconf | debconf-2.0
 Recommends: logrotate, xserver-xorg-core | xserver,
@@ -95,7 +95,7 @@ Description: KDE Display Manager for X11
  This package is part of the KDE 4 base workspace module.
 
 Package: klipper
-Section: kde
+Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: clipboard utility for KDE 4
@@ -106,7 +106,7 @@ Description: clipboard utility for KDE 4
  This package is part of the KDE 4 base workspace module.
 
 Package: ksysguardd
-Section: kde
+Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: System Guard Daemon for KDE 4
@@ -116,7 +116,7 @@ Description: System Guard Daemon for KDE 4
  This package is part of the KDE 4 base workspace module.
 
 Package: ksysguard
-Section: kde
+Section: admin
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: System Guard for KDE 4
@@ -128,7 +128,7 @@ Description: System Guard for KDE 4
  This package is part of the KDE 4 base workspace module.
 
 Package: kwin
-Section: kde
+Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}
 Provides: x-window-manager
