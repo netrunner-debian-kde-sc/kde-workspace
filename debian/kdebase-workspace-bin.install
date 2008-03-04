@@ -43,7 +43,6 @@ usr/lib/kde4/kcm_display.so
 usr/lib/kde4/kcm_energy.so
 usr/lib/kde4/kcm_fontinst.so
 usr/lib/kde4/kcm_fonts.so
-usr/lib/kde4/kcm_info.so
 usr/lib/kde4/kcm_input.so
 usr/lib/kde4/kcm_joystick.so
 usr/lib/kde4/kcm_kdm.so
@@ -54,14 +53,11 @@ usr/lib/kde4/kcm_khotkeys.so
 usr/lib/kde4/kcm_ksplashthemes.so
 usr/lib/kde4/kcm_kthememanager.so
 usr/lib/kde4/kcm_launch.so
-usr/lib/kde4/kcm_nic.so
 usr/lib/kde4/kcm_randr.so
 usr/lib/kde4/kcm_screensaver.so
 usr/lib/kde4/kcm_smserver.so
 usr/lib/kde4/kcm_solid.so
 usr/lib/kde4/kcm_style.so
-usr/lib/kde4/kcm_usb.so
-usr/lib/kde4/kcm_view1394.so
 usr/lib/kde4/kcm_xinerama.so
 usr/lib/kde4/kded_khotkeys.so
 usr/lib/kde4/kded_networkstatus.so

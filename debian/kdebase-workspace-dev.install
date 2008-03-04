@@ -1,4 +1,5 @@
 usr/include/kcommondecoration.h
+usr/include/kdecorationbridge.h
 usr/include/kdecorationfactory.h
 usr/include/kdecoration.h
 usr/include/kgreeterplugin.h
@@ -17,6 +18,9 @@ usr/include/ksysguard/ProcessModel.h
 usr/include/kwinconfig.h
 usr/include/kwineffects.h
 usr/include/kwinglobals.h
+usr/include/kwinglutils_funcs.h
+usr/include/kwinglutils.h
+usr/include/kwinshadereffect.h
 usr/include/kworkspace/kwindowlistmenu.h
 usr/include/kworkspace/kworkspace.h
 usr/include/solid/control/authentication.h
@@ -62,6 +66,5 @@ usr/lib/libtaskmanager.so
 usr/lib/libweather_ion.so
 usr/share/kde4/apps/cmake/modules/FindLibXKlavier.cmake
 usr/share/kde4/apps/cmake/modules/FindPAM.cmake
-usr/share/kde4/apps/cmake/modules/FindRAW1394.cmake
 usr/share/kde4/apps/cmake/modules/FindSensors.cmake
 usr/share/kde4/apps/cmake/modules/UnixAuth.cmake
