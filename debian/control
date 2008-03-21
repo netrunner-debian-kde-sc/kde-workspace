@@ -19,7 +19,7 @@ Section: kde
 Architecture: all
 Depends:  kdebase-workspace-bin (>= ${source:Version}),
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}),
- kwin (>= ${source:Version}), systemsettings (>= ${source:Version})
+ kwin-kde4 (>= ${source:Version}), systemsettings (>= ${source:Version})
 Recommends: kdm (>= ${source:Version})
 Description: base workspace components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
@@ -62,9 +62,8 @@ Package: kdebase-workspace-dev
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-bin (= ${binary:Version}),
- kdm (= ${binary:Version}), ksysguard (= ${binary:Version}),
- kwin (= ${binary:Version}), libplasma-dev (= ${binary:Version}),
- kdepimlibs5-dev (>= 4:4.0.2), libbluetooth-dev, libcaptury-dev,
+ , ksysguard (= ${binary:Version}), kwin-kde4 (= ${binary:Version}),
+ libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.0.2), libbluetooth-dev, libcaptury-dev,
  libdbus-1-dev, libphonon-dev, libnm-util-dev, libpam0g-dev, libqimageblitz-dev,
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7-2),
  libusb-dev, libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
@@ -127,15 +126,38 @@ Description: System Guard for KDE 4
  .
  This package is part of the KDE 4 base workspace module.
 
-Package: kwin
+Package: kwin-kde4
 Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}
 Provides: x-window-manager
-Replaces: kdebase-workspace-data (<< 4:4.0.1-1)
+Replaces: kdebase-workspace-data (<< 4:4.0.1-1), kwin
+Conflicts: kwin
 Description: the KDE 4 window manager
  This package contains the KDE 4 window manager, featuring hardware-accelerated
  compositing effects.
+ .
+ This package is part of the KDE 4 base workspace module.
+
+Package: libkdecorations4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Replaces: kwin (>= 4:4.0.1-1)
+Conflicts: kwin (>= 4:4.0.1-1)
+Description: library used by decorations for the KDE 4 window manager
+ This package contains a library used by decorations of the KDE 4 window manager.
+ .
+ This package is part of the KDE 4 base workspace module.
+
+Package: libkwineffects1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Replaces: kwin (>= 4:4.0.1-1)
+Conflicts: kwin (>= 4:4.0.1-1)
+Description: library used by effects for the KDE 4 window manager
+ This package contains a library used by effects for the KDE 4 window manager.
  .
  This package is part of the KDE 4 base workspace module.
 

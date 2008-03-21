@@ -28,12 +28,8 @@ usr/lib/kde4/kwin_keramik_config.so
 usr/lib/kde4/kwin_modernsys_config.so
 usr/lib/kde4/kwin_plastik_config.so
 usr/lib/kde4/kwin_quartz_config.so
-usr/lib/libkdecorations.so.4
-usr/lib/libkdecorations.so.4.0.0
 usr/lib/libkdeinit4_kwin_rules_dialog.so
 usr/lib/libkdeinit4_kwin.so
-usr/lib/libkwineffects.so.1
-usr/lib/libkwineffects.so.1.0.0
 usr/lib/libkwinnvidiahack.so.4
 usr/lib/libkwinnvidiahack.so.4.0.0
 usr/share/dbus-1/interfaces/org.kde.KWin.xml

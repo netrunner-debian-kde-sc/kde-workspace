@@ -1,3 +1,11 @@
+kdebase-workspace (4:4.0.2-2) experimental; urgency=low
+
+  * Rename kwin to kwin-kde4 and split off libkwineffects1 and
+    libkdecorations4 (Closes: #463924)
+  * Remove unneeded dependency of kdebase-workspace-dev on kdm.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Fri, 21 Mar 2008 16:06:26 +0100
+
 kdebase-workspace (4:4.0.2-1) experimental; urgency=low
 
   * New upstream release.
