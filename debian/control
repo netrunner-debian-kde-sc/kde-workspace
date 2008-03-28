@@ -126,7 +126,7 @@ Description: System Guard for KDE 4
  .
  This package is part of the KDE 4 base workspace module.
 
-Package: kwin-kde4
+Package: kde-window-manager
 Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}
