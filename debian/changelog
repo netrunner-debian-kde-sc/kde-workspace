@@ -1,6 +1,6 @@
 kdebase-workspace (4:4.0.2-2) experimental; urgency=low
 
-  * Rename kwin to kde-windows-manager and split off libkwineffects1 and
+  * Rename kwin to kde-window-manager and split off libkwineffects1 and
     libkdecorations4 (Closes: #463924).
   * Remove unneeded dependency of kdebase-workspace-dev on kdm.
 
