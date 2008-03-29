@@ -3,8 +3,9 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake, kdepimlibs5-dev (>= 4:4.0.2),
- libbluetooth-dev, libcaptury-dev, libdbus-1-dev, libphonon-dev, libnm-util-dev,
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake, 
+ kdepimlibs5-dev (>= 4:4.0.66), libphonon-dev (>= 4:4.0.66),
+ libbluetooth-dev, libcaptury-dev, libdbus-1-dev, libnm-util-dev,
  libpam0g-dev, libqimageblitz-dev, libraw1394-dev, libsensors-dev,
  libstrigiqtdbusclient-dev (>= 0.5.7-2), libusb-dev, libxkbfile-dev,
  libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxklavier12-dev,
@@ -19,7 +20,7 @@ Section: kde
 Architecture: all
 Depends:  kdebase-workspace-bin (>= ${source:Version}),
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}),
- kwin-kde4 (>= ${source:Version}), systemsettings (>= ${source:Version})
+ kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version})
 Recommends: kdm (>= ${source:Version})
 Description: base workspace components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
@@ -62,7 +63,7 @@ Package: kdebase-workspace-dev
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-bin (= ${binary:Version}),
- , ksysguard (= ${binary:Version}), kwin-kde4 (= ${binary:Version}),
+ , ksysguard (= ${binary:Version}), kde-window-manager (= ${binary:Version}),
  libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.0.2), libbluetooth-dev, libcaptury-dev,
  libdbus-1-dev, libphonon-dev, libnm-util-dev, libpam0g-dev, libqimageblitz-dev,
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7-2),

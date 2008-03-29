@@ -1,10 +1,18 @@
-kdebase-workspace (4:4.0.2-2) experimental; urgency=low
+kdebase-workspace (4:4.0.66+svn791114-1) experimental; urgency=low
 
+  +++ Changes by Armin Berres:
+  
   * Rename kwin to kde-window-manager and split off libkwineffects1 and
     libkdecorations4 (Closes: #463924).
   * Remove unneeded dependency of kdebase-workspace-dev on kdm.
 
- -- Armin Berres <trigger+debian@space-based.de>  Fri, 28 Mar 2008 19:11:44 +0100
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * First KDE 4.1 snapshot packaged
+  * Update installed files.
+  * Bump build depends on >= 4.0.66
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Mar 2008 12:53:41 +0100
 
 kdebase-workspace (4:4.0.2-1) experimental; urgency=low
 

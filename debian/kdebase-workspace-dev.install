@@ -1,3 +1,4 @@
+usr/include/clocknumber.h
 usr/include/kcommondecoration.h
 usr/include/kdecorationbridge.h
 usr/include/kdecorationfactory.h
@@ -11,6 +12,7 @@ usr/include/ksgrd/SensorManager.h
 usr/include/ksgrd/SensorShellAgent.h
 usr/include/ksgrd/SensorSocketAgent.h
 usr/include/ksysguard/ksysguardprocesslist.h
+usr/include/ksysguard/KTextEditVT.h
 usr/include/ksysguard/processes.h
 usr/include/ksysguard/ProcessFilter.h
 usr/include/ksysguard/process.h
@@ -21,6 +23,7 @@ usr/include/kwinglobals.h
 usr/include/kwinglutils_funcs.h
 usr/include/kwinglutils.h
 usr/include/kwinshadereffect.h
+usr/include/kworkspace/kdisplaymanager.h
 usr/include/kworkspace/kwindowlistmenu.h
 usr/include/kworkspace/kworkspace.h
 usr/include/solid/control/authentication.h
@@ -50,6 +53,7 @@ usr/include/solid/control/wirelessnetwork.h
 usr/include/taskmanager/startup.h
 usr/include/taskmanager/task.h
 usr/include/taskmanager/taskmanager.h
+usr/include/ui_calendar.h
 usr/lib/libkdecorations.so
 usr/lib/libkfontinst.so
 usr/lib/libkfontinstui.so
