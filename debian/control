@@ -64,7 +64,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-bin (= ${binary:Version}),
  , ksysguard (= ${binary:Version}), kde-window-manager (= ${binary:Version}),
- libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.0.2), libbluetooth-dev, libcaptury-dev,
+ libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.0.66), libbluetooth-dev, libcaptury-dev,
  libdbus-1-dev, libphonon-dev, libnm-util-dev, libpam0g-dev, libqimageblitz-dev,
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7-2),
  libusb-dev, libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
@@ -195,7 +195,7 @@ Package: libplasma-dev
 Section: libdevel
 Architecture: any
 Priority: optional
-Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.2)
+Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.66)
 Description: development files for the KDE 4 Plasma desktop
  This package contains headers and other development files needed to build
  software that uses the KDE 4 Plasma library.

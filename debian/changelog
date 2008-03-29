@@ -1,3 +1,9 @@
+kdebase-workspace (4:4.0.66+svn791114-2) experimental; urgency=low
+ 
+  * Update some more build depends to >= 4:4.0.66. 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 29 Mar 2008 18:08:21 +0100
+
 kdebase-workspace (4:4.0.66+svn791114-1) experimental; urgency=low
 
   +++ Changes by Armin Berres:
