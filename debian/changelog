@@ -1,3 +1,9 @@
+kdebase-workspace (4:4.0.66+svn791114-3) experimental; urgency=low
+
+  * Remove accidentally added kgreet_classic from kdebase-workspace-bin.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Sun, 30 Mar 2008 00:40:27 +0100
+
 kdebase-workspace (4:4.0.66+svn791114-2) experimental; urgency=low
  
   * Update some more build depends to >= 4:4.0.66. 

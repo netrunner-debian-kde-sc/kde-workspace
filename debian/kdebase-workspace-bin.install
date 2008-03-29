@@ -61,7 +61,6 @@ usr/lib/kde4/kcm_xinerama.so
 usr/lib/kde4/kded_khotkeys.so
 usr/lib/kde4/kded_networkstatus.so
 usr/lib/kde4/kfontviewpart.so
-usr/lib/kde4/kgreet_generic.so
 usr/lib/kde4/kio_fonts.so
 usr/lib/kde4/krunner_bookmarksrunner.so
 usr/lib/kde4/krunner_calculatorrunner.so
