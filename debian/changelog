@@ -1,3 +1,10 @@
+kdebase-workspace (4:4.0.66+svn791114-4) experimental; urgency=low
+
+  * Move some files to -runtime/not-installed. Moved upstream. This is post 
+    revision 792360.
+
+ -- Sune Vuorela <debian@pusling.com>  Tue, 01 Apr 2008 00:01:04 +0200
+
 kdebase-workspace (4:4.0.66+svn791114-3) experimental; urgency=low
 
   * Remove accidentally added kgreet_classic from kdebase-workspace-bin.
