@@ -134,8 +134,8 @@ Depends: ${shlibs:Depends}
 Provides: x-window-manager
 Replaces: kdebase-workspace-data (<< 4:4.0.1-1), kwin
 Conflicts: kwin
-Description: the KDE 4 window manager
- This package contains the KDE 4 window manager, featuring hardware-accelerated
+Description: the KDE 4 window manager (KWin)
+ This package contains KWin, the KDE 4 window manager, featuring hardware-accelerated
  compositing effects.
  .
  This package is part of the KDE 4 base workspace module.

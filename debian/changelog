@@ -1,9 +1,15 @@
-kdebase-workspace (4:4.0.66+svn791114-4) experimental; urgency=low
+kdebase-workspace (4:4.0.66+svn791114-4) UNRELEASED; urgency=low
+
+  +++ Changes by Sune Vuorela:
 
   * Move some files to -runtime/not-installed. Moved upstream. This is post 
     revision 792360.
 
- -- Sune Vuorela <debian@pusling.com>  Tue, 01 Apr 2008 00:01:04 +0200
+  +++ Changes by Modestas Vainius:
+
+  * Mention KWin in the kde-window-manager description.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Mar 2008 12:53:41 +0100
 
 kdebase-workspace (4:4.0.66+svn791114-3) experimental; urgency=low
 
