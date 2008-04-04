@@ -33,8 +33,8 @@ usr/lib/kde4/fontthumbnail.so
 usr/lib/kde4/ion_bbcukmet.so
 usr/lib/kde4/ion_envcan.so
 usr/lib/kde4/ion_noaa.so
-usr/lib/kde4/kcm_accessibility.so
 usr/lib/kde4/kcm_access.so
+usr/lib/kde4/kcm_autostart.so
 usr/lib/kde4/kcm_bell.so
 usr/lib/kde4/kcm_clock.so
 usr/lib/kde4/kcm_colors.so
@@ -61,6 +61,7 @@ usr/lib/kde4/kcm_xinerama.so
 usr/lib/kde4/kded_khotkeys.so
 usr/lib/kde4/kded_networkstatus.so
 usr/lib/kde4/kfontviewpart.so
+usr/lib/kde4/kgreet_generic.so
 usr/lib/kde4/kio_fonts.so
 usr/lib/kde4/krunner_bookmarksrunner.so
 usr/lib/kde4/krunner_calculatorrunner.so

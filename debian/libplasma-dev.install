@@ -67,6 +67,7 @@ usr/include/plasma/shadowitem_p.h
 usr/include/plasma/svg.h
 usr/include/plasma/svgpanel.h
 usr/include/plasma/theme.h
+usr/include/plasma/timer.h
 usr/include/plasma/uiloader.h
 usr/include/plasma/view.h
 usr/include/plasma/weather/formulas.h

@@ -1,4 +1,6 @@
-kdebase-workspace (4:4.0.66+svn791114-4) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.68-1) experimental; urgency=low
+
+  * New usptream snapshot.
 
   +++ Changes by Sune Vuorela:
 
@@ -9,7 +11,12 @@ kdebase-workspace (4:4.0.66+svn791114-4) UNRELEASED; urgency=low
 
   * Mention KWin in the kde-window-manager description.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Mar 2008 12:53:41 +0100
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update installed files.
+  * Add versioned build depend on libqimageblitz-dev from experimental.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 04 Apr 2008 15:00:39 +0200
 
 kdebase-workspace (4:4.0.66+svn791114-3) experimental; urgency=low
 
