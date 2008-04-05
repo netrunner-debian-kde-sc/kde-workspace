@@ -4,10 +4,10 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake, 
- kdepimlibs5-dev (>= 4:4.0.66), libphonon-dev (>= 4:4.0.66),
+ kdepimlibs5-dev (>= 4:4.0.68), libphonon-dev (>= 4:4.0.68),
  libbluetooth-dev, libcaptury-dev, libdbus-1-dev, libnm-util-dev,
  libpam0g-dev, libqimageblitz-dev (>= 1:0.0.4-2), libraw1394-dev, libsensors-dev,
- libstrigiqtdbusclient-dev (>= 0.5.7-2), libusb-dev, libxkbfile-dev,
+ libstrigiqtdbusclient-dev (>= 0.5.8-2), libusb-dev, libxkbfile-dev,
  libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxklavier12-dev,
  libxrandr-dev, libxrender-dev, libxxf86misc-dev, network-manager-dev
 Standards-Version: 3.7.3
@@ -63,11 +63,11 @@ Package: kdebase-workspace-dev
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-bin (= ${binary:Version}),
- , ksysguard (= ${binary:Version}), kde-window-manager (= ${binary:Version}),
- libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.0.66), 
- libbluetooth-dev, libcaptury-dev, libphonon-dev (>=4:4.0.66),
+ ksysguard (= ${binary:Version}), kde-window-manager (= ${binary:Version}),
+ libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.0.68), 
+ libbluetooth-dev, libcaptury-dev, libphonon-dev (>=4:4.0.68),
  libdbus-1-dev, libnm-util-dev, libpam0g-dev, libqimageblitz-dev (>=1:0.0.4-2),
- libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.7-2),
+ libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.8-2),
  libusb-dev, libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
  libxklavier12-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
  network-manager-dev
@@ -196,7 +196,7 @@ Package: libplasma-dev
 Section: libdevel
 Architecture: any
 Priority: optional
-Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.66)
+Depends: libplasma1 (= ${binary:Version}), kdelibs5-dev (>= 4:4.0.68)
 Description: development files for the KDE 4 Plasma desktop
  This package contains headers and other development files needed to build
  software that uses the KDE 4 Plasma library.
