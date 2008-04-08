@@ -83,6 +83,7 @@ usr/include/plasma/widgets/progressbar.h
 usr/include/plasma/widgets/pushbutton.h
 usr/include/plasma/widgets/radiobutton.h
 usr/include/plasma/widgets/signalplotter.h
+usr/include/plasma/widgets/webcontent.h
 usr/include/plasma/widgets/widget.h
 usr/lib/libplasmaclock.so
 usr/lib/libplasma.so

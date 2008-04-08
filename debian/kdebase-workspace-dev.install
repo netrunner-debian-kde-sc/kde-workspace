@@ -58,6 +58,7 @@ usr/include/ui_calendar.h
 usr/lib/libkdecorations.so
 usr/lib/libkfontinst.so
 usr/lib/libkfontinstui.so
+usr/lib/libkhotkeysprivate.so
 usr/lib/libkscreensaver.so
 usr/lib/libksgrd.so
 usr/lib/libkwineffects.so

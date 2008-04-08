@@ -9,7 +9,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake,
  libpam0g-dev, libqimageblitz-dev (>= 1:0.0.4-2), libraw1394-dev, libsensors-dev,
  libstrigiqtdbusclient-dev (>= 0.5.8-2), libusb-dev, libxkbfile-dev,
  libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxklavier12-dev,
- libxrandr-dev, libxrender-dev, libxxf86misc-dev, network-manager-dev
+ libxrandr-dev, libxrender-dev, libxxf86misc-dev, network-manager-dev,
+ libsmbclient-dev, libxcb1-dev, libxine-dev
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdebase-workspace
