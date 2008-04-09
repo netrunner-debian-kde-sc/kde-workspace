@@ -1,5 +1,6 @@
 kdebase-workspace (4:4.0.68+svn794641-1) experimental; urgency=low
 
+  [ Debian Qt/KDE Maintainers ]
   * New usptream snapshot.
 
   +++ Changes by Sune Vuorela:
@@ -17,8 +18,9 @@ kdebase-workspace (4:4.0.68+svn794641-1) experimental; urgency=low
   * Add versioned build depend on libqimageblitz-dev from experimental.
   * New build depends on: libsmbclient-dev, libxcb1-dev and libxine-dev are
     required now.
+  * Add shlibs to libplasma1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 04 Apr 2008 15:00:39 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 09 Apr 2008 20:05:50 +0200
 
 kdebase-workspace (4:4.0.66+svn791114-3) experimental; urgency=low
 
