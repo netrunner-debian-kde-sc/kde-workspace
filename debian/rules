@@ -5,6 +5,7 @@ include debian/cdbs/kde.mk
 DEB_CMAKE_EXTRA_FLAGS += -DKDE4_KDM_PAM_SERVICE=kdm
 DEB_DH_MAKESHLIBS_ARGS_libplasma1 := -V'libplasma1 (>= 4:4.0.68+svn794641-1)'
 
+DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-bin := -- -xksysguard
 
 binary-install/kdm::
 	install -p -D -m644 debian/kdm-np.pam debian/kdm/etc/pam.d/kdm-np
