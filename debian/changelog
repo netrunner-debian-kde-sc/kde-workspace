@@ -1,3 +1,17 @@
+kdebase-workspace (4:4.0.71+svn801282-1~pre1) UNRELEASED; urgency=low
+ 
+  !!! It should build but install files are not updated and there are much
+      new stuff which needs a more a deep look (like printer-applet) !!!
+  +++ Changes by Modestas Vainius:
+
+  * Add libstreamanalyzer-dev, libfontconfig-dev to build depends.
+  * Install printer-applet even if python Qt/KDE bindings are missing at build
+    time (-DINSTALL_PRINTER_APPLET=TRUE) (!!!does not seem to work!!!).
+  * Add 97_fix_target_link_libraries.diff which fixes linkage problems with
+    recent kdelibs5.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Apr 2008 12:27:22 +0300
+
 kdebase-workspace (4:4.0.68+svn794641-1) experimental; urgency=low
 
   [ Debian Qt/KDE Maintainers ]
