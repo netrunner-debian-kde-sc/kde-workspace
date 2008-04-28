@@ -501,7 +501,7 @@
  target_link_libraries(khotkeysprivate kworkspace ${KDE4_KDE3SUPPORT_LIBS})
  set_target_properties(khotkeysprivate PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
  install(TARGETS khotkeysprivate DESTINATION ${LIB_INSTALL_DIR})
---- a/home/trigger/devel/debian/kde/pkg-kde/branches/kde4/kde4-svn/kdebase-workspace/kcontrol/kfontinst/lib/CMakeLists.txt
+--- a/kcontrol/kfontinst/lib/CMakeLists.txt
 +++ /dev/null
 @@ -1,13 +0,0 @@
 -include_directories(${FREETYPE_INCLUDE_DIR})
