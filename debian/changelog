@@ -4,7 +4,7 @@ kdebase-workspace (4:4.0.71+svn801282-1~pre1) UNRELEASED; urgency=low
       new stuff which needs a more a deep look (like printer-applet) !!!
   +++ Changes by Modestas Vainius:
 
-  * Add libstreamanalyzer-dev, libfontconfig-dev, libgl1-mesa-dev to build depends.
+  * Add libstreamanalyzer-dev, libfontconfig-dev, libglu1-mesa-dev to build depends.
   * Install printer-applet even if python Qt/KDE bindings are missing at build
     time (-DINSTALL_PRINTER_APPLET=TRUE) (!!!does not seem to work!!!).
   * Add 97_fix_target_link_libraries.diff which fixes linkage problems with
