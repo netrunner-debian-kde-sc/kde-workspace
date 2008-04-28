@@ -10,6 +10,10 @@ kdebase-workspace (4:4.0.71+svn801282-1~pre1) UNRELEASED; urgency=low
   * Add 97_fix_target_link_libraries.diff which fixes linkage problems with
     recent kdelibs5.
 
+  +++ Changes by Armin Berres:
+
+  * Add libsm-dev, libxft-dev and libxtst-dev to build depends.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Apr 2008 12:27:22 +0300
 
 kdebase-workspace (4:4.0.68+svn794641-1) experimental; urgency=low
