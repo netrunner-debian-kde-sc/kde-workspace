@@ -7,8 +7,8 @@ usr/share/kde4/services/ion-envcan.desktop
 usr/share/kde4/services/ion-noaa.desktop
 usr/share/kde4/services/settings-about-me.desktop
 usr/share/kde4/services/settings-accessibility.desktop
-usr/share/kde4/services/settings-advanced.desktop
 usr/share/kde4/services/settings-advanced-user-settings.desktop
+usr/share/kde4/services/settings-advanced.desktop
 usr/share/kde4/services/settings-appearance.desktop
 usr/share/kde4/services/settings-bluetooth.desktop
 usr/share/kde4/services/settings-computer-administration.desktop

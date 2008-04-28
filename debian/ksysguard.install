@@ -11,7 +11,7 @@ usr/share/applications/kde4/ksysguard.desktop
 usr/share/doc/kde4/HTML/en/ksysguard/common
 usr/share/kde4/apps/kicker/applets/ksysguardapplet.desktop
 usr/share/kde4/apps/ksysguard/KSysGuardApplet.xml
-usr/share/kde4/apps/ksysguard/ksysguard.notifyrc
-usr/share/kde4/apps/ksysguard/ksysguardui.rc
 usr/share/kde4/apps/ksysguard/ProcessTable.sgrd
 usr/share/kde4/apps/ksysguard/SystemLoad.sgrd
+usr/share/kde4/apps/ksysguard/ksysguard.notifyrc
+usr/share/kde4/apps/ksysguard/ksysguardui.rc

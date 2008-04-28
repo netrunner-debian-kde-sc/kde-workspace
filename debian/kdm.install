@@ -1,5 +1,4 @@
-etc/kde4/kdm/backgroundrc
-etc/kde4/kdm/kdmrc
+../local/kdm.options etc/kde4/kdm/
 etc/kde4/kdm.knsrc
 etc/kde4/kdm/README
 etc/kde4/kdm/Xaccess
@@ -8,7 +7,8 @@ etc/kde4/kdm/Xsession
 etc/kde4/kdm/Xsetup
 etc/kde4/kdm/Xstartup
 etc/kde4/kdm/Xwilling
-../local/kdm.options etc/kde4/kdm/
+etc/kde4/kdm/backgroundrc
+etc/kde4/kdm/kdmrc
 usr/bin/genkdmconf
 usr/bin/kdm
 usr/bin/kdmctl
@@ -22,9 +22,8 @@ usr/share/doc/kde4/HTML/en/kdm/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kdm/index.docbook
 usr/share/doc/kde4/HTML/en/kdm/kdmrc-ref.docbook
 usr/share/doc/kde4/HTML/en/kdm/theme-ref.docbook
-usr/share/kde4/apps/doc/kdm/greeter.dtd
 usr/share/kde4/apps/doc/kdm/README
-usr/share/kde4/apps/kdm/pics/kdelogo-crystal.png
+usr/share/kde4/apps/doc/kdm/greeter.dtd
 usr/share/kde4/apps/kdm/pics/kdelogo.png
 usr/share/kde4/apps/kdm/pics/shutdown.jpg
 usr/share/kde4/apps/kdm/pics/users/default1.png
@@ -32,8 +31,8 @@ usr/share/kde4/apps/kdm/pics/users/default2.png
 usr/share/kde4/apps/kdm/pics/users/default3.png
 usr/share/kde4/apps/kdm/pics/users/root1.png
 usr/share/kde4/apps/kdm/sessions/9wm.desktop
-usr/share/kde4/apps/kdm/sessions/aewm.desktop
 usr/share/kde4/apps/kdm/sessions/aewm++.desktop
+usr/share/kde4/apps/kdm/sessions/aewm.desktop
 usr/share/kde4/apps/kdm/sessions/afterstep.desktop
 usr/share/kde4/apps/kdm/sessions/amaterus.desktop
 usr/share/kde4/apps/kdm/sessions/amiwm.desktop
@@ -46,8 +45,8 @@ usr/share/kde4/apps/kdm/sessions/enlightenment.desktop
 usr/share/kde4/apps/kdm/sessions/evilwm.desktop
 usr/share/kde4/apps/kdm/sessions/fluxbox.desktop
 usr/share/kde4/apps/kdm/sessions/flwm.desktop
-usr/share/kde4/apps/kdm/sessions/fvwm95.desktop
 usr/share/kde4/apps/kdm/sessions/fvwm.desktop
+usr/share/kde4/apps/kdm/sessions/fvwm95.desktop
 usr/share/kde4/apps/kdm/sessions/gnome.desktop
 usr/share/kde4/apps/kdm/sessions/golem.desktop
 usr/share/kde4/apps/kdm/sessions/icewm.desktop
@@ -74,13 +73,13 @@ usr/share/kde4/apps/kdm/sessions/w9wm.desktop
 usr/share/kde4/apps/kdm/sessions/waimea.desktop
 usr/share/kde4/apps/kdm/sessions/wm2.desktop
 usr/share/kde4/apps/kdm/sessions/wmaker.desktop
-usr/share/kde4/apps/kdm/sessions/xfce4.desktop
 usr/share/kde4/apps/kdm/sessions/xfce.desktop
+usr/share/kde4/apps/kdm/sessions/xfce4.desktop
+usr/share/kde4/apps/kdm/themes/circles/KdmGreeterTheme.desktop
 usr/share/kde4/apps/kdm/themes/circles/background.svg
 usr/share/kde4/apps/kdm/themes/circles/circles.xml
 usr/share/kde4/apps/kdm/themes/circles/flower.png
 usr/share/kde4/apps/kdm/themes/circles/help.png
-usr/share/kde4/apps/kdm/themes/circles/KdmGreeterTheme.desktop
 usr/share/kde4/apps/kdm/themes/circles/options.png
 usr/share/kde4/apps/kdm/themes/circles/screenshot.png
 usr/share/kde4/services/kdm.desktop
