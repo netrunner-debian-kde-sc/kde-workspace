@@ -23,6 +23,7 @@ usr/bin/kxkb
 usr/bin/plasma
 usr/bin/plasmaengineexplorer
 usr/bin/plasmoidviewer
+usr/bin/safestartkde
 usr/bin/solid-bluetooth
 usr/bin/solid-network
 usr/bin/solid-powermanagement

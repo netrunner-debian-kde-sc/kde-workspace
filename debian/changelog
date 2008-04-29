@@ -1,7 +1,5 @@
 kdebase-workspace (4:4.0.71+svn802146-1~pre1) UNRELEASED; urgency=low
  
-  !!! It should build but install files are not updated and there are much
-      new stuff which needs a more a deep look (like printer-applet) !!!
   +++ Changes by Modestas Vainius:
 
   * Add libstreamanalyzer-dev, libfontconfig-dev, libglu1-mesa-dev to build depends.
@@ -13,6 +11,10 @@ kdebase-workspace (4:4.0.71+svn802146-1~pre1) UNRELEASED; urgency=low
   +++ Changes by Armin Berres:
 
   * Add libsm-dev, libxft-dev and libxtst-dev to build depends.
+
+  +++ Changes by Fathi Boudra:
+
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Apr 2008 12:27:22 +0300
 

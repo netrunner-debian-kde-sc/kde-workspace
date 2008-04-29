@@ -1,5 +1,6 @@
 etc/kde4/background.knsrc
 etc/kde4/colorschemes.knsrc
+etc/kde4/ksplash.knsrc
 etc/kde4/plasma-themes.knsrc
 etc/kde4/wallpaper.knsrc
 usr/share/applications/kde4/kfontview.desktop
@@ -90,6 +91,7 @@ usr/share/kde4/apps/color-schemes/Steel.colors
 usr/share/kde4/apps/color-schemes/WontonSoup.colors
 usr/share/kde4/apps/desktoptheme/default/colors
 usr/share/kde4/apps/desktoptheme/default/dialogs/background.svg
+usr/share/kde4/apps/desktoptheme/default/dialogs/krunner.svg
 usr/share/kde4/apps/desktoptheme/default/dialogs/shutdowndialog.svg
 usr/share/kde4/apps/desktoptheme/default/metadata.desktop
 usr/share/kde4/apps/desktoptheme/default/opaque/dialogs/background.svg

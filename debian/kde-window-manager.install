@@ -16,6 +16,7 @@ usr/lib/kde4/kwin3_keramik.so
 usr/lib/kde4/kwin3_laptop.so
 usr/lib/kde4/kwin3_modernsys.so
 usr/lib/kde4/kwin3_oxygen.so
+usr/lib/kde4/kwin3_ozone.so
 usr/lib/kde4/kwin3_plastik.so
 usr/lib/kde4/kwin3_quartz.so
 usr/lib/kde4/kwin3_redmond.so
@@ -26,6 +27,7 @@ usr/lib/kde4/kwin_b2_config.so
 usr/lib/kde4/kwin_kde2_config.so
 usr/lib/kde4/kwin_keramik_config.so
 usr/lib/kde4/kwin_modernsys_config.so
+usr/lib/kde4/kwin_ozone_config.so
 usr/lib/kde4/kwin_plastik_config.so
 usr/lib/kde4/kwin_quartz_config.so
 usr/lib/libkdeinit4_kwin.so
@@ -73,6 +75,7 @@ usr/share/kde4/apps/kwin/lookingglass.frag
 usr/share/kde4/apps/kwin/lookingglass.vert
 usr/share/kde4/apps/kwin/modernsystem.desktop
 usr/share/kde4/apps/kwin/oxygenclient.desktop
+usr/share/kde4/apps/kwin/ozoneclient.desktop
 usr/share/kde4/apps/kwin/plastik.desktop
 usr/share/kde4/apps/kwin/quartz.desktop
 usr/share/kde4/apps/kwin/redmond.desktop
@@ -130,6 +133,8 @@ usr/share/kde4/services/kwin/trackmouse.desktop
 usr/share/kde4/services/kwin/trackmouse_config.desktop
 usr/share/kde4/services/kwin/videorecord.desktop
 usr/share/kde4/services/kwin/videorecord_config.desktop
+usr/share/kde4/services/kwin/wobblywindows.desktop
+usr/share/kde4/services/kwin/wobblywindows_config.desktop
 usr/share/kde4/services/kwin/zoom.desktop
 usr/share/kde4/services/kwin/zoom_config.desktop
 usr/share/kde4/services/kwinactions.desktop

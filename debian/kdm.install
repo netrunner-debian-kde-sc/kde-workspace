@@ -41,6 +41,7 @@ usr/share/kde4/apps/kdm/sessions/blackbox.desktop
 usr/share/kde4/apps/kdm/sessions/cde.desktop
 usr/share/kde4/apps/kdm/sessions/ctwm.desktop
 usr/share/kde4/apps/kdm/sessions/cwwm.desktop
+usr/share/kde4/apps/kdm/sessions/e16.desktop
 usr/share/kde4/apps/kdm/sessions/enlightenment.desktop
 usr/share/kde4/apps/kdm/sessions/evilwm.desktop
 usr/share/kde4/apps/kdm/sessions/fluxbox.desktop
@@ -51,6 +52,7 @@ usr/share/kde4/apps/kdm/sessions/gnome.desktop
 usr/share/kde4/apps/kdm/sessions/golem.desktop
 usr/share/kde4/apps/kdm/sessions/icewm.desktop
 usr/share/kde4/apps/kdm/sessions/ion.desktop
+usr/share/kde4/apps/kdm/sessions/kde-safe.desktop
 usr/share/kde4/apps/kdm/sessions/larswm.desktop
 usr/share/kde4/apps/kdm/sessions/lwm.desktop
 usr/share/kde4/apps/kdm/sessions/matchbox.desktop
