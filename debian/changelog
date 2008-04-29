@@ -1,5 +1,15 @@
 kdebase-workspace (4:4.0.71+svn802146-1~pre1) UNRELEASED; urgency=low
- 
+
+  TODO: printer-applet needs separate package which should depend pycups and
+        probably other pkgs. package will be kde-printer-applet not just
+        printer-applet.
+
+  usr/bin/printer-applet
+  usr/share/kde4/apps/printer-applet/printer-applet-printers.ui
+  usr/share/kde4/apps/printer-applet/printer-applet.py
+  usr/share/kde4/apps/printer-applet/printer-applet.ui
+  usr/share/kde4/apps/printer-applet/printer-appletui.rc
+
   +++ Changes by Modestas Vainius:
 
   * Add libstreamanalyzer-dev, libfontconfig-dev, libglu1-mesa-dev to build depends.
