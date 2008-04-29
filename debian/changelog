@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.0.71+svn802146-1~pre1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.71+svn802598-1~pre1) UNRELEASED; urgency=low
 
   TODO: printer-applet needs separate package which should depend pycups and
         probably other pkgs. package will be kde-printer-applet not just
@@ -9,6 +9,10 @@ kdebase-workspace (4:4.0.71+svn802146-1~pre1) UNRELEASED; urgency=low
   usr/share/kde4/apps/printer-applet/printer-applet.py
   usr/share/kde4/apps/printer-applet/printer-applet.ui
   usr/share/kde4/apps/printer-applet/printer-appletui.rc
+
+  * New upstream development snapshot:
+    - The latest upstream commit is r802598 by menard
+    - Date: Tue, 29 Apr 2008 23:18:29 -0000
 
   +++ Changes by Modestas Vainius:
 
@@ -26,7 +30,7 @@ kdebase-workspace (4:4.0.71+svn802146-1~pre1) UNRELEASED; urgency=low
 
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Apr 2008 12:27:22 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 02:31:39 +0300
 
 kdebase-workspace (4:4.0.68+svn794641-1) experimental; urgency=low
 
