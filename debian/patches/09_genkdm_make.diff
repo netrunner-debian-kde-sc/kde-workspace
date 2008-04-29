@@ -1,5 +1,3 @@
-Don't move --no-old to another place. $ENV{DESTDIR} is likely empty then.
-When anyone knows why -- please tell me.
 --- a/kdm/kfrontend/CMakeLists.txt
 +++ b/kdm/kfrontend/CMakeLists.txt
 @@ -111,5 +111,5 @@
