@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.0.72-1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.72-1) experimental; urgency=low
 
   * New upstream snapshot (tag r802761):
     - The latest upstream commit is r802727 by mlaurent
@@ -7,6 +7,7 @@ kdebase-workspace (4:4.0.72-1) UNRELEASED; urgency=low
   +++ Changes by Modestas Vainius:
 
   * Add libstreamanalyzer-dev, libfontconfig-dev, libglu1-mesa-dev to build depends.
+    (Closes: #477344)
   * Add 97_fix_target_link_libraries.diff which fixes linkage problems with
     recent kdelibs5.
   * Do not install printer-applet on purpose.
