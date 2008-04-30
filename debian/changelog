@@ -1,24 +1,15 @@
-kdebase-workspace (4:4.0.71+svn802698-1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.72-1) UNRELEASED; urgency=low
 
-  TODO: printer-applet needs separate package which should depend pycups and
-        probably other pkgs. package will be kde-printer-applet not just
-        printer-applet.
-
-  usr/bin/printer-applet
-  usr/share/kde4/apps/printer-applet/printer-applet-printers.ui
-  usr/share/kde4/apps/printer-applet/printer-applet.py
-  usr/share/kde4/apps/printer-applet/printer-applet.ui
-  usr/share/kde4/apps/printer-applet/printer-appletui.rc
-
-  * New upstream development snapshot.
+  * New upstream snapshot (tag r802761):
+    - The latest upstream commit is r802727 by mlaurent
+    - Date: Wed, 30 Apr 2008 15:35:52 -0000
 
   +++ Changes by Modestas Vainius:
 
   * Add libstreamanalyzer-dev, libfontconfig-dev, libglu1-mesa-dev to build depends.
-  * Install printer-applet even if python Qt/KDE bindings are missing at build
-    time (-DINSTALL_PRINTER_APPLET=TRUE) (!!!does not seem to work!!!).
   * Add 97_fix_target_link_libraries.diff which fixes linkage problems with
     recent kdelibs5.
+  * Do not install printer-applet on purpose.
 
   +++ Changes by Armin Berres:
 
@@ -30,7 +21,7 @@ kdebase-workspace (4:4.0.71+svn802698-1) UNRELEASED; urgency=low
 
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 13:49:07 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Apr 2008 18:51:02 +0300
 
 kdebase-workspace (4:4.0.68+svn794641-1) experimental; urgency=low
 
