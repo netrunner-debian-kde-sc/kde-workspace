@@ -184,6 +184,10 @@ usr/share/kde4/apps/kmenuedit/icons/oxygen/32x32/actions/menu_new.png
 usr/share/kde4/apps/kmenuedit/icons/oxygen/32x32/actions/menu_new_sep.png
 usr/share/kde4/apps/kmenuedit/kmenueditui.rc
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/fonts.desktop
+usr/share/kde4/apps/ksmserver/windowmanagers/compiz-custom.desktop
+usr/share/kde4/apps/ksmserver/windowmanagers/compiz.desktop
+usr/share/kde4/apps/ksmserver/windowmanagers/metacity.desktop
+usr/share/kde4/apps/ksmserver/windowmanagers/openbox.desktop
 usr/share/kde4/apps/ksplash/Themes/Default/1600x1200/background.png
 usr/share/kde4/apps/ksplash/Themes/Default/1600x1200/description.txt
 usr/share/kde4/apps/ksplash/Themes/Default/1600x1200/icon1.png
