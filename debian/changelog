@@ -1,3 +1,16 @@
+kdebase-workspace (4:4.0.72+svn804277-1~pre1) UNRELEASED; urgency=low
+
+  * New upstream development snapshot:
+    - The latest upstream commit is r804277 by ereslibre
+    - Date: Mon, 05 May 2008 15:56:56 -0000
+  
+  +++ Changes by Modestas Vainius:
+
+  * Update install files.
+  * Resync 97_ patch.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2008 20:11:02 +0300
+
 kdebase-workspace (4:4.0.72-1) experimental; urgency=low
 
   * New upstream snapshot (tag r802761):

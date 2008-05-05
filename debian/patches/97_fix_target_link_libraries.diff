@@ -440,8 +440,8 @@
  kde4_add_plugin(kcm_kdm ${kcm_kdm_PART_SRCS})
  
  
--target_link_libraries(kcm_kdm ${KDE4_KDE3SUPPORT_LIBS} ${BLITZ_LIBRARIES} ${KDE4_KNEWSTUFF2_LIBS})
-+target_link_libraries(kcm_kdm ${KDE4_KDE3SUPPORT_LIBS} ${BLITZ_LIBRARIES} ${KDE4_KNEWSTUFF2_LIBS} ${QT_QTDBUS_LIBRARY} ${QT_QTSVG_LIBRARY} ${X11_X11_LIB})
+-target_link_libraries(kcm_kdm ${KDE4_KDE3SUPPORT_LIBS} ${QIMAGEBLITZ_LIBRARIES} ${KDE4_KNEWSTUFF2_LIBS})
++target_link_libraries(kcm_kdm ${KDE4_KDE3SUPPORT_LIBS} ${QIMAGEBLITZ_LIBRARIES} ${KDE4_KNEWSTUFF2_LIBS} ${QT_QTDBUS_LIBRARY} ${QT_QTSVG_LIBRARY} ${X11_X11_LIB})
  
  install(TARGETS kcm_kdm  DESTINATION ${PLUGIN_INSTALL_DIR})
  
@@ -484,8 +484,8 @@
  
  kde4_add_plugin(kcm_style ${kcm_style_PART_SRCS})
  
--target_link_libraries(kcm_style ${KDE4_KDEUI_LIBS} ${BLITZ_LIBRARIES})
-+target_link_libraries(kcm_style ${KDE4_KDEUI_LIBS} ${BLITZ_LIBRARIES} ${QT_QTDBUS_LIBRARY} ${X11_X11_LIB})
+-target_link_libraries(kcm_style ${KDE4_KIO_LIBS} ${QIMAGEBLITZ_LIBRARIES})
++target_link_libraries(kcm_style ${KDE4_KIO_LIBS} ${QIMAGEBLITZ_LIBRARIES} ${QT_QTDBUS_LIBRARY} ${X11_X11_LIB})
  
  install(TARGETS kcm_style  DESTINATION ${PLUGIN_INSTALL_DIR})
  
