@@ -13,7 +13,11 @@ kdebase-workspace (4:4.0.72+svn804277-1~pre2) UNRELEASED; urgency=low
   * Update install files.
   * Resync 97_ patch.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2008 20:11:02 +0300
+  +++ Changes by Armin Berres:
+
+  * Raise libkwineffects1 shlibs version in debian/rules. 
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2008 01:16:08 +0200
 
 kdebase-workspace (4:4.0.72-1) experimental; urgency=low
 
