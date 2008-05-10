@@ -1,12 +1,10 @@
-kdebase-workspace (4:4.0.72+svn804277-1~pre2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.73-1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r804277 by ereslibre
-    - Date: Mon, 05 May 2008 15:56:56 -0000
+  * New upstream development snapshot.
 
   * Resolved bugs:
     - kdm password field is again reachable without mouse click when using
-      Debian kdm theme (Closes: #478666)
+      Debian kdm theme. (Closes: #478666)
 
   +++ Changes by Modestas Vainius:
 
@@ -15,7 +13,14 @@ kdebase-workspace (4:4.0.72+svn804277-1~pre2) UNRELEASED; urgency=low
 
   +++ Changes by Armin Berres:
 
-  * Raise libkwineffects1 shlibs version in debian/rules. 
+  * Raise libkwineffects1 shlibs version in debian/rules.
+
+  +++ Changes by Fathi Boudra:
+
+  * Add 20 patch to use DejaVu font as default font.
+  * Fix 97_fix_target_link_libraries patch:
+    proper libplasma target link libraries.
+  * Add libqt4-opengl-dev build dependency since Qt4 split.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 May 2008 01:16:08 +0200
 
