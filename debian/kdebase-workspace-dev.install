@@ -24,7 +24,6 @@ usr/include/kwinglobals.h
 usr/include/kwinglutils.h
 usr/include/kwinglutils_funcs.h
 usr/include/kwinshadereffect.h
-usr/include/kwinxrenderutils.h
 usr/include/kworkspace/kdisplaymanager.h
 usr/include/kworkspace/kwindowlistmenu.h
 usr/include/kworkspace/kworkspace.h
