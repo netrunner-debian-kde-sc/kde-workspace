@@ -19,6 +19,7 @@ usr/include/KDE/Plasma/PanelSvg
 usr/include/KDE/Plasma/Plasma
 usr/include/KDE/Plasma/QueryMatch
 usr/include/KDE/Plasma/RunnerContext
+usr/include/KDE/Plasma/RunnerManager
 usr/include/KDE/Plasma/Scripting/AppletScript
 usr/include/KDE/Plasma/Scripting/DataEngineScript
 usr/include/KDE/Plasma/Scripting/RunnerScript
@@ -65,6 +66,7 @@ usr/include/plasma/view.h
 usr/include/plasma/weather/formulas.h
 usr/include/plasma/weather/ion.h
 usr/include/plasma/weather/ion_export.h
+usr/include/plasma/widgets/flash.h
 usr/include/plasma/widgets/icon.h
 usr/include/plasma/widgets/meter.h
 usr/include/plasma/widgets/signalplotter.h
