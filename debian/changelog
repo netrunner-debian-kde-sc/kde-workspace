@@ -16,6 +16,8 @@ kdebase-workspace (4:4.0.73+svn806231-1~pre1) UNRELEASED; urgency=low
   +++ Changes by Armin Berres:
 
   * Raise libkwineffects1 shlibs version in debian/rules.
+  * Patch kdm to start the X server with a black background instead of the
+    default checkerboard.
 
   +++ Changes by Fathi Boudra:
 
@@ -24,7 +26,7 @@ kdebase-workspace (4:4.0.73+svn806231-1~pre1) UNRELEASED; urgency=low
     proper libplasma target link libraries.
   * Add libqt4-opengl-dev build dependency since Qt4 split.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 May 2008 21:08:48 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 May 2008 22:25:13 +0000
 
 kdebase-workspace (4:4.0.72-1) experimental; urgency=low
 

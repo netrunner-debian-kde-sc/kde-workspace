@@ -36,7 +36,7 @@
  #endif
  
  #if 0 /*def HASXDMAUTH*/
-@@ -1355,7 +1355,7 @@
+@@ -1355,13 +1355,13 @@
   This string is subject to word splitting.
   </para><para>
   The default is something reasonable for the system on which &kdm; was built,
@@ -45,6 +45,13 @@
  
  Key: ServerArgsLocal
  Type: string
+ Default: ""
+ User: core
+-Instance: :*/"-nolisten tcp"
++Instance: :*/"-br -nolisten tcp"
+ Comment: &
+ Description:
+  Additional arguments for the &X-Server;s for local sessions.
 @@ -1930,10 +1930,10 @@
  
  Key: SessionsDirs
