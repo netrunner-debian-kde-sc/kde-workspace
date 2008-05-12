@@ -24,6 +24,8 @@ kdebase-workspace (4:4.0.73+svn806941-1~pre1) UNRELEASED; urgency=low
     against libkwinnvidiahack. Make kdebase-workspace-dev depend on
     libkdecorations4 and libkwineffects1 instead of kde-window-manager now
     that kde-window-manager contains nothing one can link against.
+  * Move shared libraries to kdebase-workspace-libs4+5 so we can raise the
+    soname if needed. Update kdebase-workspace-dev dependencies accordingly.
 
   +++ Changes by Fathi Boudra:
 
@@ -32,7 +34,7 @@ kdebase-workspace (4:4.0.73+svn806941-1~pre1) UNRELEASED; urgency=low
     proper libplasma target link libraries.
   * Add libqt4-opengl-dev build dependency since Qt4 split.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 May 2008 21:22:26 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 May 2008 21:55:47 +0200
 
 kdebase-workspace (4:4.0.72-1) experimental; urgency=low
 

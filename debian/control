@@ -48,6 +48,16 @@ Description: core binaries for the KDE 4 base workspace module
  .
  This package is part of the KDE 4 base workspace module.
 
+Package: kdebase-workspace-libs4+5
+Section: libs
+Architecture: all
+Replaces: ksysguard (<= 4:4.0.72-1), kdebase-workspace-bin (<= 4:4.0.72-1)
+Description: libraries provided by the KDE 4 base workspace module
+ This package contains miscellaneous libraries needed for a basic KDE 4 desktop
+ installation.
+ .
+ This package is part of the KDE 4 base workspace module. 
+
 Package: kdebase-workspace-data
 Section: kde
 Architecture: all
@@ -64,8 +74,8 @@ Description: shared data files for the KDE 4 base workspace module
 Package: kdebase-workspace-dev
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-workspace-bin (= ${binary:Version}),
- ksysguard (= ${binary:Version}), libkwineffects1 (= ${binary:Version}), libkdecorations4 (= ${binary:Version}),
+Depends: ${shlibs:Depends}, kdebase-workspace-libs4+5 (= ${binary:Version}),
+ libkwineffects1 (= ${binary:Version}), libkdecorations4 (= ${binary:Version}),
  libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.0.73),
  libbluetooth-dev, libcaptury-dev, libphonon-dev (>=4:4.0.73),
  libdbus-1-dev, libnm-util-dev, libpam0g-dev, libqimageblitz-dev (>=1:0.0.4-2),
