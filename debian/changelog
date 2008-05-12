@@ -20,6 +20,10 @@ kdebase-workspace (4:4.0.73+svn806941-1~pre1) UNRELEASED; urgency=low
   * Raise libkwineffects1 shlibs version in debian/rules.
   * Patch kdm to start the X server with a black background instead of the
     default checkerboard.
+  * Don't install /usr/lib/libkwinnvidiahack.so. No one is supposed to link
+    against libkwinnvidiahack. Make kdebase-workspace-dev depend on
+    libkdecorations4 and libkwineffects1 instead of kde-window-manager now
+    that kde-window-manager contains nothing one can link against.
 
   +++ Changes by Fathi Boudra:
 
@@ -28,7 +32,7 @@ kdebase-workspace (4:4.0.73+svn806941-1~pre1) UNRELEASED; urgency=low
     proper libplasma target link libraries.
   * Add libqt4-opengl-dev build dependency since Qt4 split.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 May 2008 20:00:04 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 May 2008 21:22:26 +0200
 
 kdebase-workspace (4:4.0.72-1) experimental; urgency=low
 

@@ -65,7 +65,7 @@ Package: kdebase-workspace-dev
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-bin (= ${binary:Version}),
- ksysguard (= ${binary:Version}), kde-window-manager (= ${binary:Version}),
+ ksysguard (= ${binary:Version}), libkwineffects1 (= ${binary:Version}), libkdecorations4 (= ${binary:Version}),
  libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.0.73),
  libbluetooth-dev, libcaptury-dev, libphonon-dev (>=4:4.0.73),
  libdbus-1-dev, libnm-util-dev, libpam0g-dev, libqimageblitz-dev (>=1:0.0.4-2),

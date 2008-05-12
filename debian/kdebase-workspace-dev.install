@@ -63,7 +63,6 @@ usr/lib/libkhotkeysprivate.so
 usr/lib/libkscreensaver.so
 usr/lib/libksgrd.so
 usr/lib/libkwineffects.so
-usr/lib/libkwinnvidiahack.so
 usr/lib/libkworkspace.so
 usr/lib/libprocesscore.so
 usr/lib/libprocessui.so
