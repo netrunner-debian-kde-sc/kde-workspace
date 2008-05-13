@@ -104,17 +104,6 @@
  
  set_target_properties(solidcontrol PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS solidcontrol ${INSTALL_TARGETS_DEFAULT_ARGS} )
---- a/libs/solid/control/backends/fakenet/CMakeLists.txt
-+++ b/libs/solid/control/backends/fakenet/CMakeLists.txt
-@@ -17,7 +17,7 @@
- kde4_add_plugin(solid_fakenet module.cpp ${solid_fakenet_PART_SRCS})
- 
- 
--target_link_libraries(solid_fakenet solidcontrolifaces ${KDE4_KDECORE_LIBS} ${QT_QTXML_LIBRARY} )
-+target_link_libraries(solid_fakenet solidcontrolifaces ${KDE4_KDECORE_LIBS} ${QT_QTXML_LIBRARY} ${QT_QTNETWORK_LIBRARY} )
- 
- install(TARGETS solid_fakenet DESTINATION ${PLUGIN_INSTALL_DIR}  )
- 
 --- a/libs/taskmanager/CMakeLists.txt
 +++ b/libs/taskmanager/CMakeLists.txt
 @@ -7,7 +7,7 @@

@@ -77,7 +77,6 @@ usr/lib/kde4/solid_bluez.so
 usr/lib/kde4/solid_fakebluetooth.so
 usr/lib/kde4/solid_fakenet.so
 usr/lib/kde4/solid_hal_power.so
-usr/lib/kde4/solid_networkmanager.so
 usr/lib/libkdeinit4_kaccess.so
 usr/lib/libkdeinit4_kcminit.so
 usr/lib/libkdeinit4_kcminit_startup.so
