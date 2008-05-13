@@ -1,8 +1,8 @@
-kdebase-workspace (4:4.0.73+svn806941-1~pre1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.73+svn807225-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r806941 by lunakl
-    - Date: Mon, 12 May 2008 16:31:33 -0000
+    - The latest upstream commit is r807225 by mart
+    - Date: Tue, 13 May 2008 11:24:55 -0000
 
   * Resolved bugs:
     - kdm password field is again reachable without mouse click when using
@@ -34,7 +34,7 @@ kdebase-workspace (4:4.0.73+svn806941-1~pre1) UNRELEASED; urgency=low
     proper libplasma target link libraries.
   * Add libqt4-opengl-dev build dependency since Qt4 split.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 May 2008 21:55:47 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 13 May 2008 14:49:55 +0300
 
 kdebase-workspace (4:4.0.72-1) experimental; urgency=low
 
