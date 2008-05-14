@@ -45,6 +45,7 @@ usr/include/solid/control/ifaces/wirelessaccesspoint.h
 usr/include/solid/control/ifaces/wirelessnetworkinterface.h
 usr/include/solid/control/networking.h
 usr/include/solid/control/networkinterface.h
+usr/include/solid/control/networkipv4config.h
 usr/include/solid/control/networkmanager.h
 usr/include/solid/control/powermanager.h
 usr/include/solid/control/singletondefs.h
