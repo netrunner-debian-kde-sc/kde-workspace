@@ -66,7 +66,20 @@
  void KDMGeneralWidget::save()
 --- a/kdm/config.def
 +++ b/kdm/config.def
-@@ -2170,20 +2170,20 @@
+@@ -2160,30 +2160,30 @@
+ 
+ Key: GreetFont
+ Type: string
+-Default: "Serif,20,5,0,50,0"
+-CDefault: "Serif,20,bold"
++Default: "DejaVu,16,5,0,50,0"
++CDefault: "DejaVu,16,bold"
+ User: greeter:font
+-Instance: #*/"Serif,20,5,0,50,0"
++Instance: #*/"DejaVu,16,5,0,50,0"
+ Comment: &
+ Description:
+  The font for the greeter headline.
  
  Key: StdFont
  Type: string
