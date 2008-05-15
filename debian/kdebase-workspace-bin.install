@@ -70,6 +70,7 @@ usr/lib/kde4/krunner_shell.so
 usr/lib/kde4/krunner_webshortcuts.so
 usr/lib/kde4/kstyle_keramik_config.so
 usr/lib/kde4/libexec/kcheckpass
+usr/lib/kde4/libexec/kcmdatetimehelper
 usr/lib/kde4/libexec/kfontprint
 usr/lib/kde4/libexec/kio_fonts_helper
 usr/lib/kde4/libexec/krunner_lock
@@ -77,6 +78,7 @@ usr/lib/kde4/solid_bluez.so
 usr/lib/kde4/solid_fakebluetooth.so
 usr/lib/kde4/solid_fakenet.so
 usr/lib/kde4/solid_hal_power.so
+usr/lib/kde4/solid_networkmanager.so
 usr/lib/libkdeinit4_kaccess.so
 usr/lib/libkdeinit4_kcminit.so
 usr/lib/libkdeinit4_kcminit_startup.so
@@ -86,4 +88,3 @@ usr/lib/libkdeinit4_krunner.so
 usr/lib/libkdeinit4_ksmserver.so
 usr/lib/libkdeinit4_kxkb.so
 usr/lib/strigi/strigita_font.so
-usr/lib/kde4/libexec/kcmdatetimehelper

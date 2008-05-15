@@ -66,15 +66,18 @@ usr/share/icons/oxygen/16x16/apps/waiting.png
 usr/share/icons/oxygen/16x16/mimetypes/fonts-package.png
 usr/share/icons/oxygen/22x22/apps/kcmkwm.png
 usr/share/icons/oxygen/22x22/apps/kfontview.png
+usr/share/icons/oxygen/22x22/apps/networkmanager.png
 usr/share/icons/oxygen/22x22/mimetypes/fonts-package.png
 usr/share/icons/oxygen/32x32/apps/kcmkwm.png
 usr/share/icons/oxygen/32x32/apps/kfontview.png
+usr/share/icons/oxygen/32x32/apps/networkmanager.png
 usr/share/icons/oxygen/32x32/mimetypes/fonts-package.png
 usr/share/icons/oxygen/48x48/apps/kcmkwm.png
 usr/share/icons/oxygen/48x48/apps/kfontview.png
 usr/share/icons/oxygen/48x48/mimetypes/fonts-package.png
 usr/share/icons/oxygen/64x64/apps/kcmkwm.png
 usr/share/icons/oxygen/64x64/apps/kfontview.png
+usr/share/icons/oxygen/64x64/apps/networkmanager.png
 usr/share/icons/oxygen/64x64/mimetypes/fonts-package.png
 usr/share/icons/oxygen/scalable/apps/kcmkwm.svgz
 usr/share/icons/oxygen/scalable/apps/kfontview.svgz
@@ -316,6 +319,7 @@ usr/share/kde4/services/solidbackends/solid_bluez.desktop
 usr/share/kde4/services/solidbackends/solid_fakebluetooth.desktop
 usr/share/kde4/services/solidbackends/solid_fakenet.desktop
 usr/share/kde4/services/solidbackends/solid_hal_power.desktop
+usr/share/kde4/services/solidbackends/solid_networkmanager.desktop
 usr/share/kde4/services/style.desktop
 usr/share/kde4/servicetypes/plasma-animator.desktop
 usr/share/kde4/servicetypes/plasma-applet.desktop
