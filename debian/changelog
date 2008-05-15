@@ -1,8 +1,8 @@
-kdebase-workspace (4:4.0.73+svn807642-1~pre1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.73+svn807898-1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r807642 by pino
-    - Date: Wed, 14 May 2008 09:06:11 -0000
+    - The latest upstream commit is r807898 by pino
+    - Date: Thu May 15 01:06:14 2008 UTC
 
   * Resolved bugs:
     - kdm password field is again reachable without mouse click when using
@@ -30,6 +30,7 @@ kdebase-workspace (4:4.0.73+svn807642-1~pre1) UNRELEASED; urgency=low
   +++ Changes by Fathi Boudra:
 
   * Add 20 patch to use DejaVu font as default font.
+  * Add 21 patch to disable blend title bar.
   * Fix 97_fix_target_link_libraries patch:
     proper libplasma target link libraries.
   * Add libqt4-opengl-dev build dependency since Qt4 split.
