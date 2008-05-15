@@ -1,0 +1,25 @@
+it makes sense to set BlendTitlebarColors default value to false,
+with ozone set as default windeco, until KDE bug #160117 is solved.
+
+--- a/kwin/clients/ozone/config/config.cpp
++++ b/kwin/clients/ozone/config/config.cpp
+@@ -68,7 +68,7 @@
+ void OxygenConfig::load( const KConfigGroup&  )
+ {
+ 	KConfigGroup cg(c, "Windeco");
+-	ui->blendTitlebarColors->setChecked( cg.readEntry("BlendTitlebarColors", true) );
++	ui->blendTitlebarColors->setChecked( cg.readEntry("BlendTitlebarColors", false) );
+ }
+ 
+ 
+--- a/kwin/clients/ozone/oxygen.cpp
++++ b/kwin/clients/ozone/oxygen.cpp
+@@ -118,7 +118,7 @@
+     else if (value == "AlignRight") titlealign_ = Qt::AlignRight;
+ 
+     bool oldblend = blendTitlebarColors;    
+-    blendTitlebarColors_ = group.readEntry( "BlendTitlebarColors", true );
++    blendTitlebarColors_ = group.readEntry( "BlendTitlebarColors", false );
+ 
+     if (oldalign == titlealign_ && oldblend == blendTitlebarColors_)
+         return false;
