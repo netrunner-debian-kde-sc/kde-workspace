@@ -1,0 +1,52 @@
+--- a/kwin/clients/oxygen/oxygenclient.h
++++ b/kwin/clients/oxygen/oxygenclient.h
+@@ -56,6 +56,7 @@
+     QColor titlebarTextColor(const QPalette &palette);
+     bool colorCacheInvalid_;
+     QColor cachedTitlebarTextColor_;
++    QImage logo;
+ 
+ protected:
+     friend class OxygenButton;
+--- a/kwin/clients/oxygen/oxygenclient.cpp
++++ b/kwin/clients/oxygen/oxygenclient.cpp
+@@ -57,6 +57,9 @@
+ #include "oxygenbutton.h"
+ #include "oxygen.h"
+ 
++#define logourl "/usr/share/kde4/apps/kwin/titlebar_decor.png"
++#define logoOffset 5
++
+ namespace Oxygen
+ {
+ 
+@@ -73,6 +76,7 @@
+     , colorCacheInvalid_(true)
+     , helper_(*globalHelper)
+ {
++    logo.load(logourl);
+ }
+ 
+ OxygenClient::~OxygenClient()
+@@ -281,7 +285,7 @@
+     const int titleWidth = frame.width() -
+             titleEdgeLeft - layoutMetric(LM_TitleEdgeRight) -
+             buttonsLeftWidth() - buttonsRightWidth() -
+-            marginLeft - marginRight;
++            marginLeft - marginRight - (logo.isNull() ? 0 : logo.width() + logoOffset);
+ 
+ 
+     int splitY = qMin(300, 3*frame.height()/4);
+@@ -313,6 +317,12 @@
+     painter.drawText(titleLeft, titleTop-1, titleWidth, titleHeight,  // -1 is to go into top resizearea
+               OxygenFactory::titleAlign() | Qt::AlignVCenter, caption());
+ 
++    if (!logo.isNull() && isActive()) {
++        QFontMetrics fm(options()->font(isActive(), false));
++        painter.drawImage(titleEdgeLeft + layoutMetric(LM_TitleEdgeRight) + buttonsLeftWidth()
++         + qMin(fm.width(caption()), titleWidth) + logoOffset, titleTop, logo);
++    }
++
+     painter.setRenderHint(QPainter::Antialiasing);
+ 
+     // Draw dividing line
