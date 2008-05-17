@@ -200,8 +200,8 @@ Package: libplasma1
 Section: libs
 Architecture: any
 Priority: optional
-Depends: ${shlibs:Depends}, ${misc:Depends},
- kdebase-workspace-data (= ${source:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-data (= ${source:Version})
+Conflicts: extragear-plasma
 Description: library for the KDE 4 Plasma desktop
  This package contains the KDE 4 Plasma library and plugins.
 
