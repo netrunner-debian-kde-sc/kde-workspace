@@ -1,12 +1,12 @@
-kdebase-workspace (4:4.0.74-1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.74-1) experimental; urgency=low
 
   * New upstream snapshot.
 
-  +++ Chages by Armin Berres:
+  +++ Changes by Armin Berres:
 
   * Add conflict with extragear-plasma to libplasma1. libplasma1 has broken BC
-    and the soname hasn't been raised which confused people whi try to use the
-    broken plasmoids.
+    and the soname hasn't been raised which confused people which try to use
+    the broken plasmoids.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 May 2008 16:34:15 +0200
 
