@@ -27,10 +27,7 @@ usr/lib/kde4/plasma_engine_time.so
 usr/lib/kde4/plasma_engine_weather.so
 usr/lib/kde4/plasma_runner_scriptengine_qscript.so
 usr/lib/kde4/plasma_scriptengine_qscript.so
-usr/lib/libkdeinit4_plasma.so
-usr/lib/libplasma.so.1
-usr/lib/libplasma.so.1.0.0
+usr/lib/libplasma.so.2
+usr/lib/libplasma.so.2.0.0
 usr/lib/libplasmaclock.so.4
 usr/lib/libplasmaclock.so.4.1.0
-usr/share/kde4/services/plasma-runner-xesam.desktop
-usr/share/kde4/services/plasma-scriptengine-qscriptrunner.desktop

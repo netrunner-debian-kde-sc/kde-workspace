@@ -106,7 +106,6 @@ usr/share/kde4/apps/desktoptheme/default/widgets/branding.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/clock.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/connection-established.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/containment-controls.svg
-usr/share/kde4/apps/desktoptheme/default/widgets/iconbutton.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/panel-background.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/plot-background.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/toolbox-button.svg
@@ -311,7 +310,9 @@ usr/share/kde4/services/plasma-runner-services.desktop
 usr/share/kde4/services/plasma-runner-sessions.desktop
 usr/share/kde4/services/plasma-runner-shell.desktop
 usr/share/kde4/services/plasma-runner-webshortcuts.desktop
+usr/share/kde4/services/plasma-runner-xesam.desktop
 usr/share/kde4/services/plasma-scriptengine-qscript.desktop
+usr/share/kde4/services/plasma-scriptengine-qscriptrunner.desktop
 usr/share/kde4/services/plasma-tasks-default.desktop
 usr/share/kde4/services/randr.desktop
 usr/share/kde4/services/screensaver.desktop

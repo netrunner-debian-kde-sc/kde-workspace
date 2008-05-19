@@ -1,9 +1,31 @@
-kdebase-workspace (4:4.0.74-2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.74+svn809700-1~pre1) UNRELEASED; urgency=low
 
-  * Add libxcursor-dev build dependency. Update target link libraries fix.
-    (Closes: #481724)
+  * New upstream development snapshot:
+    - The latest upstream commit is r809700 by pino
+    - Date: Mon, 19 May 2008 09:49:13 -0000
+  * Corrections to *.install files:
+    - kdebase-workspace-data.install: 1 file(s) removed;
+    - libplasma-dev.install: 1 file(s) removed;
 
- -- Fathi Boudra <fabo@debian.org>  Mon, 19 May 2008 09:56:32 +0200
+  +++ Changes Modestas Vainius:
+
+  * Update install files (libplasma devel files).
+  * libplasma bumped soname to 2. Rename libplasma1 package to libplasma2.
+    It conflicts and replaces libplasma1 due to plugins and data files.
+  * Take oportunity and move plasma kdeinit stuff to kdebase-workspace-bin
+    where it really belongs. Also move a few desktop files to
+    kdebase-workspace-data too. As a result, add conflicts to
+    kdebase-workspace-{bin,data} against obsolete libplasma1 package.
+  * Make libplasma2 depend  >= (instread of =) on kdebase-workspace-data this
+    way restoring binNMU compatibility.
+  * Make libplasma-dev depend on the same kdelibs5-dev version as libplasma2
+    depends on kdelibs5.
+
+  +++ Changes by Fathi Boudra:
+
+  * Add libxcursor-dev build dependency. (Closes: #481724)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 May 2008 13:09:30 +0300
 
 kdebase-workspace (4:4.0.74-1) experimental; urgency=low
 

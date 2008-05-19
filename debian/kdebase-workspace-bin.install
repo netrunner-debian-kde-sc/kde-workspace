@@ -87,4 +87,5 @@ usr/lib/libkdeinit4_kmenuedit.so
 usr/lib/libkdeinit4_krunner.so
 usr/lib/libkdeinit4_ksmserver.so
 usr/lib/libkdeinit4_kxkb.so
+usr/lib/libkdeinit4_plasma.so
 usr/lib/strigi/strigita_font.so
