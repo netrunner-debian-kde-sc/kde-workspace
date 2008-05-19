@@ -1,11 +1,8 @@
-kdebase-workspace (4:4.0.74+svn809700-1~pre1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.74+svn809712-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r809700 by pino
-    - Date: Mon, 19 May 2008 09:49:13 -0000
-  * Corrections to *.install files:
-    - kdebase-workspace-data.install: 1 file(s) removed;
-    - libplasma-dev.install: 1 file(s) removed;
+    - The latest upstream commit is r809712 by annma
+    - Date: Mon, 19 May 2008 10:42:13 -0000
 
   +++ Changes Modestas Vainius:
 
@@ -25,7 +22,7 @@ kdebase-workspace (4:4.0.74+svn809700-1~pre1) UNRELEASED; urgency=low
 
   * Add libxcursor-dev build dependency. (Closes: #481724)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 May 2008 13:09:30 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 May 2008 13:57:01 +0300
 
 kdebase-workspace (4:4.0.74-1) experimental; urgency=low
 
