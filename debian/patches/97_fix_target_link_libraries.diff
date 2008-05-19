@@ -414,7 +414,7 @@
  endif (LIBUSB_FOUND)
 --- a/kcontrol/kdm/CMakeLists.txt
 +++ b/kcontrol/kdm/CMakeLists.txt
-@@ -29,7 +29,7 @@
+@@ -27,7 +27,7 @@
  kde4_add_plugin(kcm_kdm ${kcm_kdm_PART_SRCS})
  
  
@@ -522,3 +522,16 @@
  ${QT_QTUITOOLS_LIBRARY} ${QT_QTWEBKIT_LIBRARY} ${KDE4_THREADWEAVER_LIBRARIES})
  
  if(QT_QTOPENGL_FOUND AND OPENGL_FOUND)
+--- a/krunner/CMakeLists.txt
++++ b/krunner/CMakeLists.txt
+@@ -40,6 +40,10 @@
+   target_link_libraries(kdeinit_krunner ${X11_Xss_LIB})
+ endif(X11_Xss_LIB)
+ 
++if(X11_Xcursor_FOUND)
++  target_link_libraries(kdeinit_krunner ${X11_Xcursor_LIB})
++endif(X11_Xcursor_FOUND)
++
+ add_subdirectory( lock )
+ 
+ install(TARGETS kdeinit_krunner ${INSTALL_TARGETS_DEFAULT_ARGS} )
