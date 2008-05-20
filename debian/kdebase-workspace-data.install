@@ -283,6 +283,7 @@ usr/share/kde4/services/plasma-animator-default.desktop
 usr/share/kde4/services/plasma-applet-analogclock.desktop
 usr/share/kde4/services/plasma-applet-devicenotifier.desktop
 usr/share/kde4/services/plasma-applet-digitalclock.desktop
+usr/share/kde4/services/plasma-applet-folderview.desktop
 usr/share/kde4/services/plasma-applet-icon.desktop
 usr/share/kde4/services/plasma-applet-launcher.desktop
 usr/share/kde4/services/plasma-applet-lockout.desktop
@@ -296,12 +297,14 @@ usr/share/kde4/services/plasma-dataengine-dict.desktop
 usr/share/kde4/services/plasma-dataengine-filebrowser.desktop
 usr/share/kde4/services/plasma-dataengine-hotplug.desktop
 usr/share/kde4/services/plasma-dataengine-mouse.desktop
+usr/share/kde4/services/plasma-dataengine-nowplaying.desktop
 usr/share/kde4/services/plasma-dataengine-places.desktop
 usr/share/kde4/services/plasma-dataengine-powermanagement.desktop
 usr/share/kde4/services/plasma-dataengine-soliddevice.desktop
 usr/share/kde4/services/plasma-dataengine-tasks.desktop
 usr/share/kde4/services/plasma-dataengine-time.desktop
 usr/share/kde4/services/plasma-dataengine-weather.desktop
+usr/share/kde4/services/plasma-packagestructure-dashboard.desktop
 usr/share/kde4/services/plasma-pager-default.desktop
 usr/share/kde4/services/plasma-runner-bookmarks.desktop
 usr/share/kde4/services/plasma-runner-calculator.desktop
@@ -311,6 +314,8 @@ usr/share/kde4/services/plasma-runner-sessions.desktop
 usr/share/kde4/services/plasma-runner-shell.desktop
 usr/share/kde4/services/plasma-runner-webshortcuts.desktop
 usr/share/kde4/services/plasma-runner-xesam.desktop
+usr/share/kde4/services/plasma-scriptengine-applet-dashboard.desktop
+usr/share/kde4/services/plasma-scriptengine-applet-web.desktop
 usr/share/kde4/services/plasma-scriptengine-qscript.desktop
 usr/share/kde4/services/plasma-scriptengine-qscriptrunner.desktop
 usr/share/kde4/services/plasma-tasks-default.desktop
