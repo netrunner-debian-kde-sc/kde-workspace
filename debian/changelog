@@ -1,15 +1,13 @@
-kdebase-workspace (4:4.0.74+svn810437-1~pre1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.80-1~pre1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r810437 by pino
-    - Date: Tue, 20 May 2008 18:47:35 -0000
+  * New upstream development milestone (KDE 4.1 Beta1).
 
   +++ Changes Modestas Vainius:
 
   * Update install files (libplasma devel files).
   * libplasma bumped soname to 2. Rename libplasma1 package to libplasma2.
     It conflicts and replaces libplasma1 due to plugins and data files.
-  * Take oportunity and move plasma kdeinit stuff to kdebase-workspace-bin
+  * Take opportunity and move plasma kdeinit stuff to kdebase-workspace-bin
     where it really belongs. Also move a few desktop files to
     kdebase-workspace-data too. As a result, add conflicts to
     kdebase-workspace-{bin,data} against obsolete libplasma1 package.
@@ -20,7 +18,7 @@ kdebase-workspace (4:4.0.74+svn810437-1~pre1) UNRELEASED; urgency=low
 
   * Add libxcursor-dev build dependency. (Closes: #481724)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 20 May 2008 22:01:03 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 May 2008 00:58:39 +0300
 
 kdebase-workspace (4:4.0.74-1) experimental; urgency=low
 
