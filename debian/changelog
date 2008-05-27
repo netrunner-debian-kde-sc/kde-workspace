@@ -1,3 +1,9 @@
+kdebase-workspace (4:4.0.80-2) UNRELEASED; urgency=low
+
+  * Bump kdepimlibs5-dev and libphonon-dev build dependencies to 4.0.80.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 May 2008 11:55:41 +0300
+
 kdebase-workspace (4:4.0.80-1) experimental; urgency=low
 
   * New upstream development milestone (KDE 4.1 Beta1).
