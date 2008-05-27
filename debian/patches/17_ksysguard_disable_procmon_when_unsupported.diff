@@ -1,0 +1,140 @@
+--- a/libs/ksysguard/processui/CMakeLists.txt
++++ b/libs/ksysguard/processui/CMakeLists.txt
+@@ -4,11 +4,47 @@ include_directories( ${CMAKE_CURRENT_SOU
+ check_include_files(sys/ptrace.h HAVE_SYS_PTRACE_H)
+ 
+ if (HAVE_SYS_PTRACE_H)
+-   set(processui_ptrace_SRCS KMonitorProcessIO.cpp DisplayProcessDlg.cpp)
++   set(_SUPPORTED_REGS_STRUCT_CHECK "
++   #include <sys/user.h>
++   #include <sys/syscall.h>
++
++   #if defined(__i386__)
++   #  define _regs_struct user_regs_struct
++   #  define REG_ORIG_ACCUM orig_eax
++   #elif defined( __amd64__)
++   #  define _regs_struct user_regs_struct
++   #  define REG_ORIG_ACCUM orig_rax
++   #elif defined(__ppc__) || defined(__powerpc__) || defined(__powerpc64__) || defined(__PPC__) || defined(powerpc)
++   #  define _regs_struct pt_regs;
++   #  define REG_ORIG_ACCUM gpr[0]
++   #endif
++
++   int main() {
++     struct _regs_struct* regs;
++     return regs->REG_ORIG_ACCUM == SYS_fork;
++   }")
++
++   include(CheckCSourceCompiles)
++   check_c_source_compiles("${_SUPPORTED_REGS_STRUCT_CHECK}" HAVE_KSYSGUARD_SUPPORTED_REGS_STRUCT)
+ else (HAVE_SYS_PTRACE_H)
+-   set(processui_ptrace_SRCS )
++   set(HAVE_KSYSGUARD_SUPPORTED_REGS_STRUCT "NO")
+ endif (HAVE_SYS_PTRACE_H)
+ 
++if (HAVE_KSYSGUARD_SUPPORTED_REGS_STRUCT)
++   add_definitions(-DWITH_MONITOR_PROCESS_IO)
++   set(processui_ptrace_SRCS KMonitorProcessIO.cpp DisplayProcessDlg.cpp)
++   set(ksysguard_WIDGETS "${CMAKE_CURRENT_BINARY_DIR}/ksysguard.generated_widgets")
++
++   # Merge both widget files
++   file(READ ksysguard.widgets _ksysguard_buffer)
++   file(WRITE ${ksysguard_WIDGETS} "${_ksysguard_buffer}")
++   file(READ KMonitorProcessIO.widgets _ksysguard_buffer)
++   file(APPEND ${ksysguard_WIDGETS} "${_ksysguard_buffer}")
++else (HAVE_KSYSGUARD_SUPPORTED_REGS_STRUCT)
++   set(processui_ptrace_SRCS )
++   set(ksysguard_WIDGETS "ksysguard.widgets")
++endif (HAVE_KSYSGUARD_SUPPORTED_REGS_STRUCT)
++
+ set(processui_LIB_SRCS
+    ksysguardprocesslist.cpp
+    ProcessFilter.cc
+@@ -36,11 +72,7 @@ install(TARGETS processui ${INSTALL_TARG
+ 
+ #----------------------
+ 
+-set(ksysguardwidgets_PART_SRCS
+-   ${CMAKE_CURRENT_BINARY_DIR}/ksysguardwidgets.cpp
+-)
+-
+-KDE4_ADD_WIDGET_FILES(${ksysguardwidgets_PART_SRCS} ksysguard.widgets)
++KDE4_ADD_WIDGET_FILES(ksysguardwidgets_PART_SRCS ${ksysguard_WIDGETS})
+ 
+ kde4_add_plugin(ksysguardwidgets ${ksysguardwidgets_PART_SRCS})
+ 
+--- a/libs/ksysguard/processui/KMonitorProcessIO.widgets
++++ b/libs/ksysguard/processui/KMonitorProcessIO.widgets
+@@ -0,0 +1,7 @@
++
++[KMonitorProcessIO]
++ToolTip=Monitors the input and output of a running process.
++WhatsThis=A widget for showing the input and output of a running process, including stdin, stdout, stderr and any file descriptors.  Be careful as this can make the watched process quite slow.
++Group=KSysGuard (KDE)
++ConstructorArgs=(parent)
++IncludeFile=KMonitorProcessIO.h
+--- a/libs/ksysguard/processui/ksysguardprocesslist.cpp
++++ b/libs/ksysguard/processui/ksysguardprocesslist.cpp
+@@ -147,7 +147,11 @@ struct KSysGuardProcessListPrivate {
+ 
+ 		selectTracer = new QAction(i18n("Jump to Process Debugging This One"), q);
+ 		window = new QAction(i18n("Show Application Window"), q);
++#ifdef WITH_MONITOR_PROCESS_IO
+ 		monitorio = new QAction(i18n("Monitor input and output"), q);
++#else
++		monitorio = 0;
++#endif
+ 		resume = new QAction(i18n("Resume Stopped Process"), q);
+ 		kill = new QAction(i18np("Kill Process", "Kill Processes", 1), q);
+ 		kill->setIcon(KIcon("process-stop"));
+@@ -262,8 +266,10 @@ KSysGuardProcessList::KSysGuardProcessLi
+ 	// Add all the actions to the main widget, and get all the actions to call actionTriggered when clicked
+ 	QSignalMapper *signalMapper = new QSignalMapper(this);
+ 	QList<QAction *> actions;
+-	actions << d->renice << d->kill << d->selectParent << d->selectTracer << d->window << d->monitorio << d->resume;
+-	actions << d->sigStop << d->sigCont << d->sigHup << d->sigInt << d->sigTerm << d->sigKill << d->sigUsr1 << d->sigUsr2;
++	actions << d->renice << d->kill << d->selectParent << d->selectTracer << d->window;
++	if (d->monitorio)
++	    actions << d->monitorio;
++	actions << d->resume << d->sigStop << d->sigCont << d->sigHup << d->sigInt << d->sigTerm << d->sigKill << d->sigUsr1 << d->sigUsr2;
+ 	foreach(QAction *action, actions) {
+ 		addAction(action);
+ 		connect(action, SIGNAL(triggered(bool)), signalMapper, SLOT(map()));
+@@ -386,7 +392,7 @@ void KSysGuardProcessList::showProcessCo
+ 	if (numProcesses == 1 && !d->mModel.data(realIndex, ProcessModel::WindowIdRole).isNull()) {
+ 		d->mProcessContextMenu->addAction(d->window);
+ 	}
+-	if (numProcesses == 1 && d->mModel.isLocalhost() && (process->uid==0 || process->uid == getuid()) && process->pid != getpid() && process->pid != getppid()) { //Don't attach to ourselves - crashes
++	if (d->monitorio && numProcesses == 1 && d->mModel.isLocalhost() && (process->uid==0 || process->uid == getuid()) && process->pid != getpid() && process->pid != getppid()) { //Don't attach to ourselves - crashes
+ 		d->mProcessContextMenu->addAction(d->monitorio);
+ 	}
+ 
+@@ -440,6 +446,7 @@ void KSysGuardProcessList::actionTrigger
+ 				KWindowSystem::activateWindow(wid);
+ 			}
+ 		}
++#ifdef WITH_MONITOR_PROCESS_IO
+ 	} else if(result == d->monitorio) {
+ 		QModelIndexList selectedIndexes = d->mUi->treeView->selectionModel()->selectedRows();
+ 		if(selectedIndexes.isEmpty()) return;  //No processes selected
+@@ -449,6 +456,7 @@ void KSysGuardProcessList::actionTrigger
+ 			DisplayProcessDlg *dialog = new DisplayProcessDlg( this,process );
+ 			dialog->show();
+ 		}
++#endif
+ 	} else {
+ 		QList< long long > pidlist;
+ 		QModelIndexList selectedIndexes = d->mUi->treeView->selectionModel()->selectedRows();
+--- a/libs/ksysguard/processui/ksysguard.widgets
++++ b/libs/ksysguard/processui/ksysguard.widgets
+@@ -15,10 +15,3 @@ WhatsThis=A widget for displaying out fr
+ Group=KSysGuard (KDE)
+ ConstructorArgs=(parent)
+ IncludeFile=KTextEditVT.h
+-
+-[KMonitorProcessIO]
+-ToolTip=Monitors the input and output of a running process.
+-WhatsThis=A widget for showing the input and output of a running process, including stdin, stdout, stderr and any file descriptors.  Be careful as this can make the watched process quite slow.
+-Group=KSysGuard (KDE)
+-ConstructorArgs=(parent)
+-IncludeFile=KMonitorProcessIO.h
