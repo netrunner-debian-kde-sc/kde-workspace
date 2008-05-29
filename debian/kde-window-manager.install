@@ -35,6 +35,11 @@ usr/lib/libkdeinit4_kwin_rules_dialog.so
 usr/lib/libkwinnvidiahack.so.4
 usr/lib/libkwinnvidiahack.so.4.1.0
 usr/share/dbus-1/interfaces/org.kde.KWin.xml
+usr/share/doc/kde4/HTML/en/kcontrol/kwindecoration/buttons.png
+usr/share/doc/kde4/HTML/en/kcontrol/kwindecoration/common
+usr/share/doc/kde4/HTML/en/kcontrol/kwindecoration/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kcontrol/kwindecoration/index.docbook
+usr/share/doc/kde4/HTML/en/kcontrol/kwindecoration/main.png
 usr/share/icons/oxygen/16x16/apps/kwin.png
 usr/share/icons/oxygen/32x32/apps/kwin.png
 usr/share/icons/oxygen/48x48/apps/kwin.png
