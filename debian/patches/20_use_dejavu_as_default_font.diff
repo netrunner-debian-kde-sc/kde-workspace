@@ -1,26 +1,6 @@
---- a/doc/kdm/kdmrc-ref.docbook
-+++ b/doc/kdm/kdmrc-ref.docbook
-@@ -1463,7 +1463,7 @@
- <para>
- The normal font used in the greeter.
- </para>
--<para>The default is <quote>Sans Serif,10</quote>.</para>
-+<para>The default is <quote>DejaVu,8</quote>.</para>
- </listitem>
- </varlistentry>
- 
-@@ -1473,7 +1473,7 @@
- <para>
- The font used for the <quote>Login Failed</quote> message.
- </para>
--<para>The default is <quote>Sans Serif,10,bold</quote>.</para>
-+<para>The default is <quote>DejaVu,8,bold</quote>.</para>
- </listitem>
- </varlistentry>
- 
 --- a/kcontrol/fonts/fonts.cpp
 +++ b/kcontrol/fonts/fonts.cpp
-@@ -513,18 +513,18 @@
+@@ -513,19 +513,12 @@
  
    // Keep in sync with kdelibs/kdeui/kernel/kglobalsettings.cpp
  
@@ -30,79 +10,19 @@
 -  QFont f3("Sans Serif", 9, QFont::Bold);
 -  QFont f4("Sans Serif", 10);
 -  QFont f5("Sans Serif", 8); // smallestReadableFont
-+  QFont f0("DejaVu Sans", 8);
-+  QFont f1("DejaVu Sans Mono", 8);
-+  QFont f2("DejaVu Sans", 8);
-+  QFont f3("DejaVu Sans", 8, QFont::Bold);
-+  QFont f4("DejaVu Sans", 8);
-+  QFont f5("DejaVu Sans", 8); // smallestReadableFont
- 
+-
 -  f0.setPointSize(10);
 -  f1.setPointSize(10);
-+  f0.setPointSize(8);
-+  f1.setPointSize(8);
-   f2.setPointSize(8);
+-  f2.setPointSize(8);
 -  f3.setPointSize(9);
 -  f4.setPointSize(10);
-+  f3.setPointSize(8);
-+  f4.setPointSize(8);
-   f5.setPointSize(8);
+-  f5.setPointSize(8);
++  QFont f0("DejaVu Sans", 9);
++  QFont f1("DejaVu Sans Mono", 9);
++  QFont f2("DejaVu Sans", 8);
++  QFont f3("DejaVu Sans", 9, QFont::Bold);
++  QFont f4("DejaVu Sans", 9);
++  QFont f5("DejaVu Sans", 8); // smallestReadableFont
  
    defaultFontList << f0 << f1 << f5 << f2 << f0 << f3 << f4 << f0;
---- a/kcontrol/kdm/kdm-gen.cpp
-+++ b/kcontrol/kdm/kdm-gen.cpp
-@@ -204,9 +204,9 @@
  
- void KDMGeneralWidget::set_def()
- {
--	stdFontChooser->setFont( QFont( "Sans Serif", 10 ) );
--	failFontChooser->setFont( QFont( "Sans Serif", 10, QFont::Bold ) );
--	greetingFontChooser->setFont( QFont( "Serif", 20 ) );
-+	stdFontChooser->setFont( QFont( "DejaVu Sans", 8 ) );
-+	failFontChooser->setFont( QFont( "DejaVu Sans", 8, QFont::Bold ) );
-+	greetingFontChooser->setFont( QFont( "DejaVu", 16 ) );
- }
- 
- void KDMGeneralWidget::save()
---- a/kdm/config.def
-+++ b/kdm/config.def
-@@ -2160,30 +2160,30 @@
- 
- Key: GreetFont
- Type: string
--Default: "Serif,20,5,0,50,0"
--CDefault: "Serif,20,bold"
-+Default: "DejaVu,16,5,0,50,0"
-+CDefault: "DejaVu,16,bold"
- User: greeter:font
--Instance: #*/"Serif,20,5,0,50,0"
-+Instance: #*/"DejaVu,16,5,0,50,0"
- Comment: &
- Description:
-  The font for the greeter headline.
- 
- Key: StdFont
- Type: string
--Default: "Sans Serif,10,5,0,50,0"
--CDefault: "Sans Serif,10"
-+Default: "DejaVu Sans,8,5,0,50,0"
-+CDefault: "DejaVu Sans,8"
- User: greeter(normalFont):font
--Instance: #*/"Sans Serif,10,5,0,50,0"
-+Instance: #*/"DejaVu Sans,8,5,0,50,0"
- Comment: &
- Description:
-  The normal font used in the greeter.
- 
- Key: FailFont
- Type: string
--Default: "Sans Serif,10,5,0,75,0"
--CDefault: "Sans Serif,10,bold"
-+Default: "DejaVu Sans,8,5,0,75,0"
-+CDefault: "DejaVu Sans,8,bold"
- User: greeter:font
--Instance: #*/"Sans Serif,10,5,0,75,0"
-+Instance: #*/"DejaVu Sans,8,5,0,75,0"
- Comment: &
- Description:
-  The font used for the <quote>Login Failed</quote> message.
