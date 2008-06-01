@@ -1,6 +1,6 @@
 --- a/kdm/kfrontend/CMakeLists.txt
 +++ b/kdm/kfrontend/CMakeLists.txt
-@@ -111,5 +111,5 @@
+@@ -109,5 +109,5 @@
  
  ## use 'GENKDMCONF_FLAGS=... make install' to add flags to the config generation (try genkdmconf -h)
  install(CODE "

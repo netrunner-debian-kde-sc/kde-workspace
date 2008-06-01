@@ -1,8 +1,8 @@
-kdebase-workspace (4:4.0.81+svn814123-1~pre1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.81+svn815068-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r814123 by pdamsten
-    - Date: Thu, 29 May 2008 12:11:37 -0000
+    - The latest upstream commit is r815068 by aseigo
+    - Date: Sun Jun 1 05:08:28 2008 UTC
 
   +++ Changes by Modestas Vainius:
 

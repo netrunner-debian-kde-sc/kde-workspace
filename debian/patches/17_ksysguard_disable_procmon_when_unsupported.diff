@@ -1,6 +1,6 @@
 --- a/libs/ksysguard/processui/CMakeLists.txt
 +++ b/libs/ksysguard/processui/CMakeLists.txt
-@@ -4,11 +4,47 @@ include_directories( ${CMAKE_CURRENT_SOU
+@@ -4,11 +4,47 @@
  check_include_files(sys/ptrace.h HAVE_SYS_PTRACE_H)
  
  if (HAVE_SYS_PTRACE_H)
@@ -50,7 +50,7 @@
  set(processui_LIB_SRCS
     ksysguardprocesslist.cpp
     ProcessFilter.cc
-@@ -36,11 +72,7 @@ install(TARGETS processui ${INSTALL_TARG
+@@ -36,11 +72,7 @@
  
  #----------------------
  
@@ -63,7 +63,7 @@
  
  kde4_add_plugin(ksysguardwidgets ${ksysguardwidgets_PART_SRCS})
  
---- a/libs/ksysguard/processui/KMonitorProcessIO.widgets
+--- /dev/null
 +++ b/libs/ksysguard/processui/KMonitorProcessIO.widgets
 @@ -0,0 +1,7 @@
 +
@@ -75,7 +75,7 @@
 +IncludeFile=KMonitorProcessIO.h
 --- a/libs/ksysguard/processui/ksysguardprocesslist.cpp
 +++ b/libs/ksysguard/processui/ksysguardprocesslist.cpp
-@@ -147,7 +147,11 @@ struct KSysGuardProcessListPrivate {
+@@ -147,7 +147,11 @@
  
  		selectTracer = new QAction(i18n("Jump to Process Debugging This One"), q);
  		window = new QAction(i18n("Show Application Window"), q);
@@ -87,7 +87,7 @@
  		resume = new QAction(i18n("Resume Stopped Process"), q);
  		kill = new QAction(i18np("Kill Process", "Kill Processes", 1), q);
  		kill->setIcon(KIcon("process-stop"));
-@@ -262,8 +266,10 @@ KSysGuardProcessList::KSysGuardProcessLi
+@@ -262,8 +266,10 @@
  	// Add all the actions to the main widget, and get all the actions to call actionTriggered when clicked
  	QSignalMapper *signalMapper = new QSignalMapper(this);
  	QList<QAction *> actions;
@@ -100,7 +100,7 @@
  	foreach(QAction *action, actions) {
  		addAction(action);
  		connect(action, SIGNAL(triggered(bool)), signalMapper, SLOT(map()));
-@@ -386,7 +392,7 @@ void KSysGuardProcessList::showProcessCo
+@@ -386,7 +392,7 @@
  	if (numProcesses == 1 && !d->mModel.data(realIndex, ProcessModel::WindowIdRole).isNull()) {
  		d->mProcessContextMenu->addAction(d->window);
  	}
@@ -109,7 +109,7 @@
  		d->mProcessContextMenu->addAction(d->monitorio);
  	}
  
-@@ -440,6 +446,7 @@ void KSysGuardProcessList::actionTrigger
+@@ -440,6 +446,7 @@
  				KWindowSystem::activateWindow(wid);
  			}
  		}
@@ -117,7 +117,7 @@
  	} else if(result == d->monitorio) {
  		QModelIndexList selectedIndexes = d->mUi->treeView->selectionModel()->selectedRows();
  		if(selectedIndexes.isEmpty()) return;  //No processes selected
-@@ -449,6 +456,7 @@ void KSysGuardProcessList::actionTrigger
+@@ -449,6 +456,7 @@
  			DisplayProcessDlg *dialog = new DisplayProcessDlg( this,process );
  			dialog->show();
  		}
@@ -127,7 +127,7 @@
  		QModelIndexList selectedIndexes = d->mUi->treeView->selectionModel()->selectedRows();
 --- a/libs/ksysguard/processui/ksysguard.widgets
 +++ b/libs/ksysguard/processui/ksysguard.widgets
-@@ -15,10 +15,3 @@ WhatsThis=A widget for displaying out fr
+@@ -15,10 +15,3 @@
  Group=KSysGuard (KDE)
  ConstructorArgs=(parent)
  IncludeFile=KTextEditVT.h
