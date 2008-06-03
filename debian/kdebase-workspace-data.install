@@ -147,6 +147,8 @@ usr/share/kde4/apps/desktoptheme/default/dialogs/krunner.svg
 usr/share/kde4/apps/desktoptheme/default/dialogs/shutdowndialog.svg
 usr/share/kde4/apps/desktoptheme/default/metadata.desktop
 usr/share/kde4/apps/desktoptheme/default/opaque/dialogs/background.svg
+usr/share/kde4/apps/desktoptheme/default/opaque/dialogs/krunner.svg
+usr/share/kde4/apps/desktoptheme/default/opaque/widgets/panel-background.svg
 usr/share/kde4/apps/desktoptheme/default/opaque/widgets/tooltip.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/analog_meter.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/background.svg

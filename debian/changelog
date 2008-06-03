@@ -1,8 +1,8 @@
-kdebase-workspace (4:4.0.81+svn815068-1~pre1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.81+svn816283-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r815068 by aseigo
-    - Date: Sun Jun 1 05:08:28 2008 UTC
+    - The latest upstream commit is r816283 by 
+    - Date: 
 
   +++ Changes by Modestas Vainius:
 
@@ -14,6 +14,10 @@ kdebase-workspace (4:4.0.81+svn815068-1~pre1) UNRELEASED; urgency=low
 
   * Remove patch 21: disable blend title bar for Ozone.
     Upstream windeco default is now acceptable.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2008 15:48:45 +0300
 
