@@ -1,4 +1,4 @@
-etc/kde4/klipperrc
+usr/share/kde4/config/klipperrc
 usr/bin/klipper
 usr/lib/libkdeinit4_klipper.so
 usr/share/applications/kde4/klipper.desktop

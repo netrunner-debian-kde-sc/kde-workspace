@@ -1,8 +1,8 @@
-etc/kde4/background.knsrc
-etc/kde4/colorschemes.knsrc
-etc/kde4/ksplash.knsrc
-etc/kde4/plasma-themes.knsrc
-etc/kde4/wallpaper.knsrc
+usr/share/kde4/config/background.knsrc
+usr/share/kde4/config/colorschemes.knsrc
+usr/share/kde4/config/ksplash.knsrc
+usr/share/kde4/config/plasma-themes.knsrc
+usr/share/kde4/config/wallpaper.knsrc
 usr/share/applications/kde4/kfontview.desktop
 usr/share/applications/kde4/kmenuedit.desktop
 usr/share/applications/kde4/krandrtray.desktop

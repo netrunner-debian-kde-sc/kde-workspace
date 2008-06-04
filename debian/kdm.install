@@ -1,14 +1,14 @@
 ../local/kdm.options etc/kde4/kdm/
-etc/kde4/kdm.knsrc
-etc/kde4/kdm/README
-etc/kde4/kdm/Xaccess
-etc/kde4/kdm/Xreset
-etc/kde4/kdm/Xsession
-etc/kde4/kdm/Xsetup
-etc/kde4/kdm/Xstartup
-etc/kde4/kdm/Xwilling
-etc/kde4/kdm/backgroundrc
-etc/kde4/kdm/kdmrc
+usr/share/kde4/config/kdm.knsrc
+usr/share/kde4/config/kdm/README
+usr/share/kde4/config/kdm/Xaccess
+usr/share/kde4/config/kdm/Xreset
+usr/share/kde4/config/kdm/Xsession
+usr/share/kde4/config/kdm/Xsetup
+usr/share/kde4/config/kdm/Xstartup
+usr/share/kde4/config/kdm/Xwilling
+usr/share/kde4/config/kdm/backgroundrc
+usr/share/kde4/config/kdm/kdmrc
 usr/bin/genkdmconf
 usr/bin/kdm
 usr/bin/kdmctl
