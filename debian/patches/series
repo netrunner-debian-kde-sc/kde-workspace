@@ -9,5 +9,4 @@
 14_correct_kde4home_for_kstartupconfig4.diff
 17_ksysguard_disable_procmon_when_unsupported.diff
 20_use_dejavu_as_default_font.diff
-23_kwin_composite_vsync_less_cpu.diff
 97_fix_target_link_libraries.diff
