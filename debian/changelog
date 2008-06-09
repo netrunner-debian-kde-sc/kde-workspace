@@ -1,12 +1,20 @@
-kdebase-workspace (4:4.0.81+svn816127-1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.81+svn818741-1~pre1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream development snapshot:
+    - The latest upstream commit is r818741 by mart
+    - Date: Mon, 09 Jun 2008 14:00:13 -0000
+  * Update install files:
+    - kdebase-workspace-data.install: 1 file(s) added; 1 file(s) removed;
+    - libplasma2.install: 1 file(s) removed;
+    - kdebase-workspace-bin.install: 1 file(s) added;
 
   +++ Changes by Modestas Vainius:
 
   * Update install files.
   * Add replaces for kde-window-manager and kdebase-workspace-data
     because some files have been moved here from kdebase-runtime.
+  * Remove 06_kdehome_kde4.diff - no longer needed.
+  * Update 17_ksysguard_disable_procmon_when_unsupported.diff.
 
   +++ Changes by Fathi Boudra:
 
@@ -17,7 +25,7 @@ kdebase-workspace (4:4.0.81+svn816127-1) UNRELEASED; urgency=low
 
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 May 2008 15:48:45 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jun 2008 17:43:44 +0300
 
 kdebase-workspace (4:4.0.80-2) experimental; urgency=low
 

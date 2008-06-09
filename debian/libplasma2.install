@@ -5,7 +5,6 @@ usr/lib/kde4/plasma_applet_battery.so
 usr/lib/kde4/plasma_applet_clock.so
 usr/lib/kde4/plasma_applet_devicenotifier.so
 usr/lib/kde4/plasma_applet_dig_clock.so
-usr/lib/kde4/plasma_applet_folderview.so
 usr/lib/kde4/plasma_applet_icon.so
 usr/lib/kde4/plasma_applet_launcher.so
 usr/lib/kde4/plasma_applet_lockout.so

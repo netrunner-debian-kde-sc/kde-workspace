@@ -1,8 +1,3 @@
-usr/share/kde4/config/background.knsrc
-usr/share/kde4/config/colorschemes.knsrc
-usr/share/kde4/config/ksplash.knsrc
-usr/share/kde4/config/plasma-themes.knsrc
-usr/share/kde4/config/wallpaper.knsrc
 usr/share/applications/kde4/kfontview.desktop
 usr/share/applications/kde4/kmenuedit.desktop
 usr/share/applications/kde4/krandrtray.desktop
@@ -144,10 +139,12 @@ usr/share/kde4/apps/color-schemes/WontonSoup.colors
 usr/share/kde4/apps/desktoptheme/default/colors
 usr/share/kde4/apps/desktoptheme/default/dialogs/background.svg
 usr/share/kde4/apps/desktoptheme/default/dialogs/krunner.svg
+usr/share/kde4/apps/desktoptheme/default/dialogs/shutdowndialog.source.svg
 usr/share/kde4/apps/desktoptheme/default/dialogs/shutdowndialog.svg
 usr/share/kde4/apps/desktoptheme/default/metadata.desktop
 usr/share/kde4/apps/desktoptheme/default/opaque/dialogs/background.svg
 usr/share/kde4/apps/desktoptheme/default/opaque/dialogs/krunner.svg
+usr/share/kde4/apps/desktoptheme/default/opaque/dialogs/shutdowndialog.svg
 usr/share/kde4/apps/desktoptheme/default/opaque/widgets/panel-background.svg
 usr/share/kde4/apps/desktoptheme/default/opaque/widgets/tooltip.svg
 usr/share/kde4/apps/desktoptheme/default/widgets/analog_meter.svg
@@ -308,6 +305,11 @@ usr/share/kde4/apps/solidfakebluetoothbackend/fakebluetooth.xml
 usr/share/kde4/apps/solidfakenetbackend/fakenetworking.xml
 usr/share/kde4/config.kcfg/klaunch.kcfg
 usr/share/kde4/config.kcfg/kscreensaversettings.kcfg
+usr/share/kde4/config/background.knsrc
+usr/share/kde4/config/colorschemes.knsrc
+usr/share/kde4/config/ksplash.knsrc
+usr/share/kde4/config/plasma-themes.knsrc
+usr/share/kde4/config/wallpaper.knsrc
 usr/share/kde4/services/ScreenSavers/kblank.desktop
 usr/share/kde4/services/ScreenSavers/krandom.desktop
 usr/share/kde4/services/ServiceMenus/installfont.desktop
@@ -341,7 +343,6 @@ usr/share/kde4/services/plasma-animator-default.desktop
 usr/share/kde4/services/plasma-applet-analogclock.desktop
 usr/share/kde4/services/plasma-applet-devicenotifier.desktop
 usr/share/kde4/services/plasma-applet-digitalclock.desktop
-usr/share/kde4/services/plasma-applet-folderview.desktop
 usr/share/kde4/services/plasma-applet-icon.desktop
 usr/share/kde4/services/plasma-applet-launcher.desktop
 usr/share/kde4/services/plasma-applet-lockout.desktop

@@ -69,6 +69,7 @@ usr/lib/kde4/krunner_sessions.so
 usr/lib/kde4/krunner_shell.so
 usr/lib/kde4/krunner_webshortcuts.so
 usr/lib/kde4/kstyle_keramik_config.so
+usr/lib/kde4/kwin_oxygen_config.so
 usr/lib/kde4/libexec/kcheckpass
 usr/lib/kde4/libexec/kcmdatetimehelper
 usr/lib/kde4/libexec/kfontprint
