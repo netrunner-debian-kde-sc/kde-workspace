@@ -1,12 +1,10 @@
-kdebase-workspace (4:4.0.81+svn818741-1~pre1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.81+svn818895-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r818741 by mart
-    - Date: Mon, 09 Jun 2008 14:00:13 -0000
+    - The latest upstream commit is r818895 by aseigo
+    - Date: Mon, 09 Jun 2008 23:03:45 -0000
+
   * Update install files:
-    - kdebase-workspace-data.install: 1 file(s) added; 1 file(s) removed;
-    - libplasma2.install: 1 file(s) removed;
-    - kdebase-workspace-bin.install: 1 file(s) added;
 
   +++ Changes by Modestas Vainius:
 
@@ -25,7 +23,7 @@ kdebase-workspace (4:4.0.81+svn818741-1~pre1) UNRELEASED; urgency=low
 
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jun 2008 17:43:44 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 02:28:32 +0300
 
 kdebase-workspace (4:4.0.80-2) experimental; urgency=low
 

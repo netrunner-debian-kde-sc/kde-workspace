@@ -37,12 +37,16 @@ usr/include/solid/control/ifaces/bluetoothinputdevice.h
 usr/include/solid/control/ifaces/bluetoothinterface.h
 usr/include/solid/control/ifaces/bluetoothmanager.h
 usr/include/solid/control/ifaces/bluetoothremotedevice.h
+usr/include/solid/control/ifaces/networkcdmainterface.h
+usr/include/solid/control/ifaces/networkgsminterface.h
 usr/include/solid/control/ifaces/networkinterface.h
 usr/include/solid/control/ifaces/networkmanager.h
 usr/include/solid/control/ifaces/powermanager.h
 usr/include/solid/control/ifaces/wirednetworkinterface.h
 usr/include/solid/control/ifaces/wirelessaccesspoint.h
 usr/include/solid/control/ifaces/wirelessnetworkinterface.h
+usr/include/solid/control/networkcdmainterface.h
+usr/include/solid/control/networkgsminterface.h
 usr/include/solid/control/networking.h
 usr/include/solid/control/networkinterface.h
 usr/include/solid/control/networkipv4config.h
