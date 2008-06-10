@@ -1,10 +1,7 @@
 kdebase-workspace (4:4.0.81+svn818895-1~pre1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot:
-    - The latest upstream commit is r818895 by aseigo
-    - Date: Mon, 09 Jun 2008 23:03:45 -0000
-
-  * Update install files:
+  * New upstream development snapshot.
+  * Update install files.
 
   +++ Changes by Modestas Vainius:
 
