@@ -8,4 +8,5 @@
 14_correct_kde4home_for_kstartupconfig4.diff
 17_ksysguard_disable_procmon_when_unsupported.diff
 20_use_dejavu_as_default_font.diff
+21_kdm_doesnt_use_kstandarddirs.diff
 97_fix_target_link_libraries.diff

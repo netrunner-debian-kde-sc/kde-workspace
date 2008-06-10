@@ -22,6 +22,11 @@ kdebase-workspace (4:4.0.82+svn819177-1~pre1) UNRELEASED; urgency=low
 
   * Update installed files.
 
+  +++ Changes by Sune Vuorela:
+
+  * kdm doesn't use kstandarddirs, so we need to do a bit specific patching
+    here.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 23:37:23 +0300
 
 kdebase-workspace (4:4.0.80-2) experimental; urgency=low
