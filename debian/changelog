@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.0.81+svn818895-1~pre1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.82+svn819177-1~pre1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
   * Update install files.
@@ -10,6 +10,8 @@ kdebase-workspace (4:4.0.81+svn818895-1~pre1) UNRELEASED; urgency=low
     because some files have been moved here from kdebase-runtime.
   * Remove 06_kdehome_kde4.diff - no longer needed.
   * Update 17_ksysguard_disable_procmon_when_unsupported.diff.
+  * Bump libplasma2 shlibs.
+  * Bump build depends to 4.0.82.
 
   +++ Changes by Fathi Boudra:
 
@@ -20,7 +22,7 @@ kdebase-workspace (4:4.0.81+svn818895-1~pre1) UNRELEASED; urgency=low
 
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 02:28:32 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 23:37:23 +0300
 
 kdebase-workspace (4:4.0.80-2) experimental; urgency=low
 

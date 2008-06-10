@@ -41,6 +41,7 @@ usr/include/solid/control/ifaces/networkcdmainterface.h
 usr/include/solid/control/ifaces/networkgsminterface.h
 usr/include/solid/control/ifaces/networkinterface.h
 usr/include/solid/control/ifaces/networkmanager.h
+usr/include/solid/control/ifaces/networkserialinterface.h
 usr/include/solid/control/ifaces/powermanager.h
 usr/include/solid/control/ifaces/wirednetworkinterface.h
 usr/include/solid/control/ifaces/wirelessaccesspoint.h
@@ -51,6 +52,7 @@ usr/include/solid/control/networking.h
 usr/include/solid/control/networkinterface.h
 usr/include/solid/control/networkipv4config.h
 usr/include/solid/control/networkmanager.h
+usr/include/solid/control/networkserialinterface.h
 usr/include/solid/control/powermanager.h
 usr/include/solid/control/singletondefs.h
 usr/include/solid/control/solid_control_export.h
