@@ -20,7 +20,7 @@ Index: b/kdm/kfrontend/kdmctl.c
  	char *dpy = getenv( "DISPLAY" );
  	const char *ctl = getenv( "DM_CONTROL" );
 -	const char *cfg = KDE_CONFDIR "/kdm/kdmrc";
-+	const char *cfg = KDMCONF "/kdmrc";
++	const char *cfg = "/etc/kde4/kdmrc";
  	char *ptr;
  	int fd;
  
