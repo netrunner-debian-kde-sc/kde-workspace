@@ -95,7 +95,7 @@
  install(TARGETS kworkspace ${INSTALL_TARGETS_DEFAULT_ARGS} )
 --- a/libs/solid/control/CMakeLists.txt
 +++ b/libs/solid/control/CMakeLists.txt
-@@ -28,7 +28,7 @@
+@@ -31,7 +31,7 @@
  
  kde4_add_library(solidcontrol SHARED ${solidcontrol_LIB_SRCS})
  
@@ -478,7 +478,7 @@
 +ENDIF (X11_XTest_FOUND)
  target_link_libraries(khotkeysprivate kworkspace ${KDE4_KDE3SUPPORT_LIBS})
  set_target_properties(khotkeysprivate PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION})
- install(TARGETS khotkeysprivate DESTINATION ${LIB_INSTALL_DIR})
+ install(TARGETS khotkeysprivate ${INSTALL_TARGETS_DEFAULT_ARGS})
 --- a/kcontrol/kfontinst/kcmfontinst/CMakeLists.txt
 +++ b/kcontrol/kfontinst/kcmfontinst/CMakeLists.txt
 @@ -9,7 +9,7 @@
