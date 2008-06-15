@@ -1,7 +1,6 @@
-kdebase-workspace (4:4.0.82+svn819177-1~pre1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.82+svn482268-1) experimental; urgency=low
 
   * New upstream development snapshot.
-  * Update install files.
 
   +++ Changes by Modestas Vainius:
 
@@ -27,7 +26,7 @@ kdebase-workspace (4:4.0.82+svn819177-1~pre1) UNRELEASED; urgency=low
   * kdm doesn't use kstandarddirs, so we need to do a bit specific patching
     here.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Jun 2008 23:37:23 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Jun 2008 14:04:05 +0200
 
 kdebase-workspace (4:4.0.80-2) experimental; urgency=low
 
