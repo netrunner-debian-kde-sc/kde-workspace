@@ -4,6 +4,10 @@ kdebase-workspace (4:4.0.83+svn821094-0) UNRELEASED; urgency=low
   * Remove 14_correct_kde4home_for_kstartupconfig4.diff.
     KDE_DEFAULT_HOME defines kde home.
 
+  +++ Changes by Sune Vuorela:
+
+  * Fix up some dependencies and conflicts/replaces in kdebase-workspace-dbg
+
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 16 Jun 2008 13:59:07 +0200
 
 kdebase-workspace (4:4.0.82+svn819867-1) experimental; urgency=low
