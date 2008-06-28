@@ -35,3 +35,4 @@ usr/lib/libplasma.so.2
 usr/lib/libplasma.so.2.0.0
 usr/lib/libplasmaclock.so.4
 usr/lib/libplasmaclock.so.4.1.0
+usr/share/kde4/config/plasmoids.knsrc

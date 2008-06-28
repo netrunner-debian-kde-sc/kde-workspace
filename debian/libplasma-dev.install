@@ -15,8 +15,10 @@ usr/include/KDE/Plasma/DataEngineManager
 usr/include/KDE/Plasma/DataEngineScript                                                                                                                                                                        
 usr/include/KDE/Plasma/Delegate
 usr/include/KDE/Plasma/Dialog
+usr/include/KDE/Plasma/Flash
 usr/include/KDE/Plasma/GLApplet
 usr/include/KDE/Plasma/GroupBox                                                                                                                                                                                
+usr/include/KDE/Plasma/Icon
 usr/include/KDE/Plasma/Label
 usr/include/KDE/Plasma/LineEdit
 usr/include/KDE/Plasma/Package

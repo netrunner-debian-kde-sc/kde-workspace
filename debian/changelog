@@ -1,4 +1,6 @@
-kdebase-workspace (4:4.0.83+svn821094-0) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.84-1) experimental; urgency=low
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * New upstream snapshot.
   * Remove 14_correct_kde4home_for_kstartupconfig4.diff.
@@ -8,7 +10,7 @@ kdebase-workspace (4:4.0.83+svn821094-0) UNRELEASED; urgency=low
 
   * Fix up some dependencies and conflicts/replaces in kdebase-workspace-dbg
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 16 Jun 2008 13:59:07 +0200
+ -- Sune Vuorela <debian@pusling.com>  Sat, 28 Jun 2008 10:57:09 +0200
 
 kdebase-workspace (4:4.0.82+svn819867-1) experimental; urgency=low
 

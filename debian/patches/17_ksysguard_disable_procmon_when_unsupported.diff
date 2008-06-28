@@ -1,7 +1,9 @@
+Index: b/libs/ksysguard/processui/CMakeLists.txt
+===================================================================
 --- a/libs/ksysguard/processui/CMakeLists.txt
 +++ b/libs/ksysguard/processui/CMakeLists.txt
-@@ -4,11 +4,47 @@
- check_include_files(sys/ptrace.h HAVE_SYS_PTRACE_H)
+@@ -6,14 +6,50 @@
+ check_include_files(byteswap.h HAVE_BYTESWAP_H)
  
  if (HAVE_SYS_PTRACE_H)
 -   set(processui_ptrace_SRCS KMonitorProcessIO.cpp DisplayProcessDlg.cpp)
@@ -28,7 +30,10 @@
 +   include(CheckCSourceCompiles)
 +   check_c_source_compiles("${_SUPPORTED_REGS_STRUCT_CHECK}" HAVE_KSYSGUARD_SUPPORTED_REGS_STRUCT)
  else (HAVE_SYS_PTRACE_H)
--   set(processui_ptrace_SRCS )
+    # Even if we don't have ptrace, we need KMonitorProcessIO.cpp
+    # because the widget is referenced from the .widgets file and
+    # from the .ui files.
+-   set(processui_ptrace_SRCS KMonitorProcessIO.cpp)
 +   set(HAVE_KSYSGUARD_SUPPORTED_REGS_STRUCT "NO")
  endif (HAVE_SYS_PTRACE_H)
  
@@ -50,7 +55,7 @@
  set(processui_LIB_SRCS
     ksysguardprocesslist.cpp
     ProcessFilter.cc
-@@ -36,11 +72,7 @@
+@@ -41,11 +77,7 @@
  
  #----------------------
  
@@ -63,6 +68,8 @@
  
  kde4_add_plugin(ksysguardwidgets ${ksysguardwidgets_PART_SRCS})
  
+Index: b/libs/ksysguard/processui/KMonitorProcessIO.widgets
+===================================================================
 --- /dev/null
 +++ b/libs/ksysguard/processui/KMonitorProcessIO.widgets
 @@ -0,0 +1,7 @@
@@ -73,9 +80,11 @@
 +Group=KSysGuard (KDE)
 +ConstructorArgs=(parent)
 +IncludeFile=KMonitorProcessIO.h
+Index: b/libs/ksysguard/processui/ksysguardprocesslist.cpp
+===================================================================
 --- a/libs/ksysguard/processui/ksysguardprocesslist.cpp
 +++ b/libs/ksysguard/processui/ksysguardprocesslist.cpp
-@@ -54,7 +54,7 @@
+@@ -56,7 +56,7 @@
  #include "ReniceDlg.h"
  #include "ui_ProcessWidgetUI.h"
  
@@ -84,7 +93,7 @@
  #include "DisplayProcessDlg.h"
  #endif
  
-@@ -150,7 +150,11 @@
+@@ -152,7 +152,11 @@
  
  		selectTracer = new QAction(i18n("Jump to Process Debugging This One"), q);
  		window = new QAction(i18n("Show Application Window"), q);
@@ -96,7 +105,7 @@
  		resume = new QAction(i18n("Resume Stopped Process"), q);
  		kill = new QAction(i18np("Kill Process", "Kill Processes", 1), q);
  		kill->setIcon(KIcon("process-stop"));
-@@ -265,8 +269,10 @@
+@@ -267,8 +271,10 @@
  	// Add all the actions to the main widget, and get all the actions to call actionTriggered when clicked
  	QSignalMapper *signalMapper = new QSignalMapper(this);
  	QList<QAction *> actions;
@@ -109,7 +118,7 @@
  	foreach(QAction *action, actions) {
  		addAction(action);
  		connect(action, SIGNAL(triggered(bool)), signalMapper, SLOT(map()));
-@@ -389,7 +395,7 @@
+@@ -391,7 +397,7 @@
  	if (numProcesses == 1 && !d->mModel.data(realIndex, ProcessModel::WindowIdRole).isNull()) {
  		d->mProcessContextMenu->addAction(d->window);
  	}
@@ -118,7 +127,7 @@
  		d->mProcessContextMenu->addAction(d->monitorio);
  	}
  
-@@ -443,8 +449,8 @@
+@@ -445,8 +451,8 @@
  				KWindowSystem::activateWindow(wid);
  			}
  		}
@@ -128,6 +137,8 @@
  		QModelIndexList selectedIndexes = d->mUi->treeView->selectionModel()->selectedRows();
  		if(selectedIndexes.isEmpty()) return;  //No processes selected
  		QModelIndex realIndex = d->mFilterModel.mapToSource(selectedIndexes.at(0));
+Index: b/libs/ksysguard/processui/ksysguard.widgets
+===================================================================
 --- a/libs/ksysguard/processui/ksysguard.widgets
 +++ b/libs/ksysguard/processui/ksysguard.widgets
 @@ -15,10 +15,3 @@
