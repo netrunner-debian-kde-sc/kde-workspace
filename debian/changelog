@@ -10,7 +10,7 @@ kdebase-workspace (4:4.0.84-1) experimental; urgency=low
 
   * Fix up some dependencies and conflicts/replaces in kdebase-workspace-dbg
 
- -- Sune Vuorela <debian@pusling.com>  Sat, 28 Jun 2008 10:57:09 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 Jun 2008 10:57:09 +0200
 
 kdebase-workspace (4:4.0.82+svn819867-1) experimental; urgency=low
 
