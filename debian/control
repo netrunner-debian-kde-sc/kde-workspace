@@ -132,8 +132,7 @@ Description: System Guard Daemon for KDE 4
 Package: ksysguard
 Section: admin
 Architecture: any
-Depends: ${shlibs:Depends}
-Recommends:  ksysguardd (>= ${source:Version})
+Depends: ${shlibs:Depends}, ksysguardd (= ${binary:Version})
 Description: System Guard for KDE 4
  KDE System Guard allows you to monitor various statistics about your system.
  .
