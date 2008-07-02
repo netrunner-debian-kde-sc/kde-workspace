@@ -21,7 +21,7 @@ Package: kdebase-workspace
 Section: kde
 Architecture: all
 Depends:  kdebase-workspace-bin (>= ${source:Version}),
- klipper (>= ${source:Version}), ksysguard (>= ${source:Version}),
+ klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), ksysguardd (>= ${source:Version}),
  kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version})
 Recommends: kdm (>= ${source:Version})
 Description: base workspace components from the official KDE 4 release
@@ -132,7 +132,8 @@ Description: System Guard Daemon for KDE 4
 Package: ksysguard
 Section: admin
 Architecture: any
-Depends: ${shlibs:Depends}, ksysguardd (>= ${source:Version})
+Depends: ${shlibs:Depends}
+Recommends:  ksysguardd (>= ${source:Version})
 Description: System Guard for KDE 4
  KDE System Guard allows you to monitor various statistics about your system.
  .
