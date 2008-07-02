@@ -21,7 +21,7 @@ Package: kdebase-workspace
 Section: kde
 Architecture: all
 Depends:  kdebase-workspace-bin (>= ${source:Version}),
- klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), ksysguardd (>= ${source:Version}),
+ klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), 
  kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version})
 Recommends: kdm (>= ${source:Version})
 Description: base workspace components from the official KDE 4 release
