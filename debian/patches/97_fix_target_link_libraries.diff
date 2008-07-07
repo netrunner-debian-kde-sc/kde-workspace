@@ -1,0 +1,34 @@
+--- kdebase-workspace-4.0.85+svn829067.orig/kcminit/CMakeLists.txt
++++ kdebase-workspace-4.0.85+svn829067/kcminit/CMakeLists.txt
+@@ -5,7 +5,7 @@
+ 
+ kde4_add_kdeinit_executable( kcminit ${kcminit_KDEINIT_SRCS})
+ 
+-target_link_libraries(kdeinit_kcminit  ${KDE4_KUTILS_LIBS} )
++target_link_libraries(kdeinit_kcminit  ${KDE4_KDECORE_LIBS} ${KDE4_KDEUI_LIBS} ${QT_QTGUI_LIBRARY} ${QT_QTDBUS_LIBRARY} ${X11_X11_LIB})
+ 
+ install(TARGETS kdeinit_kcminit ${INSTALL_TARGETS_DEFAULT_ARGS} )
+ install(TARGETS kcminit         ${INSTALL_TARGETS_DEFAULT_ARGS} )
+@@ -19,7 +19,7 @@
+ 
+ kde4_add_kdeinit_executable( kcminit_startup ${kcminit_startup_KDEINIT_SRCS})
+ 
+-target_link_libraries(kdeinit_kcminit_startup  ${KDE4_KUTILS_LIBS} )
++target_link_libraries(kdeinit_kcminit_startup  ${KDE4_KUTILS_LIBS} ${KDE4_KDEUI_LIBS} ${QT_QTGUI_LIBRARY} ${QT_QTDBUS_LIBRARY} ${X11_X11_LIB} )
+ 
+ install(TARGETS kdeinit_kcminit_startup ${INSTALL_TARGETS_DEFAULT_ARGS} )
+ install(TARGETS kcminit_startup         ${INSTALL_TARGETS_DEFAULT_ARGS} )
+--- kdebase-workspace-4.0.85+svn829067.orig/klipper/CMakeLists.txt
++++ kdebase-workspace-4.0.85+svn829067/klipper/CMakeLists.txt
+@@ -23,6 +23,11 @@
+   target_link_libraries(kdeinit_klipper ${X11_Xfixes_LIB})
+ endif (X11_Xfixes_FOUND)
+ 
++if (X11_X11_LIB)
++  target_link_libraries(kdeinit_klipper ${X11_X11_LIB})
++endif (X11_X11_LIB)
++
++
+ install(TARGETS kdeinit_klipper ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS klipper         ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
