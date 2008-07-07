@@ -4,7 +4,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
 
 --- a/config-workspace.h.cmake
 +++ b/config-workspace.h.cmake
-@@ -120,6 +120,9 @@
+@@ -123,6 +123,9 @@
  /* KDE's static data directory */
  #define KDE_DATADIR "${DATA_INSTALL_DIR}"
  
@@ -16,26 +16,32 @@ Let's hardcode it and introduce KDM_CONFDIR.
  
 --- a/kcontrol/kdm/background.cpp
 +++ b/kcontrol/kdm/background.cpp
-@@ -43,7 +43,7 @@
- 		     " If it is disabled, you have to look after the background yourself."
- 		     " This is done by running some program (possibly xsetroot) in the script"
- 		     " specified in the Setup= option in kdmrc (usually Xsetup).") );
--	m_simpleConf = KSharedConfig::openConfig( config->group( "X-*-Greeter" ).readEntry( "BackgroundCfg", KDE_CONFDIR "/kdm/backgroundrc" ) );
-+	m_simpleConf = KSharedConfig::openConfig( config->group( "X-*-Greeter" ).readEntry( "BackgroundCfg", KDM_CONFDIR "/kdm/backgroundrc" ) );
+@@ -43,9 +43,9 @@
+ 		" If it is disabled, you have to look after the background yourself."
+ 		" This is done by running some program (possibly xsetroot) in the script"
+ 		" specified in the Setup= option in kdmrc (usually Xsetup).") );
+-	m_simpleConf = KSharedConfig::openConfig(
+-		config->group( "X-*-Greeter" ).readEntry(
+-			"BackgroundCfg", KDE_CONFDIR "/kdm/backgroundrc" ) );
++	m_simpleConf = KSharedConfig::openConfig( 
++	    config->group( "X-*-Greeter" ).readEntry( 
++		    "BackgroundCfg", KDM_CONFDIR "/kdm/backgroundrc" ) );
  	m_background = new BGDialog( this, m_simpleConf );
  
  	connect( m_background, SIGNAL(changed( bool )), SIGNAL(changed()) );
 --- a/kcontrol/kdm/main.cpp
 +++ b/kcontrol/kdm/main.cpp
-@@ -187,7 +187,7 @@
+@@ -187,8 +187,8 @@
+ 	for (tgmapci = tgmap.begin(); tgmapci != tgmap.end(); ++tgmapci)
  		kWarning() << "user(s) '" << tgmapci.value().join( "," )
  		<< "' have unknown GID " << tgmapci.key() << endl;
- 
--	config = new KConfig( QString::fromLatin1(KDE_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig);
+-
+-	config = new KConfig( QString::fromLatin1(KDE_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig );
++    
 +	config = new KConfig( QString::fromLatin1(KDM_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig);
  
  	QVBoxLayout *top = new QVBoxLayout( this );
-         top->setMargin(0);
+ 	top->setMargin( 0 );
 --- a/kdm/config.def
 +++ b/kdm/config.def
 @@ -29,7 +29,7 @@

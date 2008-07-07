@@ -1,15 +1,15 @@
 --- a/kcontrol/kdm/kdm-dlg.cpp
 +++ b/kcontrol/kdm/kdm-dlg.cpp
-@@ -279,7 +279,7 @@
+@@ -282,7 +282,7 @@
  
  	// Read the greeting string
  	greetstr_lined->setText( configGrp.readEntry( "GreetString",
--	                                            i18n("Welcome to %s at %n") ) );
-+	                                            i18n("Welcome to Debian at %n") ) );
+-	                                              i18n("Welcome to %s at %n") ) );
++	                                              i18n("Welcome to Debian at %n") ) );
  
  	// Regular logo or clock
  	QString logoArea = configGrp.readEntry( "LogoArea", "Logo" );
-@@ -307,7 +307,7 @@
+@@ -310,7 +310,7 @@
  
  void KDMDialogWidget::defaults()
  {
