@@ -1,5 +1,7 @@
---- kdebase-workspace-4.0.85+svn829067.orig/kcminit/CMakeLists.txt
-+++ kdebase-workspace-4.0.85+svn829067/kcminit/CMakeLists.txt
+Index: kdebase-workspace-4.0.85+svn829067/kcminit/CMakeLists.txt
+===================================================================
+--- kdebase-workspace-4.0.85+svn829067.orig/kcminit/CMakeLists.txt	2008-07-07 20:31:49.000000000 +0000
++++ kdebase-workspace-4.0.85+svn829067/kcminit/CMakeLists.txt	2008-07-07 20:32:12.000000000 +0000
 @@ -5,7 +5,7 @@
  
  kde4_add_kdeinit_executable( kcminit ${kcminit_KDEINIT_SRCS})
@@ -18,9 +20,17 @@
  
  install(TARGETS kdeinit_kcminit_startup ${INSTALL_TARGETS_DEFAULT_ARGS} )
  install(TARGETS kcminit_startup         ${INSTALL_TARGETS_DEFAULT_ARGS} )
---- kdebase-workspace-4.0.85+svn829067.orig/klipper/CMakeLists.txt
-+++ kdebase-workspace-4.0.85+svn829067/klipper/CMakeLists.txt
-@@ -23,6 +23,11 @@
+Index: kdebase-workspace-4.0.85+svn829067/klipper/CMakeLists.txt
+===================================================================
+--- kdebase-workspace-4.0.85+svn829067.orig/klipper/CMakeLists.txt	2008-07-07 20:31:49.000000000 +0000
++++ kdebase-workspace-4.0.85+svn829067/klipper/CMakeLists.txt	2008-07-07 20:32:12.000000000 +0000
+@@ -18,11 +18,16 @@
+ 
+ kde4_add_kdeinit_executable(klipper ${klipper_KDEINIT_SRCS})
+ 
+-target_link_libraries(kdeinit_klipper ${KDE4_KDEUI_LIBS})
++target_link_libraries(kdeinit_klipper ${KDE4_KDEUI_LIBS} ${ZLIB_LIBRARY}) 
+ if (X11_Xfixes_FOUND)
    target_link_libraries(kdeinit_klipper ${X11_Xfixes_LIB})
  endif (X11_Xfixes_FOUND)
  
@@ -31,4 +41,19 @@
 +
  install(TARGETS kdeinit_klipper ${INSTALL_TARGETS_DEFAULT_ARGS})
  install(TARGETS klipper         ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+Index: kdebase-workspace-4.0.85+svn829067/ksmserver/CMakeLists.txt
+===================================================================
+--- kdebase-workspace-4.0.85+svn829067.orig/ksmserver/CMakeLists.txt	2008-07-07 20:31:49.000000000 +0000
++++ kdebase-workspace-4.0.85+svn829067/ksmserver/CMakeLists.txt	2008-07-07 20:32:12.000000000 +0000
+@@ -47,7 +47,7 @@
+ 
+ kde4_add_kdeinit_executable( ksmserver ${ksmserver_KDEINIT_SRCS})
+ 
+-target_link_libraries(kdeinit_ksmserver plasma solidcontrol kworkspace ${KDE4_KDEUI_LIBS} ${QIMAGEBLITZ_LIBRARIES} ${X11_LIBRARIES})
++target_link_libraries(kdeinit_ksmserver plasma solidcontrol kworkspace ${KDE4_KDEUI_LIBS} ${QIMAGEBLITZ_LIBRARIES} ${X11_LIBRARIES} ${X11_Xrender_LIB})
+ 
+ install(TARGETS kdeinit_ksmserver ${INSTALL_TARGETS_DEFAULT_ARGS})
+ 
+ 
  
