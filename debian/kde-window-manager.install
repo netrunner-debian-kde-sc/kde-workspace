@@ -131,7 +131,6 @@ usr/share/kde4/services/kwin/showfps_config.desktop
 usr/share/kde4/services/kwin/showpaint.desktop
 usr/share/kde4/services/kwin/snow.desktop
 usr/share/kde4/services/kwin/snow_config.desktop
-usr/share/kde4/services/kwin/taskbarthumbnail.desktop
 usr/share/kde4/services/kwin/thumbnailaside.desktop
 usr/share/kde4/services/kwin/thumbnailaside_config.desktop
 usr/share/kde4/services/kwin/trackmouse.desktop
