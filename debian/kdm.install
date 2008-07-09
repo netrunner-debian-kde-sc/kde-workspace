@@ -95,3 +95,13 @@ usr/share/kde4/apps/kdm/sessions/wmaker.desktop
 usr/share/kde4/apps/kdm/sessions/xfce.desktop
 usr/share/kde4/apps/kdm/sessions/xfce4.desktop
 usr/share/kde4/services/kdm.desktop
+usr/share/kde4/apps/kdm/themes/oxygen/KdmGreeterTheme.desktop
+usr/share/kde4/apps/kdm/themes/oxygen/background.svg
+usr/share/kde4/apps/kdm/themes/oxygen/branding-icon.png
+usr/share/kde4/apps/kdm/themes/oxygen/oxygen-box.svg
+usr/share/kde4/apps/kdm/themes/oxygen/oxygen.svg
+usr/share/kde4/apps/kdm/themes/oxygen/oxygen.xml
+usr/share/kde4/apps/kdm/themes/oxygen/screenshot.png
+usr/share/kde4/apps/kdm/themes/oxygen/session.png
+usr/share/kde4/apps/kdm/themes/oxygen/system.png
+

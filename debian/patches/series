@@ -3,7 +3,7 @@
 09_genkdm_make.diff
 10_kdm_no_custom.diff
 11_kdm_X_path.diff
-12_be_better_at_honouring_user_kdm_theming.diff
+#12_be_better_at_honouring_user_kdm_theming.diff
 13_kdm_override_docs.diff
 17_ksysguard_disable_procmon_when_unsupported.diff
 20_use_dejavu_as_default_font.diff

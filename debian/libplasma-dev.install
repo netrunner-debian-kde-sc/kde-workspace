@@ -1,3 +1,8 @@
+usr/include/KDE/Plasma/Meter
+usr/include/KDE/Plasma/PaintUtils
+usr/include/KDE/Plasma/SignalPlotter
+usr/include/plasma/paintutils.h
+
 usr/include/KDE/Plasma/AbstractRunner
 usr/include/KDE/Plasma/AnimationDriver
 usr/include/KDE/Plasma/Animator

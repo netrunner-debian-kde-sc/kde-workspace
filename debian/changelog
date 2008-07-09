@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.0.85+svn829409-0) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.85+svn829745-0) UNRELEASED; urgency=low
 
   * New development snapshot.
 
@@ -12,9 +12,9 @@ kdebase-workspace (4:4.0.85+svn829409-0) UNRELEASED; urgency=low
     12_be_better_at_honouring_user_kdm_theming and
     21_kdm_doesnt_use_kstandarddirs.
   * Remove 97_fix_target_link_libraries.
-  * Update installed files (WIP, there is files with weird names ATM)
+  * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 2 Jul 2008 13:57:09 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Jul 2008 15:29:38 +0200
 
 kdebase-workspace (4:4.0.84-1) experimental; urgency=low
 

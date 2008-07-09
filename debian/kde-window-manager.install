@@ -151,3 +151,7 @@ usr/share/kde4/services/kwinoptions.desktop
 usr/share/kde4/services/kwinrules.desktop
 usr/share/kde4/servicetypes/kwineffect.desktop
 usr/share/sounds/pop.wav
+usr/lib/kconf_update_bin/plasma-add-shortcut-to-menu
+usr/share/kde4/apps/kconf_update/plasma-add-shortcut-to-menu.upd
+
+
