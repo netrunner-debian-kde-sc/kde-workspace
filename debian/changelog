@@ -2,6 +2,10 @@ kdebase-workspace (4:4.0.85+svn829745-0) UNRELEASED; urgency=low
 
   * New development snapshot.
 
+  +++ Changes by Sune Vuorela:
+
+  * Don't install oxygencursors, but instead depend on oxygencursors package.
+
   +++ Changes by Xavier Vello:
 
   * ksysguard now recommends on ksysguardd.

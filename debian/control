@@ -62,6 +62,7 @@ Description: libraries provided by the KDE 4 base workspace module
 Package: kdebase-workspace-data
 Section: kde
 Architecture: all
+Depends: oxygencursors
 Conflicts: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
  kmenuedit, ktip, libplasma1
 Replaces: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),

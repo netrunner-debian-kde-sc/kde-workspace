@@ -1,1 +1,16 @@
+
+#no need to ship dev symlink
 ./usr/lib/libkwinnvidiahack.so
+
+#cursors is in oxygencursors package
+./usr/share/icons/Oxygen_Black/cursors/
+./usr/share/icons/Oxygen_Black_Big/cursors/
+./usr/share/icons/Oxygen_Blue/cursors/
+./usr/share/icons/Oxygen_Blue_Big/cursors/
+./usr/share/icons/Oxygen_White/cursors/
+./usr/share/icons/Oxygen_White_Big/cursors/
+./usr/share/icons/Oxygen_Yellow/cursors/
+./usr/share/icons/Oxygen_Yellow_Big/cursors/
+./usr/share/icons/Oxygen_Zion/cursors/
+./usr/share/icons/Oxygen_Zion_Big/cursors/
+
