@@ -6,6 +6,8 @@ kdebase-workspace (4:4.0.98-0) UNRELEASED; urgency=low
 
   * Don't install oxygencursors, but instead depend on oxygencursors package.
   * Patch 17 to fix ksysguard build on all archs removed, committed upstream
+  * Enabled consolekit patch. Thanks to Daniel Nicoletti for noticing and
+    testing the patch.
 
   +++ Changes by Xavier Vello:
 
