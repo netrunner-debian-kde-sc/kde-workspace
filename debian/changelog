@@ -1,10 +1,11 @@
-kdebase-workspace (4:4.0.85+svn829745-0) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.98-0) UNRELEASED; urgency=low
 
   * New development snapshot.
 
   +++ Changes by Sune Vuorela:
 
   * Don't install oxygencursors, but instead depend on oxygencursors package.
+  * Patch 17 to fix ksysguard build on all archs removed, committed upstream
 
   +++ Changes by Xavier Vello:
 
