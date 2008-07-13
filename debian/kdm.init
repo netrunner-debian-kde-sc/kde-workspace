@@ -73,6 +73,11 @@ genkdmconf --in $KDMCFGDIR 1> /dev/null
 
 
 fi
+#usetheme is now on "by default" so we need to be sure that there is something ...
+if grep -q "Theme=@@@ToBeReplacedByDesktopBase@@@" ${KDMRC}
+then
+	sed -i 's|@@@ToBeReplacedByDesktopBase@@@|/usr/share/kde4/apps/kdm/themes/oxygen|' ${KDMCFG}
+fi
 # autologin overrides are useful for live debian environment
 if [ -n "$AUTOLOGINUSER" ]; then
 	sed -i "s|^#\?AutoLoginEnable=.*|AutoLoginEnable=true|" $KDMCFG
