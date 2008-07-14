@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.0.98-0) UNRELEASED; urgency=low
+kdebase-workspace (4:4.0.98-1) experimental; urgency=low
 
   * New upstream release, Release Candidate 1.
 
@@ -22,7 +22,7 @@ kdebase-workspace (4:4.0.98-0) UNRELEASED; urgency=low
   * Remove 97_fix_target_link_libraries.
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Jul 2008 15:29:38 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 14 Jul 2008 14:58:33 +0200
 
 kdebase-workspace (4:4.0.84-1) experimental; urgency=low
 
