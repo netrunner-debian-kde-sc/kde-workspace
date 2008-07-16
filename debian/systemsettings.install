@@ -1,5 +1,8 @@
 etc/systemsettingsrc
 usr/bin/systemsettings
+usr/lib/kde4/kcm_colors.so
+usr/lib/kde4/kcm_fonts.so
+usr/lib/kde4/kcm_style.so
 usr/share/applications/kde4/systemsettings.desktop
 usr/share/kde4/apps/systemsettings/systemsettingsui.rc
 usr/share/kde4/services/ion-bbcukmet.desktop
