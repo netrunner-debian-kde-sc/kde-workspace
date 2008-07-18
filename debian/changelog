@@ -1,5 +1,9 @@
 kdebase-workspace (4:4.0.98-2) UNRELEASED; urgency=low
 
+  +++ Changes by Sune Vuorela:
+
+  * Make kdebase-workspace recommend kdebase-plasma (folderview)
+
   +++ Changes by Modestas Vainius:
 
   * Move kcm_fonts, kcm_style and kcm_style from kdebase-workspace-bin to
