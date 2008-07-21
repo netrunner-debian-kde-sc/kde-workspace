@@ -1,3 +1,6 @@
+usr/include/KDE/Plasma/Version
+usr/include/plasma/version.h
+
 usr/include/KDE/Plasma/Meter
 usr/include/KDE/Plasma/PaintUtils
 usr/include/KDE/Plasma/SignalPlotter
