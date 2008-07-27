@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.0),
- kdepimlibs5-dev (>= 4:4.0.98), libphonon-dev (>= 4:4.2),
+ kdepimlibs5-dev (>= 4:4.1.0), libphonon-dev (>= 4:4.2),
  libbluetooth-dev, libcaptury-dev, libdbus-1-dev, libnm-util-dev,
  libpam0g-dev, libqimageblitz-dev (>= 1:0.0.4-2), libraw1394-dev, libsensors-dev,
  libstrigiqtdbusclient-dev (>= 0.5.8-2), libusb-dev, libxkbfile-dev,
@@ -78,8 +78,8 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-libs4+5 (= ${binary:Version}),
  libkwineffects1 (= ${binary:Version}), libkdecorations4 (= ${binary:Version}),
- libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.0.98),
- libbluetooth-dev, libcaptury-dev, libphonon-dev (>=4:4.2~),
+ libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.1.0),
+ libbluetooth-dev, libcaptury-dev, libphonon-dev (>=4:4.2),
  libdbus-1-dev, libnm-util-dev, libpam0g-dev, libqimageblitz-dev (>=1:0.0.4-2),
  libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.8-2),
  libusb-dev, libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
