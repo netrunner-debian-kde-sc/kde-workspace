@@ -16,6 +16,7 @@ kdebase-workspace (4:4.1.0-1) experimental; urgency=low
 
   * Update installed files and build depends.
   * Bump libkwineffects1 shlibs.
+  * Fix descriptions line with more than 80 chars.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 27 Jul 2008 02:10:23 +0200
 
