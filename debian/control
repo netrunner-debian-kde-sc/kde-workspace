@@ -121,7 +121,7 @@ Description: clipboard utility for KDE 4
  This package is part of the KDE 4 base workspace module.
 
 Package: ksysguardd
-Section: admin
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: System Guard Daemon for KDE 4
@@ -131,7 +131,7 @@ Description: System Guard Daemon for KDE 4
  This package is part of the KDE 4 base workspace module.
 
 Package: ksysguard
-Section: admin
+Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
 Recommends: ksysguardd (= ${binary:Version})
