@@ -12,7 +12,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.0),
  libxrandr-dev, libxrender-dev, libxxf86misc-dev, network-manager-dev,
  libsmbclient-dev, libxcb1-dev, libxine-dev, libstreamanalyzer-dev, libfontconfig-dev, libglu1-mesa-dev,
  libsm-dev, libxcursor-dev, libxft-dev, libxtst-dev, libqt4-opengl-dev, libxinerama-dev
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdebase-workspace
 Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdebase-workspace
