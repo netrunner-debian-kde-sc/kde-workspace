@@ -1,3 +1,10 @@
+kdebase-workspace (4:4.1.0-3) experimental; urgency=low
+
+  * Install konqueror as x-www-browser alternative (Closes: #495746).
+  * Add manpages for konquror, kfmclient and keditbookmarks.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Thu, 21 Aug 2008 11:35:14 +0200
+
 kdebase-workspace (4:4.1.0-2) experimental; urgency=low
 
   +++ Changes by Sune Vuorela:
