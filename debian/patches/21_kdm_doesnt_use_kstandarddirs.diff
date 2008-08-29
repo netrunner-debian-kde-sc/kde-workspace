@@ -4,7 +4,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
 
 --- a/config-workspace.h.cmake
 +++ b/config-workspace.h.cmake
-@@ -123,6 +123,9 @@
+@@ -126,6 +126,9 @@
  /* KDE's static data directory */
  #define KDE_DATADIR "${DATA_INSTALL_DIR}"
  

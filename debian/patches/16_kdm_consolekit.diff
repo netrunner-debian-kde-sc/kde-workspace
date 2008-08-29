@@ -53,7 +53,7 @@
  /*
   * Session data, mostly what struct verify_info was for
   */
-@@ -1178,8 +1182,13 @@
+@@ -1179,8 +1183,13 @@
  }
  */
  
@@ -67,7 +67,7 @@
  {
  	const char *home, *sessargs, *desksess;
  	char **env, *xma;
-@@ -1268,6 +1277,11 @@
+@@ -1269,6 +1278,11 @@
  	if (krbtkfile[0] != '\0')
  		env = setEnv( env, "KRBTKFILE", krbtkfile );
  #endif
