@@ -3,6 +3,7 @@ usr/bin/kwin_killer_helper
 usr/bin/kwin_rules_dialog
 usr/lib/kconf_update_bin/kwin_update_default_rules
 usr/lib/kconf_update_bin/kwin_update_window_settings
+usr/lib/kconf_update_bin/plasma-add-shortcut-to-menu
 usr/lib/kde4/kcm_kwin4_effect_builtins.so
 usr/lib/kde4/kcm_kwin4_effect_videorecord.so
 usr/lib/kde4/kcm_kwincompositing.so
@@ -56,6 +57,7 @@ usr/share/kde4/apps/kconf_update/kwin_on_off.upd
 usr/share/kde4/apps/kconf_update/kwiniconify.upd
 usr/share/kde4/apps/kconf_update/kwinsticky.upd
 usr/share/kde4/apps/kconf_update/kwinupdatewindowsettings.upd
+usr/share/kde4/apps/kconf_update/plasma-add-shortcut-to-menu.upd
 usr/share/kde4/apps/kconf_update/pluginlibFix.pl
 usr/share/kde4/apps/kwin/b2.desktop
 usr/share/kde4/apps/kwin/blur-render.frag
@@ -151,7 +153,3 @@ usr/share/kde4/services/kwinoptions.desktop
 usr/share/kde4/services/kwinrules.desktop
 usr/share/kde4/servicetypes/kwineffect.desktop
 usr/share/sounds/pop.wav
-usr/lib/kconf_update_bin/plasma-add-shortcut-to-menu
-usr/share/kde4/apps/kconf_update/plasma-add-shortcut-to-menu.upd
-
-

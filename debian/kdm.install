@@ -1,5 +1,4 @@
 ../local/kdm.options etc/kde4/kdm/
-usr/share/kde4/config/kdm.knsrc
 etc/kde4/kdm/README
 etc/kde4/kdm/Xaccess
 etc/kde4/kdm/Xreset
@@ -94,7 +93,6 @@ usr/share/kde4/apps/kdm/sessions/wm2.desktop
 usr/share/kde4/apps/kdm/sessions/wmaker.desktop
 usr/share/kde4/apps/kdm/sessions/xfce.desktop
 usr/share/kde4/apps/kdm/sessions/xfce4.desktop
-usr/share/kde4/services/kdm.desktop
 usr/share/kde4/apps/kdm/themes/circles/KdmGreeterTheme.desktop
 usr/share/kde4/apps/kdm/themes/circles/background.svg
 usr/share/kde4/apps/kdm/themes/circles/circles.xml
@@ -111,3 +109,5 @@ usr/share/kde4/apps/kdm/themes/oxygen/oxygen.xml
 usr/share/kde4/apps/kdm/themes/oxygen/screenshot.png
 usr/share/kde4/apps/kdm/themes/oxygen/session.png
 usr/share/kde4/apps/kdm/themes/oxygen/system.png
+usr/share/kde4/config/kdm.knsrc
+usr/share/kde4/services/kdm.desktop

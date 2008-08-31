@@ -1,6 +1,6 @@
-usr/share/kde4/config/klipperrc
 usr/bin/klipper
 usr/lib/libkdeinit4_klipper.so
 usr/share/applications/kde4/klipper.desktop
 usr/share/autostart/klipper.desktop
 usr/share/doc/kde4/HTML/en/klipper/common
+usr/share/kde4/config/klipperrc
