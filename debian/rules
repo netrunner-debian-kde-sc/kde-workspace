@@ -5,7 +5,7 @@ include debian/cdbs/kde.mk
 #DEB_CMAKE_EXTRA_FLAGS += \
 #	-DINSTALL_PRINTER_APPLET=TRUE
 
-PLASMA_ABI=plasma-abi-1
+PLASMA_ABI=plasma-abi-4.1-1
 
 DEB_CMAKE_EXTRA_FLAGS += -DKDE4_KDM_PAM_SERVICE=kdm
 DEB_DH_MAKESHLIBS_ARGS_libplasma2 := -V'libplasma2 (>= 4:4.1.1), $(PLASMA_ABI)'
