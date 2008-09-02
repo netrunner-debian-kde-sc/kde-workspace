@@ -6,8 +6,12 @@ kdebase-workspace (4:4.1.1-0) UNRELEASED; urgency=low
   
   * Refresh patches:
     - Remove 23_systray_fixes, merged upstream.
-  * Kill off some -dev package dependencies. (which ones :?)
+  * Kill off some dependencies off kdebase-workspace-dev. kdebase-workspace
+    aren't exposing this.
   * Add cursors to not-installed.
+  * Add bugscript to libplasma2 so we can see installed plasma thingies on
+    reporters system.
+  * Define a plasma abi variable so we can set and change it as we feel like.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 

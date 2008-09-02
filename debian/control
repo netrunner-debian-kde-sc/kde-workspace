@@ -202,6 +202,7 @@ Section: libs
 Architecture: any
 Priority: optional
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-data (= ${source:Version})
+Provides: ${plasma:abi-provides}
 Replaces: libplasma1
 Conflicts: libplasma1
 Description: library for the KDE 4 Plasma desktop
