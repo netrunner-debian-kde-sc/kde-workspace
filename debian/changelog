@@ -1,3 +1,10 @@
+kdebase-workspace (4:4.1.1-2) experimental; urgency=low
+
+  * Make the plasma trash applet call KDE 4's and not KDE 3's ktrash.
+    Thanks to George Kiagiadakis for the patch (Closes: #494427).
+
+ -- Armin Berres <trigger+debian@space-based.de>  Sat, 06 Sep 2008 11:27:22 +0200
+
 kdebase-workspace (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release.
