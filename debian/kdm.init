@@ -17,6 +17,9 @@
 #
 set -e
 
+# Import the LSB init functions
+. /lib/lsb/init-functions
+
 # To start kdm even if it is not the default display manager, change
 # HEED_DEFAULT_DISPLAY_MANAGER to "false."
 HEED_DEFAULT_DISPLAY_MANAGER=true
@@ -34,8 +37,6 @@ BACKGROUNDRC=/etc/kde4/kdm/backgroundrc
 #if configuration is changed by kdmtheme or other tools, don't do magick
 if grep -q "Theme=@@@ToBeReplacedByDesktopBase@@@" ${KDMRC} && grep -q "Wallpaper=default_blue.jpg" ${BACKGROUNDRC}
 then
-
-
 
 KDMOVERRIDEDIR=/etc/default/kdm.d
 KDMCFGDIR=/var/run/kdm
@@ -70,7 +71,6 @@ genkdmconf --in $KDMCFGDIR 1> /dev/null
 [ -n "$USETHEME" ] && sed -i "s|^#\?UseTheme=.*|UseTheme=$USETHEME|" $KDMCFG
 [ -n "$THEME" ] && sed -i "s|^#\?Theme=.*|Theme=$THEME|" $KDMCFG
 [ -n "$WALLPAPER" ] && sed -i "s|^#\?Wallpaper=.*|Wallpaper=`readlink -f $WALLPAPER`|" $BACKGROUNDCFG
-
 
 fi
 #usetheme is now on "by default" so we need to be sure that there is something ...
@@ -178,9 +178,12 @@ case "$1" in
     fi
     echo "."
   ;;
+  status)
+    status_of_proc -p "$PIDFILE" "$DAEMON" kdm && exit 0 || exit $?
+  ;;
 
   *)
-    echo "Usage: /etc/init.d/kdm {start|stop|restart|reload|force-reload}"
+    echo "Usage: /etc/init.d/kdm {start|stop|restart|reload|force-reload|status}"
     exit 1
     ;;
 esac

@@ -1,16 +1,25 @@
-kdebase-workspace (4:4.1.1-2) experimental; urgency=low
+kdebase-workspace (4:4.1.1-2) UNRELEASED; urgency=low
+
+  +++ Changes by Fathi Boudra:
+
+  * Add the status action to KDM's init script, merged from Ubuntu:
+    * Depend on lsb-base >= 3.2-14, which has the status_of_proc() function.
+    * Import the LSB init functions, and add the 'status' action.
+    Thanks to Dustin Kirkland and Jonathan Riddell.
+
+  +++ Changes by Armin Berres:
 
   * Make the plasma trash applet call KDE 4's and not KDE 3's ktrash.
     Thanks to George Kiagiadakis for the patch (Closes: #494427).
 
- -- Armin Berres <trigger+debian@space-based.de>  Sat, 06 Sep 2008 11:27:22 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 06 Sep 2008 11:27:22 +0200
 
 kdebase-workspace (4:4.1.1-1) experimental; urgency=low
 
   * New upstream release.
- 
+
   +++ Changes by Sune Vuorela:
-  
+
   * Refresh patches:
     - Remove 23_systray_fixes, merged upstream.
   * Kill off some dependencies off kdebase-workspace-dev. kdebase-workspace
