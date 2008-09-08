@@ -11,8 +11,10 @@ kdebase-workspace (4:4.1.1-2) UNRELEASED; urgency=low
 
   * Make the plasma trash applet call KDE 4's and not KDE 3's ktrash.
     Thanks to George Kiagiadakis for the patch (Closes: #494427).
+  * Add acpid dbus hal to Should-Start and Should-Stop in KDM's init script to
+    make KDM start and stop after these dameons, if they are installed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 06 Sep 2008 11:27:22 +0200
+ -- Armin Berres <trigger+debian@space-based.de>  Mon, 08 Sep 2008 20:54:45 +0200
 
 kdebase-workspace (4:4.1.1-1) experimental; urgency=low
 
