@@ -4,7 +4,7 @@
 # Required-Start:    $local_fs $remote_fs
 # Required-Stop:     $local_fs $remote_fs
 # Should-Start:      console-screen acpid dbus hal
-# Should-Stop:       console-screen acpid dbus hal
+# Should-Stop:       console-screen
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
 # Short-Description: X display manager for KDE
