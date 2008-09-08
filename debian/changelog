@@ -14,7 +14,7 @@ kdebase-workspace (4:4.1.1-2) UNRELEASED; urgency=low
   * Add acpid dbus hal to Should-Start and Should-Stop in KDM's init script to
     make KDM start and stop after these dameons, if they are installed.
 
- -- Armin Berres <trigger+debian@space-based.de>  Mon, 08 Sep 2008 20:54:45 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 08 Sep 2008 20:54:45 +0200
 
 kdebase-workspace (4:4.1.1-1) experimental; urgency=low
 
