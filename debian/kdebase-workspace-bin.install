@@ -53,6 +53,7 @@ usr/lib/kde4/kcm_randr.so
 usr/lib/kde4/kcm_screensaver.so
 usr/lib/kde4/kcm_smserver.so
 usr/lib/kde4/kcm_solid.so
+usr/lib/kde4/kcm_xinerama.so
 usr/lib/kde4/kded_khotkeys.so
 usr/lib/kde4/kded_networkstatus.so
 usr/lib/kde4/kfontviewpart.so
@@ -72,13 +73,12 @@ usr/lib/kde4/libexec/kcmdatetimehelper
 usr/lib/kde4/libexec/kfontprint
 usr/lib/kde4/libexec/kio_fonts_helper
 usr/lib/kde4/libexec/krunner_lock
+usr/lib/kde4/libexec/test_kcm_xinerama
 usr/lib/kde4/solid_bluez.so
 usr/lib/kde4/solid_fakebluetooth.so
 usr/lib/kde4/solid_fakenet.so
 usr/lib/kde4/solid_hal_power.so
 usr/lib/kde4/solid_networkmanager.so
-usr/lib/kde4/kcm_xinerama.so
-usr/lib/kde4/libexec/test_kcm_xinerama
 usr/lib/libkdeinit4_kaccess.so
 usr/lib/libkdeinit4_kcminit.so
 usr/lib/libkdeinit4_kcminit_startup.so

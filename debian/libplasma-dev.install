@@ -1,11 +1,3 @@
-usr/include/KDE/Plasma/Version
-usr/include/plasma/version.h
-
-usr/include/KDE/Plasma/Meter
-usr/include/KDE/Plasma/PaintUtils
-usr/include/KDE/Plasma/SignalPlotter
-usr/include/plasma/paintutils.h
-
 usr/include/KDE/Plasma/AbstractRunner
 usr/include/KDE/Plasma/AnimationDriver
 usr/include/KDE/Plasma/Animator
@@ -29,9 +21,11 @@ usr/include/KDE/Plasma/GroupBox
 usr/include/KDE/Plasma/Icon
 usr/include/KDE/Plasma/Label
 usr/include/KDE/Plasma/LineEdit
+usr/include/KDE/Plasma/Meter
 usr/include/KDE/Plasma/Package
 usr/include/KDE/Plasma/PackageMetadata
 usr/include/KDE/Plasma/PackageStructure
+usr/include/KDE/Plasma/PaintUtils
 usr/include/KDE/Plasma/PanelSvg
 usr/include/KDE/Plasma/Plasma
 usr/include/KDE/Plasma/PushButton
@@ -43,10 +37,12 @@ usr/include/KDE/Plasma/RunnerScript
 usr/include/KDE/Plasma/ScriptEngine                                                                                                                                                                            
 usr/include/KDE/Plasma/Service
 usr/include/KDE/Plasma/ServiceJob
+usr/include/KDE/Plasma/SignalPlotter
 usr/include/KDE/Plasma/Svg
 usr/include/KDE/Plasma/TextEdit                                                                                                                                                                                
 usr/include/KDE/Plasma/Theme
 usr/include/KDE/Plasma/UiLoader
+usr/include/KDE/Plasma/Version
 usr/include/KDE/Plasma/View
 usr/include/KDE/Plasma/Weather/Formulas
 usr/include/KDE/Plasma/Weather/Ion
@@ -68,6 +64,7 @@ usr/include/plasma/glapplet.h
 usr/include/plasma/package.h
 usr/include/plasma/packagemetadata.h
 usr/include/plasma/packagestructure.h
+usr/include/plasma/paintutils.h
 usr/include/plasma/panelsvg.h
 usr/include/plasma/plasma.h
 usr/include/plasma/plasma_export.h
@@ -83,6 +80,7 @@ usr/include/plasma/servicejob.h
 usr/include/plasma/svg.h
 usr/include/plasma/theme.h
 usr/include/plasma/uiloader.h
+usr/include/plasma/version.h
 usr/include/plasma/view.h
 usr/include/plasma/weather/formulas.h
 usr/include/plasma/weather/ion.h

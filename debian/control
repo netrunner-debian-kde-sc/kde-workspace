@@ -79,13 +79,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-libs4+5 (= ${binary:Version}),
  libkwineffects1 (= ${binary:Version}), libkdecorations4 (= ${binary:Version}),
- libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.1.0),
- libbluetooth-dev, libcaptury-dev, libphonon-dev (>=4:4.2),
- libdbus-1-dev, libnm-util-dev, libpam0g-dev, libqimageblitz-dev (>=1:0.0.4-2),
- libraw1394-dev, libsensors-dev, libstrigiqtdbusclient-dev (>= 0.5.8-2),
- libusb-dev, libxkbfile-dev, libxcomposite-dev, libxdamage-dev, libxfixes-dev,
- libxklavier12-dev, libxrandr-dev, libxrender-dev, libxxf86misc-dev,
- network-manager-dev
+ libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.1.0)
 Description: development files for the KDE 4 base workspace module
  This package contains development files for building software that uses
  libraries from the KDE 4 base workspace module.
@@ -93,7 +87,7 @@ Description: development files for the KDE 4 base workspace module
 Package: kdm
 Section: x11
 Architecture: any
-Depends: ${shlibs:Depends}, debconf | debconf-2.0
+Depends: ${shlibs:Depends}, debconf | debconf-2.0, lsb-base (>= 3.2-14)
 Recommends: logrotate, xserver-xorg-core | xserver,
  kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
 Suggests: kdepasswd
@@ -208,6 +202,7 @@ Section: libs
 Architecture: any
 Priority: optional
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-data (= ${source:Version})
+Provides: ${plasma:abi-provides}
 Replaces: libplasma1
 Conflicts: libplasma1
 Description: library for the KDE 4 Plasma desktop

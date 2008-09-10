@@ -1,3 +1,5 @@
+We planned once to add a debioan icon in the titlebar of active windows.
+Unused right now.
 --- a/kwin/clients/oxygen/oxygenclient.cpp
 +++ b/kwin/clients/oxygen/oxygenclient.cpp
 @@ -57,6 +57,9 @@
