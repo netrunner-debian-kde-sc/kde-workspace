@@ -8,8 +8,8 @@ include debian/cdbs/kde.mk
 PLASMA_ABI=plasma-abi-4.1-1
 
 DEB_CMAKE_EXTRA_FLAGS += -DKDE4_KDM_PAM_SERVICE=kdm
-DEB_DH_MAKESHLIBS_ARGS_libplasma2 := -V'libplasma2 (>= 4:4.1.1), $(PLASMA_ABI)'
-DEB_DH_MAKESHLIBS_ARGS_libkwineffects1 := -V'libkwineffects1 (>= 4:4.1.0)'
+DEB_DH_MAKESHLIBS_ARGS_libplasma2 := -V'libplasma2 (>= 4:4.1.2), $(PLASMA_ABI)'
+DEB_DH_MAKESHLIBS_ARGS_libkwineffects1 := -V'libkwineffects1 (>= 4:4.1.2)'
 
 DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-bin := -- -xksysguard
 
