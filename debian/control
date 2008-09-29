@@ -65,7 +65,7 @@ Section: kde
 Architecture: all
 Depends: oxygencursors
 Conflicts: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
- kmenuedit, ktip, libplasma1, kdebase-runtime-data (<<4:4.4.2-1)
+ kmenuedit, ktip, libplasma1, kdebase-runtime-data (<<4:4.1.2-1)
 Replaces: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
  kmenuedit, ktip, kdebase-runtime-data (<< 4:4.0.81)
 Description: shared data files for the KDE 4 base workspace module
