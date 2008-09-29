@@ -1,9 +1,11 @@
-kdebase-workspace (4:4.1.2-0) UNRELEASED; urgency=low
+kdebase-workspace (4:4.1.2-1) experimental; urgency=low
 
   * New upstream release.
-  * TODO: stuff moved from -runtime
+  * Update installed files.
+  * Some files have been moved from kdebase-runtime-data to
+    kdebase-workspace-data, add Conflicts with previous version.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 25 Sep 2008 23:02:40 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 29 Sep 2008 16:42:31 +0200
 
 kdebase-workspace (4:4.1.1-2) experimental; urgency=low
 
