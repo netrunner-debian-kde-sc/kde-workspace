@@ -1,8 +1,17 @@
-kdebase-workspace (4:4.1.1-2~lenny+1) lenny; urgency=low
+kdebase-workspace (4:4.1.2-1~lenny+1) lenny; urgency=low
 
   * Backport for Lenny.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 11 Sep 2008 01:28:44 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 07 Oct 2008 18:17:59 +0200
+
+kdebase-workspace (4:4.1.2-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update installed files.
+  * Some files have been moved from kdebase-runtime-data to
+    kdebase-workspace-data, add Conflicts with previous version.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 29 Sep 2008 16:42:31 +0200
 
 kdebase-workspace (4:4.1.1-2) experimental; urgency=low
 
@@ -50,12 +59,6 @@ kdebase-workspace (4:4.1.0-3) experimental; urgency=low
   * Add manpages for konquror, kfmclient and keditbookmarks.
 
  -- Armin Berres <trigger+debian@space-based.de>  Thu, 21 Aug 2008 11:35:14 +0200
-
-kdebase-workspace (4:4.1.0-2~lenny+1) lenny; urgency=low
-
-  * Backport for Lenny.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 19 Aug 2008 12:12:47 +0200
 
 kdebase-workspace (4:4.1.0-2) experimental; urgency=low
 

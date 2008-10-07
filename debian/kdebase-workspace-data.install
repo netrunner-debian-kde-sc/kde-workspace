@@ -13,7 +13,8 @@ usr/share/dbus-1/interfaces/org.kde.screensaver.xml
 usr/share/doc/kde4/HTML/en/kcontrol/autostart/common
 usr/share/doc/kde4/HTML/en/kcontrol/autostart/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/autostart/index.docbook
-usr/share/doc/kde4/HTML/en/kcontrol/bell/common                                                                                                            usr/share/doc/kde4/HTML/en/kcontrol/bell/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kcontrol/bell/common
+usr/share/doc/kde4/HTML/en/kcontrol/bell/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/bell/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/clock/common
 usr/share/doc/kde4/HTML/en/kcontrol/clock/index.cache.bz2
@@ -53,6 +54,9 @@ usr/share/doc/kde4/HTML/en/kcontrol/keyboard/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/keys/common
 usr/share/doc/kde4/HTML/en/kcontrol/keys/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/keys/index.docbook
+usr/share/doc/kde4/HTML/en/kcontrol/mouse/common
+usr/share/doc/kde4/HTML/en/kcontrol/mouse/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kcontrol/mouse/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/screensaver/common 
 usr/share/doc/kde4/HTML/en/kcontrol/screensaver/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/screensaver/index.docbook
@@ -61,6 +65,12 @@ usr/share/doc/kde4/HTML/en/kcontrol/splashscreen/get-new-theme.png
 usr/share/doc/kde4/HTML/en/kcontrol/splashscreen/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/splashscreen/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/splashscreen/splash-main.png
+usr/share/doc/kde4/HTML/en/kcontrol/windowbehaviour/common
+usr/share/doc/kde4/HTML/en/kcontrol/windowbehaviour/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kcontrol/windowbehaviour/index.docbook
+usr/share/doc/kde4/HTML/en/kcontrol/windowspecific/common
+usr/share/doc/kde4/HTML/en/kcontrol/windowspecific/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kcontrol/windowspecific/index.docbook
 usr/share/doc/kde4/HTML/en/klipper/index.cache.bz2
 usr/share/doc/kde4/HTML/en/klipper/index.docbook
 usr/share/doc/kde4/HTML/en/klipper/screenshot.png
