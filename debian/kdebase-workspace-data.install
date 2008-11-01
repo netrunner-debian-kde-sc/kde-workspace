@@ -45,6 +45,9 @@ usr/share/doc/kde4/HTML/en/kcontrol/kcmaccess/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/kcmdisplay/common  
 usr/share/doc/kde4/HTML/en/kcontrol/kcmdisplay/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/kcmdisplay/index.docbook
+usr/share/doc/kde4/HTML/en/kcontrol/kcmsmserver/common
+usr/share/doc/kde4/HTML/en/kcontrol/kcmsmserver/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kcontrol/kcmsmserver/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/kcmstyle/common
 usr/share/doc/kde4/HTML/en/kcontrol/kcmstyle/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/kcmstyle/index.docbook
