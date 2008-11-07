@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt, cmake (>= 2.6.0),
- kdepimlibs5-dev (>= 4:4.1.0), libphonon-dev (>= 4:4.2),
+ kdelibs5-dev (>= 4:4.1.3-2),
  libbluetooth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libcaptury-dev, libdbus-1-dev, libnm-util-dev, network-manager-dev,
  libpam0g-dev, libqimageblitz-dev (>= 1:0.0.4-2), libraw1394-dev, libsensors-dev,
@@ -79,7 +79,8 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-libs4+5 (= ${binary:Version}),
  libkwineffects1 (= ${binary:Version}), libkdecorations4 (= ${binary:Version}),
- libplasma-dev (= ${binary:Version}),  kdepimlibs5-dev (>= 4:4.1.0)
+ libplasma-dev (= ${binary:Version}),
+ ${sameVersionDep:kdelibs5-dev:kdebase-workspace-libs4+5})
 Description: development files for the KDE 4 base workspace module
  This package contains development files for building software that uses
  libraries from the KDE 4 base workspace module.
