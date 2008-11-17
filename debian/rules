@@ -12,6 +12,7 @@ DEB_DH_MAKESHLIBS_ARGS_libplasma2 := -V'libplasma2 (>= 4:4.1.2), $(PLASMA_ABI)'
 DEB_DH_MAKESHLIBS_ARGS_libkwineffects1 := -V'libkwineffects1 (>= 4:4.1.2)'
 
 DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-bin := -- -xksysguard
+DEB_DH_SHLIBDEPS_ARGS_libplasma2 := -- -xkdebase-runtime
 
 binary-install/kdm::
 	install -p -D -m644 debian/kdm-np.pam debian/kdm/etc/pam.d/kdm-np

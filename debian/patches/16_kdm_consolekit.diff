@@ -1,801 +1,329 @@
 --- /dev/null
++++ b/cmake/modules/FindCkConnector.cmake
+@@ -0,0 +1,59 @@
++# - Try to find the ConsoleKit connector library (libck-connector)
++# Once done this will define
++#
++#  CKCONNECTOR_FOUND - system has the CK Connector
++#  CKCONNECTOR_INCLUDE_DIR - the CK Connector include directory
++#  CKCONNECTOR_LIBRARIES - the libraries needed to use CK Connector
++
++# Copyright (c) 2008, Kevin Kofler, <kevin.kofler@chello.at>
++# modeled after FindLibArt.cmake:
++# Copyright (c) 2006, Alexander Neundorf, <neundorf@kde.org>
++#
++# Redistribution and use is allowed according to the terms of the BSD license.
++# For details see the accompanying COPYING-CMAKE-SCRIPTS file.
++
++
++if (CKCONNECTOR_INCLUDE_DIR AND CKCONNECTOR_LIBRARIES)
++
++  # in cache already
++  SET(CKCONNECTOR_FOUND TRUE)
++
++else (CKCONNECTOR_INCLUDE_DIR AND CKCONNECTOR_LIBRARIES)
++
++  IF (NOT WIN32)
++    FIND_PACKAGE(PkgConfig)
++    IF (PKG_CONFIG_FOUND)
++      # use pkg-config to get the directories and then use these values
++      # in the FIND_PATH() and FIND_LIBRARY() calls
++      pkg_check_modules(_CKCONNECTOR_PC ck-connector)
++    ENDIF (PKG_CONFIG_FOUND)
++  ENDIF (NOT WIN32)
++
++  FIND_PATH(CKCONNECTOR_INCLUDE_DIR ck-connector.h
++     ${_CKCONNECTOR_PC_INCLUDE_DIRS}
++  )
++
++  FIND_LIBRARY(CKCONNECTOR_LIBRARIES NAMES ck-connector
++     PATHS
++     ${_CKCONNECTOR_PC_LIBDIR}
++  )
++
++
++  if (CKCONNECTOR_INCLUDE_DIR AND CKCONNECTOR_LIBRARIES)
++     set(CKCONNECTOR_FOUND TRUE)
++  endif (CKCONNECTOR_INCLUDE_DIR AND CKCONNECTOR_LIBRARIES)
++
++
++  if (CKCONNECTOR_FOUND)
++     if (NOT CkConnector_FIND_QUIETLY)
++        message(STATUS "Found ck-connector: ${CKCONNECTOR_LIBRARIES}")
++     endif (NOT CkConnector_FIND_QUIETLY)
++  else (CKCONNECTOR_FOUND)
++     if (CkConnector_FIND_REQUIRED)
++        message(FATAL_ERROR "Could NOT find ck-connector")
++     endif (CkConnector_FIND_REQUIRED)
++  endif (CKCONNECTOR_FOUND)
++
++  MARK_AS_ADVANCED(CKCONNECTOR_INCLUDE_DIR CKCONNECTOR_LIBRARIES)
++
++endif (CKCONNECTOR_INCLUDE_DIR AND CKCONNECTOR_LIBRARIES)
+--- /dev/null
 +++ b/cmake/modules/FindDBus.cmake
-@@ -0,0 +1,39 @@
+@@ -0,0 +1,72 @@
++# - Try to find the low-level D-Bus library
++# Once done this will define
++#
++#  DBUS_FOUND - system has D-Bus
++#  DBUS_INCLUDE_DIR - the D-Bus include directory
++#  DBUS_ARCH_INCLUDE_DIR - the D-Bus architecture-specific include directory
++#  DBUS_LIBRARIES - the libraries needed to use D-Bus
 +
-+if(DBUS_INCLUDE_DIR AND DBUS_LIBRARY AND DBUS_ARCH_INCLUDE_DIR)
-+	# Already in cache, be silent
-+	set(DBUS_FIND_QUIETLY TRUE)	
-+endif(DBUS_INCLUDE_DIR AND DBUS_LIBRARY AND DBUS_ARCH_INCLUDE_DIR)
++# Copyright (c) 2008, Kevin Kofler, <kevin.kofler@chello.at>
++# modeled after FindLibArt.cmake:
++# Copyright (c) 2006, Alexander Neundorf, <neundorf@kde.org>
++#
++# Redistribution and use is allowed according to the terms of the BSD license.
++# For details see the accompanying COPYING-CMAKE-SCRIPTS file.
 +
-+set(DBUS_LIBRARY)
-+set(DBUS_INCLUDE_DIR)
-+set(DBUS_ARCH_INCLUDE_DIR)
++if (DBUS_INCLUDE_DIR AND DBUS_ARCH_INCLUDE_DIR AND DBUS_LIBRARIES)
 +
-+FIND_PATH(DBUS_INCLUDE_DIR dbus/dbus.h
-+	/usr/include
-+	/usr/include/dbus-1.0
-+	/usr/local/include
-+)
++  # in cache already
++  SET(DBUS_FOUND TRUE)
 +
-+FIND_PATH(DBUS_ARCH_INCLUDE_DIR dbus/dbus-arch-deps.h
-+	/usr/lib${LIB_SUFFIX}/include
-+	/usr/lib${LIB_SUFFIX}/dbus-1.0/include
-+	/usr/lib64/include
-+	/usr/lib64/dbus-1.0/include
-+	/usr/lib/include
-+	/usr/lib/dbus-1.0/include
-+)
++else (DBUS_INCLUDE_DIR AND DBUS_ARCH_INCLUDE_DIR AND DBUS_LIBRARIES)
 +
-+FIND_LIBRARY(DBUS_LIBRARY NAMES dbus-1 dbus
-+	PATHS
-+	/usr/lib
-+	/usr/local/lib
-+)
++  IF (NOT WIN32)
++    FIND_PACKAGE(PkgConfig)
++    IF (PKG_CONFIG_FOUND)
++      # use pkg-config to get the directories and then use these values
++      # in the FIND_PATH() and FIND_LIBRARY() calls
++      pkg_check_modules(_DBUS_PC dbus-1)
++    ENDIF (PKG_CONFIG_FOUND)
++  ENDIF (NOT WIN32)
 +
-+if(DBUS_INCLUDE_DIR AND DBUS_LIBRARY AND DBUS_ARCH_INCLUDE_DIR)
-+   MESSAGE( STATUS "dbus found: includes in ${DBUS_INCLUDE_DIR}, library in ${DBUS_LIBRARY}")
-+   set(DBUS_FOUND TRUE)
-+else(DBUS_INCLUDE_DIR AND DBUS_LIBRARY AND DBUS_ARCH_INCLUDE_DIR)
-+   MESSAGE( STATUS "dbus not found")
-+endif(DBUS_INCLUDE_DIR AND DBUS_LIBRARY AND DBUS_ARCH_INCLUDE_DIR)
++  FIND_PATH(DBUS_INCLUDE_DIR dbus/dbus.h
++    ${_DBUS_PC_INCLUDE_DIRS}
++    /usr/include
++    /usr/include/dbus-1.0
++    /usr/local/include
++  )
 +
-+MARK_AS_ADVANCED(DBUS_INCLUDE_DIR DBUS_LIBRARY DBUS_ARCH_INCLUDE_DIR)
++  FIND_PATH(DBUS_ARCH_INCLUDE_DIR dbus/dbus-arch-deps.h
++    ${_DBUS_PC_INCLUDE_DIRS}
++    /usr/lib${LIB_SUFFIX}/include
++    /usr/lib${LIB_SUFFIX}/dbus-1.0/include
++    /usr/lib64/include
++    /usr/lib64/dbus-1.0/include
++    /usr/lib/include
++    /usr/lib/dbus-1.0/include
++  )
++
++  FIND_LIBRARY(DBUS_LIBRARIES NAMES dbus-1 dbus
++    PATHS
++     ${_DBUS_PC_LIBDIR}
++  )
++
++
++  if (DBUS_INCLUDE_DIR AND DBUS_ARCH_INCLUDE_DIR AND DBUS_LIBRARIES)
++     set(DBUS_FOUND TRUE)
++  endif (DBUS_INCLUDE_DIR AND DBUS_ARCH_INCLUDE_DIR AND DBUS_LIBRARIES)
++
++
++  if (DBUS_FOUND)
++     if (NOT DBus_FIND_QUIETLY)
++        message(STATUS "Found D-Bus: ${DBUS_LIBRARIES}")
++     endif (NOT DBus_FIND_QUIETLY)
++  else (DBUS_FOUND)
++     if (DBus_FIND_REQUIRED)
++        message(FATAL_ERROR "Could NOT find D-Bus")
++     endif (DBus_FIND_REQUIRED)
++  endif (DBUS_FOUND)
++
++  MARK_AS_ADVANCED(DBUS_INCLUDE_DIR DBUS_ARCH_INCLUDE_DIR DBUS_LIBRARIES)
++
++endif (DBUS_INCLUDE_DIR AND DBUS_ARCH_INCLUDE_DIR AND DBUS_LIBRARIES)
 --- a/kdm/backend/client.c
 +++ b/kdm/backend/client.c
-@@ -82,6 +82,10 @@
+@@ -77,6 +77,10 @@
+ /* for expiration */
+ # include <time.h>
+ #endif /* USE_PAM || _AIX */
++#ifdef HAVE_CKCONNECTOR
++# include <ck-connector.h>
++# include <dbus/dbus.h>
++#endif
+ #ifdef HAVE_GETSPNAM
+ # include <shadow.h>
  #endif
- #include <signal.h>
+@@ -1149,6 +1153,10 @@
+ static int removeSession;
+ static int removeCreds;
+ #endif
++#ifdef HAVE_CKCONNECTOR
++static const char *ckSessionCookie;
++static CkConnector *connector;
++#endif
  
-+#ifdef WITH_CONSOLE_KIT
-+#include "consolekit.h"
+ static GPipe ctlpipe;
+ static GTalk ctltalk;
+@@ -1198,6 +1206,15 @@
+ 	extern char **newenv; /* from libs.a, this is set up by setpenv */
+ # endif
+ #endif
++#ifdef HAVE_CKCONNECTOR
++	DBusError error;
++	char deviceBuf[20] = "";
++	char *device = deviceBuf;
++	dbus_bool_t isLocal;
++#ifdef XDMCP
++	const char *remoteHostName = "";
++#endif
++#endif
+ 	char *failsafeArgv[2];
+ 	char *buf, *buf2;
+ 	int i;
+@@ -1216,6 +1233,50 @@
+ 	}
+ #endif
+ 
++#ifdef HAVE_CKCONNECTOR
++#ifdef HAVE_VTS
++	if (td->serverVT > 0) {
++		/* FIXME: how does xorg construct this */
++		sprintf( device, "/dev/tty%d", td->serverVT );
++	}	
 +#endif
 +
- /*
-  * Session data, mostly what struct verify_info was for
-  */
-@@ -1179,8 +1183,13 @@
- }
- */
- 
-+#ifdef WITH_CONSOLE_KIT
-+int
-+startClient( volatile int *pid, const char *ck_session_cookie )
-+#else
- int
- startClient( volatile int *pid )
++	connector = ck_connector_new();
++	if (connector) {
++		isLocal = ((td->displayType & d_location) == dLocal);
++#ifdef XDMCP
++		/* ??? td->remoteHost can be NULL even if not local. See
++		   http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=457487 */
++		if (!isLocal && td->remoteHost)
++			remoteHostName = td->remoteHost;
 +#endif
- {
- 	const char *home, *sessargs, *desksess;
- 	char **env, *xma;
-@@ -1269,6 +1278,11 @@
++
++		dbus_error_init( &error );
++		if (!ck_connector_open_session_with_parameters( connector,
++			&error, "unix-user", &(p->pw_uid),
++			"x11-display-device", &device,
++			"x11-display", &(td->name),
++			"is-local", &isLocal,
++#ifdef XDMCP
++			"remote-host-name", &remoteHostName,
++#endif
++			NULL )) {
++			if (dbus_error_is_set( &error )) {
++				logError( "ConsoleKit open: %s\n", error.message );
++				dbus_error_free( &error );
++			} else {
++				logError( "cannot open ConsoleKit session\n" );
++			}
++			ck_connector_unref( connector );
++			V_RET;
++		}
++	} else {
++		debug( "OOM creating CkConnector\n" );
++		V_RET;
++	}
++	ckSessionCookie = ck_connector_get_cookie( connector );
++#endif
++
+ 	strcpy( curuser, p->pw_name ); /* Use normalized login name. */
+ 
+ #ifndef USE_PAM
+@@ -1269,6 +1330,10 @@
  	if (krbtkfile[0] != '\0')
  		env = setEnv( env, "KRBTKFILE", krbtkfile );
  #endif
-+#ifdef WITH_CONSOLE_KIT
-+	if (ck_session_cookie != NULL) {
-+		env = setEnv ( env, "XDG_SESSION_COOKIE", ck_session_cookie );
-+	}
++#ifdef HAVE_CKCONNECTOR
++	if (ckSessionCookie)
++		env = setEnv( env, "XDG_SESSION_COOKIE", ckSessionCookie );
 +#endif
  	userEnviron = inheritEnv( env, envvars );
  	env = systemEnv( 0, curuser );
  	systemEnviron = setEnv( env, "HOME", p->pw_dir );
---- a/kdm/backend/CMakeLists.txt
-+++ b/kdm/backend/CMakeLists.txt
-@@ -1,9 +1,11 @@
-+find_package(DBus REQUIRED)
- set(kdm_SRCS
- 	dm.h
- 	auth.c
- 	bootman.c
- 	client.c
- 	ctrl.c
-+	consolekit.c
- 	daemon.c
- 	dm.c
- 	dpylist.c
-@@ -50,6 +52,7 @@
- macro_add_file_dependencies(error.c ${CMAKE_CURRENT_SOURCE_DIR}/printf.c)
- kde4_add_executable(kdm NOGUI ${kdm_SRCS})
- macro_add_compile_flags(kdm -U_REENTRANT)
-+include_directories(${DBUS_INCLUDE_DIR} ${DBUS_ARCH_INCLUDE_DIR})
- target_link_libraries( kdm
- 	${X11_X11_LIB} ${X11_Xau_LIB} ${X11_Xdmcp_LIB} ${X11_X_EXTRA_LIBS}
- 	${UNIXAUTH_LIBRARIES}
-@@ -59,6 +62,7 @@
- 	${KRB5_LIBRARIES}
- 	${SOCKET_LIBRARIES}
- 	${RESOLV_LIBRARIES}
-+	${DBUS_LIBRARY}
- )
- if(UTIL_LIBRARIES)
- 	target_link_libraries( kdm ${UTIL_LIBRARIES} )
---- /dev/null
-+++ b/kdm/backend/consolekit.c
-@@ -0,0 +1,544 @@
-+/* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*-
-+ *
-+ * Copyright (C) 2006-2007 William Jon McCann <mccann@jhu.edu>
-+ * Copyright (C) 2007 Kevin Kofler <Kevin@tigcc.ticalc.org>
-+ *
-+ * This program is free software; you can redistribute it and/or modify
-+ * it under the terms of the GNU General Public License as published by
-+ * the Free Software Foundation; either version 2 of the License, or
-+ * (at your option) any later version.
-+ *
-+ * This program is distributed in the hope that it will be useful,
-+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
-+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-+ * GNU General Public License for more details.
-+ *
-+ * You should have received a copy of the GNU General Public License
-+ * along with this program; if not, write to the Free Software
-+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
-+ *
-+ */
-+
-+#include "dm.h"
-+#include "dm_auth.h"
-+#include "dm_error.h"
-+
-+#include <stdlib.h>
-+#include <string.h>
-+#include <pwd.h>
-+
-+#define DBUS_API_SUBJECT_TO_CHANGE
-+#include <dbus/dbus.h>
-+
-+#include "consolekit.h"
-+
-+
-+#define CK_NAME              "org.freedesktop.ConsoleKit"
-+#define CK_PATH              "/org/freedesktop/ConsoleKit"
-+#define CK_INTERFACE         "org.freedesktop.ConsoleKit"
-+#define CK_MANAGER_PATH      "/org/freedesktop/ConsoleKit/Manager"
-+#define CK_MANAGER_INTERFACE "org.freedesktop.ConsoleKit.Manager"
-+#define CK_SESSION_INTERFACE "org.freedesktop.ConsoleKit.Session"
-+
-+static DBusConnection *private_connection = NULL;
-+
-+static void
-+add_param_int (DBusMessageIter *iter_struct,
-+	       const char      *key,
-+	       int              value)
-+{
-+	DBusMessageIter iter_struct_entry;
-+	DBusMessageIter iter_var;
-+
-+	dbus_message_iter_open_container (iter_struct,
-+					  DBUS_TYPE_STRUCT,
-+					  NULL,
-+					  &iter_struct_entry);
-+
-+	dbus_message_iter_append_basic (&iter_struct_entry,
-+					DBUS_TYPE_STRING,
-+					&key);
-+
-+	dbus_message_iter_open_container (&iter_struct_entry,
-+					  DBUS_TYPE_VARIANT,
-+					  DBUS_TYPE_INT32_AS_STRING,
-+					  &iter_var);
-+
-+	dbus_message_iter_append_basic (&iter_var,
-+					DBUS_TYPE_INT32,
-+					&value);
-+
-+	dbus_message_iter_close_container (&iter_struct_entry,
-+					   &iter_var);
-+
-+	dbus_message_iter_close_container (iter_struct, &iter_struct_entry);
-+}
-+
-+static void
-+add_param_boolean (DBusMessageIter *iter_struct,
-+		   const char      *key,
-+		   int             value)
-+{
-+	DBusMessageIter iter_struct_entry;
-+	DBusMessageIter iter_var;
-+
-+	dbus_message_iter_open_container (iter_struct,
-+					  DBUS_TYPE_STRUCT,
-+					  NULL,
-+					  &iter_struct_entry);
-+
-+	dbus_message_iter_append_basic (&iter_struct_entry,
-+					DBUS_TYPE_STRING,
-+					&key);
-+
-+	dbus_message_iter_open_container (&iter_struct_entry,
-+					  DBUS_TYPE_VARIANT,
-+					  DBUS_TYPE_BOOLEAN_AS_STRING,
-+					  &iter_var);
-+
-+	dbus_message_iter_append_basic (&iter_var,
-+					DBUS_TYPE_BOOLEAN,
-+					&value);
-+
-+	dbus_message_iter_close_container (&iter_struct_entry,
-+					   &iter_var);
-+
-+	dbus_message_iter_close_container (iter_struct, &iter_struct_entry);
-+}
-+
-+static void
-+add_param_string (DBusMessageIter *iter_struct,
-+		  const char      *key,
-+		  const char      *value)
-+{
-+	DBusMessageIter iter_struct_entry;
-+	DBusMessageIter iter_var;
-+
-+	dbus_message_iter_open_container (iter_struct,
-+					  DBUS_TYPE_STRUCT,
-+					  NULL,
-+					  &iter_struct_entry);
-+
-+	dbus_message_iter_append_basic (&iter_struct_entry,
-+					DBUS_TYPE_STRING,
-+					&key);
-+
-+	dbus_message_iter_open_container (&iter_struct_entry,
-+					  DBUS_TYPE_VARIANT,
-+					  DBUS_TYPE_STRING_AS_STRING,
-+					  &iter_var);
-+
-+	dbus_message_iter_append_basic (&iter_var,
-+					DBUS_TYPE_STRING,
-+					&value);
-+
-+	dbus_message_iter_close_container (&iter_struct_entry,
-+					   &iter_var);
-+
-+	dbus_message_iter_close_container (iter_struct, &iter_struct_entry);
-+}
-+
-+static int
-+session_get_x11_display (DBusConnection *connection,
-+			 const char     *ssid,
-+			 char          **str)
-+{
-+	DBusError       error;
-+	DBusMessage    *message;
-+	DBusMessage    *reply;
-+	DBusMessageIter iter;
-+	const char     *value;
-+
-+	if (str != NULL) {
-+		*str = NULL;
-+	}
-+
-+	message = dbus_message_new_method_call (CK_NAME,
-+						ssid,
-+						CK_SESSION_INTERFACE,
-+						"GetX11Display");
-+	if (message == NULL) {
-+		debug ("ConsoleKit: Couldn't allocate the D-Bus message");
-+		return FALSE;
-+	}
-+
-+	dbus_error_init (&error);
-+	reply = dbus_connection_send_with_reply_and_block (connection,
-+							   message,
-+							   -1, &error);
-+	if (dbus_error_is_set (&error)) {
-+		debug ("ConsoleKit: %s raised:\n %s\n\n", error.name, error.message);
-+		reply = NULL;
-+	}
-+
-+	dbus_connection_flush (connection);
-+	dbus_message_unref (message);
-+
-+	if (reply == NULL) {
-+		return FALSE;
-+	}
-+
-+	dbus_message_iter_init (reply, &iter);
-+	dbus_message_iter_get_basic (&iter, &value);
-+	if (str != NULL) {
-+		*str = strdup (value);
-+	}
-+	dbus_message_unref (reply);
-+
-+	return TRUE;
-+}
-+
-+static int
-+session_unlock (DBusConnection *connection,
-+		const char     *ssid)
-+{
-+	DBusError       error;
-+	DBusMessage    *message;
-+	DBusMessage    *reply;
-+
-+	debug ("ConsoleKit: Unlocking session %s", ssid);
-+	message = dbus_message_new_method_call (CK_NAME,
-+						ssid,
-+						CK_SESSION_INTERFACE,
-+						"Unlock");
-+	if (message == NULL) {
-+		debug ("ConsoleKit: Couldn't allocate the D-Bus message");
-+		return FALSE;
-+	}
-+
-+	dbus_error_init (&error);
-+	reply = dbus_connection_send_with_reply_and_block (connection,
-+							   message,
-+							   -1, &error);
-+	dbus_message_unref (message);
-+	dbus_message_unref (reply);
-+	dbus_connection_flush (connection);
-+
-+	if (dbus_error_is_set (&error)) {
-+		debug ("ConsoleKit: %s raised:\n %s\n\n", error.name, error.message);
-+		return FALSE;
-+	}
-+
-+	return TRUE;
-+}
-+
-+/* from libhal */
-+static char **
-+get_path_array_from_iter (DBusMessageIter *iter,
-+			  int             *num_elements)
-+{
-+	int count;
-+	char **buffer;
-+
-+	count = 0;
-+	buffer = (char **)malloc (sizeof (char *) * 8);
-+
-+	if (buffer == NULL)
-+		goto oom;
-+
-+	buffer[0] = NULL;
-+	while (dbus_message_iter_get_arg_type (iter) == DBUS_TYPE_OBJECT_PATH) {
-+		const char *value;
-+		char *str;
-+
-+		if ((count % 8) == 0 && count != 0) {
-+			buffer = realloc (buffer, sizeof (char *) * (count + 8));
-+			if (buffer == NULL)
-+				goto oom;
-+		}
-+
-+		dbus_message_iter_get_basic (iter, &value);
-+		str = strdup (value);
-+		if (str == NULL)
-+			goto oom;
-+
-+		buffer[count] = str;
-+
-+		dbus_message_iter_next (iter);
-+		count++;
-+	}
-+
-+	if ((count % 8) == 0) {
-+		buffer = realloc (buffer, sizeof (char *) * (count + 1));
-+		if (buffer == NULL)
-+			goto oom;
-+	}
-+
-+	buffer[count] = NULL;
-+	if (num_elements != NULL)
-+		*num_elements = count;
-+	return buffer;
-+
-+oom:
-+	logWarn ("%s %d : error allocating memory\n", __FILE__, __LINE__);
-+	return NULL;
-+
-+}
-+
-+static char **
-+get_sessions_for_user (DBusConnection *connection,
-+		       const char     *user,
-+		       const char     *x11_display)
-+{
-+	DBusError       error;
-+	DBusMessage    *message;
-+	DBusMessage    *reply;
-+	DBusMessageIter iter;
-+	DBusMessageIter iter_reply;
-+	DBusMessageIter iter_array;
-+	struct passwd	*pwent;
-+	char           **sessions;
-+
-+	sessions = NULL;
-+	message = NULL;
-+	reply = NULL;
-+
-+	pwent = getpwnam (user);
-+
-+	dbus_error_init (&error);
-+	message = dbus_message_new_method_call (CK_NAME,
-+						CK_MANAGER_PATH,
-+						CK_MANAGER_INTERFACE,
-+						"GetSessionsForUser");
-+	if (message == NULL) {
-+		debug ("ConsoleKit: Couldn't allocate the D-Bus message");
-+		goto out;
-+	}
-+
-+	dbus_message_iter_init_append (message, &iter);
-+	dbus_message_iter_append_basic (&iter,
-+					DBUS_TYPE_UINT32,
-+					&pwent->pw_uid);
-+
-+	dbus_error_init (&error);
-+	reply = dbus_connection_send_with_reply_and_block (connection,
-+							   message,
-+							   -1, &error);
-+	dbus_connection_flush (connection);
-+
-+	if (dbus_error_is_set (&error)) {
-+		debug ("ConsoleKit: %s raised:\n %s\n\n", error.name, error.message);
-+		goto out;
-+	}
-+
-+	if (reply == NULL) {
-+		debug ("ConsoleKit: No reply for GetSessionsForUser");
-+		goto out;
-+	}
-+
-+	dbus_message_iter_init (reply, &iter_reply);
-+	if (dbus_message_iter_get_arg_type (&iter_reply) != DBUS_TYPE_ARRAY) {
-+		debug ("ConsoleKit: Wrong reply for GetSessionsForUser - expecting an array.");
-+		goto out;
-+	}
-+
-+	dbus_message_iter_recurse (&iter_reply, &iter_array);
-+	sessions = get_path_array_from_iter (&iter_array, NULL);
-+
-+ out:
-+	if (message != NULL) {
-+		dbus_message_unref (message);
-+	}
-+	if (reply != NULL) {
-+		dbus_message_unref (reply);
-+	}
-+
-+	return sessions;
-+}
-+
-+void
-+unlock_ck_session (const char *user,
-+		   const char *x11_display)
-+{
-+	DBusError       error;
-+	DBusConnection *connection;
-+	char           **sessions;
-+	int              i;
-+
-+	debug ("ConsoleKit: Unlocking session for %s on %s", user, x11_display);
-+
-+	dbus_error_init (&error);
-+	connection = dbus_bus_get (DBUS_BUS_SYSTEM, &error);
-+	if (connection == NULL) {
-+		debug ("ConsoleKit: Failed to connect to the D-Bus daemon: %s", error.message);
-+		dbus_error_free (&error);
-+		return;
-+	}
-+
-+	sessions = get_sessions_for_user (connection, user, x11_display);
-+	if (sessions == NULL || sessions[0] == NULL) {
-+		debug ("ConsoleKit: no sessions found");
-+		return;
-+	}
-+
-+	for (i = 0; sessions[i] != NULL; i++) {
-+		char *ssid;
-+		char *xdisplay;
-+
-+		ssid = sessions[i];
-+		session_get_x11_display (connection, ssid, &xdisplay);
-+		debug ("ConsoleKit: session %s has DISPLAY %s", ssid, xdisplay);
-+
-+		if (xdisplay != NULL
-+		    && x11_display != NULL
-+		    && strcmp (xdisplay, x11_display) == 0) {
-+			int res;
-+
-+			res = session_unlock (connection, ssid);
-+			if (! res) {
-+				logError ("ConsoleKit: Unable to unlock %s", ssid);
+@@ -1685,6 +1750,9 @@
+ #ifdef USE_PAM
+ 	int pretc;
+ #endif
++#ifdef HAVE_CKCONNECTOR
++	DBusError error;
++#endif
+ 
+ 	if (removeAuth) {
+ 		switch (source( systemEnviron, td->reset, td_setup )) {
+@@ -1759,6 +1827,23 @@
+ 		pamh = 0;
+ 	}
+ #endif
++
++#ifdef HAVE_CKCONNECTOR
++	/* close ConsoleKit session */
++	if (ckSessionCookie) {
++		dbus_error_init( &error );
++		if (!ck_connector_close_session( connector, &error )) {
++			if (dbus_error_is_set( &error )) {
++				logError( "ConsoleKit close: %s\n", error.message );
++				dbus_error_free( &error );
++			} else {
++				logError( "cannot close ConsoleKit session\n" );
 +			}
 +		}
-+
-+		free (xdisplay);
-+	}
-+
-+	freeStrArr (sessions);
-+}
-+
-+char *
-+open_ck_session (struct passwd *pwent,
-+		 struct display *d)
-+{
-+	DBusConnection *connection;
-+	DBusError       error;
-+	DBusMessage    *message;
-+	DBusMessage    *reply;
-+	DBusMessageIter iter;
-+	DBusMessageIter iter_struct;
-+	char	       *cookie;
-+
-+	cookie = NULL;
-+
-+	if (pwent == NULL) {
-+		debug ("ConsoleKit: NULL user passed as parameter");
-+		return NULL;
-+	}
-+
-+	debug ("ConsoleKit: Opening session for %s", pwent->pw_name);
-+
-+	dbus_error_init (&error);
-+	connection = dbus_bus_get_private (DBUS_BUS_SYSTEM, &error);
-+	private_connection = connection;
-+
-+	if (connection == NULL) {
-+		debug ("ConsoleKit: Failed to connect to the D-Bus daemon: %s", error.message);
-+		dbus_error_free (&error);
-+		return NULL;
-+	}
-+
-+	dbus_connection_set_exit_on_disconnect (connection, FALSE);
-+	/* No mainloop integration needed for D-Bus because only blocking calls are used. */
-+
-+	dbus_error_init (&error);
-+	message = dbus_message_new_method_call (CK_NAME,
-+						CK_MANAGER_PATH,
-+						CK_MANAGER_INTERFACE,
-+						"OpenSessionWithParameters");
-+	if (message == NULL) {
-+		debug ("ConsoleKit: Couldn't allocate the D-Bus message");
-+		return NULL;
-+	}
-+
-+	dbus_message_iter_init_append (message, &iter);
-+	dbus_message_iter_open_container (&iter,
-+					  DBUS_TYPE_ARRAY,
-+					  DBUS_STRUCT_BEGIN_CHAR_AS_STRING
-+					  DBUS_TYPE_STRING_AS_STRING
-+					  DBUS_TYPE_VARIANT_AS_STRING
-+					  DBUS_STRUCT_END_CHAR_AS_STRING,
-+					  &iter_struct);
-+
-+	add_param_int (&iter_struct, "user", pwent->pw_uid);
-+	add_param_string (&iter_struct, "x11-display", d->name);
-+	add_param_boolean (&iter_struct, "is-local", ((d->displayType & d_location) == dLocal));
-+#ifdef XDMCP
-+	if ((d->displayType & d_location) != dLocal && d->remoteHost) {
-+		add_param_string (&iter_struct, "remote-host-name", d->remoteHost);
++		ck_connector_unref( connector );
++		ckSessionCookie = NULL;
 +	}
 +#endif
-+
-+#ifdef HAVE_VTS
-+	if (d->serverVT > 0) {
-+		char device[20];
-+
-+		/* FIXME: how does xorg construct this */
-+		sprintf(device, "/dev/tty%d", d->serverVT);
-+		add_param_string (&iter_struct, "x11-display-device", device);
-+	}
-+#endif
-+
-+	dbus_message_iter_close_container (&iter, &iter_struct);
-+
-+	reply = dbus_connection_send_with_reply_and_block (connection,
-+							   message,
-+							   -1, &error);
-+	if (dbus_error_is_set (&error)) {
-+		debug ("ConsoleKit: %s raised:\n %s\n\n", error.name, error.message);
-+		reply = NULL;
-+	}
-+
-+	dbus_connection_flush (connection);
-+
-+	dbus_message_unref (message);
-+	dbus_error_free (&error);
-+
-+	if (reply != NULL) {
-+		const char *value;
-+
-+		dbus_message_iter_init (reply, &iter);
-+		dbus_message_iter_get_basic (&iter, &value);
-+		cookie = strdup (value);
-+		dbus_message_unref (reply);
-+	}
-+
-+	return cookie;
-+}
-+
-+void
-+close_ck_session (const char *cookie)
-+{
-+	DBusError       error;
-+	DBusMessage    *message;
-+	DBusMessage    *reply;
-+	DBusMessageIter iter;
-+
-+	if (cookie == NULL) {
-+		return;
-+	}
-+
-+	if (private_connection == NULL) {
-+		return;
-+	}
-+
-+	dbus_error_init (&error);
-+	message = dbus_message_new_method_call (CK_NAME,
-+						CK_MANAGER_PATH,
-+						CK_MANAGER_INTERFACE,
-+						"CloseSession");
-+	if (message == NULL) {
-+		debug ("ConsoleKit: Couldn't allocate the D-Bus message");
-+		return;
-+	}
-+
-+	dbus_message_iter_init_append (message, &iter);
-+	dbus_message_iter_append_basic (&iter,
-+					DBUS_TYPE_STRING,
-+					&cookie);
-+
-+	reply = dbus_connection_send_with_reply_and_block (private_connection,
-+							   message,
-+							   -1, &error);
-+	if (dbus_error_is_set (&error)) {
-+		debug ("ConsoleKit: %s raised:\n %s\n\n", error.name, error.message);
-+		reply = NULL;
-+	}
-+
-+	dbus_connection_flush (private_connection);
-+
-+	dbus_message_unref (message);
-+	dbus_error_free (&error);
-+
-+        dbus_connection_close (private_connection);
-+	private_connection = NULL;
-+}
---- /dev/null
-+++ b/kdm/backend/consolekit.h
-@@ -0,0 +1,36 @@
-+/* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*-
-+ *
-+ * Copyright (C) 2006 William Jon McCann <mccann@jhu.edu>
-+ * Copyright (C) 2007 Kevin Kofler <Kevin@tigcc.ticalc.org>
-+ *
-+ * This program is free software; you can redistribute it and/or modify
-+ * it under the terms of the GNU General Public License as published by
-+ * the Free Software Foundation; either version 2 of the License, or
-+ * (at your option) any later version.
-+ *
-+ * This program is distributed in the hope that it will be useful,
-+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
-+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-+ * GNU General Public License for more details.
-+ *
-+ * You should have received a copy of the GNU General Public License
-+ * along with this program; if not, write to the Free Software
-+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
-+ *
-+ */
-+
-+
-+#ifndef __CONSOLE_KIT_H
-+#define __CONSOLE_KIT_H
-+
-+#include <pwd.h>
-+
-+struct display;
-+
-+char *      open_ck_session       (struct passwd *pwent,
-+                                   struct display *display);
-+void        close_ck_session      (const char    *cookie);
-+void        unlock_ck_session     (const char    *user,
-+                                   const char    *x11_display);
-+
-+#endif /* __CONSOLE_KIT_H */
---- a/kdm/backend/dm.h
-+++ b/kdm/backend/dm.h
-@@ -37,6 +37,8 @@
- #ifndef _DM_H_
- #define _DM_H_ 1
+ }
  
-+#define WITH_CONSOLE_KIT
-+
- #include "greet.h"
- 
- #define WANT_CORE_DECLS
-@@ -504,7 +506,11 @@
- #define GCONV_BINARY  5
- typedef char *(*GConvFunc)( int what, const char *prompt );
- int verify( GConvFunc gconv, int rootok );
-+#ifdef WITH_CONSOLE_KIT
-+int startClient( volatile int *pid,  const char *ck_session_cookie );
-+#else
- int startClient( volatile int *pid );
-+#endif
- void clientExited( void );
- void sessionExit( int status ) ATTR_NORETURN;
- int readDmrc( void );
---- a/kdm/backend/Imakefile
-+++ b/kdm/backend/Imakefile
-@@ -155,13 +155,13 @@
- 		 netaddr.c reset.c resource.c protodpy.c policy.c \
- 		 session.c socket.c streams.c util.c xdmcp.c \
- 		 process.c mitauth.c \
--		 genauth.c access.c choose.c \
-+		 genauth.c access.c choose.c consolekit.c \
- 		 $(XDMAUTHSRCS) $(RPCSRCS) $(KRB5SRCS)
-       COMMOBJS = auth.o daemon.o server.o dpylist.o dm.o error.o \
- 		 netaddr.o reset.o resource.o protodpy.o policy.o \
- 		 session.o socket.o streams.o util.o xdmcp.o \
- 		 process.o mitauth.o \
--		 genauth.o access.o choose.o \
-+		 genauth.o access.o choose.o consolekit.o \
- 		 $(XDMAUTHOBJS) $(RPCOBJS) $(KRB5OBJS)
- 
-          SRCS1 = $(COMMSRCS) client.c
---- a/kdm/backend/session.c
-+++ b/kdm/backend/session.c
-@@ -45,6 +45,10 @@
- #include <ctype.h>
- #include <signal.h>
- 
-+#ifdef WITH_CONSOLE_KIT
-+#include "consolekit.h"
-+#endif
-+
- struct display *td;
- const char *td_setup = "auto";
- 
-@@ -552,6 +556,10 @@
- 	volatile int clientPid = -1;
- 	volatile time_t tdiff = 0;
- 	sigset_t ss;
-+#ifdef WITH_CONSOLE_KIT
-+	char *ck_session_cookie;
-+#endif
-+
- 
- 	td = d;
- 	debug( "manageSession %s\n", d->name );
-@@ -628,7 +636,12 @@
- 	if (td_setup)
- 		setupDisplay( td_setup );
- 
-+#ifdef WITH_CONSOLE_KIT
-+	ck_session_cookie = open_ck_session (getpwnam(curuser), d);
-+	if (!startClient( &clientPid, ck_session_cookie )) {
-+#else
- 	if (!startClient( &clientPid )) {
-+#endif
- 		logError( "Client start failed\n" );
- 		sessionExit( EX_NORMAL ); /* XXX maybe EX_REMANAGE_DPY? -- enable in dm.c! */
- 	}
-@@ -650,6 +663,14 @@
- 				catchTerm( SIGTERM );
- 		}
- 	}
-+
-+#ifdef WITH_CONSOLE_KIT
-+	if (ck_session_cookie != NULL) {
-+		close_ck_session (ck_session_cookie);
-+		free (ck_session_cookie);
-+	}
-+#endif
-+
- 	/*
- 	 * Sometimes the Xsession somehow manages to exit before
- 	 * a server crash is noticed - so we sleep a bit and wait
+ void
+--- a/kdm/backend/CMakeLists.txt
++++ b/kdm/backend/CMakeLists.txt
+@@ -60,6 +60,10 @@
+ 	${SOCKET_LIBRARIES}
+ 	${RESOLV_LIBRARIES}
+ )
++if (CKCONNECTOR_FOUND)
++	include_directories(${CKCONNECTOR_INCLUDE_DIR} ${DBUS_INCLUDE_DIR} ${DBUS_ARCH_INCLUDE_DIR})
++	target_link_libraries( kdm ${CKCONNECTOR_LIBRARIES} ${DBUS_LIBRARIES} )
++endif (CKCONNECTOR_FOUND)
+ if(UTIL_LIBRARIES)
+ 	target_link_libraries( kdm ${UTIL_LIBRARIES} )
+ endif(UTIL_LIBRARIES)
 --- a/kdm/backend/xdmcp.c
 +++ b/kdm/backend/xdmcp.c
 @@ -1016,6 +1016,8 @@
  			d->clientAddr = clientAddress;
  			d->clientPort = clientPort;
  			d->connectionType = connectionType;
-+			d->remoteHost = networkAddressToHostname (pdpy->connectionType,
-+			                             &pdpy->connectionAddress);
++			d->remoteHost = networkAddressToHostname( pdpy->connectionType,
++				&pdpy->connectionAddress );
  			if (pdpy->fileAuthorization) {
  				d->authorizations = (Xauth **)Malloc( sizeof(Xauth *) );
  				if (!d->authorizations) {
+--- a/kdm/CMakeLists.txt
++++ b/kdm/CMakeLists.txt
+@@ -4,6 +4,17 @@
+ install_pam_service(KDM)
+ 
+ include(ConfigureChecks.cmake)
++
++macro_optional_find_package(CkConnector)
++if(CKCONNECTOR_FOUND)
++  # when building with libck-connector, we also need the low-level D-Bus API
++  find_package(DBus REQUIRED)
++endif(CKCONNECTOR_FOUND)
++
++macro_log_feature(CKCONNECTOR_FOUND "ck-connector" "The ConsoleKit connector library" "http://freedesktop.org/wiki/Software/ConsoleKit" FALSE "" "Provides ConsoleKit integration in KDM")
++
++macro_bool_to_01(CKCONNECTOR_FOUND HAVE_CKCONNECTOR)
++
+ configure_file(config-kdm.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-kdm.h)
+ 
+ install( FILES README DESTINATION ${DATA_INSTALL_DIR}/doc/kdm )
+--- a/kdm/config-kdm.h.cmake
++++ b/kdm/config-kdm.h.cmake
+@@ -123,6 +123,9 @@
+ /* Define to 1 if you have the <termios.h> header file. */
+ #cmakedefine HAVE_TERMIOS_H 1
+ 
++/* Define to 1 if the ck-connector library is found */
++#cmakedefine HAVE_CKCONNECTOR 1
++
+ /* $PATH defaults set by KDM */
+ #cmakedefine KDM_DEF_USER_PATH "${KDM_DEF_USER_PATH}"
+ #cmakedefine KDM_DEF_SYSTEM_PATH "${KDM_DEF_SYSTEM_PATH}"
