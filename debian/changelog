@@ -21,8 +21,9 @@ kdebase-workspace (4:4.1.73+svn886439-0r1) UNRELEASED; urgency=low
     - Add new files
     - Move many files around mostly from kdebase-workspace-data to their
       real packages. As a result, add many replaces.
+  * kdm must depend on consolekit. Otherwise, it does not start any session.
 
- -- Modestas Vainius <modestas@vainius.eu>  Wed, 19 Nov 2008 15:09:01 +0200
+ -- Modestas Vainius <modestas@vainius.eu>  Wed, 19 Nov 2008 16:29:52 +0200
 
 kdebase-workspace (4:4.1.3-2) experimental; urgency=low
 
