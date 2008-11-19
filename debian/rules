@@ -5,17 +5,10 @@ include debian/cdbs/kde.mk
 #DEB_CMAKE_EXTRA_FLAGS += \
 #	-DINSTALL_PRINTER_APPLET=TRUE
 
-PLASMA_ABI=plasma-abi-4.1-1
-
 DEB_CMAKE_EXTRA_FLAGS += -DKDE4_KDM_PAM_SERVICE=kdm
-DEB_DH_MAKESHLIBS_ARGS_libplasma2 := -V'libplasma2 (>= 4:4.1.2), $(PLASMA_ABI)'
-DEB_DH_MAKESHLIBS_ARGS_libkwineffects1 := -V'libkwineffects1 (>= 4:4.1.2)'
+DEB_DH_MAKESHLIBS_ARGS_libkwineffects1 := -V'libkwineffects1 (>= 4:4.1.73)'
 
 DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-bin := -- -xksysguard
-DEB_DH_SHLIBDEPS_ARGS_libplasma2 := -- -xkdebase-runtime
 
 binary-install/kdm::
 	install -p -D -m644 debian/kdm-np.pam debian/kdm/etc/pam.d/kdm-np
-
-binary-predeb/libplasma2::
-	echo plasma:abi-provides=$(PLASMA_ABI) >> debian/libplasma2.substvars

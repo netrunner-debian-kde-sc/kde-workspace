@@ -4,10 +4,10 @@ usr/lib/kde4/kcm_colors.so
 usr/lib/kde4/kcm_fonts.so
 usr/lib/kde4/kcm_style.so
 usr/share/applications/kde4/systemsettings.desktop
+usr/share/doc/kde4/HTML/en/systemsettings/common
+usr/share/doc/kde4/HTML/en/systemsettings/index.cache.bz2
+usr/share/doc/kde4/HTML/en/systemsettings/index.docbook
 usr/share/kde4/apps/systemsettings/systemsettingsui.rc
-usr/share/kde4/services/ion-bbcukmet.desktop
-usr/share/kde4/services/ion-envcan.desktop
-usr/share/kde4/services/ion-noaa.desktop
 usr/share/kde4/services/settings-about-me.desktop
 usr/share/kde4/services/settings-accessibility.desktop
 usr/share/kde4/services/settings-advanced-user-settings.desktop

@@ -1,2 +1,4 @@
-# nvidia hack is missing on purpose
-missing dst:usr/lib/libkwinnvidiahack.so
+depends last
+
+skip dst:usr/lib/libkdeinit4_
+dst:usr/lib/lib[^/]+\.so\.

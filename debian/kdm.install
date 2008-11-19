@@ -11,7 +11,9 @@ etc/kde4/kdm/kdmrc
 usr/bin/genkdmconf
 usr/bin/kdm
 usr/bin/kdmctl
+usr/lib/kde4/kcm_kdm.so
 usr/lib/kde4/kgreet_classic.so
+usr/lib/kde4/kgreet_generic.so
 usr/lib/kde4/kgreet_winbind.so
 usr/lib/kde4/libexec/kdm_config
 usr/lib/kde4/libexec/kdm_greet
@@ -23,6 +25,8 @@ usr/share/doc/kde4/HTML/en/kdm/kdmrc-ref.docbook
 usr/share/doc/kde4/HTML/en/kdm/theme-ref.docbook
 usr/share/kde4/apps/doc/kdm/README
 usr/share/kde4/apps/doc/kdm/greeter.dtd
+usr/share/kde4/apps/kcontrol/pics/anchor.png
+usr/share/kde4/apps/kcontrol/pics/monitor.png
 usr/share/kde4/apps/kdm/patterns/fish.desktop
 usr/share/kde4/apps/kdm/patterns/fish.png
 usr/share/kde4/apps/kdm/patterns/flowers.desktop
@@ -69,6 +73,7 @@ usr/share/kde4/apps/kdm/sessions/golem.desktop
 usr/share/kde4/apps/kdm/sessions/icewm.desktop
 usr/share/kde4/apps/kdm/sessions/ion.desktop
 usr/share/kde4/apps/kdm/sessions/kde-safe.desktop
+usr/share/kde4/apps/kdm/sessions/kde.desktop
 usr/share/kde4/apps/kdm/sessions/larswm.desktop
 usr/share/kde4/apps/kdm/sessions/lwm.desktop
 usr/share/kde4/apps/kdm/sessions/matchbox.desktop
@@ -109,5 +114,8 @@ usr/share/kde4/apps/kdm/themes/oxygen/oxygen.xml
 usr/share/kde4/apps/kdm/themes/oxygen/screenshot.png
 usr/share/kde4/apps/kdm/themes/oxygen/session.png
 usr/share/kde4/apps/kdm/themes/oxygen/system.png
+usr/share/kde4/config/background.knsrc
 usr/share/kde4/config/kdm.knsrc
 usr/share/kde4/services/kdm.desktop
+usr/share/wallpapers/default_blue.jpg
+usr/share/wallpapers/default_blue.jpg.desktop

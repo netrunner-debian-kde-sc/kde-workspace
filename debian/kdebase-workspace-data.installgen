@@ -1,0 +1,8 @@
+depends last
+
+skip dst:usr/bin
+missing dst:icons/Oxygen_
+
+dst:usr/share
+mime:text/.*
+mime:image/.*

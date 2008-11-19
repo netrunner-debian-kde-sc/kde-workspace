@@ -32,7 +32,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
 --- a/kcontrol/kdm/main.cpp
 +++ b/kcontrol/kdm/main.cpp
 @@ -187,8 +187,8 @@
- 	for (tgmapci = tgmap.begin(); tgmapci != tgmap.end(); ++tgmapci)
+ 	for (tgmapci = tgmap.constBegin(); tgmapci != tgmap.constEnd(); ++tgmapci)
  		kWarning() << "user(s) '" << tgmapci.value().join( "," )
  		<< "' have unknown GID " << tgmapci.key() << endl;
 -

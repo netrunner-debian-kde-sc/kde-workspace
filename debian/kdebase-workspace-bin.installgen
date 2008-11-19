@@ -1,0 +1,5 @@
+depends last
+
+dst:usr/bin
+mime:application/x-executable
+mime:application/x-sharedlib
