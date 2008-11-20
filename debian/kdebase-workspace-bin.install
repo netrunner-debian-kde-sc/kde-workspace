@@ -151,6 +151,5 @@ usr/lib/libkdeinit4_ksmserver.so
 usr/lib/libkdeinit4_kxkb.so
 usr/lib/libkdeinit4_plasma-mid.so
 usr/lib/libkdeinit4_plasma.so
-usr/lib/libkephal.so
 usr/lib/libplasma_applet-system-monitor.so
 usr/lib/strigi/strigita_font.so

@@ -96,6 +96,7 @@ usr/include/taskmanager/taskmanager_export.h
 usr/lib/kde4/plugins/designer/ksysguardlsofwidgets.so
 usr/lib/kde4/plugins/designer/ksysguardwidgets.so
 usr/lib/libkdecorations.so
+usr/lib/libkephal.so
 usr/lib/libkfontinst.so
 usr/lib/libkfontinstui.so
 usr/lib/libkhotkeysprivate.so
@@ -113,7 +114,6 @@ usr/lib/libsolidcontrol.so
 usr/lib/libsolidcontrolifaces.so
 usr/lib/libtaskmanager.so
 usr/lib/libweather_ion.so
-usr/share/apps/cmake/modules/FindKephal.cmake
 usr/share/dbus-1/interfaces/org.freedesktop.ScreenSaver.xml
 usr/share/dbus-1/interfaces/org.kde.KSMServerInterface.xml
 usr/share/dbus-1/interfaces/org.kde.KWin.xml
@@ -124,6 +124,7 @@ usr/share/dbus-1/interfaces/org.kde.screensaver.xml
 usr/share/kde4/apps/cmake/modules/FindCkConnector.cmake
 usr/share/kde4/apps/cmake/modules/FindDBus.cmake
 usr/share/kde4/apps/cmake/modules/FindGooglegadgets.cmake
+usr/share/kde4/apps/cmake/modules/FindKephal.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXKlavier.cmake
 usr/share/kde4/apps/cmake/modules/FindPAM.cmake
 usr/share/kde4/apps/cmake/modules/FindQEdje.cmake
