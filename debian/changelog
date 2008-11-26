@@ -1,3 +1,16 @@
+kdebase-workspace (4:4.1.3-3~lenny+3) lenny; urgency=low
+
+  * Drop support for consolekit.
+  * Do not install FindDBus.cmake. I don't have a clue why it is gone.
+
+ -- Modestas Vainius <modestas@vainius.eu>  Tue, 25 Nov 2008 20:49:40 +0200
+
+kdebase-workspace (4:4.1.3-3~lenny+2) lenny; urgency=low
+
+  * Add Depend on consolekit. 
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 20 Nov 2008 16:48:34 +0100
+
 kdebase-workspace (4:4.1.3-3~lenny+1) lenny; urgency=low
 
   * Backport for Lenny.

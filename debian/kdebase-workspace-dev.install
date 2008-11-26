@@ -77,7 +77,6 @@ usr/lib/libsolidcontrol.so
 usr/lib/libsolidcontrolifaces.so
 usr/lib/libtaskmanager.so
 usr/lib/libweather_ion.so
-usr/share/kde4/apps/cmake/modules/FindDBus.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXKlavier.cmake
 usr/share/kde4/apps/cmake/modules/FindPAM.cmake
 usr/share/kde4/apps/cmake/modules/FindSensors.cmake
