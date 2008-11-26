@@ -1,3 +1,0 @@
-skip:icons/.*/ksysguardd\.
-from:ksysguardd
-dst:ksysguardd

@@ -124,7 +124,6 @@ Package: ksysguardd
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}
-Replaces: kdebase-workspace-data (<< 4:4.1.73)
 Description: System Guard Daemon for KDE 4
  KDE System Guard Daemon can be installed on a remote system so that the KDE
  System Guard can connect to and monitor it.

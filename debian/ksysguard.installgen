@@ -1,5 +1,0 @@
-depends ksysguardd
-
-# Do not install ksysguard libraries here
-skip dst:usr/lib/lib.*\.so\.
-from:ksysguard

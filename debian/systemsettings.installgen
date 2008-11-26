@@ -1,2 +1,0 @@
-dst:usr/lib/kde4/kcm_(colors|fonts|style)\.so$
-from:systemsettings

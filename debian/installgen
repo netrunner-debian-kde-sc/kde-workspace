@@ -1,0 +1,58 @@
+[kdebase-workspace-dev]
+# missing on purpose
+missing dst:usr/lib/libkwinnvidiahack.so$
+
+dst:usr/include
+dst:usr/lib/.*\.so$ link:usr/lib/.*\.so[.\d]+$
+dst:apps/cmake
+dst:dbus-\d+/interfaces
+dst:plugins/designer
+
+[libkdecorations4]
+dst:usr/lib/libkdecorations\.so\.
+
+[libkwineffects1]
+dst:usr/lib/libkwineffects\.so\.
+
+[kde-window-manager]
+from:kwin
+dst:kwin
+
+[kdm]
+from:kdm
+dst:kdm
+
+[klipper]
+from:klipper
+dst:klipper
+
+[ksysguardd]
+# to kdebase-workspace-data
+skip dst:icons/.*/ksysguardd\.
+from:ksysguardd
+dst:ksysguardd
+
+[ksysguard]
+# Do not install ksysguard libraries here
+skip dst:usr/lib/lib.*\.so\.
+from:ksysguard
+
+[systemsettings]
+dst:usr/lib/kde4/kcm_(colors|fonts|style)\.so$
+from:systemsettings
+
+[kdebase-workspace-libs4+5]
+skip dst:usr/lib/libkdeinit4_
+dst:usr/lib/lib[^/]+\.so\.
+
+[kdebase-workspace-bin]
+dst:usr/bin
+mime:application/x-executable
+mime:application/x-sharedlib
+
+[kdebase-workspace-data]
+skip dst:usr/bin
+missing dst:icons/Oxygen_
+dst:usr/share
+mime:text/.*
+mime:image/.*
