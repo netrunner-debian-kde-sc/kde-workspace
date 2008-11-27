@@ -196,7 +196,7 @@ Package: kdebase-workspace-dbg
 Section: devel
 Architecture: any
 Priority: extra
-Depends: kdebase-runtime-dbg, kdebase-workspace-libs4+5 (= ${binary:Version}), libplasma2 (=${binary:Version})
+Depends: kdebase-runtime-dbg, kdebase-workspace-libs4+5 (= ${binary:Version})
 Conflicts: kdebase-dbg (<< 4:4.0)
 Replaces: kdebase-dbg (<< 4:4.0)
 Suggests: kdebase-workspace (= ${source:Version})
