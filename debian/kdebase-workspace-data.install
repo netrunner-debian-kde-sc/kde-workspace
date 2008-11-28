@@ -126,6 +126,7 @@ usr/share/kde4/apps/color-schemes/ObsidianCoast.colors
 usr/share/kde4/apps/color-schemes/Oxygen.colors
 usr/share/kde4/apps/color-schemes/Steel.colors
 usr/share/kde4/apps/color-schemes/WontonSoup.colors
+usr/share/kde4/apps/desktoptheme/default/calendar/mini-calendar.svgz
 usr/share/kde4/apps/desktoptheme/default/colors
 usr/share/kde4/apps/desktoptheme/default/dialogs/background.svgz
 usr/share/kde4/apps/desktoptheme/default/dialogs/kickoff.svgz
@@ -302,6 +303,7 @@ usr/share/kde4/apps/plasma/dashboard/button/genericButton.js
 usr/share/kde4/apps/plasma/services/applicationjobs.operations
 usr/share/kde4/apps/plasma/services/notifications.operations
 usr/share/kde4/apps/plasma/services/nowplaying.operations
+usr/share/kde4/apps/plasma/services/tasks.operations
 usr/share/kde4/apps/plasma_scriptengine_ruby/applet.rb
 usr/share/kde4/apps/plasma_scriptengine_ruby/data_engine.rb
 usr/share/kde4/apps/plasma_scriptengine_ruby/package_ruboid.rb
