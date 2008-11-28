@@ -11,5 +11,7 @@ DEB_DH_MAKESHLIBS_ARGS_kdebase-workspace-libs4+5 := -V'kdebase-workspace-libs4+5
 
 DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-bin := -- -xksysguard
 
+DEB_FIXPERMS_EXCLUDE := usr/bin/kwrited
+
 binary-install/kdm::
 	install -p -D -m644 debian/kdm-np.pam debian/kdm/etc/pam.d/kdm-np

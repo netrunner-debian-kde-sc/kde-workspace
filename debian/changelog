@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.1.80+svn890193-0r1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.1.80+svn890335-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -24,7 +24,11 @@ kdebase-workspace (4:4.1.80+svn890193-0r1) UNRELEASED; urgency=low
   * kdm must depend on consolekit. Otherwise, it does not start any session.
   * Switch to new installgen file format.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 17:43:54 +0200
+  +++ Changes by George Kiagiadakis:
+
+  * Allow kwrited to install with setgid utmp.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 23:34:43 +0000
 
 kdebase-workspace (4:4.1.3-2) experimental; urgency=low
 
