@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.1.80+svn890335-0r1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.1.81+svn890778-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -10,7 +10,8 @@ kdebase-workspace (4:4.1.80+svn890335-0r1) UNRELEASED; urgency=low
 
   * Drop libplasma* packages, moved to kde4libs.
   * Build depend on libplasma-dev and kdelibs5-dev 4:4.1.80.
-  * Bump shlibs of libkwineffects1 and kdebase-workspace-libs4+5 to 4:4.1.80.
+  * Bump shlibs of libkwineffects1, libkdecorations4 and
+    kdebase-workspace-libs4+5 to 4:4.1.81.
   * Build depend on libxss-dev.
   * Refresh patches 21 and 22.
   * Missing Plasma scriptengines:
@@ -28,7 +29,7 @@ kdebase-workspace (4:4.1.80+svn890335-0r1) UNRELEASED; urgency=low
 
   * Allow kwrited to install with setgid utmp.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Nov 2008 23:34:43 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Nov 2008 21:12:29 +0200
 
 kdebase-workspace (4:4.1.3-2) experimental; urgency=low
 
