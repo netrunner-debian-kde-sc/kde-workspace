@@ -427,7 +427,7 @@ usr/share/kde4/services/settings-input-actions.desktop
 usr/share/kde4/services/solidbackends/solid_bluez.desktop
 usr/share/kde4/services/solidbackends/solid_fakenet.desktop
 usr/share/kde4/services/solidbackends/solid_hal_power.desktop
-usr/share/kde4/services/solidbackends/solid_networkmanager.desktop
+usr/share/kde4/services/solidbackends/solid_networkmanager07.desktop
 usr/share/kde4/services/standard_actions.desktop
 usr/share/kde4/services/style.desktop
 usr/share/kde4/services/xinerama.desktop
