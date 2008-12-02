@@ -430,12 +430,12 @@ usr/share/kde4/services/solidbackends/solid_hal_power.desktop
 usr/share/kde4/services/solidbackends/solid_networkmanager07.desktop
 usr/share/kde4/services/standard_actions.desktop
 usr/share/kde4/services/style.desktop
+usr/share/kde4/services/weather_ion.desktop
 usr/share/kde4/services/xinerama.desktop
 usr/share/kde4/servicetypes/screensaver.desktop
 usr/share/kde4/servicetypes/solidbluetoothmanager.desktop
 usr/share/kde4/servicetypes/solidnetworkmanager.desktop
 usr/share/kde4/servicetypes/solidpowermanager.desktop
-usr/share/kde4/servicetypes/weather_ion.desktop
 usr/share/wallpapers/Blue_Curl/contents/images/1024x768.jpg
 usr/share/wallpapers/Blue_Curl/contents/images/1280x1024.jpg
 usr/share/wallpapers/Blue_Curl/contents/images/1280x800.jpg
