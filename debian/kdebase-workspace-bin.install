@@ -127,6 +127,7 @@ usr/lib/kde4/plasma_engine_notifications.so
 usr/lib/kde4/plasma_engine_nowplaying.so
 usr/lib/kde4/plasma_engine_places.so
 usr/lib/kde4/plasma_engine_powermanagement.so
+usr/lib/kde4/plasma_engine_rss.so
 usr/lib/kde4/plasma_engine_soliddevice.so
 usr/lib/kde4/plasma_engine_systemmonitor.so
 usr/lib/kde4/plasma_engine_tasks.so

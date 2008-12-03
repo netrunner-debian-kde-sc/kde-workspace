@@ -390,6 +390,7 @@ usr/share/kde4/services/plasma-dataengine-notifications.desktop
 usr/share/kde4/services/plasma-dataengine-nowplaying.desktop
 usr/share/kde4/services/plasma-dataengine-places.desktop
 usr/share/kde4/services/plasma-dataengine-powermanagement.desktop
+usr/share/kde4/services/plasma-dataengine-rss.desktop
 usr/share/kde4/services/plasma-dataengine-soliddevice.desktop
 usr/share/kde4/services/plasma-dataengine-systemmonitor.desktop
 usr/share/kde4/services/plasma-dataengine-tasks.desktop
