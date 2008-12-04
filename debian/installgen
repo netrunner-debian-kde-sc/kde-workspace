@@ -1,6 +1,7 @@
 [kdebase-workspace-dev]
 # missing on purpose
 missing dst:usr/lib/libkwinnvidiahack.so$
+missing dst:usr/lib/lib.*private\.so$ link:
 
 dst:usr/include
 dst:usr/lib/.*\.so$ link:usr/lib/.*\.so[.\d]+$
@@ -15,40 +16,52 @@ dst:usr/lib/libkdecorations\.so\.
 dst:usr/lib/libkwineffects\.so\.
 
 [kde-window-manager]
-from:kwin
+from:/kwin/
 dst:kwin
 
 [kdm]
-from:kdm
+from:/kdm/
 dst:kdm
 
 [klipper]
-from:klipper
+from:/klipper/
 dst:klipper
 
 [ksysguardd]
 # to kdebase-workspace-data
 skip dst:icons/.*/ksysguardd\.
-from:ksysguardd
+from:/ksysguardd/
 dst:ksysguardd
 
 [ksysguard]
 # Do not install ksysguard libraries here
 skip dst:usr/lib/lib.*\.so\.
-from:ksysguard
+from:/ksysguard/
 
 [systemsettings]
 dst:usr/lib/kde4/kcm_(colors|fonts|style)\.so$
-from:systemsettings
+from:/systemsettings/
 
 [kdebase-workspace-libs4+5]
 skip dst:usr/lib/libkdeinit4_
+skip dst:usr/lib/lib.*private\.so
 dst:usr/lib/lib[^/]+\.so\.
+
+[plasma-dataengines-workspace]
+from:/plasma/dataengines/
+
+[plasma-applets-workspace]
+from:/plasma/applets/
+from:/plasma/animators/
+from:/plasma/containments/
 
 [kdebase-workspace-bin]
 dst:usr/bin
 mime:application/x-executable
 mime:application/x-sharedlib
+# Install *.desktop files to -bin
+skip dst:usr/share/wallpapers/
+dst:\.desktop$
 
 [kdebase-workspace-data]
 skip dst:usr/bin

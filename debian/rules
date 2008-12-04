@@ -6,9 +6,9 @@ include debian/cdbs/kde.mk
 #	-DINSTALL_PRINTER_APPLET=TRUE
 
 DEB_CMAKE_EXTRA_FLAGS += -DKDE4_KDM_PAM_SERVICE=kdm
-DEB_DH_MAKESHLIBS_ARGS_libkwineffects1 := -V'libkwineffects1 (>= 4:4.1.81)'
-DEB_DH_MAKESHLIBS_ARGS_libkdecorations4 := -V'libkdecorations4 (>= 4:4.1.81)'
-DEB_DH_MAKESHLIBS_ARGS_kdebase-workspace-libs4+5 := -V'kdebase-workspace-libs4+5 (>= 4:4.1.81)'
+DEB_DH_MAKESHLIBS_ARGS_libkwineffects1 := -V'libkwineffects1 (>= 4:4.1.82)'
+DEB_DH_MAKESHLIBS_ARGS_libkdecorations4 := -V'libkdecorations4 (>= 4:4.1.82)'
+DEB_DH_MAKESHLIBS_ARGS_kdebase-workspace-libs4+5 := -V'kdebase-workspace-libs4+5 (>= 4:4.1.82)'
 
 DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-bin := -- -xksysguard
 
