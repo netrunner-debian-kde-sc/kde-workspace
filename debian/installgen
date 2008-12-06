@@ -55,6 +55,19 @@ from:/plasma/applets/
 from:/plasma/animators/
 from:/plasma/containments/
 
+[plasma-scriptengine-qtscript]
+from:/plasma/scriptengines/qtscript/
+
+[plasma-scriptengine-ruby]
+from:/plasma/scriptengines/ruby/
+
+[plasma-scriptengine-python]
+missing from:/plasma/scriptengines/python/ dst:\.pyc$
+from:/plasma/scriptengines/python/
+
+[plasma-scriptengine-webkit]
+from:/plasma/scriptengines/webkit/
+
 [kdebase-workspace-bin]
 dst:usr/bin
 mime:application/x-executable

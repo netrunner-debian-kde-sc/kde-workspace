@@ -281,16 +281,6 @@ usr/share/kde4/apps/kthememanager/themes/YellowOnBlue-big/YellowOnBlue-big.xml
 usr/share/kde4/apps/kthememanager/themes/YellowOnBlue/YellowOnBlue.preview.png
 usr/share/kde4/apps/kthememanager/themes/YellowOnBlue/YellowOnBlue.xml
 usr/share/kde4/apps/kwrited/kwrited.notifyrc
-usr/share/kde4/apps/plasma/dashboard/AppleClasses/AppleAnimator.js
-usr/share/kde4/apps/plasma/dashboard/AppleClasses/AppleButton.js
-usr/share/kde4/apps/plasma/dashboard/AppleClasses/AppleInfoButton.js
-usr/share/kde4/apps/plasma/dashboard/AppleClasses/AppleScrollArea.js
-usr/share/kde4/apps/plasma/dashboard/AppleClasses/AppleScrollbar.js
-usr/share/kde4/apps/plasma/dashboard/AppleClasses/AppleSlider.js
-usr/share/kde4/apps/plasma/dashboard/button/genericButton.js
-usr/share/kde4/apps/plasma_scriptengine_ruby/applet.rb
-usr/share/kde4/apps/plasma_scriptengine_ruby/data_engine.rb
-usr/share/kde4/apps/plasma_scriptengine_ruby/package_ruboid.rb
 usr/share/kde4/apps/powerdevil/default.powerdevilprofiles
 usr/share/kde4/apps/powerdevil/powerdevil.notifyrc
 usr/share/kde4/apps/solidfakenetbackend/fakenetworking.xml

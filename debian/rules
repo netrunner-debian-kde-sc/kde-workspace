@@ -16,3 +16,6 @@ DEB_FIXPERMS_EXCLUDE := usr/bin/kwrited
 
 binary-install/kdm::
 	install -p -D -m644 debian/kdm-np.pam debian/kdm/etc/pam.d/kdm-np
+
+binary-install/plasma-scriptengine-python::
+	dh_pysupport -p$(cdbs_curpkg) /usr/share/kde4/apps/plasma_scriptengine_python

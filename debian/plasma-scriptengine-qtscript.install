@@ -1,0 +1,4 @@
+usr/lib/kde4/plasma_runner_scriptengine_qscript.so
+usr/lib/kde4/plasma_scriptengine_qscript.so
+usr/share/kde4/services/plasma-scriptengine-qscript.desktop
+usr/share/kde4/services/plasma-scriptengine-qscriptrunner.desktop

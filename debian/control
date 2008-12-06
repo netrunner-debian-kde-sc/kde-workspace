@@ -6,6 +6,7 @@ Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pus
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
  kdelibs5-dev (>= 4:4.1.81), libplasma-dev (>= 4:4.1.81),
  kdepimlibs5-dev (>= 4:4.1.81), libboost-dev,
+ python-kde4 (>= 4:4.1.82), python-sip4-dev (>= 4.7.8), python-qt4-dev (>= 4.4.4), python-support (>= 0.6),
  libbluetooth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libcaptury-dev, libck-connector-dev, libdbus-1-dev, libnm-util-dev, network-manager-dev (>= 0.7.0~),
  libpam0g-dev, libqimageblitz-dev (>= 1:0.0.4-2), libraw1394-dev, libsensors-dev,
@@ -14,7 +15,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
  libxrandr-dev, libxrender-dev, libxxf86misc-dev,
  libsmbclient-dev, libxcb1-dev, libxine-dev, libstreamanalyzer-dev, libfontconfig-dev, libglu1-mesa-dev,
  libsm-dev, libxcursor-dev, libxft-dev, libxtst-dev, libqt4-opengl-dev, libxinerama-dev,
- libxss-dev
+ libxss-dev,
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdebase-workspace
@@ -42,6 +43,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, plasma-applets-workspace (= ${binary:Version}),
  kdebase-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils
+Recommends: plasma-scriptengines
 Suggests: x11-xkb-utils
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip, libplasma2,
  kde-window-manager (<< 4:4.1.80), kdebase-workspace-data (<< 4:4.1.82),
@@ -119,6 +121,64 @@ Description: KDE 4 base workspace Plasma applets and containments
  .
  This package also includes the default animator used by the main KDE 4 Plasma
  shell.
+ .
+ This package is part of the KDE 4 base workspace module.
+
+Package: plasma-scriptengines
+Section: kde
+Architecture: all
+Depends: plasma-scriptengine-qtscript (>= ${source:Version}),
+ plasma-scriptengine-ruby (>= ${source:Version}),
+ plasma-scriptengine-python (>= ${source:Version}),
+ plasma-scriptengine-webkit (>= ${source:Version})
+Suggests: plasma-scriptengine-kimono
+Description: a metapackage to install all Plasma script engines
+ This metapackage depends on all Plasma script engines which kdebase-workspace
+ module provides and suggests script engines from other official KDE modules.
+ .
+ This package is part of the KDE 4 base workspace module.
+
+Package: plasma-scriptengine-qtscript
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82)
+Description: QtScript script engine for Plasma
+ This package provides QtScript script engine for Plasma. You have to install it
+ if you want to use Plasma applets and data engines written in QtScript.
+ .
+ This package is part of the KDE 4 base workspace module.
+
+Package: plasma-scriptengine-ruby
+Section: kde
+Architecture: all
+Depends: libplasma-ruby (>= 4:4.1.82)
+Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
+Description: Ruby script engine for Plasma
+ This package provides Ruby script engine for Plasma. You have to install it
+ if you want to use Plasma applets and data engines written in Ruby.
+ .
+ This package is part of the KDE 4 base workspace module.
+
+Package: plasma-scriptengine-python
+Section: kde
+Architecture: all
+Depends: ${python:Depends}, python-kde4 (>= 4:4.1.82)
+Description: Python script engine for Plasma
+ This package provides Python script engine for Plasma. You have to install it
+ if you want to use Plasma applets and data engines written in Python.
+ .
+ This package is part of the KDE 4 base workspace module.
+
+Package: plasma-scriptengine-webkit
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
+Description: Applet Mac OS X dashboard widget support for Plasma
+ This Plasma script engine adds support for Apple Mac OS X dashboard widgets.
+ You have to install this package if you want to be able to load these widgets
+ in your Plasma shell.
  .
  This package is part of the KDE 4 base workspace module.
 

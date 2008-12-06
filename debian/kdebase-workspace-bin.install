@@ -83,12 +83,6 @@ usr/lib/kde4/libexec/kfontprint
 usr/lib/kde4/libexec/kio_fonts_helper
 usr/lib/kde4/libexec/krunner_lock
 usr/lib/kde4/libexec/test_kcm_xinerama
-usr/lib/kde4/plasma_appletscriptengine_dashboard.so
-usr/lib/kde4/plasma_appletscriptengine_webapplet.so
-usr/lib/kde4/plasma_packagestructure_dashboard.so
-usr/lib/kde4/plasma_packagestructure_web.so
-usr/lib/kde4/plasma_runner_scriptengine_qscript.so
-usr/lib/kde4/plasma_scriptengine_qscript.so
 usr/lib/kde4/plasma_wallpaper_color.so
 usr/lib/kde4/plasma_wallpaper_image.so
 usr/lib/kde4/solid_bluez.so
@@ -145,8 +139,6 @@ usr/share/kde4/services/kfontviewpart.desktop
 usr/share/kde4/services/khotkeys.desktop
 usr/share/kde4/services/ksplashthememgr.desktop
 usr/share/kde4/services/mouse.desktop
-usr/share/kde4/services/plasma-packagestructure-dashboard.desktop
-usr/share/kde4/services/plasma-packagestructure-web.desktop
 usr/share/kde4/services/plasma-runner-bookmarks.desktop
 usr/share/kde4/services/plasma-runner-calculator.desktop
 usr/share/kde4/services/plasma-runner-locations.desktop
@@ -158,13 +150,6 @@ usr/share/kde4/services/plasma-runner-sessions.desktop
 usr/share/kde4/services/plasma-runner-shell.desktop
 usr/share/kde4/services/plasma-runner-shell_config.desktop
 usr/share/kde4/services/plasma-runner-webshortcuts.desktop
-usr/share/kde4/services/plasma-scriptengine-applet-dashboard.desktop
-usr/share/kde4/services/plasma-scriptengine-applet-web.desktop
-usr/share/kde4/services/plasma-scriptengine-qscript.desktop
-usr/share/kde4/services/plasma-scriptengine-qscriptrunner.desktop
-usr/share/kde4/services/plasma-scriptengine-ruby-applet.desktop
-usr/share/kde4/services/plasma-scriptengine-ruby-dataengine.desktop
-usr/share/kde4/services/plasma-scriptengine-ruby-package.desktop
 usr/share/kde4/services/plasma-wallpaper-color.desktop
 usr/share/kde4/services/plasma-wallpaper-image.desktop
 usr/share/kde4/services/powerdevilconfig.desktop

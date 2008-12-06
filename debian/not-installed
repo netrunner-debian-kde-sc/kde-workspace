@@ -2,18 +2,18 @@
 #no need to ship dev symlink
 ./usr/lib/libkwinnvidiahack.so
 
-#cursors is in oxygencursors package
-./usr/share/icons/Oxygen_Black/cursors/
-./usr/share/icons/Oxygen_Black_Big/cursors/
-./usr/share/icons/Oxygen_Blue/cursors/
-./usr/share/icons/Oxygen_Blue_Big/cursors/
-./usr/share/icons/Oxygen_White/cursors/
-./usr/share/icons/Oxygen_White_Big/cursors/
-./usr/share/icons/Oxygen_Yellow/cursors/
-./usr/share/icons/Oxygen_Yellow_Big/cursors/
-./usr/share/icons/Oxygen_Zion/cursors/
-./usr/share/icons/Oxygen_Zion_Big/cursors/
+# Python *.pyc files
+./usr/share/kde4/apps/plasma_scriptengine_python/package_pythoid.pyc
+./usr/share/kde4/apps/plasma_scriptengine_python/pyappletscript.pyc
+./usr/share/kde4/apps/plasma_scriptengine_python/pydataengine.pyc
+./usr/share/kde4/apps/plasma_scriptengine_python/plasma_importer.pyc
+./usr/lib/libkhotkeysprivate.so
+./usr/lib/python2.5/site-packages/PyKDE4/plasmascript.pyc
 
+# Gets renamed by python-support
+./usr/lib/python2.5/site-packages/PyKDE4/plasmascript.py
+
+#cursors is in oxygencursors package
 ./usr/share/icons/Oxygen_Black/cursors/00000000000000020006000e7e9ffc3f
 ./usr/share/icons/Oxygen_Black/cursors/00008160000006810000408080010102
 ./usr/share/icons/Oxygen_Black/cursors/03b6e0fcb3499374a867c041f52298f0
