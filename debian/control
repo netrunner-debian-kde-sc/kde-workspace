@@ -177,9 +177,9 @@ Depends: ${shlibs:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
 Description: Web and MacOS X dashboard widget support for Plasma
  This package provides the Webkit script engine for Plasma which adds support
- for the webpage widgets written in HTML and JavaScript and for the Apple MacOS X
- dashboard widgets. You have to install this package if you want to be able to load
- these widgets in your Plasma shell.
+ for the webpage widgets written in HTML and JavaScript and for the Apple MacOS
+ X dashboard widgets. You have to install this package if you want to be able
+ to load these widgets in your Plasma shell.
  .
  This package is part of the KDE 4 base workspace module.
 
