@@ -27,7 +27,7 @@ Architecture: all
 Depends:  kdebase-workspace-bin (>= ${source:Version}),
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), 
  kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version})
-Recommends: kdm (>= ${source:Version}), kdebase-plasma
+Recommends: kdm (>= ${source:Version})
 Description: base workspace components from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
