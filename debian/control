@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
- kdelibs5-dev (>= 4:4.1.81), libplasma-dev (>= 4:4.1.81),
- kdepimlibs5-dev (>= 4:4.1.81), libboost-dev,
+ kdelibs5-dev (>= 4:4.1.82+svn894637), libplasma-dev (>= 4:4.1.82+svn894637),
+ kdepimlibs5-dev (>= 4:4.1.82+svn894631), libboost-dev,
  python-kde4 (>= 4:4.1.82), python-sip4-dev (>= 4.7.8), python-qt4-dev (>= 4.4.4), python-support (>= 0.6),
  libbluetooth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libcaptury-dev, libck-connector-dev, libdbus-1-dev, libnm-util-dev, network-manager-dev (>= 0.7.0~),
