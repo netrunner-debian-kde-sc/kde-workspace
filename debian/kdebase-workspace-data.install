@@ -146,7 +146,6 @@ usr/share/kde4/apps/desktoptheme/default/widgets/button.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/calendar.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/clock.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/configuration-icons.svgz
-usr/share/kde4/apps/desktoptheme/default/widgets/connection-established.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/containment-controls.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/dragger.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/extender-background.svgz
@@ -162,7 +161,7 @@ usr/share/kde4/apps/desktoptheme/default/widgets/systemtray.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/tasks.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/tooltip.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/translucentbackground.svgz
-usr/share/kde4/apps/desktopthemedetails/themeitems
+usr/share/kde4/apps/desktoptheme/default/widgets/viewitem.svgz
 usr/share/kde4/apps/kaccess/kaccess.notifyrc
 usr/share/kde4/apps/kcminput/cursor_large_black.pcf.gz
 usr/share/kde4/apps/kcminput/cursor_large_white.pcf.gz
