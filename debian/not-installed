@@ -7,7 +7,6 @@
 ./usr/share/kde4/apps/plasma_scriptengine_python/pyappletscript.pyc
 ./usr/share/kde4/apps/plasma_scriptengine_python/pydataengine.pyc
 ./usr/share/kde4/apps/plasma_scriptengine_python/plasma_importer.pyc
-./usr/lib/libkhotkeysprivate.so
 ./usr/lib/python2.5/site-packages/PyKDE4/plasmascript.pyc
 
 # Gets renamed by python-support
