@@ -1,6 +1,3 @@
-usr/lib/KDE4Workspace/cmake/KDE4WorkspaceConfig.cmake
-usr/lib/KDE4Workspace/cmake/KDE4WorkspaceLibraryTargets-debian.cmake
-usr/lib/KDE4Workspace/cmake/KDE4WorkspaceLibraryTargets.cmake
 usr/share/dbus-1/services/org.kde.krunner.service
 usr/share/doc/kde4/HTML/en/kcontrol/autostart/common
 usr/share/doc/kde4/HTML/en/kcontrol/autostart/index.cache.bz2

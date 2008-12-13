@@ -5,7 +5,7 @@ missing dst:usr/lib/lib.*private\.so$ link:
 
 dst:usr/include
 dst:usr/lib/.*\.so$ link:usr/lib/.*\.so[.\d]+$
-dst:apps/cmake
+dst:/cmake/
 dst:dbus-\d+/interfaces
 dst:plugins/designer
 
