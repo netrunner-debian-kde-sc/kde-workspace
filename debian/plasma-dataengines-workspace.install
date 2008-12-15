@@ -44,4 +44,4 @@ usr/share/kde4/services/plasma-dataengine-systemmonitor.desktop
 usr/share/kde4/services/plasma-dataengine-tasks.desktop
 usr/share/kde4/services/plasma-dataengine-time.desktop
 usr/share/kde4/services/plasma-dataengine-weather.desktop
-usr/share/kde4/services/weather_ion.desktop
+usr/share/kde4/servicetypes/weather_ion.desktop
