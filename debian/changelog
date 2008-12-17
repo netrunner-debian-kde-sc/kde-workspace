@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.1.85+svn897913-0r1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.1.85+svn898217-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -17,7 +17,6 @@ kdebase-workspace (4:4.1.85+svn897913-0r1) UNRELEASED; urgency=low
   * Refresh patches 21 and 22.
   * Missing Plasma scriptengines:
     - GoogleGadgets
-    - QEdje
   * Update install files:
     - Add new files
     - Move many files around mostly from kdebase-workspace-data to their
@@ -46,13 +45,15 @@ kdebase-workspace (4:4.1.85+svn897913-0r1) UNRELEASED; urgency=low
   +++ Changes by George Kiagiadakis:
 
   * Allow kwrited to install with setgid utmp.
+  * Add plasma-scriptengine-qedje package, which contains the QEdje script
+    engine for plasma.
 
   +++ Changes by David Palacio:
 
   * 23_do_not_depend_on_bindings.diff: do no depend on python-kde4 at build
     time (circular build dependency).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Dec 2008 13:15:53 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Dec 2008 20:55:36 +0200
 
 kdebase-workspace (4:4.1.3-2) experimental; urgency=low
 

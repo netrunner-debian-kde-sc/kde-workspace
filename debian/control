@@ -15,7 +15,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
  libxrandr-dev, libxrender-dev, libxxf86misc-dev,
  libsmbclient-dev, libxcb1-dev, libxine-dev, libstreamanalyzer-dev, libfontconfig-dev, libglu1-mesa-dev,
  libsm-dev, libxcursor-dev, libxft-dev, libxtst-dev, libqt4-opengl-dev, libxinerama-dev,
- libxss-dev,
+ libxss-dev, libqedje-dev
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdebase-workspace
@@ -128,6 +128,7 @@ Package: plasma-scriptengines
 Section: kde
 Architecture: all
 Depends: plasma-scriptengine-qtscript (>= ${source:Version}),
+ plasma-scriptengine-qedje (>= ${source:Version}),
  plasma-scriptengine-ruby (>= ${source:Version}),
  plasma-scriptengine-python (>= ${source:Version}),
  plasma-scriptengine-webkit (>= ${source:Version})
@@ -146,6 +147,16 @@ Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data 
 Description: QtScript script engine for Plasma
  This package provides QtScript script engine for Plasma. You have to install it
  if you want to use Plasma applets and data engines written in QtScript.
+ .
+ This package is part of the KDE 4 base workspace module.
+
+Package: plasma-scriptengine-qedje
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: QEdje script engine for Plasma
+ This package provides QEdje script engine for Plasma. You have to install it
+ if you want to use Plasma applets and data engines written in QEdje.
  .
  This package is part of the KDE 4 base workspace module.
 
