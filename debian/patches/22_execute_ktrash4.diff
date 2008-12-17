@@ -1,12 +1,12 @@
 We renamed ktrash to ktrash4. See bug #494427.
 --- a/plasma/applets/trash/trash.cpp
 +++ b/plasma/applets/trash/trash.cpp
-@@ -201,7 +201,7 @@
-         // we can simply call ktrash.
-         //KonqOperations::emptyTrash(&m_menu);
-         KProcess process;
--        process << KStandardDirs::findExe("ktrash") << "--empty";
-+        process << KStandardDirs::findExe("ktrash4") << "--empty";
-         process.execute();
- 
+@@ -215,7 +215,7 @@
+         m_emptyProcess = new KProcess(this);
+         connect(m_emptyProcess, SIGNAL(finished(int,QProcess::ExitStatus)),
+                 this, SLOT(emptyFinished(int,QProcess::ExitStatus)));
+-        (*m_emptyProcess) << KStandardDirs::findExe("ktrash") << "--empty";
++        (*m_emptyProcess) << KStandardDirs::findExe("ktrash4") << "--empty";
+         m_emptyProcess->start();
      }
+ }

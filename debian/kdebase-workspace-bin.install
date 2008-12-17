@@ -107,7 +107,6 @@ usr/share/applications/kde4/krandrtray.desktop
 usr/share/autostart/krunner.desktop
 usr/share/autostart/kwrited-autostart.desktop
 usr/share/autostart/plasma.desktop
-usr/share/kde4/apps/desktoptheme/default/metadata.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/fonts.desktop
 usr/share/kde4/services/ScreenSavers/kblank.desktop
 usr/share/kde4/services/ScreenSavers/krandom.desktop
