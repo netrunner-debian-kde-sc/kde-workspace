@@ -68,6 +68,9 @@ from:/plasma/scriptengines/python/
 [plasma-scriptengine-webkit]
 from:/plasma/scriptengines/webkit/
 
+[plasma-scriptengine-googlegadgets]
+from:/plasma/scriptengines/google_gadgets/
+
 [kdebase-workspace-bin]
 dst:usr/bin
 mime:application/x-executable
