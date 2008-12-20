@@ -136,7 +136,7 @@ Depends: plasma-scriptengine-qtscript (>= ${source:Version}),
  plasma-scriptengine-ruby (>= ${source:Version}),
  plasma-scriptengine-python (>= ${source:Version}),
  plasma-scriptengine-webkit (>= ${source:Version}),
- plasma-scriptengine-googlegadgets(>= ${source:Version}),
+ plasma-scriptengine-googlegadgets (>= ${source:Version}),
 Suggests: plasma-scriptengine-kimono
 Description: a metapackage to install all Plasma script engines
  This metapackage depends on all Plasma script engines which kdebase-workspace
@@ -207,8 +207,8 @@ Depends: ${shlibs:Depends}, google-gadgets-qt, google-gadgets-xul
 Description: Google Gadgets script engine for Plasma
  This package contains Google Gadgets script engine for Plasma. It enables
  Plasma to serve as a Google Gadgets host and allows to load and use any gadget
- as if it was a Plasma applet and integrates download and installation of new
- gadgets from the official Google Desktop Gadgets website.
+ as if it was a Plasma applet. It also integrates download and installation of
+ new gadgets from the official Google Desktop Gadgets website.
  .
  This package is part of the KDE 4 base workspace module.
 
