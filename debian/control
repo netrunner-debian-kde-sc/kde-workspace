@@ -220,7 +220,7 @@ Recommends: logrotate, xserver-xorg-core | xserver,
  kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
 Suggests: kdepasswd
 Replaces: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80)
-Conflicts: desktop-base (<< 4.0.4)
+Conflicts: desktop-base (<< 4.0.4), kdebase-data (<< 4:4.0.0-1)
 Provides: x-display-manager
 Description: KDE Display Manager for X11
  KDM manages a collection of X servers running on local or remote machines.
