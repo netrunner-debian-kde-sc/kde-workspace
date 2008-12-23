@@ -93,9 +93,10 @@ usr/include/taskmanager/taskgroup.h
 usr/include/taskmanager/taskitem.h
 usr/include/taskmanager/taskmanager.h
 usr/include/taskmanager/taskmanager_export.h
-usr/lib/KDE4Workspace/cmake/KDE4WorkspaceConfig.cmake
-usr/lib/KDE4Workspace/cmake/KDE4WorkspaceLibraryTargets-debian.cmake
-usr/lib/KDE4Workspace/cmake/KDE4WorkspaceLibraryTargets.cmake
+usr/lib/cmake/KDE4Workspace-4.2.0/KDE4WorkspaceConfig.cmake
+usr/lib/cmake/KDE4Workspace-4.2.0/KDE4WorkspaceConfigVersion.cmake
+usr/lib/cmake/KDE4Workspace-4.2.0/KDE4WorkspaceLibraryTargets-debian.cmake
+usr/lib/cmake/KDE4Workspace-4.2.0/KDE4WorkspaceLibraryTargets.cmake
 usr/lib/kde4/plugins/designer/ksysguardlsofwidgets.so
 usr/lib/kde4/plugins/designer/ksysguardwidgets.so
 usr/lib/libkdecorations.so
