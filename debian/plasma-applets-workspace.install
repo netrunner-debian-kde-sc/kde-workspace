@@ -28,7 +28,6 @@ usr/lib/kde4/plasma_containment_saverdesktop.so
 usr/lib/libplasma_applet-system-monitor.so
 usr/share/kde4/apps/desktoptheme/default/calendar/mini-calendar.svgz
 usr/share/kde4/apps/desktoptheme/default/system-monitor/hdd_panel.svgz
-usr/share/kde4/apps/desktoptheme/default/systemtray/bar_meter_horizontal.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/battery-oxygen.svgz
 usr/share/kde4/apps/solid/actions/test-predicate-openinwindow.desktop
 usr/share/kde4/services/plasma-animator-default.desktop

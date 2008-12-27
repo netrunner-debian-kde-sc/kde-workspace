@@ -8,14 +8,14 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
  kdepimlibs5-dev (>= 4:4.1.86), libboost-dev,
  python-support (>= 0.6), python-dev,
  libbluetooth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
- libcaptury-dev, libck-connector-dev, libdbus-1-dev, libnm-util-dev, network-manager-dev (>= 0.7.0~),
+ libcaptury-dev, libck-connector-dev, libdbus-1-dev, libnm-util-dev, network-manager-dev (>= 0.7.0),
  libpam0g-dev, libqimageblitz-dev (>= 1:0.0.4-2), libraw1394-dev, libsensors-dev,
  libstrigiqtdbusclient-dev (>= 0.5.8-2), libusb-dev, libxkbfile-dev,
  libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxklavier12-dev,
  libxrandr-dev, libxrender-dev, libxxf86misc-dev, libxi-dev,
  libsmbclient-dev, libxcb1-dev, libxine-dev, libstreamanalyzer-dev, libfontconfig-dev, libglu1-mesa-dev,
  libsm-dev, libxcursor-dev, libxft-dev, libxtst-dev, libqt4-opengl-dev, libxinerama-dev,
- libxss-dev, libqedje-dev, libggadget-1.0-dev (>= 0.10.4), libggadget-qt-1.0-dev (>= 0.10.4),
+ libxss-dev, libqedje-dev, libggadget-1.0-dev (>= 0.10.4), libggadget-qt-1.0-dev (>= 0.10.5~),
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdebase-workspace
