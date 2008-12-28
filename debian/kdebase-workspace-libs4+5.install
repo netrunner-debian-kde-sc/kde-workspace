@@ -16,6 +16,8 @@ usr/lib/libnepomukquery.so.4
 usr/lib/libnepomukquery.so.4.2.0
 usr/lib/libnepomukqueryclient.so.4
 usr/lib/libnepomukqueryclient.so.4.2.0
+usr/lib/libplasma_applet-system-monitor.so.4
+usr/lib/libplasma_applet-system-monitor.so.4.2.0
 usr/lib/libplasmaclock.so.4
 usr/lib/libplasmaclock.so.4.2.0
 usr/lib/libprocesscore.so.4
