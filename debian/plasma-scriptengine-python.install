@@ -1,8 +1,6 @@
 usr/lib/python2.5/site-packages/PyKDE4/plasmascript.py
-usr/share/kde4/apps/plasma_scriptengine_python/package_pythoid.py
 usr/share/kde4/apps/plasma_scriptengine_python/plasma_importer.py
 usr/share/kde4/apps/plasma_scriptengine_python/pyappletscript.py
 usr/share/kde4/apps/plasma_scriptengine_python/pydataengine.py
-usr/share/kde4/services/plasma-packagestructure-python.desktop
 usr/share/kde4/services/plasma-scriptengine-applet-python.desktop
 usr/share/kde4/services/plasma-scriptengine-dataengine-python.desktop
