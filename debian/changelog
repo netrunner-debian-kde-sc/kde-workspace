@@ -9,7 +9,7 @@ kdebase-workspace (4:4.1.87+svn905512-0r1) UNRELEASED; urgency=low
   +++ Changes by Modestas Vainius:
 
   * Drop libplasma* packages, moved to kde4libs.
-  * Build depend on libplasma-dev and kdelibs5-dev 4:4.1.87.
+  * Build depend on kdelibs5-dev 4:4.1.87.
   * Readd build depend on kdepimlibs5-dev, also libboost-dev.
   * Bump shlibs of libkwineffects1, libkdecorations4 and
     kdebase-workspace-libs4+5 to upstream version.
