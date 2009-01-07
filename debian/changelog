@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.1.87+svn905512-0r1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.1.96+svn907177-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -9,7 +9,7 @@ kdebase-workspace (4:4.1.87+svn905512-0r1) UNRELEASED; urgency=low
   +++ Changes by Modestas Vainius:
 
   * Drop libplasma* packages, moved to kde4libs.
-  * Build depend on kdelibs5-dev 4:4.1.87.
+  * Build depend on kdelibs5-dev 4:4.1.96.
   * Readd build depend on kdepimlibs5-dev, also libboost-dev.
   * Bump shlibs of libkwineffects1, libkdecorations4 and
     kdebase-workspace-libs4+5 to upstream version.
@@ -33,7 +33,6 @@ kdebase-workspace (4:4.1.87+svn905512-0r1) UNRELEASED; urgency=low
   * Split off Plasma script engines to plasma-scriptengine-* packages:
     - plasma-scriptengines - metapackage for all engines, depends on all script
       engines below.
-    - plasma-scriptengine-qtscript - QtScript engine;
     - plasma-scriptengine-ruby - Ruby engine;
     - plasma-scriptengine-python - Python engine;
     - plasma-scriptengine-webkit - Webkit (Apple Mac OS X dashboard) engine;
