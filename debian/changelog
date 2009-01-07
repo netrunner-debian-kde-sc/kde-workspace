@@ -24,7 +24,8 @@ kdebase-workspace (4:4.1.96+svn907177-0r1) UNRELEASED; urgency=low
   * Build depend on network-manager 0.7.
   * Add new packages:
     - plasma-dataengines-workspace - contains Plasma dataengines;
-    - plasma-applets-workspace - contains Plasma applets, depends on dataengines.
+    - plasma-applets-workspace - contains Plasma applets,
+      depends on dataengines.
   * Make kdebase-workspace-bin strictly depend on plasma-applets-workspace.
   * Improve kdebase-workspace-bin description.
   * Move libkhotkeysprivate to kdebase-workspace-bin and make
@@ -33,6 +34,7 @@ kdebase-workspace (4:4.1.96+svn907177-0r1) UNRELEASED; urgency=low
   * Split off Plasma script engines to plasma-scriptengine-* packages:
     - plasma-scriptengines - metapackage for all engines, depends on all script
       engines below.
+    - plasma-scriptengine-javascript - Javascript engine;
     - plasma-scriptengine-ruby - Ruby engine;
     - plasma-scriptengine-python - Python engine;
     - plasma-scriptengine-webkit - Webkit (Apple Mac OS X dashboard) engine;

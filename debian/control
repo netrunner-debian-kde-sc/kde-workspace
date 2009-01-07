@@ -131,7 +131,8 @@ Description: KDE 4 base workspace Plasma applets and containments
 Package: plasma-scriptengines
 Section: kde
 Architecture: all
-Depends: plasma-scriptengine-qedje (>= ${source:Version}),
+Depends: plasma-scriptengine-javascript (>= ${source:Version}),
+ plasma-scriptengine-qedje (>= ${source:Version}),
  plasma-scriptengine-ruby (>= ${source:Version}),
  plasma-scriptengine-python (>= ${source:Version}),
  plasma-scriptengine-webkit (>= ${source:Version}),
@@ -140,6 +141,17 @@ Suggests: plasma-scriptengine-kimono
 Description: a metapackage to install all Plasma script engines
  This metapackage depends on all Plasma script engines which kdebase-workspace
  module provides and suggests script engines from other official KDE modules.
+ .
+ This package is part of the KDE 4 base workspace module.
+
+Package: plasma-scriptengine-javascript
+Section: kde
+Architecture: any
+Depends: ${shlibs:Depends}
+Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82)
+Description: javascript script engine for Plasma
+ This package provides javascript script engine for Plasma. You have to install it
+ if you want to use Plasma applets and data engines written in javascript.
  .
  This package is part of the KDE 4 base workspace module.
 
