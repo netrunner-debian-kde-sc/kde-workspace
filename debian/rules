@@ -11,6 +11,7 @@ DEB_DH_MAKESHLIBS_ARGS_libkdecorations4 := -V
 DEB_DH_MAKESHLIBS_ARGS_kdebase-workspace-libs4+5 := -V
 
 DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-bin := -- -xksysguard
+DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-libs4+5 := -- -xkdebase-runtime
 
 DEB_FIXPERMS_EXCLUDE := usr/bin/kwrited
 
