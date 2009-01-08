@@ -150,8 +150,8 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82)
 Description: javascript script engine for Plasma
- This package provides javascript script engine for Plasma. You have to install it
- if you want to use Plasma applets and data engines written in javascript.
+ This package provides javascript script engine for Plasma. You have to install
+ it if you want to use Plasma applets and data engines written in javascript.
  .
  This package is part of the KDE 4 base workspace module.
 
