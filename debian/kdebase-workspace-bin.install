@@ -29,6 +29,7 @@ usr/bin/solid-network
 usr/bin/solid-powermanagement
 usr/bin/startkde
 usr/lib/kconf_update_bin/khotkeys_update
+usr/lib/kconf_update_bin/krdb_clearlibrarypath
 usr/lib/kde4/fontthumbnail.so
 usr/lib/kde4/ion_bbcukmet.so
 usr/lib/kde4/ion_envcan.so
@@ -89,3 +90,5 @@ usr/lib/libkdeinit4_ksmserver.so
 usr/lib/libkdeinit4_kxkb.so
 usr/lib/libkdeinit4_plasma.so
 usr/lib/strigi/strigita_font.so
+usr/share/kde4/apps/kconf_update/khotkeys_remove_shortcuts.upd
+usr/share/kde4/apps/kconf_update/krdb.upd
