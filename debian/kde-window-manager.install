@@ -54,6 +54,8 @@ usr/share/kde4/apps/kconf_update/kwin_focus2.sh
 usr/share/kde4/apps/kconf_update/kwin_focus2.upd
 usr/share/kde4/apps/kconf_update/kwin_fsp_workarounds_1.upd
 usr/share/kde4/apps/kconf_update/kwin_on_off.upd
+usr/share/kde4/apps/kconf_update/kwin_window_shortcuts.sh
+usr/share/kde4/apps/kconf_update/kwin_window_shortcuts.upd
 usr/share/kde4/apps/kconf_update/kwiniconify.upd
 usr/share/kde4/apps/kconf_update/kwinsticky.upd
 usr/share/kde4/apps/kconf_update/kwinupdatewindowsettings.upd

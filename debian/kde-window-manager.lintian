@@ -1,4 +1,4 @@
-kwin: shlib-missing-in-control-file libkdeinit4_kwin.so for usr/lib/libkdeinit4_kwin.so
-kwin: shlib-missing-in-control-file libkdeinit4_kwin_rules_dialog.so for usr/lib/libkdeinit4_kwin_rules_dialog.so
-kwin: package-name-doesnt-match-sonames libkdecorations4 libkdeinit4-kwin libkdeinit4-kwin_rules_dialog libkwineffects1 libkwinnvidiahack4
+kde-window-manager: shlib-missing-in-control-file libkdeinit4_kwin.so for usr/lib/libkdeinit4_kwin.so
+kde-window-manager: shlib-missing-in-control-file libkdeinit4_kwin_rules_dialog.so for usr/lib/libkdeinit4_kwin_rules_dialog.so
+kde-window-manager: package-name-doesnt-match-sonames libkdecorations4 libkdeinit4-kwin libkdeinit4-kwin_rules_dialog libkwineffects1 libkwinnvidiahack4
 
