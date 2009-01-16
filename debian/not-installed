@@ -3,7 +3,6 @@
 ./usr/lib/libkwinnvidiahack.so
 
 # Python *.pyc files
-./usr/share/kde4/apps/plasma_scriptengine_python/package_pythoid.pyc
 ./usr/share/kde4/apps/plasma_scriptengine_python/pyappletscript.pyc
 ./usr/share/kde4/apps/plasma_scriptengine_python/pydataengine.pyc
 ./usr/share/kde4/apps/plasma_scriptengine_python/plasma_importer.pyc

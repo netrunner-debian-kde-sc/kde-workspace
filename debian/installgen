@@ -55,8 +55,8 @@ from:/plasma/applets/
 from:/plasma/animators/
 from:/plasma/containments/
 
-[plasma-scriptengine-qtscript]
-from:/plasma/scriptengines/qtscript/
+[plasma-scriptengine-javascript]
+from:/plasma/scriptengines/javascript/
 
 [plasma-scriptengine-ruby]
 from:/plasma/scriptengines/ruby/
