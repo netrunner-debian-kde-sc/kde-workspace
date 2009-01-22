@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
- kdelibs5-dev (>= 4:4.1.96),
- kdepimlibs5-dev (>= 4:4.1.96), libboost-dev,
+ kdelibs5-dev (>= 4:4.2.0),
+ kdepimlibs5-dev (>= 4:4.2.0), libboost-dev,
  python-support (>= 0.6), python-dev,
  libbluetooth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libcaptury-dev, libck-connector-dev, libdbus-1-dev, libnm-util-dev, network-manager-dev (>= 0.7.0),
@@ -168,7 +168,7 @@ Description: QEdje script engine for Plasma
 Package: plasma-scriptengine-ruby
 Section: kde
 Architecture: all
-Depends: libplasma-ruby (>= 4:4.1.82)
+Depends: libplasma-ruby (>= 4:4.2.0)
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
 Description: Ruby script engine for Plasma
  This package provides Ruby script engine for Plasma. You have to install it
@@ -179,7 +179,7 @@ Description: Ruby script engine for Plasma
 Package: plasma-scriptengine-python
 Section: kde
 Architecture: all
-Depends: ${python:Depends}, python-kde4 (>= 4:4.1.82)
+Depends: ${python:Depends}, python-kde4 (>= 4:4.2.0)
 Description: Python script engine for Plasma
  This package provides Python script engine for Plasma. You have to install it
  if you want to use Plasma applets and data engines written in Python.
