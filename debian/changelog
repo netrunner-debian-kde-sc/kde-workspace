@@ -49,6 +49,8 @@ kdebase-workspace (4:4.2.0-0r1) UNRELEASED; urgency=low
   * Exclude kdebase-runtime dependency from kdebase-workspace-libs4+5,
     libkdecorations4 and libkwineffects1.
   * Rename debian/*.lintian to debian/*.lintian-overrides.
+  * Bump debian/compat and debhelper build dependency to v7 (to get more
+    sophisticated debian/tmp handling).
 
   +++ Changes by George Kiagiadakis:
 
@@ -63,7 +65,7 @@ kdebase-workspace (4:4.2.0-0r1) UNRELEASED; urgency=low
   * 23_do_not_depend_on_bindings.diff: do no depend on python-kde4 at build
     time (circular build dependency).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:07:40 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:37:35 +0200
 
 kdebase-workspace (4:4.1.3-2) experimental; urgency=low
 
