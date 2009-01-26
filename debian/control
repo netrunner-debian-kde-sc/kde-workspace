@@ -14,7 +14,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4)
  libxrandr-dev, libxrender-dev, libxxf86misc-dev, libxi-dev,
  libsmbclient-dev, libxcb1-dev, libxine-dev, libfontconfig-dev, libglu1-mesa-dev,
  libsm-dev, libxcursor-dev, libxft-dev, libxtst-dev, libqt4-opengl-dev, libxinerama-dev,
- libxss-dev, libqedje-dev, libggadget-1.0-dev (>= 0.10.4), libggadget-qt-1.0-dev (>= 0.10.5~),
+ libxss-dev, libqedje-dev, libggadget-1.0-dev (>= 0.10.5~), libggadget-qt-1.0-dev (>= 0.10.5~),
 Standards-Version: 3.8.0
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdebase-workspace
