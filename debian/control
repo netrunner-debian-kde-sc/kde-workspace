@@ -136,6 +136,7 @@ Depends: plasma-scriptengine-javascript (>= ${source:Version}),
  plasma-scriptengine-python (>= ${source:Version}),
  plasma-scriptengine-webkit (>= ${source:Version}),
  plasma-scriptengine-googlegadgets (>= ${source:Version}),
+Recommends: plasma-scriptengine-superkaramba
 Suggests: plasma-scriptengine-kimono
 Description: a metapackage to install all Plasma script engines
  This metapackage depends on all Plasma script engines which kdebase-workspace
