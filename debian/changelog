@@ -4,7 +4,12 @@ kdebase-workspace (4:4.2.0-2) UNRELEASED; urgency=low
 
   * Make plasma-scriptengines recommend plasma-scriptengine-superkaramba.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jan 2009 12:24:57 +0200
+  ++ Changes by Armin Berres:
+
+  * Move monitor.png from the kdm to the kdebase-workspace-data package
+    (Closes:  #513593).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Jan 2009 20:07:05 +0100
 
 kdebase-workspace (4:4.2.0-1) experimental; urgency=low
 
