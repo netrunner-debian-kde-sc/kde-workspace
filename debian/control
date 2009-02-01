@@ -46,7 +46,7 @@ Recommends: plasma-scriptengines
 Suggests: x11-xkb-utils
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip, libplasma2,
  kde-window-manager (<< 4:4.1.80), kdebase-workspace-data (<< 4:4.1.82),
- kdebase-workspace-libs4+5 (<< 4:4.1.82)
+ kdebase-workspace-libs4+5 (<< 4:4.1.82), kdm (<< 4:4.2.0-2)
 Conflicts: kcontrol, libplasma1, libplasma2
 Description: core binaries for the KDE 4 base workspace module
  This package contains miscellaneous programs needed for a basic KDE 4 desktop

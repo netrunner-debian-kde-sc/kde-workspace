@@ -63,6 +63,9 @@ usr/lib/kde4/kded_khotkeys.so
 usr/lib/kde4/kded_networkstatus.so
 usr/lib/kde4/kded_powerdevil.so
 usr/lib/kde4/kfontviewpart.so
+usr/lib/kde4/kgreet_classic.so
+usr/lib/kde4/kgreet_generic.so
+usr/lib/kde4/kgreet_winbind.so
 usr/lib/kde4/kio_fonts.so
 usr/lib/kde4/krunner_bookmarksrunner.so
 usr/lib/kde4/krunner_calculatorrunner.so

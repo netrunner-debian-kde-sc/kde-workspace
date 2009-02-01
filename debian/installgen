@@ -20,6 +20,10 @@ from:/kwin/
 dst:kwin
 
 [kdm]
+# Used by other kcms.
+skip from:/kcontrol/kdm/ dst:monitor.png$
+# greeters from libs/kdm go to kdebase-workspace-bin
+skip from:/libs/kdm/
 from:/kdm/
 dst:kdm
 

@@ -12,9 +12,6 @@ usr/bin/genkdmconf
 usr/bin/kdm
 usr/bin/kdmctl
 usr/lib/kde4/kcm_kdm.so
-usr/lib/kde4/kgreet_classic.so
-usr/lib/kde4/kgreet_generic.so
-usr/lib/kde4/kgreet_winbind.so
 usr/lib/kde4/libexec/kdm_config
 usr/lib/kde4/libexec/kdm_greet
 usr/lib/kde4/libexec/krootimage
