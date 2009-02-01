@@ -10,4 +10,5 @@
 22_execute_ktrash4.diff
 23_do_not_depend_on_bindings.diff
 24_do_not_search_for_libeet.diff
+25_task.h_forward_decl_netwininfo.diff
 97_fix_target_link_libraries.diff

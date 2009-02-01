@@ -5,6 +5,9 @@ kdebase-workspace (4:4.2.0-2) UNRELEASED; urgency=low
   * Make plasma-scriptengines recommend plasma-scriptengine-superkaramba.
   * Move greeters from libs/kdm to kdebase-workspace-bin to make unlocking
     work without kdm installed (Closes: #513734).
+  * Add 25_task.h_forward_decl_netwininfo.diff which gets rid of NETWinInfo
+    header dependency (and as a result, x11 header dependencies) in task.h
+    (Closes: #499061).
 
   +++ Changes by Armin Berres:
 
@@ -17,7 +20,7 @@ kdebase-workspace (4:4.2.0-2) UNRELEASED; urgency=low
 
   * Add replaces: systemsettings (<< 4:4.1.80) (Closes: #507380)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Feb 2009 03:30:42 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Feb 2009 20:29:36 +0200
 
 kdebase-workspace (4:4.2.0-1) experimental; urgency=low
 

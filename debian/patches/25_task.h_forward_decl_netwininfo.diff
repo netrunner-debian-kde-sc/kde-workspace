@@ -1,0 +1,19 @@
+Use forward declaration for NETWinInfo class
+instead of including KDE/NETWinInfo header,
+which in turn includes much X stuff
+--- a/libs/taskmanager/task.h
++++ b/libs/taskmanager/task.h
+@@ -34,11 +34,12 @@
+ // KDE
+ #include <KDE/KSharedPtr>
+ #include <KDE/KWindowSystem>
+-#include <KDE/NETWinInfo>
+ 
+ #include <taskmanager/taskmanager.h>
+ #include <taskmanager/taskmanager_export.h>
+ 
++class NETWinInfo;
++
+ namespace TaskManager
+ {
+ 
