@@ -6,12 +6,16 @@ kdebase-workspace (4:4.2.0-2) UNRELEASED; urgency=low
   * Move greeters from libs/kdm to kdebase-workspace-bin to make unlocking
     work without kdm installed (Closes: #513734).
 
-  ++ Changes by Armin Berres:
+  +++ Changes by Armin Berres:
 
   * Move monitor.png from the kdm to the kdebase-workspace-data package
     (Closes:  #513593).
   * Explicitly build-depend on libnm-util-dev >= 0.7, for building against
     network-manager 0.7 (Closes: #513674).
+
+  +++ Changes by Xavier Vello:
+
+  * Add replaces: systemsettings (<< 4:4.1.80) (Closes: #507380)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Feb 2009 03:30:42 +0200
 
