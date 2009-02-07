@@ -1,8 +1,10 @@
 Use forward declaration for NETWinInfo class
 instead of including KDE/NETWinInfo header,
 which in turn includes much X stuff
---- a/libs/taskmanager/task.h
-+++ b/libs/taskmanager/task.h
+Index: kdebase-workspace/libs/taskmanager/task.h
+===================================================================
+--- kdebase-workspace.orig/libs/taskmanager/task.h	2009-01-03 15:21:25.000000000 +0200
++++ kdebase-workspace/libs/taskmanager/task.h	2009-02-07 19:14:08.000000000 +0200
 @@ -34,11 +34,12 @@
  // KDE
  #include <KDE/KSharedPtr>
@@ -17,3 +19,27 @@ which in turn includes much X stuff
  namespace TaskManager
  {
  
+Index: kdebase-workspace/libs/taskmanager/task.cpp
+===================================================================
+--- kdebase-workspace.orig/libs/taskmanager/task.cpp	2009-02-07 19:14:30.000000000 +0200
++++ kdebase-workspace/libs/taskmanager/task.cpp	2009-02-07 19:15:05.000000000 +0200
+@@ -40,6 +40,7 @@
+ #include <KDebug>
+ #include <KIconLoader>
+ #include <KLocale>
++#include <NETWinInfo>
+ 
+ #include "taskmanager.h"
+ 
+Index: kdebase-workspace/libs/taskmanager/taskmanager.cpp
+===================================================================
+--- kdebase-workspace.orig/libs/taskmanager/taskmanager.cpp	2009-02-07 19:15:18.000000000 +0200
++++ kdebase-workspace/libs/taskmanager/taskmanager.cpp	2009-02-07 19:15:32.000000000 +0200
+@@ -35,6 +35,7 @@
+ #include <KDebug>
+ #include <KGlobal>
+ #include <KLocale>
++#include <NETWinInfo>
+ 
+ #ifdef Q_WS_X11
+ #include <QX11Info>
