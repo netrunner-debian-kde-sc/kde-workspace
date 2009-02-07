@@ -15,12 +15,14 @@ kdebase-workspace (4:4.2.0-2) UNRELEASED; urgency=low
     (Closes:  #513593).
   * Explicitly build-depend on libnm-util-dev >= 0.7, for building against
     network-manager 0.7 (Closes: #513674).
+  * Disable the "Might wreak havoc." message at kdm startup. Everything is
+    fine with our setup.
 
   +++ Changes by Xavier Vello:
 
-  * Add replaces: systemsettings (<< 4:4.1.80) (Closes: #507380)
+  * Add replaces: systemsettings (<< 4:4.1.80) (Closes: #507380).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Feb 2009 20:29:36 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Feb 2009 18:37:06 +0100
 
 kdebase-workspace (4:4.2.0-1) experimental; urgency=low
 

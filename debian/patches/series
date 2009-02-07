@@ -1,3 +1,4 @@
+06_kdm_does_not_wreak_havoc.diff
 07_kdmrc_defaults.diff
 08_genkdmconf.diff
 09_genkdm_make.diff
