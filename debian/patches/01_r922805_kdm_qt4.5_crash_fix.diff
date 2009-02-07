@@ -1,0 +1,42 @@
+Index: kdebase-workspace/kdm/kfrontend/kgapp.cpp
+===================================================================
+--- kdebase-workspace.orig/kdm/kfrontend/kgapp.cpp	2009-02-07 18:43:54.000000000 +0200
++++ kdebase-workspace/kdm/kfrontend/kgapp.cpp	2009-02-07 18:44:31.000000000 +0200
+@@ -70,7 +70,7 @@
+ 
+ }
+ 
+-GreeterApp::GreeterApp( int argc, char **argv ) :
++GreeterApp::GreeterApp( int &argc, char **argv ) :
+ 	inherited( argc, argv ),
+ 	regrabPtr( false ), regrabKbd( false ),
+ 	dragWidget( 0 )
+@@ -296,13 +296,14 @@
+ 	}
+ 
+ 	static char *fakeArgv[] = { (char *)"kdmgreet", 0 };
++	static int fakeArgc = as(fakeArgv) - 1;
+ 
+ 	KCrash::setFlags( KCrash::KeepFDs | KCrash::SaferDialog | KCrash::AlwaysDirectly );
+ 	KCrash::setApplicationName( QLatin1String( fakeArgv[0] ) );
+ 	KCrash::setCrashHandler( KCrash::defaultCrashHandler );
+ 	XSetIOErrorHandler( xIOErr );
+ 	KComponentData inst( fakeArgv[0] );
+-	GreeterApp app( as(fakeArgv) - 1, fakeArgv );
++	GreeterApp app( fakeArgc, fakeArgv );
+ 	foreach (const QString &dir, KGlobal::dirs()->resourceDirs( "qtplugins" ))
+ 		app.addLibraryPath( dir );
+ 	initQAppConfig();
+Index: kdebase-workspace/kdm/kfrontend/kgapp.h
+===================================================================
+--- kdebase-workspace.orig/kdm/kfrontend/kgapp.h	2009-02-07 18:43:54.000000000 +0200
++++ kdebase-workspace/kdm/kfrontend/kgapp.h	2009-02-07 18:44:18.000000000 +0200
+@@ -35,7 +35,7 @@
+ 	typedef QApplication inherited;
+ 
+   public:
+-	GreeterApp(int argc, char **argv);
++	GreeterApp(int &argc, char **argv);
+ 	virtual bool x11EventFilter( XEvent * );
+ 
+   protected:

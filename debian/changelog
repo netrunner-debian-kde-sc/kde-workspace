@@ -22,7 +22,12 @@ kdebase-workspace (4:4.2.0-2) UNRELEASED; urgency=low
 
   * Add replaces: systemsettings (<< 4:4.1.80) (Closes: #507380).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Feb 2009 18:37:06 +0100
+  +++ Changes by George Kiagiadakis:
+
+  * Add patch 01_r922805_kdm_qt4.5_crash_fix.diff from upstream, which fixes
+    a kdm crash with Qt 4.5-rc1.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Feb 2009 18:46:22 +0200
 
 kdebase-workspace (4:4.2.0-1) experimental; urgency=low
 
