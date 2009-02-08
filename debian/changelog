@@ -27,7 +27,12 @@ kdebase-workspace (4:4.2.0-2) UNRELEASED; urgency=low
   * Add patch 01_r922805_kdm_qt4.5_crash_fix.diff from upstream, which fixes
     a kdm crash with Qt 4.5-rc1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Feb 2009 18:46:22 +0200
+  +++ Changes by Pino Toscano:
+
+  * Add patch 02_r923562_kephal_qreal_dbus.diff from upstream r923562 to fix
+    build of kephal in archs where qreal is not double.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Feb 2009 00:18:02 +0200
 
 kdebase-workspace (4:4.2.0-1) experimental; urgency=low
 
