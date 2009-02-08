@@ -1,8 +1,9 @@
-Index: kdebase-workspace/kdm/kfrontend/kgapp.cpp
-===================================================================
---- kdebase-workspace.orig/kdm/kfrontend/kgapp.cpp	2009-02-07 18:43:54.000000000 +0200
-+++ kdebase-workspace/kdm/kfrontend/kgapp.cpp	2009-02-07 18:44:31.000000000 +0200
-@@ -70,7 +70,7 @@
+fix crash with qt 4.5.
+argc is passed to qapp by ref and needs to outlive the ctor
+
+--- a/kdm/kfrontend/kgapp.cpp
++++ b/kdm/kfrontend/kgapp.cpp
+@@ -70,7 +70,7 @@ sigAlarm( int )
  
  }
  
@@ -11,7 +12,7 @@ Index: kdebase-workspace/kdm/kfrontend/kgapp.cpp
  	inherited( argc, argv ),
  	regrabPtr( false ), regrabKbd( false ),
  	dragWidget( 0 )
-@@ -296,13 +296,14 @@
+@@ -296,13 +296,14 @@ main( int argc ATTR_UNUSED, char **argv 
  	}
  
  	static char *fakeArgv[] = { (char *)"kdmgreet", 0 };
@@ -27,11 +28,9 @@ Index: kdebase-workspace/kdm/kfrontend/kgapp.cpp
  	foreach (const QString &dir, KGlobal::dirs()->resourceDirs( "qtplugins" ))
  		app.addLibraryPath( dir );
  	initQAppConfig();
-Index: kdebase-workspace/kdm/kfrontend/kgapp.h
-===================================================================
---- kdebase-workspace.orig/kdm/kfrontend/kgapp.h	2009-02-07 18:43:54.000000000 +0200
-+++ kdebase-workspace/kdm/kfrontend/kgapp.h	2009-02-07 18:44:18.000000000 +0200
-@@ -35,7 +35,7 @@
+--- a/kdm/kfrontend/kgapp.h
++++ b/kdm/kfrontend/kgapp.h
+@@ -35,7 +35,7 @@ class GreeterApp : public QApplication {
  	typedef QApplication inherited;
  
    public:
