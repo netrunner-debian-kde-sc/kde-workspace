@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.2.0-2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.2.0-2) experimental; urgency=low
 
   +++ Changes by Modestas Vainius:
 
@@ -33,7 +33,7 @@ kdebase-workspace (4:4.2.0-2) UNRELEASED; urgency=low
   * Add patch 02_r923562_kephal_qreal_dbus.diff from upstream r923562 to fix
     build of kephal in archs where qreal is not double.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Feb 2009 00:19:48 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Feb 2009 00:53:08 +0100
 
 kdebase-workspace (4:4.2.0-1) experimental; urgency=low
 
