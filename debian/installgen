@@ -54,7 +54,7 @@ dst:usr/lib/lib[^/]+\.so\.
 [plasma-dataengines-workspace]
 from:/plasma/dataengines/
 
-[plasma-applets-workspace]
+[plasma-widgets-workspace]
 from:/plasma/applets/
 from:/plasma/animators/
 from:/plasma/containments/

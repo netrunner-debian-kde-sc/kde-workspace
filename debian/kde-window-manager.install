@@ -4,7 +4,6 @@ usr/bin/kwin_rules_dialog
 usr/lib/kconf_update_bin/kwin_update_default_rules
 usr/lib/kconf_update_bin/kwin_update_window_settings
 usr/lib/kde4/kcm_kwin4_effect_builtins.so
-usr/lib/kde4/kcm_kwin4_effect_videorecord.so
 usr/lib/kde4/kcm_kwincompositing.so
 usr/lib/kde4/kcm_kwindecoration.so
 usr/lib/kde4/kcm_kwindesktop.so
@@ -22,7 +21,6 @@ usr/lib/kde4/kwin3_quartz.so
 usr/lib/kde4/kwin3_redmond.so
 usr/lib/kde4/kwin3_web.so
 usr/lib/kde4/kwin4_effect_builtins.so
-usr/lib/kde4/kwin4_effect_videorecord.so
 usr/lib/kde4/kwin_b2_config.so
 usr/lib/kde4/kwin_kde2_config.so
 usr/lib/kde4/kwin_keramik_config.so
@@ -165,8 +163,6 @@ usr/share/kde4/services/kwin/thumbnailaside.desktop
 usr/share/kde4/services/kwin/thumbnailaside_config.desktop
 usr/share/kde4/services/kwin/trackmouse.desktop
 usr/share/kde4/services/kwin/trackmouse_config.desktop
-usr/share/kde4/services/kwin/videorecord.desktop
-usr/share/kde4/services/kwin/videorecord_config.desktop
 usr/share/kde4/services/kwin/wobblywindows.desktop
 usr/share/kde4/services/kwin/wobblywindows_config.desktop
 usr/share/kde4/services/kwin/zoom.desktop

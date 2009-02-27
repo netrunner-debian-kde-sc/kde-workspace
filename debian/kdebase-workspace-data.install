@@ -49,9 +49,9 @@ usr/share/doc/kde4/HTML/en/kcontrol/keys/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/mouse/common
 usr/share/doc/kde4/HTML/en/kcontrol/mouse/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/mouse/index.docbook
-usr/share/doc/kde4/HTML/en/kcontrol/powerdevilconfig/common
-usr/share/doc/kde4/HTML/en/kcontrol/powerdevilconfig/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kcontrol/powerdevilconfig/index.docbook
+usr/share/doc/kde4/HTML/en/kcontrol/powerdevil/common
+usr/share/doc/kde4/HTML/en/kcontrol/powerdevil/index.cache.bz2
+usr/share/doc/kde4/HTML/en/kcontrol/powerdevil/index.docbook
 usr/share/doc/kde4/HTML/en/kcontrol/screensaver/common
 usr/share/doc/kde4/HTML/en/kcontrol/screensaver/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/screensaver/index.docbook

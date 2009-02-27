@@ -1,8 +1,18 @@
-kdebase-workspace (4:4.2.0-3) UNRELEASED; urgency=low
+kdebase-workspace (4:4.2.1-0r1) UNRELEASED; urgency=low
 
-  * ... 
+  * New upstream release.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 22 Feb 2009 01:38:27 +0100
+  +++ Changes by Modestas Vainius:
+
+  * Remove patches stolen from upstream:
+    - 01_r922805_kdm_qt4.5_crash_fix.diff
+    - 02_r923562_kephal_qreal_dbus.diff.
+  * Rename plasma-applets-workspace to plasma-widgets-workspace,
+    add conflicts/replaces against the old name.
+  * Replace all plasma "applet" references with "widget".
+  * Update install files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Feb 2009 22:21:06 +0200
 
 kdebase-workspace (4:4.2.0-2) experimental; urgency=low
 

@@ -40,7 +40,7 @@ Description: base workspace components from the official KDE 4 release
 Package: kdebase-workspace-bin
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, plasma-applets-workspace (= ${binary:Version}),
+Depends: ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version}),
  kdebase-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils
 Recommends: plasma-scriptengines
 Suggests: x11-xkb-utils
@@ -106,19 +106,20 @@ Conflicts: libplasma2
 Description: KDE 4 base workspace Plasma data engines
  This package contains standard Plasma data engines shipped in KDE 4 base
  workspace module. These engines are needed by the standard KDE 4 base
- workspace Plasma applets, but they may be useful for any other Plasma applet
+ workspace Plasma widgets, but they may be useful for any other Plasma widget
  too.
  .
  This package is part of the KDE 4 base workspace module.
 
-Package: plasma-applets-workspace
+Package: plasma-widgets-workspace
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, plasma-dataengines-workspace (= ${binary:Version})
-Replaces: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82), libplasma2
-Conflicts: libplasma2
-Description: KDE 4 base workspace Plasma applets and containments
- This package contains standard Plasma applets and containments shipped in the
+Replaces: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82), libplasma2,
+ plasma-applets-workspace
+Conflicts: libplasma2, plasma-applets-workspace
+Description: KDE 4 base workspace Plasma widgets and containments
+ This package contains standard Plasma widgets and containments shipped in the
  KDE 4 base workspace module. They provide such basic desktop functionality as
  the panel, task manager, application laucher, clock and more. The default KDE
  4 desktop is a combination of these visual components.
@@ -152,7 +153,7 @@ Depends: ${shlibs:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82)
 Description: javascript script engine for Plasma
  This package provides javascript script engine for Plasma. You have to install
- it if you want to use Plasma applets and data engines written in javascript.
+ it if you want to use Plasma widgets and data engines written in javascript.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -162,7 +163,7 @@ Architecture: any
 Depends: ${shlibs:Depends}
 Description: QEdje script engine for Plasma
  This package provides QEdje script engine for Plasma. You have to install it
- if you want to use Plasma applets and data engines written in QEdje.
+ if you want to use Plasma widgets and data engines written in QEdje.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -173,7 +174,7 @@ Depends: libplasma-ruby (>= 4:4.2.0)
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
 Description: Ruby script engine for Plasma
  This package provides Ruby script engine for Plasma. You have to install it
- if you want to use Plasma applets and data engines written in Ruby.
+ if you want to use Plasma widgets and data engines written in Ruby.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -183,7 +184,7 @@ Architecture: all
 Depends: ${python:Depends}, python-kde4 (>= 4:4.2.0)
 Description: Python script engine for Plasma
  This package provides Python script engine for Plasma. You have to install it
- if you want to use Plasma applets and data engines written in Python.
+ if you want to use Plasma widgets and data engines written in Python.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -208,7 +209,7 @@ Depends: ${shlibs:Depends}, google-gadgets-qt, google-gadgets-xul
 Description: Google Gadgets script engine for Plasma
  This package contains Google Gadgets script engine for Plasma. It enables
  Plasma to serve as a Google Gadgets host and allows to load and use any gadget
- as if it was a Plasma applet. It also integrates download and installation of
+ as if it was a Plasma widget. It also integrates download and installation of
  new gadgets from the official Google Desktop Gadgets website.
  .
  This package is part of the KDE 4 base workspace module.
