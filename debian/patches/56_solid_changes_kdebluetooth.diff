@@ -1,3 +1,5 @@
+This patch is abi-breaking and should not be applied in debian as it is now.
+
 --- a/solid/bluez/bluez-bluetoothinterface.cpp
 +++ b/solid/bluez/bluez-bluetoothinterface.cpp
 @@ -25,6 +25,7 @@
