@@ -1,9 +1,15 @@
 kdebase-workspace (4:4.2.1-3) UNRELEASED; urgency=low
 
+  * New upstream release.
+  
   TODO: split kdm greeters in a package. (Closes: #520426)
         kdm and kdebase-workspace(-bin) should depends on this new package.
+  
+  +++ Changes by Ana Beatriz Guerrero Lopez:
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Mar 2009 19:06:26 +0100
+  * Remove merged patches: 00_4.2.1_real and 00_r934863_plasma_geometry_crash.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Mar 2009 06:31:48 +0200
 
 kdebase-workspace (4:4.2.1-2) experimental; urgency=low
 
