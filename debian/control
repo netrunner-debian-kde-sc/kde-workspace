@@ -60,7 +60,7 @@ Description: core binaries for the KDE 4 base workspace module
 Package: kdebase-workspace-libs4+5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kaboom
+Depends: ${shlibs:Depends}, ${misc:Depends}, kaboom (>=1.0.0)
 Replaces: ksysguard (<= 4:4.0.72-1), kdebase-workspace-bin (<= 4:4.0.72-1), libplasma2
 Conflicts: libplasma2, kdebase-workspace-bin (<< 4:4.1.82)
 Description: libraries provided by the KDE 4 base workspace module

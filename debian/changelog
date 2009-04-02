@@ -14,9 +14,9 @@ kdebase-workspace (4:4.2.2-0r2) UNRELEASED; urgency=low
   +++ Changes by Sune Vuorela:
 
   * Hack in kaboom in startkde script.
-  * Depend on kaboom.
+  * Depend on kaboom (>=1.0.0).
   * Bump build deps.
-  * Sprinkle over a lot of ${misc:Depends} in control
+  * Sprinkle over a lot of ${misc:Depends} in control.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Mar 2009 12:45:52 +0300
 
