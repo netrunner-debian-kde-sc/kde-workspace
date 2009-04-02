@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.2.2-0r1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.2.2-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
   
@@ -10,6 +10,13 @@ kdebase-workspace (4:4.2.2-0r1) UNRELEASED; urgency=low
   * Remove merged patches: 00_4.2.1_real and 00_r934863_plasma_geometry_crash.
   * Update installed files, cmake files changed from usr/lib/cmake/KDE4Workspace-4.2.0
     to usr/lib/cmake/KDE4Workspace-4.2.*.
+
+  +++ Changes by Sune Vuorela:
+
+  * Hack in kaboom in startkde script.
+  * Depend on kaboom.
+  * Bump build deps.
+  * Sprinkle over a lot of ${misc:Depends} in control
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Mar 2009 12:45:52 +0300
 

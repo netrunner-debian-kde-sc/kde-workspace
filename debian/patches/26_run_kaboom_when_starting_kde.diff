@@ -1,0 +1,19 @@
+--- a/startkde.cmake
++++ b/startkde.cmake
+@@ -7,6 +7,16 @@
+ # because we still need to do some cleanup.
+ trap 'echo GOT SIGHUP' HUP
+ 
++if [ ! -f $HOME/.local/kdebian3to4 ] 
++then 
++	kaboom -style plastique
++	RET = $? 
++	if [ "$RET" != "0" ]
++	then 
++		exit $RET 
++	fi
++fi
++
+ # Check if a KDE session already is running and whether it's possible to connect to X
+ kcheckrunning
+ kcheckrunning_result=$?

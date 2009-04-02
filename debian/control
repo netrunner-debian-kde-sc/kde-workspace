@@ -3,8 +3,8 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4),
- kdelibs5-dev (>= 4:4.2.0), kdepimlibs5-dev (>= 4:4.2.0), libboost-dev,
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
+ kdelibs5-dev (>= 4:4.2.2), kdepimlibs5-dev (>= 4:4.2.2), libboost-dev,
  python-support (>= 0.6), python-dev,
  libbluetooth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libcaptury-dev, libck-connector-dev, libdbus-1-dev, libnm-util-dev (>= 0.7), network-manager-dev (>= 0.7.0),
@@ -60,7 +60,7 @@ Description: core binaries for the KDE 4 base workspace module
 Package: kdebase-workspace-libs4+5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, kaboom
 Replaces: ksysguard (<= 4:4.0.72-1), kdebase-workspace-bin (<= 4:4.0.72-1), libplasma2
 Conflicts: libplasma2, kdebase-workspace-bin (<< 4:4.1.82)
 Description: libraries provided by the KDE 4 base workspace module
@@ -72,7 +72,7 @@ Description: libraries provided by the KDE 4 base workspace module
 Package: kdebase-workspace-data
 Section: kde
 Architecture: all
-Depends: oxygencursors
+Depends: oxygencursors, ${misc:Depends}
 Conflicts: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
  kmenuedit, ktip, libplasma1, systemsettings (<< 4:4.1.80)
 Replaces: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
@@ -89,7 +89,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase-workspace-libs4+5 (= ${binary:Version}),
  libkwineffects1 (= ${binary:Version}), libkdecorations4 (= ${binary:Version}),
- ${sameVersionDep:kdelibs5-dev:kdebase-workspace-bin}
+ ${sameVersionDep:kdelibs5-dev:kdebase-workspace-bin}, ${misc:Depends}
 Replaces: kdebase-workspace-data (<< 4:4.1.80), ksysguard (<< 4:4.1.80), libplasma-dev (<< 4:4.1.80),
  kde-window-manager (<< 4:4.1.80)
 Description: development files for the KDE 4 base workspace module
@@ -99,7 +99,7 @@ Description: development files for the KDE 4 base workspace module
 Package: plasma-dataengines-workspace
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82),
  systemsettings (<< 4:4.1.80), libplasma2
 Conflicts: libplasma2
@@ -114,7 +114,7 @@ Description: KDE 4 base workspace Plasma data engines
 Package: plasma-widgets-workspace
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, plasma-dataengines-workspace (= ${binary:Version})
+Depends: ${shlibs:Depends}, plasma-dataengines-workspace (= ${binary:Version}), ${misc:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82), libplasma2,
  plasma-applets-workspace
 Conflicts: libplasma2, plasma-applets-workspace
@@ -137,7 +137,7 @@ Depends: plasma-scriptengine-javascript (>= ${source:Version}),
  plasma-scriptengine-ruby (>= ${source:Version}),
  plasma-scriptengine-python (>= ${source:Version}),
  plasma-scriptengine-webkit (>= ${source:Version}),
- plasma-scriptengine-googlegadgets (>= ${source:Version}),
+ plasma-scriptengine-googlegadgets (>= ${source:Version}), ${misc:Depends}
 Recommends: plasma-scriptengine-superkaramba
 Suggests: plasma-scriptengine-kimono
 Description: a metapackage to install all Plasma script engines
@@ -149,7 +149,7 @@ Description: a metapackage to install all Plasma script engines
 Package: plasma-scriptengine-javascript
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82)
 Description: javascript script engine for Plasma
  This package provides javascript script engine for Plasma. You have to install
@@ -160,7 +160,7 @@ Description: javascript script engine for Plasma
 Package: plasma-scriptengine-qedje
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: QEdje script engine for Plasma
  This package provides QEdje script engine for Plasma. You have to install it
  if you want to use Plasma widgets and data engines written in QEdje.
@@ -170,7 +170,7 @@ Description: QEdje script engine for Plasma
 Package: plasma-scriptengine-ruby
 Section: kde
 Architecture: all
-Depends: libplasma-ruby (>= 4:4.2.0)
+Depends: libplasma-ruby (>= 4:4.2.0), ${misc:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
 Description: Ruby script engine for Plasma
  This package provides Ruby script engine for Plasma. You have to install it
@@ -181,7 +181,7 @@ Description: Ruby script engine for Plasma
 Package: plasma-scriptengine-python
 Section: kde
 Architecture: all
-Depends: ${python:Depends}, python-kde4 (>= 4:4.2.0)
+Depends: ${python:Depends}, python-kde4 (>= 4:4.2.0), ${misc:Depends}
 Description: Python script engine for Plasma
  This package provides Python script engine for Plasma. You have to install it
  if you want to use Plasma widgets and data engines written in Python.
@@ -205,7 +205,7 @@ Package: plasma-scriptengine-googlegadgets
 Section: kde
 Priority: extra
 Architecture: any
-Depends: ${shlibs:Depends}, google-gadgets-qt, google-gadgets-xul
+Depends: ${shlibs:Depends}, google-gadgets-qt, google-gadgets-xul, ${misc:Depends}
 Description: Google Gadgets script engine for Plasma
  This package contains Google Gadgets script engine for Plasma. It enables
  Plasma to serve as a Google Gadgets host and allows to load and use any gadget
@@ -217,7 +217,7 @@ Description: Google Gadgets script engine for Plasma
 Package: kdm
 Section: x11
 Architecture: any
-Depends: ${shlibs:Depends}, debconf | debconf-2.0, lsb-base (>= 3.2-14), consolekit
+Depends: ${shlibs:Depends}, debconf | debconf-2.0, lsb-base (>= 3.2-14), consolekit, ${misc:Depends}
 Recommends: logrotate, xserver-xorg-core | xserver,
  kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
 Suggests: kdepasswd
@@ -237,7 +237,7 @@ Description: KDE Display Manager for X11
 Package: klipper
 Section: x11
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-data (<< 4:4.1.80)
 Description: clipboard utility for KDE 4
  Klipper is the KDE 4 clipboard utility. It stores a history of the clipboard
@@ -249,7 +249,7 @@ Description: clipboard utility for KDE 4
 Package: ksysguardd
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: System Guard Daemon for KDE 4
  KDE System Guard Daemon can be installed on a remote system so that the KDE
  System Guard can connect to and monitor it.
@@ -259,7 +259,7 @@ Description: System Guard Daemon for KDE 4
 Package: ksysguard
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: ksysguardd (= ${binary:Version})
 Replaces: kdebase-workspace-data (<< 4:4.1.80)
 Description: System Guard for KDE 4
@@ -273,7 +273,7 @@ Description: System Guard for KDE 4
 Package: kde-window-manager
 Section: x11
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: x-window-manager
 Replaces: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80),
  kwin, kdebase-runtime-data (<< 4:4.0.81)
@@ -287,7 +287,7 @@ Description: the KDE 4 window manager (KWin)
 Package: libkdecorations4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kwin (>= 4:4.0.1-1)
 Conflicts: kwin (>= 4:4.0.1-1)
 Description: library used by decorations for the KDE 4 window manager
@@ -299,7 +299,7 @@ Description: library used by decorations for the KDE 4 window manager
 Package: libkwineffects1
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kwin (>= 4:4.0.1-1)
 Conflicts: kwin (>= 4:4.0.1-1)
 Description: library used by effects for the KDE 4 window manager
@@ -310,7 +310,7 @@ Description: library used by effects for the KDE 4 window manager
 Package: systemsettings
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-bin (<= 4:4.0.98-1), kdebase-workspace-data (<< 4:4.1.80)
 Description: KDE 4 System Settings
  System Settings is an improved user interface for configuring the desktop
@@ -322,7 +322,7 @@ Package: kdebase-workspace-dbg
 Section: devel
 Architecture: any
 Priority: extra
-Depends: kdebase-runtime-dbg, kdebase-workspace-libs4+5 (= ${binary:Version})
+Depends: kdebase-runtime-dbg, kdebase-workspace-libs4+5 (= ${binary:Version}), ${misc:Depends}
 Conflicts: kdebase-dbg (<< 4:4.0)
 Replaces: kdebase-dbg (<< 4:4.0)
 Suggests: kdebase-workspace (>= ${source:Version})

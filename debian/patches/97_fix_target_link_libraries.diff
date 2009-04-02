@@ -10,9 +10,9 @@
  install(TARGETS kworkspace EXPORT kdeworkspaceLibraryTargets ${INSTALL_TARGETS_DEFAULT_ARGS} )
 --- a/libs/taskmanager/CMakeLists.txt
 +++ b/libs/taskmanager/CMakeLists.txt
-@@ -33,6 +33,7 @@
-   target_link_libraries(taskmanager ${X11_Xcomposite_LIB})
- endif (X11_Xcomposite_FOUND)
+@@ -37,6 +37,7 @@
+ 
+ target_link_libraries(taskmanager kephal)
  
 +target_link_libraries(taskmanager LINK_INTERFACE_LIBRARIES ${QT_QTGUI_LIBRARY} )
  set_target_properties(taskmanager PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
