@@ -7,7 +7,7 @@
 +if [ ! -f $HOME/.local/kdebian3to4 ] 
 +then 
 +	kaboom -style plastique
-+	RET = $? 
++	RET=$? 
 +	if [ "$RET" != "0" ]
 +	then 
 +		exit $RET 
