@@ -4,7 +4,7 @@
  # because we still need to do some cleanup.
  trap 'echo GOT SIGHUP' HUP
  
-+if [ ! -f $HOME/.local/kdebian3to4 ] 
++if [ ! -f $HOME/.local/kaboom ] 
 +then 
 +	kaboom -style plastique
 +	RET=$? 

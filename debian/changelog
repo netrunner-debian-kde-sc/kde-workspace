@@ -1,9 +1,6 @@
-kdebase-workspace (4:4.2.2-0r2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.2.2-0r3) unstable; urgency=low
 
   * New upstream release.
-  
-  TODO: split kdm greeters in a package. (Closes: #520426)
-        kdm and kdebase-workspace(-bin) should depends on this new package.
   
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
@@ -18,7 +15,7 @@ kdebase-workspace (4:4.2.2-0r2) UNRELEASED; urgency=low
   * Bump build deps.
   * Sprinkle over a lot of ${misc:Depends} in control.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Mar 2009 12:45:52 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Apr 2009 19:37:35 +0300
 
 kdebase-workspace (4:4.2.1-2) experimental; urgency=low
 
