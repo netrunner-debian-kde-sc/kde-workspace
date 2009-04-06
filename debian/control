@@ -41,7 +41,8 @@ Package: kdebase-workspace-bin
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version}),
- kdebase-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils
+ kdebase-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils,
+ kaboom (>= 1.0.5)
 Recommends: plasma-scriptengines
 Suggests: x11-xkb-utils
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip, libplasma2,
@@ -60,7 +61,7 @@ Description: core binaries for the KDE 4 base workspace module
 Package: kdebase-workspace-libs4+5
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kaboom (>= 1.0.4)
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: ksysguard (<= 4:4.0.72-1), kdebase-workspace-bin (<= 4:4.0.72-1), libplasma2
 Conflicts: libplasma2, kdebase-workspace-bin (<< 4:4.1.82)
 Description: libraries provided by the KDE 4 base workspace module

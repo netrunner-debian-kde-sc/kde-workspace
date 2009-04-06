@@ -1,3 +1,11 @@
+kdebase-workspace (4:4.2.2-2) unstable; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Move kaboom to kdebase-workspace-bin Depends.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Apr 2009 11:41:36 +0300
+
 kdebase-workspace (4:4.2.2-1) unstable; urgency=low
 
   * New upstream release.
