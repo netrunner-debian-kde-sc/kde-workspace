@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.2.2-0r3) unstable; urgency=low
+kdebase-workspace (4:4.2.2-1) unstable; urgency=low
 
   * New upstream release.
   
@@ -15,7 +15,7 @@ kdebase-workspace (4:4.2.2-0r3) unstable; urgency=low
   * Bump build deps.
   * Sprinkle over a lot of ${misc:Depends} in control.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Apr 2009 19:37:35 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Apr 2009 03:22:16 +0200
 
 kdebase-workspace (4:4.2.1-2) experimental; urgency=low
 
