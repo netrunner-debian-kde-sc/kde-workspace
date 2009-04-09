@@ -44,6 +44,7 @@ from:/ksysguard/
 
 [systemsettings]
 dst:usr/lib/kde4/kcm_(colors|fonts|style)\.so$
+dst:usr/share/kde4/services/(colors|fonts|style)\.desktop$
 from:/systemsettings/
 
 [kdebase-workspace-libs4+5]
