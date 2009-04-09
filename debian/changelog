@@ -1,3 +1,13 @@
+kdebase-workspace (4:4.2.2-3) UNRELEASED; urgency=low
+
+  +++ Changes by George Kiagiadakis:
+
+  * Move the .desktop files of kcm_fonts, kcm_style and kcm_colors
+    to the systemsettings package, so that these kcms can actually
+    work without kdebase-workspace-bin.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Apr 2009 01:20:51 +0300
+
 kdebase-workspace (4:4.2.2-2) unstable; urgency=low
 
   +++ Changes by Modestas Vainius:

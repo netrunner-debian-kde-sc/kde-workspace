@@ -312,7 +312,7 @@ Package: systemsettings
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdebase-workspace-bin (<= 4:4.0.98-1), kdebase-workspace-data (<< 4:4.1.80)
+Replaces: kdebase-workspace-bin (<= 4:4.2.2-2), kdebase-workspace-data (<< 4:4.1.80)
 Description: KDE 4 System Settings
  System Settings is an improved user interface for configuring the desktop
  and other aspects of the system.

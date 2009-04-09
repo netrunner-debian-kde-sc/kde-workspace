@@ -115,12 +115,10 @@ usr/share/kde4/services/ServiceMenus/installfont.desktop
 usr/share/kde4/services/autostart.desktop
 usr/share/kde4/services/bell.desktop
 usr/share/kde4/services/clock.desktop
-usr/share/kde4/services/colors.desktop
 usr/share/kde4/services/desktopthemedetails.desktop
 usr/share/kde4/services/display.desktop
 usr/share/kde4/services/energy.desktop
 usr/share/kde4/services/fontinst.desktop
-usr/share/kde4/services/fonts.desktop
 usr/share/kde4/services/fontthumbnail.desktop
 usr/share/kde4/services/joystick.desktop
 usr/share/kde4/services/kaccess.desktop
@@ -162,7 +160,6 @@ usr/share/kde4/services/solidbackends/solid_fakenet.desktop
 usr/share/kde4/services/solidbackends/solid_hal_power.desktop
 usr/share/kde4/services/solidbackends/solid_networkmanager07.desktop
 usr/share/kde4/services/standard_actions.desktop
-usr/share/kde4/services/style.desktop
 usr/share/kde4/services/xinerama.desktop
 usr/share/kde4/servicetypes/screensaver.desktop
 usr/share/kde4/servicetypes/solidbluetoothmanager.desktop

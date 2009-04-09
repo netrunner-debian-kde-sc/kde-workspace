@@ -8,6 +8,8 @@ usr/share/doc/kde4/HTML/en/systemsettings/common
 usr/share/doc/kde4/HTML/en/systemsettings/index.cache.bz2
 usr/share/doc/kde4/HTML/en/systemsettings/index.docbook
 usr/share/kde4/apps/systemsettings/systemsettingsui.rc
+usr/share/kde4/services/colors.desktop
+usr/share/kde4/services/fonts.desktop
 usr/share/kde4/services/settings-about-me.desktop
 usr/share/kde4/services/settings-accessibility.desktop
 usr/share/kde4/services/settings-advanced-user-settings.desktop
@@ -28,4 +30,5 @@ usr/share/kde4/services/settings-regional-and-language.desktop
 usr/share/kde4/services/settings-sharing.desktop
 usr/share/kde4/services/settings-system.desktop
 usr/share/kde4/services/settings-window-behaviour.desktop
+usr/share/kde4/services/style.desktop
 usr/share/kde4/servicetypes/systemsettingscategory.desktop
