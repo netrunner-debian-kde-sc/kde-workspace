@@ -11,6 +11,7 @@ kdebase-workspace (4:4.2.3-1) UNRELEASED; urgency=low
   +++ Changes by Fathi Boudra:
 
   * Bump Standards-Version from 3.8.0 to 3.8.1 (no changes needed).
+  * Update installed files: add kcm_keyboard.desktop in kdebase-workspace-bin.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 May 2009 18:23:19 +0200
 

@@ -122,6 +122,7 @@ usr/share/kde4/services/fontinst.desktop
 usr/share/kde4/services/fontthumbnail.desktop
 usr/share/kde4/services/joystick.desktop
 usr/share/kde4/services/kaccess.desktop
+usr/share/kde4/services/kcm_keyboard.desktop
 usr/share/kde4/services/kcm_solid.desktop
 usr/share/kde4/services/kcmaccess.desktop
 usr/share/kde4/services/kcmlaunch.desktop
