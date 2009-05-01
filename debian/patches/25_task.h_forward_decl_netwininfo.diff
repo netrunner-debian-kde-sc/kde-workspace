@@ -1,11 +1,9 @@
 Use forward declaration for NETWinInfo class
 instead of including KDE/NETWinInfo header,
 which in turn includes much X stuff
-Index: kdebase-workspace/libs/taskmanager/task.h
-===================================================================
---- kdebase-workspace.orig/libs/taskmanager/task.h	2009-01-03 15:21:25.000000000 +0200
-+++ kdebase-workspace/libs/taskmanager/task.h	2009-02-07 19:14:08.000000000 +0200
-@@ -34,11 +34,12 @@
+--- a/libs/taskmanager/task.h
++++ b/libs/taskmanager/task.h
+@@ -34,11 +34,12 @@ CONNECTION WITH THE SOFTWARE OR THE USE 
  // KDE
  #include <KDE/KSharedPtr>
  #include <KDE/KWindowSystem>
@@ -19,11 +17,9 @@ Index: kdebase-workspace/libs/taskmanager/task.h
  namespace TaskManager
  {
  
-Index: kdebase-workspace/libs/taskmanager/task.cpp
-===================================================================
---- kdebase-workspace.orig/libs/taskmanager/task.cpp	2009-02-07 19:14:30.000000000 +0200
-+++ kdebase-workspace/libs/taskmanager/task.cpp	2009-02-07 19:15:05.000000000 +0200
-@@ -40,6 +40,7 @@
+--- a/libs/taskmanager/task.cpp
++++ b/libs/taskmanager/task.cpp
+@@ -40,6 +40,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE 
  #include <KDebug>
  #include <KIconLoader>
  #include <KLocale>
@@ -31,11 +27,9 @@ Index: kdebase-workspace/libs/taskmanager/task.cpp
  
  #include "taskmanager.h"
  
-Index: kdebase-workspace/libs/taskmanager/taskmanager.cpp
-===================================================================
---- kdebase-workspace.orig/libs/taskmanager/taskmanager.cpp	2009-02-07 19:15:18.000000000 +0200
-+++ kdebase-workspace/libs/taskmanager/taskmanager.cpp	2009-02-07 19:15:32.000000000 +0200
-@@ -35,6 +35,7 @@
+--- a/libs/taskmanager/taskmanager.cpp
++++ b/libs/taskmanager/taskmanager.cpp
+@@ -35,6 +35,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE 
  #include <KDebug>
  #include <KGlobal>
  #include <KLocale>

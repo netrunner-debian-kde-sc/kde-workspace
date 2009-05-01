@@ -1,7 +1,5 @@
-Index: kdebase-workspace/cmake/modules/FindQEdje.cmake
-===================================================================
---- kdebase-workspace.orig/cmake/modules/FindQEdje.cmake	2009-01-03 18:14:55.000000000 +0200
-+++ kdebase-workspace/cmake/modules/FindQEdje.cmake	2009-01-03 18:16:04.000000000 +0200
+--- a/cmake/modules/FindQEdje.cmake
++++ b/cmake/modules/FindQEdje.cmake
 @@ -14,7 +14,7 @@
  # in the FIND_PATH() and FIND_LIBRARY() calls
  if( NOT WIN32 )
@@ -11,7 +9,7 @@ Index: kdebase-workspace/cmake/modules/FindQEdje.cmake
  endif( NOT WIN32 )
  
  # use this just to create a nice message at FindPackageHandleStandardArgs
-@@ -27,10 +27,6 @@
+@@ -27,10 +27,6 @@ if (PC_QEdje_FOUND)
      HINTS
      ${PC_QEdje_INCLUDE_DIRS}
    )
@@ -22,7 +20,7 @@ Index: kdebase-workspace/cmake/modules/FindQEdje.cmake
  
    FIND_LIBRARY(QEDJE_QEdje_LIBRARY NAMES qedje
      PATHS
-@@ -40,20 +36,16 @@
+@@ -40,20 +36,16 @@ if (PC_QEdje_FOUND)
      PATHS
      ${PC_QEdje_LIBRARY_DIRS}
    )

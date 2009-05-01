@@ -4,7 +4,7 @@ Let's hardcode it.
 
 --- a/kdm/kfrontend/CMakeLists.txt
 +++ b/kdm/kfrontend/CMakeLists.txt
-@@ -109,5 +109,5 @@
+@@ -109,5 +109,5 @@ build_confci()
  
  ## use 'GENKDMCONF_FLAGS=... make install' to add flags to the config generation (try genkdmconf -h)
  install(CODE "

@@ -1,6 +1,6 @@
 --- a/kdm/kfrontend/genkdmconf.c
 +++ b/kdm/kfrontend/genkdmconf.c
-@@ -532,7 +532,7 @@
+@@ -532,7 +532,7 @@ static const char def_xaccess[] =
  "# right hand sides can match.\n"
  "#\n"
  "\n"
@@ -9,7 +9,7 @@
  "\n"
  "#\n"
  "# To hardwire a specific terminal to a specific host, you can\n"
-@@ -550,7 +550,7 @@
+@@ -550,7 +550,7 @@ static const char def_xaccess[] =
  "# so this may not work in all environments.\n"
  "#\n"
  "\n"
@@ -18,7 +18,7 @@
  "\n"
  "#\n"
  "# If you would prefer to configure the set of hosts each terminal sees,\n"
-@@ -586,35 +586,25 @@
+@@ -586,35 +586,25 @@ static const char def_startup[] =
  "#! /bin/sh\n"
  "# Xstartup - run as root before session starts\n"
  "\n"
@@ -72,7 +72,7 @@
  
  static const char def_reset[] =
  "#! /bin/sh\n"
-@@ -630,12 +620,13 @@
+@@ -630,12 +620,13 @@ static const char def_reset[] =
  "#devname=`echo $DISPLAY | cut -c1-8`\n"
  "#exec sessreg -d -l xdm/$devname -h \"`echo $DISPLAY | cut -d: -f1`\""
  #else
@@ -91,7 +91,7 @@
  
  static const char def_session1[] =
  "#! /bin/sh\n"
-@@ -667,6 +658,7 @@
+@@ -667,6 +658,7 @@ static const char def_session1[] =
  "    [ -f $zhome/.zprofile ] && . $zhome/.zprofile\n"
  "    [ -f $zdir/zlogin ] && . $zdir/zlogin\n"
  "    [ -f $zhome/.zlogin ] && . $zhome/.zlogin\n"
@@ -99,7 +99,7 @@
  "    ;;\n"
  "  */csh|*/tcsh)\n"
  "    # [t]cshrc is always sourced automatically.\n"
-@@ -683,28 +675,8 @@
+@@ -683,28 +675,8 @@ static const char def_session2[] =
  "    [ -f $HOME/.profile ] && . $HOME/.profile\n"
  "    ;;\n"
  "esac\n"
@@ -130,7 +130,7 @@
  
  static const char def_background[] =
  "[Desktop0]\n"
-@@ -1068,29 +1040,6 @@
+@@ -1068,29 +1040,6 @@ getInitTab( void )
  
  	if (maxTTY)
  		return;

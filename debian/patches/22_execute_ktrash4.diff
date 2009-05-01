@@ -1,7 +1,7 @@
 We renamed ktrash to ktrash4. See bug #494427.
 --- a/plasma/applets/trash/trash.cpp
 +++ b/plasma/applets/trash/trash.cpp
-@@ -215,7 +215,7 @@
+@@ -215,7 +215,7 @@ void Trash::slotEmpty()
          m_emptyProcess = new KProcess(this);
          connect(m_emptyProcess, SIGNAL(finished(int,QProcess::ExitStatus)),
                  this, SLOT(emptyFinished(int,QProcess::ExitStatus)));
