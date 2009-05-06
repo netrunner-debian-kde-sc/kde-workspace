@@ -1,6 +1,8 @@
 kdebase-workspace (4:4.2.3-1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - keyboard.desktop renamed to kcm_keyboard.desktop to avoid
+      conflict with gnome's keyboard.desktop. (Closes: #524506)
 
   +++ Changes by George Kiagiadakis:
 
