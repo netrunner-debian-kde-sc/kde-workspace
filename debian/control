@@ -42,7 +42,7 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version}),
  kdebase-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils,
- kaboom (>= 1.0.5)
+ kaboom (>= 1.0.5), kdebase-workspace-kgreet-plugins (= ${binary:Version})
 Recommends: plasma-scriptengines
 Suggests: x11-xkb-utils
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip, libplasma2,
@@ -218,7 +218,8 @@ Description: Google Gadgets script engine for Plasma
 Package: kdm
 Section: x11
 Architecture: any
-Depends: ${shlibs:Depends}, debconf | debconf-2.0, lsb-base (>= 3.2-14), consolekit, ${misc:Depends}
+Depends: ${shlibs:Depends}, debconf | debconf-2.0, lsb-base (>= 3.2-14), consolekit, ${misc:Depends},
+ kdebase-workspace-kgreet-plugins (= ${binary:Version})
 Recommends: logrotate, xserver-xorg-core | xserver,
  kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
 Suggests: kdepasswd
@@ -330,3 +331,11 @@ Suggests: kdebase-workspace (>= ${source:Version})
 Description: debugging symbols for the KDE 4 base workspace module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE 4 base workspace module.
+
+Package: kdebase-workspace-kgreet-plugins
+Section: libs
+Architecture: any
+Replaces: kdebase-workspace-bin (< 4:4.2.3-1)
+Description: KDE greet libraries for authentication
+ This package contains libraries needed for kdm and locker authentication
+

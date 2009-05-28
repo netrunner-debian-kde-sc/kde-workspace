@@ -15,6 +15,14 @@ kdebase-workspace (4:4.2.3-1) UNRELEASED; urgency=low
   * Bump Standards-Version from 3.8.0 to 3.8.1 (no changes needed).
   * Update installed files: add kcm_keyboard.desktop in kdebase-workspace-bin.
 
+  +++ Changes by Martin Alfke
+
+  * Created new package with name kdebase-workspace-kgreet-plugins.
+  * Moved /usr/lib/kde4/kgreet_*.so from kdebase-workspace-bin to new package.
+  * Added dependency to kdm and kdebase-workspace-bin on kdebase-workspace-kgreet-plugins 
+    (= ${binary:Version})
+  * kdebase-workspace-kgreet-plugins replaces kdebase-workspace-bin (<4:4.2.3-1)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 May 2009 18:23:19 +0200
 
 kdebase-workspace (4:4.2.2-2) unstable; urgency=low
