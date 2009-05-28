@@ -335,7 +335,7 @@ Description: debugging symbols for the KDE 4 base workspace module
 Package: kdebase-workspace-kgreet-plugins
 Section: libs
 Architecture: any
-Replaces: kdebase-workspace-bin (< 4:4.2.3-1)
+Replaces: kdebase-workspace-bin (<< 4:4.2.4)
 Description: KDE greet libraries for authentication
  This package contains libraries needed for kdm and locker authentication
 
