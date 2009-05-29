@@ -19,7 +19,7 @@ set -e
 
 case "$1" in
     remove)
-        /usr/sbin/update-alternatives --remove x-terminal-emulator /usr/bin/konsole
+        update-alternatives --remove x-terminal-emulator /usr/bin/konsole
     ;;
 
     upgrade|deconfigure)
