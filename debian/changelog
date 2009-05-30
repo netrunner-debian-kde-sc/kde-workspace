@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.2.3-1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.2.4-1) UNRELEASED; urgency=low
 
   * New upstream release:
     - keyboard.desktop renamed to kcm_keyboard.desktop to avoid
