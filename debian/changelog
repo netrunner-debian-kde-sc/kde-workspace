@@ -3,6 +3,8 @@ kdebase-workspace (4:4.2.4-1) UNRELEASED; urgency=low
   * New upstream release:
     - keyboard.desktop renamed to kcm_keyboard.desktop to avoid
       conflict with gnome's keyboard.desktop. (Closes: #524506)
+    - plasma don't freezes when unmounting busy devices 
+      (Closes: #530558, #523089)
 
   +++ Changes by George Kiagiadakis:
 
