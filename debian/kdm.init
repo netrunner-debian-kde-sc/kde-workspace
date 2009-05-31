@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -e
 ### BEGIN INIT INFO
 # Provides:          kdm
 # Required-Start:    $local_fs $remote_fs
@@ -15,10 +15,15 @@
 #
 # description: K Display Manager
 #
-set -e
 
 # Import the LSB init functions
 . /lib/lsb/init-functions
+
+# set the locale
+if [ -r /etc/default/locale ]; then
+  . /etc/default/locale
+  export LANG LANGUAGE
+fi
 
 # To start kdm even if it is not the default display manager, change
 # HEED_DEFAULT_DISPLAY_MANAGER to "false."

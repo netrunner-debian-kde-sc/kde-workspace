@@ -32,8 +32,10 @@ kdebase-workspace (4:4.2.4-1) UNRELEASED; urgency=low
   +++ Changes by Armin Berres:
 
   * Call update-alternatives without absolute path.
+  * If readable, source /etc/default/locale in KDM's init script to make it
+    aware of the user's locale. (Closes: #528937)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 May 2009 23:14:07 -0400
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 May 2009 19:03:39 -0400
 
 kdebase-workspace (4:4.2.2-2) unstable; urgency=low
 
