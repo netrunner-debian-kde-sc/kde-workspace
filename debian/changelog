@@ -6,6 +6,10 @@ kdebase-workspace (4:4.2.4-1) UNRELEASED; urgency=low
     - plasma don't freezes when unmounting busy devices 
       (Closes: #530558, #523089)
 
+  +++ Changes by Josh Metzler:
+
+  * Fix grep for checking if Desktop Themes should be used. (Closes: #530493)
+
   +++ Changes by George Kiagiadakis:
 
   * Move the .desktop files of kcm_fonts, kcm_style and kcm_colors

@@ -35,7 +35,7 @@ KDMRC=/etc/kde4/kdm/kdmrc
 BACKGROUNDRC=/etc/kde4/kdm/backgroundrc
 
 #if configuration is changed by kdmtheme or other tools, don't do magick
-if grep -q "Theme=@@@ToBeReplacedByDesktopBase@@@" ${KDMRC} && grep -q "Wallpaper=default_blue.jpg" ${BACKGROUNDRC}
+if grep -q "^[[:space:]]*Theme=@@@ToBeReplacedByDesktopBase@@@" ${KDMRC} && grep -q "^[[:space:]]*Wallpaper=default_blue.jpg" ${BACKGROUNDRC}
 then
 
 KDMOVERRIDEDIR=/etc/default/kdm.d
@@ -74,7 +74,7 @@ genkdmconf --in $KDMCFGDIR 1> /dev/null
 
 fi
 #usetheme is now on "by default" so we need to be sure that there is something ...
-if grep -q "Theme=@@@ToBeReplacedByDesktopBase@@@" ${KDMRC}
+if grep -q "^[[:space:]]*Theme=@@@ToBeReplacedByDesktopBase@@@" ${KDMRC}
 then
 	sed -i 's|@@@ToBeReplacedByDesktopBase@@@|/usr/share/kde4/apps/kdm/themes/oxygen|' ${KDMCFG}
 fi
