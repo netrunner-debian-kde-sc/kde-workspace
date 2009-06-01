@@ -23,11 +23,14 @@ kdebase-workspace (4:4.2.4-1) UNRELEASED; urgency=low
 
   +++ Changes by Martin Alfke:
 
-  * Created new package with name kdebase-workspace-kgreet-plugins.
-  * Moved /usr/lib/kde4/kgreet_*.so from kdebase-workspace-bin to new package.
-  * Added dependency to kdm and kdebase-workspace-bin on kdebase-workspace-kgreet-plugins 
-    (= ${binary:Version})
-  * kdebase-workspace-kgreet-plugins replaces kdebase-workspace-bin (<4:4.2.3-1)
+  * New package for kgreet-plugins (Closes: #520426)
+    - Create new package with name kdebase-workspace-kgreet-plugins.
+    - Move /usr/lib/kde4/kgreet_*.so from kdebase-workspace-bin to
+      new package.
+    - Add dependency to kdm and kdebase-workspace-bin on
+      kdebase-workspace-kgreet-plugins (= ${binary:Version})
+    - kdebase-workspace-kgreet-plugins replaces kdebase-workspace-bin
+      (<4:4.2.3-1)
 
   +++ Changes by Armin Berres:
 
