@@ -14,9 +14,8 @@ usr/share/icons/oxygen/16x16/apps/running.png
 usr/share/icons/oxygen/16x16/apps/shell.png
 usr/share/icons/oxygen/16x16/apps/unknownapp.png
 usr/share/icons/oxygen/16x16/apps/waiting.png
-usr/share/kde4/apps/ksysguard/KSysGuardApplet.xml
 usr/share/kde4/apps/ksysguard/ProcessTable.sgrd
-usr/share/kde4/apps/ksysguard/SystemLoad.sgrd
+usr/share/kde4/apps/ksysguard/SystemLoad2.sgrd
 usr/share/kde4/apps/ksysguard/ksysguard.notifyrc
 usr/share/kde4/apps/ksysguard/ksysguardui.rc
 usr/share/kde4/config/ksysguard.knsrc

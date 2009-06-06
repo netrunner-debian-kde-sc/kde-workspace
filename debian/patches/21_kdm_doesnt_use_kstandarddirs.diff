@@ -16,7 +16,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  
 --- a/kcontrol/kdm/background.cpp
 +++ b/kcontrol/kdm/background.cpp
-@@ -43,9 +43,9 @@ KBackground::KBackground( QWidget *paren
+@@ -43,9 +43,9 @@
  		" If it is disabled, you have to look after the background yourself."
  		" This is done by running some program (possibly xsetroot) in the script"
  		" specified in the Setup= option in kdmrc (usually Xsetup).") );
@@ -31,7 +31,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  	connect( m_background, SIGNAL(changed( bool )), SIGNAL(changed()) );
 --- a/kcontrol/kdm/main.cpp
 +++ b/kcontrol/kdm/main.cpp
-@@ -186,8 +186,8 @@ KDModule::KDModule( QWidget *parent, con
+@@ -185,8 +185,8 @@
  	for (tgmapci = tgmap.constBegin(); tgmapci != tgmap.constEnd(); ++tgmapci)
  		kWarning() << "user(s) '" << tgmapci.value().join( "," )
  		<< "' have unknown GID " << tgmapci.key() << endl;
@@ -55,7 +55,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  #ifdef _AIX
 --- a/kdm/kfrontend/kdmctl.c
 +++ b/kdm/kfrontend/kdmctl.c
-@@ -150,7 +150,7 @@ main( int argc, char **argv )
+@@ -150,7 +150,7 @@
  {
  	char *dpy = getenv( "DISPLAY" );
  	const char *ctl = getenv( "DM_CONTROL" );
@@ -66,7 +66,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  
 --- a/kdm/kfrontend/genkdmconf.c
 +++ b/kdm/kfrontend/genkdmconf.c
-@@ -2768,6 +2768,7 @@ fprintfLineWrap( FILE *f, const char *ms
+@@ -2768,6 +2768,7 @@
  
  
  static const char *oldkdes[] = {
@@ -74,7 +74,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  	KDE_CONFDIR,
  	"/opt/kde4/share/config",
  	"/usr/local/kde4/share/config",
-@@ -2776,6 +2777,7 @@ static const char *oldkdes[] = {
+@@ -2776,6 +2777,7 @@
  	"/usr/local/kde/share/config",
  	"/usr/local/share/config",
  	"/usr/share/config",
@@ -82,7 +82,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  
  	"/opt/kde3/share/config",
  	"/usr/local/kde3/share/config",
-@@ -2819,7 +2821,7 @@ int main( int argc, char **argv )
+@@ -2819,7 +2821,7 @@
  "    Note that you possibly need to use --no-old-kde to make this take effect.\n"
  "  --old-kde /path/to/old/kde-config-dir\n"
  "    Where to look for the kdmrc of a previously installed kdm.\n"

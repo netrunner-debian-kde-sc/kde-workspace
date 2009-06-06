@@ -1,12 +1,17 @@
-etc/systemsettingsrc
 usr/bin/systemsettings
+usr/lib/kde4/classic_mode.so
+usr/lib/kde4/icon_mode.so
 usr/lib/kde4/kcm_colors.so
 usr/lib/kde4/kcm_fonts.so
 usr/lib/kde4/kcm_style.so
+usr/lib/libsystemsettingsview.so
 usr/share/applications/kde4/systemsettings.desktop
 usr/share/doc/kde4/HTML/en/systemsettings/common
 usr/share/doc/kde4/HTML/en/systemsettings/index.cache.bz2
 usr/share/doc/kde4/HTML/en/systemsettings/index.docbook
+usr/share/kde4/apps/systemsettings/classic/main.html
+usr/share/kde4/apps/systemsettings/classic/systemsettings-classic.css
+usr/share/kde4/apps/systemsettings/classic/top-right-systemsettings.png
 usr/share/kde4/apps/systemsettings/systemsettingsui.rc
 usr/share/kde4/services/colors.desktop
 usr/share/kde4/services/fonts.desktop
@@ -16,10 +21,12 @@ usr/share/kde4/services/settings-advanced-user-settings.desktop
 usr/share/kde4/services/settings-advanced.desktop
 usr/share/kde4/services/settings-appearance.desktop
 usr/share/kde4/services/settings-bluetooth.desktop
+usr/share/kde4/services/settings-classic-view.desktop
 usr/share/kde4/services/settings-computer-administration.desktop
 usr/share/kde4/services/settings-desktop.desktop
 usr/share/kde4/services/settings-display.desktop
 usr/share/kde4/services/settings-general.desktop
+usr/share/kde4/services/settings-icon-view.desktop
 usr/share/kde4/services/settings-keyboard-and-mouse.desktop
 usr/share/kde4/services/settings-look-and-feel.desktop
 usr/share/kde4/services/settings-network-and-connectivity.desktop
@@ -32,3 +39,4 @@ usr/share/kde4/services/settings-system.desktop
 usr/share/kde4/services/settings-window-behaviour.desktop
 usr/share/kde4/services/style.desktop
 usr/share/kde4/servicetypes/systemsettingscategory.desktop
+usr/share/kde4/servicetypes/systemsettingsview.desktop

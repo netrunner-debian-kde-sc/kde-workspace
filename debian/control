@@ -2,9 +2,9 @@ Source: kdebase-workspace
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Modestas Vainius <modestas@vainius.eu>, Matthew Rosewarne <mrosewarne@inoutbox.com>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
- kdelibs5-dev (>= 4:4.2.4), kdepimlibs5-dev (>= 4:4.2.4), libboost-dev,
+ kdelibs5-dev (>= 4:4.2.90), kdepimlibs5-dev (>= 4:4.2.90), libboost-dev,
  python-support (>= 0.6), python-dev,
  libbluetooth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libcaptury-dev, libck-connector-dev, libdbus-1-dev, libnm-util-dev (>= 0.7), network-manager-dev (>= 0.7.0),
@@ -14,7 +14,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.
  libxrandr-dev, libxrender-dev, libxxf86misc-dev, libxi-dev,
  libsmbclient-dev, libxcb1-dev, libxine-dev, libfontconfig-dev, libglu1-mesa-dev,
  libsm-dev, libxcursor-dev, libxft-dev, libxtst-dev, libqt4-opengl-dev, libxinerama-dev,
- libxss-dev, libqedje-dev, libggadget-1.0-dev (>= 0.10.5~), libggadget-qt-1.0-dev (>= 0.10.5~),
+ libxss-dev, libqedje-dev (>= 0.4.0), libggadget-1.0-dev (>= 0.10.5~), libggadget-qt-1.0-dev (>= 0.10.5~),
+ libpolkit-qt-dev, libpolkit-dbus-dev, libpolkit-grant-dev, libakonadi-dev, libknotificationitem-1-dev
 Standards-Version: 3.8.1
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdebase-workspace
@@ -133,7 +134,7 @@ Description: KDE 4 base workspace Plasma widgets and containments
 Package: plasma-scriptengines
 Section: kde
 Architecture: all
-Depends: plasma-scriptengine-javascript (>= ${source:Version}),
+Depends: plasma-scriptengine-javascript (>= 4:4.2.90),
  plasma-scriptengine-qedje (>= ${source:Version}),
  plasma-scriptengine-ruby (>= ${source:Version}),
  plasma-scriptengine-python (>= ${source:Version}),
@@ -144,17 +145,6 @@ Suggests: plasma-scriptengine-kimono
 Description: a metapackage to install all Plasma script engines
  This metapackage depends on all Plasma script engines which kdebase-workspace
  module provides and suggests script engines from other official KDE modules.
- .
- This package is part of the KDE 4 base workspace module.
-
-Package: plasma-scriptengine-javascript
-Section: kde
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82)
-Description: javascript script engine for Plasma
- This package provides javascript script engine for Plasma. You have to install
- it if you want to use Plasma widgets and data engines written in javascript.
  .
  This package is part of the KDE 4 base workspace module.
 

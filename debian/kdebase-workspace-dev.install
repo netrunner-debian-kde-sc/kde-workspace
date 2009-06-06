@@ -35,12 +35,6 @@ usr/include/kwinxrenderutils.h
 usr/include/kworkspace/kdisplaymanager.h
 usr/include/kworkspace/kwindowlistmenu.h
 usr/include/kworkspace/kworkspace.h
-usr/include/plasmaclock/calendar.h
-usr/include/plasmaclock/calendartable.h
-usr/include/plasmaclock/clockapplet.h
-usr/include/plasmaclock/clocknumber.h
-usr/include/plasmaclock/plasmaclock_export.h
-usr/include/plasmaclock/ui_calendar.h
 usr/include/nepomuk/nepomukquery_export.h
 usr/include/nepomuk/nepomukqueryclient_export.h
 usr/include/nepomuk/query.h
@@ -48,9 +42,15 @@ usr/include/nepomuk/queryparser.h
 usr/include/nepomuk/queryserviceclient.h
 usr/include/nepomuk/result.h
 usr/include/nepomuk/term.h
+usr/include/plasma/geolocation/geolocation_export.h
+usr/include/plasma/geolocation/geolocationprovider.h
 usr/include/plasma/weather/ion.h
 usr/include/plasma/weather/ion_export.h
 usr/include/plasma/weather/weatherutils.h
+usr/include/plasmaclock/calendar.h
+usr/include/plasmaclock/calendartable.h
+usr/include/plasmaclock/clockapplet.h
+usr/include/plasmaclock/plasmaclock_export.h
 usr/include/solid/control/bluetoothinputdevice.h
 usr/include/solid/control/bluetoothinterface.h
 usr/include/solid/control/bluetoothmanager.h
@@ -110,6 +110,7 @@ usr/lib/libkworkspace.so
 usr/lib/liblsofui.so
 usr/lib/libnepomukquery.so
 usr/lib/libnepomukqueryclient.so
+usr/lib/libplasma-geolocation-interface.so
 usr/lib/libplasmaclock.so
 usr/lib/libprocesscore.so
 usr/lib/libprocessui.so
@@ -133,4 +134,3 @@ usr/share/kde4/apps/cmake/modules/FindPAM.cmake
 usr/share/kde4/apps/cmake/modules/FindQEdje.cmake
 usr/share/kde4/apps/cmake/modules/FindSensors.cmake
 usr/share/kde4/apps/cmake/modules/UnixAuth.cmake
-usr/share/kde4/apps/cmake/modules/create_exe_symlink.cmake
