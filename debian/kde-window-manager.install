@@ -70,10 +70,6 @@ usr/share/kde4/apps/kconf_update/kwinupdatewindowsettings.upd
 usr/share/kde4/apps/kconf_update/on-off_to_true-false.sh
 usr/share/kde4/apps/kconf_update/pluginlibFix.pl
 usr/share/kde4/apps/kwin/b2.desktop
-usr/share/kde4/apps/kwin/blur-render.frag
-usr/share/kde4/apps/kwin/blur-render.vert
-usr/share/kde4/apps/kwin/blur.frag
-usr/share/kde4/apps/kwin/blur.vert
 usr/share/kde4/apps/kwin/circle-edgy.png
 usr/share/kde4/apps/kwin/circle.png
 usr/share/kde4/apps/kwin/cubecap.png
@@ -110,7 +106,6 @@ usr/share/kde4/apps/kwin/trackmouse.png
 usr/share/kde4/apps/kwin/web.desktop
 usr/share/kde4/config.kcfg/kwin.kcfg
 usr/share/kde4/services/desktop.desktop
-usr/share/kde4/services/kwin/blur.desktop
 usr/share/kde4/services/kwin/boxswitch.desktop
 usr/share/kde4/services/kwin/boxswitch_config.desktop
 usr/share/kde4/services/kwin/coverswitch.desktop
@@ -118,6 +113,7 @@ usr/share/kde4/services/kwin/coverswitch_config.desktop
 usr/share/kde4/services/kwin/cube.desktop
 usr/share/kde4/services/kwin/cube_config.desktop
 usr/share/kde4/services/kwin/cubeslide.desktop
+usr/share/kde4/services/kwin/cubeslide_config.desktop
 usr/share/kde4/services/kwin/desktopgrid.desktop
 usr/share/kde4/services/kwin/desktopgrid_config.desktop
 usr/share/kde4/services/kwin/dialogparent.desktop

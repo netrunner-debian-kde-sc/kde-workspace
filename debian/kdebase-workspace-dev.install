@@ -131,6 +131,8 @@ usr/share/kde4/apps/cmake/modules/FindGooglegadgets.cmake
 usr/share/kde4/apps/cmake/modules/FindKephal.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXKlavier.cmake
 usr/share/kde4/apps/cmake/modules/FindPAM.cmake
+usr/share/kde4/apps/cmake/modules/FindPolkitQt.cmake
 usr/share/kde4/apps/cmake/modules/FindQEdje.cmake
 usr/share/kde4/apps/cmake/modules/FindSensors.cmake
+usr/share/kde4/apps/cmake/modules/PkgConfigGetVar.cmake
 usr/share/kde4/apps/cmake/modules/UnixAuth.cmake
