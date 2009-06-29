@@ -21,6 +21,10 @@ kdebase-workspace (4:4.2.95-0r1) UNRELEASED; urgency=low
   * Add build dependency on libknotificationitem-1-dev.
   * Add myself to uploaders.
 
+  +++ Changes by Martin Alfke:
+
+  * Split of kdebase-workspace-libs4+5 into individiual library packages.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Jun 2009 12:29:10 +0300
 
 kdebase-workspace (4:4.2.4-1) unstable; urgency=low
