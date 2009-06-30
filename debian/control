@@ -59,27 +59,6 @@ Description: core binaries for the KDE 4 base workspace module
  .
  This package is part of the KDE 4 base workspace module.
 
-Package: kdebase-workspace-libs4+5
-Section: libs
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, 
- libkephal4 (= ${binary:Version}), libkfontinst4  (= ${binary:Version}), 
- libkscreensaver5  (= ${binary:Version}), libksgrd4  (= ${binary:Version}),
- libkworkspace4  (= ${binary:Version}), liblsofui4  (= ${binary:Version}),
- libnepomukquery4  (= ${binary:Version}), libnepomukqueryclient4  (= ${binary:Version}),
- libplasma-applet-system-monitor4  (= ${binary:Version}),
- libplasmaclock4  (= ${binary:Version}), libplasma-geolocation-interface4  (= ${binary:Version}),
- libprocesscore4  (= ${binary:Version}), libprocessui4  (= ${binary:Version}),
- libsolidcontrol4  (= ${binary:Version}), libsolidcontrolifaces4  (= ${binary:Version}),
- libtaskmanager4  (= ${binary:Version}), libweather-ion4  (= ${binary:Version})
-Replaces: ksysguard (<= 4:4.0.72-1), kdebase-workspace-bin (<= 4:4.0.72-1), libplasma2
-Conflicts: libplasma2, kdebase-workspace-bin (<< 4:4.1.82)
-Description: libraries provided by the KDE 4 base workspace module
- This transitional package will install all miscellaneous libraries needed for a basic
- KDE 4 desktop installation.
- .
- This package is part of the KDE 4 base workspace module. 
-
 Package: kdebase-workspace-data
 Section: kde
 Architecture: all
@@ -98,11 +77,12 @@ Description: shared data files for the KDE 4 base workspace module
 Package: kdebase-workspace-dev
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-workspace-libs4+5 (= ${binary:Version}),
+Depends: ${shlibs:Depends},
  libkwineffects1 (= ${binary:Version}), libkdecorations4 (= ${binary:Version}),
  ${sameVersionDep:kdelibs5-dev:kdebase-workspace-bin}, ${misc:Depends}
 Replaces: kdebase-workspace-data (<< 4:4.1.80), ksysguard (<< 4:4.1.80), libplasma-dev (<< 4:4.1.80),
  kde-window-manager (<< 4:4.1.80)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: development files for the KDE 4 base workspace module
  This package contains development files for building software that uses
  libraries from the KDE 4 base workspace module.
@@ -323,8 +303,8 @@ Package: kdebase-workspace-dbg
 Section: devel
 Architecture: any
 Priority: extra
-Depends: kdebase-runtime-dbg, kdebase-workspace-libs4+5 (= ${binary:Version}), ${misc:Depends}
-Conflicts: kdebase-dbg (<< 4:4.0)
+Depends: kdebase-runtime-dbg, ${misc:Depends}
+Conflicts: kdebase-dbg (<< 4:4.0), kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Replaces: kdebase-dbg (<< 4:4.0)
 Suggests: kdebase-workspace (>= ${source:Version})
 Description: debugging symbols for the KDE 4 base workspace module
@@ -346,6 +326,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: API for easier handling of multihead systems
  This package contains libraries needed for Kephals DBus-API.
  .
@@ -356,6 +337,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Libraries for font installation in kcontrol
  This package contains libraries needed for font installation in kcontrol.
  .
@@ -366,6 +348,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library of the KDE Screensaver system
  This package contains libraries needed for kscreensaver.
  .
@@ -376,6 +359,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library for the ksysguard gui
  This package contains libraries needed for ksysguard gui
  .
@@ -386,6 +370,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library for the kdebase workspace
  This package contains libraries needed for the kdebase workspace.
  .
@@ -396,6 +381,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library for ksysguard based priority scheduling
  This package contains libraries needed for ksysguard based scheduling
  priority of a process.
@@ -407,6 +393,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library for the nepomuk search
  This package contains libraries needed for the nepomuk query search.
  .
@@ -417,6 +404,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library for the nepomuk client search
  This package contains libraries needed for the nepomuk client search.
  .
@@ -427,6 +415,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library for the plasma system monitor
  This package contains libraries needed for the plasma system monitor.
  .
@@ -437,6 +426,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library for the plasma clock
  This package contains libraries needed for the plasma clock.
  .
@@ -447,6 +437,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library for the plasma geolocation
  This package contains libraries needed for the plasma geolocation.
  .
@@ -457,6 +448,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library for ksysguard based process view
  This package contains libraries needed for ksysguard based process view.
  .
@@ -467,6 +459,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library for ksysguard process user interface
  This package contains libraries needed for ksysguard process user interface.
  .
@@ -477,6 +470,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library for solid based network management
  This package contains libraries needed for solid based network management.
  .
@@ -487,6 +481,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library for solid based network interface management
  This package contains libraries needed for solid based network interface management.
  .
@@ -497,6 +492,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library which provides task management facilities
  This package contains libraries which provide task management facilities.
  .
@@ -507,6 +503,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.4-2)
 Description: Library which provides an interface for weather information services
  This package contains libraries  which is used to implement new ions for 
  the WeatherEngine.
