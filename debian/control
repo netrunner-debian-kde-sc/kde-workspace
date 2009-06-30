@@ -79,7 +79,24 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends},
  libkwineffects1 (= ${binary:Version}), libkdecorations4 (= ${binary:Version}),
- ${sameVersionDep:kdelibs5-dev:kdebase-workspace-bin}, ${misc:Depends}
+ ${sameVersionDep:kdelibs5-dev:kdebase-workspace-bin}, ${misc:Depends},
+ libkephal4 (= ${binary:Version}),
+ libkfontinst4 (= ${binary:Version}),
+ libkscreensaver5 (= ${binary:Version}),
+ libksgrd4 (= ${binary:Version}),
+ libkworkspace4 (= ${binary:Version}),
+ liblsofui4 (= ${binary:Version}),
+ libnepomukquery4 (= ${binary:Version}),
+ libnepomukqueryclient4 (= ${binary:Version}),
+ libplasma-applet-system-monitor4 (= ${binary:Version}),
+ libplasmaclock4 (= ${binary:Version}),
+ libplasma-geolocation-interface4 (= ${binary:Version}),
+ libprocesscore4 (= ${binary:Version}),
+ libprocessui4 (= ${binary:Version}),
+ libsolidcontrol4 (= ${binary:Version}),
+ libsolidcontrolifaces4 (= ${binary:Version}),
+ libtaskmanager4 (= ${binary:Version}),
+ libweather-ion4 (= ${binary:Version})
 Replaces: kdebase-workspace-data (<< 4:4.1.80), ksysguard (<< 4:4.1.80), libplasma-dev (<< 4:4.1.80),
  kde-window-manager (<< 4:4.1.80)
 Conflicts: kdebase-workspace-libs4+5
