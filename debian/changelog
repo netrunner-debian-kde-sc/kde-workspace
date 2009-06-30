@@ -29,6 +29,8 @@ kdebase-workspace (4:4.2.95-0r2) UNRELEASED; urgency=low
   * Split of kdebase-workspace-libs4+5 into individiual library packages.
     - Remove kdebase-workspace-libs4+5.
     - Add Conflicts to all new split libraries.
+    - Add new libraries to DEB_DH_SHLIBDEPS_ARGS_ section in rules file.
+    - Switch DEB_DH_MAKESHLIBS_ARGS_<package> to DEB_DH_MAKESHLIBS_ARGS_ALL in rules file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Jun 2009 13:03:25 +0300
 

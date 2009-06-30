@@ -6,15 +6,13 @@ include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 #	-DINSTALL_PRINTER_APPLET=TRUE
 
 DEB_CMAKE_EXTRA_FLAGS += -DKDE4_KDM_PAM_SERVICE=kdm
-DEB_DH_MAKESHLIBS_ARGS_libkwineffects1 := -V
-DEB_DH_MAKESHLIBS_ARGS_libkdecorations4 := -V
-DEB_DH_MAKESHLIBS_ARGS_kdebase-workspace-libs4+5 := -V
+DEB_DH_MAKESHLIBS_ARGS_ALL := -V
+
 
 DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-bin := -- -xksysguard
-DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-libs4+5 := -- -xkdebase-runtime
 DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-dev := -- -xkdebase-runtime
-DEB_DH_SHLIBDEPS_ARGS_libkdecorations4 := -- -xkdebase-runtime
-DEB_DH_SHLIBDEPS_ARGS_libkwineffects1 := -- -xkdebase-runtime
+$(foreach p,$(filter lib%, $(DEB_ARCH_PACKAGES)),$(eval DEB_DH_SHLIBDEPS_ARGS_$(p) := -- -xkdebase-runtime))
+
 
 DEB_FIXPERMS_EXCLUDE := usr/bin/kwrited
 
