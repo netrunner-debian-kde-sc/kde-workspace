@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.2.95-0r1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.2.95-0r2) UNRELEASED; urgency=low
 
   * New upstream snapshot.
     - Plasma job progress notifications now include
@@ -6,13 +6,15 @@ kdebase-workspace (4:4.2.95-0r1) UNRELEASED; urgency=low
 
   +++ Changes by George Kiagiadakis:
 
-  * Bump build-dependency on kdelibs5-dev and kdepimlibs5-dev to version 4.2.95.
+  * Bump build-dependency on kdelibs5-dev and kdepimlibs5-dev
+    to version 4.2.95.
   * Bump build-dependency on libqedje-dev to version 0.4.0.
-  * Move package plasma-scriptengine-javascript from kdebase-workspace
-    to kdebase-runtime as the sources for this component were moved upstream.
+  * Move package plasma-scriptengine-javascript from
+    kdebase-workspace to kdebase-runtime as the sources for
+    this component were moved upstream.
   * Change plasma-scriptengines metapackage to depend on
-    plasma-scriptengine-javascript (>= 4:4.2.95) instead of (>= ${source:Version}),
-    as this is now part of kdebase-runtime.
+    plasma-scriptengine-javascript (>= 4:4.2.95) instead
+    of (>= ${source:Version}), as this is now part of kdebase-runtime.
   * Add build dependencies on libpolkit-qt-dev, libpolkit-dbus-dev,
     libpolkit-grant-dev.
   * Refresh patches.
@@ -20,14 +22,15 @@ kdebase-workspace (4:4.2.95-0r1) UNRELEASED; urgency=low
   * Add build dependency on libakonadi-dev.
   * Add build dependency on libknotificationitem-1-dev.
   * Add myself to uploaders.
+  * Update some lintian overrides.
 
   +++ Changes by Martin Alfke:
 
   * Split of kdebase-workspace-libs4+5 into individiual library packages.
-  * Remove kdebase-workspace-libs4+5
-  * Add Conflicts to all new splitted libraries
+    - Remove kdebase-workspace-libs4+5.
+    - Add Conflicts to all new split libraries.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Jun 2009 12:29:10 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Jun 2009 13:03:25 +0300
 
 kdebase-workspace (4:4.2.4-1) unstable; urgency=low
 

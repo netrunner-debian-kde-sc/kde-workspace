@@ -1,4 +1,4 @@
 klipper: postinst-must-call-ldconfig usr/lib/libkdeinit4_klipper.so
 klipper: package-name-doesnt-match-sonames libkdeinit4-klipper
-klipper: no-shlibs-control-file usr/lib/libkdeinit4_klipper.so
-
+klipper: shlib-without-versioned-soname usr/lib/libkdeinit4_klipper.so libkdeinit4_klipper.so
+klipper: no-symbols-control-file usr/lib/libkdeinit4_klipper.so

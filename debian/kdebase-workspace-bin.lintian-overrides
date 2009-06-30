@@ -1,10 +1,18 @@
-kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_kcminit.so for usr/lib/libkdeinit4_kcminit.so
-kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_kmenuedit.so for usr/lib/libkdeinit4_kmenuedit.so
-kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_kxkb.so for usr/lib/libkdeinit4_kxkb.so
-kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_ksmserver.so for usr/lib/libkdeinit4_ksmserver.so
-kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_kcminit_startup.so for usr/lib/libkdeinit4_kcminit_startup.so
-kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_krunner.so for usr/lib/libkdeinit4_krunner.so
-kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_khotkeys.so for usr/lib/libkdeinit4_khotkeys.so
-kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_kaccess.so for usr/lib/libkdeinit4_kaccess.so
-kdebase-workspace-bin: shlib-missing-in-control-file libkdeinit4_kcontroledit.so for usr/lib/libkdeinit4_kcontroledit.so
-kdebase-workspace-bin: package-name-doesnt-match-sonames libkdeinit4-kaccess libkdeinit4-kcminit libkdeinit4-kcminit_startup libkdeinit4-kcontroledit libkdeinit4-khotkeys libkdeinit4-kmenuedit libkdeinit4-krunner libkdeinit4-ksmserver libkdeinit4-kxkb libkfontinst4 libkfontinstui4 libkscreensaver5 libkworkspace4 libsolidcontrol4 libsolidcontrolifaces4 libtaskmanager4 libweather-ion4 libplasma2: shlib-missing-in-control-file libkdeinit4_plasma.so libkdeinit4_plasma.so
+kdebase-workspace-bin: setgid-binary usr/bin/kwrited 2755 root/utmp
+kdebase-workspace-bin: shlib-without-versioned-soname usr/lib/libkdeinit4_kcminit.so libkdeinit4_kcminit.so
+kdebase-workspace-bin: shlib-without-versioned-soname usr/lib/libkdeinit4_plasma-desktop.so libkdeinit4_plasma-desktop.so
+kdebase-workspace-bin: shlib-without-versioned-soname usr/lib/libkdeinit4_kmenuedit.so libkdeinit4_kmenuedit.so
+kdebase-workspace-bin: shlib-without-versioned-soname usr/lib/libkdeinit4_kaccess.so libkdeinit4_kaccess.so
+kdebase-workspace-bin: shlib-without-versioned-soname usr/lib/libkdeinit4_kxkb.so libkdeinit4_kxkb.so
+kdebase-workspace-bin: shlib-without-versioned-soname usr/lib/libkdeinit4_ksmserver.so libkdeinit4_ksmserver.so
+kdebase-workspace-bin: shlib-without-versioned-soname usr/lib/libkdeinit4_kcminit_startup.so libkdeinit4_kcminit_startup.so
+kdebase-workspace-bin: shlib-without-versioned-soname usr/lib/libkdeinit4_krunner.so libkdeinit4_krunner.so
+kdebase-workspace-bin: no-symbols-control-file usr/lib/libkdeinit4_kcminit.so
+kdebase-workspace-bin: no-symbols-control-file usr/lib/libkdeinit4_plasma-desktop.so
+kdebase-workspace-bin: no-symbols-control-file usr/lib/libkdeinit4_kmenuedit.so
+kdebase-workspace-bin: no-symbols-control-file usr/lib/libkdeinit4_kaccess.so
+kdebase-workspace-bin: no-symbols-control-file usr/lib/libkdeinit4_kxkb.so
+kdebase-workspace-bin: no-symbols-control-file usr/lib/libkdeinit4_ksmserver.so
+kdebase-workspace-bin: no-symbols-control-file usr/lib/libkdeinit4_kcminit_startup.so
+kdebase-workspace-bin: no-symbols-control-file usr/lib/libkdeinit4_krunner.so
+kdebase-workspace-bin: package-name-doesnt-match-sonames libkdeinit4-kaccess libkdeinit4-kcminit libkdeinit4-kcminit-startup libkdeinit4-kmenuedit libkdeinit4-krunner libkdeinit4-ksmserver libkdeinit4-kxkb libkdeinit4-plasma-desktop libkhotkeysprivate4 libpolkitkdeprivate4
