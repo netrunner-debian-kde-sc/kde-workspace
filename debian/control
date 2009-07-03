@@ -7,7 +7,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.
  kdelibs5-dev (>= 4:4.2.95), kdepimlibs5-dev (>= 4:4.2.95), libboost-dev,
  python-support (>= 0.6), python-dev,
  libbluetooth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
- libcaptury-dev, libck-connector-dev, libdbus-1-dev, libnm-util-dev (>= 0.7), network-manager-dev (>= 0.7.0),
+ libck-connector-dev, libdbus-1-dev, libnm-util-dev (>= 0.7), network-manager-dev (>= 0.7.0),
  libpam0g-dev, libqimageblitz-dev (>= 1:0.0.4-2), libraw1394-dev, libsensors-dev,
  libstrigiqtdbusclient-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3), libusb-dev, libxkbfile-dev,
  libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxklavier12-dev,

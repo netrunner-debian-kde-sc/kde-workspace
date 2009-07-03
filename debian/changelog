@@ -32,6 +32,10 @@ kdebase-workspace (4:4.2.95-0r2) UNRELEASED; urgency=low
     - Add new libraries to DEB_DH_SHLIBDEPS_ARGS_ section in rules file.
     - Switch DEB_DH_MAKESHLIBS_ARGS_<package> to DEB_DH_MAKESHLIBS_ARGS_ALL in rules file.
 
+  +++ Changes by Fathi Boudra:
+
+  * Drop libcaptury-dev build dependency.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Jun 2009 13:03:25 +0300
 
 kdebase-workspace (4:4.2.4-1) unstable; urgency=low
