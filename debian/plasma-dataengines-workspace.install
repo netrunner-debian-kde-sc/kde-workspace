@@ -11,6 +11,7 @@ usr/lib/kde4/plasma_engine_favicons.so
 usr/lib/kde4/plasma_engine_filebrowser.so
 usr/lib/kde4/plasma_engine_geolocation.so
 usr/lib/kde4/plasma_engine_hotplug.so
+usr/lib/kde4/plasma_engine_keystate.so
 usr/lib/kde4/plasma_engine_metadata.so
 usr/lib/kde4/plasma_engine_mouse.so
 usr/lib/kde4/plasma_engine_network.so
@@ -27,6 +28,7 @@ usr/lib/kde4/plasma_engine_weather.so
 usr/lib/libtime_solar.so.4
 usr/lib/libtime_solar.so.4.3.0
 usr/share/kde4/apps/plasma/services/applicationjobs.operations
+usr/share/kde4/apps/plasma/services/modifierkeystate.operations
 usr/share/kde4/apps/plasma/services/notifications.operations
 usr/share/kde4/apps/plasma/services/nowplaying.operations
 usr/share/kde4/apps/plasma/services/tasks.operations
@@ -41,6 +43,7 @@ usr/share/kde4/services/plasma-dataengine-favicons.desktop
 usr/share/kde4/services/plasma-dataengine-filebrowser.desktop
 usr/share/kde4/services/plasma-dataengine-geolocation.desktop
 usr/share/kde4/services/plasma-dataengine-hotplug.desktop
+usr/share/kde4/services/plasma-dataengine-keystate.desktop
 usr/share/kde4/services/plasma-dataengine-mouse.desktop
 usr/share/kde4/services/plasma-dataengine-network.desktop
 usr/share/kde4/services/plasma-dataengine-notifications.desktop

@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.2.95-0r2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.2.96-0r1) UNRELEASED; urgency=low
 
   * New upstream snapshot.
     - Plasma job progress notifications now include
@@ -35,6 +35,10 @@ kdebase-workspace (4:4.2.95-0r2) UNRELEASED; urgency=low
   +++ Changes by Fathi Boudra:
 
   * Drop libcaptury-dev build dependency.
+
+  +++ Changes by Sune Vuorela:
+
+  * More install file updates.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Jun 2009 13:03:25 +0300
 
