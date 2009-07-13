@@ -1,6 +1,6 @@
-kdebase-workspace (4:4.2.96-0r1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.2.96-1) experimental; urgency=low
 
-  * New upstream snapshot.
+  * New upstream release candidate.
     - Plasma job progress notifications now include
       estimated time remaining information. (Closes: #532417)
 
