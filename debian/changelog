@@ -3,6 +3,7 @@ kdebase-workspace (4:4.2.98-0r1) UNRELEASED; urgency=low
   * New upstream release.
   * Bump libakonadi-dev build dependency to version 1.1.95.
   * Add libgps-dev build dependency.
+  * Update installed files.
 
  -- Fathi Boudra <fabo@debian.org>  Wed, 22 Jul 2009 19:26:52 +0200
 
