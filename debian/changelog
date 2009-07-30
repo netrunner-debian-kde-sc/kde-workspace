@@ -5,6 +5,11 @@ kdebase-workspace (4:4.3.0-0r1) UNRELEASED; urgency=low
   * Add libgps-dev build dependency.
   * Update installed files.
 
+  +++ Changes by Martin Alfke
+
+  * Add sanity checks to kdm.init file for availability of 
+    desktop-base files and paths. (Closes: #523109)
+
  -- Fathi Boudra <fabo@debian.org>  Wed, 22 Jul 2009 19:26:52 +0200
 
 kdebase-workspace (4:4.2.96-1) experimental; urgency=low

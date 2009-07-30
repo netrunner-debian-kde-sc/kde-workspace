@@ -74,8 +74,8 @@ genkdmconf --in $KDMCFGDIR 1> /dev/null
 [ -n "$USEBACKGROUND" ] && sed -i "s|^#\?UseBackground=.*|UseBackground=$USEBACKGROUND|" $KDMCFG
 [ -n "$BACKGROUNDCFG" ] && sed -i "s|^#\?BackgroundCfg=.*|BackgroundCfg=$BACKGROUNDCFG|" $KDMCFG
 [ -n "$USETHEME" ] && sed -i "s|^#\?UseTheme=.*|UseTheme=$USETHEME|" $KDMCFG
-[ -n "$THEME" ] && sed -i "s|^#\?Theme=.*|Theme=$THEME|" $KDMCFG
-[ -n "$WALLPAPER" ] && sed -i "s|^#\?Wallpaper=.*|Wallpaper=`readlink -f $WALLPAPER`|" $BACKGROUNDCFG
+[ -n "$THEME" ] && [ -e "$THEME" ] && sed -i "s|^#\?Theme=.*|Theme=$THEME|" $KDMCFG
+[ -n "$WALLPAPER" ] && [ -e "$WALLPAPER" ] && sed -i "s|^#\?Wallpaper=.*|Wallpaper=`readlink -f $WALLPAPER`|" $BACKGROUNDCFG
 
 fi
 #usetheme is now on "by default" so we need to be sure that there is something ...
