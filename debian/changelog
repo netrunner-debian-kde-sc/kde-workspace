@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.3.0-0r3) UNRELEASED; urgency=low
+kdebase-workspace (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
   * Bump libakonadi-dev build dependency to version 1.1.95.
@@ -15,7 +15,7 @@ kdebase-workspace (4:4.3.0-0r3) UNRELEASED; urgency=low
   * Update installed files.
   * Bump build depends to >= 4.3.0.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 03 Aug 2009 19:25:07 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Aug 2009 09:06:23 +0200
 
 kdebase-workspace (4:4.2.96-1) experimental; urgency=low
 
