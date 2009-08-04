@@ -4,7 +4,7 @@
  Type: string
  Default: ""
  User: greeter
--Instance: */KDMDATA "/themes/oxygen"
+-Instance: */KDMDATA "/themes/oxygen-air"
 +Instance: */ "@@@ToBeReplacedByDesktopBase@@@"
  Comment: &
  Description:

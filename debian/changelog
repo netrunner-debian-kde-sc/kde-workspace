@@ -15,7 +15,7 @@ kdebase-workspace (4:4.3.0-1) unstable; urgency=low
   * Update installed files.
   * Bump build depends to >= 4.3.0.
   * Add patch 01_r1004104_oxygen_air.diff, install oxygen air and make it
-    default.
+    default. And update 12_be_better_at_honouring_user_kdm_theming.diff	acordingly.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Aug 2009 15:41:33 +0200
 
