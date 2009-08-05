@@ -43,39 +43,39 @@ BACKGROUNDRC=/etc/kde4/kdm/backgroundrc
 if grep -q "^[[:space:]]*Theme=@@@ToBeReplacedByDesktopBase@@@" ${KDMRC} && grep -q "^[[:space:]]*Wallpaper=default_blue.jpg" ${BACKGROUNDRC}
 then
 
-KDMOVERRIDEDIR=/etc/default/kdm.d
-KDMCFGDIR=/var/run/kdm
-KDMCFG=$KDMCFGDIR/kdmrc
-BACKGROUNDCFG=$KDMCFGDIR/backgroundrc
+	KDMOVERRIDEDIR=/etc/default/kdm.d
+	KDMCFGDIR=/var/run/kdm
+	KDMCFG=$KDMCFGDIR/kdmrc
+	BACKGROUNDCFG=$KDMCFGDIR/backgroundrc
 
-test -x $DAEMON || exit 0
+	test -x $DAEMON || exit 0
 
-# uncomment, if you want auto-logon to be runlevel-dependant
-#test "$runlevel" || { runlevel=`runlevel`; runlevel=${runlevel#* }; }
-#test "$runlevel" = 4 && ARG=-autolog || ARG=-noautolog
+	# uncomment, if you want auto-logon to be runlevel-dependant
+	#test "$runlevel" || { runlevel=`runlevel`; runlevel=${runlevel#* }; }
+	#test "$runlevel" = 4 && ARG=-autolog || ARG=-noautolog
 
-# uncomment, if you want tons of debug info in your syslog
-#ARG="$ARG -debug 255"
+	# uncomment, if you want tons of debug info in your syslog
+	#ARG="$ARG -debug 255"
 
-# we use an alternative kdm master configuration file
-ARG="$ARG -config $KDMCFG"
+	# we use an alternative kdm master configuration file
+	ARG="$ARG -config $KDMCFG"
 
-# we source overrides. run-parts sorts the list in a predictable order
-if [ -d "$KDMOVERRIDEDIR" ]; then
-    for part in $(run-parts --list "$KDMOVERRIDEDIR" 2>/dev/null || true); do
-        . "$part"
-    done
-fi
+	# we source overrides. run-parts sorts the list in a predictable order
+	if [ -d "$KDMOVERRIDEDIR" ]; then
+		for part in $(run-parts --list "$KDMOVERRIDEDIR" 2>/dev/null || true); do
+			. "$part"
+		done
+	fi
 
-# we generate kdm configuration files
-genkdmconf --in $KDMCFGDIR 1> /dev/null
+	# we generate kdm configuration files
+	genkdmconf --in $KDMCFGDIR 1> /dev/null
 
-# we update kdm configuration files (only overridden values)
-[ -n "$USEBACKGROUND" ] && sed -i "s|^#\?UseBackground=.*|UseBackground=$USEBACKGROUND|" $KDMCFG
-[ -n "$BACKGROUNDCFG" ] && sed -i "s|^#\?BackgroundCfg=.*|BackgroundCfg=$BACKGROUNDCFG|" $KDMCFG
-[ -n "$USETHEME" ] && sed -i "s|^#\?UseTheme=.*|UseTheme=$USETHEME|" $KDMCFG
-[ -n "$THEME" ] && [ -e "$THEME" ] && sed -i "s|^#\?Theme=.*|Theme=$THEME|" $KDMCFG
-[ -n "$WALLPAPER" ] && [ -e "$WALLPAPER" ] && sed -i "s|^#\?Wallpaper=.*|Wallpaper=`readlink -f $WALLPAPER`|" $BACKGROUNDCFG
+	# we update kdm configuration files (only overridden values)
+	[ -n "$USEBACKGROUND" ] && sed -i "s|^#\?UseBackground=.*|UseBackground=$USEBACKGROUND|" $KDMCFG
+	[ -n "$BACKGROUNDCFG" ] && sed -i "s|^#\?BackgroundCfg=.*|BackgroundCfg=$BACKGROUNDCFG|" $KDMCFG
+	[ -n "$USETHEME" ] && sed -i "s|^#\?UseTheme=.*|UseTheme=$USETHEME|" $KDMCFG
+	[ -n "$THEME" ] && [ -e "$THEME" ] && sed -i "s|^#\?Theme=.*|Theme=$THEME|" $KDMCFG
+	[ -n "$WALLPAPER" ] && [ -e "$WALLPAPER" ] && sed -i "s|^#\?Wallpaper=.*|Wallpaper=`readlink -f $WALLPAPER`|" $BACKGROUNDCFG
 
 fi
 #usetheme is now on "by default" so we need to be sure that there is something ...
