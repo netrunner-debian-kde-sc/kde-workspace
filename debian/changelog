@@ -3,8 +3,10 @@ kdebase-workspace (4:4.3.0-2~pre1) unstable; urgency=low
   +++ Changes by Modestas Vainius:
 
   * debian/kdm.init: oxygen-air is new default now.
+  * reorder code in debian/kdm.init a bit. This should solve cases of kdm
+    failing to start.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2009 12:17:44 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 06 Aug 2009 14:20:53 +0300
 
 kdebase-workspace (4:4.3.0-1) unstable; urgency=low
 
