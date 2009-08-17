@@ -109,6 +109,7 @@ Package: plasma-dataengines-workspace
 Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: ksysguardd (= ${binary:Version})
 Replaces: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82),
  systemsettings (<< 4:4.1.80), libplasma2
 Conflicts: libplasma2
