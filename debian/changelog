@@ -368,7 +368,7 @@ kdebase-workspace (4:4.1.0-3) experimental; urgency=low
   * Install konqueror as x-www-browser alternative (Closes: #495746).
   * Add manpages for konquror, kfmclient and keditbookmarks.
 
- -- Armin Berres <trigger+debian@space-based.de>  Thu, 21 Aug 2008 11:35:14 +0200
+ -- Armin Berres <armin+debian@space-based.de>  Thu, 21 Aug 2008 11:35:14 +0200
 
 kdebase-workspace (4:4.1.0-2) experimental; urgency=low
 
@@ -619,7 +619,7 @@ kdebase-workspace (4:4.0.66+svn791114-3) experimental; urgency=low
 
   * Remove accidentally added kgreet_classic from kdebase-workspace-bin.
 
- -- Armin Berres <trigger+debian@space-based.de>  Sun, 30 Mar 2008 00:40:27 +0100
+ -- Armin Berres <armin+debian@space-based.de>  Sun, 30 Mar 2008 00:40:27 +0100
 
 kdebase-workspace (4:4.0.66+svn791114-2) experimental; urgency=low
  
@@ -725,7 +725,7 @@ kdebase-workspace (4:4.0.0-2) experimental; urgency=low
   * Add patch to install various kdm configuration files into the correct 
     directories.
 
- -- Armin Berres <trigger+debian@space-based.de>  Thu, 10 Jan 2008 18:50:41 +0100
+ -- Armin Berres <armin+debian@space-based.de>  Thu, 10 Jan 2008 18:50:41 +0100
 
 kdebase-workspace (4:4.0.0-1) experimental; urgency=low
 
@@ -844,7 +844,7 @@ kdebase-workspace (4:3.96.0-2) experimental; urgency=low
   * Upgrade everything but kdm to r739381.
   * Build depend on sharutils for uudecoding the new images.
 
- -- Armin Berres <trigger+debian@space-based.de>  Wed, 21 Nov 2007 20:06:24 +0100
+ -- Armin Berres <armin+debian@space-based.de>  Wed, 21 Nov 2007 20:06:24 +0100
 
 kdebase-workspace (4:3.96.0-1) experimental; urgency=low
 
