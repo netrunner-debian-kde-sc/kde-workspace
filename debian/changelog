@@ -5,7 +5,13 @@ kdebase-workspace (4:4.3.0-3) UNRELEASED; urgency=low
   * Make plasma-dataengines-workspace recommend ksysguardd,
     as it is needed for the system monitor data engine.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Aug 2009 14:16:48 +0300
+  +++ Changes by Pino Toscano:
+
+  * Mark the Linux-only dependencies as such (excluding them for kfreebsd-* and
+    hurd-i386), and install the relative compiled stuff on linux only using a
+    install rule in rules. Based on a patch by Petr Salinger, thanks!
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Aug 2009 00:23:25 +0200
 
 kdebase-workspace (4:4.3.0-2) unstable; urgency=low
 

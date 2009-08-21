@@ -28,9 +28,6 @@ usr/bin/plasmoidviewer
 usr/bin/polkit-kde-authorization
 usr/bin/safestartkde
 usr/bin/solid-action-desktop-gen
-usr/bin/solid-bluetooth
-usr/bin/solid-network
-usr/bin/solid-powermanagement
 usr/bin/startkde
 usr/lib/kconf_update_bin/krdb_clearlibrarypath
 usr/lib/kconf_update_bin/plasma-add-shortcut-to-menu
@@ -46,7 +43,6 @@ usr/lib/kde4/kcm_energy.so
 usr/lib/kde4/kcm_fontinst.so
 usr/lib/kde4/kcm_hotkeys.so
 usr/lib/kde4/kcm_input.so
-usr/lib/kde4/kcm_joystick.so
 usr/lib/kde4/kcm_keyboard.so
 usr/lib/kde4/kcm_keyboard_layout.so
 usr/lib/kde4/kcm_keys.so
@@ -63,7 +59,6 @@ usr/lib/kde4/kcm_standard_actions.so
 usr/lib/kde4/kcm_xinerama.so
 usr/lib/kde4/kded_kephal.so
 usr/lib/kde4/kded_khotkeys.so
-usr/lib/kde4/kded_networkstatus.so
 usr/lib/kde4/kded_notificationitemwatcher.so
 usr/lib/kde4/kded_powerdevil.so
 usr/lib/kde4/kfontviewpart.so
@@ -89,10 +84,7 @@ usr/lib/kde4/libexec/polkit-kde-manager
 usr/lib/kde4/libexec/test_kcm_xinerama
 usr/lib/kde4/plasma_wallpaper_color.so
 usr/lib/kde4/plasma_wallpaper_image.so
-usr/lib/kde4/solid_bluez.so
 usr/lib/kde4/solid_fakenet.so
-usr/lib/kde4/solid_hal_power.so
-usr/lib/kde4/solid_networkmanager07.so
 usr/lib/kde4/solid_wicd.so
 usr/lib/libkdeinit4_kaccess.so
 usr/lib/libkdeinit4_kcminit.so
@@ -126,7 +118,6 @@ usr/share/kde4/services/display.desktop
 usr/share/kde4/services/energy.desktop
 usr/share/kde4/services/fontinst.desktop
 usr/share/kde4/services/fontthumbnail.desktop
-usr/share/kde4/services/joystick.desktop
 usr/share/kde4/services/kaccess.desktop
 usr/share/kde4/services/kcm_keyboard.desktop
 usr/share/kde4/services/kcm_pkk_authorization.desktop
@@ -136,7 +127,6 @@ usr/share/kde4/services/kcmlaunch.desktop
 usr/share/kde4/services/kcmsmserver.desktop
 usr/share/kde4/services/kded/kephal.desktop
 usr/share/kde4/services/kded/khotkeys.desktop
-usr/share/kde4/services/kded/networkstatus.desktop
 usr/share/kde4/services/kded/notificationitemwatcher.desktop
 usr/share/kde4/services/kded/powerdevil.desktop
 usr/share/kde4/services/keyboard.desktop
@@ -164,15 +154,9 @@ usr/share/kde4/services/recentdocuments.desktop
 usr/share/kde4/services/screensaver.desktop
 usr/share/kde4/services/settings-input-actions.desktop
 usr/share/kde4/services/solid-actions.desktop
-usr/share/kde4/services/solidbackends/solid_bluez.desktop
 usr/share/kde4/services/solidbackends/solid_fakenet.desktop
-usr/share/kde4/services/solidbackends/solid_hal_power.desktop
-usr/share/kde4/services/solidbackends/solid_networkmanager07.desktop
 usr/share/kde4/services/solidbackends/solid_wicd.desktop
 usr/share/kde4/services/standard_actions.desktop
 usr/share/kde4/services/xinerama.desktop
 usr/share/kde4/servicetypes/screensaver.desktop
-usr/share/kde4/servicetypes/solidbluetoothmanager.desktop
-usr/share/kde4/servicetypes/solidnetworkmanager.desktop
-usr/share/kde4/servicetypes/solidpowermanager.desktop
 usr/share/man/man1/plasmaengineexplorer.1

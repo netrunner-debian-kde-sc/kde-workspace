@@ -5,6 +5,8 @@ include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 #DEB_CMAKE_EXTRA_FLAGS += \
 #	-DINSTALL_PRINTER_APPLET=TRUE
 
+DEB_HOST_ARCH_OS ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
+
 DEB_CMAKE_EXTRA_FLAGS += -DKDE4_KDM_PAM_SERVICE=kdm
 DEB_DH_MAKESHLIBS_ARGS_ALL := -V
 
@@ -21,3 +23,23 @@ binary-install/kdm::
 
 binary-install/plasma-scriptengine-python::
 	dh_pysupport -p$(cdbs_curpkg) /usr/share/kde4/apps/plasma_scriptengine_python
+
+ifeq ($(DEB_HOST_ARCH_OS),linux)
+install/kdebase-workspace-bin::
+	dh_install -pkdebase-workspace-bin usr/bin/solid-bluetooth
+	dh_install -pkdebase-workspace-bin usr/bin/solid-network
+	dh_install -pkdebase-workspace-bin usr/bin/solid-powermanagement
+	dh_install -pkdebase-workspace-bin usr/lib/kde4/kcm_joystick.so
+	dh_install -pkdebase-workspace-bin usr/lib/kde4/kded_networkstatus.so
+	dh_install -pkdebase-workspace-bin usr/lib/kde4/solid_bluez.so
+	dh_install -pkdebase-workspace-bin usr/lib/kde4/solid_hal_power.so
+	dh_install -pkdebase-workspace-bin usr/lib/kde4/solid_networkmanager07.so
+	dh_install -pkdebase-workspace-bin usr/share/kde4/services/joystick.desktop
+	dh_install -pkdebase-workspace-bin usr/share/kde4/services/kded/networkstatus.desktop
+	dh_install -pkdebase-workspace-bin usr/share/kde4/services/solidbackends/solid_bluez.desktop
+	dh_install -pkdebase-workspace-bin usr/share/kde4/services/solidbackends/solid_hal_power.desktop
+	dh_install -pkdebase-workspace-bin usr/share/kde4/services/solidbackends/solid_networkmanager07.desktop
+	dh_install -pkdebase-workspace-bin usr/share/kde4/servicetypes/solidbluetoothmanager.desktop
+	dh_install -pkdebase-workspace-bin usr/share/kde4/servicetypes/solidnetworkmanager.desktop
+	dh_install -pkdebase-workspace-bin usr/share/kde4/servicetypes/solidpowermanager.desktop
+endif
