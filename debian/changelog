@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.3.0-3) UNRELEASED; urgency=low
+kdebase-workspace (4:4.3.0-3) unstable; urgency=low
 
   +++ Changes by George Kiagiadakis:
 
@@ -11,7 +11,15 @@ kdebase-workspace (4:4.3.0-3) UNRELEASED; urgency=low
     hurd-i386), and install the relative compiled stuff on linux only using a
     install rule in rules. Based on a patch by Petr Salinger, thanks!
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Aug 2009 00:23:25 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * Small copyright updates (years).
+  * Add README.source about the patch system.
+  * Bump Standards-Version from 3.8.2 to 3.8.3 (no changes needed).
+  * Add patch 02_kfreebsd_updates for building in in kfreebsd-* from Petr * Salinger. 
+    That together with Pino's changes (Closes: #542591).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Aug 2009 17:46:50 +0200
 
 kdebase-workspace (4:4.3.0-2) unstable; urgency=low
 
