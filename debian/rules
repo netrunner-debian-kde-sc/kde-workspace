@@ -42,4 +42,14 @@ install/kdebase-workspace-bin::
 	dh_install -pkdebase-workspace-bin usr/share/kde4/servicetypes/solidbluetoothmanager.desktop
 	dh_install -pkdebase-workspace-bin usr/share/kde4/servicetypes/solidnetworkmanager.desktop
 	dh_install -pkdebase-workspace-bin usr/share/kde4/servicetypes/solidpowermanager.desktop
+
+install/kdebase-workspace-data::
+	dh_install -pkdebase-workspace-data usr/share/doc/kde4/HTML/en/kcontrol/joystick/common
+	dh_install -pkdebase-workspace-data usr/share/doc/kde4/HTML/en/kcontrol/joystick/index.cache.bz2
+	dh_install -pkdebase-workspace-data usr/share/doc/kde4/HTML/en/kcontrol/joystick/index.docbook
+	dh_install -pkdebase-workspace-data usr/share/doc/kde4/HTML/en/kcontrol/joystick/joystick-calibration.png
+	dh_install -pkdebase-workspace-data usr/share/doc/kde4/HTML/en/kcontrol/joystick/joystick-main.png
+	dh_install -pkdebase-workspace-data usr/share/icons/oxygen/22x22/apps/networkmanager.png
+	dh_install -pkdebase-workspace-data usr/share/icons/oxygen/32x32/apps/networkmanager.png
+	dh_install -pkdebase-workspace-data usr/share/icons/oxygen/64x64/apps/networkmanager.png
 endif

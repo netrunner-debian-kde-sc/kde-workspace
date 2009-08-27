@@ -1,3 +1,12 @@
+kdebase-workspace (4:4.3.0-4) UNRELEASED; urgency=low
+
+  +++ Changes by Pino Toscano:
+
+  * Install also the Linux-only data files of kdebase-workspace-data using a
+    install rule in rules (as a followup for bug #542591).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Aug 2009 09:56:59 +0200
+
 kdebase-workspace (4:4.3.0-3) unstable; urgency=low
 
   +++ Changes by George Kiagiadakis:
