@@ -1,9 +1,16 @@
-kdebase-workspace (4:4.3.0-4) UNRELEASED; urgency=low
+kdebase-workspace (4:4.3.1-1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   +++ Changes by Pino Toscano:
 
   * Install also the Linux-only data files of kdebase-workspace-data using a
     install rule in rules (as a followup for bug #542591).
+
+  +++ Changes by Fathi Boudra:
+
+  * Add libutempter-dev build dependency. It allows to build kwrited as a kded
+    module.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Aug 2009 09:56:59 +0200
 
@@ -21,7 +28,7 @@ kdebase-workspace (4:4.3.0-3) unstable; urgency=low
     install rule in rules. Based on a patch by Petr Salinger, thanks!
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Small copyright updates (years).
   * Add README.source about the patch system.
   * Bump Standards-Version from 3.8.2 to 3.8.3 (no changes needed).
