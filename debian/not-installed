@@ -767,3 +767,6 @@
 
 # this is installed for upgrade purposes for people that build from sources
 ./usr/share/autostart/plasma.desktop
+
+# Manual page gets compressed
+./usr/share/man/man1/plasmaengineexplorer.1

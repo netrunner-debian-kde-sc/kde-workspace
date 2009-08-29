@@ -18,7 +18,6 @@ usr/bin/ksplashx
 usr/bin/ksplashx_scale
 usr/bin/kstartupconfig4
 usr/bin/ksystraycmd
-usr/bin/kwrited
 usr/bin/kxkb
 usr/bin/plasma-desktop
 usr/bin/plasma-overlay
@@ -59,6 +58,7 @@ usr/lib/kde4/kcm_standard_actions.so
 usr/lib/kde4/kcm_xinerama.so
 usr/lib/kde4/kded_kephal.so
 usr/lib/kde4/kded_khotkeys.so
+usr/lib/kde4/kded_kwrited.so
 usr/lib/kde4/kded_notificationitemwatcher.so
 usr/lib/kde4/kded_powerdevil.so
 usr/lib/kde4/kfontviewpart.so
@@ -103,7 +103,6 @@ usr/share/applications/kde4/kfontview.desktop
 usr/share/applications/kde4/kmenuedit.desktop
 usr/share/applications/kde4/krandrtray.desktop
 usr/share/autostart/krunner.desktop
-usr/share/autostart/kwrited-autostart.desktop
 usr/share/autostart/plasma-desktop.desktop
 usr/share/kde4/apps/kcmsolidactions/solid-action-template.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/fonts.desktop
@@ -127,6 +126,7 @@ usr/share/kde4/services/kcmlaunch.desktop
 usr/share/kde4/services/kcmsmserver.desktop
 usr/share/kde4/services/kded/kephal.desktop
 usr/share/kde4/services/kded/khotkeys.desktop
+usr/share/kde4/services/kded/kwrited.desktop
 usr/share/kde4/services/kded/notificationitemwatcher.desktop
 usr/share/kde4/services/kded/powerdevil.desktop
 usr/share/kde4/services/keyboard.desktop

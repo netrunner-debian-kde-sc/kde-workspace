@@ -1,3 +1,7 @@
+#usr/share/kde4/apps/plasma/plasmoids/ggl_photos/config.txt
+#usr/share/kde4/apps/plasma/plasmoids/ggl_rss/config.txt
+#usr/share/kde4/services/plasma-applet-ggl-photos.desktop
+#usr/share/kde4/services/plasma-applet-ggl-rss.desktop
 usr/lib/kde4/plasma_animator_default.so
 usr/lib/kde4/plasma_applet_activitybar.so
 usr/lib/kde4/plasma_applet_battery.so
@@ -31,8 +35,6 @@ usr/lib/libplasma_applet-system-monitor.so
 usr/share/kde4/apps/desktoptheme/default/calendar/mini-calendar.svgz
 usr/share/kde4/apps/desktoptheme/default/system-monitor/hdd_panel.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/battery-oxygen.svgz
-#usr/share/kde4/apps/plasma/plasmoids/ggl_photos/config.txt
-#usr/share/kde4/apps/plasma/plasmoids/ggl_rss/config.txt
 usr/share/kde4/apps/solid/actions/test-predicate-openinwindow.desktop
 usr/share/kde4/services/plasma-animator-default.desktop
 usr/share/kde4/services/plasma-applet-activitybar.desktop
@@ -40,8 +42,6 @@ usr/share/kde4/services/plasma-applet-analogclock.desktop
 usr/share/kde4/services/plasma-applet-calendar.desktop
 usr/share/kde4/services/plasma-applet-devicenotifier.desktop
 usr/share/kde4/services/plasma-applet-digitalclock.desktop
-#usr/share/kde4/services/plasma-applet-ggl-photos.desktop
-#usr/share/kde4/services/plasma-applet-ggl-rss.desktop
 usr/share/kde4/services/plasma-applet-icon.desktop
 usr/share/kde4/services/plasma-applet-launcher.desktop
 usr/share/kde4/services/plasma-applet-lockout.desktop

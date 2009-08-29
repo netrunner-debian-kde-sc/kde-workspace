@@ -39,7 +39,7 @@ which in turn includes much X stuff
  #include <QX11Info>
 --- a/plasma/applets/tasks/abstracttaskitem.cpp
 +++ b/plasma/applets/tasks/abstracttaskitem.cpp
-@@ -46,6 +46,7 @@
+@@ -48,6 +48,7 @@
  #include <taskmanager/task.h>
  #include <taskmanager/taskmanager.h>
  #include <taskmanager/taskgroup.h>

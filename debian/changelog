@@ -1,18 +1,22 @@
-kdebase-workspace (4:4.3.1-1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.3.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
-
-  +++ Changes by Pino Toscano:
-
-  * Install also the Linux-only data files of kdebase-workspace-data using a
-    install rule in rules (as a followup for bug #542591).
 
   +++ Changes by Fathi Boudra:
 
   * Add libutempter-dev build dependency. It allows to build kwrited as a kded
     module.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Aug 2009 09:56:59 +0200
+  +++ Changes by Modestas Vainius:
+
+  * Bump KDE build dependencies to 4.3.1.
+  * Drop 01_r1004104_oxygen_air.diff patch, taken from upstream.
+  * Drop 02_kfreebsd_updates.diff patch, merged upstream.
+  * Drop 27_ruby_scriptengine_typo patch, merged upstream.
+  * Update install files.
+  * Install Linux specific files on Linux only.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Aug 2009 19:08:29 +0300
 
 kdebase-workspace (4:4.3.0-3) unstable; urgency=low
 
