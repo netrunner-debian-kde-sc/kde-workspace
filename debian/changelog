@@ -1,3 +1,11 @@
+kdebase-workspace (4:4.3.1-2) UNRELEASED; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * Use DEB_HOST_ARCH_OS rather than DEB_BUILD_ARCH_OS in debian/rules
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 07 Sep 2009 20:32:35 +0300
+
 kdebase-workspace (4:4.3.1-1) unstable; urgency=low
 
   * New upstream release.
