@@ -4,7 +4,12 @@ kdebase-workspace (4:4.3.1-2) UNRELEASED; urgency=low
 
   * Use DEB_HOST_ARCH_OS rather than DEB_BUILD_ARCH_OS in debian/rules
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 07 Sep 2009 20:32:35 +0300
+  +++ Changes by Armin Berres:
+
+  * Start kdm after and stop it before kbd. Thanks to Michael Schutte
+    for the patch.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Sep 2009 22:39:28 +0200
 
 kdebase-workspace (4:4.3.1-1) unstable; urgency=low
 
