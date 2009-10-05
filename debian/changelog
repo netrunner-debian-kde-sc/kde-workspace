@@ -9,7 +9,7 @@ kdebase-workspace (4:4.3.2-0r1) UNRELEASED; urgency=low
   +++ Changes by Armin Berres:
 
   * Start kdm after and stop it before kbd. Thanks to Michael Schutte
-    for the patch.
+    for the patch. (Closes: #548103)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Oct 2009 00:52:41 +0200
 
