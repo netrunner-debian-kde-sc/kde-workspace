@@ -15,7 +15,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.
  libsensors-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libdevstat-dev [kfreebsd-i386 kfreebsd-amd64],
  libstrigiqtdbusclient-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3), libusb-dev, libxkbfile-dev,
- libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxklavier12-dev,
+ libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxklavier-dev,
  libxrandr-dev, libxrender-dev, libxxf86misc-dev, libxi-dev,
  libsmbclient-dev, libxcb1-dev, libxine-dev, libfontconfig-dev, libglu1-mesa-dev,
  libsm-dev, libxcursor-dev, libxft-dev, libxtst-dev, libqt4-opengl-dev, libxinerama-dev,
@@ -324,7 +324,7 @@ Description: KDE 4 System Settings
  This package is part of the KDE 4 base workspace module.
 
 Package: kdebase-workspace-dbg
-Section: devel
+Section: debug
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg, ${misc:Depends}
