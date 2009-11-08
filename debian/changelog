@@ -1,8 +1,8 @@
 kdebase-workspace (4:4.3.3-0r1) UNRELEASED; urgency=low
 
-  * New upstream release
-  * Updated build dep's version numbers in debian/control
-  * Updated patches/09_genkdm_make.diff - 1 line offset
+  * New upstream release.
+  * Bump build depends.
+  * Update patches/09_genkdm_make.diff - 1 line offset
 
  -- Lukasz Janyst <janyst@gmail.com>  Sat, 07 Nov 2009 23:15:19 +0100
 
