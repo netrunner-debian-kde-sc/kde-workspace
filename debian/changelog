@@ -4,6 +4,10 @@ kdebase-workspace (4:4.3.3-0r1) UNRELEASED; urgency=low
   * Bump build depends.
   * Update patches/09_genkdm_make.diff - 1 line offset
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove myself from Uploaders.
+
  -- Lukasz Janyst <janyst@gmail.com>  Sat, 07 Nov 2009 23:15:19 +0100
 
 kdebase-workspace (4:4.3.2-2) unstable; urgency=low
