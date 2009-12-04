@@ -1,6 +1,9 @@
-kdebase-workspace (4:4.3.3-0r1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.3.4-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+
+  +++ Changes by Lukasz Janyst:
+
   * Bump build depends.
   * Update patches/09_genkdm_make.diff - 1 line offset
 
@@ -8,7 +11,7 @@ kdebase-workspace (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * Remove myself from Uploaders.
 
- -- Lukasz Janyst <janyst@gmail.com>  Sat, 07 Nov 2009 23:15:19 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:56 +0200
 
 kdebase-workspace (4:4.3.2-2) unstable; urgency=low
 
