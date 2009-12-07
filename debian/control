@@ -341,7 +341,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.2.4), kdm (<< 4:4.2.0-2)
 Description: KDE greet libraries for authentication
- This package contains libraries needed for kdm and locker authentication
+ This package contains libraries needed for kdm and locker authentication.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -385,8 +385,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for the ksysguard gui
- This package contains libraries needed for ksysguard gui
+Description: Library for the ksysguard GUI
+ This package contains libraries needed for ksysguard GUI.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -508,7 +508,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
 Description: Library for solid based network interface management
- This package contains libraries needed for solid based network interface management.
+ This package contains libraries needed for solid based network interface
+ management.
  .
  This package is part of the KDE 4 base workspace module.
 

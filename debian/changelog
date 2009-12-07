@@ -11,6 +11,7 @@ kdebase-workspace (4:4.3.4-0r2) UNRELEASED; urgency=low
 
   * Remove myself from Uploaders.
   * Replace kcontrol -> System Settings in libkfontinst4 description.
+  * Add a few missing end of line dots in descriptions.
 
   +++ Changes by Modestas Vainius:
 
