@@ -362,8 +362,9 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Libraries for font installation in kcontrol
- This package contains libraries needed for font installation in kcontrol.
+Description: Libraries for font installation in System Settings
+ This package contains libraries needed for font installation in System
+ Settings.
  .
  This package is part of the KDE 4 base workspace module.
 
