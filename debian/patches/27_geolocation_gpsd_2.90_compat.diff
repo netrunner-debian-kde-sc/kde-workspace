@@ -12,7 +12,7 @@ Forwarded: no
  void Gpsd::run()
  {
 -    gps_query(m_gpsdata, "w+x\n");
-+    gps_stream(gpsdata, WATCH_ENABLE, NULL);
++    gps_stream(m_gpsdata, WATCH_ENABLE, NULL);
  
      while (!m_abort) {
          Plasma::DataEngine::Data d;
