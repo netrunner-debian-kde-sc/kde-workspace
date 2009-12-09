@@ -16,7 +16,7 @@ kdebase-workspace (4:4.3.4-1) unstable; urgency=low
   +++ Changes by Modestas Vainius:
 
   * Update install files.
-  * Make geolocation plugin build against version 2.9 of the gpsd library API.
+  * Make geolocation plugin build against version 2.90 of the gpsd library API.
     Patch 27_geolocation_gpsd_2.90_compat.diff. Also bump build depends to this
     version of the library.
 
