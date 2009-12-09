@@ -12,4 +12,5 @@
 24_do_not_search_for_libeet.diff
 25_task.h_forward_decl_netwininfo.diff
 26_run_kaboom_when_starting_kde.diff
+27_geolocation_gpsd_2.90_compat.diff
 97_fix_target_link_libraries.diff

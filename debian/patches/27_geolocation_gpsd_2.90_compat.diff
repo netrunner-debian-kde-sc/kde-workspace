@@ -1,0 +1,18 @@
+From: Modestas Vainius <modestas@vainius.eu>
+Subject: Make geolocation code compatible with gpsd 2.9 API
+  Based on http://gpsd.berlios.de/protocol-transition.html section "Virtue is
+  rewarded". This patch breaks compatibility with the earlier version of the
+  library.
+Forwarded: no
+
+--- a/plasma/dataengines/geolocation/location_gps.cpp
++++ b/plasma/dataengines/geolocation/location_gps.cpp
+@@ -41,7 +41,7 @@
+ 
+ void Gpsd::run()
+ {
+-    gps_query(m_gpsdata, "w+x\n");
++    gps_stream(gpsdata, WATCH_ENABLE, NULL);
+ 
+     while (!m_abort) {
+         Plasma::DataEngine::Data d;
