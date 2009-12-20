@@ -1,0 +1,11 @@
+--- a/libs/solid/control/powermanager.cpp	2009/12/14 22:57:55	1062503
++++ b/libs/solid/control/powermanager.cpp	2009/12/14 23:02:52	1062504
+@@ -196,7 +196,7 @@
+         else
+         {
+             return_SOLID_CALL(Ifaces::PowerManager *, globalPowerManager->managerBackend(),
+-                      false, brightness(controls.keys().at(0)));
++                      false, brightness(controls.keys(Solid::Control::PowerManager::Screen).at(0)));
+         }
+     }
+     else

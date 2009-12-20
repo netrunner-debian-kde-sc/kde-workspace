@@ -14,3 +14,4 @@
 26_run_kaboom_when_starting_kde.diff
 27_geolocation_gpsd_2.90_compat.diff
 97_fix_target_link_libraries.diff
+90_work_with_hal_0.5.14_svn_r1062504.diff
