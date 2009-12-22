@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.3.4-2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.3.4-2) unstable; urgency=high
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
@@ -8,7 +8,10 @@ kdebase-workspace (4:4.3.4-2) UNRELEASED; urgency=low
   * Import r1062504 patch to solid to make powerdevil applet work 
     with hal 0.5.14 (Closes: #561724)
 
- -- Xavier Vello <xavier.vello@gmail.com>  Sun, 20 Dec 2009 23:18:39 +0100
+  [ Sune Vuorela ]
+  * Urgency=high because of frequent crash fix
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Dec 2009 00:19:07 +0100
 
 kdebase-workspace (4:4.3.4-1) unstable; urgency=low
 
