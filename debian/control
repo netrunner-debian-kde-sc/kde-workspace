@@ -24,7 +24,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.
  libgps-dev (>= 2.90), libutempter-dev
 Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdebase-workspace
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdebase-workspace/#_trunk_packages_kdebase-workspace_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdebase-workspace
 
 Package: kdebase-workspace
