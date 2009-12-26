@@ -1,3 +1,9 @@
+kdebase-workspace (4:4.3.4-3) unstable; urgency=high
+
+  * Backport parts of r1035622/r1057980 to fix 90_work_with_hal_0.5.14_svn_r1062504.diff
+
+ -- Xavier Vello <xavier.vello@gmail.com>  Sat, 26 Dec 2009 17:22:05 +0100
+
 kdebase-workspace (4:4.3.4-2) unstable; urgency=high
 
   [ Modestas Vainius ]
