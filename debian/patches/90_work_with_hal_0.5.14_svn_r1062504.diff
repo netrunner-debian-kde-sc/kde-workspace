@@ -1,5 +1,31 @@
---- a/libs/solid/control/powermanager.cpp
+Subject: Fix plasma-desktop segfauls with hal 0.5.14 (battery applet and brightness related)
+Origin: backport, http://websvn.kde.org/?view=revision&revision=1035622
+ http://websvn.kde.org/?view=revision&revision=1057980
+ http://websvn.kde.org/?view=revision&revision=1069849
+Bug: https://bugs.kde.org/show_bug.cgi?id=219333
+Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=556468
+Forwarded: yes
+
+--- b/libs/solid/control/powermanager.cpp
 +++ b/libs/solid/control/powermanager.cpp
+@@ -155,7 +155,7 @@
+     if(device.isEmpty())
+     {
+         Solid::Control::PowerManager::BrightnessControlsList controls = brightnessControlsAvailable();
+-        if(controls.size() == 0)
++        if(controls.keys(Solid::Control::PowerManager::Screen).isEmpty())
+         {
+ #ifdef Q_WS_WIN
+             return false;
+@@ -185,7 +185,7 @@
+     if(device.isEmpty())
+     {
+         Solid::Control::PowerManager::BrightnessControlsList controls = brightnessControlsAvailable();
+-        if(controls.size() == 0)
++        if(controls.keys(Solid::Control::PowerManager::Screen).isEmpty())
+         {
+ #ifdef Q_WS_WIN
+             return false;
 @@ -196,7 +196,7 @@
          else
          {
