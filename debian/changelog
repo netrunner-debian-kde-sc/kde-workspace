@@ -1,10 +1,15 @@
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
 
+  [ Modestas Vainius ]
   * Backport r1069849 in order to fix crash with hal 0.5.14 (yet another
     attempt). Merged into patch 90_work_with_hal_0.5.14_svn_r1062504.diff
     (Closes: #556468).
 
- -- Modestas Vainius <modax@debian.org>  Wed, 06 Jan 2010 20:11:33 +0200
+  [ Kai Wasserbäch ]
+  * debian/control: Remove libxxf86misc-dev from Build-Depends.
+    (Closes: #559691)
+
+ -- Kai Wasserbäch <debian@carbon-project.org>  Wed, 27 Jan 2010 17:39:25 +0100
 
 kdebase-workspace (4:4.3.4-3) unstable; urgency=high
 
