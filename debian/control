@@ -197,11 +197,11 @@ Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
-Description: Web and MacOS X dashboard widget support for Plasma
- This package provides the Webkit script engine for Plasma which adds support
- for the webpage widgets written in HTML and JavaScript and for the Apple MacOS
- X dashboard widgets. You have to install this package if you want to be able
- to load these widgets in your Plasma shell.
+Description: Web and Mac OS X dashboard widget support for Plasma
+ This package provides the WebKit script engine for Plasma which adds support
+ for the webpage widgets written in HTML and JavaScript and for the Apple
+ Mac OS X dashboard widgets. You have to install this package if you want to be
+ able to load these widgets in your Plasma shell.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -352,7 +352,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
 Description: API for easier handling of multihead systems
- This package contains libraries needed for Kephals DBus-API.
+ This package contains libraries needed for Kephal's D-Bus API.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -362,7 +362,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Libraries for font installation in System Settings
+Description: libraries for font installation in System Settings
  This package contains libraries needed for font installation in System
  Settings.
  .
@@ -374,7 +374,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library of the KDE Screensaver system
+Description: library of the KDE Screensaver system
  This package contains libraries needed for kscreensaver.
  .
  This package is part of the KDE 4 base workspace module.
@@ -385,7 +385,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for the ksysguard GUI
+Description: library for the ksysguard GUI
  This package contains libraries needed for ksysguard GUI.
  .
  This package is part of the KDE 4 base workspace module.
@@ -396,7 +396,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for the kdebase workspace
+Description: library for the kdebase workspace
  This package contains libraries needed for the kdebase workspace.
  .
  This package is part of the KDE 4 base workspace module.
@@ -407,7 +407,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for ksysguard based priority scheduling
+Description: library for ksysguard based priority scheduling
  This package contains libraries needed for ksysguard based scheduling
  priority of a process.
  .
@@ -419,8 +419,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for the nepomuk search
- This package contains libraries needed for the nepomuk query search.
+Description: library for the Nepomuk search
+ This package contains libraries needed for the Nepomuk query search.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -430,8 +430,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for the nepomuk client search
- This package contains libraries needed for the nepomuk client search.
+Description: library for the Nepomuk client search
+ This package contains libraries needed for the Nepomuk client search.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -441,8 +441,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for the plasma system monitor
- This package contains libraries needed for the plasma system monitor.
+Description: library for the Plasma system monitor
+ This package contains libraries needed for the Plasma system monitor.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -452,8 +452,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for the plasma clock
- This package contains libraries needed for the plasma clock.
+Description: library for Plasma clocks
+ This package contains libraries needed for Plasma clocks.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -463,8 +463,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for the plasma geolocation
- This package contains libraries needed for the plasma geolocation.
+Description: library for the Plasma geolocation
+ This package contains libraries needed for the Plasma geolocation.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -474,7 +474,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for ksysguard based process view
+Description: library for ksysguard based process view
  This package contains libraries needed for ksysguard based process view.
  .
  This package is part of the KDE 4 base workspace module.
@@ -485,7 +485,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for ksysguard process user interface
+Description: library for ksysguard process user interface
  This package contains libraries needed for ksysguard process user interface.
  .
  This package is part of the KDE 4 base workspace module.
@@ -496,8 +496,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for solid based network management
- This package contains libraries needed for solid based network management.
+Description: library for Solid based network management
+ This package contains libraries needed for Solid based network management.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -507,8 +507,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library for solid based network interface management
- This package contains libraries needed for solid based network interface
+Description: library for Solid based network interface management
+ This package contains libraries needed for Solid based network interface
  management.
  .
  This package is part of the KDE 4 base workspace module.
@@ -519,7 +519,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library which provides task management facilities
+Description: library which provides task management facilities
  This package contains libraries which provide task management facilities.
  .
  This package is part of the KDE 4 base workspace module.
@@ -530,8 +530,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Description: Library which provides an interface for weather information services
- This package contains libraries  which is used to implement new ions for 
- the WeatherEngine.
+Description: library which provides an interface for weather information services
+ This package contains the library used to implement new ions (i.e. information
+ fetching plugins) for the Plasma weather engine.
  .
  This package is part of the KDE 4 base workspace module.
