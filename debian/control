@@ -264,8 +264,7 @@ Description: System Guard Daemon for KDE 4
 Package: ksysguard
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: ksysguardd (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, ksysguardd (= ${binary:Version})
 Replaces: kdebase-workspace-data (<< 4:4.1.80)
 Description: System Guard for KDE 4
  KDE System Guard allows you to monitor various statistics about your system.
