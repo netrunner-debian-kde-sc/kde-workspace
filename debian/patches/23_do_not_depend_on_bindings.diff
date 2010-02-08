@@ -1,6 +1,6 @@
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -60,9 +60,9 @@
+@@ -61,9 +61,9 @@
  
  macro_optional_find_package(PyKDE4)
  set(PythonSupport_FOUND FALSE)

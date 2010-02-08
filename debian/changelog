@@ -1,4 +1,6 @@
-kdebase-workspace (4:4.3.4-5) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Kai Wasserbäch ]
   * debian/control: Remove libxxf86misc-dev from Build-Depends.
@@ -8,7 +10,24 @@ kdebase-workspace (4:4.3.4-5) UNRELEASED; urgency=low
   * debian/control: slightly improve package descriptions a bit.
     - ... including spelling of "WebKit" and "Mac OS X". (Closes: #567164)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Jan 2010 17:45:13 +0100
+  [ George Kiagiadakis ]
+  * Refresh patches.
+  * Drop patches that have been included upstream:
+    - 24_do_not_search_for_libeet.diff
+    - 25_task.h_forward_decl_netwininfo.diff
+    - 27_geolocation_gpsd_2.90_compat.diff
+    - 90_work_with_hal_0.5.14_svn_r1062504.diff
+  * Bump kdelibs5-dev build dependency to >= 4:4.4.0.
+  * Bump libggadgets-1.0-dev and libggadgets-qt-1.0-dev build
+    dependencies to >= 0.11.0.
+  * Drop build dependencies to libutempter-dev and libknotificationitem1-dev
+    as they are no longer needed.
+  * Disable building polkit-kde and thus drop build dependencies to
+    libpolkit-qt-dev, libpolkit-dbus-dev and libpolkit-grant-dev.
+  * Drop libnepomukquery4 and libnepomukqueryclient4 packages
+    (code moved to kdelibs in libnepomukquery4).
+
+ -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Tue, 09 Feb 2010 00:57:25 +0200
 
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
 

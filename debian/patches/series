@@ -9,9 +9,5 @@
 20_use_dejavu_as_default_font.diff
 21_kdm_doesnt_use_kstandarddirs.diff
 23_do_not_depend_on_bindings.diff
-24_do_not_search_for_libeet.diff
-25_task.h_forward_decl_netwininfo.diff
 26_run_kaboom_when_starting_kde.diff
-27_geolocation_gpsd_2.90_compat.diff
 97_fix_target_link_libraries.diff
-90_work_with_hal_0.5.14_svn_r1062504.diff
