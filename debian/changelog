@@ -2,7 +2,7 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
     - fixes crash in Solid's HAL power handling. (Closes: #561724)
-    - fixes compilation witg GCC 4.5. (Closes: #565012)
+    - fixes compilation with GCC 4.5. (Closes: #565012)
 
   [ Kai Wasserbäch ]
   * debian/control: Remove libxxf86misc-dev from Build-Depends.
