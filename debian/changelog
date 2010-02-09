@@ -27,7 +27,11 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Drop libnepomukquery4 and libnepomukqueryclient4 packages
     (code moved to kdelibs in libnepomukquery4).
 
- -- George Kiagiadakis <gkiagiad@csd.uoc.gr>  Tue, 09 Feb 2010 00:57:25 +0200
+  [ Sune Vuorela ]
+  * Add breaks: for some kde3 kdm theme packages. Thanks Leonard.
+    Closes: 568950
+
+ -- Sune Vuorela <debian@pusling.com>  Tue, 09 Feb 2010 16:52:49 +0100
 
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
 
