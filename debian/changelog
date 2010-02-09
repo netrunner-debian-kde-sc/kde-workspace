@@ -1,6 +1,8 @@
 kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+    - fixes crash in Solid's HAL power handling. (Closes: #561724)
+    - fixes compilation witg GCC 4.5. (Closes: #565012)
 
   [ Kai Wasserbäch ]
   * debian/control: Remove libxxf86misc-dev from Build-Depends.
@@ -24,6 +26,7 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
     as they are no longer needed.
   * Disable building polkit-kde and thus drop build dependencies to
     libpolkit-qt-dev, libpolkit-dbus-dev and libpolkit-grant-dev.
+    (Closes: #549509)
   * Drop libnepomukquery4 and libnepomukqueryclient4 packages
     (code moved to kdelibs in libnepomukquery4).
 
@@ -31,7 +34,7 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Add breaks: for some kde3 kdm theme packages. Thanks Leonard.
     Closes: 568950
 
- -- Sune Vuorela <debian@pusling.com>  Tue, 09 Feb 2010 16:52:49 +0100
+ -- Sune Vuorela <debian@pusling.com>  Tue, 09 Feb 2010 21:44:46 +0100
 
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
 
