@@ -21,6 +21,7 @@ usr/include/ksysguard/DisplayProcessDlg.h
 usr/include/ksysguard/KTextEditVT.h
 usr/include/ksysguard/ProcessFilter.h
 usr/include/ksysguard/ProcessModel.h
+usr/include/ksysguard/ksignalplotter.h
 usr/include/ksysguard/ksysguardprocesslist.h
 usr/include/ksysguard/lsof.h
 usr/include/ksysguard/process.h
@@ -35,13 +36,6 @@ usr/include/kwinxrenderutils.h
 usr/include/kworkspace/kdisplaymanager.h
 usr/include/kworkspace/kwindowlistmenu.h
 usr/include/kworkspace/kworkspace.h
-usr/include/nepomuk/nepomukquery_export.h
-usr/include/nepomuk/nepomukqueryclient_export.h
-usr/include/nepomuk/query.h
-usr/include/nepomuk/queryparser.h
-usr/include/nepomuk/queryserviceclient.h
-usr/include/nepomuk/result.h
-usr/include/nepomuk/term.h
 usr/include/plasma/geolocation/geolocation_export.h
 usr/include/plasma/geolocation/geolocationprovider.h
 usr/include/plasma/weather/ion.h
@@ -66,6 +60,8 @@ usr/include/solid/control/ifaces/networkinterface.h
 usr/include/solid/control/ifaces/networkmanager.h
 usr/include/solid/control/ifaces/networkserialinterface.h
 usr/include/solid/control/ifaces/powermanager.h
+usr/include/solid/control/ifaces/remotecontrol.h
+usr/include/solid/control/ifaces/remotecontrolmanager.h
 usr/include/solid/control/ifaces/wirednetworkinterface.h
 usr/include/solid/control/ifaces/wirelessaccesspoint.h
 usr/include/solid/control/ifaces/wirelessnetworkinterface.h
@@ -77,6 +73,9 @@ usr/include/solid/control/networkipv4config.h
 usr/include/solid/control/networkmanager.h
 usr/include/solid/control/networkserialinterface.h
 usr/include/solid/control/powermanager.h
+usr/include/solid/control/remotecontrol.h
+usr/include/solid/control/remotecontrolbutton.h
+usr/include/solid/control/remotecontrolmanager.h
 usr/include/solid/control/singletondefs.h
 usr/include/solid/control/solid_control_export.h
 usr/include/solid/control/wirednetworkinterface.h
@@ -93,10 +92,11 @@ usr/include/taskmanager/taskgroup.h
 usr/include/taskmanager/taskitem.h
 usr/include/taskmanager/taskmanager.h
 usr/include/taskmanager/taskmanager_export.h
-usr/lib/cmake/KDE4Workspace-4.3.*/KDE4WorkspaceConfig.cmake
-usr/lib/cmake/KDE4Workspace-4.3.*/KDE4WorkspaceConfigVersion.cmake
-usr/lib/cmake/KDE4Workspace-4.3.*/KDE4WorkspaceLibraryTargets-debian.cmake
-usr/lib/cmake/KDE4Workspace-4.3.*/KDE4WorkspaceLibraryTargets.cmake
+usr/lib/cmake/KDE4Workspace-4.4.*/KDE4WorkspaceConfig.cmake
+usr/lib/cmake/KDE4Workspace-4.4.*/KDE4WorkspaceConfigVersion.cmake
+usr/lib/cmake/KDE4Workspace-4.4.*/KDE4WorkspaceLibraryTargets-debian.cmake
+usr/lib/cmake/KDE4Workspace-4.4.*/KDE4WorkspaceLibraryTargets.cmake
+usr/lib/kde4/plugins/designer/ksignalplotterwidgets.so
 usr/lib/kde4/plugins/designer/ksysguardlsofwidgets.so
 usr/lib/kde4/plugins/designer/ksysguardwidgets.so
 usr/lib/libkdecorations.so
@@ -105,11 +105,10 @@ usr/lib/libkfontinst.so
 usr/lib/libkfontinstui.so
 usr/lib/libkscreensaver.so
 usr/lib/libksgrd.so
+usr/lib/libksignalplotter.so
 usr/lib/libkwineffects.so
 usr/lib/libkworkspace.so
 usr/lib/liblsofui.so
-usr/lib/libnepomukquery.so
-usr/lib/libnepomukqueryclient.so
 usr/lib/libplasma-geolocation-interface.so
 usr/lib/libplasmaclock.so
 usr/lib/libprocesscore.so
@@ -131,7 +130,6 @@ usr/share/kde4/apps/cmake/modules/FindGooglegadgets.cmake
 usr/share/kde4/apps/cmake/modules/FindKephal.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXKlavier.cmake
 usr/share/kde4/apps/cmake/modules/FindPAM.cmake
-usr/share/kde4/apps/cmake/modules/FindPolkitQt.cmake
 usr/share/kde4/apps/cmake/modules/FindQEdje.cmake
 usr/share/kde4/apps/cmake/modules/FindSensors.cmake
 usr/share/kde4/apps/cmake/modules/PkgConfigGetVar.cmake

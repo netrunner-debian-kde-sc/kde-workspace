@@ -29,6 +29,8 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
     (Closes: #549509)
   * Drop libnepomukquery4 and libnepomukqueryclient4 packages
     (code moved to kdelibs in libnepomukquery4).
+  * Update installed files.
+  * Add new library packages: libksignalplotter4, libplasmagenericshell4.
 
   [ Sune Vuorela ]
   * Add breaks: for some kde3 kdm theme packages. Thanks Leonard.

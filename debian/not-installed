@@ -2,7 +2,8 @@
 #no need to ship dev symlink
 ./usr/lib/libkwinnvidiahack.so
 ./usr/lib/libtime_solar.so
-./usr/lib/libpolkitkdeprivate.so
+./usr/lib/libplasmagenericshell.so
+./usr/lib/libsystemsettingsview.so
 
 # Python *.pyc files
 ./usr/share/kde4/apps/plasma_scriptengine_python/pyappletscript.pyc

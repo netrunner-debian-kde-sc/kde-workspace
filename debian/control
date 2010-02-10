@@ -89,6 +89,7 @@ Depends: ${shlibs:Depends},
  libkfontinst4 (= ${binary:Version}),
  libkscreensaver5 (= ${binary:Version}),
  libksgrd4 (= ${binary:Version}),
+ libksignalplotter4 (= ${binary:Version}),
  libkworkspace4 (= ${binary:Version}),
  liblsofui4 (= ${binary:Version}),
  libplasma-applet-system-monitor4 (= ${binary:Version}),
@@ -388,6 +389,16 @@ Description: library for the ksysguard GUI
  .
  This package is part of the KDE 4 base workspace module.
 
+Package: libksignalplotter4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: the KSignalPlotter widget
+ This library contains the KSignalPlotter widget, which is a widget that
+ draws a real time graph of data that updates continually.
+ .
+ This package is part of the KDE 4 base workspace module.
+
 Package: libkworkspace4
 Section: libs
 Architecture: any
@@ -441,6 +452,16 @@ Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
 Description: library for the Plasma geolocation
  This package contains libraries needed for the Plasma geolocation.
+ .
+ This package is part of the KDE 4 base workspace module.
+
+Package: libplasmagenericshell4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: shared elements for all the plasma shells
+ This library contains elements shared by the plasma desktop shell,
+ the plasma netbook shell and the plasma screensaver overlay.
  .
  This package is part of the KDE 4 base workspace module.
 

@@ -1,7 +1,9 @@
+etc/dbus-1/system.d/org.kde.ksysguard.processlisthelper.conf
 usr/bin/ksysguard
-usr/bin/setscheduler
+usr/lib/kde4/libexec/ksysguardprocesslist_helper
 usr/lib/libkdeinit4_ksysguard.so
 usr/share/applications/kde4/ksysguard.desktop
+usr/share/dbus-1/system-services/org.kde.ksysguard.processlisthelper.service
 usr/share/doc/kde4/HTML/en/ksysguard/common
 usr/share/doc/kde4/HTML/en/ksysguard/index.cache.bz2
 usr/share/doc/kde4/HTML/en/ksysguard/index.docbook
@@ -18,4 +20,6 @@ usr/share/kde4/apps/ksysguard/ProcessTable.sgrd
 usr/share/kde4/apps/ksysguard/SystemLoad2.sgrd
 usr/share/kde4/apps/ksysguard/ksysguard.notifyrc
 usr/share/kde4/apps/ksysguard/ksysguardui.rc
+usr/share/kde4/apps/ksysguard/scripts/README
 usr/share/kde4/config/ksysguard.knsrc
+usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy

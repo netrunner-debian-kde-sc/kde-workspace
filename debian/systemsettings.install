@@ -4,13 +4,14 @@ usr/lib/kde4/icon_mode.so
 usr/lib/kde4/kcm_colors.so
 usr/lib/kde4/kcm_fonts.so
 usr/lib/kde4/kcm_style.so
-usr/lib/libsystemsettingsview.so
+usr/lib/libsystemsettingsview.so.1
 usr/share/applications/kde4/systemsettings.desktop
 usr/share/doc/kde4/HTML/en/systemsettings/common
 usr/share/doc/kde4/HTML/en/systemsettings/index.cache.bz2
 usr/share/doc/kde4/HTML/en/systemsettings/index.docbook
 usr/share/kde4/apps/systemsettings/classic/main.html
 usr/share/kde4/apps/systemsettings/classic/systemsettings-classic.css
+usr/share/kde4/apps/systemsettings/systemsettings.kcfg
 usr/share/kde4/apps/systemsettings/systemsettingsui.rc
 usr/share/kde4/services/colors.desktop
 usr/share/kde4/services/fonts.desktop
@@ -38,4 +39,5 @@ usr/share/kde4/services/settings-system.desktop
 usr/share/kde4/services/settings-window-behaviour.desktop
 usr/share/kde4/services/style.desktop
 usr/share/kde4/servicetypes/systemsettingscategory.desktop
+usr/share/kde4/servicetypes/systemsettingsexternalapp.desktop
 usr/share/kde4/servicetypes/systemsettingsview.desktop

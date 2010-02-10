@@ -1,10 +1,12 @@
 usr/lib/kde4/ion_bbcukmet.so
 usr/lib/kde4/ion_envcan.so
 usr/lib/kde4/ion_noaa.so
+usr/lib/kde4/ion_wettercom.so
 usr/lib/kde4/plasma-geolocation-gps.so
 usr/lib/kde4/plasma-geolocation-ip.so
 usr/lib/kde4/plasma_engine_akonadi.so
 usr/lib/kde4/plasma_engine_applicationjobs.so
+usr/lib/kde4/plasma_engine_apps.so
 usr/lib/kde4/plasma_engine_calendar.so
 usr/lib/kde4/plasma_engine_dict.so
 usr/lib/kde4/plasma_engine_executable.so
@@ -26,9 +28,8 @@ usr/lib/kde4/plasma_engine_systemmonitor.so
 usr/lib/kde4/plasma_engine_tasks.so
 usr/lib/kde4/plasma_engine_time.so
 usr/lib/kde4/plasma_engine_weather.so
-usr/lib/libtime_solar.so.4
-usr/lib/libtime_solar.so.4.3.0
 usr/share/kde4/apps/plasma/services/applicationjobs.operations
+usr/share/kde4/apps/plasma/services/apps.operations
 usr/share/kde4/apps/plasma/services/modifierkeystate.operations
 usr/share/kde4/apps/plasma/services/notifications.operations
 usr/share/kde4/apps/plasma/services/nowplaying.operations
@@ -36,7 +37,9 @@ usr/share/kde4/apps/plasma/services/tasks.operations
 usr/share/kde4/services/ion-bbcukmet.desktop
 usr/share/kde4/services/ion-envcan.desktop
 usr/share/kde4/services/ion-noaa.desktop
+usr/share/kde4/services/ion-wettercom.desktop
 usr/share/kde4/services/plasma-dataengine-applicationjobs.desktop
+usr/share/kde4/services/plasma-dataengine-apps.desktop
 usr/share/kde4/services/plasma-dataengine-calendar.desktop
 usr/share/kde4/services/plasma-dataengine-dict.desktop
 usr/share/kde4/services/plasma-dataengine-executable.desktop
