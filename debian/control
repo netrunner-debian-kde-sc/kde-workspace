@@ -551,12 +551,12 @@ Description: library which provides task management facilities
  .
  This package is part of the KDE 4 base workspace module.
 
-Package: libweather-ion4
+Package: libweather-ion4a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdebase-workspace-libs4+5
-Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
+Replaces: kdebase-workspace-libs4+5, libweather-ion4
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90), libweather-ion4
 Description: library which provides an interface for weather information services
  This package contains the library used to implement new ions (i.e. information
  fetching plugins) for the Plasma weather engine.

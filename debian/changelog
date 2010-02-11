@@ -35,6 +35,8 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
     shell, split plasma-desktop off kdebase-workspace-bin and put it in the
     "plasma-desktop" package and make kdebase-workspace-bin depend on either
     of those two.
+  * Rename libweather-ion4 to libweather-ion4a as the new version of this
+    library is binary incompatible with previous versions.
 
   [ Sune Vuorela ]
   * Add breaks: for some kde3 kdm theme packages. Thanks Leonard.
