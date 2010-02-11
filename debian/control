@@ -43,10 +43,40 @@ Description: base workspace components from the official KDE 4 release
  .
  This package provides a basic KDE 4 desktop installation.
 
+Package: plasma-desktop
+Section: kde
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version})
+Recommends: kdebase-workspace
+Replaces: kdebase-workspace-bin (<< 4:4.4.0), plasma-widgets-workspace (<< 4:4.4.0)
+Description: The KDE Plasma workspace for desktop and laptop computers
+ Provides the environment for running and managing applications and integrating
+ interaction of applications. It is designed as generic environment for all
+ kinds of desktop applications, not only applications built on the KDE Platform.
+ It integrates best with applications following the standards used by the KDE
+ Platform.
+ .
+ This package is part of the KDE 4 base workspace module.
+
+Package: plasma-netbook
+Section: kde
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version})
+Recommends: kdebase-workspace
+Description: The KDE Plasma workspace for netbook computers
+ Provides the environment for running and managing applications and integrating
+ interaction of applications. It is designed as generic environment for all
+ kinds of applications in a netbook environment, not only applications built on
+ the KDE Platform. It integrates best with applications following the standards
+ used by the KDE Platform.
+ .
+ This package is part of the KDE 4 base workspace module.
+
 Package: kdebase-workspace-bin
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version}),
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ plasma-desktop (= ${binary:Version}) | plasma-netbook (= ${binary:Version}),
  kdebase-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils,
  kaboom (>= 1.0.5), kdebase-workspace-kgreet-plugins (= ${binary:Version})
 Recommends: plasma-scriptengines
@@ -58,8 +88,8 @@ Conflicts: kcontrol, libplasma1, libplasma2
 Description: core binaries for the KDE 4 base workspace module
  This package contains miscellaneous programs needed for a basic KDE 4 desktop
  installation. Among other standard KDE 4 desktop components, the package
- provides startkde scripts, ksmserver (the KDE 4 session manager) and the main
- Plasma shell, which manages most KDE 4 visual user interface components. This
+ provides startkde scripts, ksmserver (the KDE 4 session manager), krunner,
+ the default KDE screensavers and many KDE configuration modules. This
  package is essential to start and use KDE 4 Desktop Environment.
  .
  This package is part of the KDE 4 base workspace module.

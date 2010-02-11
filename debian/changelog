@@ -31,6 +31,10 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
     (code moved to kdelibs in libnepomukquery4).
   * Update installed files.
   * Add new library packages: libksignalplotter4, libplasmagenericshell4.
+  * Add the "plasma-netbook" package, which contains the netbook plasma
+    shell, split plasma-desktop off kdebase-workspace-bin and put it in the
+    "plasma-desktop" package and make kdebase-workspace-bin depend on either
+    of those two.
 
   [ Sune Vuorela ]
   * Add breaks: for some kde3 kdm theme packages. Thanks Leonard.

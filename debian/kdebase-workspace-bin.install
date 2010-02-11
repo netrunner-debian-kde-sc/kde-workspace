@@ -19,7 +19,6 @@ usr/bin/ksplashx_scale
 usr/bin/kstartupconfig4
 usr/bin/ksystraycmd
 usr/bin/kxkb
-usr/bin/plasma-desktop
 usr/bin/plasma-overlay
 usr/bin/plasmaengineexplorer
 usr/bin/plasmawallpaperviewer
@@ -106,7 +105,6 @@ usr/lib/libkdeinit4_kmenuedit.so
 usr/lib/libkdeinit4_krunner.so
 usr/lib/libkdeinit4_ksmserver.so
 usr/lib/libkdeinit4_kxkb.so
-usr/lib/libkdeinit4_plasma-desktop.so
 usr/lib/libkhotkeysprivate.so.4
 usr/lib/libkhotkeysprivate.so.4.4.0
 usr/lib/strigi/strigita_font.so
@@ -114,7 +112,6 @@ usr/share/applications/kde4/kfontview.desktop
 usr/share/applications/kde4/kmenuedit.desktop
 usr/share/applications/kde4/krandrtray.desktop
 usr/share/autostart/krunner.desktop
-usr/share/autostart/plasma-desktop.desktop
 usr/share/kde4/apps/kcmsolidactions/solid-action-template.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/fonts.desktop
 usr/share/kde4/services/ScreenSavers/kblank.desktop
