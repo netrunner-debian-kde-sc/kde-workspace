@@ -42,7 +42,11 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Add breaks: for some kde3 kdm theme packages. Thanks Leonard.
     Closes: 568950
 
- -- Sune Vuorela <debian@pusling.com>  Tue, 09 Feb 2010 21:44:46 +0100
+  [ Ryan Kavanagh ]
+  * Update and apply Martin Olsen's patch to add a manpage for
+    /usr/bin/kioclient (Closes: #493054).
+
+ -- Ryan Kavanagh <ryanakca@kubuntu.org>  Sat, 13 Feb 2010 11:36:28 -0500
 
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
 
