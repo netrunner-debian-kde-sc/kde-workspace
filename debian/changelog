@@ -46,7 +46,7 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Update and apply Martin Olsen's patch to add a manpage for
     /usr/bin/kioclient (Closes: #493054).
 
- -- Ryan Kavanagh <ryanakca@kubuntu.org>  Mon, 15 Feb 2010 19:13:06 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 19:17:06 +0100
 
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
 
