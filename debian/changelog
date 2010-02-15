@@ -3,6 +3,7 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
   * New upstream release.
     - fixes crash in Solid's HAL power handling. (Closes: #561724)
     - fixes compilation with GCC 4.5. (Closes: #565012)
+    - fixes dual-head setup with fglrx. (Closes: #529487)
 
   [ Kai Wasserbäch ]
   * debian/control: Remove libxxf86misc-dev from Build-Depends.
@@ -46,7 +47,7 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Update and apply Martin Olsen's patch to add a manpage for
     /usr/bin/kioclient (Closes: #493054).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 19:17:06 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 19:28:34 +0100
 
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
 
