@@ -26,7 +26,7 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
     as they are no longer needed.
   * Disable building polkit-kde and thus drop build dependencies to
     libpolkit-qt-dev, libpolkit-dbus-dev and libpolkit-grant-dev.
-    (Closes: #549509)
+    (Closes: #549509, #563013)
   * Drop libnepomukquery4 and libnepomukqueryclient4 packages
     (code moved to kdelibs in libnepomukquery4).
   * Update installed files.
@@ -46,7 +46,7 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Update and apply Martin Olsen's patch to add a manpage for
     /usr/bin/kioclient (Closes: #493054).
 
- -- Ryan Kavanagh <ryanakca@kubuntu.org>  Sat, 13 Feb 2010 11:36:28 -0500
+ -- Ryan Kavanagh <ryanakca@kubuntu.org>  Mon, 15 Feb 2010 19:13:06 +0100
 
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
 
