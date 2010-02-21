@@ -27,7 +27,6 @@ Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdebase-workspace
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdebase-workspace
 
 Package: kdebase-workspace
-Section: kde
 Architecture: all
 Depends:  kdebase-workspace-bin (>= ${source:Version}), ${misc:Depends}
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), 
@@ -44,7 +43,6 @@ Description: base workspace components from the official KDE 4 release
  This package provides a basic KDE 4 desktop installation.
 
 Package: plasma-desktop
-Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version})
 Recommends: kdebase-workspace
@@ -59,7 +57,6 @@ Description: The KDE Plasma workspace for desktop and laptop computers
  This package is part of the KDE 4 base workspace module.
 
 Package: plasma-netbook
-Section: kde
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version})
 Recommends: kdebase-workspace
@@ -73,7 +70,6 @@ Description: The KDE Plasma workspace for netbook computers
  This package is part of the KDE 4 base workspace module.
 
 Package: kdebase-workspace-bin
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
  plasma-desktop (= ${binary:Version}) | plasma-netbook (= ${binary:Version}),
@@ -95,7 +91,6 @@ Description: core binaries for the KDE 4 base workspace module
  This package is part of the KDE 4 base workspace module.
 
 Package: kdebase-workspace-data
-Section: kde
 Architecture: all
 Depends: oxygencursors, ${misc:Depends}
 Conflicts: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
@@ -110,7 +105,6 @@ Description: shared data files for the KDE 4 base workspace module
  This package is part of the KDE 4 base workspace module.
 
 Package: kdebase-workspace-dev
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends},
  libkwineffects1 (= ${binary:Version}), libkdecorations4 (= ${binary:Version}),
@@ -139,7 +133,6 @@ Description: development files for the KDE 4 base workspace module
  libraries from the KDE 4 base workspace module.
 
 Package: plasma-dataengines-workspace
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: ksysguardd (= ${binary:Version})
@@ -155,7 +148,6 @@ Description: KDE 4 base workspace Plasma data engines
  This package is part of the KDE 4 base workspace module.
 
 Package: plasma-widgets-workspace
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, plasma-dataengines-workspace (= ${binary:Version}), ${misc:Depends}, kdebase-runtime (>> 4.3.3~)
 Replaces: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82), libplasma2,
@@ -173,7 +165,6 @@ Description: KDE 4 base workspace Plasma widgets and containments
  This package is part of the KDE 4 base workspace module.
 
 Package: plasma-scriptengines
-Section: kde
 Architecture: all
 Depends: plasma-scriptengine-javascript (>= 4:4.2.95),
  plasma-scriptengine-qedje (>= ${source:Version}),
@@ -190,7 +181,6 @@ Description: a metapackage to install all Plasma script engines
  This package is part of the KDE 4 base workspace module.
 
 Package: plasma-scriptengine-qedje
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: QEdje script engine for Plasma
@@ -200,7 +190,6 @@ Description: QEdje script engine for Plasma
  This package is part of the KDE 4 base workspace module.
 
 Package: plasma-scriptengine-ruby
-Section: kde
 Architecture: all
 Depends: libplasma-ruby (>= 4:4.2.0), ${misc:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
@@ -211,7 +200,6 @@ Description: Ruby script engine for Plasma
  This package is part of the KDE 4 base workspace module.
 
 Package: plasma-scriptengine-python
-Section: kde
 Architecture: all
 Depends: ${python:Depends}, python-kde4 (>= 4:4.2.0), ${misc:Depends}
 Description: Python script engine for Plasma
@@ -221,7 +209,6 @@ Description: Python script engine for Plasma
  This package is part of the KDE 4 base workspace module.
 
 Package: plasma-scriptengine-webkit
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
@@ -234,7 +221,6 @@ Description: Web and Mac OS X dashboard widget support for Plasma
  This package is part of the KDE 4 base workspace module.
 
 Package: plasma-scriptengine-googlegadgets
-Section: kde
 Priority: extra
 Architecture: any
 Depends: ${shlibs:Depends}, google-gadgets-qt, google-gadgets-xul, ${misc:Depends}
@@ -342,7 +328,6 @@ Description: library used by effects for the KDE 4 window manager
  This package is part of the KDE 4 base workspace module.
 
 Package: systemsettings
-Section: kde
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-bin (<= 4:4.2.2-2), kdebase-workspace-data (<< 4:4.1.80)
