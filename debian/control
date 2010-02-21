@@ -29,7 +29,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdebase-workspace
 Package: kdebase-workspace
 Section: kde
 Architecture: all
-Depends:  kdebase-workspace-bin (>= ${source:Version}),
+Depends:  kdebase-workspace-bin (>= ${source:Version}), ${misc:Depends}
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), 
  kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version})
 Recommends: kdm (>= ${source:Version})
@@ -130,7 +130,7 @@ Depends: ${shlibs:Depends},
  libsolidcontrol4 (= ${binary:Version}),
  libsolidcontrolifaces4 (= ${binary:Version}),
  libtaskmanager4 (= ${binary:Version}),
- libweather-ion4 (= ${binary:Version})
+ libweather-ion4a (= ${binary:Version})
 Replaces: kdebase-workspace-data (<< 4:4.1.80), ksysguard (<< 4:4.1.80), libplasma-dev (<< 4:4.1.80),
  kde-window-manager (<< 4:4.1.80)
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
@@ -223,7 +223,7 @@ Description: Python script engine for Plasma
 Package: plasma-scriptengine-webkit
 Section: kde
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
 Description: Web and Mac OS X dashboard widget support for Plasma
  This package provides the WebKit script engine for Plasma which adds support
