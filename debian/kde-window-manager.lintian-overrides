@@ -1,5 +1,1 @@
-kde-window-manager: package-name-doesnt-match-sonames libkdeinit4-kwin libkdeinit4-kwin-rules-dialog libkwinnvidiahack4
-kde-window-manager: shlib-without-versioned-soname usr/lib/libkdeinit4_kwin.so libkdeinit4_kwin.so
-kde-window-manager: shlib-without-versioned-soname usr/lib/libkdeinit4_kwin_rules_dialog.so libkdeinit4_kwin_rules_dialog.so
-kde-window-manager: no-symbols-control-file usr/lib/libkdeinit4_kwin.so
-kde-window-manager: no-symbols-control-file usr/lib/libkdeinit4_kwin_rules_dialog.so
+kde-window-manager: package-name-doesnt-match-sonames libkwinnvidiahack4

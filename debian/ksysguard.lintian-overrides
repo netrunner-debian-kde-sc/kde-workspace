@@ -1,2 +1,0 @@
-ksysguard: no-symbols-control-file usr/lib/libkdeinit4_ksysguard.so
-ksysguard: package-name-doesnt-match-sonames libkdeinit4-ksysguard
