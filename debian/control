@@ -20,7 +20,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.
  libsmbclient-dev, libxcb1-dev, libxine-dev, libfontconfig-dev, libglu1-mesa-dev,
  libsm-dev, libxcursor-dev, libxft-dev, libxtst-dev, libqt4-opengl-dev, libxinerama-dev,
  libxss-dev, libqedje-dev (>= 0.4.0), libggadget-1.0-dev (>= 0.11.0), libggadget-qt-1.0-dev (>= 0.11.0),
- libakonadi-dev (>= 1.1.95), libgps-dev (>= 2.90)
+ libakonadi-dev (>= 1.1.95), libgps-dev (>= 2.90), shared-desktop-ontologies
 Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdebase-workspace/#_trunk_packages_kdebase-workspace_
