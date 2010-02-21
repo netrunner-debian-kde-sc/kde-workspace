@@ -28,7 +28,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdebase-workspace
 
 Package: kdebase-workspace
 Architecture: all
-Depends:  kdebase-workspace-bin (>= ${source:Version}), ${misc:Depends}
+Depends:  kdebase-workspace-bin (>= ${source:Version}), ${misc:Depends},
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), 
  kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version})
 Recommends: kdm (>= ${source:Version})
