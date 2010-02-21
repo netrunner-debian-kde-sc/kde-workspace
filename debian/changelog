@@ -43,6 +43,8 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
     library is binary incompatible with previous versions.
   * Remove unused lintian overrides.
   * Add some new lintian overrides where needed.
+  * Fix the kdm.options manpage to mention /etc/kde4 instead of /etc/kde3
+    (Closes: #564554)
 
   [ Sune Vuorela ]
   * Add breaks: for some kde3 kdm theme packages. Thanks Leonard.
