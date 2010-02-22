@@ -1,0 +1,25 @@
+# SymbolsHelper-Confirmed: 4:4.3.4 alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+libkscreensaver.so.5 libkscreensaver5 #MINVER#
+ _Z16kScreenSaverMainiPPcR21KScreenSaverInterface@Base 4:4.3.4
+ _ZN12KScreenSaver11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
+ _ZN12KScreenSaver11qt_metacastEPKc@Base 4:4.3.4
+ _ZN12KScreenSaver16staticMetaObjectE@Base 4:4.3.4
+ _ZN12KScreenSaver5embedEP7QWidget@Base 4:4.3.4
+ _ZN12KScreenSaver5eventEP6QEvent@Base 4:4.3.4
+ _ZN12KScreenSaverC1Em@Base 4:4.3.4
+ _ZN12KScreenSaverC2Em@Base 4:4.3.4
+ _ZN12KScreenSaverD0Ev@Base 4:4.3.4
+ _ZN12KScreenSaverD1Ev@Base 4:4.3.4
+ _ZN12KScreenSaverD2Ev@Base 4:4.3.4
+ _ZN21KScreenSaverInterface5setupEv@Base 4:4.3.4
+ _ZN21KScreenSaverInterfaceD0Ev@Base 4:4.3.4
+ _ZN21KScreenSaverInterfaceD1Ev@Base 4:4.3.4
+ _ZN21KScreenSaverInterfaceD2Ev@Base 4:4.3.4
+ _ZNK12KScreenSaver10metaObjectEv@Base 4:4.3.4
+ _ZTI12KScreenSaver@Base 4:4.3.4
+ _ZTI21KScreenSaverInterface@Base 4:4.3.4
+ _ZTS12KScreenSaver@Base 4:4.3.4
+ _ZTS21KScreenSaverInterface@Base 4:4.3.4
+ _ZTV12KScreenSaver@Base 4:4.3.4
+ _ZTV21KScreenSaverInterface@Base 4:4.3.4
+ (c++)"non-virtual thunk to KScreenSaver::~KScreenSaver()@Base" 4:4.3.4

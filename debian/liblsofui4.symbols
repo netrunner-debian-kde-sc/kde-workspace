@@ -1,0 +1,19 @@
+# SymbolsHelper-Confirmed: 4:4.3.4 alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+liblsofui.so.4 liblsofui4 #MINVER#
+ _ZN11KLsofWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
+ _ZN11KLsofWidget11qt_metacastEPKc@Base 4:4.3.4
+ _ZN11KLsofWidget16staticMetaObjectE@Base 4:4.3.4
+ _ZN11KLsofWidget6setPidEx@Base 4:4.3.4
+ _ZN11KLsofWidget6updateEv@Base 4:4.3.4
+ _ZN11KLsofWidget8finishedEiN8QProcess10ExitStatusE@Base 4:4.3.4
+ _ZN11KLsofWidgetC1EP7QWidget@Base 4:4.3.4
+ _ZN11KLsofWidgetC2EP7QWidget@Base 4:4.3.4
+ _ZN11KLsofWidgetD0Ev@Base 4:4.3.4
+ _ZN11KLsofWidgetD1Ev@Base 4:4.3.4
+ _ZN11KLsofWidgetD2Ev@Base 4:4.3.4
+ _ZNK11KLsofWidget10metaObjectEv@Base 4:4.3.4
+ _ZNK11KLsofWidget3pidEv@Base 4:4.3.4
+ _ZTI11KLsofWidget@Base 4:4.3.4
+ _ZTS11KLsofWidget@Base 4:4.3.4
+ _ZTV11KLsofWidget@Base 4:4.3.4
+ (c++)"non-virtual thunk to KLsofWidget::~KLsofWidget()@Base" 4:4.3.4
