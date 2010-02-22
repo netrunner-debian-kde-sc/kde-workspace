@@ -6,6 +6,9 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
     - fixes dual-head setup with fglrx. (Closes: #529487)
     - fixes ~20% CPU usage of system tray widget. (Closes: #553663)
     - fixes klipper correctly clearing the clipboard history. (Closes: #410123)
+    - fixes downloaded wallpaper not found by login manager. (Closes: #410635)
+    - fixes blocked directories under /proc/acpi by ksysguardd.
+      (Closes: #542125)
 
   [ Kai Wasserbäch ]
   * debian/control: Remove libxxf86misc-dev from Build-Depends.
