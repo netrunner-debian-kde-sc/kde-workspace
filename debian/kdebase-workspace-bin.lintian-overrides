@@ -1,1 +1,1 @@
-kdebase-workspace-bin: package-name-doesnt-match-sonames libkhotkeysprivate4
+kdebase-workspace-bin: package-name-doesnt-match-sonames libkfontinst4 libkfontinstui4 libkhotkeysprivate4

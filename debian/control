@@ -92,7 +92,7 @@ Description: core binaries for the KDE 4 base workspace module
 
 Package: kdebase-workspace-data
 Architecture: all
-Depends: oxygencursors, ${misc:Depends}
+Depends: oxygencursors, ${misc:Depends}, ${perl:Depends}
 Conflicts: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
  kmenuedit, ktip, libplasma1, systemsettings (<< 4:4.1.80)
 Replaces: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
@@ -106,10 +106,8 @@ Description: shared data files for the KDE 4 base workspace module
 
 Package: kdebase-workspace-dev
 Architecture: any
-Depends: ${shlibs:Depends},
- libkwineffects1 (= ${binary:Version}), libkdecorations4 (= ${binary:Version}),
- ${sameVersionDep:kdelibs5-dev:kdebase-workspace-bin}, ${misc:Depends},
- ${allLibraries}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${allLibraries},
+ ${sameVersionDep:kdelibs5-dev:kdebase-workspace-bin},
 Replaces: kdebase-workspace-data (<< 4:4.1.80), ksysguard (<< 4:4.1.80), libplasma-dev (<< 4:4.1.80),
  kde-window-manager (<< 4:4.1.80)
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
@@ -226,8 +224,7 @@ Recommends: logrotate, xserver-xorg-core | xserver,
  kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
 Suggests: kdepasswd
 Replaces: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80)
-Conflicts: desktop-base (<< 4.0.4), kdebase-data (<< 4:4.0.0-1)
-Breaks: kde-kdm-themes, kdmtheme
+Conflicts: desktop-base (<< 4.0.4), kdebase-data (<< 4:4.0.0-1), kde-kdm-themes, kdmtheme
 Provides: x-display-manager
 Description: KDE Display Manager for X11
  KDM manages a collection of X servers running on local or remote machines.
@@ -278,7 +275,7 @@ Description: System Guard for KDE 4
 Package: kde-window-manager
 Section: x11
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Provides: x-window-manager
 Replaces: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80),
  kwin, kdebase-runtime-data (<< 4:4.0.81)

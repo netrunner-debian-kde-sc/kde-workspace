@@ -50,7 +50,7 @@ kdebase-workspace (4:4.4.0-0r2) UNRELEASED; urgency=low
     (Closes: #564554)
 
   [ Sune Vuorela ]
-  * Add breaks: for some kde3 kdm theme packages. Thanks Leonard.
+  * Add conflicts: for some kde3 kdm theme packages. Thanks Leonard.
     Closes: 568950
 
   [ Modestas Vainius ]
@@ -77,6 +77,9 @@ kdebase-workspace (4:4.4.0-0r2) UNRELEASED; urgency=low
     symbol files support.
   * Add symbol files for public libraries.
   * Do not fail if there are lost symbols by passing -c0 to dpkg-gensymbols.
+  * Add lintian overrides.
+  * Add ${perl:Depends} substvar to kdebase-workspace-data and
+    kde-window-manager Depends.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 19:41:04 +0100
 

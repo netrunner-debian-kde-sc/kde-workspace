@@ -23,7 +23,6 @@ usr/lib/kde4/plasma_applet_system-monitor.so
 usr/lib/kde4/plasma_applet_systemtray.so
 usr/lib/kde4/plasma_applet_webbrowser.so
 usr/lib/kde4/plasma_containment_saverdesktop.so
-usr/lib/libplasma_applet-system-monitor.so
 usr/lib/libplasma_applet-system-monitor.so.4
 usr/lib/libplasma_applet-system-monitor.so.4.4.0
 usr/share/kde4/apps/desktoptheme/default/calendar/mini-calendar.svgz

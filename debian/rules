@@ -16,6 +16,8 @@ DEB_DH_MAKESHLIBS_ARGS_ALL := -V -u-c0
 # Private shared libraries which do not install headers
 DEB_DH_MAKESHLIBS_ARGS_libplasmagenericshell4 := '-Vlibplasmagenericshell4 (= $(BINARYVERSION))'
 
+DEB_DH_MAKESHLIBS_ARGS_plasma-desktop := -Xlibkickoff.so
+
 DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-bin := -- -xksysguard
 DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-dev := -- -xkdebase-runtime
 
