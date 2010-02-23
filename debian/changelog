@@ -75,6 +75,8 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Use ${allLibraries} subst in kdebase-workspace-dev Depends.
   * Build depend on pkg-kde-tools 0.6.4 for library-packages.mk and enhanced
     symbol files support.
+  * Add symbol files for public libraries.
+  * Do not fail if there are lost symbols by passing -c0 to dpkg-gensymbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 19:41:04 +0100
 
