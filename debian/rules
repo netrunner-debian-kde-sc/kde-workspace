@@ -1,6 +1,10 @@
 #!/usr/bin/make -f
 
+DEB_ALL_LIBRARIES_SUBST_PACKAGES = kdebase-workspace-dev
+DEB_STRICT_LOCAL_SHLIBS_PACKAGES = $(DEB_LIBRARY_PACKAGES)
+
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/1/library-packages.mk
 
 #DEB_CMAKE_EXTRA_FLAGS += \
 #	-DINSTALL_PRINTER_APPLET=TRUE

@@ -3,8 +3,8 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
- kdelibs5-dev (>= 4:4.4.0), kdepimlibs5-dev (>= 4:4.3.4), libboost-dev,
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.6.4),
+ kdelibs5-dev (>= 4:4.4.0), kdepimlibs5-dev (>= 4:4.4.0), libboost-dev,
  python-support (>= 0.6), python-dev,
  libbluetooth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libck-connector-dev, libdbus-1-dev,
@@ -109,20 +109,7 @@ Architecture: any
 Depends: ${shlibs:Depends},
  libkwineffects1 (= ${binary:Version}), libkdecorations4 (= ${binary:Version}),
  ${sameVersionDep:kdelibs5-dev:kdebase-workspace-bin}, ${misc:Depends},
- libkephal4 (= ${binary:Version}),
- libkscreensaver5 (= ${binary:Version}),
- libksgrd4 (= ${binary:Version}),
- libksignalplotter4 (= ${binary:Version}),
- libkworkspace4 (= ${binary:Version}),
- liblsofui4 (= ${binary:Version}),
- libplasmaclock4 (= ${binary:Version}),
- libplasma-geolocation-interface4 (= ${binary:Version}),
- libprocesscore4 (= ${binary:Version}),
- libprocessui4 (= ${binary:Version}),
- libsolidcontrol4 (= ${binary:Version}),
- libsolidcontrolifaces4 (= ${binary:Version}),
- libtaskmanager4 (= ${binary:Version}),
- libweather-ion4a (= ${binary:Version})
+ ${allLibraries}
 Replaces: kdebase-workspace-data (<< 4:4.1.80), ksysguard (<< 4:4.1.80), libplasma-dev (<< 4:4.1.80),
  kde-window-manager (<< 4:4.1.80)
 Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90)
@@ -336,18 +323,6 @@ Description: KDE 4 System Settings
  .
  This package is part of the KDE 4 base workspace module.
 
-Package: kdebase-workspace-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: kdebase-runtime-dbg, ${misc:Depends}
-Conflicts: kdebase-dbg (<< 4:4.0), kdebase-workspace-libs4+5 (<< 4:4.2.90)
-Replaces: kdebase-dbg (<< 4:4.0)
-Suggests: kdebase-workspace (>= ${source:Version})
-Description: debugging symbols for the KDE 4 base workspace module
- This package contains debugging files used to investigate problems with
- binaries included in the KDE 4 base workspace module.
-
 Package: kdebase-workspace-kgreet-plugins
 Section: libs
 Architecture: any
@@ -528,3 +503,16 @@ Description: library which provides an interface for weather information service
  fetching plugins) for the Plasma weather engine.
  .
  This package is part of the KDE 4 base workspace module.
+
+Package: kdebase-workspace-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: kdebase-runtime-dbg, ${misc:Depends}
+Conflicts: kdebase-dbg (<< 4:4.0), kdebase-workspace-libs4+5 (<< 4:4.2.90)
+Replaces: kdebase-dbg (<< 4:4.0)
+Suggests: kdebase-workspace (>= ${source:Version})
+Description: debugging symbols for the KDE 4 base workspace module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE 4 base workspace module.
+

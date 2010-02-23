@@ -70,6 +70,11 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
   * Merge libplasma-applet-system-monitor4 into plasma-widgets-widgets because
     it does not install headers and plasma-widgets-workspace is the only package
     which depends on it.
+  * Use strict interdependencies between library packages and local binary
+    packages which depend on them.
+  * Use ${allLibraries} subst in kdebase-workspace-dev Depends.
+  * Build depend on pkg-kde-tools 0.6.4 for library-packages.mk and enhanced
+    symbol files support.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 19:41:04 +0100
 
