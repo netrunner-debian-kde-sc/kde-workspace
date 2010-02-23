@@ -56,6 +56,19 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * libkdeinit4_*.so have been moved to private directory
     (Closes: #553115, #553116).
+  * Bump Standards-Version to 3.8.4: no changes needed.
+  * Rename the following library packages due to binary incompatible changes:
+    - libkwineffects1 -> libkwineffects1a;
+    - libplasmaclock4 -> libplasmaclock4a;
+    - libprocesscore4 -> libprocesscore4a;
+    - libprocessui4 -> libprocessui4a;
+    - libtaskmanager4 -> libtaskmanager4a;
+    Add appropriate Provides/Conflicts/Replaces.
+  * Merge libkfontinst4 into kdebase-workspace-bin because it does not install
+    headers and kdebase-workspace-bin is the only package which depends on it.
+  * Merge libplasma-applet-system-monitor4 into plasma-widgets-widgets because
+    it does not install headers and plasma-widgets-workspace is the only package
+    which depends on it.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 19:41:04 +0100
 
