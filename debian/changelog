@@ -63,7 +63,8 @@ kdebase-workspace (4:4.4.0-0r1) UNRELEASED; urgency=low
     - libprocesscore4 -> libprocesscore4a;
     - libprocessui4 -> libprocessui4a;
     - libtaskmanager4 -> libtaskmanager4a;
-    Add appropriate Provides/Conflicts/Replaces.
+    Introduce "exclusive" *-api virtual packages for these libraries and add
+    appropriate Provides/Conflicts/Replaces.
   * Merge libkfontinst4 into kdebase-workspace-bin because it does not install
     headers and kdebase-workspace-bin is the only package which depends on it.
   * Merge libplasma-applet-system-monitor4 into plasma-widgets-widgets because

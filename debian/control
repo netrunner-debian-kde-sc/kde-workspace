@@ -318,9 +318,9 @@ Package: libkwineffects1a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libkwineffects1
-Replaces: kwin (>= 4:4.0.1-1), libkwineffects1
-Conflicts: kwin (>= 4:4.0.1-1), libkwineffects1
+Provides: libkwineffects1-api
+Replaces: kwin (>= 4:4.0.1-1), libkwineffects1, libkwineffects1-api
+Conflicts: kwin (>= 4:4.0.1-1), libkwineffects1, libkwineffects1-api
 Description: library used by effects for the KDE 4 window manager
  This package contains a library used by effects for the KDE 4 window manager.
  .
@@ -428,9 +428,9 @@ Package: libplasmaclock4a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libplasmaclock4
-Replaces: kdebase-workspace-libs4+5, libplasmaclock4
-Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90), libplasmaclock4
+Provides: libplasmaclock4-api
+Replaces: kdebase-workspace-libs4+5, libplasmaclock4, libplasmaclock4-api
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90), libplasmaclock4, libplasmaclock4-api
 Description: library for Plasma clocks
  This package contains libraries needed for Plasma clocks.
  .
@@ -461,9 +461,9 @@ Package: libprocesscore4a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libprocesscore4
-Replaces: kdebase-workspace-libs4+5, libprocesscore4
-Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90), libprocesscore4
+Provides: libprocesscore4-api
+Replaces: kdebase-workspace-libs4+5, libprocesscore4, libprocesscore4-api
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90), libprocesscore4, libprocesscore4-api
 Description: library for ksysguard based process view
  This package contains libraries needed for ksysguard based process view.
  .
@@ -473,9 +473,9 @@ Package: libprocessui4a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libprocessui4
-Replaces: kdebase-workspace-libs4+5, libprocessui4
-Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90), libprocessui4
+Provides: libprocessui4-api
+Replaces: kdebase-workspace-libs4+5, libprocessui4, libprocessui4-api
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90), libprocessui4, libprocessui4-api
 Description: library for ksysguard process user interface
  This package contains libraries needed for ksysguard process user interface.
  .
@@ -508,9 +508,9 @@ Package: libtaskmanager4a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libtaskmanager4
-Replaces: kdebase-workspace-libs4+5, libtaskmanager4
-Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90), libtaskmanager4
+Provides: libtaskmanager4-api
+Replaces: kdebase-workspace-libs4+5, libtaskmanager4, libtaskmanager4-api
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90), libtaskmanager4, libtaskmanager4-api
 Description: library which provides task management facilities
  This package contains libraries which provide task management facilities.
  .
@@ -520,9 +520,9 @@ Package: libweather-ion4a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libweather-ion4
-Replaces: kdebase-workspace-libs4+5, libweather-ion4
-Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90), libweather-ion4
+Provides: libweather-ion4-api
+Replaces: kdebase-workspace-libs4+5, libweather-ion4, libweather-ion4-api
+Conflicts: kdebase-workspace-libs4+5 (<< 4:4.2.90), libweather-ion4, libweather-ion4-api
 Description: library which provides an interface for weather information services
  This package contains the library used to implement new ions (i.e. information
  fetching plugins) for the Plasma weather engine.
