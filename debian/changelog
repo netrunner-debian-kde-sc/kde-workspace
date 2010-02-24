@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.4.0-0r2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
     - fixes crash in Solid's HAL power handling. (Closes: #561724)
@@ -81,7 +81,7 @@ kdebase-workspace (4:4.4.0-0r2) UNRELEASED; urgency=low
   * Add ${perl:Depends} substvar to kdebase-workspace-data and
     kde-window-manager Depends.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Feb 2010 19:41:04 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:19 +0200
 
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
 
