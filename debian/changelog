@@ -83,6 +83,10 @@ kdebase-workspace (4:4.4.1~svn1095499-0r1) UNRELEASED; urgency=low
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint to Build-Depends.
 
+  [ Christian Perrier ]
+  * Debconf translations:
+    - Finnish (Esko Arajärvi).  Closes: #533561
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:19 +0200
 
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
