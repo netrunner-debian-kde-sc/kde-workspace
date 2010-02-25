@@ -17,7 +17,6 @@ usr/include/ksgrd/SensorClient.h
 usr/include/ksgrd/SensorManager.h
 usr/include/ksgrd/SensorShellAgent.h
 usr/include/ksgrd/SensorSocketAgent.h
-usr/include/ksysguard/DisplayProcessDlg.h
 usr/include/ksysguard/KTextEditVT.h
 usr/include/ksysguard/ProcessFilter.h
 usr/include/ksysguard/ProcessModel.h

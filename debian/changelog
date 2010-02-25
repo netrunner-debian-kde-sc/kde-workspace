@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.1~svn1095499-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes crash in Solid's HAL power handling. (Closes: #561724)
@@ -25,7 +25,7 @@ kdebase-workspace (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
     - 25_task.h_forward_decl_netwininfo.diff
     - 27_geolocation_gpsd_2.90_compat.diff
     - 90_work_with_hal_0.5.14_svn_r1062504.diff
-  * Bump kdelibs5-dev build dependency to >= 4:4.4.0.
+  * Bump kdelibs5-dev build dependency to >= 4:4.4.
   * Bump libggadgets-1.0-dev and libggadgets-qt-1.0-dev build
     dependencies to >= 0.11.0.
   * Add build dependency on shared-desktop-ontologies.

@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
 libkdecorations.so.4 libkdecorations4 #MINVER#
-*Build-Depends-Package: kdebase-workspace-dev
+* Build-Depends-Package: kdebase-workspace-dev
  _ZN11KDecoration10setDesktopEi@Base 4:4.3.4
  _ZN11KDecoration11closeWindowEv@Base 4:4.3.4
  _ZN11KDecoration11grabXServerEv@Base 4:4.3.4
