@@ -1,3 +1,8 @@
+kdebase-workspace (4:4.3.4-5) UNRELEASED; urgency=high
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Feb 2010 00:01:56 +0100
+
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
 
   * Backport r1069849 in order to fix crash with hal 0.5.14 (yet another
