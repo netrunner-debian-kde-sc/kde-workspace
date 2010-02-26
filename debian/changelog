@@ -82,6 +82,7 @@ kdebase-workspace (4:4.4.1~svn1095499-0r1) UNRELEASED; urgency=low
     kde-window-manager Depends.
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint to Build-Depends.
+  * Unversion conflicts with kdebase-workspace-libs4+5.
 
   [ Christian Perrier ]
   * Debconf translations:
