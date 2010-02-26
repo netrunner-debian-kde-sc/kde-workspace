@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.1~ amd64
+# SymbolsHelper-Confirmed: 4:4.4.1 amd64
 libplasmaclock.so.4 libplasmaclock4a #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN11ClockApplet10popupEventEb@Base 4:4.3.4
@@ -6,7 +6,7 @@ libplasmaclock.so.4 libplasmaclock4a #MINVER#
  _ZN11ClockApplet11dateChangedERK5QDate@Base 4:4.3.4
  _ZN11ClockApplet11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11ClockApplet11qt_metacastEPKc@Base 4:4.3.4
- _ZN11ClockApplet13configChangedEv@Base 4:4.4.1~
+ _ZN11ClockApplet13configChangedEv@Base 4:4.4.1
  _ZN11ClockApplet13localTimezoneEv@Base 4:4.3.4
  _ZN11ClockApplet13toolTipHiddenEv@Base 4:4.3.4
  _ZN11ClockApplet14configAcceptedEv@Base 4:4.3.4
@@ -17,7 +17,7 @@ libplasmaclock.so.4 libplasmaclock4a #MINVER#
  _ZN11ClockApplet16staticMetaObjectE@Base 4:4.3.4
  _ZN11ClockApplet16updateTipContentEv@Base 4:4.3.4
  _ZN11ClockApplet17contextualActionsEv@Base 4:4.3.4
- _ZN11ClockApplet18clockConfigChangedEv@Base 4:4.4.1~
+ _ZN11ClockApplet18clockConfigChangedEv@Base 4:4.4.1
  _ZN11ClockApplet18setCurrentTimezoneERK7QString@Base 4:4.3.4
  _ZN11ClockApplet18toolTipAboutToShowEv@Base 4:4.3.4
  _ZN11ClockApplet19clockConfigAcceptedEv@Base 4:4.3.4
