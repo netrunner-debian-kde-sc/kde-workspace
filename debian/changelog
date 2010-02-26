@@ -2,8 +2,10 @@ kdebase-workspace (4:4.3.4-5) UNRELEASED; urgency=high
 
   [ Pino Toscano ]
   * Remove libxxf86misc-dev from Build-Depends. (Closes: #559691)
+  * Rebuilding should fix all the issues due to the recent BIC changes in the
+    new google-gadgets. (Closes: #564825, #569768, #571077)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Feb 2010 00:05:00 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Feb 2010 00:09:03 +0100
 
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
 
