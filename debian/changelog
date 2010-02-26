@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.3.4-5) UNRELEASED; urgency=high
+kdebase-workspace (4:4.3.4-5) unstable; urgency=high
 
   [ Pino Toscano ]
   * Remove libxxf86misc-dev from Build-Depends. (Closes: #559691)
@@ -6,7 +6,7 @@ kdebase-workspace (4:4.3.4-5) UNRELEASED; urgency=high
     new google-gadgets. (Closes: #564825, #569768, #571077)
   * Set high as urgency for the RC bugfixes above.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Feb 2010 00:12:25 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Feb 2010 00:14:13 +0100
 
 kdebase-workspace (4:4.3.4-4) unstable; urgency=low
 
