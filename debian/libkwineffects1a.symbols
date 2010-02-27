@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.4.1 amd64 i386
 libkwineffects.so.1 libkwineffects1a #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN4KWin10Extensions10has_damageE@Base 4:4.3.4
@@ -255,7 +255,6 @@ libkwineffects.so.1 libkwineffects1a #MINVER#
  _ZN4KWin6EffectD2Ev@Base 4:4.3.4
  (optional=templinst)_ZN4KWin6MotionI7QPointFE9calculateEi@Base 4:4.3.4
  _ZN4KWin6initGLEv@Base 4:4.3.4
- _ZN4KWin7displayEv@Base 4:4.3.4
  _ZN4KWin7effectsE@Base 4:4.3.4
  _ZN4KWin7initGLXEv@Base 4:4.3.4
  _ZN4KWin8GLShader10initStaticEv@Base 4:4.3.4
