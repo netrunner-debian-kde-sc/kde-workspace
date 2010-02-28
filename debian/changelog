@@ -89,10 +89,11 @@ kdebase-workspace (4:4.4.1-0r1) UNRELEASED; urgency=low
     - Polish (Marcin Owsiany).  Closes: #571311
 
   [ Fathi Boudra ]
+  * Add LANGUAGE to the list of provided kdm override. (Closes: #501669)
   * Allow /etc/init.d/kdm status as non-root user.
-    Thanks to Petter Reinholdtsen. (Closes: #527896).
+    Thanks to Petter Reinholdtsen. (Closes: #527896)
   * Use lsb output functions in kdm init script.
-    Thanks to Petter Reinholdtsen. (Closes: #567802).
+    Thanks to Petter Reinholdtsen. (Closes: #567802)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:19 +0200
 
