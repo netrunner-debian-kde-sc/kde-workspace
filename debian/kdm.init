@@ -16,7 +16,7 @@
 # description: K Display Manager
 #
 
-# Import the LSB init functions
+# import the LSB init functions
 . /lib/lsb/init-functions
 
 # set the locale
@@ -25,7 +25,7 @@ if [ -r /etc/default/locale ]; then
   export LANG LANGUAGE
 fi
 
-# To start kdm even if it is not the default display manager, change
+# to start kdm even if it is not the default display manager, change
 # HEED_DEFAULT_DISPLAY_MANAGER to "false."
 HEED_DEFAULT_DISPLAY_MANAGER=true
 DEFAULT_DISPLAY_MANAGER_FILE=/etc/X11/default-display-manager
@@ -36,62 +36,62 @@ PIDFILE=/var/run/kdm.pid
 UPGRADEFILE=/var/run/kdm.upgrade
 
 setup_config () {
-# parameters to support kdm customization
-KDMRC=/etc/kde4/kdm/kdmrc
-BACKGROUNDRC=/etc/kde4/kdm/backgroundrc
+  # parameters to support kdm customization
+  KDMRC=/etc/kde4/kdm/kdmrc
+  BACKGROUNDRC=/etc/kde4/kdm/backgroundrc
 
-#if configuration is changed by kdmtheme or other tools, don't do magick
-if grep -q "^[[:space:]]*Theme=@@@ToBeReplacedByDesktopBase@@@" ${KDMRC}; then
+  # if configuration is changed by kdmtheme or other tools, don't do magick
+  if grep -q "^[[:space:]]*Theme=@@@ToBeReplacedByDesktopBase@@@" ${KDMRC}; then
 
-  KDMOVERRIDEDIR=/etc/default/kdm.d
-  KDMCFGDIR=/var/run/kdm
-  KDMCFG=$KDMCFGDIR/kdmrc
-  BACKGROUNDCFG=$KDMCFGDIR/backgroundrc
-  DEFAULT_KDM_THEME=/usr/share/kde4/apps/kdm/themes/oxygen-air
+    KDMOVERRIDEDIR=/etc/default/kdm.d
+    KDMCFGDIR=/var/run/kdm
+    KDMCFG=$KDMCFGDIR/kdmrc
+    BACKGROUNDCFG=$KDMCFGDIR/backgroundrc
+    DEFAULT_KDM_THEME=/usr/share/kde4/apps/kdm/themes/oxygen-air
 
-  test -x $DAEMON || exit 0
+    test -x $DAEMON || exit 0
 
-  # uncomment, if you want auto-logon to be runlevel-dependant
-  #test "$runlevel" || { runlevel=`runlevel`; runlevel=${runlevel#* }; }
-  #test "$runlevel" = 4 && ARG=-autolog || ARG=-noautolog
+    # uncomment, if you want auto-logon to be runlevel-dependant
+    #test "$runlevel" || { runlevel=`runlevel`; runlevel=${runlevel#* }; }
+    #test "$runlevel" = 4 && ARG=-autolog || ARG=-noautolog
 
-  # uncomment, if you want tons of debug info in your syslog
-  #ARG="$ARG -debug 255"
+    # uncomment, if you want tons of debug info in your syslog
+    #ARG="$ARG -debug 255"
 
-  # we use an alternative kdm master configuration file
-  ARG="$ARG -config $KDMCFG"
+    # we use an alternative kdm master configuration file
+    ARG="$ARG -config $KDMCFG"
 
-  # we generate kdm configuration files
-  genkdmconf --in $KDMCFGDIR 1> /dev/null
+    # we generate kdm configuration files
+    genkdmconf --in $KDMCFGDIR 1> /dev/null
 
-  if grep -q "^[[:space:]]*Wallpaper=default_blue.jpg" ${BACKGROUNDRC}; then
-    # we source overrides. run-parts sorts the list in a predictable order
-    if [ -d "$KDMOVERRIDEDIR" ]; then
-      for part in $(run-parts --list "$KDMOVERRIDEDIR" 2>/dev/null || true); do
-        . "$part"
-      done
+    if grep -q "^[[:space:]]*Wallpaper=default_blue.jpg" ${BACKGROUNDRC}; then
+      # we source overrides. run-parts sorts the list in a predictable order
+      if [ -d "$KDMOVERRIDEDIR" ]; then
+        for part in $(run-parts --list "$KDMOVERRIDEDIR" 2>/dev/null || true); do
+          . "$part"
+        done
+      fi
+
+      # we update kdm configuration files (only overridden values)
+      [ -n "$USEBACKGROUND" ] && sed -i "s|^#\?UseBackground=.*|UseBackground=$USEBACKGROUND|" $KDMCFG
+      [ -n "$BACKGROUNDCFG" ] && sed -i "s|^#\?BackgroundCfg=.*|BackgroundCfg=$BACKGROUNDCFG|" $KDMCFG
+      [ -n "$USETHEME" ] && sed -i "s|^#\?UseTheme=.*|UseTheme=$USETHEME|" $KDMCFG
+      [ -n "$THEME" ] && [ -e "$THEME" ] && sed -i "s|^#\?Theme=.*|Theme=$THEME|" $KDMCFG
+      [ -n "$WALLPAPER" ] && [ -e "$WALLPAPER" ] && sed -i "s|^#\?Wallpaper=.*|Wallpaper=`readlink -f $WALLPAPER`|" $BACKGROUNDCFG
     fi
 
-    # we update kdm configuration files (only overridden values)
-    [ -n "$USEBACKGROUND" ] && sed -i "s|^#\?UseBackground=.*|UseBackground=$USEBACKGROUND|" $KDMCFG
-    [ -n "$BACKGROUNDCFG" ] && sed -i "s|^#\?BackgroundCfg=.*|BackgroundCfg=$BACKGROUNDCFG|" $KDMCFG
-    [ -n "$USETHEME" ] && sed -i "s|^#\?UseTheme=.*|UseTheme=$USETHEME|" $KDMCFG
-    [ -n "$THEME" ] && [ -e "$THEME" ] && sed -i "s|^#\?Theme=.*|Theme=$THEME|" $KDMCFG
-    [ -n "$WALLPAPER" ] && [ -e "$WALLPAPER" ] && sed -i "s|^#\?Wallpaper=.*|Wallpaper=`readlink -f $WALLPAPER`|" $BACKGROUNDCFG
-  fi
+    # usetheme is now on "by default" so we need to be sure Theme is not invalid ...
+    sed -i "s|@@@ToBeReplacedByDesktopBase@@@|$DEFAULT_KDM_THEME|" ${KDMCFG}
 
-  #usetheme is now on "by default" so we need to be sure Theme is not invalid ...
-  sed -i "s|@@@ToBeReplacedByDesktopBase@@@|$DEFAULT_KDM_THEME|" ${KDMCFG}
-
-  # autologin overrides are useful for live debian environment
-  if [ -n "$AUTOLOGINUSER" ]; then
-    sed -i "s|^#\?AutoLoginEnable=.*|AutoLoginEnable=true|" $KDMCFG
-    sed -i "s|^#\?AutoLoginUser=.*|AutoLoginUser=$AUTOLOGINUSER|" $KDMCFG
+    # autologin overrides are useful for live debian environment
+    if [ -n "$AUTOLOGINUSER" ]; then
+      sed -i "s|^#\?AutoLoginEnable=.*|AutoLoginEnable=true|" $KDMCFG
+      sed -i "s|^#\?AutoLoginUser=.*|AutoLoginUser=$AUTOLOGINUSER|" $KDMCFG
+    fi
+    [ -n "$AUTOLOGINDELAY" ] && sed -i "s|^#\?AutoLoginDelay=.*|AutoLoginDelay=$AUTOLOGINDELAY|" $KDMCFG
+    [ -n "$AUTOLOGINAGAIN" ] && sed -i "s|^#\?AutoLoginAgain=.*|AutoLoginAgain=$AUTOLOGINAGAIN|" $KDMCFG
+    [ -n "$AUTOLOGINLOCKED" ] && sed -i "s|^#\?AutoLoginLocked=.*|AutoLoginLocked=$AUTOLOGINLOCKED|" $KDMCFG
   fi
-  [ -n "$AUTOLOGINDELAY" ] && sed -i "s|^#\?AutoLoginDelay=.*|AutoLoginDelay=$AUTOLOGINDELAY|" $KDMCFG
-  [ -n "$AUTOLOGINAGAIN" ] && sed -i "s|^#\?AutoLoginAgain=.*|AutoLoginAgain=$AUTOLOGINAGAIN|" $KDMCFG
-  [ -n "$AUTOLOGINLOCKED" ] && sed -i "s|^#\?AutoLoginLocked=.*|AutoLoginLocked=$AUTOLOGINLOCKED|" $KDMCFG
-fi
 }
 
 # If we upgraded the daemon, we can't use the --exec argument to
