@@ -106,7 +106,7 @@ else
   SSD_ARGS="--pidfile $PIDFILE --exec $DAEMON"
 fi
 
-stillrunning () {
+still_running () {
   if expr "$(cat /proc/$DAEMONPID/cmdline 2> /dev/null)" : "$DAEMON" > /dev/null 2>&1; then
     true
   else
@@ -136,7 +136,7 @@ case "$1" in
   restart)
     /etc/init.d/kdm stop
     if [ -f $PIDFILE ]; then
-      if stillrunning; then
+      if still_running; then
         exit 1
       fi
     fi
@@ -173,7 +173,7 @@ case "$1" in
         fi
       fi
       while [ $KILLCOUNT -le 5 ]; do
-        if stillrunning; then
+        if still_running; then
           kill $DAEMONPID
         else
           break
@@ -181,7 +181,7 @@ case "$1" in
         sleep 1
         KILLCOUNT=$(( $KILLCOUNT + 1 ))
       done
-      if stillrunning; then
+      if still_running; then
         log_action_cont_msg " not responding to TERM signal (pid $DAEMONPID)"
       else
         rm -f $UPGRADEFILE
