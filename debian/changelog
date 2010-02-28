@@ -88,6 +88,10 @@ kdebase-workspace (4:4.4.1-0r1) UNRELEASED; urgency=low
     - Finnish (Esko Arajärvi).  Closes: #533561
     - Polish (Marcin Owsiany).  Closes: #571311
 
+  [ Fathi Boudra ]
+  * Use lsb output functions in kdm init script.
+    Thanks to Petter Reinholdtsen. (Closes: #567802).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:19 +0200
 
 kdebase-workspace (4:4.3.4-5) unstable; urgency=high

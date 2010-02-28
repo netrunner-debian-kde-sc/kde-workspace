@@ -119,11 +119,14 @@ case "$1" in
     if [ -e $DEFAULT_DISPLAY_MANAGER_FILE ] &&
        [ "$HEED_DEFAULT_DISPLAY_MANAGER" = "true" ] &&
        [ "$(cat $DEFAULT_DISPLAY_MANAGER_FILE)" != "$DAEMON" ]; then
-      echo "Not starting K Display Manager (kdm); it is not the default display manager."
+      log_action_msg "Not starting K Display Manager (kdm); it is not the default display manager."
     else
-      echo -n "Starting K Display Manager: kdm"
-      start-stop-daemon --start --quiet $SSD_ARGS -- $ARG || echo -n " already running"
-      echo "."
+      log_daemon_msg "Starting K Display Manager" "kdm"
+      if start-stop-daemon --start --quiet $SSD_ARGS -- $ARG ; then
+        log_end_msg 0
+      else
+        log_action_end_msg 1 "already running"
+      fi
     fi
   ;;
 
@@ -138,11 +141,11 @@ case "$1" in
   ;;
 
   reload)
-    echo -n "Reloading K Display Manager configuration..."
+    log_action_begin_msg "Reloading K Display Manager configuration..."
     if start-stop-daemon --stop --signal 1 --quiet $SSD_ARGS; then
-      echo "done."
+      log_action_end_msg 0
     else
-      echo "kdm not running."
+      log_action_end_msg 1 "kdm not running"
     fi
   ;;
 
@@ -151,9 +154,9 @@ case "$1" in
   ;;
 
   stop)
-    echo -n "Stopping K Display Manager: kdm"
+    log_action_begin_msg "Stopping K Display Manager: kdm"
     if [ ! -f $PIDFILE ]; then
-      echo " not running ($PIDFILE not found)."
+      log_action_end_msg 0 " not running ($PIDFILE not found)"
       exit 0
     else
       DAEMONPID=$(cat $PIDFILE | tr -d '[:blank:]')
@@ -163,7 +166,7 @@ case "$1" in
           # give kdm's signal handler a second to catch its breath
           sleep 1
         else
-          echo -n " not running"
+          log_action_cont_msg " not running"
         fi
       fi
       while [ $KILLCOUNT -le 5 ]; do
@@ -176,12 +179,12 @@ case "$1" in
         KILLCOUNT=$(( $KILLCOUNT + 1 ))
       done
       if stillrunning; then
-        echo -n " not responding to TERM signal (pid $DAEMONPID)"
+        log_action_cont_msg " not responding to TERM signal (pid $DAEMONPID)"
       else
         rm -f $UPGRADEFILE
       fi
     fi
-    echo "."
+    log_action_end_msg 0
   ;;
   status)
     status_of_proc -p "$PIDFILE" "$DAEMON" kdm && exit 0 || exit $?
