@@ -138,6 +138,7 @@ Depends: ${shlibs:Depends}, plasma-dataengines-workspace (= ${binary:Version}), 
 Replaces: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82), libplasma2,
  plasma-applets-workspace, kdebase-workspace-libs4+5, libplasma-applet-system-monitor4
 Conflicts: libplasma2, plasma-applets-workspace, kdebase-workspace-libs4+5, libplasma-applet-system-monitor4
+Recommends: ksysguardd
 Description: KDE 4 base workspace Plasma widgets and containments
  This package contains standard Plasma widgets and containments shipped in the
  KDE 4 base workspace module. They provide such basic desktop functionality as

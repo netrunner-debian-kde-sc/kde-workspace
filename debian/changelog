@@ -48,6 +48,8 @@ kdebase-workspace (4:4.4.1-0r1) UNRELEASED; urgency=low
   [ Sune Vuorela ]
   * Add conflicts: for some kde3 kdm theme packages. Thanks Leonard.
     Closes: 568950
+  * Make plasma-widgets-workspace recommend ksysguardd to make the system
+    monitor widgets work. Closes: 567216
 
   [ Modestas Vainius ]
   * libkdeinit4_*.so have been moved to private directory
