@@ -50,6 +50,7 @@ kdebase-workspace (4:4.4.1-0r1) UNRELEASED; urgency=low
     Closes: 568950
   * Make plasma-widgets-workspace recommend ksysguardd to make the system
     monitor widgets work. Closes: 567216
+  * Remove old obsolete klipper configuration files. Closes: 543764
 
   [ Modestas Vainius ]
   * libkdeinit4_*.so have been moved to private directory
