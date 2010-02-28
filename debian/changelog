@@ -94,6 +94,8 @@ kdebase-workspace (4:4.4.1-0r1) UNRELEASED; urgency=low
     Thanks to Petter Reinholdtsen. (Closes: #527896)
   * Use lsb output functions in kdm init script.
     Thanks to Petter Reinholdtsen. (Closes: #567802)
+  * Add 22_kdm_xreset_hook_framework.diff patch to provide a Xreset hook using
+    a common framework. (Closes: #571609)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:19 +0200
 
