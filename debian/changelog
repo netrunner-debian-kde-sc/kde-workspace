@@ -89,6 +89,8 @@ kdebase-workspace (4:4.4.1-0r1) UNRELEASED; urgency=low
     - Polish (Marcin Owsiany).  Closes: #571311
 
   [ Fathi Boudra ]
+  * Allow /etc/init.d/kdm status as non-root user.
+    Thanks to Petter Reinholdtsen. (Closes: #527896).
   * Use lsb output functions in kdm init script.
     Thanks to Petter Reinholdtsen. (Closes: #567802).
 

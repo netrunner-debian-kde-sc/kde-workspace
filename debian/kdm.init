@@ -35,6 +35,7 @@ DAEMON=/usr/bin/kdm
 PIDFILE=/var/run/kdm.pid
 UPGRADEFILE=/var/run/kdm.upgrade
 
+setup_config () {
 # parameters to support kdm customization
 KDMRC=/etc/kde4/kdm/kdmrc
 BACKGROUNDRC=/etc/kde4/kdm/backgroundrc
@@ -91,6 +92,7 @@ if grep -q "^[[:space:]]*Theme=@@@ToBeReplacedByDesktopBase@@@" ${KDMRC}; then
   [ -n "$AUTOLOGINAGAIN" ] && sed -i "s|^#\?AutoLoginAgain=.*|AutoLoginAgain=$AUTOLOGINAGAIN|" $KDMCFG
   [ -n "$AUTOLOGINLOCKED" ] && sed -i "s|^#\?AutoLoginLocked=.*|AutoLoginLocked=$AUTOLOGINLOCKED|" $KDMCFG
 fi
+}
 
 # If we upgraded the daemon, we can't use the --exec argument to
 # start-stop-daemon since the inode will have changed.  The risk here is that
@@ -116,6 +118,7 @@ stillrunning () {
 
 case "$1" in
   start)
+    setup_config
     if [ -e $DEFAULT_DISPLAY_MANAGER_FILE ] &&
        [ "$HEED_DEFAULT_DISPLAY_MANAGER" = "true" ] &&
        [ "$(cat $DEFAULT_DISPLAY_MANAGER_FILE)" != "$DAEMON" ]; then
