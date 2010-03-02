@@ -51,6 +51,7 @@ kdebase-workspace (4:4.4.1-0r1) UNRELEASED; urgency=low
   * Remove old obsolete klipper configuration files. Closes: 543764
   * Make the rest of kde pam usage use the same service name as kdm, which we
     actually install configuration for. Closes: 534714
+  * Add some #DEBHELPER# snippets to kdm
 
   [ Modestas Vainius ]
   * libkdeinit4_*.so have been moved to private directory
