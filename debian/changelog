@@ -83,6 +83,8 @@ kdebase-workspace (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
   * Unversion conflicts with kdebase-workspace-libs4+5.
+  * Add patch 00_fix_ftfbs_with_gpsd_2.92.diff to fix geolocation dataengine
+    build against gpsd 2.92.
 
   [ Christian Perrier ]
   * Debconf translations:

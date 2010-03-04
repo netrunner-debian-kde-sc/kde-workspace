@@ -1,0 +1,16 @@
+Author: Modestas Vainius <modax@debian.org>
+Description: fix geolocation dataengine build against gpsd 2.92
+ Even if API version is bumped, it does not mean that the code will cease to
+ build or work.
+
+--- a/plasma/generic/dataengines/geolocation/location_gps.cpp
++++ b/plasma/generic/dataengines/geolocation/location_gps.cpp
+@@ -41,7 +41,7 @@
+ 
+ void Gpsd::run()
+ {
+-#if GPSD_API_MAJOR_VERSION == 3 && defined( WATCH_ENABLE )
++#if defined( GPSD_API_MAJOR_VERSION ) && ( GPSD_API_MAJOR_VERSION >= 3 ) && defined( WATCH_ENABLE )
+     gps_stream(m_gpsdata, WATCH_ENABLE, NULL);
+ #else
+     gps_query(m_gpsdata, "w+x\n");
