@@ -172,6 +172,6 @@ if [ "$1" = "remove" -o "$1" = "deconfigure" ]; then
   fi
 fi
 
-#DEBHELPER"
+#DEBHELPER#
 
 exit 0

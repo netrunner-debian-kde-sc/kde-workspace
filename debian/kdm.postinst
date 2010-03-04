@@ -101,6 +101,6 @@ else
   fi
 fi
 
-#DEBHELPER"
+#DEBHELPER#
 
 exit 0
