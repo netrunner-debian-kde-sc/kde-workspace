@@ -93,6 +93,7 @@ setup_config () {
     [ -n "$AUTOLOGINAGAIN" ] && sed -i "s|^#\?AutoLoginAgain=.*|AutoLoginAgain=$AUTOLOGINAGAIN|" $KDMCFG
     [ -n "$AUTOLOGINLOCKED" ] && sed -i "s|^#\?AutoLoginLocked=.*|AutoLoginLocked=$AUTOLOGINLOCKED|" $KDMCFG
   fi
+  return 0
 }
 
 # If we upgraded the daemon, we can't use the --exec argument to
