@@ -45,7 +45,7 @@ kdebase-workspace (4:4.4.1-0rc2) UNRELEASED; urgency=low
   * Fix the kdm.options manpage to mention /etc/kde4 instead of /etc/kde3
     (Closes: #564554)
   * Bump replaces version: kde-window-manager now replaces
-    kdebase-runtime-data (<< 4:4.4.0) due to moved documnetation files.
+    kdebase-runtime-data (<< 4:4.4.0) due to moved documentation files.
 
   [ Sune Vuorela ]
   * Add conflicts: for some kde3 kdm theme packages. Thanks Leonard.
