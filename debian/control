@@ -280,7 +280,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Provides: x-window-manager
 Replaces: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80),
- kwin, kdebase-runtime-data (<< 4:4.0.81)
+ kwin, kdebase-runtime-data (<< 4:4.4.0)
 Conflicts: kwin
 Description: the KDE 4 window manager (KWin)
  This package contains KWin, the KDE 4 window manager, featuring 
