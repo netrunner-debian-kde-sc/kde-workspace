@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.4.1-0rc3) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.1-0rc4) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes crash in Solid's HAL power handling. (Closes: #561724)
