@@ -87,6 +87,8 @@ kdebase-workspace (4:4.4.1-0rc3) UNRELEASED; urgency=low
   * Unversion conflicts with kdebase-workspace-libs4+5.
   * Add patch 00_fix_ftfbs_with_gpsd_2.92.diff to fix geolocation dataengine
     build against gpsd 2.92.
+  * Pass --noscripts to dh_installinit for kdm because otherwise it is not
+    possible to avoid kdm stopping in kdm.init (either on upgrade or remove).
 
   [ Christian Perrier ]
   * Debconf translations:
