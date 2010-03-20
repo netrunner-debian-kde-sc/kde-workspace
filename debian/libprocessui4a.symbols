@@ -1,10 +1,9 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.4.1+svn1105476 amd64 i386
 libprocessui.so.4 libprocessui4a #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  (optional=templinst)_Z13qVariantValueI26QUiTranslatableStringValueET_RK8QVariant@Base 4:4.4.0
  (optional=templinst)_Z13qvariant_castI5QIconET_RK8QVariant@Base 4:4.4.0
  (optional=templinst)_Z17qVariantFromValueI26QUiTranslatableStringValueE8QVariantRKT_@Base 4:4.4.0
- (optional=external)_Z20qvariant_cast_helperRK8QVariantNS_4TypeEPv@Base 4:4.4.0
  (optional=templinst)_Z21qMetaTypeDeleteHelperI26QUiTranslatableStringValueEvPT_@Base 4:4.4.0
  (optional=templinst)_Z21qMetaTypeDeleteHelperI5QListIP7QWidgetEEvPT_@Base 4:4.4.0
  (optional=templinst)_Z24qMetaTypeConstructHelperI26QUiTranslatableStringValueEPvPKT_@Base 4:4.4.0
