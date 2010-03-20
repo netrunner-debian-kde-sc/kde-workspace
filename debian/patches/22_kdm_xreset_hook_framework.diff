@@ -5,15 +5,17 @@ Author: Fathi Boudra <fabo@debian.org>
 
 --- a/kdm/kfrontend/genkdmconf.c
 +++ b/kdm/kfrontend/genkdmconf.c
-@@ -625,6 +625,11 @@ static const char def_reset[] =
- "      exec sessreg -d -l \"$DISPLAY\" -u /var/run/utmp \\\n"
- "                   -h \"`echo $DISPLAY | cut -d: -f1`\" \"$USER\"\n"
- "      # NOTREACHED\n"
-+"fi\n"
+@@ -665,7 +665,12 @@
+ "#chown root /dev/console\n"
+ "#chmod 622 /dev/console\n"
+ "\n"
+-"# XDM configurations typically have sessreg here. KDM has it built-in.\n";
++"# XDM configurations typically have sessreg here. KDM has it built-in.\n"
 +"\n"
 +"# Use common Xreset framework if it exist\n"
 +"if [ -x /etc/X11/Xreset ] ; then\n"
 +"   /etc/X11/Xreset\n"
- "fi\n";
- #endif /* _AIX */
++"fi";
  
+ static const char def_session1[] =
+ "#! /bin/sh\n"

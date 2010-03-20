@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.4.1-0rc4) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.1+svn1105476-0rc1) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes crash in Solid's HAL power handling. (Closes: #561724)
@@ -85,10 +85,10 @@ kdebase-workspace (4:4.4.1-0rc4) UNRELEASED; urgency=low
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
   * Unversion conflicts with kdebase-workspace-libs4+5.
-  * Add patch 00_fix_ftfbs_with_gpsd_2.92.diff to fix geolocation dataengine
-    build against gpsd 2.92.
   * Pass --noscripts to dh_installinit for kdm because otherwise it is not
     possible to avoid kdm stopping in kdm.init (either on upgrade or remove).
+  * Adapt 08_genkdmconf.diff patch to upstream changes: drop sessreg from
+    scripts as kdm has it built-in.
 
   [ Christian Perrier ]
   * Debconf translations:

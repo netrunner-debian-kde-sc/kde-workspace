@@ -1,9 +1,5 @@
-etc/dbus-1/system.d/org.kde.fontinst.conf
-etc/dbus-1/system.d/org.kde.kcontrol.kcmclock.conf
 usr/share/dbus-1/services/org.kde.fontinst.service
 usr/share/dbus-1/services/org.kde.krunner.service
-usr/share/dbus-1/system-services/org.kde.fontinst.service
-usr/share/dbus-1/system-services/org.kde.kcontrol.kcmclock.service
 usr/share/doc/kde4/HTML/en/kcontrol/autostart/common
 usr/share/doc/kde4/HTML/en/kcontrol/autostart/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kcontrol/autostart/index.docbook
@@ -93,11 +89,11 @@ usr/share/doc/kde4/HTML/en/kmenuedit/selectinternet.png
 usr/share/doc/kde4/HTML/en/kxkb/common
 usr/share/doc/kde4/HTML/en/kxkb/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kxkb/index.docbook
-usr/share/doc/kde4/HTML/en/plasma/common
-usr/share/doc/kde4/HTML/en/plasma/favorite-widgets.png
-usr/share/doc/kde4/HTML/en/plasma/index.cache.bz2
-usr/share/doc/kde4/HTML/en/plasma/index.docbook
-usr/share/doc/kde4/HTML/en/plasma/taskbar-settings.png
+usr/share/doc/kde4/HTML/en/plasma-desktop/common
+usr/share/doc/kde4/HTML/en/plasma-desktop/favorite-widgets.png
+usr/share/doc/kde4/HTML/en/plasma-desktop/index.cache.bz2
+usr/share/doc/kde4/HTML/en/plasma-desktop/index.docbook
+usr/share/doc/kde4/HTML/en/plasma-desktop/taskbar-settings.png
 usr/share/icons/hicolor/128x128/apps/ksplash.png
 usr/share/icons/hicolor/16x16/apps/kmenuedit.png
 usr/share/icons/hicolor/16x16/apps/ksplash.png

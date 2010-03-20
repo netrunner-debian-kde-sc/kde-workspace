@@ -18,7 +18,7 @@
  "\n"
  "#\n"
  "# If you would prefer to configure the set of hosts each terminal sees,\n"
-@@ -640,35 +640,25 @@
+@@ -640,16 +640,18 @@
  "#! /bin/sh\n"
  "# Xstartup - run as root before session starts\n"
  "\n"
@@ -32,26 +32,7 @@
 -"#chown $USER /dev/console\n"
 +"PATH=\"$PATH:/usr/bin/X11\"\n"
  "\n"
--#ifdef _AIX
--"# We create a pseudodevice for finger.  (host:0 becomes xdm/host_0)\n"
--"# Without it, finger errors out with \"Cannot stat /dev/host:0\".\n"
--"#\n"
--"#devname=`echo $DISPLAY | cut -c1-8`\n"
--"#if [ ! -d /dev/xdm ]; then\n"
--"#  mkdir /dev/xdm\n"
--"#  chmod 755 /dev/xdm\n"
--"#fi\n"
--"#touch /dev/xdm/$devname\n"
--"#chmod 644 /dev/xdm/$devname\n"
--"#exec sessreg -a -l xdm/$devname -h \"`echo $DISPLAY | cut -d: -f1`\""
--#else
--"#exec sessreg -a -l $DISPLAY -h \"`echo $DISPLAY | cut -d: -f1`\""
--# ifdef BSD
--" -x " KDMCONF "/Xservers"
--# endif
--#endif /* _AIX */
--" $USER\n"
--"\n# NOTE: The session is aborted if the last command returns non-zero.\n";
+-"# XDM configurations typically have sessreg here. KDM has it built-in.\n"
 +"if [ -e /etc/nologin ]; then\n"
 +"  # always display the nologin message, if possible\n"
 +"  if [ -s /etc/nologin ] && which xmessage > /dev/null 2>&1; then\n"
@@ -62,36 +43,10 @@
 +"    exit 1\n"
 +"  fi\n"
 +"fi\n"
-+"\n"
-+"if grep -qs '^use-sessreg' /etc/kde4/kdm/kdm.options && \\\n"
-+"   which sessreg > /dev/null 2>&1; then\n"
-+"      exec sessreg -a -l \"$DISPLAY\" -u /var/run/utmp \\\n"
-+"                   -h \"`echo $DISPLAY | cut -d: -f1`\" \"$USER\"\n"
-+"      # NOTREACHED\n"
-+"fi\n";
+ "\n"
+ "# NOTE: The session is aborted if the last command returns non-zero.\n";
  
- static const char def_reset[] =
- "#! /bin/sh\n"
-@@ -684,12 +674,13 @@
- "#devname=`echo $DISPLAY | cut -c1-8`\n"
- "#exec sessreg -d -l xdm/$devname -h \"`echo $DISPLAY | cut -d: -f1`\""
- #else
--"#exec sessreg -d -l $DISPLAY -h \"`echo $DISPLAY | cut -d: -f1`\""
--# ifdef BSD
--" -x " KDMCONF "/Xservers"
--# endif
-+"if grep -qs '^use-sessreg' /etc/kde4/kdm/kdm.options && \\\n"
-+"   which sessreg > /dev/null 2>&1; then\n"
-+"      exec sessreg -d -l \"$DISPLAY\" -u /var/run/utmp \\\n"
-+"                   -h \"`echo $DISPLAY | cut -d: -f1`\" \"$USER\"\n"
-+"      # NOTREACHED\n"
-+"fi\n";
- #endif /* _AIX */
--" $USER\n";
- 
- static const char def_session1[] =
- "#! /bin/sh\n"
-@@ -721,6 +712,7 @@
+@@ -695,6 +697,7 @@
  "    [ -f $zhome/.zprofile ] && . $zhome/.zprofile\n"
  "    [ -f $zdir/zlogin ] && . $zdir/zlogin\n"
  "    [ -f $zhome/.zlogin ] && . $zhome/.zlogin\n"
@@ -99,7 +54,7 @@
  "    ;;\n"
  "  */csh|*/tcsh)\n"
  "    # [t]cshrc is always sourced automatically.\n"
-@@ -737,28 +729,8 @@
+@@ -711,28 +714,8 @@
  "    [ -f $HOME/.profile ] && . $HOME/.profile\n"
  "    ;;\n"
  "esac\n"
@@ -130,7 +85,7 @@
  
  static const char def_background[] =
  "[Desktop0]\n"
-@@ -1107,29 +1079,6 @@
+@@ -1081,29 +1064,6 @@
  
  	if (maxTTY)
  		return;

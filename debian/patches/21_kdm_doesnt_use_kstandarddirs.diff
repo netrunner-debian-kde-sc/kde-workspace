@@ -52,7 +52,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
 +#define KDMCONF KDM_CONFDIR "/kdm"
  #define KDMDATA KDE_DATADIR "/kdm"
  
- #ifdef _AIX
+ #include <sys/param.h> /* for #define BSD */
 --- a/kdm/kfrontend/kdmctl.c
 +++ b/kdm/kfrontend/kdmctl.c
 @@ -150,7 +150,7 @@
@@ -66,7 +66,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  
 --- a/kdm/kfrontend/genkdmconf.c
 +++ b/kdm/kfrontend/genkdmconf.c
-@@ -2814,6 +2814,7 @@
+@@ -2799,6 +2799,7 @@
  
  
  static const char *oldkdes[] = {
@@ -74,7 +74,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  	KDE_CONFDIR,
  	"/opt/kde4/share/config",
  	"/usr/local/kde4/share/config",
-@@ -2822,6 +2823,7 @@
+@@ -2807,6 +2808,7 @@
  	"/usr/local/kde/share/config",
  	"/usr/local/share/config",
  	"/usr/share/config",
@@ -82,7 +82,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  
  	"/opt/kde3/share/config",
  	"/usr/local/kde3/share/config",
-@@ -2865,7 +2867,7 @@
+@@ -2850,7 +2852,7 @@
  "    Note that you possibly need to use --no-old-kde to make this take effect.\n"
  "  --old-kde /path/to/old/kde-config-dir\n"
  "    Where to look for the kdmrc of a previously installed kdm.\n"

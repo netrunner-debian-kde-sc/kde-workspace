@@ -1,9 +1,7 @@
-etc/dbus-1/system.d/org.kde.ksysguard.processlisthelper.conf
 usr/bin/ksysguard
 usr/lib/kde4/libexec/ksysguardprocesslist_helper
 usr/lib/libkdeinit4_ksysguard.so
 usr/share/applications/kde4/ksysguard.desktop
-usr/share/dbus-1/system-services/org.kde.ksysguard.processlisthelper.service
 usr/share/doc/kde4/HTML/en/ksysguard/common
 usr/share/doc/kde4/HTML/en/ksysguard/index.cache.bz2
 usr/share/doc/kde4/HTML/en/ksysguard/index.docbook
