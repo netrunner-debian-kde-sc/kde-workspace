@@ -89,6 +89,7 @@ kdebase-workspace (4:4.4.1+svn1105657-0rc1) UNRELEASED; urgency=low
     possible to avoid kdm stopping in kdm.init (either on upgrade or remove).
   * Adapt 08_genkdmconf.diff patch to upstream changes: drop sessreg from
     scripts as kdm has it built-in.
+  * Make kdebase-workspace-bin recommend polkit-kde-1 | policykit-1-gnome.
 
   [ Christian Perrier ]
   * Debconf translations:
