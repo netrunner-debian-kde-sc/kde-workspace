@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.4.1+svn1105657-0rc1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.2-0rc1) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes crash in Solid's HAL power handling. (Closes: #561724)
@@ -105,7 +105,7 @@ kdebase-workspace (4:4.4.1+svn1105657-0rc1) UNRELEASED; urgency=low
   * Add 22_kdm_xreset_hook_framework.diff patch to provide a Xreset hook using
     a common framework. (Closes: #571609)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 Mar 2010 12:11:58 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 27 Mar 2010 02:54:13 +0200
 
 kdebase-workspace (4:4.3.4-5) unstable; urgency=high
 
