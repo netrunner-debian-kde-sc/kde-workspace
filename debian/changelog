@@ -83,7 +83,7 @@ kdebase-workspace (4:4.4.2-0rc1) UNRELEASED; urgency=low
   * Add ${perl:Depends} substvar to kdebase-workspace-data and
     kde-window-manager Depends.
   * Add cmake to Build-Depends.
-  * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
+  * Add kde-sc-dev-latest (>= 4:4.4.2) to Build-Depends.
   * Unversion conflicts with kdebase-workspace-libs4+5.
   * Pass --noscripts to dh_installinit for kdm because otherwise it is not
     possible to avoid kdm stopping in kdm.init (either on upgrade or remove).
