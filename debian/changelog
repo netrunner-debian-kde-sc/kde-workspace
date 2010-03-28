@@ -9,6 +9,8 @@ kdebase-workspace (4:4.4.2-0rc1) UNRELEASED; urgency=low
     - fixes downloaded wallpaper not found by login manager. (Closes: #410635)
     - fixes blocked directories under /proc/acpi by ksysguardd.
       (Closes: #542125)
+    - fixes wrong focus in Klipper menu when invoked via hotkey.
+      (Closes: #575543)
 
   [ Pino Toscano ]
   * debian/control: slightly improve package descriptions a bit.
