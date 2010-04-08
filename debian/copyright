@@ -10,7 +10,7 @@ to KDE at http://www.kde.org/people/credits/
 
 Copyright:
 Unless something else is mentioned, copyright is
-© 1996-2009, The K Desktop Environment project http://www.kde.org
+© 1996-2010, The KDE SC project http://www.kde.org
 
 
 
@@ -167,7 +167,7 @@ License for all components is:
 kcontrol/
 ------
 
-Copyright: © 2002-2008 Craig Drummond <craig@kde.org>
+Copyright: © 2002-2010 Craig Drummond <craig@kde.org>
 Copyright: © 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
 Copyright: © 2003-2007 Andriy Rysin <rysin@kde.org>
 Copyright: © 2003-2007 Fredrik Höglund <fredrik@kde.org>
@@ -216,19 +216,18 @@ Copyright: © 1998 Stephan Kulow
 Copyright: © 1987, 1998 The Open Group
 Copyright: © 1987 Digital Equipment Corporation
 Copyright: © 2000 Bernd Gehrmann
-Copyright: © 2001 Matthias Ettrich (add support for GTK
+Copyright: © 2001 Matthias Ettrich (add support for GTK)
 Copyright: © 1998-1999 Torben Weis <weis@kde.org>
 Copyright: © 2000 Brad Hughes <bhughes@trolltech.com>
 Copyright: © 2001 Fernando Llobregat <fernando.llobregat@free.fr>
 Copyright: © 2001 Carsten PFeiffer <pfeiffer@kde.org>
-Copyright: © 1997-2002 Help -> About
-Copyright: © 1997-2002 Style Settings)
 Copyright: © 1999 Lars Knoll
 Copyright: © 1998 Kurt Granroth <granroth@kde.org>
 Copyright: © 2001 Ralf Nolden <nolden@kde.org>
 Copyright: © 2004 Chris Howells
 Copyright: © 2002 Juliusz Chroboczek
-
+Copyright: © 2007 Aaron Seigo <aseigo@kde.org>
+Copyright: © 2007 Riccardo Iaconelli <riccardo@kde.org>
 
 License for all components unless stated otherwise:
 --
@@ -580,7 +579,7 @@ kscreensaver/
 Copyright: © 1996, 1999, 2001 Martin R. Jones <mjones@kde.org>
 Copyright: © 1991 Andreas Stolcke <stolcke@ICSI.Berkeley.EDU>
 Copyright: ©  Mark Martin <mmm@cetia.fr>
-Copyright: © 2003 Chris Howells <howells@kde.org>
+Copyright: ©  2003 Chris Howells <howells@kde.org>
 Copyright: ©  Mario Weilguni <mweilguni@kde.org>
 Copyright: © 2006 David Faure <faure@kde.org>
 Copyright: © 1990 Solbourne Computer Inc.
@@ -885,6 +884,7 @@ kstartupconfig/
 ------
 
 Copyright: © 2005 Lubos Lunak <l.lunak@kde.org>
+
 License:
 
 Permission is hereby granted, free of charge, to any person obtaining a
@@ -914,10 +914,10 @@ kwin/
 Copyright: © 2003-2008 Lubos Lunak <l.lunak@kde.org> <l.lunak@suse.cz>
 Copyright: © 2006-2007 Rivo Laks <rivolaks@hot.ee>
 Copyright: © 1998-2001 Matthias Ettrich <ettrich@kde.org>
-Copyright: © 2007-2008 Martin Gräßlin <ubuntu@martin-graesslin.com>
+Copyright: © 2007-2009 Martin Gräßlin <ubuntu@martin-graesslin.com>
 Copyright: © 1999, 2001-2003 Karol Szwed <kszwed@kde.org> <gallium@kde.org>
 Copyright: © 2003-2005 Sandro Giessl <sandro@giessl.com> <ceebx@users.sourceforge.net>
-Copyright: © 2008 Lucas Murray <lmurray@undefinedfire.com>
+Copyright: © 2008-2009 Lucas Murray <lmurray@undefinedfire.com>
 Copyright: © 2007 Christian Nitschkowski <christian.nitschkowski@kdemail.net>
 Copyright: © 2001 Rik Hemsley <rik@kde.org>
 Copyright: © 2006-2007 Riccardo Iaconelli <riccardo@kde.org> <ruphy@fsfe.org>
@@ -942,9 +942,12 @@ Copyright: © 2001-04-22 Melchior FRANZ <mfranz@kde.org>
 Copyright: © 2002 Alexander Kellett <lypanov@kde.org>
 Copyright: © 2008 Laurent Montel <montel@kde.org>
 Copyright: © 2007 Bernhard Loos <nhuh.put@web.de>
-Copyright: © 2002 Fredrik H�lund <fredrik@kde.org>
+Copyright: © 2002, 2009 Fredrik H�lund <fredrik@kde.org>
 Copyright: © 2008 Louai Al-Khanji <louai.khanji@gmail.com>
-
+Copyright: © 2009 Hugo Pereira Da Costa <hugo.pereira@free.fr>
+Copyright: © 2009 Jorge Mata <matamax123@gmail.com>
+Copyright: © 2009 Michael Zanetti <michael_zanetti@gmx.net>
+Copyright: © 2009 Marco Martin notmart@gmail.com
 
 License for all components unless stated otherwise:
 --
@@ -1003,6 +1006,7 @@ Other used licenses:
     -+ lib/kwinshadereffect.h
     -+ lib/kwinxrenderutils.cpp
     -+ lib/kwinxrenderutils.h
+
     // Permission is hereby granted, free of charge, to any person obtaining a copy
     // of this software and associated documentation files (the "Software"), to
     // deal in the Software without restriction, including without limitation the
@@ -1029,7 +1033,7 @@ kwrited/
 
 Copyright: © 2008 George Kiagiadakis <gkiagia@users.sourceforge.net>
 Copyright: © 1997-1998 Lars Doelle <lars.doelle@on-line.de>
-
+--
 
 License for all components is:
 --
@@ -1047,7 +1051,7 @@ libs/
 Copyright: © 2006-2008 Will Stephenson <wstephenson@kde.org>
 Copyright: © 2008 Aike J Sommer <dev@aikesommer.name>
 Copyright: © 2005-2007 Kevin Ottens <ervin@kde.org>
-Copyright: © 2006-2008 John Tapsell <tapsell@kde.org> <john.tapsell@kde.org> <john.tapsell@kdemail.net>
+Copyright: © 2006-2009 John Tapsell <tapsell@kde.org> <john.tapsell@kde.org> <john.tapsell@kdemail.net>
 Copyright: © 2006-2007 Daniel Gollub <dgollub@suse.de>
 Copyright: © 2008 Christian Mollekopf <chrigi_1@hotmail.com>
 Copyright: © 2007-2008 Sebastian Trueg <trueg@kde.org>
@@ -1061,7 +1065,7 @@ Copyright: © 2008 Tom Patzig <tpatzig@suse.de>
 Copyright: © 2001 Richard Moore <rich@kde.org>
 Copyright: © 2006-2007 David Faure <faure@kde.org>
 Copyright: © 2007-2008 Riccardo Iaconelli <riccardo@kde.org>
-Copyright: © 2008 Davide Bettio <davide.bettio@kdemail.net>
+Copyright: © 2008-2009 Davide Bettio <davide.bettio@kdemail.net>
 Copyright: © 2007-2008 Harry Bock <hbock@providence.edu>
 Copyright: © 2002-2003 Hamish Rodda <rodda@kde.org>
 Copyright: © 2007 Trent Waddington <trent.waddington@gmail.com>
@@ -1078,12 +1082,18 @@ Copyright: © 2003 Fabian Kaiser <xfk@softpro.de>
 Copyright: © 2008 Aaron Seigo <aseigo@kde.org>
 Copyright: © 2007 Lubos Lunak <l.lunak@kde.org>
 Copyright: © 2005 Stephan Kulow <coolo@kde.org>
-
+Copyright: © 2009 Jussi Kekkonen <tmt@ubuntu.com>
+Copyright: © 2009 John Layt <john@layt.net>
+Copyright: © 2008 Marco Martin <notmart@gmail.com>
+Copyright: © 2009 by Ana Cecília Martins <anaceciliamb@gmail.com>
+Copyright: © 2008 Petri Damsten <damu@iki.fi>
+Copyright: © 2009 Chani Armitage <chani@kde.org>
+--
 
 License for all components unless stated otherwise:
 --
   GNU Library General Public License, version 2 (LGPL-2)
-    However, the license of 37 file(s) was not explicitly specified:
+    However, the license of 37 file(s) was not explicitly specified
 
 
   On Debian systems, the complete text of the
@@ -1239,41 +1249,41 @@ Other used licenses:
 plasma/
 ------
 
-Copyright: © 2006-2008 Aaron Seigo <aseigo@kde.org>
+Copyright: © 2006-2009 Aaron Seigo <aseigo@kde.org>
 Copyright: © 2007 Robert Knight <robertknight@gmail.com>
 Copyright: © 2008 Jason Stubbs <jasonbstubbs@gmail.com>
 Copyright: © 2007-2008 Petri Damsten <damu@iki.fi>
 Copyright: © 2007-2008 Alex Merry <alex.merry@kdemail.net>
-Copyright: © 2007-2008 Marco Martin <notmart@gmail.com>
-Copyright: © 2008 Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
+Copyright: © 2007-2010 Marco Martin <notmart@gmail.com>
+Copyright: © 2008-2009 Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
 Copyright: © 2007-2008 Alexis Ménard <darktears31@gmail.com>
-Copyright: © 2007 Ivan Cukic <ivan.cukic+kde@gmail.com>
+Copyright: © 2007, 2009 Ivan Cukic <ivan.cukic+kde@gmail.com>
 Copyright: © 2007-2008 Richard J. Moore <rich@kde.org>
 Copyright: © 2007 Paolo Capriotti <p.capriotti@gmail.com>
 Copyright: © 2007-2008 Google Inc.
 Copyright: © 2007 Zack Rusin <zack@kde.org>
 Copyright: © 2007-2009 Shawn Starr <shawn.starr@rogers.com>
 Copyright: © 2008 Chani Armitage <chanika@gmail.com> <chani@kde.org>
-Copyright: © 2008 Sebastian Sauer <mail@dipe.org> <trueg@kde.org>
+Copyright: © 2008-2009 Sebastian Sauer <mail@dipe.org> <trueg@kde.org>
 Copyright: © 2007 Christopher Blauvelt <cblauvelt@gmail.com>
 Copyright: © 2007 Kevin Ottens <ervin@kde.org>
 Copyright: © 2008 Sebastian Kügler <sebas@kde.org>
-Copyright: © 2008 Alain Boyer <alainboyer@gmail.com>
+Copyright: © 2008-2009 Alain Boyer <alainboyer@gmail.com>
 Copyright: © 2007-2008 Sebastian Kuegler <sebas@kde.org>
 Copyright: © 2008 Simon Edwards <simon@simonzone.com>
 Copyright: © 2007-2008 Riccardo Iaconelli <riccardo@kde.org>
 Copyright: © 2008 Dmitry Suzdalev <dimsuz@gmail.com>
 Copyright: © 2007-2008 Teemu Rytilahti <tpr@d5k.net> <tpr@iki.fi>
 Copyright: © 2007 Matt Broadstone <mbroadst@gmail.com> <mbroadst@kde.org>
-Copyright: © 2007 Pino Toscano <pino@kde.org>
-Copyright: © 2008 Lukas Appelhans <l.appelhans@gmx.de>
+Copyright: © 2007, 2009 Pino Toscano <pino@kde.org>
+Copyright: © 2008-2009 Lukas Appelhans <l.appelhans@gmx.de>
 Copyright: © 2007 Fredrik Höglund <fredrik@kde.org>
 Copyright: © 2008 Ambroz Bizjak <ambro@b4ever.net>
 Copyright: © 2007 André Duffeck <duffeck@kde.org>
 Copyright: © 2008 Dario Freddi <drf54321@gmail.com> <drf@kdemod.ath.cx>
 Copyright: © 2007 Tobias Koenig <tokoe@kde.org>
 Copyright: © 2008 Beat Wolf <asraniel@fryx.ch>
-Copyright: © 2006-2007 John Tapsell <tapsell@kde.org>
+Copyright: © 2006-2009John Tapsell <tapsell@kde.org>
 Copyright: © 2008 Andrew Lake <jamboarder@yahoo.com>
 Copyright: © 2003 Scott Wheeler <wheeler@kde.org>
 Copyright: © 2006-2007 David Faure <faure@kde.org>
@@ -1300,9 +1310,16 @@ Copyright: © 2005-2007 Siraj Razick
 Copyright: © 2007 Luka Renko <lure@kubuntu.org>
 Copyright: © 2007 Maor Vanmak <mvanmak1@gmail.com>
 Copyright: © 1992-2007 Trolltech ASA. All Rights Reserved.
-
+Copyright: © 2009 Michal Dutkiewicz aka Emdek <emdeck@gmail.com>
+Copyright: © 2009 by Jacopo De Simoi <wilderkde@gmail.com> 
+Copyright: © 2009 by Giulio Camuffo <giuliocamuffo@gmail.com>
+Copyright: © 2009 by Frederik Gladhorn <gladhorn@kde.org> 
+Copyright: © 2009 Anne-Marie Mahfouf <annma@kde.org>
+Copyright: © 2009 Jan Gerrit Marker <jangerrit@weiler-marker.com>
+Copyright: © 2009 by Artur Duque de Souza <asouza@kde.org>
 
 License for all components unless stated otherwise:
+
 --
   GNU Library General Public License, version 2 or later (LGPL-2+)
     However, the license of 66 file(s) was not explicitly specified:
@@ -1550,6 +1567,32 @@ Other used licenses:
 	THE SOFTWARE.
 --
 
+------
+policykit-kde
+------
+Copyright: © 2008 Dario Freddi <drf54321@gmail.com>
+Copyright: © 2008-2009 Daniel Nicoletti <dantti85-pk@yahoo.com.br>
+Copyright: © 2008 Trever Fischer <wm161@wm161.net>
+Copyright: © 2008 Alessandro Diaferia <alediaferia@gmail.com>
+Copyright: © 2008 Dirk Mueller <mueller@kde.org>
+Copyright: © 2007-2008 Gökçen Eraslan <gokcen@pardus.org.tr>
+Copyright: © 2008 Lubos Lunak <l.lunak@kde.org>
+Copyright: © 1992-2008 Trolltech ASA
+Copyright: © 2008 Fredrik Höglund <fredrik@kde.org>
+
+License for all components unless stated otherwise:
+
+--
+    GNU General Public License, version 2 or later (GPL-2+)
+
+Other used licenses:
+--
+
+     GNU General Public License, version 2 or version 3:
+     
+     + /manager/processwatcher.cpp
+     + /manager/processwatcher.h
+--
 
 
 ------
@@ -1569,6 +1612,40 @@ License for all components is:
   /usr/share/common-licenses/GPL-2
 --
 
+
+------
+qguiplatformplugin_kde
+------
+
+Copyright: © 2009 Nokia Corporation and/or its subsidiary(-ies). <qt-info@nokia.com>
+--
+
+License for all components unless stated otherwise:
+
+    GNU General Public License, version 2 or later (GPL-2+)
+--
+
+Other used licenses:
+
+     + qguiplatformplugin_p.h
+
+GNU Lesser General Public License Usage
+** Alternatively, this file may be used under the terms of the GNU Lesser
+** General Public License version 2.1 as published by the Free Software
+** Foundation and appearing in the file LICENSE.LGPL included in the
+** packaging of this file.  Please review the following information to
+** ensure the GNU Lesser General Public License version 2.1 requirements
+** will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+**
+** In addition, as a special exception, Nokia gives you certain additional
+** rights.  These rights are described in the Nokia Qt LGPL Exception
+** version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
+**
+** If you have questions regarding the use of this file, please contact
+** Nokia at qt-info@nokia.com.
+--
+
+
 ------
 systemsettings/
 ------
@@ -1581,7 +1658,12 @@ Copyright: © 2007-2008 Michael Jansen <kde@michael-jansen.biz>
 Copyright: © 2007 Michael D. Stemle
 Copyright: © 2003 Matthias Kretz <kretz@kde.org>
 Copyright: © 2004 Frans Englich <englich@kde.org>
-
+Copyright: © 2008 Fredrik Höglund <fredrik@kde.org>
+Copyright: © 2008 Konstantin Heil <konst.heil@stud.uni-heidelberg.de>
+Copyright: © 2009 Peter Penz <peter.penz@gmx.at>
+Copyright: © 2009 Ben Cooksley <ben@eclipse.endoftheinternet.org>
+Copyright: © 2008 Mathias Soeken <msoeken@informatik.uni-bremen.de>
+Copyright: © 2009 by Rafael Fernández López <ereslibre@kde.org>
 
 License for all components unless stated otherwise:
 --
@@ -1616,11 +1698,13 @@ Copyright: © 2005-2008 Will Stephenson <wstephenson@kde.org>
 Copyright: © 2006 Trolltech ASA. All Rights Reserved.
 Copyright: © 2006 Kevin Ottens <ervin@kde.org>
 Copyright: © 2007 Daniel Gollub <dgollub@suse.de>
-Copyright: © 2008 Pino Toscano <pino@kde.org>
+Copyright: © 2008-2009 Pino Toscano <pino@kde.org>
 Copyright: © 2008 Tom Patzig <tpatzig@suse.de>
 Copyright: © 2007 Juan González <jaguilera@opsiland.info>
 Copyright: © 2008 Dario Freddi <drf54321@gmail.com>
-
+Copyright: © 2009 Michael Zanetti <michael_zanetti@gmx.net>
+Copyright: © 2002 by Gav Wood <gav@kde.org>
+Copyright: © 2009 by Ben Cooksley <ben@eclipse.endoftheinternet.org>
 
 License for all components unless stated otherwise:
 --
@@ -1692,8 +1776,6 @@ Other used licenses:
 wallpapers/
 ------
 
-
-
 License for all components is:
 --
   GNU Lesser General Public License, version 3 or later (LGPL-3+)
@@ -1708,7 +1790,7 @@ License for all components is:
 
 -------------------------------------------------------------------------------
 
-The Debian packaging is © 2007-2009, Debian Qt/KDE Maintainers
+The Debian packaging is © 2007-2010, Debian Qt/KDE Maintainers
 <debian-qt-kde@lists.debian.org> and is licensed under the GPL, 
 see `/usr/share/common-licenses/GPL'.
 
