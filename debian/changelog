@@ -12,6 +12,9 @@ kdebase-workspace (4:4.4.2-0rc1) UNRELEASED; urgency=low
     - fixes wrong focus in Klipper menu when invoked via hotkey.
       (Closes: #575543)
 
+  [ Ferdinand Thommes ]
+  * updated copyright
+
   [ Pino Toscano ]
   * debian/control: slightly improve package descriptions a bit.
     - ... including spelling of "WebKit" and "Mac OS X". (Closes: #567164)
