@@ -1,3 +1,9 @@
+kdebase-workspace (4:4.4.2-2) UNRELEASED; urgency=low
+
+  * CVE-2010-0436 - KDM Local Privilege Escalation Vulnerability fix.
+
+ -- Fathi Boudra <fabo@debian.org>  Wed, 14 Apr 2010 12:02:38 +0300
+
 kdebase-workspace (4:4.4.2-1) experimental; urgency=low
 
   * New upstream release:
