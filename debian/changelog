@@ -1,8 +1,12 @@
 kdebase-workspace (4:4.4.2-2) UNRELEASED; urgency=low
 
+  [ Fathi Boudra ]
   * CVE-2010-0436 - KDM Local Privilege Escalation Vulnerability fix.
 
- -- Fathi Boudra <fabo@debian.org>  Wed, 14 Apr 2010 12:02:38 +0300
+  [ Pino Toscano ]
+  * Make ksysguard depend on ksysguardd.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 Apr 2010 22:52:55 +0200
 
 kdebase-workspace (4:4.4.2-1) experimental; urgency=low
 
