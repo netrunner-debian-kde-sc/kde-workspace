@@ -1,15 +1,16 @@
-# SymbolsHelper-Confirmed: 4:4.4.2 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.4.2 amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 sparc
 libprocessui.so.4 libprocessui4a #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  (optional=templinst)_Z13qVariantValueI26QUiTranslatableStringValueET_RK8QVariant@Base 4:4.4.0
  (optional=templinst)_Z13qvariant_castI5QIconET_RK8QVariant@Base 4:4.4.0
  (optional=templinst)_Z17qVariantFromValueI26QUiTranslatableStringValueE8QVariantRKT_@Base 4:4.4.0
+ (optional=external|arch=kfreebsd-i386)_Z20qvariant_cast_helperRK8QVariantNS_4TypeEPv@Base 4:4.4.2
  (optional=templinst)_Z21qMetaTypeDeleteHelperI26QUiTranslatableStringValueEvPT_@Base 4:4.4.0
  (optional=templinst)_Z21qMetaTypeDeleteHelperI5QListIP7QWidgetEEvPT_@Base 4:4.4.0
  (optional=templinst)_Z24qMetaTypeConstructHelperI26QUiTranslatableStringValueEPvPKT_@Base 4:4.4.0
  (optional=templinst)_Z24qMetaTypeConstructHelperI5QListIP7QWidgetEEPvPKT_@Base 4:4.4.0
  _Z8qWarningv@Base 4:4.4.0
- _ZN10QByteArrayD1Ev@Base 4:4.4.0
+ (optional=external|arch=!kfreebsd-amd64 !kfreebsd-i386 !sparc)_ZN10QByteArrayD1Ev@Base 4:4.4.2
  _ZN11KTextEditVT11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11KTextEditVT11qt_metacastEPKc@Base 4:4.3.4
  _ZN11KTextEditVT12insertVTCharERK5QChar@Base 4:4.3.4
@@ -20,7 +21,7 @@ libprocessui.so.4 libprocessui4a #MINVER#
  _ZN11KTextEditVTC1EP7QWidget@Base 4:4.3.4
  _ZN11KTextEditVTC2EP7QWidget@Base 4:4.3.4
  _ZN11QStringListC1ERKS_@Base 4:4.4.0
- _ZN11QStringListD1Ev@Base 4:4.4.0
+ (optional=external|arch=!kfreebsd-amd64 !kfreebsd-i386)_ZN11QStringListD1Ev@Base 4:4.4.2
  _ZN12ProcessModel10getProcessEx@Base 4:4.3.4
  _ZN12ProcessModel10setIoUnitsENS_5UnitsE@Base 4:4.4.0
  _ZN12ProcessModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -481,6 +482,7 @@ libprocessui.so.4 libprocessui4a #MINVER#
  _ZN13QFormInternal17QFormBuilderExtra16CustomWidgetDataC1Ev@Base 4:4.4.0
  _ZN13QFormInternal17QFormBuilderExtra16CustomWidgetDataC2EPKNS_15DomCustomWidgetE@Base 4:4.4.0
  _ZN13QFormInternal17QFormBuilderExtra16CustomWidgetDataC2Ev@Base 4:4.4.0
+ (arch=sparc)_ZN13QFormInternal17QFormBuilderExtra16CustomWidgetDataD1Ev@Base 4:4.4.2
  _ZN13QFormInternal17QFormBuilderExtra16boxLayoutStretchEPK10QBoxLayout@Base 4:4.4.0
  _ZN13QFormInternal17QFormBuilderExtra16clearTextBuilderEv@Base 4:4.4.0
  _ZN13QFormInternal17QFormBuilderExtra18setResourceBuilderEPNS_16QResourceBuilderE@Base 4:4.4.0
@@ -965,8 +967,9 @@ libprocessui.so.4 libprocessui4a #MINVER#
  _ZN13QFormInternal9DomWidgetD1Ev@Base 4:4.4.0
  _ZN13QFormInternal9DomWidgetD2Ev@Base 4:4.4.0
  (optional=templinst)_ZN14QScopedPointerI16QUiLoaderPrivate21QScopedPointerDeleterIS0_EED1Ev@Base 4:4.4.0
- (optional=templinst)_ZN17QForeachContainerIK5QListI5QPairIN2Qt12ItemDataRoleE7QStringEEED1Ev@Base 4:4.4.0
- (optional=templinst)_ZN17QForeachContainerIK5QListI5QPairIS1_IN2Qt12ItemDataRoleES3_E7QStringEEED1Ev@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN17QForeachContainerI11QStringListEC1ERKS0_@Base 4:4.4.2
+ (optional=templinst|arch=!sparc)_ZN17QForeachContainerIK5QListI5QPairIN2Qt12ItemDataRoleE7QStringEEED1Ev@Base 4:4.4.0
+ (optional=templinst|arch=!sparc)_ZN17QForeachContainerIK5QListI5QPairIS1_IN2Qt12ItemDataRoleES3_E7QStringEEED1Ev@Base 4:4.4.0
  _ZN20KSysGuardProcessList10expandInitEv@Base 4:4.3.4
  _ZN20KSysGuardProcessList10updateListEv@Base 4:4.3.4
  _ZN20KSysGuardProcessList11changeEventEP6QEvent@Base 4:4.3.4
@@ -1013,25 +1016,32 @@ libprocessui.so.4 libprocessui4a #MINVER#
  (optional=templinst)_ZN20QGlobalStaticDeleterI4QMapI7QStringbEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZN20QGlobalStaticDeleterI5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS1_17QFormBuilderExtraEEED1Ev@Base 4:4.4.0
  _ZN20QXmlStreamAttributesD1Ev@Base 4:4.4.0
+ (arch=sparc)_ZN26QUiTranslatableStringValueC1Ev@Base 4:4.4.2
  _ZN26QUiTranslatableStringValueD1Ev@Base 4:4.4.0
  (optional=templinst)_ZN4QMapI7QStringP30QDesignerCustomWidgetInterfaceE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN4QMapI7QStringP30QDesignerCustomWidgetInterfaceE8freeDataEP8QMapData@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN4QMapI7QStringbE11node_createEP8QMapDataPPNS2_4NodeERKS0_RKb@Base 4:4.4.2
  (optional=templinst)_ZN4QMapI7QStringbE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN4QMapI7QStringbE6insertERKS0_RKb@Base 4:4.4.0
  (optional=templinst)_ZN4QMapI7QStringbE8freeDataEP8QMapData@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN4QMapI7QStringbED1Ev@Base 4:4.4.2
  (optional=templinst)_ZN4QMapIP7QObjectP11QLayoutItemE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QHashI10QByteArraybE11deleteNode2EPN9QHashData4NodeE@Base 4:4.4.0
  (optional=templinst)_ZN5QHashI10QByteArraybE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.4.0
  (optional=templinst)_ZN5QHashI7QString5QPairIN2Qt12ItemDataRoleES3_EE11deleteNode2EPN9QHashData4NodeE@Base 4:4.4.0
  (optional=templinst)_ZN5QHashI7QString5QPairIN2Qt12ItemDataRoleES3_EE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN5QHashI7QString5QPairIN2Qt12ItemDataRoleES3_EED1Ev@Base 4:4.4.2
  (optional=templinst)_ZN5QHashI7QString5QPairIPN13QFormInternal14DomButtonGroupEP12QButtonGroupEE11deleteNode2EPN9QHashData4NodeE@Base 4:4.4.0
  (optional=templinst)_ZN5QHashI7QString5QPairIPN13QFormInternal14DomButtonGroupEP12QButtonGroupEE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QHashI7QString5QPairIPN13QFormInternal14DomButtonGroupEP12QButtonGroupEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN5QHashI7QString5QPairIPN13QFormInternal14DomButtonGroupEP12QButtonGroupEED1Ev@Base 4:4.4.2
  (optional=templinst)_ZN5QHashI7QStringN13QFormInternal17QFormBuilderExtra16CustomWidgetDataEE11deleteNode2EPN9QHashData4NodeE@Base 4:4.4.0
  (optional=templinst)_ZN5QHashI7QStringN13QFormInternal17QFormBuilderExtra16CustomWidgetDataEE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QHashI7QStringN13QFormInternal17QFormBuilderExtra16CustomWidgetDataEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN5QHashI7QStringN13QFormInternal17QFormBuilderExtra16CustomWidgetDataEED1Ev@Base 4:4.4.2
  (optional=templinst)_ZN5QHashI7QStringN2Qt12ItemDataRoleEE11deleteNode2EPN9QHashData4NodeE@Base 4:4.4.0
  (optional=templinst)_ZN5QHashI7QStringN2Qt12ItemDataRoleEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN5QHashI7QStringN2Qt12ItemDataRoleEED1Ev@Base 4:4.4.2
  (optional=templinst)_ZN5QHashI7QStringP12QActionGroupE11deleteNode2EPN9QHashData4NodeE@Base 4:4.4.0
  (optional=templinst)_ZN5QHashI7QStringP12QActionGroupE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QHashI7QStringP12QActionGroupE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.4.0
@@ -1046,12 +1056,14 @@ libprocessui.so.4 libprocessui4a #MINVER#
  (optional=templinst)_ZN5QHashIP6QLabel7QStringE11deleteNode2EPN9QHashData4NodeE@Base 4:4.4.0
  (optional=templinst)_ZN5QHashIP6QLabel7QStringE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QHashIP6QLabel7QStringE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN5QHashIP6QLabel7QStringED1Ev@Base 4:4.4.2
  (optional=templinst)_ZN5QHashIP7QObjectbE11deleteNode2EPN9QHashData4NodeE@Base 4:4.4.0
  (optional=templinst)_ZN5QHashIP7QObjectbE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QHashIP7QObjectbE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.4.0
  (optional=templinst)_ZN5QHashIP7QObjectbED1Ev@Base 4:4.4.0
  (optional=templinst)_ZN5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE11deleteNode2EPN9QHashData4NodeE@Base 4:4.4.0
  (optional=templinst)_ZN5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN5QListI10QByteArrayE13detach_helperEv@Base 4:4.4.2
  (optional=templinst)_ZN5QListI10QByteArrayE4freeEPN9QListData4DataE@Base 4:4.4.0
  (optional=templinst)_ZN5QListI10QByteArrayE6appendERKS0_@Base 4:4.4.0
  (optional=templinst)_ZN5QListI10QByteArrayED1Ev@Base 4:4.4.0
@@ -1070,9 +1082,10 @@ libprocessui.so.4 libprocessui4a #MINVER#
  (optional=templinst)_ZN5QListI5QPairIS0_IN2Qt12ItemDataRoleES2_E7QStringEE6appendERKS5_@Base 4:4.4.0
  (optional=templinst)_ZN5QListI5QPairIS0_IN2Qt12ItemDataRoleES2_E7QStringEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZN5QListI7QStringE5clearEv@Base 4:4.4.0
- (optional=templinst)_ZN5QListI7QStringE6appendERKS0_@Base 4:4.4.0
+ (optional=templinst|arch=!kfreebsd-amd64 !kfreebsd-i386 !sparc)_ZN5QListI7QStringE6appendERKS0_@Base 4:4.4.0
  (optional=templinst)_ZN5QListI7QStringED1Ev@Base 4:4.4.0
  (optional=templinst)_ZN5QListIP11QLayoutItemE13detach_helperEv@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN5QListIP11QLayoutItemE5clearEv@Base 4:4.4.2
  (optional=templinst)_ZN5QListIP11QLayoutItemE6appendERKS1_@Base 4:4.4.0
  (optional=templinst)_ZN5QListIP11QLayoutItemED1Ev@Base 4:4.4.0
  (optional=templinst)_ZN5QListIP30QDesignerCustomWidgetInterfaceE13detach_helperEv@Base 4:4.4.0
@@ -1082,6 +1095,7 @@ libprocessui.so.4 libprocessui4a #MINVER#
  (optional=templinst)_ZN5QListIP7QObjectED1Ev@Base 4:4.4.0
  (optional=templinst)_ZN5QListIP7QWidgetE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QListIP7QWidgetE6appendERKS1_@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN5QListIP7QWidgetEC1ERKS2_@Base 4:4.4.2
  (optional=templinst)_ZN5QListIP7QWidgetED1Ev@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal10DomIncludeEE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal10DomIncludeEE5clearEv@Base 4:4.4.0
@@ -1115,12 +1129,14 @@ libprocessui.so.4 libprocessui4a #MINVER#
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomActionGroupEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEE5clearEv@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN5QListIPN13QFormInternal14DomButtonGroupEE6appendERKS2_@Base 4:4.4.2
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomCustomWidgetEE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomCustomWidgetEE5clearEv@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomCustomWidgetEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomGradientStopEE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomGradientStopEE5clearEv@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN5QListIPN13QFormInternal15DomGradientStopEEC1ERKS3_@Base 4:4.4.2
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomGradientStopEED1Ev@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomPropertyDataEE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomPropertyDataEE5clearEv@Base 4:4.4.0
@@ -1161,12 +1177,15 @@ libprocessui.so.4 libprocessui4a #MINVER#
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomWidgetEE13detach_helperEv@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomWidgetEE5clearEv@Base 4:4.4.0
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomWidgetEED1Ev@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN5QPairI7QStringS0_ED1Ev@Base 4:4.4.2
  _ZN6QDebuglsERK7QString@Base 4:4.4.0
  _ZN7QStringC1ERK13QLatin1String@Base 4:4.4.0
+ (arch=sparc)_ZN7QStringC1ERKS_@Base 4:4.4.2
  (optional=templinst)_ZN7QVectorI19QXmlStreamAttributeE4freeEP16QVectorTypedDataIS0_E@Base 4:4.4.0
  (optional=templinst)_ZN7QVectorI19QXmlStreamAttributeE7reallocEii@Base 4:4.4.0
  (optional=templinst)_ZN7QVectorI5QPairId6QColorEE4freeEP16QVectorTypedDataIS2_E@Base 4:4.4.0
  (optional=templinst)_ZN7QVectorI5QPairId6QColorEE7reallocEii@Base 4:4.4.0
+ (optional=templinst|arch=sparc)_ZN7QVectorI5QPairId6QColorEED1Ev@Base 4:4.4.2
  _ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 4:4.4.0
  _ZN9QUiLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN9QUiLoader11qt_metacastEPKc@Base 4:4.4.0
@@ -1398,6 +1417,6 @@ libprocessui.so.4 libprocessui4a #MINVER#
  _ZTVN13QFormInternal26QAbstractFormBuilderGadgetE@Base 4:4.4.0
  (optional=templinst)_ZZN11QMetaTypeIdI26QUiTranslatableStringValueE14qt_metatype_idEvE11metatype_id@Base 4:4.4.0
  (optional=templinst)_ZZN11QMetaTypeIdI5QListIP7QWidgetEE14qt_metatype_idEvE11metatype_id@Base 4:4.4.0
- _ZplRK7QStringS1_@Base 4:4.4.0
+ (arch=!kfreebsd-amd64 !kfreebsd-i386 !sparc)_ZplRK7QStringS1_@Base 4:4.4.2
  (c++)"non-virtual thunk to KSysGuardProcessList::~KSysGuardProcessList()@Base" 4:4.3.4
  (c++)"non-virtual thunk to QFormInternal::QAbstractFormBuilderGadget::~QAbstractFormBuilderGadget()@Base" 4:4.4.0

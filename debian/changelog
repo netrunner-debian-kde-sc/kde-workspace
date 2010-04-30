@@ -10,6 +10,9 @@ kdebase-workspace (4:4.4.3-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Bump kde-sc-dev-latest build dependency to 4.4.3.
+  * Drop kdebase-workspace-4.3.5-CVE-2010-0436.diff patch - merged upstream.
+  * Confirm symbol files for 4.4.2 on i386 ia64 kfreebsd-amd64 kfreebsd-i386
+    powerpc s390 sparc.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:33:03 +0300
 
