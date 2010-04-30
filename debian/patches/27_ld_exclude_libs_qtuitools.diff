@@ -1,3 +1,9 @@
+Author: Modestas Vainius <modax@debian.org>
+Description: do not export QtUiTools symbols in the libprocessui dynamic symbol table
+Forwarded: no
+Origin: vendor
+Last-Update: 2010-04-30
+
 --- a/libs/ksysguard/processui/CMakeLists.txt
 +++ b/libs/ksysguard/processui/CMakeLists.txt
 @@ -23,6 +23,9 @@ kde4_add_ui_files( processui_LIB_SRCS

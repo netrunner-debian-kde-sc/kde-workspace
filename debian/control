@@ -21,7 +21,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.3),
  libxrandr-dev, libxrender-dev, libxi-dev,
  libsmbclient-dev, libxcb1-dev, libxine-dev, libfontconfig-dev, libglu1-mesa-dev,
  libsm-dev, libxcursor-dev, libxft-dev, libxtst-dev, libqt4-opengl-dev, libxinerama-dev,
- libxss-dev, libqedje-dev (>= 0.4.0), libggadget-1.0-dev (>= 0.11.0), libggadget-qt-1.0-dev (>= 0.11.0),
+ libxss-dev, libqedje-dev (>= 0.4.0), libggadget-1.0-dev (>= 0.11.2), libggadget-qt-1.0-dev (>= 0.11.2),
  libgps-dev (>= 2.90)
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/

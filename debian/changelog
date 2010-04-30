@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.4.3-0r1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.3-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -13,6 +13,10 @@ kdebase-workspace (4:4.4.3-0r1) UNRELEASED; urgency=low
   * Drop kdebase-workspace-4.3.5-CVE-2010-0436.diff patch - merged upstream.
   * Confirm symbol files for 4.4.2 on i386 ia64 kfreebsd-amd64 kfreebsd-i386
     powerpc s390 sparc.
+  * Add 27_ld_exclude_libs_qtuitools.diff patch to cease exporting QtUiTools
+    symbols in the symbol table of libprocessui library. Remove those redudant
+    symbols from the libprocessui4a.symbols symbol file as well.
+  * Bump google-gadgets build dependencies to version 0.11.2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Apr 2010 13:33:03 +0300
 
