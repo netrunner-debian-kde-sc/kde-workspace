@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.4.3-0r2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.3-1) unstable; urgency=low
 
   * New upstream release:
     - fixes CVE-2010-0436 - KDM Local Privilege Escalation Vulnerability.
@@ -17,8 +17,9 @@ kdebase-workspace (4:4.4.3-0r2) UNRELEASED; urgency=low
     symbols in the symbol table of libprocessui library. Remove those redudant
     symbols from the libprocessui4a.symbols symbol file as well.
   * Bump google-gadgets build dependencies to version 0.11.2.
+  * Release KDE SC 4.4.3 to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 May 2010 12:59:55 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 May 2010 23:37:51 +0300
 
 kdebase-workspace (4:4.4.2-1) experimental; urgency=low
 
