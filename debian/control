@@ -179,7 +179,7 @@ Architecture: all
 Depends: libplasma-ruby (>= 4:4.2.0), ${misc:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
 Description: Ruby script engine for Plasma
- This package provides Ruby script engine for Plasma. You have to install it
+ This package provides the Ruby script engine for Plasma. You have to install it
  if you want to use Plasma widgets and data engines written in Ruby.
  .
  This package is part of the KDE 4 base workspace module.
@@ -188,8 +188,8 @@ Package: plasma-scriptengine-python
 Architecture: all
 Depends: ${python:Depends}, python-kde4 (>= 4:4.2.0), ${misc:Depends}
 Description: Python script engine for Plasma
- This package provides Python script engine for Plasma. You have to install it
- if you want to use Plasma widgets and data engines written in Python.
+ This package provides the Python script engine for Plasma. You have to install
+ it if you want to use Plasma widgets and data engines written in Python.
  .
  This package is part of the KDE 4 base workspace module.
 
@@ -210,7 +210,7 @@ Priority: extra
 Architecture: any
 Depends: ${shlibs:Depends}, google-gadgets-qt, google-gadgets-xul, ${misc:Depends}
 Description: Google Gadgets script engine for Plasma
- This package contains Google Gadgets script engine for Plasma. It enables
+ This package contains the Google Gadgets script engine for Plasma. It enables
  Plasma to serve as a Google Gadgets host and allows to load and use any gadget
  as if it was a Plasma widget. It also integrates download and installation of
  new gadgets from the official Google Desktop Gadgets website.
