@@ -1,7 +1,6 @@
-# SymbolsHelper-Confirmed: 4:4.4.3 amd64
+# SymbolsHelper-Confirmed: 4:4.4.3 amd64 armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libprocessui.so.4 libprocessui4a #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
- (optional=external|arch=kfreebsd-i386)_Z20qvariant_cast_helperRK8QVariantNS_4TypeEPv@Base 4:4.4.2
  _ZN11KTextEditVT11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11KTextEditVT11qt_metacastEPKc@Base 4:4.3.4
  _ZN11KTextEditVT12insertVTCharERK5QChar@Base 4:4.3.4
@@ -35,8 +34,6 @@ libprocessui.so.4 libprocessui4a #MINVER#
  _ZN13ProcessFilter11qt_metacastEPKc@Base 4:4.3.4
  _ZN13ProcessFilter16staticMetaObjectE@Base 4:4.3.4
  _ZN13ProcessFilter9setFilterENS_5StateE@Base 4:4.3.4
- (arch=sparc)_ZN13QFormInternal17QFormBuilderExtra16CustomWidgetDataD1Ev@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN17QForeachContainerI11QStringListEC1ERKS0_@Base 4:4.4.2
  _ZN20KSysGuardProcessList10expandInitEv@Base 4:4.3.4
  _ZN20KSysGuardProcessList10updateListEv@Base 4:4.3.4
  _ZN20KSysGuardProcessList11changeEventEP6QEvent@Base 4:4.3.4
@@ -80,22 +77,6 @@ libprocessui.so.4 libprocessui4a #MINVER#
  _ZN20KSysGuardProcessListD0Ev@Base 4:4.3.4
  _ZN20KSysGuardProcessListD1Ev@Base 4:4.3.4
  _ZN20KSysGuardProcessListD2Ev@Base 4:4.3.4
- (arch=sparc)_ZN26QUiTranslatableStringValueC1Ev@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN4QMapI7QStringbE11node_createEP8QMapDataPPNS2_4NodeERKS0_RKb@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN4QMapI7QStringbED1Ev@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN5QHashI7QString5QPairIN2Qt12ItemDataRoleES3_EED1Ev@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN5QHashI7QString5QPairIPN13QFormInternal14DomButtonGroupEP12QButtonGroupEED1Ev@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN5QHashI7QStringN13QFormInternal17QFormBuilderExtra16CustomWidgetDataEED1Ev@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN5QHashI7QStringN2Qt12ItemDataRoleEED1Ev@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN5QHashIP6QLabel7QStringED1Ev@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN5QListI10QByteArrayE13detach_helperEv@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN5QListIP11QLayoutItemE5clearEv@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN5QListIP7QWidgetEC1ERKS2_@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN5QListIPN13QFormInternal14DomButtonGroupEE6appendERKS2_@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN5QListIPN13QFormInternal15DomGradientStopEEC1ERKS3_@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN5QPairI7QStringS0_ED1Ev@Base 4:4.4.2
- (arch=sparc)_ZN7QStringC1ERKS_@Base 4:4.4.2
- (optional=templinst|arch=sparc)_ZN7QVectorI5QPairId6QColorEED1Ev@Base 4:4.4.2
  _ZNK11KTextEditVT10metaObjectEv@Base 4:4.3.4
  _ZNK11KTextEditVT20parseAnsiEscapeCodesEv@Base 4:4.3.4
  _ZNK12ProcessModel10headerDataEiN2Qt11OrientationEi@Base 4:4.3.4
