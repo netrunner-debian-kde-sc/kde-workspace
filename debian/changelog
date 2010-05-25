@@ -8,7 +8,12 @@ kdebase-workspace (4:4.4.3-2) UNRELEASED; urgency=low
   * Update symbol files for amd64 armel hppa hurd-i386 i386 ia64 kfreebsd-amd64
     kfreebsd-i386 mips mipsel powerpc s390 sparc.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 03 May 2010 23:39:23 +0200
+  [ Sune Vuorela ]
+  * Move to libsensors 3.x series. change build-deps to libsensors4-dev. (Yes,
+    libsensors is just like most of kdelibs off by one in SONAME vs. version
+    number). (Closes: 582803)
+
+ -- Sune Vuorela <sune@debian.org>  Wed, 26 May 2010 00:29:04 +0200
 
 kdebase-workspace (4:4.4.3-1) unstable; urgency=low
 
