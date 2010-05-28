@@ -17,8 +17,7 @@ kdebase-workspace (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Drop quilt from Build-Depends, no longer needed for 3.0 (quilt).
   * Remove debian/README.source. Patch support is part of source format
     now.
-  * Move debian/source.lintian-overrides to debian/source/lintian-
-    overrides
+  * Move debian/source.lintian-overrides to debian/source/lintian-overrides.
 
   [ Sune Vuorela ]
   * Move to libsensors 3.x series. change build-deps to libsensors4-dev. (Yes,
