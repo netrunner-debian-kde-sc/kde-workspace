@@ -2,8 +2,8 @@ usr/bin/klipper
 usr/lib/libkdeinit4_klipper.so
 usr/share/applications/kde4/klipper.desktop
 usr/share/autostart/klipper.desktop
-usr/share/doc/kde4/HTML/en/klipper/common
-usr/share/doc/kde4/HTML/en/klipper/index.cache.bz2
-usr/share/doc/kde4/HTML/en/klipper/index.docbook
-usr/share/doc/kde4/HTML/en/klipper/screenshot.png
+usr/share/doc/kde/HTML/en/klipper/common
+usr/share/doc/kde/HTML/en/klipper/index.cache.bz2
+usr/share/doc/kde/HTML/en/klipper/index.docbook
+usr/share/doc/kde/HTML/en/klipper/screenshot.png
 usr/share/kde4/apps/kconf_update/klipper-kconfigxt.upd

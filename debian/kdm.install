@@ -15,11 +15,11 @@ usr/lib/kde4/kcm_kdm.so
 usr/lib/kde4/libexec/kdm_config
 usr/lib/kde4/libexec/kdm_greet
 usr/lib/kde4/libexec/krootimage
-usr/share/doc/kde4/HTML/en/kdm/common
-usr/share/doc/kde4/HTML/en/kdm/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kdm/index.docbook
-usr/share/doc/kde4/HTML/en/kdm/kdmrc-ref.docbook
-usr/share/doc/kde4/HTML/en/kdm/theme-ref.docbook
+usr/share/doc/kde/HTML/en/kdm/common
+usr/share/doc/kde/HTML/en/kdm/index.cache.bz2
+usr/share/doc/kde/HTML/en/kdm/index.docbook
+usr/share/doc/kde/HTML/en/kdm/kdmrc-ref.docbook
+usr/share/doc/kde/HTML/en/kdm/theme-ref.docbook
 usr/share/kde4/apps/doc/kdm/README
 usr/share/kde4/apps/doc/kdm/greeter.dtd
 usr/share/kde4/apps/kcontrol/pics/anchor.png

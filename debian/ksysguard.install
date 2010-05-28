@@ -4,9 +4,9 @@ usr/lib/kde4/libexec/ksysguardprocesslist_helper
 usr/lib/libkdeinit4_ksysguard.so
 usr/share/applications/kde4/ksysguard.desktop
 usr/share/dbus-1/system-services/org.kde.ksysguard.processlisthelper.service
-usr/share/doc/kde4/HTML/en/ksysguard/common
-usr/share/doc/kde4/HTML/en/ksysguard/index.cache.bz2
-usr/share/doc/kde4/HTML/en/ksysguard/index.docbook
+usr/share/doc/kde/HTML/en/ksysguard/common
+usr/share/doc/kde/HTML/en/ksysguard/index.cache.bz2
+usr/share/doc/kde/HTML/en/ksysguard/index.docbook
 usr/share/icons/oxygen/16x16/apps/computer.png
 usr/share/icons/oxygen/16x16/apps/daemon.png
 usr/share/icons/oxygen/16x16/apps/kdeapp.png
