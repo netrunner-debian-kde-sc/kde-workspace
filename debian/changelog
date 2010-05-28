@@ -18,6 +18,7 @@ kdebase-workspace (4:4.4.4-0r1) UNRELEASED; urgency=low
   * Remove debian/README.source. Patch support is part of source format
     now.
   * Move debian/source.lintian-overrides to debian/source/lintian-overrides.
+  * Bump kde-sc-dev-latest build dependency to 4:4.4.4.
 
   [ Sune Vuorela ]
   * Move to libsensors 3.x series. change build-deps to libsensors4-dev. (Yes,
