@@ -1,4 +1,6 @@
-kdebase-workspace (4:4.4.3-2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.4-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Pino Toscano ]
   * Few touches to the packages descriptions.
@@ -14,7 +16,7 @@ kdebase-workspace (4:4.4.3-2) UNRELEASED; urgency=low
     number). (Closes: 582803)
   * Update email address.
 
- -- Sune Vuorela <sune@debian.org>  Wed, 26 May 2010 00:29:04 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 May 2010 21:51:15 +0300
 
 kdebase-workspace (4:4.4.3-1) unstable; urgency=low
 
