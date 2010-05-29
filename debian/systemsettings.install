@@ -6,9 +6,9 @@ usr/lib/kde4/kcm_fonts.so
 usr/lib/kde4/kcm_style.so
 usr/lib/libsystemsettingsview.so.1
 usr/share/applications/kde4/systemsettings.desktop
-usr/share/doc/kde4/HTML/en/systemsettings/common
-usr/share/doc/kde4/HTML/en/systemsettings/index.cache.bz2
-usr/share/doc/kde4/HTML/en/systemsettings/index.docbook
+usr/share/doc/kde/HTML/en/systemsettings/common
+usr/share/doc/kde/HTML/en/systemsettings/index.cache.bz2
+usr/share/doc/kde/HTML/en/systemsettings/index.docbook
 usr/share/kde4/apps/systemsettings/classic/main.html
 usr/share/kde4/apps/systemsettings/classic/systemsettings-classic.css
 usr/share/kde4/apps/systemsettings/systemsettings.kcfg
