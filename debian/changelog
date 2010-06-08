@@ -2,6 +2,7 @@ kdebase-workspace (4:4.4.4-2) UNRELEASED; urgency=low
 
   * Make kdebase-workspace-data replace & conflict with ksplash
     (Closes: #584861).
+  * Do not hardcode python version in plasma-scriptengine-python.install.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 07 Jun 2010 12:11:05 +0300
 
