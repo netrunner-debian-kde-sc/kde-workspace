@@ -6,6 +6,7 @@ usr/lib/kde4/plasma_containment_newspaper.so
 usr/lib/kde4/plasma_containment_sal.so
 usr/lib/kde4/plasma_engine_searchlaunch.so
 usr/lib/libkdeinit4_plasma-netbook.so
+usr/share/autostart/plasma-netbook.desktop
 usr/share/kde4/apps/desktoptheme/air-netbook/colors
 usr/share/kde4/apps/desktoptheme/air-netbook/metadata.desktop
 usr/share/kde4/apps/desktoptheme/air-netbook/widgets/background.svgz
