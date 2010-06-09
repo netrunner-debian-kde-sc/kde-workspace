@@ -3,7 +3,8 @@ kdebase-workspace (4:4.4.4-2) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Make kdebase-workspace-data replace & conflict with ksplash
     (Closes: #584861).
-  * Do not hardcode python version in plasma-scriptengine-python.install.
+  * Do not hardcode python version in plasma-scriptengine-python.install
+    (Closes: #585174).
 
   [ George Kiagiadakis ]
   * Add patch 01_plasma_netbook_no_autostart.diff from kubuntu
