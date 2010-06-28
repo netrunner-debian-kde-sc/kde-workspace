@@ -5,6 +5,7 @@ kdebase-workspace (4:4.4.4-2) UNRELEASED; urgency=low
     (Closes: #584861).
   * Do not hardcode python version in plasma-scriptengine-python.install
     (Closes: #585174).
+  * Ship kdm virtual facility for insserv (Closes: #554831).
 
   [ George Kiagiadakis ]
   * Add patch 01_plasma_netbook_no_autostart.diff from kubuntu

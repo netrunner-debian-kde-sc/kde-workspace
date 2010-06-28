@@ -29,6 +29,7 @@ $(foreach p,$(filter lib%, $(DEB_ARCH_PACKAGES)),$(eval DEB_DH_SHLIBDEPS_ARGS_$(
 
 binary-install/kdm::
 	install -p -D -m644 debian/kdm-np.pam debian/kdm/etc/pam.d/kdm-np
+	install -p -D -m644 debian/kdm.insserv debian/kdm/etc/insserv.conf.d/kdm
 
 binary-install/plasma-scriptengine-python::
 	dh_pysupport -p$(cdbs_curpkg) /usr/share/kde4/apps/plasma_scriptengine_python
