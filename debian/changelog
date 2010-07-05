@@ -15,6 +15,10 @@ kdebase-workspace (4:4.4.5-1) UNRELEASED; urgency=low
     to fix plasma-netbook autostart when only plasma-netbook
     is installed. (Closes: #584905)
 
+  [ Fathi Boudra]
+  * Add missing Conflicts/Replaces with ksplash to kdebase-workspace-bin
+    package (Closes: #585716).
+
  -- Modestas Vainius <modax@debian.org>  Sun, 04 Jul 2010 19:00:50 +0300
 
 kdebase-workspace (4:4.4.4-1) unstable; urgency=low

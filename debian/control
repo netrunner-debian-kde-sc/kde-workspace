@@ -79,10 +79,10 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
  kaboom (>= 1.0.5), kdebase-workspace-kgreet-plugins (= ${binary:Version})
 Recommends: plasma-scriptengines, polkit-kde-1 | policykit-1-gnome
 Suggests: x11-xkb-utils
+Conflicts: kcontrol, libplasma1, libplasma2, libkfontinst4, ksplash
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip, libplasma2,
  kde-window-manager (<< 4:4.1.80), kdebase-workspace-data (<< 4:4.1.82),
- kdebase-workspace-libs4+5, libkfontinst4
-Conflicts: kcontrol, libplasma1, libplasma2, libkfontinst4
+ kdebase-workspace-libs4+5, libkfontinst4, ksplash
 Description: core binaries for the KDE 4 base workspace module
  This package contains miscellaneous programs needed for a basic KDE 4 desktop
  installation. Among other standard KDE 4 desktop components, the package
