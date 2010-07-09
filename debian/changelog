@@ -18,6 +18,7 @@ kdebase-workspace (4:4.4.5-1) UNRELEASED; urgency=low
   [ Fathi Boudra]
   * Add missing Conflicts/Replaces with ksplash to kdebase-workspace-bin
     package (Closes: #585716).
+  * Add krb5-kdc to Should-Start kdm init script. (Closes: #584434)
 
  -- Modestas Vainius <modax@debian.org>  Sun, 04 Jul 2010 19:00:50 +0300
 
