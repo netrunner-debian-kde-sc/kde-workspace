@@ -34,7 +34,7 @@ Depends:  kdebase-workspace-bin (>= ${source:Version}), ${misc:Depends},
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), 
  kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version})
 Recommends: kdm (>= ${source:Version})
-Description: base workspace components from the official KDE 4 release
+Description: KDE Plasma Workspace components
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -42,7 +42,7 @@ Description: base workspace components from the official KDE 4 release
  categories including Internet and web applications, multimedia, entertainment,
  educational, graphics and software development.
  .
- This package provides a basic KDE 4 desktop installation.
+ This package provides a basic KDE desktop installation.
 
 Package: plasma-desktop
 Architecture: any
@@ -56,7 +56,7 @@ Description: The KDE Plasma workspace for desktop and laptop computers
  It integrates best with applications following the standards used by the KDE
  Platform.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: plasma-netbook
 Architecture: any
@@ -69,7 +69,7 @@ Description: The KDE Plasma workspace for netbook computers
  the KDE Platform. It integrates best with applications following the standards
  used by the KDE Platform.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: kdebase-workspace-bin
 Architecture: any
@@ -83,14 +83,14 @@ Conflicts: kcontrol, libplasma1, libplasma2, libkfontinst4, ksplash
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip, libplasma2,
  kde-window-manager (<< 4:4.1.80), kdebase-workspace-data (<< 4:4.1.82),
  kdebase-workspace-libs4+5, libkfontinst4, ksplash
-Description: core binaries for the KDE 4 base workspace module
- This package contains miscellaneous programs needed for a basic KDE 4 desktop
- installation. Among other standard KDE 4 desktop components, the package
- provides startkde scripts, ksmserver (the KDE 4 session manager), krunner,
+Description: core binaries for the KDE Plasma Workspace
+ This package contains miscellaneous programs needed for a basic desktop
+ installation. Among other standard KDE Workspace components, the package
+ provides startkde scripts, ksmserver (the session manager), krunner,
  the default KDE screensavers and many KDE configuration modules. This
- package is essential to start and use KDE 4 Desktop Environment.
+ package is essential to start and use KDE Plasma Workspace.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: kdebase-workspace-data
 Architecture: all
@@ -100,11 +100,11 @@ Conflicts: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
 Replaces: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
  kmenuedit, ktip, kdebase-runtime-data (<< 4:4.1.3), kde-window-manager (<< 4:4.1.80),
  kdm (<< 4:4.2.0-3), systemsettings (<< 4:4.1.80), ksplash
-Description: shared data files for the KDE 4 base workspace module
+Description: shared data files for the KDE Plasma Workspace
  This package contains architecture-independent shared data files needed for a
- basic KDE 4 desktop installation.
+ basic KDE Workspace installation.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: kdebase-workspace-dev
 Architecture: any
@@ -113,9 +113,11 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${allLibraries},
 Replaces: kdebase-workspace-data (<< 4:4.1.80), ksysguard (<< 4:4.1.80), libplasma-dev (<< 4:4.1.80),
  kde-window-manager (<< 4:4.1.80)
 Conflicts: kdebase-workspace-libs4+5
-Description: development files for the KDE 4 base workspace module
+Description: development files for the KDE Plasma Workspace
  This package contains development files for building software that uses
- libraries from the KDE 4 base workspace module.
+ libraries from the KDE Plasma Workspace.
+ .
+ This package is part of the KDE base workspace module.
 
 Package: plasma-dataengines-workspace
 Architecture: any
@@ -124,13 +126,13 @@ Recommends: ksysguardd (= ${binary:Version})
 Replaces: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82),
  systemsettings (<< 4:4.1.80), libplasma2
 Conflicts: libplasma2
-Description: KDE 4 base workspace Plasma data engines
- This package contains standard Plasma data engines shipped in KDE 4 base
- workspace module. These engines are needed by the standard KDE 4 base
+Description: KDE Plasma data engines
+ This package contains standard Plasma data engines shipped in KDE Plasma
+ workspace. These engines are needed by the standard KDE base
  workspace Plasma widgets, but they may be useful for any other Plasma widget
  too.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: plasma-widgets-workspace
 Architecture: any
@@ -138,16 +140,16 @@ Depends: ${shlibs:Depends}, plasma-dataengines-workspace (= ${binary:Version}), 
 Replaces: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82), libplasma2,
  plasma-applets-workspace, kdebase-workspace-libs4+5, libplasma-applet-system-monitor4
 Conflicts: libplasma2, plasma-applets-workspace, kdebase-workspace-libs4+5, libplasma-applet-system-monitor4
-Description: KDE 4 base workspace Plasma widgets and containments
+Description: plasma widgets and containments for the KDE Plasma Workspace
  This package contains standard Plasma widgets and containments shipped in the
- KDE 4 base workspace module. They provide such basic desktop functionality as
+ KDE base workspace module. They provide such basic desktop functionality as
  the panel, task manager, application laucher, clock and more. The default KDE
- 4 desktop is a combination of these visual components.
+ Workspace is a combination of these visual components.
  .
- This package also includes the default animator used by the main KDE 4 Plasma
- shell.
+ This package also includes the default animator used by the main KDE Plasma
+ Desktop shell.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: plasma-scriptengines
 Architecture: all
@@ -163,7 +165,7 @@ Description: a metapackage to install all Plasma script engines
  This metapackage depends on all Plasma script engines which kdebase-workspace
  module provides and suggests script engines from other official KDE modules.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: plasma-scriptengine-qedje
 Architecture: any
@@ -172,7 +174,7 @@ Description: QEdje script engine for Plasma
  This package provides QEdje script engine for Plasma. You have to install it
  if you want to use Plasma widgets and data engines written in QEdje.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: plasma-scriptengine-ruby
 Architecture: all
@@ -182,7 +184,7 @@ Description: Ruby script engine for Plasma
  This package provides the Ruby script engine for Plasma. You have to install it
  if you want to use Plasma widgets and data engines written in Ruby.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: plasma-scriptengine-python
 Architecture: all
@@ -191,7 +193,7 @@ Description: Python script engine for Plasma
  This package provides the Python script engine for Plasma. You have to install
  it if you want to use Plasma widgets and data engines written in Python.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: plasma-scriptengine-webkit
 Architecture: any
@@ -203,7 +205,7 @@ Description: Web and Mac OS X dashboard widget support for Plasma
  Mac OS X dashboard widgets. You have to install this package if you want to be
  able to load these widgets in your Plasma shell.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: plasma-scriptengine-googlegadgets
 Priority: extra
@@ -215,7 +217,7 @@ Description: Google Gadgets script engine for Plasma
  as if it was a Plasma widget. It also integrates download and installation of
  new gadgets from the official Google Desktop Gadgets website.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: kdm
 Section: x11
@@ -236,42 +238,42 @@ Description: KDE Display Manager for X11
  KDM supports custom themes and can display a list of users with icons.
  Additional user icons can be found in the 'kdepasswd' package.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: klipper
 Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-data (<< 4:4.1.80)
-Description: clipboard utility for KDE 4
- Klipper is the KDE 4 clipboard utility. It stores a history of the clipboard
+Description: clipboard manager
+ Klipper is a clipboard manager. It stores a history of the clipboard
  contents and can automatically perform actions when certain items are
  selected, such as launch a web browser when a URL is selected.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: ksysguardd
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: System Guard Daemon for KDE 4
- KDE System Guard Daemon can be installed on a remote system so that the KDE
+Description: System Guard Daemon
+ System Guard Daemon can be installed on a remote system so that the KDE
  System Guard can connect to and monitor it.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: ksysguard
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ksysguardd (= ${binary:Version})
 Replaces: kdebase-workspace-data (<< 4:4.1.80)
-Description: System Guard for KDE 4
- KDE System Guard allows you to monitor various statistics about your system.
+Description: process monitor and system statistics
+ System Guard allows you to monitor various statistics about your system.
  .
  In addition to monitoring the local system, it can connect to remote systems
- running the KDE System Guard Daemon, which is in the 'ksysguardd' package.
+ running the System Guard Daemon, which is in the 'ksysguardd' package.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: kde-window-manager
 Section: x11
@@ -281,11 +283,11 @@ Provides: x-window-manager
 Replaces: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80),
  kwin, kdebase-runtime-data (<< 4:4.4.0)
 Conflicts: kwin
-Description: the KDE 4 window manager (KWin)
- This package contains KWin, the KDE 4 window manager, featuring 
+Description: the K window manager (KWin)
+ This package contains KWin, the KDE window manager, featuring 
  hardware-accelerated compositing effects.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libkdecorations4
 Section: libs
@@ -293,11 +295,11 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kwin (>= 4:4.0.1-1)
 Conflicts: kwin (>= 4:4.0.1-1)
-Description: library used by decorations for the KDE 4 window manager
- This package contains a library used by decorations of the KDE 4 window
+Description: library used by decorations for the KDE window manager
+ This package contains a library used by decorations of the KDE  window
  manager.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libkwineffects1a
 Section: libs
@@ -306,20 +308,20 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: libkwineffects1-api
 Replaces: kwin (>= 4:4.0.1-1), libkwineffects1, libkwineffects1-api
 Conflicts: kwin (>= 4:4.0.1-1), libkwineffects1, libkwineffects1-api
-Description: library used by effects for the KDE 4 window manager
- This package contains a library used by effects for the KDE 4 window manager.
+Description: library used by effects for the KDE window manager
+ This package contains a library used by effects for the KDE window manager.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: systemsettings
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-bin (<= 4:4.2.2-2), kdebase-workspace-data (<< 4:4.1.80)
-Description: KDE 4 System Settings
+Description: System Settings
  System Settings is an improved user interface for configuring the desktop
  and other aspects of the system.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: kdebase-workspace-kgreet-plugins
 Section: libs
@@ -329,7 +331,7 @@ Replaces: kdebase-workspace-bin (<< 4:4.2.4), kdm (<< 4:4.2.0-2)
 Description: KDE greet libraries for authentication
  This package contains libraries needed for kdm and locker authentication.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libkephal4
 Section: libs
@@ -340,7 +342,7 @@ Conflicts: kdebase-workspace-libs4+5
 Description: API for easier handling of multihead systems
  This package contains libraries needed for Kephal's D-Bus API.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libkscreensaver5
 Section: libs
@@ -351,7 +353,7 @@ Conflicts: kdebase-workspace-libs4+5
 Description: library of the KDE Screensaver system
  This package contains libraries needed for kscreensaver.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libksgrd4
 Section: libs
@@ -362,7 +364,7 @@ Conflicts: kdebase-workspace-libs4+5
 Description: library for the ksysguard GUI
  This package contains libraries needed for ksysguard GUI.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libksignalplotter4
 Section: libs
@@ -372,7 +374,7 @@ Description: the KSignalPlotter widget
  This library contains the KSignalPlotter widget, which is a widget that
  draws a real time graph of data that updates continually.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libkworkspace4
 Section: libs
@@ -383,7 +385,7 @@ Conflicts: kdebase-workspace-libs4+5
 Description: library for the kdebase workspace
  This package contains libraries needed for the kdebase workspace.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: liblsofui4
 Section: libs
@@ -395,7 +397,7 @@ Description: library for ksysguard based priority scheduling
  This package contains libraries needed for ksysguard based scheduling
  priority of a process.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libplasmaclock4a
 Section: libs
@@ -407,7 +409,7 @@ Conflicts: kdebase-workspace-libs4+5, libplasmaclock4, libplasmaclock4-api
 Description: library for Plasma clocks
  This package contains libraries needed for Plasma clocks.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libplasma-geolocation-interface4
 Section: libs
@@ -418,7 +420,7 @@ Conflicts: kdebase-workspace-libs4+5
 Description: library for the Plasma geolocation
  This package contains libraries needed for the Plasma geolocation.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libplasmagenericshell4
 Section: libs
@@ -428,7 +430,7 @@ Description: shared elements for all the plasma shells
  This library contains elements shared by the plasma desktop shell,
  the plasma netbook shell and the plasma screensaver overlay.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libprocesscore4a
 Section: libs
@@ -440,7 +442,7 @@ Conflicts: kdebase-workspace-libs4+5, libprocesscore4, libprocesscore4-api
 Description: library for ksysguard based process view
  This package contains libraries needed for ksysguard based process view.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libprocessui4a
 Section: libs
@@ -452,7 +454,7 @@ Conflicts: kdebase-workspace-libs4+5, libprocessui4, libprocessui4-api
 Description: library for ksysguard process user interface
  This package contains libraries needed for ksysguard process user interface.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libsolidcontrol4
 Section: libs
@@ -463,7 +465,7 @@ Conflicts: kdebase-workspace-libs4+5
 Description: library for Solid based network management
  This package contains libraries needed for Solid based network management.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libsolidcontrolifaces4
 Section: libs
@@ -475,7 +477,7 @@ Description: library for Solid based network interface management
  This package contains libraries needed for Solid based network interface
  management.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libtaskmanager4a
 Section: libs
@@ -487,7 +489,7 @@ Conflicts: kdebase-workspace-libs4+5, libtaskmanager4, libtaskmanager4-api
 Description: library which provides task management facilities
  This package contains libraries which provide task management facilities.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: libweather-ion4a
 Section: libs
@@ -500,7 +502,7 @@ Description: library which provides an interface for weather information service
  This package contains the library used to implement new ions (i.e. information
  fetching plugins) for the Plasma weather engine.
  .
- This package is part of the KDE 4 base workspace module.
+ This package is part of the KDE base workspace module.
 
 Package: kdebase-workspace-dbg
 Section: debug
@@ -510,7 +512,7 @@ Depends: kdebase-runtime-dbg, ${misc:Depends}
 Conflicts: kdebase-dbg (<< 4:4.0), kdebase-workspace-libs4+5
 Replaces: kdebase-dbg (<< 4:4.0)
 Suggests: kdebase-workspace (>= ${source:Version})
-Description: debugging symbols for the KDE 4 base workspace module
+Description: debugging symbols for the KDE Plasma Workspaces
  This package contains debugging files used to investigate problems with
- binaries included in the KDE 4 base workspace module.
+ binaries included in the KDE base workspace module.
 
