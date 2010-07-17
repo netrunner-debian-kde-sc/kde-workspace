@@ -20,7 +20,10 @@ kdebase-workspace (4:4.4.5-1) UNRELEASED; urgency=low
     package (Closes: #585716).
   * Add krb5-kdc to Should-Start kdm init script. (Closes: #584434)
 
- -- Modestas Vainius <modax@debian.org>  Sun, 04 Jul 2010 19:00:50 +0300
+  [ Sune Vuorela ]
+  * Remove python build requirements fixes. fixed upstream.
+
+ -- Sune Vuorela <sune@debian.org>  Sun, 18 Jul 2010 00:42:04 +0200
 
 kdebase-workspace (4:4.4.4-1) unstable; urgency=low
 
