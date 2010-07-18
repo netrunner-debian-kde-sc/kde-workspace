@@ -171,8 +171,8 @@ Package: plasma-scriptengine-qedje
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: QEdje script engine for Plasma
- This package provides QEdje script engine for Plasma. You have to install it
- if you want to use Plasma widgets and data engines written in QEdje.
+ This package provides the Edje script engine for Plasma. You have to install it
+ if you want to use Plasma widgets and data engines written in Edje.
  .
  This package is part of the KDE base workspace module.
 

@@ -22,6 +22,7 @@ kdebase-workspace (4:4.4.5-1) UNRELEASED; urgency=low
 
   [ Sune Vuorela ]
   * Remove python build requirements fixes. fixed upstream.
+  * Fix plasma-scriptengine-qedje description. (Closes: 584236)
   * Update descriptions.
 
  -- Sune Vuorela <sune@debian.org>  Sun, 18 Jul 2010 00:42:04 +0200
