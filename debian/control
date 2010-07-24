@@ -22,7 +22,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  libsmbclient-dev, libxcb1-dev, libxine-dev, libfontconfig-dev, libglu1-mesa-dev,
  libsm-dev, libxcursor-dev, libxft-dev, libxtst-dev, libqt4-opengl-dev, libxinerama-dev,
  libxss-dev, libqedje-dev (>= 0.4.0), libggadget-1.0-dev (>= 0.11.2), libggadget-qt-1.0-dev (>= 0.11.2),
- libgps-dev (>= 2.90)
+ libgps-dev (>= 2.90),
+ libntrack-qt4-dev
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdebase-workspace/#_trunk_packages_kdebase-workspace_

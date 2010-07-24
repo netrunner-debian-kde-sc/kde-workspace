@@ -1,3 +1,10 @@
+kdebase-workspace (4:4.4.5-2) UNRELEASED; urgency=low
+
+  * Add a patch to also query libntrack for networkstatus. Also add
+    libntrack-qt4-dev to build-deps to actually use the new feature.
+
+ -- Sune Vuorela <sune@debian.org>  Sat, 24 Jul 2010 18:28:09 +0200
+
 kdebase-workspace (4:4.4.5-1) unstable; urgency=low
 
   * New upstream release.
