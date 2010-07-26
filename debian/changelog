@@ -233,7 +233,7 @@ kdebase-workspace (4:4.3.4-2) unstable; urgency=high
   * Fix Vcs-Browser URL.
 
   [ Xavier Vello ]
-  * Import r1062504 patch to solid to make powerdevil applet work 
+  * Import r1062504 patch to solid to make powerdevil applet work
     with hal 0.5.14 (Closes: #561724)
 
   [ Sune Vuorela ]
@@ -275,10 +275,10 @@ kdebase-workspace (4:4.3.2-2) unstable; urgency=low
   +++ Changes by Karl Ferdinand Ebert:
 
   * Add source.lintian-overrides to ignore lintian warning about missing
-    debug depends. 
+    debug depends.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Switch from libxklavier12-dev to libxklavier-dev.
   * Update kdebase-workspace-dbg's Section to debug.
 
@@ -337,7 +337,7 @@ kdebase-workspace (4:4.3.0-3) unstable; urgency=low
   * Small copyright updates (years).
   * Add README.source about the patch system.
   * Bump Standards-Version from 3.8.2 to 3.8.3 (no changes needed).
-  * Add patch 02_kfreebsd_updates for building in in kfreebsd-* from Petr * Salinger. 
+  * Add patch 02_kfreebsd_updates for building in in kfreebsd-* from Petr * Salinger.
     That together with Pino's changes (Closes: #542591).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Aug 2009 17:46:50 +0200
@@ -361,7 +361,7 @@ kdebase-workspace (4:4.3.0-1) unstable; urgency=low
 
   +++ Changes by Martin Alfke:
 
-  * Add sanity checks to kdm.init file for availability of 
+  * Add sanity checks to kdm.init file for availability of
     desktop-base files and paths. (Closes: #523109)
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
@@ -422,7 +422,7 @@ kdebase-workspace (4:4.2.4-1) unstable; urgency=low
   * New upstream release:
     - keyboard.desktop renamed to kcm_keyboard.desktop to avoid
       conflict with gnome's keyboard.desktop. (Closes: #524506)
-    - plasma don't freezes when unmounting busy devices 
+    - plasma don't freezes when unmounting busy devices
       (Closes: #530558, #523089)
 
   +++ Changes by Josh Metzler:
@@ -470,7 +470,7 @@ kdebase-workspace (4:4.2.2-2) unstable; urgency=low
 kdebase-workspace (4:4.2.2-1) unstable; urgency=low
 
   * New upstream release.
-  
+
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Remove merged patches: 00_4.2.1_real and 00_r934863_plasma_geometry_crash.
@@ -770,7 +770,7 @@ kdebase-workspace (4:4.0.98-1) experimental; urgency=low
   * ksysguard now recommends on ksysguardd.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Resync patches: 07_kdmrc_defaults,
     12_be_better_at_honouring_user_kdm_theming and
     21_kdm_doesnt_use_kstandarddirs.
@@ -941,7 +941,7 @@ kdebase-workspace (4:4.0.68+svn794641-1) experimental; urgency=low
 
   +++ Changes by Sune Vuorela:
 
-  * Move some files to -runtime/not-installed. Moved upstream. This is post 
+  * Move some files to -runtime/not-installed. Moved upstream. This is post
     revision 792360.
 
   +++ Changes by Modestas Vainius:
@@ -965,21 +965,21 @@ kdebase-workspace (4:4.0.66+svn791114-3) experimental; urgency=low
  -- Armin Berres <armin+debian@space-based.de>  Sun, 30 Mar 2008 00:40:27 +0100
 
 kdebase-workspace (4:4.0.66+svn791114-2) experimental; urgency=low
- 
-  * Update some more build depends to >= 4:4.0.66. 
+
+  * Update some more build depends to >= 4:4.0.66.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 29 Mar 2008 18:08:21 +0100
 
 kdebase-workspace (4:4.0.66+svn791114-1) experimental; urgency=low
 
   +++ Changes by Armin Berres:
-  
+
   * Rename kwin to kde-window-manager and split off libkwineffects1 and
     libkdecorations4 (Closes: #463924).
   * Remove unneeded dependency of kdebase-workspace-dev on kdm.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * First KDE 4.1 snapshot packaged
   * Update installed files.
   * Bump build depends on >= 4.0.66
@@ -1022,7 +1022,7 @@ kdebase-workspace (4:4.0.1-1) experimental; urgency=low
   * Revert obsolete patch 15_fix_kdm_build_system.diff.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
- 
+
   * Bump compat/debhelper to 6.
 
   +++ Changes by Fathi Boudra:
@@ -1065,7 +1065,7 @@ kdebase-workspace (4:4.0.0-3) experimental; urgency=low
 
 kdebase-workspace (4:4.0.0-2) experimental; urgency=low
 
-  * Add patch to install various kdm configuration files into the correct 
+  * Add patch to install various kdm configuration files into the correct
     directories.
 
  -- Armin Berres <armin+debian@space-based.de>  Thu, 10 Jan 2008 18:50:41 +0100
@@ -1138,7 +1138,7 @@ kdebase-workspace (4:3.98.0~svn753247-1) experimental; urgency=low
 
   * Revert kdm/kfrontend/kgreeter.cpp back to its state when rc2 was released.
     Debian kdm theme (and probably other themes as well) are borked, but X
-    does not crash and users can login (patch 15_revert_kgreeter.cpp_to_rc2.diff) 
+    does not crash and users can login (patch 15_revert_kgreeter.cpp_to_rc2.diff)
   * Add myself to uploaders.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Dec 2007 22:15:25 +0100
@@ -1277,7 +1277,7 @@ kdebase-workspace (4:3.93.0-2) experimental; urgency=low
 kdebase-workspace (4:3.93.0-1) experimental; urgency=low
 
   * KDE4 beta2, first upload to the Debian archive.
-  * kdebase-workspace has been split from kdebase. 
+  * kdebase-workspace has been split from kdebase.
   * Shipping kicker as empty package because it has been disabled in this release
     due to several problems.
   * Added patch 01_kdehome_kde4.diff to set kdehome directory to .kde4.
