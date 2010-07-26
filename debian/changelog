@@ -707,14 +707,12 @@ kdebase-workspace (4:4.1.1-1) experimental; urgency=low
 
   * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Aug 2008 17:07:28 +0200
-
-kdebase-workspace (4:4.1.0-3) experimental; urgency=low
+  +++ Changes by Armin Berres:
 
   * Install konqueror as x-www-browser alternative (Closes: #495746).
   * Add manpages for konquror, kfmclient and keditbookmarks.
 
- -- Armin Berres <armin+debian@space-based.de>  Thu, 21 Aug 2008 11:35:14 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 31 Aug 2008 17:07:28 +0200
 
 kdebase-workspace (4:4.1.0-2) experimental; urgency=low
 
@@ -1210,12 +1208,6 @@ kdebase-workspace (4:3.96.0-1) experimental; urgency=low
 
   * Split out libplasma-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Nov 2007 17:10:02 +0000
-
-kdebase-workspace (4:3.95.2-1) experimental; urgency=low
-
-  * New upstream release.
-
   +++ Changes by Fathi Boudra:
 
   * Add libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxrandr-dev and
@@ -1223,9 +1215,8 @@ kdebase-workspace (4:3.95.2-1) experimental; urgency=low
   * Bump kdepimlibs5-dev build dependency version.
   * Add libstrigiqtdbusclient-dev build dependency version.
   * Remove 14_find_opengl patch. Merged upstream.
-  * Update installed files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Nov 2007 10:48:57 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Nov 2007 17:10:02 +0000
 
 kdebase-workspace (4:3.95.0-1) experimental; urgency=low
 
@@ -1289,26 +1280,6 @@ kdebase-workspace (4:3.93.0-1) experimental; urgency=low
   * kdebase-workspace has been split from kdebase. 
   * Shipping kicker as empty package because it has been disabled in this release
     due to several problems.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 05 Sep 2007 19:43:05 +0200
-
-kdebase (4:3.92.0-1) experimental; urgency=low
-
-  * KDE4 beta 1.
-  * Update *.install files.
   * Added patch 01_kdehome_kde4.diff to set kdehome directory to .kde4.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 15 Aug 2007 01:57:17 +0200
-
-kdebase (4:3.91.0-1) alioth; urgency=low
-
-  * New alpha release.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 05 Jul 2007 19:11:19 +0200
-
-kdebase (4:3.90.1-1) alioth; urgency=low
-
-  * Initial release of KDE4.
-
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 11 May 2007 16:23:33 +0100
-
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 05 Sep 2007 19:43:05 +0200
