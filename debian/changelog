@@ -9,6 +9,8 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
+  * Refresh patches.
+  * Drop patch 01_plasma_netbook_no_autostart.diff. Fixed upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 

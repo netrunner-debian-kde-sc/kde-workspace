@@ -1,6 +1,6 @@
 --- a/libs/kworkspace/CMakeLists.txt
 +++ b/libs/kworkspace/CMakeLists.txt
-@@ -24,6 +24,7 @@
+@@ -71,6 +71,7 @@
  kde4_add_library(kworkspace ${LIB_MODE} ${kworkspace_LIB_SRCS})
  
  target_link_libraries(kworkspace  ${KDE4_KDEUI_LIBS} ${X11_LIBRARIES} ${KDE4_PLASMA_LIBS} )
@@ -10,7 +10,7 @@
  install(TARGETS kworkspace EXPORT kdeworkspaceLibraryTargets ${INSTALL_TARGETS_DEFAULT_ARGS} )
 --- a/libs/taskmanager/CMakeLists.txt
 +++ b/libs/taskmanager/CMakeLists.txt
-@@ -38,6 +38,7 @@
+@@ -44,6 +44,7 @@
  
  target_link_libraries(taskmanager kephal)
  

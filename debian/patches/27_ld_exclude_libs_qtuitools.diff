@@ -6,13 +6,13 @@ Last-Update: 2010-04-30
 
 --- a/libs/ksysguard/processui/CMakeLists.txt
 +++ b/libs/ksysguard/processui/CMakeLists.txt
-@@ -23,6 +23,9 @@ kde4_add_ui_files( processui_LIB_SRCS
+@@ -22,6 +22,9 @@
  
  kde4_add_library(processui SHARED ${processui_LIB_SRCS})
  
 +# Do not export QtUiTools internal symbols
 +set_target_properties(processui PROPERTIES LINK_FLAGS_DEBIAN "-Wl,--exclude-libs -Wl,libQtUiTools.a")
 +
- target_link_libraries(processui ${KDE4_KDEUI_LIBS} ${QT_QTSCRIPT_LIBRARY} ${QT_QTWEBKIT_LIBRARY} ${QT_QTUITOOLS_LIBRARY} processcore)
- target_link_libraries(processui LINK_INTERFACE_LIBRARIES ${KDE4_KDEUI_LIBS} ${QT_QTSCRIPT_LIBRARY} ${QT_QTWEBKIT_LIBRARY} ${QT_QTUITOOLS_LIBRARY} processcore)
- 
+ if(X11_XRes_FOUND)
+   target_link_libraries(processui ${X11_XRes_LIB} ${X11_LIBRARIES})
+   include_directories(${X11_XRes_INCLUDE_PATH})

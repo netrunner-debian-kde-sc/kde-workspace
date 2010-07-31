@@ -1,6 +1,6 @@
 --- a/kcontrol/fonts/fonts.cpp
 +++ b/kcontrol/fonts/fonts.cpp
-@@ -511,12 +511,12 @@
+@@ -510,12 +510,12 @@
  
    // NOTE: keep in sync with kdelibs/kdeui/kernel/kglobalsettings.cpp
  
