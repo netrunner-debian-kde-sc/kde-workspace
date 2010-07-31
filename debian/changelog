@@ -7,6 +7,9 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
 
+  [ George Kiagiadakis ]
+  * Change my email address in uploaders.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
 kdebase-workspace (4:4.4.5-1) unstable; urgency=low
