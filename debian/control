@@ -50,7 +50,8 @@ Package: plasma-desktop
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version})
 Recommends: kdebase-workspace
-Replaces: kdebase-workspace-bin (<< 4:4.4.0), plasma-widgets-workspace (<< 4:4.4.0)
+Replaces: kdebase-workspace-bin (<< 4:4.5.0), kdebase-workspace-data (<< 4:4.5.0),
+ plasma-widgets-workspace (<< 4:4.4.0)
 Description: The KDE Plasma workspace for desktop and laptop computers
  Provides the environment for running and managing applications and integrating
  interaction of applications. It is designed as generic environment for all
@@ -84,7 +85,7 @@ Suggests: x11-xkb-utils
 Conflicts: kcontrol, libplasma1, libplasma2, libkfontinst4, ksplash
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip, libplasma2,
  kde-window-manager (<< 4:4.1.80), kdebase-workspace-data (<< 4:4.1.82),
- kdebase-workspace-libs4+5, libkfontinst4, ksplash
+ kdebase-workspace-libs4+5, libkfontinst4, ksplash, kdebase-runtime (<< 4:4.5.0)
 Description: core binaries for the KDE Plasma Workspace
  This package contains miscellaneous programs needed for a basic desktop
  installation. Among other standard KDE Workspace components, the package
@@ -100,7 +101,7 @@ Depends: oxygencursors, ${misc:Depends}, ${perl:Depends}
 Conflicts: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
  kmenuedit, ktip, libplasma1, systemsettings (<< 4:4.1.80), ksplash
 Replaces: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
- kmenuedit, ktip, kdebase-runtime-data (<< 4:4.1.3), kde-window-manager (<< 4:4.1.80),
+ kmenuedit, ktip, kdebase-runtime-data (<< 4:4.5.0), kde-window-manager (<< 4:4.1.80),
  kdm (<< 4:4.2.0-3), systemsettings (<< 4:4.1.80), ksplash
 Description: shared data files for the KDE Plasma Workspace
  This package contains architecture-independent shared data files needed for a

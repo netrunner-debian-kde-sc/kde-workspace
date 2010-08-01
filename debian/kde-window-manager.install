@@ -1,6 +1,4 @@
 usr/bin/kwin
-usr/bin/kwin_killer_helper
-usr/bin/kwin_rules_dialog
 usr/lib/kconf_update_bin/kwin_update_default_rules
 usr/lib/kconf_update_bin/kwin_update_tabbox_settings
 usr/lib/kconf_update_bin/kwin_update_window_settings
@@ -25,7 +23,6 @@ usr/lib/kde4/kwin3_redmond.so
 usr/lib/kde4/kwin3_tabstrip.so
 usr/lib/kde4/kwin3_web.so
 usr/lib/kde4/kwin4_effect_builtins.so
-usr/lib/kde4/kwin_aurorae_config.so
 usr/lib/kde4/kwin_b2_config.so
 usr/lib/kde4/kwin_kde2_config.so
 usr/lib/kde4/kwin_keramik_config.so
@@ -34,10 +31,13 @@ usr/lib/kde4/kwin_oxygen_config.so
 usr/lib/kde4/kwin_plastik_config.so
 usr/lib/kde4/kwin_quartz_config.so
 usr/lib/kde4/kwin_tabstrip_config.so
+usr/lib/kde4/libexec/kwin_killer_helper
+usr/lib/kde4/libexec/kwin_opengl_test
+usr/lib/kde4/libexec/kwin_rules_dialog
 usr/lib/libkdeinit4_kwin.so
 usr/lib/libkdeinit4_kwin_rules_dialog.so
 usr/lib/libkwinnvidiahack.so.4
-usr/lib/libkwinnvidiahack.so.4.4.0
+usr/lib/libkwinnvidiahack.so.4.5.0
 usr/share/doc/kde/HTML/en/kcontrol/desktop/common
 usr/share/doc/kde/HTML/en/kcontrol/desktop/index.cache.bz2
 usr/share/doc/kde/HTML/en/kcontrol/desktop/index.docbook
@@ -46,6 +46,7 @@ usr/share/doc/kde/HTML/en/kcontrol/kwincompositing/index.cache.bz2
 usr/share/doc/kde/HTML/en/kcontrol/kwincompositing/index.docbook
 usr/share/doc/kde/HTML/en/kcontrol/kwindecoration/buttons.png
 usr/share/doc/kde/HTML/en/kcontrol/kwindecoration/common
+usr/share/doc/kde/HTML/en/kcontrol/kwindecoration/decoration.png
 usr/share/doc/kde/HTML/en/kcontrol/kwindecoration/index.cache.bz2
 usr/share/doc/kde/HTML/en/kcontrol/kwindecoration/index.docbook
 usr/share/doc/kde/HTML/en/kcontrol/kwindecoration/main.png
@@ -69,6 +70,8 @@ usr/share/icons/oxygen/scalable/apps/kwin.svgz
 usr/share/kde4/apps/kconf_update/kwin.upd
 usr/share/kde4/apps/kconf_update/kwin3_plugin.pl
 usr/share/kde4/apps/kconf_update/kwin3_plugin.upd
+usr/share/kde4/apps/kconf_update/kwin_blacklist.sh
+usr/share/kde4/apps/kconf_update/kwin_blacklist.upd
 usr/share/kde4/apps/kconf_update/kwin_focus1.sh
 usr/share/kde4/apps/kconf_update/kwin_focus1.upd
 usr/share/kde4/apps/kconf_update/kwin_focus2.sh
@@ -123,6 +126,8 @@ usr/share/kde4/apps/kwin/web.desktop
 usr/share/kde4/config.kcfg/kwin.kcfg
 usr/share/kde4/config/aurorae.knsrc
 usr/share/kde4/services/desktop.desktop
+usr/share/kde4/services/kwin/blur.desktop
+usr/share/kde4/services/kwin/blur_config.desktop
 usr/share/kde4/services/kwin/boxswitch.desktop
 usr/share/kde4/services/kwin/boxswitch_config.desktop
 usr/share/kde4/services/kwin/coverswitch.desktop
@@ -143,6 +148,8 @@ usr/share/kde4/services/kwin/fadedesktop.desktop
 usr/share/kde4/services/kwin/fallapart.desktop
 usr/share/kde4/services/kwin/flipswitch.desktop
 usr/share/kde4/services/kwin/flipswitch_config.desktop
+usr/share/kde4/services/kwin/glide.desktop
+usr/share/kde4/services/kwin/glide_config.desktop
 usr/share/kde4/services/kwin/highlightwindow.desktop
 usr/share/kde4/services/kwin/invert.desktop
 usr/share/kde4/services/kwin/invert_config.desktop

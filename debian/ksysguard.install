@@ -21,5 +21,11 @@ usr/share/kde4/apps/ksysguard/SystemLoad2.sgrd
 usr/share/kde4/apps/ksysguard/ksysguard.notifyrc
 usr/share/kde4/apps/ksysguard/ksysguardui.rc
 usr/share/kde4/apps/ksysguard/scripts/README
+usr/share/kde4/apps/ksysguard/scripts/smaps/helper.js
+usr/share/kde4/apps/ksysguard/scripts/smaps/index.html
+usr/share/kde4/apps/ksysguard/scripts/smaps/main.js
+usr/share/kde4/apps/ksysguard/scripts/smaps/smaps.desktop
+usr/share/kde4/apps/ksysguard/scripts/smaps/sorttable.js
+usr/share/kde4/apps/ksysguard/scripts/smaps/style.css
 usr/share/kde4/config/ksysguard.knsrc
 usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy

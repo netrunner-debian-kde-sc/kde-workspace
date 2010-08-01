@@ -8,6 +8,7 @@ usr/lib/kde4/plasma_engine_akonadi.so
 usr/lib/kde4/plasma_engine_applicationjobs.so
 usr/lib/kde4/plasma_engine_apps.so
 usr/lib/kde4/plasma_engine_calendar.so
+usr/lib/kde4/plasma_engine_devicenotifications.so
 usr/lib/kde4/plasma_engine_dict.so
 usr/lib/kde4/plasma_engine_executable.so
 usr/lib/kde4/plasma_engine_favicons.so
@@ -24,6 +25,7 @@ usr/lib/kde4/plasma_engine_places.so
 usr/lib/kde4/plasma_engine_powermanagement.so
 usr/lib/kde4/plasma_engine_rss.so
 usr/lib/kde4/plasma_engine_soliddevice.so
+usr/lib/kde4/plasma_engine_statusnotifieritem.so
 usr/lib/kde4/plasma_engine_systemmonitor.so
 usr/lib/kde4/plasma_engine_tasks.so
 usr/lib/kde4/plasma_engine_time.so
@@ -33,6 +35,7 @@ usr/share/kde4/apps/plasma/services/apps.operations
 usr/share/kde4/apps/plasma/services/modifierkeystate.operations
 usr/share/kde4/apps/plasma/services/notifications.operations
 usr/share/kde4/apps/plasma/services/nowplaying.operations
+usr/share/kde4/apps/plasma/services/statusnotifieritem.operations
 usr/share/kde4/apps/plasma/services/tasks.operations
 usr/share/kde4/services/ion-bbcukmet.desktop
 usr/share/kde4/services/ion-envcan.desktop
@@ -41,6 +44,7 @@ usr/share/kde4/services/ion-wettercom.desktop
 usr/share/kde4/services/plasma-dataengine-applicationjobs.desktop
 usr/share/kde4/services/plasma-dataengine-apps.desktop
 usr/share/kde4/services/plasma-dataengine-calendar.desktop
+usr/share/kde4/services/plasma-dataengine-devicenotifications.desktop
 usr/share/kde4/services/plasma-dataengine-dict.desktop
 usr/share/kde4/services/plasma-dataengine-executable.desktop
 usr/share/kde4/services/plasma-dataengine-favicons.desktop
@@ -64,4 +68,5 @@ usr/share/kde4/services/plasma-engine-akonadi.desktop
 usr/share/kde4/services/plasma-engine-metadata.desktop
 usr/share/kde4/services/plasma-geolocation-gps.desktop
 usr/share/kde4/services/plasma-geolocation-ip.desktop
+usr/share/kde4/services/plasma_engine_statusnotifieritem.desktop
 usr/share/kde4/servicetypes/plasma-geolocationprovider.desktop

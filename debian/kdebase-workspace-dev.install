@@ -4,11 +4,6 @@ usr/include/kcommondecoration.h
 usr/include/kdecoration.h
 usr/include/kdecorationbridge.h
 usr/include/kdecorationfactory.h
-usr/include/kephal/configurations.h
-usr/include/kephal/kephal.h
-usr/include/kephal/kephal_export.h
-usr/include/kephal/outputs.h
-usr/include/kephal/screens.h
 usr/include/kgreeterplugin.h
 usr/include/kscreensaver.h
 usr/include/kscreensaver_vroot.h
@@ -32,6 +27,9 @@ usr/include/kwinglutils.h
 usr/include/kwinglutils_funcs.h
 usr/include/kwinshadereffect.h
 usr/include/kwinxrenderutils.h
+usr/include/kworkspace/kactivityconsumer.h
+usr/include/kworkspace/kactivitycontroller.h
+usr/include/kworkspace/kactivityinfo.h
 usr/include/kworkspace/kdisplaymanager.h
 usr/include/kworkspace/kwindowlistmenu.h
 usr/include/kworkspace/kworkspace.h
@@ -91,10 +89,10 @@ usr/include/taskmanager/taskgroup.h
 usr/include/taskmanager/taskitem.h
 usr/include/taskmanager/taskmanager.h
 usr/include/taskmanager/taskmanager_export.h
-usr/lib/cmake/KDE4Workspace-4.4.*/KDE4WorkspaceConfig.cmake
-usr/lib/cmake/KDE4Workspace-4.4.*/KDE4WorkspaceConfigVersion.cmake
-usr/lib/cmake/KDE4Workspace-4.4.*/KDE4WorkspaceLibraryTargets-debian.cmake
-usr/lib/cmake/KDE4Workspace-4.4.*/KDE4WorkspaceLibraryTargets.cmake
+usr/lib/cmake/KDE4Workspace-4.5.*/KDE4WorkspaceConfig.cmake
+usr/lib/cmake/KDE4Workspace-4.5.*/KDE4WorkspaceConfigVersion.cmake
+usr/lib/cmake/KDE4Workspace-4.5.*/KDE4WorkspaceLibraryTargets-debian.cmake
+usr/lib/cmake/KDE4Workspace-4.5.*/KDE4WorkspaceLibraryTargets.cmake
 usr/lib/kde4/plugins/designer/ksignalplotterwidgets.so
 usr/lib/kde4/plugins/designer/ksysguardlsofwidgets.so
 usr/lib/kde4/plugins/designer/ksysguardwidgets.so

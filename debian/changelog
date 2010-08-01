@@ -11,6 +11,14 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
   * Change my email address in uploaders.
   * Refresh patches.
   * Drop patch 01_plasma_netbook_no_autostart.diff. Fixed upstream.
+  * Update installed files.
+  * Add replaces:
+    - kdebase-workspace-data replaces kdebase-runtime-data
+      << 4:4.5.0 due to the moved themerc files.
+    - kdebase-workspace-bin replaces kdebase-runtime << 4:4.5.0
+      due to the moved oxygen style plugin.
+  * Move some misplaced files from kdebase-workspace-bin and
+    kdebase-workspace-data to plasma-desktop and add the necessary replaces.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
