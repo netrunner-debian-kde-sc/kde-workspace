@@ -23,7 +23,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  libsmbclient-dev, libxcb1-dev, libxine-dev, libfontconfig-dev, libglu1-mesa-dev,
  libsm-dev, libxcursor-dev, libxft-dev, libxtst-dev, libqt4-opengl-dev, libxinerama-dev,
  libxss-dev, libqedje-dev (>= 0.4.0), libggadget-1.0-dev (>= 0.11.2), libggadget-qt-1.0-dev (>= 0.11.2),
- libgps-dev (>= 2.90),
+ libgps-dev (>= 2.90), libpci-dev,
  libntrack-qt4-dev
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
@@ -240,6 +240,18 @@ Description: KDE Display Manager for X11
  .
  KDM supports custom themes and can display a list of users with icons.
  Additional user icons can be found in the 'kdepasswd' package.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kinfocenter
+Section: utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: kcontrol
+Replaces: kdebase-bin (<< 4:4.0.0-1)
+Description: system information viewer
+ KInfoCenter provides you with a graphical overview of various aspects of your
+ system, such as memory usage, storage capacity, and attached devices.
  .
  This package is part of the KDE base workspace module.
 

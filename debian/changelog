@@ -19,6 +19,8 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
       due to the moved oxygen style plugin.
   * Move some misplaced files from kdebase-workspace-bin and
     kdebase-workspace-data to plasma-desktop and add the necessary replaces.
+  * Move the kinfocenter package from kdebase here and add the required
+    build dependency on libpci-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
