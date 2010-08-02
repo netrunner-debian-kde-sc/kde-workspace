@@ -21,10 +21,10 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
       due to the moved oxygen style plugin.
   * Move some misplaced files from kdebase-workspace-bin and
     kdebase-workspace-data to plasma-desktop and add the necessary replaces.
-  * Move the kinfocenter package from kdebase here and add the required
-    build dependency on libpci-dev.
-  * Make kdebase-workspace-dbg replace kdebase-dbg << 4:4.5.0
-    due to the moved kinfocenter package.
+  * Move the kinfocenter package from kdebase here, and as a consequence:
+    - Add the required build dependency on libpci-dev.
+    - Recommend it from kdebase-workspace.
+    - Make kdebase-workspace-dbg replace kdebase-dbg << 4:4.5.0.
   * Adjust build dependencies:
     - Add new build dependencies:
       - libpng-dev
