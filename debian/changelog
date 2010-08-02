@@ -47,6 +47,7 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
     - libsolidcontrol4 -> libsolidcontrol4a
     - libsolidcontrolifaces4 -> libsolidcontrolifaces4a
     - libtaskmanager4a -> libtaskmanager4b
+  * Move the freespacenotifier package from src:freespacenotifier here.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 

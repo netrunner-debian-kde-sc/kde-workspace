@@ -126,7 +126,6 @@ usr/share/kde4/apps/color-schemes/Oxygen.colors
 usr/share/kde4/apps/color-schemes/OxygenCold.colors
 usr/share/kde4/apps/color-schemes/Steel.colors
 usr/share/kde4/apps/color-schemes/WontonSoup.colors
-usr/share/kde4/apps/freespacenotifier/freespacenotifier.notifyrc
 usr/share/kde4/apps/kaccess/kaccess.notifyrc
 usr/share/kde4/apps/kcminput/cursor_large_black.pcf.gz
 usr/share/kde4/apps/kcminput/cursor_large_white.pcf.gz
@@ -274,7 +273,6 @@ usr/share/kde4/apps/solid/devices/solid-device-StorageDrive.desktop
 usr/share/kde4/apps/solid/devices/solid-device-StorageVolume.desktop
 usr/share/kde4/apps/solid/devices/solid-device-Video.desktop
 usr/share/kde4/apps/solidfakenetbackend/fakenetworking.xml
-usr/share/kde4/config.kcfg/freespacenotifier.kcfg
 usr/share/kde4/config.kcfg/klaunch.kcfg
 usr/share/kde4/config.kcfg/kscreensaversettings.kcfg
 usr/share/kde4/config/colorschemes.knsrc

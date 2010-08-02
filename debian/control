@@ -42,7 +42,8 @@ Package: kdebase-workspace
 Architecture: all
 Depends:  kdebase-workspace-bin (>= ${source:Version}), ${misc:Depends},
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), 
- kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version})
+ kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version}),
+ freespacenotifier (>= ${source:Version})
 Recommends: kdm (>= ${source:Version}), kinfocenter (>= ${source:Version})
 Description: KDE Plasma Workspace components
  KDE is produced by an international technology team that creates free and open
@@ -229,6 +230,16 @@ Description: Google Gadgets script engine for Plasma
  new gadgets from the official Google Desktop Gadgets website.
  .
  This package is part of the KDE base workspace module.
+
+Package: freespacenotifier
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: free space notification module for KDE
+ This module notifies the user when space is running out in
+ /home or in one of the other directories, where you can configure
+ freespacenotifier to monitor.
+ .
+ More technically, this package provides a module for kded, the KDE Daemon
 
 Package: kdm
 Section: x11
