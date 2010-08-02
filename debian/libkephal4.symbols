@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.3.4 alpha amd64 armel hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libkephal.so.4 libkephal4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN6Kephal11ScreenUtils10numScreensEv@Base 4:4.3.4
@@ -8,74 +8,13 @@ libkephal.so.4 libkephal4 #MINVER#
  _ZN6Kephal11ScreenUtils15primaryScreenIdEv@Base 4:4.3.4
  _ZN6Kephal11ScreenUtils8distanceERK5QRectRK6QPoint@Base 4:4.3.4
  _ZN6Kephal11ScreenUtils8screenIdE6QPoint@Base 4:4.3.4
- _ZN6Kephal13Configuration11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN6Kephal13Configuration11qt_metacastEPKc@Base 4:4.3.4
- _ZN6Kephal13Configuration16staticMetaObjectE@Base 4:4.3.4
- _ZN6Kephal13ConfigurationC1EP7QObject@Base 4:4.3.4
- _ZN6Kephal13ConfigurationC2EP7QObject@Base 4:4.3.4
- _ZN6Kephal14Configurations10m_instanceE@Base 4:4.3.4
- _ZN6Kephal14Configurations11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN6Kephal14Configurations11qt_metacastEPKc@Base 4:4.3.4
- _ZN6Kephal14Configurations13configurationE7QString@Base 4:4.3.4
- _ZN6Kephal14Configurations14confirmTimeoutEi@Base 4:4.3.4
- _ZN6Kephal14Configurations15translateOriginER4QMapIi5QRectE6QPoint@Base 4:4.3.4
- _ZN6Kephal14Configurations15translateOriginER4QMapIi5QRectE@Base 4:4.3.4
- _ZN6Kephal14Configurations15translateOriginER4QMapIi6QPointE@Base 4:4.3.4
- _ZN6Kephal14Configurations15translateOriginER4QMapIi6QPointES2_@Base 4:4.3.4
- _ZN6Kephal14Configurations16pollingActivatedEv@Base 4:4.3.4
- _ZN6Kephal14Configurations16staticMetaObjectE@Base 4:4.3.4
- _ZN6Kephal14Configurations18pollingDeactivatedEv@Base 4:4.3.4
- _ZN6Kephal14Configurations22configurationActivatedEPNS_13ConfigurationE@Base 4:4.3.4
- _ZN6Kephal14Configurations4selfEv@Base 4:4.3.4
- _ZN6Kephal14Configurations8revertedEv@Base 4:4.3.4
- _ZN6Kephal14Configurations9confirmedEv@Base 4:4.3.4
- _ZN6Kephal14ConfigurationsC1EP7QObject@Base 4:4.3.4
- _ZN6Kephal14ConfigurationsC2EP7QObject@Base 4:4.3.4
- _ZN6Kephal14ConfigurationsD0Ev@Base 4:4.3.4
- _ZN6Kephal14ConfigurationsD1Ev@Base 4:4.3.4
- _ZN6Kephal14ConfigurationsD2Ev@Base 4:4.3.4
- _ZN6Kephal6Output10changeRateEd@Base 4:4.3.4
- _ZN6Kephal6Output11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN6Kephal6Output11qt_metacastEPKc@Base 4:4.3.4
- _ZN6Kephal6Output16staticMetaObjectE@Base 4:4.3.4
- _ZN6Kephal6Output18availablePositionsEv@Base 4:4.3.4
- _ZN6Kephal6Output4geomEv@Base 4:4.3.4
- _ZN6Kephal6Output4moveERK6QPoint@Base 4:4.3.4
- _ZN6Kephal6Output6resizeERK5QSize@Base 4:4.3.4
- _ZN6Kephal6Output6rotateENS_8RotationE@Base 4:4.3.4
- _ZN6Kephal6Output6screenEv@Base 4:4.3.4
- _ZN6Kephal6Output8reflectXEb@Base 4:4.3.4
- _ZN6Kephal6Output8reflectYEb@Base 4:4.3.4
- _ZN6Kephal6OutputC1EP7QObject@Base 4:4.3.4
- _ZN6Kephal6OutputC2EP7QObject@Base 4:4.3.4
  _ZN6Kephal6Screen11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kephal6Screen11qt_metacastEPKc@Base 4:4.3.4
  _ZN6Kephal6Screen16staticMetaObjectE@Base 4:4.3.4
  _ZN6Kephal6Screen4geomEv@Base 4:4.3.4
- _ZN6Kephal6Screen9isPrimaryEv@Base 4:4.3.4
  _ZN6Kephal6ScreenC1EP7QObject@Base 4:4.3.4
  _ZN6Kephal6ScreenC2EP7QObject@Base 4:4.3.4
- _ZN6Kephal7Outputs10m_instanceE@Base 4:4.3.4
- _ZN6Kephal7Outputs11outputMovedEPNS_6OutputE6QPointS3_@Base 4:4.3.4
- _ZN6Kephal7Outputs11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN6Kephal7Outputs11qt_metacastEPKc@Base 4:4.3.4
- _ZN6Kephal7Outputs13outputResizedEPNS_6OutputE5QSizeS3_@Base 4:4.3.4
- _ZN6Kephal7Outputs13outputRotatedEPNS_6OutputENS_8RotationES3_@Base 4:4.3.4
- _ZN6Kephal7Outputs15outputActivatedEPNS_6OutputE@Base 4:4.3.4
- _ZN6Kephal7Outputs15outputConnectedEPNS_6OutputE@Base 4:4.3.4
- _ZN6Kephal7Outputs15outputReflectedEPNS_6OutputEbbbb@Base 4:4.3.4
- _ZN6Kephal7Outputs16staticMetaObjectE@Base 4:4.3.4
- _ZN6Kephal7Outputs17outputDeactivatedEPNS_6OutputE@Base 4:4.3.4
- _ZN6Kephal7Outputs17outputRateChangedEPNS_6OutputEff@Base 4:4.3.4
- _ZN6Kephal7Outputs18outputDisconnectedEPNS_6OutputE@Base 4:4.3.4
- _ZN6Kephal7Outputs4selfEv@Base 4:4.3.4
- _ZN6Kephal7Outputs6outputERK7QString@Base 4:4.3.4
- _ZN6Kephal7OutputsC1EP7QObject@Base 4:4.3.4
- _ZN6Kephal7OutputsC2EP7QObject@Base 4:4.3.4
- _ZN6Kephal7OutputsD0Ev@Base 4:4.3.4
- _ZN6Kephal7OutputsD1Ev@Base 4:4.3.4
- _ZN6Kephal7OutputsD2Ev@Base 4:4.3.4
- _ZN6Kephal7Screens10m_instanceE@Base 4:4.3.4
+ _ZN6Kephal7Screens10s_instanceE@Base 4:4.5.0
  _ZN6Kephal7Screens11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kephal7Screens11qt_metacastEPKc@Base 4:4.3.4
  _ZN6Kephal7Screens11screenAddedEPNS_6ScreenE@Base 4:4.3.4
@@ -91,27 +30,12 @@ libkephal.so.4 libkephal4 #MINVER#
  _ZN6Kephal7ScreensD0Ev@Base 4:4.3.4
  _ZN6Kephal7ScreensD1Ev@Base 4:4.3.4
  _ZN6Kephal7ScreensD2Ev@Base 4:4.3.4
- _ZNK6Kephal13Configuration10metaObjectEv@Base 4:4.3.4
- _ZNK6Kephal14Configurations10metaObjectEv@Base 4:4.3.4
- _ZNK6Kephal6Output10metaObjectEv@Base 4:4.3.4
  _ZNK6Kephal6Screen10metaObjectEv@Base 4:4.3.4
- _ZNK6Kephal7Outputs10metaObjectEv@Base 4:4.3.4
+ _ZNK6Kephal6Screen9isPrimaryEv@Base 4:4.5.0
  _ZNK6Kephal7Screens10metaObjectEv@Base 4:4.3.4
- _ZTIN6Kephal13ConfigurationE@Base 4:4.3.4
- _ZTIN6Kephal14ConfigurationsE@Base 4:4.3.4
- _ZTIN6Kephal6OutputE@Base 4:4.3.4
  _ZTIN6Kephal6ScreenE@Base 4:4.3.4
- _ZTIN6Kephal7OutputsE@Base 4:4.3.4
  _ZTIN6Kephal7ScreensE@Base 4:4.3.4
- _ZTSN6Kephal13ConfigurationE@Base 4:4.3.4
- _ZTSN6Kephal14ConfigurationsE@Base 4:4.3.4
- _ZTSN6Kephal6OutputE@Base 4:4.3.4
  _ZTSN6Kephal6ScreenE@Base 4:4.3.4
- _ZTSN6Kephal7OutputsE@Base 4:4.3.4
  _ZTSN6Kephal7ScreensE@Base 4:4.3.4
- _ZTVN6Kephal13ConfigurationE@Base 4:4.3.4
- _ZTVN6Kephal14ConfigurationsE@Base 4:4.3.4
- _ZTVN6Kephal6OutputE@Base 4:4.3.4
  _ZTVN6Kephal6ScreenE@Base 4:4.3.4
- _ZTVN6Kephal7OutputsE@Base 4:4.3.4
  _ZTVN6Kephal7ScreensE@Base 4:4.3.4

@@ -35,6 +35,7 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
       - libsmbclient-dev
       - libxcb1-dev
     - Bump version of kdelibs5-dev and kdepimlibs5-dev to 4:4.5.
+  * Update symbol files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 

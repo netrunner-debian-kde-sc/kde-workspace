@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libsolidcontrol.so.4 libsolidcontrol4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN5Solid7Control10IPv4ConfigC1ERK5QListINS0_11IPv4AddressEERKS2_IjERK11QStringListRKS2_INS0_9IPv4RouteEE@Base 4:4.3.4
@@ -40,32 +40,29 @@ libsolidcontrol.so.4 libsolidcontrol4 #MINVER#
  _ZN5Solid7Control11IPv4AddressaSERKS1_@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager10brightnessERK7QString@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager12batteryStateEv@Base 4:4.3.4
+ _ZN5Solid7Control12PowerManager12setPowerSaveEb@Base 4:4.5.0
  _ZN5Solid7Control12PowerManager13canDisableCpuEi@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager13cpuFreqPolicyEv@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager13setBrightnessEfRK7QString@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager13setCpuEnabledEib@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager14acAdapterStateEv@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager16setCpuFreqPolicyENS1_13CpuFreqPolicyE@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager16supportedSchemesEv@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager17schemeDescriptionERK7QString@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager20batteryChargePercentEv@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager20batteryRemainingTimeEv@Base 4:4.3.4
+ _ZN5Solid7Control12PowerManager20brightnessKeyPressedENS1_17BrightnessKeyTypeE@Base 4:4.5.0
  _ZN5Solid7Control12PowerManager23supportedSuspendMethodsEv@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager24supportedCpuFreqPoliciesEv@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager27brightnessControlsAvailableEv@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager6schemeEv@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager7suspendENS1_13SuspendMethodE@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager8Notifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager8Notifier11qt_metacastEPKc@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager8Notifier13buttonPressedEi@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager8Notifier13schemeChangedE7QString@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager8Notifier16staticMetaObjectE@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager8Notifier17brightnessChangedEf@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager8Notifier19batteryStateChangedEi@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager8Notifier21acAdapterStateChangedEi@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager8Notifier27batteryRemainingTimeChangedEi@Base 4:4.3.4
  _ZN5Solid7Control12PowerManager8notifierEv@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager9setSchemeERK7QString@Base 4:4.3.4
  _ZN5Solid7Control13RemoteControl10allRemotesEv@Base 4:4.4.0
  _ZN5Solid7Control13RemoteControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN5Solid7Control13RemoteControl11qt_metacastEPKc@Base 4:4.4.0

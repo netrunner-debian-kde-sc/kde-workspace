@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libprocesscore.so.4 libprocesscore4a #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN9KSysGuard7Process10setCommandE7QString@Base 4:4.3.4
@@ -9,6 +9,7 @@ libprocesscore.so.4 libprocesscore4a #MINVER#
  _ZN9KSysGuard7Process12setTracerpidEx@Base 4:4.3.4
  _ZN9KSysGuard7Process12setUserUsageEi@Base 4:4.3.4
  _ZN9KSysGuard7Process12setschedulerENS0_9SchedulerE@Base 4:4.3.4
+ _ZN9KSysGuard7Process13setNumThreadsEi@Base 4:4.5.0
  _ZN9KSysGuard7Process14setIoniceLevelEi@Base 4:4.3.4
  _ZN9KSysGuard7Process16setTotalSysUsageEi@Base 4:4.3.4
  _ZN9KSysGuard7Process17setIoReadSyscallsEx@Base 4:4.4.0
@@ -48,7 +49,6 @@ libprocesscore.so.4 libprocesscore4a #MINVER#
  _ZN9KSysGuard9Processes10addProcessEll@Base 4:4.3.4
  _ZN9KSysGuard9Processes10runCommandERK7QStringi@Base 4:4.3.4
  _ZN9KSysGuard9Processes10sendSignalEli@Base 4:4.3.4
- _ZN9KSysGuard9Processes11getInstanceERK7QString@Base 4:4.3.4
  _ZN9KSysGuard9Processes11killProcessEl@Base 4:4.3.4
  _ZN9KSysGuard9Processes11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN9KSysGuard9Processes11qt_metacastEPKc@Base 4:4.3.4
@@ -60,8 +60,10 @@ libprocesscore.so.4 libprocesscore4a #MINVER#
  _ZN9KSysGuard9Processes14answerReceivedEiRK5QListI10QByteArrayE@Base 4:4.3.4
  _ZN9KSysGuard9Processes14endMoveProcessEv@Base 4:4.3.4
  _ZN9KSysGuard9Processes14processChangedEPNS_7ProcessEb@Base 4:4.3.4
- _ZN9KSysGuard9Processes14returnInstanceERK7QString@Base 4:4.3.4
+ _ZN9KSysGuard9Processes14setViewingTimeERK9QDateTime@Base 4:4.5.0
+ _ZN9KSysGuard9Processes14useCurrentDataEv@Base 4:4.5.0
  _ZN9KSysGuard9Processes15beginAddProcessEPNS_7ProcessE@Base 4:4.3.4
+ _ZN9KSysGuard9Processes15loadHistoryFileERK7QString@Base 4:4.5.0
  _ZN9KSysGuard9Processes16beginMoveProcessEPNS_7ProcessES2_@Base 4:4.3.4
  _ZN9KSysGuard9Processes16endRemoveProcessEv@Base 4:4.3.4
  _ZN9KSysGuard9Processes16processesUpdatedEv@Base 4:4.3.4
@@ -73,12 +75,11 @@ libprocesscore.so.4 libprocesscore4a #MINVER#
  _ZN9KSysGuard9Processes18updateOrAddProcessEl@Base 4:4.3.4
  _ZN9KSysGuard9Processes19totalPhysicalMemoryEv@Base 4:4.3.4
  _ZN9KSysGuard9Processes20numberProcessorCoresEv@Base 4:4.3.4
- _ZN9KSysGuard9Processes2d2E@Base 4:4.3.4
  _ZN9KSysGuard9Processes7Private20markProcessesAsEndedEl@Base 4:4.4.0
  _ZN9KSysGuard9Processes7PrivateD1Ev@Base 4:4.3.4
  _ZN9KSysGuard9Processes7PrivateD2Ev@Base 4:4.3.4
- _ZN9KSysGuard9ProcessesC1EPNS_17AbstractProcessesE@Base 4:4.3.4
- _ZN9KSysGuard9ProcessesC2EPNS_17AbstractProcessesE@Base 4:4.3.4
+ _ZN9KSysGuard9ProcessesC1ERK7QStringP7QObject@Base 4:4.5.0
+ _ZN9KSysGuard9ProcessesC2ERK7QStringP7QObject@Base 4:4.5.0
  _ZN9KSysGuard9ProcessesD0Ev@Base 4:4.3.4
  _ZN9KSysGuard9ProcessesD1Ev@Base 4:4.3.4
  _ZN9KSysGuard9ProcessesD2Ev@Base 4:4.3.4
@@ -89,8 +90,12 @@ libprocesscore.so.4 libprocesscore4a #MINVER#
  _ZNK9KSysGuard7Process23ioPriorityClassAsStringEv@Base 4:4.3.4
  _ZNK9KSysGuard9Processes10getProcessEl@Base 4:4.3.4
  _ZNK9KSysGuard9Processes10metaObjectEv@Base 4:4.3.4
+ _ZNK9KSysGuard9Processes11viewingTimeEv@Base 4:4.5.0
  _ZNK9KSysGuard9Processes12processCountEv@Base 4:4.4.0
  _ZNK9KSysGuard9Processes15getAllProcessesEv@Base 4:4.3.4
+ _ZNK9KSysGuard9Processes15historyFileNameEv@Base 4:4.5.0
+ _ZNK9KSysGuard9Processes18historiesAvailableEv@Base 4:4.5.0
+ _ZNK9KSysGuard9Processes18isHistoryAvailableEv@Base 4:4.5.0
  _ZTIN9KSysGuard9ProcessesE@Base 4:4.3.4
  _ZTSN9KSysGuard9ProcessesE@Base 4:4.3.4
  _ZTVN9KSysGuard9ProcessesE@Base 4:4.3.4
