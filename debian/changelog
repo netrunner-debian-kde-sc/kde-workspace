@@ -7,7 +7,10 @@ kdebase-workspace (4:4.4.5-2) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
 
- -- Sune Vuorela <sune@debian.org>  Sat, 24 Jul 2010 18:28:09 +0200
+  [ Pino Toscano ]
+  * Expand a bit and fix typo in description of libksgrd4. (Closes: #589903)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Aug 2010 23:23:41 +0200
 
 kdebase-workspace (4:4.4.5-1) unstable; urgency=low
 

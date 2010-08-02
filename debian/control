@@ -362,8 +362,10 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Conflicts: kdebase-workspace-libs4+5
-Description: library for the ksysguard GUI
- This package contains libraries needed for ksysguard GUI.
+Description: library for ksysguard
+ This package contains the library needed for ksysguard, the KDE process
+ monitor and system statistics application, and for applications and Plasma
+ dataengines which want to interface with ksysguardd.
  .
  This package is part of the KDE base workspace module.
 
