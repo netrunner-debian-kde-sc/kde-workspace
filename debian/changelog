@@ -1,5 +1,7 @@
 kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
 
+  * New upstream release.
+
   [ Sune Vuorela ]
   * Add a patch to also query libntrack for networkstatus. Also add
     libntrack-qt4-dev to build-deps to actually use the new feature.
