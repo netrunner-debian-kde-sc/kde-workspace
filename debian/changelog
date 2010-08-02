@@ -23,6 +23,8 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
     kdebase-workspace-data to plasma-desktop and add the necessary replaces.
   * Move the kinfocenter package from kdebase here and add the required
     build dependency on libpci-dev.
+  * Make kdebase-workspace-dbg replace kdebase-dbg << 4:4.5.0
+    due to the moved kinfocenter package.
   * Adjust build dependencies:
     - Add new build dependencies:
       - libpng-dev

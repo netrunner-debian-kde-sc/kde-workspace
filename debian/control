@@ -536,7 +536,7 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg, ${misc:Depends}
 Conflicts: kdebase-dbg (<< 4:4.0), kdebase-workspace-libs4+5
-Replaces: kdebase-dbg (<< 4:4.0)
+Replaces: kdebase-dbg (<< 4:4.5.0)
 Suggests: kdebase-workspace (>= ${source:Version})
 Description: debugging symbols for the KDE Plasma Workspaces
  This package contains debugging files used to investigate problems with
