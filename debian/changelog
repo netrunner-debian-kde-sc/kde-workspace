@@ -21,6 +21,20 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
     kdebase-workspace-data to plasma-desktop and add the necessary replaces.
   * Move the kinfocenter package from kdebase here and add the required
     build dependency on libpci-dev.
+  * Adjust build dependencies:
+    - Add new build dependencies:
+      - libpng-dev
+      - libjpeg-dev
+      - zlib1g-dev
+      - libdbusmenu-qt-dev
+      - libqalculate-dev
+    - Remove unused build dependencies:
+      - libxcursor-dev
+      - libxine-dev
+      - libxklavier-dev
+      - libsmbclient-dev
+      - libxcb1-dev
+    - Bump version of kdelibs5-dev and kdepimlibs5-dev to 4:4.5.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
