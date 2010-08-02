@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.5.0 amd64
-libtaskmanager.so.4 libtaskmanager4a #MINVER#
+libtaskmanager.so.4 libtaskmanager4b #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN11TaskManager11TaskManager10isOnScreenEim@Base 4:4.3.4
  _ZN11TaskManager11TaskManager11killStartupE10KSharedPtrINS_7StartupEE@Base 4:4.3.4

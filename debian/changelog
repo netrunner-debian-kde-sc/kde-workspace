@@ -36,6 +36,13 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
       - libxcb1-dev
     - Bump version of kdelibs5-dev and kdepimlibs5-dev to 4:4.5.
   * Update symbol files.
+  * Rename the following library packages due to binary incompatible changes:
+    - libkephal4 -> libkephal4a
+    - libplasmaclock4a -> libplasmaclock4b
+    - libprocesscore4a -> libprocesscore4b
+    - libsolidcontrol4 -> libsolidcontrol4a
+    - libsolidcontrolifaces4 -> libsolidcontrolifaces4a
+    - libtaskmanager4a -> libtaskmanager4b
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 

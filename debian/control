@@ -356,12 +356,13 @@ Description: KDE greet libraries for authentication
  .
  This package is part of the KDE base workspace module.
 
-Package: libkephal4
+Package: libkephal4a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdebase-workspace-libs4+5
-Conflicts: kdebase-workspace-libs4+5
+Provides: libkephal4-api
+Replaces: kdebase-workspace-libs4+5, libkephal4, libkephal4-api
+Conflicts: kdebase-workspace-libs4+5, libkephal4, libkephal4-api
 Description: API for easier handling of multihead systems
  This package contains libraries needed for Kephal's D-Bus API.
  .
@@ -422,7 +423,7 @@ Description: library for ksysguard based priority scheduling
  .
  This package is part of the KDE base workspace module.
 
-Package: libplasmaclock4a
+Package: libplasmaclock4b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -455,7 +456,7 @@ Description: shared elements for all the plasma shells
  .
  This package is part of the KDE base workspace module.
 
-Package: libprocesscore4a
+Package: libprocesscore4b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -479,30 +480,32 @@ Description: library for ksysguard process user interface
  .
  This package is part of the KDE base workspace module.
 
-Package: libsolidcontrol4
+Package: libsolidcontrol4a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdebase-workspace-libs4+5
-Conflicts: kdebase-workspace-libs4+5
+Provides: libsolidcontrol4-api
+Replaces: kdebase-workspace-libs4+5, libsolidcontrol4, libsolidcontrol4-api
+Conflicts: kdebase-workspace-libs4+5, libsolidcontrol4, libsolidcontrol4-api
 Description: library for Solid based network management
  This package contains libraries needed for Solid based network management.
  .
  This package is part of the KDE base workspace module.
 
-Package: libsolidcontrolifaces4
+Package: libsolidcontrolifaces4a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdebase-workspace-libs4+5
-Conflicts: kdebase-workspace-libs4+5
+Provides: libsolidcontrolifaces4-api
+Replaces: kdebase-workspace-libs4+5, libsolidcontrolifaces4, libsolidcontrolifaces4-api
+Conflicts: kdebase-workspace-libs4+5, libsolidcontrolifaces4, libsolidcontrolifaces4-api
 Description: library for Solid based network interface management
  This package contains libraries needed for Solid based network interface
  management.
  .
  This package is part of the KDE base workspace module.
 
-Package: libtaskmanager4a
+Package: libtaskmanager4b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}

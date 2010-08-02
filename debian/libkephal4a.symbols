@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.5.0 amd64
-libkephal.so.4 libkephal4 #MINVER#
+libkephal.so.4 libkephal4a #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN6Kephal11ScreenUtils10numScreensEv@Base 4:4.3.4
  _ZN6Kephal11ScreenUtils10screenSizeEi@Base 4:4.3.4
