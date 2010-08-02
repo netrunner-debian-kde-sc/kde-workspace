@@ -235,11 +235,12 @@ Package: freespacenotifier
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: free space notification module for KDE
- This module notifies the user when space is running out in
- /home or in one of the other directories, where you can configure
- freespacenotifier to monitor.
+ This module notifies the user when /home or one of the other directories
+ which you can configure it to monitor are running out of space.
  .
- More technically, this package provides a module for kded, the KDE Daemon
+ More technically, this package provides a module for kded, the KDE Daemon.
+ .
+ This package is part of the KDE base workspace module.
 
 Package: kdm
 Section: x11
