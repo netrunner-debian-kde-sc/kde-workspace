@@ -19,6 +19,8 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
       << 4:4.5.0 due to the moved themerc files.
     - kdebase-workspace-bin replaces kdebase-runtime << 4:4.5.0
       due to the moved oxygen style plugin.
+    - kdebase-workspace-bin replaces kdebase-data << 4:4.5.0
+      due to the moved desktoppath.desktop file.
   * Move some misplaced files from kdebase-workspace-bin and
     kdebase-workspace-data to plasma-desktop and add the necessary replaces.
   * Move the kinfocenter package from kdebase here, and as a consequence:
