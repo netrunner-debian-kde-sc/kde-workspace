@@ -10,9 +10,10 @@ case "$1" in
         done
 
         if [ -x "$(command -v deluser)" ]; then
-            deluser --system --quiet kdm || true
+            deluser --system --quiet kdm > /dev/null || true
         else
-            echo "not removing kdm system account because deluser command was not found" >&2
+            echo "deluser command was not found." >&2
+            echo "kdm user not deleted." >&2
         fi
     ;;
 
