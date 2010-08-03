@@ -247,7 +247,7 @@ Package: kdm
 Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}, debconf | debconf-2.0, lsb-base (>= 3.2-14), consolekit, ${misc:Depends},
- kdebase-workspace-kgreet-plugins (= ${binary:Version})
+ kdebase-workspace-kgreet-plugins (= ${binary:Version}), adduser
 Recommends: logrotate, xserver-xorg-core | xserver,
  kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
 Suggests: kdepasswd

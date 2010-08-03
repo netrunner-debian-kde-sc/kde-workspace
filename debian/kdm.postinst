@@ -74,6 +74,7 @@ fi
 case "$1" in
 
   configure)
+    adduser --system --quiet --no-create-home kdm
   ;;
 
   abort-upgrade|abort-remove|abort-deconfigure)
