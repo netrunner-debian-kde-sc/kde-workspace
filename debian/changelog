@@ -30,7 +30,7 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
   * Adjust build dependencies:
     - Add new build dependencies:
       - libpng-dev
-      - libjpeg-dev
+      - libjpeg62-dev
       - zlib1g-dev
       - libdbusmenu-qt-dev
       - libqalculate-dev
