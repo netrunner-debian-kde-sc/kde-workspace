@@ -35,7 +35,6 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
       - libdbusmenu-qt-dev
       - libqalculate-dev
     - Remove unused build dependencies:
-      - libxcursor-dev
       - libxine-dev
       - libxklavier-dev
       - libsmbclient-dev
