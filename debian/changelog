@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.4.5-2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.5-2) unstable; urgency=low
 
   [ Sune Vuorela ]
   * Add a patch to also query libntrack for networkstatus. Also add
