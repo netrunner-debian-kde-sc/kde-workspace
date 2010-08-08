@@ -3,13 +3,6 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
   * New upstream release:
     - no more dirt in kdmrc. (Closes: #439781)
 
-  [ Sune Vuorela ]
-  * Add a patch to also query libntrack for networkstatus. Also add
-    libntrack-qt4-dev to build-deps to actually use the new feature.
-
-  [ Modestas Vainius ]
-  * Point debian/control Vcs fields to the new Git repository.
-
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
   * Refresh patches.
@@ -55,6 +48,20 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
     As a consequence, add dependency on adduser on the kdm package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
+
+kdebase-workspace (4:4.4.5-2) unstable; urgency=low
+
+  [ Sune Vuorela ]
+  * Add a patch to also query libntrack for networkstatus. Also add
+    libntrack-qt4-dev to build-deps to actually use the new feature.
+
+  [ Modestas Vainius ]
+  * Point debian/control Vcs fields to the new Git repository.
+
+  [ Pino Toscano ]
+  * Expand a bit and fix typo in description of libksgrd4. (Closes: #589903)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Aug 2010 23:23:41 +0200
 
 kdebase-workspace (4:4.4.5-1) unstable; urgency=low
 

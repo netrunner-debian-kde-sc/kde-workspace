@@ -12,3 +12,4 @@
 26_run_kaboom_when_starting_kde.diff
 97_fix_target_link_libraries.diff
 27_ld_exclude_libs_qtuitools.diff
+99_solid_network_use_ntrack.diff
