@@ -1,6 +1,7 @@
 kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - no more dirt in kdmrc. (Closes: #439781)
 
   [ Sune Vuorela ]
   * Add a patch to also query libntrack for networkstatus. Also add
