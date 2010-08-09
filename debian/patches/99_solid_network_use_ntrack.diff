@@ -11,7 +11,7 @@ reports online as status.
 
 Patch forwarded, hopefully it will soon be applied
 --- /dev/null
-+++ kdebase-workspace-4.4.4/solid/networking/kded/ntracknetworkstate.cpp
++++ b/solid/networking/kded/ntracknetworkstate.cpp
 @@ -0,0 +1,74 @@
 +/*
 +    Copyright (c) 2010 Sune Vuorela <sune@debian.org>
@@ -87,8 +87,8 @@ Patch forwarded, hopefully it will soon be applied
 +}
 +
 +
---- kdebase-workspace-4.4.4.orig/solid/networking/kded/CMakeLists.txt
-+++ kdebase-workspace-4.4.4/solid/networking/kded/CMakeLists.txt
+--- a/solid/networking/kded/CMakeLists.txt
++++ b/solid/networking/kded/CMakeLists.txt
 @@ -6,6 +6,20 @@ set(kded_networkstatus_PART_SRCS network
  #    MESSAGE(STATUS "Adding in-process NetworkManager service-wart to kded module")
  #endif(NETWORKMANAGER_FOUND)
@@ -99,28 +99,31 @@ Patch forwarded, hopefully it will soon be applied
 +    MESSAGE(STATUS "Found QNtrack, will use it as a additional data point for KDED network status module")
 +    set(kded_networkstatus_PART_SRCS ${kded_networkstatus_PART_SRCS} ntracknetworkstate.cpp)
 +    add_definitions(-DHAVE_QNTRACK)
++    include_directories(${QNTRACK_INCLUDE_DIR})
 +else(QNTRACK_FOUND)
 +    MESSAGE(STATUS "QNtrack not found. Consider installing it for more data points to network status module. See https://launchpad.net/ntrack")
 +endif(QNTRACK_FOUND)
 +
 +macro_log_feature(QNTRACK_FOUND "QNtrack" "Network status tracking library" "http://launchpad.net/ntrack" FALSE "" "Needed to provide more data points for KDED Networkstatus module")
 +
-+include_directories(${QNTRACK_INCLUDE_DIR})
 +
  qt4_add_dbus_adaptor(kded_networkstatus_PART_SRCS ../org.kde.Solid.Networking.Service.xml
          networkstatus.h NetworkStatusModule)
  
-@@ -17,7 +31,7 @@ qt4_add_dbus_adaptor(kded_networkstatus_
+@@ -17,7 +31,10 @@ qt4_add_dbus_adaptor(kded_networkstatus_
  
  kde4_add_plugin(kded_networkstatus ${kded_networkstatus_PART_SRCS})
  
 -target_link_libraries(kded_networkstatus ${KDE4_KIO_LIBS} solidcontrol)
-+target_link_libraries(kded_networkstatus ${KDE4_KIO_LIBS} solidcontrol ${QNTRACK_LIBRARIES})
++target_link_libraries(kded_networkstatus ${KDE4_KIO_LIBS} solidcontrol )
++if(QNTRACK_FOUND)
++    target_link_libraries(kded_networkstatus ${QNTRACK_LIBRARIES})
++endif(QNTRACK_FOUND)
  
  install(TARGETS kded_networkstatus DESTINATION ${PLUGIN_INSTALL_DIR})
  
 --- /dev/null
-+++ kdebase-workspace-4.4.4/solid/networking/kded/ntracknetworkstate.h
++++ b/solid/networking/kded/ntracknetworkstate.h
 @@ -0,0 +1,51 @@
 +/*
 +    Copyright (c) 2010 Sune Vuorela <sune@debian.org>
@@ -173,8 +176,8 @@ Patch forwarded, hopefully it will soon be applied
 +
 +#endif // HAVE_QNTRACK
 +#endif // NTRACKNETWORKSTATE_H
---- kdebase-workspace-4.4.4.orig/solid/networking/kded/networkstatus.cpp
-+++ kdebase-workspace-4.4.4/solid/networking/kded/networkstatus.cpp
+--- a/solid/networking/kded/networkstatus.cpp
++++ b/solid/networking/kded/networkstatus.cpp
 @@ -32,6 +32,7 @@
  #include "serviceadaptor.h"
  
@@ -202,7 +205,7 @@ Patch forwarded, hopefully it will soon be applied
  #include "networkstatus.moc"
  // vim: set noet sw=4 ts=4:
 --- /dev/null
-+++ kdebase-workspace-4.4.4/cmake/modules/FindQNtrack.cmake
++++ b/cmake/modules/FindQNtrack.cmake
 @@ -0,0 +1,70 @@
 +# - Try to find the QNtrack library
 +# Once done this will define
@@ -274,4 +277,3 @@ Patch forwarded, hopefully it will soon be applied
 +  MARK_AS_ADVANCED(QNTRACK_INCLUDE_DIR QNTRACK_LIBRARIES)
 +
 +endif (QNTRACK_INCLUDE_DIR AND QNTRACK_LIBRARIES)
-

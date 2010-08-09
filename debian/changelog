@@ -1,3 +1,10 @@
+kdebase-workspace (4:4.4.5-3) unstable; urgency=low
+
+  * Don't use ntrack on !linux. It doesn't work/exist there, and fix
+    patch to actually work in all cases.
+
+ -- Sune Vuorela <sune@debian.org>  Mon, 09 Aug 2010 23:16:59 +0200
+
 kdebase-workspace (4:4.4.5-2) unstable; urgency=low
 
   [ Sune Vuorela ]
