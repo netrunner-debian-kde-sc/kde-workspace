@@ -365,7 +365,7 @@ Conflicts: kdebase-workspace-libs4+5
 Description: library for ksysguard
  This package contains the library needed for ksysguard, the KDE process
  monitor and system statistics application, and for applications and Plasma
- dataengines which want to interface with ksysguardd.
+ data engines which want to interface with ksysguardd.
  .
  This package is part of the KDE base workspace module.
 
