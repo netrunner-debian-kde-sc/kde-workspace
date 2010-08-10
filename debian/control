@@ -32,7 +32,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  libxfixes-dev, libxft-dev, libxtst-dev, libxss-dev, libsm-dev, libxinerama-dev, libxi-dev,
  libpng-dev, libjpeg62-dev, libxcursor-dev
  libqalculate-dev,
- libntrack-qt4-dev
+ libntrack-qt4-dev [linux-any]
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdebase-workspace.git
@@ -401,7 +401,7 @@ Conflicts: kdebase-workspace-libs4+5
 Description: library for ksysguard
  This package contains the library needed for ksysguard, the KDE process
  monitor and system statistics application, and for applications and Plasma
- dataengines which want to interface with ksysguardd.
+ data engines which want to interface with ksysguardd.
  .
  This package is part of the KDE base workspace module.
 

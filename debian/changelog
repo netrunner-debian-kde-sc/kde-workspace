@@ -49,6 +49,18 @@ kdebase-workspace (4:4.5.0-0r1) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
+kdebase-workspace (4:4.4.5-3) unstable; urgency=low
+
+  [ Sune Vuorela ]
+  * Don't use ntrack on !linux. It doesn't work/exist there, and fix
+    patch to actually work in all cases.
+
+  [ Pino Toscano ]
+  * Fix a typo in description of libksgrd4, which slipped in my previous
+    changes. (Closes: #592278)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Aug 2010 23:23:41 +0200
+
 kdebase-workspace (4:4.4.5-2) unstable; urgency=low
 
   [ Sune Vuorela ]
