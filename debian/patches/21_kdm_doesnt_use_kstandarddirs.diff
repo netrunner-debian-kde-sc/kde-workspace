@@ -84,3 +84,26 @@ Let's hardcode it and introduce KDM_CONFDIR.
  "    {/usr,/usr/local,{/opt,/usr/local}/{kde4,kde,kde3}}/share/config.\n"
  "  --no-old\n"
  "    Do not look at older xdm/kdm configurations, just create default config.\n"
+--- a/kcontrol/kdm/helper.cpp
++++ b/kcontrol/kdm/helper.cpp
+@@ -131,9 +131,9 @@
+     QString tempConfigName = args.value("tempkdmrcfile").toString();
+     QString tempBackgroundConfigName = args.value("tempbackgroundrcfile").toString();
+ 
+-    QString systemConfigName = QString::fromLatin1(KDE_CONFDIR "/kdm/kdmrc");
++    QString systemConfigName = QString::fromLatin1(KDM_CONFDIR "/kdm/kdmrc");
+     QString systemBackgroundConfigName = KConfig(systemConfigName, KConfig::SimpleConfig)
+-            .group("X-*-Greeter").readEntry("BackgroundCfg", KDE_CONFDIR "/kdm/backgroundrc");
++            .group("X-*-Greeter").readEntry("BackgroundCfg", KDM_CONFDIR "/kdm/backgroundrc");
+ 
+     int code = 0;
+ 
+@@ -167,7 +167,7 @@
+ {
+     int subaction = args.value("subaction").toInt();
+     QString facesDir =
+-        KConfig(QString::fromLatin1(KDE_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig)
++        KConfig(QString::fromLatin1(KDM_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig)
+             .group("X-*-Greeter").readEntry("FaceDir",
+                 KStandardDirs::installPath("data") + "kdm/faces") + '/';
+ 
