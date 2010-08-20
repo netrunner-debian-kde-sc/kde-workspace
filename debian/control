@@ -30,7 +30,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  libdevstat-dev [kfreebsd-i386 kfreebsd-amd64],
  libxkbfile-dev, libxrandr-dev, libxrender-dev, libxcomposite-dev, libxdamage-dev,
  libxfixes-dev, libxft-dev, libxtst-dev, libxss-dev, libsm-dev, libxinerama-dev, libxi-dev,
- libpng-dev, libjpeg62-dev, libxcursor-dev
+ libpng-dev, libjpeg62-dev, libxcursor-dev,
  libqalculate-dev,
  libntrack-qt4-dev [linux-any]
 Standards-Version: 3.8.4
