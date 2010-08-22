@@ -1,6 +1,6 @@
 --- a/libs/kworkspace/CMakeLists.txt
 +++ b/libs/kworkspace/CMakeLists.txt
-@@ -71,6 +71,7 @@
+@@ -79,6 +79,7 @@
  kde4_add_library(kworkspace ${LIB_MODE} ${kworkspace_LIB_SRCS})
  
  target_link_libraries(kworkspace  ${KDE4_KDEUI_LIBS} ${X11_LIBRARIES} ${KDE4_PLASMA_LIBS} )
