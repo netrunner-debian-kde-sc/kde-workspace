@@ -51,6 +51,8 @@ kdebase-workspace (4:4.5.0+svn1166505-0r1) UNRELEASED; urgency=low
   * Adjust the kdm postinst and postrm scripts to create and remove (on purge)
     a "kdm" user, which is now used by default as the user to run the greeter.
     As a consequence, add dependency on adduser on the kdm package.
+  * Add dependency to iso-codes in kdebase-workspace-bin, since it is
+    a runtime dependency for kcm_keyboard.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 

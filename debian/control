@@ -85,7 +85,7 @@ Description: The KDE Plasma workspace for netbook computers
 
 Package: kdebase-workspace-bin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},
+Depends: ${shlibs:Depends}, ${misc:Depends}, iso-codes,
  plasma-desktop (= ${binary:Version}) | plasma-netbook (= ${binary:Version}),
  kdebase-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils,
  kaboom (>= 1.0.5), kdebase-workspace-kgreet-plugins (= ${binary:Version})
