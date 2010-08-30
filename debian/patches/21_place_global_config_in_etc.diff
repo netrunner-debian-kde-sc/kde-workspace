@@ -1,19 +1,21 @@
-As we use DEB_CONFIG_INSTALL_DIR ?= /usr/share/kde4/config
-and we want kdm configuration files in /etc/kde4/kdm,
-Let's hardcode it and introduce KDM_CONFDIR.
+We use DEB_CONFIG_INSTALL_DIR ?= /usr/share/kde4/config but we want global
+configuration files in /etc/kde4. This patch hardcodes this value in
+config-workspace.cmake and renames the define to KDE_DEBIAN_CONFDIR so that
+we can detect possible new uses of KDE_CONFDIR in upstream code that might
+have trouble if we apply this patch. With the renamed define, it will at
+least FTBFS, so that we have the chance to inspect.
 
 --- a/config-workspace.h.cmake
 +++ b/config-workspace.h.cmake
-@@ -126,6 +126,9 @@
+@@ -121,7 +121,7 @@
+ #define KDE_BINDIR "${BIN_INSTALL_DIR}"
+ 
+ /* KDE's configuration directory */
+-#define KDE_CONFDIR "${CONFIG_INSTALL_DIR}"
++#define KDE_DEBIAN_CONFDIR "/etc/kde4"
+ 
  /* KDE's static data directory */
  #define KDE_DATADIR "${DATA_INSTALL_DIR}"
- 
-+/* KDM's configuration directory */
-+#define KDM_CONFDIR "/etc/kde4"
-+
- /* Define where your java executable is */
- #undef PATH_JAVA
- 
 --- a/kcontrol/kdm/main.cpp
 +++ b/kcontrol/kdm/main.cpp
 @@ -282,7 +282,7 @@
@@ -21,7 +23,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  
      KConfig *pSystemKDMConfig = new KConfig(
 -        QString::fromLatin1(KDE_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig);
-+        QString::fromLatin1(KDM_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig);
++        QString::fromLatin1(KDE_DEBIAN_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig);
  
      KConfig *pTempConfig = pSystemKDMConfig->copyTo(tempConfigName);
      pTempConfig->sync();
@@ -30,7 +32,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
      QString systemBackgroundConfigName =
          config->group("X-*-Greeter").readEntry(
 -            "BackgroundCfg", KDE_CONFDIR "/kdm/backgroundrc");
-+            "BackgroundCfg", KDM_CONFDIR "/kdm/backgroundrc");
++            "BackgroundCfg", KDE_DEBIAN_CONFDIR "/kdm/backgroundrc");
  
      KConfig systemBackgroundConfig(systemBackgroundConfigName);
      KSharedConfigPtr pTempConfig = KSharedConfig::openConfig(tempBackgroundConfigName);
@@ -41,7 +43,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  #define RCVERMINOR 4
  
 -#define KDMCONF KDE_CONFDIR "/kdm"
-+#define KDMCONF KDM_CONFDIR "/kdm"
++#define KDMCONF KDE_DEBIAN_CONFDIR "/kdm"
  #define KDMDATA KDE_DATADIR "/kdm"
  
  #include <sys/param.h> /* for #define BSD */
@@ -52,7 +54,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
      char *dpy = getenv("DISPLAY");
      const char *ctl = getenv("DM_CONTROL");
 -    const char *cfg = KDE_CONFDIR "/kdm/kdmrc";
-+    const char *cfg = KDM_CONFDIR "/kdm/kdmrc";
++    const char *cfg = KDE_DEBIAN_CONFDIR "/kdm/kdmrc";
      char *ptr;
      int fd;
  
@@ -63,7 +65,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  
  static const char * const oldkdes[] = {
 -    KDE_CONFDIR,
-+    KDM_CONFDIR,
++    KDE_DEBIAN_CONFDIR,
      "/opt/kde4/share/config",
      "/usr/local/kde4/share/config",
  
@@ -80,7 +82,7 @@ Let's hardcode it and introduce KDM_CONFDIR.
  "  --old-kde /path/to/old/kde-config-dir\n"
  "    Where to look for the kdmrc of a previously installed kdm.\n"
 -"    Default is to scan " KDE_CONFDIR " and\n"
-+"    Default is to scan " KDM_CONFDIR " and\n"
++"    Default is to scan " KDE_DEBIAN_CONFDIR " and\n"
  "    {/usr,/usr/local,{/opt,/usr/local}/{kde4,kde,kde3}}/share/config.\n"
  "  --no-old\n"
  "    Do not look at older xdm/kdm configurations, just create default config.\n"
@@ -91,10 +93,10 @@ Let's hardcode it and introduce KDM_CONFDIR.
      QString tempBackgroundConfigName = args.value("tempbackgroundrcfile").toString();
  
 -    QString systemConfigName = QString::fromLatin1(KDE_CONFDIR "/kdm/kdmrc");
-+    QString systemConfigName = QString::fromLatin1(KDM_CONFDIR "/kdm/kdmrc");
++    QString systemConfigName = QString::fromLatin1(KDE_DEBIAN_CONFDIR "/kdm/kdmrc");
      QString systemBackgroundConfigName = KConfig(systemConfigName, KConfig::SimpleConfig)
 -            .group("X-*-Greeter").readEntry("BackgroundCfg", KDE_CONFDIR "/kdm/backgroundrc");
-+            .group("X-*-Greeter").readEntry("BackgroundCfg", KDM_CONFDIR "/kdm/backgroundrc");
++            .group("X-*-Greeter").readEntry("BackgroundCfg", KDE_DEBIAN_CONFDIR "/kdm/backgroundrc");
  
      int code = 0;
  
@@ -103,7 +105,18 @@ Let's hardcode it and introduce KDM_CONFDIR.
      int subaction = args.value("subaction").toInt();
      QString facesDir =
 -        KConfig(QString::fromLatin1(KDE_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig)
-+        KConfig(QString::fromLatin1(KDM_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig)
++        KConfig(QString::fromLatin1(KDE_DEBIAN_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig)
              .group("X-*-Greeter").readEntry("FaceDir",
                  KStandardDirs::installPath("data") + "kdm/faces") + '/';
  
+--- a/kcontrol/dateandtime/helper.cpp
++++ b/kcontrol/dateandtime/helper.cpp
+@@ -54,7 +54,7 @@
+   int ret = 0;
+ 
+   // write to the system config file
+-  QFile config_file(KDE_CONFDIR "/kcmclockrc");
++  QFile config_file(KDE_DEBIAN_CONFDIR "/kcmclockrc");
+   if(!config_file.exists()) {
+     config_file.open(QIODevice::WriteOnly);
+     config_file.close();
