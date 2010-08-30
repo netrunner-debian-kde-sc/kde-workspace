@@ -58,6 +58,7 @@ kdebase-workspace (4:4.5.1-0r1) UNRELEASED; urgency=low
   * Fix the kdm init script to use any overrides set in /etc/default/kdm.d/.
   * Add code in kdebase-workspace-bin.postinst to move the misplaced kcmclockrc
     configuration file from /usr/share to /etc.
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
