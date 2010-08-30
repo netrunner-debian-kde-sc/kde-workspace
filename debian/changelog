@@ -53,6 +53,7 @@ kdebase-workspace (4:4.5.0+svn1166505-0r1) UNRELEASED; urgency=low
     As a consequence, add dependency on adduser on the kdm package.
   * Add dependency to iso-codes in kdebase-workspace-bin, since it is
     a runtime dependency for kcm_keyboard.
+  * Fix the kdm init script to use any overrides set in /etc/default/kdm.d/.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
