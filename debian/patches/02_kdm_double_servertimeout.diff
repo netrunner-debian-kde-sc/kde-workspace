@@ -1,5 +1,5 @@
---- a/workspace/kdm/config.def
-+++ b/workspace/kdm/config.def
+--- a/kdm/config.def
++++ b/kdm/config.def
 @@ -1332,7 +1332,7 @@
  
  Key: ServerTimeout
