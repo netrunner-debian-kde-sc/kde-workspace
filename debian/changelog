@@ -1,3 +1,9 @@
+kdebase-workspace (4:4.4.5-4) UNRELEASED; urgency=low
+
+  *  Add a patch that doubles the time KDM waits for X to start
+
+ -- Frederik Schwarzer <schwarzerf@gmail.com>  Sun, 26 Sep 2010 16:17:42 +0200
+
 kdebase-workspace (4:4.4.5-3) unstable; urgency=low
 
   [ Sune Vuorela ]

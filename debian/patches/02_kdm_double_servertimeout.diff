@@ -1,0 +1,11 @@
+--- a/workspace/kdm/config.def
++++ b/workspace/kdm/config.def
+@@ -1332,7 +1332,7 @@
+ 
+ Key: ServerTimeout
+ Type: int
+-Default: 15
++Default: 30
+ User: core
+ Instance: #:*/
+ Comment:
