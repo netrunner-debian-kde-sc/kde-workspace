@@ -12,6 +12,10 @@ kdebase-workspace (4:4.4.5-4~pre1) UNRELEASED; urgency=low
   * Fix kdm.postinst not to fail due to -e mode even if default display manager
     cannot be found on the system. After all, this behaviour appears to be an
     intention of the original code as well. (Closes: #585981)
+  * Deprecate 01_plasma_netbook_no_autostart.diff and add
+    30_plasma_netbook_fix_autostart.diff patch to properly fix issues
+    with autostart of plasma-netbook. The fix is needed for kde-plasma-netbook
+    metapackage to be useful. (Closes: #584905)
 
  -- Frederik Schwarzer <schwarzerf@gmail.com>  Sun, 26 Sep 2010 16:17:42 +0200
 
