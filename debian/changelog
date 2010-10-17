@@ -1,6 +1,11 @@
-kdebase-workspace (4:4.4.5-4) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.5-4~pre1) UNRELEASED; urgency=low
 
+  [ Frederik Schwarzer ]
   *  Add a patch that doubles the time KDM waits for X to start
+
+  [ Modestas Vainius ]
+  * Backport oneliner patch which is likely to fix dual head support in plasma
+    (KDE bug #156475).
 
  -- Frederik Schwarzer <schwarzerf@gmail.com>  Sun, 26 Sep 2010 16:17:42 +0200
 
