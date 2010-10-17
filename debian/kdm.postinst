@@ -22,7 +22,7 @@ if [ ! -e "$DEFAULT_DISPLAY_MANAGER_FILE" ]; then
       # if we were unable to determine the name of the selected daemon (for
       # instance, if the selected default display manager doesn't provide a
       # daemon_name question), guess
-      DAEMON_NAME=$(which "$DEFAULT_DISPLAY_MANAGER" 2>/dev/null)
+      DAEMON_NAME=$(which "$DEFAULT_DISPLAY_MANAGER" 2>/dev/null || true)
       if [ ! -n "$DAEMON_NAME" ]; then
         echo .
         # FIXME - redo this part uses shell-lib.sh from xfree86
