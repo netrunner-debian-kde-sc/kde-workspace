@@ -1,7 +1,8 @@
 kdebase-workspace (4:4.4.5-4~pre1) UNRELEASED; urgency=low
 
   [ Frederik Schwarzer ]
-  *  Add a patch that doubles the time KDM waits for X to start
+  * Add a patch that doubles the time KDM waits for X to start.
+    (Closes: #524751)
 
   [ Modestas Vainius ]
   * Backport oneliner patch which is likely to fix dual head support in plasma
