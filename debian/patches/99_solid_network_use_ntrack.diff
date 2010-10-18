@@ -2,7 +2,8 @@ From: Sune Vuorela <sune@debian.org>
 Subject: Use ntrack in solidnetwork
 Origin: vendor
 Forwarded: yes
-Last-Update: 2010-08-09
+Last-Update: 2010-10-18
+Applied-Upstream: 4.6 http://websvn.kde.org/?view=revision&revision=1180766
 
 By default, solidnetworkstatus trusts networkmanager too much. NetworkManager reports offline, if
 all devices managed by NM is offline. But there might be devices that aren't managed by NM.
@@ -16,7 +17,7 @@ reports online as status.
 Patch forwarded, hopefully it will soon be applied
 --- /dev/null
 +++ b/solid/networking/kded/ntracknetworkstate.cpp
-@@ -0,0 +1,74 @@
+@@ -0,0 +1,73 @@
 +/*
 +    Copyright (c) 2010 Sune Vuorela <sune@debian.org>
 +
@@ -79,7 +80,6 @@ Patch forwarded, hopefully it will soon be applied
 +
 +NtrackNetworkState::~NtrackNetworkState()
 +{
-+    m_statusmodule->setNetworkStatus("ntrack",Solid::Networking::Unknown);
 +}
 +
 +

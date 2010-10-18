@@ -17,6 +17,9 @@ kdebase-workspace (4:4.4.5-4~pre1) UNRELEASED; urgency=low
     with autostart of plasma-netbook. The fix is needed for kde-plasma-netbook
     metapackage to be useful. (Closes: #584905)
 
+  [ Sune Vuorela ]
+  * Fix a bug in 99_solid_network_use_ntrack.diff patch.
+
  -- Frederik Schwarzer <schwarzerf@gmail.com>  Sun, 26 Sep 2010 16:17:42 +0200
 
 kdebase-workspace (4:4.4.5-3) unstable; urgency=low
