@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.4.5-4~pre1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.5-4~pre3) UNRELEASED; urgency=low
 
   [ Frederik Schwarzer ]
   * Add a patch that doubles the time KDM waits for X to start.
