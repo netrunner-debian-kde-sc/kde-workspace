@@ -7,15 +7,6 @@ This patch should fully fix problems with startup of plasma-netbook when
 plasma-desktop is NOT installed. We aim to support "plasma-desktop"-less
 installation via kde-plasma-netbook metapackage hence this bug was a
 showstopper for this goal.
---- a/plasma/netbook/shell/plasma-netbook.desktop
-+++ b/plasma/netbook/shell/plasma-netbook.desktop
-@@ -1,5 +1,5 @@
- [Desktop Entry]
--Exec=plasma-netbook --desktop
-+Exec=plasma-netbook --autostart
- X-DBUS-StartupType=wait
- Name=Plasma Netbook
- Name[ca]=Plasma Netbook
 --- a/plasma/netbook/shell/CMakeLists.txt
 +++ b/plasma/netbook/shell/CMakeLists.txt
 @@ -22,5 +22,5 @@ endif(X11_Xrender_FOUND)
@@ -32,17 +23,38 @@ showstopper for this goal.
      m_plasmaNetbookAutostart.setAutostarts(!isDesktop);
      m_plasmaNetbookAutostart.setStartPhase(KAutostart::BaseDesktop);
 -    m_plasmaNetbookAutostart.setCommand("plasma-netbook");
-+    m_plasmaNetbookAutostart.setCommand("plasma-netbook --autostart");
++    m_plasmaNetbookAutostart.setCommand("plasma-netbook --desktop");
      m_plasmaNetbookAutostart.setAllowedEnvironments(QStringList()<<"KDE");
  
      KConfigGroup winCg(m_kwinConfig, "Windows");
 --- a/plasma/netbook/shell/main.cpp
 +++ b/plasma/netbook/shell/main.cpp
-@@ -58,9 +58,13 @@ KDE_EXPORT int kdemain(int argc, char **
+@@ -41,10 +41,16 @@ KDE_EXPORT int kdemain(int argc, char **
+ 
+ 
+     bool customGraphicsSystem = false;
++    bool argExplicitDesktop = false;
+     for (int i = 0; i < argc; ++i) {
+-        if (QString(argv[i]) == "-graphicssystem") {
++        QString arg(argv[i]);
++        if (arg == "-graphicssystem") {
+             customGraphicsSystem = true;
+             break;
++        } else if (arg == "--desktop") {
++            argExplicitDesktop = true;
++        } else if (arg == "--nodesktop") {
++            argExplicitDesktop = false;
+         }
+     }
+ 
+@@ -58,9 +64,16 @@ KDE_EXPORT int kdemain(int argc, char **
      KCmdLineOptions options;
      options.add("nodesktop", ki18n("Starts as a normal application instead of as the primary user interface"));
      options.add("screen <geometry>", ki18n("The geometry of the screen"), "800x480");
-+    options.add("autostart", ki18n("Take into account autostart settings before starting"));
++    if (argExplicitDesktop)
++        options.add("noautostart", ki18n("Explicit --desktop enables autostart handling which may be disabled with this option"));
++    else
++        options.add("autostart", ki18n("Enable autostart handling"));
      KCmdLineArgs::addCmdLineOptions(options);
  
      PlasmaApp *app = PlasmaApp::self();
@@ -111,7 +123,7 @@ showstopper for this goal.
 +    if (netbookAutostart.autostarts() != m_shallBeStarted) {
 +        netbookAutostart.setAutostarts(m_shallBeStarted);
 +        netbookAutostart.setStartPhase(KAutostart::BaseDesktop);
-+        netbookAutostart.setCommand("plasma-netbook --autostart");
++        netbookAutostart.setCommand("plasma-netbook --desktop");
 +        netbookAutostart.setAllowedEnvironments(QStringList()<<"KDE");
 +    }
 +}
