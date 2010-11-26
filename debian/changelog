@@ -1,5 +1,8 @@
 kdebase-workspace (4:4.4.5-5) UNRELEASED; urgency=low
 
+  * Add patch 31_kdm_vt_switching_on_kfreebsd.diff which implements VT
+    switching and status detection support in KDM on kFreeBSD. This should
+    fix an issue with with KDM hijacking VT2 on bootup. (Closes: #586540)
 
  -- Modestas Vainius <modax@debian.org>  Sat, 27 Nov 2010 01:02:53 +0200
 

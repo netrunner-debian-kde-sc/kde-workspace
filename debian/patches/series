@@ -14,6 +14,7 @@
 28_backport_bug156475_dualhead_support.diff
 29_backport_fix_krandr_support_in_startkde.diff
 30_plasma_netbook_fix_autostart.diff
+31_kdm_vt_switching_on_kfreebsd.diff
 97_fix_target_link_libraries.diff
 27_ld_exclude_libs_qtuitools.diff
 99_solid_network_use_ntrack.diff
