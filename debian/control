@@ -2,27 +2,36 @@ Source: kdebase-workspace
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <gkiagiad@csd.uoc.gr>
+Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Armin Berres <armin+debian@space-based.de>,
+ Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
- cdbs (>= 0.4.51), cmake, debhelper (>= 7), pkg-kde-tools (>= 0.9),
- dpkg-dev (>= 1.15.5), kdelibs5-dev (>= 4:4.4), kdepimlibs5-dev (>= 4:4.4),
- libakonadi-dev (>= 1.1.95), shared-desktop-ontologies,
- libboost-dev, python-support (>= 0.6), python-dev,
- libbluetooth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
- libck-connector-dev, libdbus-1-dev,
+ cdbs (>= 0.4.51), cmake, debhelper (>= 7), pkg-kde-tools (>= 0.9), dpkg-dev (>= 1.15.5),
+ kdelibs5-dev (>= 4:4.5), kdepimlibs5-dev (>= 4:4.5),
+ libstrigiqtdbusclient-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3),
+ libqimageblitz-dev (>= 1:0.0.4-2),
+ zlib1g-dev,
+ libdbusmenu-qt-dev,
+ libfontconfig-dev,
+ libggadget-1.0-dev (>= 0.11.2), libggadget-qt-1.0-dev (>= 0.11.2),
+ libqedje-dev (>= 0.4.0),
+ libglu1-mesa-dev, libqt4-opengl-dev,
+ python-support (>= 0.6), python-dev,
+ shared-desktop-ontologies,
+ libpam0g-dev,
  libnm-util-dev (>= 0.7) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  network-manager-dev (>= 0.7.0) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
- libpam0g-dev, libqimageblitz-dev (>= 1:0.0.4-2), 
- libraw1394-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], 
+ libbluetooth-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
+ libraw1394-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
+ libusb-dev, libpci-dev,
+ libakonadi-dev (>= 1.1.95), libboost-dev,
+ libgps-dev (>= 2.90),
+ libck-connector-dev, libdbus-1-dev,
  libsensors4-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386],
  libdevstat-dev [kfreebsd-i386 kfreebsd-amd64],
- libstrigiqtdbusclient-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3), libusb-dev, libxkbfile-dev,
- libxcomposite-dev, libxdamage-dev, libxfixes-dev, libxklavier-dev,
- libxrandr-dev, libxrender-dev, libxi-dev,
- libsmbclient-dev, libxcb1-dev, libxine-dev, libfontconfig-dev, libglu1-mesa-dev,
- libsm-dev, libxcursor-dev, libxft-dev, libxtst-dev, libqt4-opengl-dev, libxinerama-dev,
- libxss-dev, libqedje-dev (>= 0.4.0), libggadget-1.0-dev (>= 0.11.2), libggadget-qt-1.0-dev (>= 0.11.2),
- libgps-dev (>= 2.90),
+ libxkbfile-dev, libxrandr-dev, libxrender-dev, libxcomposite-dev, libxdamage-dev,
+ libxfixes-dev, libxft-dev, libxtst-dev, libxss-dev, libsm-dev, libxinerama-dev, libxi-dev,
+ libpng-dev, libjpeg62-dev, libxcursor-dev,
+ libqalculate-dev,
  libntrack-qt4-dev [linux-any]
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
@@ -33,8 +42,9 @@ Package: kdebase-workspace
 Architecture: all
 Depends:  kdebase-workspace-bin (>= ${source:Version}), ${misc:Depends},
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), 
- kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version})
-Recommends: kdm (>= ${source:Version})
+ kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version}),
+ freespacenotifier (>= ${source:Version})
+Recommends: kdm (>= ${source:Version}), kinfocenter (>= ${source:Version})
 Description: KDE Plasma Workspace components
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -49,7 +59,8 @@ Package: plasma-desktop
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version})
 Recommends: kdebase-workspace
-Replaces: kdebase-workspace-bin (<< 4:4.4.0), plasma-widgets-workspace (<< 4:4.4.0)
+Replaces: kdebase-workspace-bin (<< 4:4.5.0), kdebase-workspace-data (<< 4:4.5.0),
+ plasma-widgets-workspace (<< 4:4.4.0)
 Description: The KDE Plasma workspace for desktop and laptop computers
  Provides the environment for running and managing applications and integrating
  interaction of applications. It is designed as generic environment for all
@@ -74,7 +85,7 @@ Description: The KDE Plasma workspace for netbook computers
 
 Package: kdebase-workspace-bin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends},
+Depends: ${shlibs:Depends}, ${misc:Depends}, iso-codes,
  plasma-desktop (= ${binary:Version}) | plasma-netbook (= ${binary:Version}),
  kdebase-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils,
  kaboom (>= 1.0.5), kdebase-workspace-kgreet-plugins (= ${binary:Version})
@@ -83,7 +94,8 @@ Suggests: x11-xkb-utils
 Conflicts: kcontrol, libplasma1, libplasma2, libkfontinst4, ksplash
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip, libplasma2,
  kde-window-manager (<< 4:4.1.80), kdebase-workspace-data (<< 4:4.1.82),
- kdebase-workspace-libs4+5, libkfontinst4, ksplash
+ kdebase-workspace-libs4+5, libkfontinst4, ksplash, kdebase-runtime (<< 4:4.5.0),
+ kdebase-data (<< 4:4.5.0)
 Description: core binaries for the KDE Plasma Workspace
  This package contains miscellaneous programs needed for a basic desktop
  installation. Among other standard KDE Workspace components, the package
@@ -99,7 +111,7 @@ Depends: oxygencursors, ${misc:Depends}, ${perl:Depends}
 Conflicts: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
  kmenuedit, ktip, libplasma1, systemsettings (<< 4:4.1.80), ksplash
 Replaces: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
- kmenuedit, ktip, kdebase-runtime-data (<< 4:4.1.3), kde-window-manager (<< 4:4.1.80),
+ kmenuedit, ktip, kdebase-runtime-data (<< 4:4.5.0), kde-window-manager (<< 4:4.1.80),
  kdm (<< 4:4.2.0-3), systemsettings (<< 4:4.1.80), ksplash
 Description: shared data files for the KDE Plasma Workspace
  This package contains architecture-independent shared data files needed for a
@@ -220,11 +232,22 @@ Description: Google Gadgets script engine for Plasma
  .
  This package is part of the KDE base workspace module.
 
+Package: freespacenotifier
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: free space notification module for KDE
+ This module notifies the user when /home or one of the other directories
+ which you can configure it to monitor are running out of space.
+ .
+ More technically, this package provides a module for kded, the KDE Daemon.
+ .
+ This package is part of the KDE base workspace module.
+
 Package: kdm
 Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}, debconf | debconf-2.0, lsb-base (>= 3.2-14), consolekit, ${misc:Depends},
- kdebase-workspace-kgreet-plugins (= ${binary:Version})
+ kdebase-workspace-kgreet-plugins (= ${binary:Version}), adduser
 Recommends: logrotate, xserver-xorg-core | xserver,
  kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
 Suggests: kdepasswd
@@ -238,6 +261,18 @@ Description: KDE Display Manager for X11
  .
  KDM supports custom themes and can display a list of users with icons.
  Additional user icons can be found in the 'kdepasswd' package.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kinfocenter
+Section: utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: kcontrol
+Replaces: kdebase-bin (<< 4:4.0.0-1)
+Description: system information viewer
+ KInfoCenter provides you with a graphical overview of various aspects of your
+ system, such as memory usage, storage capacity, and attached devices.
  .
  This package is part of the KDE base workspace module.
 
@@ -334,12 +369,13 @@ Description: KDE greet libraries for authentication
  .
  This package is part of the KDE base workspace module.
 
-Package: libkephal4
+Package: libkephal4a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdebase-workspace-libs4+5
-Conflicts: kdebase-workspace-libs4+5
+Provides: libkephal4-api
+Replaces: kdebase-workspace-libs4+5, libkephal4, libkephal4-api
+Conflicts: kdebase-workspace-libs4+5, libkephal4, libkephal4-api
 Description: API for easier handling of multihead systems
  This package contains libraries needed for Kephal's D-Bus API.
  .
@@ -402,7 +438,7 @@ Description: library for ksysguard based priority scheduling
  .
  This package is part of the KDE base workspace module.
 
-Package: libplasmaclock4a
+Package: libplasmaclock4b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -435,7 +471,7 @@ Description: shared elements for all the plasma shells
  .
  This package is part of the KDE base workspace module.
 
-Package: libprocesscore4a
+Package: libprocesscore4b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -459,30 +495,32 @@ Description: library for ksysguard process user interface
  .
  This package is part of the KDE base workspace module.
 
-Package: libsolidcontrol4
+Package: libsolidcontrol4a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdebase-workspace-libs4+5
-Conflicts: kdebase-workspace-libs4+5
+Provides: libsolidcontrol4-api
+Replaces: kdebase-workspace-libs4+5, libsolidcontrol4, libsolidcontrol4-api
+Conflicts: kdebase-workspace-libs4+5, libsolidcontrol4, libsolidcontrol4-api
 Description: library for Solid based network management
  This package contains libraries needed for Solid based network management.
  .
  This package is part of the KDE base workspace module.
 
-Package: libsolidcontrolifaces4
+Package: libsolidcontrolifaces4a
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdebase-workspace-libs4+5
-Conflicts: kdebase-workspace-libs4+5
+Provides: libsolidcontrolifaces4-api
+Replaces: kdebase-workspace-libs4+5, libsolidcontrolifaces4, libsolidcontrolifaces4-api
+Conflicts: kdebase-workspace-libs4+5, libsolidcontrolifaces4, libsolidcontrolifaces4-api
 Description: library for Solid based network interface management
  This package contains libraries needed for Solid based network interface
  management.
  .
  This package is part of the KDE base workspace module.
 
-Package: libtaskmanager4a
+Package: libtaskmanager4b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -513,7 +551,7 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg, ${misc:Depends}
 Conflicts: kdebase-dbg (<< 4:4.0), kdebase-workspace-libs4+5
-Replaces: kdebase-dbg (<< 4:4.0)
+Replaces: kdebase-dbg (<< 4:4.5.0)
 Suggests: kdebase-workspace (>= ${source:Version})
 Description: debugging symbols for the KDE Plasma Workspaces
  This package contains debugging files used to investigate problems with

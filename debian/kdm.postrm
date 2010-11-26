@@ -8,6 +8,13 @@ case "$1" in
                 rm -rf "$DIR"
             fi
         done
+
+        if [ -x "$(command -v deluser)" ]; then
+            deluser --system --quiet kdm > /dev/null || true
+        else
+            echo "deluser command was not found." >&2
+            echo "kdm user not deleted." >&2
+        fi
     ;;
 
     abort-install|abort-upgrade)

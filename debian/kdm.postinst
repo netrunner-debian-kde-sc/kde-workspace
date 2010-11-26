@@ -74,6 +74,10 @@ fi
 case "$1" in
 
   configure)
+    adduser --system --quiet --no-create-home kdm
+    if [ -d /var/lib/kdm ]; then
+      chown -R kdm /var/lib/kdm
+    fi
   ;;
 
   abort-upgrade|abort-remove|abort-deconfigure)

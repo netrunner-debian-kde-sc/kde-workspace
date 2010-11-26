@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
-libsolidcontrolifaces.so.4 libsolidcontrolifaces4 #MINVER#
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+libsolidcontrolifaces.so.4 libsolidcontrolifaces4a #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN5Solid7Control6Ifaces11AccessPoint11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid7Control6Ifaces11AccessPoint11qt_metacastEPKc@Base 4:4.3.4
@@ -18,7 +18,6 @@ libsolidcontrolifaces.so.4 libsolidcontrolifaces4 #MINVER#
  _ZN5Solid7Control6Ifaces12PowerManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid7Control6Ifaces12PowerManager11qt_metacastEPKc@Base 4:4.3.4
  _ZN5Solid7Control6Ifaces12PowerManager13buttonPressedEi@Base 4:4.3.4
- _ZN5Solid7Control6Ifaces12PowerManager13schemeChangedE7QString@Base 4:4.3.4
  _ZN5Solid7Control6Ifaces12PowerManager16staticMetaObjectE@Base 4:4.3.4
  _ZN5Solid7Control6Ifaces12PowerManager17brightnessChangedEf@Base 4:4.3.4
  _ZN5Solid7Control6Ifaces12PowerManager19batteryStateChangedEi@Base 4:4.3.4

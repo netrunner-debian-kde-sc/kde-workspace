@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
 libksignalplotter.so.4 libksignalplotter4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN14KSignalPlotter10paintEventEP11QPaintEvent@Base 4:4.4.0
@@ -11,6 +11,7 @@ libksignalplotter.so.4 libksignalplotter4 #MINVER#
  _ZN14KSignalPlotter11setShowAxisEb@Base 4:4.4.0
  _ZN14KSignalPlotter12reorderBeamsERK5QListIiE@Base 4:4.4.0
  _ZN14KSignalPlotter12setBeamColorEiRK6QColor@Base 4:4.4.0
+ _ZN14KSignalPlotter12setThinFrameEb@Base 4:4.5.0
  _ZN14KSignalPlotter13setStackGraphEb@Base 4:4.4.0
  _ZN14KSignalPlotter14setFillOpacityEi@Base 4:4.4.0
  _ZN14KSignalPlotter14setScaleDownByEd@Base 4:4.4.0
@@ -35,6 +36,41 @@ libksignalplotter.so.4 libksignalplotter4 #MINVER#
  _ZN14KSignalPlotterD0Ev@Base 4:4.4.0
  _ZN14KSignalPlotterD1Ev@Base 4:4.4.0
  _ZN14KSignalPlotterD2Ev@Base 4:4.4.0
+ _ZN22KGraphicsSignalPlotter10removeBeamEi@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter11changeEventEP6QEvent@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter11changeRangeEdd@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter11qt_metacastEPKc@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter11resizeEventEP25QGraphicsSceneResizeEvent@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter11setShowAxisEb@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter12reorderBeamsERK5QListIiE@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter12setBeamColorEiRK6QColor@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter12setThinFrameEb@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter13setStackGraphEb@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter14setFillOpacityEi@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter14setScaleDownByEd@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter14setSmoothGraphEb@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter15setMaximumValueEd@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter15setMinimumValueEd@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter15setUseAutoRangeEb@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter16axisScaleChangedEv@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter16setSvgBackgroundERK7QString@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter16staticMetaObjectE@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter18setHorizontalScaleEj@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter19setMaxAxisTextWidthEi@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter20setShowVerticalLinesEb@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter22setShowHorizontalLinesEb@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter22setVerticalLinesScrollEb@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter24setVerticalLinesDistanceEj@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter7addBeamERK6QColor@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter7setUnitERK16KLocalizedString@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotter9addSampleERK5QListIdE@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotterC1EP13QGraphicsItem@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotterC2EP13QGraphicsItem@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotterD0Ev@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotterD1Ev@Base 4:4.5.0
+ _ZN22KGraphicsSignalPlotterD2Ev@Base 4:4.5.0
  _ZNK14KSignalPlotter10metaObjectEv@Base 4:4.4.0
  _ZNK14KSignalPlotter10stackGraphEv@Base 4:4.4.0
  _ZNK14KSignalPlotter11fillOpacityEv@Base 4:4.4.0
@@ -61,7 +97,43 @@ libksignalplotter.so.4 libksignalplotter4 #MINVER#
  _ZNK14KSignalPlotter8sizeHintEv@Base 4:4.4.0
  _ZNK14KSignalPlotter9beamColorEi@Base 4:4.4.0
  _ZNK14KSignalPlotter9lastValueEi@Base 4:4.4.0
+ _ZNK14KSignalPlotter9thinFrameEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter10metaObjectEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter10opaqueAreaEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter10stackGraphEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter11fillOpacityEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter11scaleDownByEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter11smoothGraphEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter12maximumValueEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter12minimumValueEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter12useAutoRangeEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter13svgBackgroundEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter13valueAsStringEdi@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter15horizontalScaleEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter16maxAxisTextWidthEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter17lastValueAsStringEii@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter17showVerticalLinesEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter19showHorizontalLinesEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter19verticalLinesScrollEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter20currentAxisPrecisionEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter21verticalLinesDistanceEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter24currentMaximumRangeValueEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter24currentMinimumRangeValueEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter4unitEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter8numBeamsEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter8showAxisEv@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter8sizeHintEN2Qt8SizeHintERK6QSizeF@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter9beamColorEi@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter9lastValueEi@Base 4:4.5.0
+ _ZNK22KGraphicsSignalPlotter9thinFrameEv@Base 4:4.5.0
  _ZTI14KSignalPlotter@Base 4:4.4.0
+ _ZTI22KGraphicsSignalPlotter@Base 4:4.5.0
  _ZTS14KSignalPlotter@Base 4:4.4.0
+ _ZTS22KGraphicsSignalPlotter@Base 4:4.5.0
  _ZTV14KSignalPlotter@Base 4:4.4.0
+ _ZTV22KGraphicsSignalPlotter@Base 4:4.5.0
+ (c++)"non-virtual thunk to KGraphicsSignalPlotter::opaqueArea() const@Base" 4:4.5.0
+ (c++)"non-virtual thunk to KGraphicsSignalPlotter::paint(QPainter*, QStyleOptionGraphicsItem const*, QWidget*)@Base" 4:4.5.0
+ (c++)"non-virtual thunk to KGraphicsSignalPlotter::sizeHint(Qt::SizeHint, QSizeF const&) const@Base" 4:4.5.0
+ (c++)"non-virtual thunk to KGraphicsSignalPlotter::~KGraphicsSignalPlotter()@Base" 4:4.5.0
  (c++)"non-virtual thunk to KSignalPlotter::~KSignalPlotter()@Base" 4:4.4.0

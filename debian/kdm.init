@@ -64,20 +64,21 @@ setup_config () {
     # we generate kdm configuration files
     genkdmconf --in $KDMCFGDIR 1> /dev/null
 
-    if grep -q "^[[:space:]]*Wallpaper=default_blue.jpg" ${BACKGROUNDRC}; then
-      # we source overrides. run-parts sorts the list in a predictable order
-      if [ -d "$KDMOVERRIDEDIR" ]; then
-        for part in $(run-parts --list "$KDMOVERRIDEDIR" 2>/dev/null || true); do
-          . "$part"
-        done
-      fi
+    # we source overrides. run-parts sorts the list in a predictable order
+    if [ -d "$KDMOVERRIDEDIR" ]; then
+      for part in $(run-parts --list "$KDMOVERRIDEDIR" 2>/dev/null || true); do
+        . "$part"
+      done
+    fi
 
-      # we update kdm configuration files (only overridden values)
-      [ -n "$USEBACKGROUND" ] && sed -i "s|^#\?UseBackground=.*|UseBackground=$USEBACKGROUND|" $KDMCFG
-      [ -n "$BACKGROUNDCFG" ] && sed -i "s|^#\?BackgroundCfg=.*|BackgroundCfg=$BACKGROUNDCFG|" $KDMCFG
-      [ -n "$USETHEME" ] && sed -i "s|^#\?UseTheme=.*|UseTheme=$USETHEME|" $KDMCFG
-      [ -n "$THEME" ] && [ -e "$THEME" ] && sed -i "s|^#\?Theme=.*|Theme=$THEME|" $KDMCFG
-      [ -n "$LANGUAGE" ] && sed -i "s|^#\?Language=.*|Language=$LANGUAGE|" $KDMCFG
+    # we update kdm configuration files (only overridden values)
+    [ -n "$USEBACKGROUND" ] && sed -i "s|^#\?UseBackground=.*|UseBackground=$USEBACKGROUND|" $KDMCFG
+    [ -n "$BACKGROUNDCFG" ] && sed -i "s|^#\?BackgroundCfg=.*|BackgroundCfg=$BACKGROUNDCFG|" $KDMCFG
+    [ -n "$USETHEME" ] && sed -i "s|^#\?UseTheme=.*|UseTheme=$USETHEME|" $KDMCFG
+    [ -n "$THEME" ] && [ -e "$THEME" ] && sed -i "s|^#\?Theme=.*|Theme=$THEME|" $KDMCFG
+    [ -n "$LANGUAGE" ] && sed -i "s|^#\?Language=.*|Language=$LANGUAGE|" $KDMCFG
+
+    if grep -q "^[[:space:]]*Wallpaper=stripes.png" ${BACKGROUNDRC}; then
       [ -n "$WALLPAPER" ] && [ -e "$WALLPAPER" ] && sed -i "s|^#\?Wallpaper=.*|Wallpaper=`readlink -f $WALLPAPER`|" $BACKGROUNDCFG
     fi
 

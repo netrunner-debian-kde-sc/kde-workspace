@@ -35,7 +35,7 @@ binary-install/plasma-scriptengine-python::
 	dh_pysupport -p$(cdbs_curpkg) /usr/share/kde4/apps/plasma_scriptengine_python
 
 ifeq ($(DEB_HOST_ARCH_OS),linux)
-install/kdebase-workspace-bin install/kdebase-workspace-data::
+install/kdebase-workspace-bin install/kdebase-workspace-data install/kinfocenter::
 	# Install common files
 	dh_install -p$(cdbs_curpkg) --ignore=debian/$(cdbs_curpkg).install.linux
 endif

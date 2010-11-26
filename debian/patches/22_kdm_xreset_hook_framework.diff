@@ -5,7 +5,7 @@ Author: Fathi Boudra <fabo@debian.org>
 
 --- a/kdm/kfrontend/genkdmconf.c
 +++ b/kdm/kfrontend/genkdmconf.c
-@@ -665,7 +665,12 @@
+@@ -692,7 +692,12 @@
  "#chown root /dev/console\n"
  "#chmod 622 /dev/console\n"
  "\n"

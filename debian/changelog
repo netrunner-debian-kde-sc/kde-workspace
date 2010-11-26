@@ -1,3 +1,67 @@
+kdebase-workspace (4:4.5.1-0r2) UNRELEASED; urgency=low
+
+  * New upstream release:
+    - no more dirt in kdmrc. (Closes: #439781)
+
+  [ George Kiagiadakis ]
+  * Change my email address in uploaders.
+  * Refresh patches.
+    - Re-work patch 11_kdm_X_path.diff.
+    - Re-work patch 21_kdm_doesnt_use_kstandarddirs.diff (and rename it to
+      21_place_global_config_in_etc.diff) to also patch the new kdm kcm kauth
+      helper and the kcm_clock helper and provide a method to catch future
+      wrong uses of the KDE_CONFDIR macro with regards to the debian policy.
+  * Drop patches for bugs that are fixed upstream:
+    - 01_plasma_netbook_no_autostart.diff
+    - 27_ld_exclude_libs_qtuitools.diff
+  * Update installed files.
+  * Add replaces:
+    - kdebase-workspace-data replaces kdebase-runtime-data
+      << 4:4.5.0 due to the moved themerc files.
+    - kdebase-workspace-bin replaces kdebase-runtime << 4:4.5.0
+      due to the moved oxygen style plugin.
+    - kdebase-workspace-bin replaces kdebase-data << 4:4.5.0
+      due to the moved desktoppath.desktop file.
+  * Move some misplaced files from kdebase-workspace-bin and
+    kdebase-workspace-data to plasma-desktop and add the necessary replaces.
+  * Move the kinfocenter package from kdebase here, and as a consequence:
+    - Add the required build dependency on libpci-dev.
+    - Recommend it from kdebase-workspace.
+    - Make kdebase-workspace-dbg replace kdebase-dbg << 4:4.5.0.
+  * Adjust build dependencies:
+    - Add new build dependencies:
+      - libpng-dev
+      - libjpeg62-dev
+      - zlib1g-dev
+      - libdbusmenu-qt-dev
+      - libqalculate-dev
+    - Remove unused build dependencies:
+      - libxine-dev
+      - libxklavier-dev
+      - libsmbclient-dev
+      - libxcb1-dev
+    - Bump version of kdelibs5-dev and kdepimlibs5-dev to 4:4.5.
+  * Update symbol files.
+  * Rename the following library packages due to binary incompatible changes:
+    - libkephal4 -> libkephal4a
+    - libplasmaclock4a -> libplasmaclock4b
+    - libprocesscore4a -> libprocesscore4b
+    - libsolidcontrol4 -> libsolidcontrol4a
+    - libsolidcontrolifaces4 -> libsolidcontrolifaces4a
+    - libtaskmanager4a -> libtaskmanager4b
+  * Move the freespacenotifier package from src:freespacenotifier here.
+  * Adjust the kdm postinst and postrm scripts to create and remove (on purge)
+    a "kdm" user, which is now used by default as the user to run the greeter.
+    As a consequence, add dependency on adduser on the kdm package.
+  * Add dependency to iso-codes in kdebase-workspace-bin, since it is
+    a runtime dependency for kcm_keyboard.
+  * Fix the kdm init script to use any overrides set in /etc/default/kdm.d/.
+  * Add code in kdebase-workspace-bin.postinst to move the misplaced kcmclockrc
+    configuration file from /usr/share to /etc.
+  * Update lintian overrides.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
+
 kdebase-workspace (4:4.4.5-4) unstable; urgency=low
 
   [ Frederik Schwarzer ]

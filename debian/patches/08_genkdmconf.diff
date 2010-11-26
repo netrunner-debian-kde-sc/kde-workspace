@@ -1,6 +1,6 @@
 --- a/kdm/kfrontend/genkdmconf.c
 +++ b/kdm/kfrontend/genkdmconf.c
-@@ -586,7 +586,7 @@
+@@ -613,7 +613,7 @@
  "# right hand sides can match.\n"
  "#\n"
  "\n"
@@ -9,7 +9,7 @@
  "\n"
  "#\n"
  "# To hardwire a specific terminal to a specific host, you can\n"
-@@ -604,7 +604,7 @@
+@@ -631,7 +631,7 @@
  "# so this may not work in all environments.\n"
  "#\n"
  "\n"
@@ -18,7 +18,7 @@
  "\n"
  "#\n"
  "# If you would prefer to configure the set of hosts each terminal sees,\n"
-@@ -640,16 +640,18 @@
+@@ -667,16 +667,18 @@
  "#! /bin/sh\n"
  "# Xstartup - run as root before session starts\n"
  "\n"
@@ -46,7 +46,7 @@
  "\n"
  "# NOTE: The session is aborted if the last command returns non-zero.\n";
  
-@@ -695,6 +697,7 @@
+@@ -722,6 +724,7 @@
  "    [ -f $zhome/.zprofile ] && . $zhome/.zprofile\n"
  "    [ -f $zdir/zlogin ] && . $zdir/zlogin\n"
  "    [ -f $zhome/.zlogin ] && . $zhome/.zlogin\n"
@@ -54,7 +54,7 @@
  "    ;;\n"
  "  */csh|*/tcsh)\n"
  "    # [t]cshrc is always sourced automatically.\n"
-@@ -711,28 +714,8 @@
+@@ -738,28 +741,8 @@
  "    [ -f $HOME/.profile ] && . $HOME/.profile\n"
  "    ;;\n"
  "esac\n"
@@ -85,33 +85,33 @@
  
  static const char def_background[] =
  "[Desktop0]\n"
-@@ -1081,29 +1064,6 @@
+@@ -1110,29 +1093,6 @@
  
- 	if (maxTTY)
- 		return;
--	if (readFile( &it, "/etc/inittab" )) {
--		usedFile( "/etc/inittab" );
--		for (p = it.buf; p < it.eof; p = eol + 1) {
--			for (eol = p; eol < it.eof && *eol != '\n'; eol++);
--			if (*p != '#') {
--				if ((ep = memMem( p, eol - p, " tty", 4 )) &&
--				    ep < eol && isdigit( *ep ))
--				{
--					if (ep + 1 == eol || isspace( *(ep + 1) ))
--						tty = *ep - '0';
--					else if (isdigit( *(ep + 1) ) &&
--					         (ep + 2 == eol || isspace( *(ep + 2) )))
--						tty = (*ep - '0') * 10 + (*(ep + 1) - '0');
--					else
--						continue;
--					TTYmask |= 1 << (tty - 1);
--					if (tty > maxTTY)
--						maxTTY = tty;
--				}
--			}
--		}
--		freeBuf( &it );
--	}
- 	if (!maxTTY) {
- 		maxTTY = 6;
- 		TTYmask = 0x3f;
+     if (maxTTY)
+         return;
+-    if (readFile(&it, "/etc/inittab")) {
+-        usedFile("/etc/inittab");
+-        for (p = it.buf; p < it.eof; p = eol + 1) {
+-            for (eol = p; eol < it.eof && *eol != '\n'; eol++);
+-            if (*p != '#') {
+-                if ((ep = memMem(p, eol - p, " tty", 4)) &&
+-                    ep < eol && isdigit(*ep))
+-                {
+-                    if (ep + 1 == eol || isspace(*(ep + 1)))
+-                        tty = *ep - '0';
+-                    else if (isdigit(*(ep + 1)) &&
+-                             (ep + 2 == eol || isspace(*(ep + 2))))
+-                        tty = (*ep - '0') * 10 + (*(ep + 1) - '0');
+-                    else
+-                        continue;
+-                    TTYmask |= 1 << (tty - 1);
+-                    if (tty > maxTTY)
+-                        maxTTY = tty;
+-                }
+-            }
+-        }
+-        freeBuf(&it);
+-    }
+     if (!maxTTY) {
+         maxTTY = 6;
+         TTYmask = 0x3f;

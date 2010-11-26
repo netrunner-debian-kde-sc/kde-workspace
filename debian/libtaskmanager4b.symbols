@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 4:4.4.0 amd64 i386
-libtaskmanager.so.4 libtaskmanager4a #MINVER#
+# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+libtaskmanager.so.4 libtaskmanager4b #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN11TaskManager11TaskManager10isOnScreenEim@Base 4:4.3.4
  _ZN11TaskManager11TaskManager11killStartupE10KSharedPtrINS_7StartupEE@Base 4:4.3.4
@@ -12,7 +12,7 @@ libtaskmanager.so.4 libtaskmanager4a #MINVER#
  _ZN11TaskManager11TaskManager12startupAddedE10KSharedPtrINS_7StartupEE@Base 4:4.3.4
  _ZN11TaskManager11TaskManager13gotNewStartupERK14KStartupInfoIdRK16KStartupInfoData@Base 4:4.3.4
  _ZN11TaskManager11TaskManager13windowChangedE10KSharedPtrINS_4TaskEE6QFlagsINS_10TaskChangeEE@Base 4:4.3.4
- _ZN11TaskManager11TaskManager13windowChangedEmj@Base 4:4.3.4
+ _ZN11TaskManager11TaskManager13windowChangedEmPKm@Base 4:4.5.0
  _ZN11TaskManager11TaskManager13windowRemovedEm@Base 4:4.3.4
  _ZN11TaskManager11TaskManager14desktopChangedEi@Base 4:4.3.4
  _ZN11TaskManager11TaskManager14startupRemovedE10KSharedPtrINS_7StartupEE@Base 4:4.3.4
@@ -76,6 +76,7 @@ libtaskmanager.so.4 libtaskmanager4a #MINVER#
  _ZN11TaskManager21AbstractGroupableItem11qt_metacastEPKc@Base 4:4.3.4
  _ZN11TaskManager21AbstractGroupableItem14setParentGroupEPNS_9TaskGroupE@Base 4:4.3.4
  _ZN11TaskManager21AbstractGroupableItem16staticMetaObjectE@Base 4:4.3.4
+ _ZN11TaskManager21AbstractGroupableItem7Private8m_nextIdE@Base 4:4.5.0
  _ZN11TaskManager21AbstractGroupableItem7changedE6QFlagsINS_10TaskChangeEE@Base 4:4.3.4
  _ZN11TaskManager21AbstractGroupableItem9destroyedEPS0_@Base 4:4.3.4
  _ZN11TaskManager21AbstractGroupableItemC1EP7QObject@Base 4:4.3.4
@@ -136,10 +137,13 @@ libtaskmanager.so.4 libtaskmanager4a #MINVER#
  _ZN11TaskManager4Task13setFullScreenEb@Base 4:4.3.4
  _ZN11TaskManager4Task14idFromMimeDataEPK9QMimeDataPb@Base 4:4.3.4
  _ZN11TaskManager4Task14setAlwaysOnTopEb@Base 4:4.3.4
+ _ZN11TaskManager4Task15clearPixmapDataEv@Base 4:4.5.0
  _ZN11TaskManager4Task15idsFromMimeDataEPK9QMimeDataPb@Base 4:4.3.4
  _ZN11TaskManager4Task15removeTransientEm@Base 4:4.3.4
  _ZN11TaskManager4Task15toggleIconifiedEv@Base 4:4.3.4
  _ZN11TaskManager4Task15toggleMaximizedEv@Base 4:4.3.4
+ _ZN11TaskManager4Task16WindowPropertiesC1Ejj@Base 4:4.5.0
+ _ZN11TaskManager4Task16WindowPropertiesC2Ejj@Base 4:4.5.0
  _ZN11TaskManager4Task16staticMetaObjectE@Base 4:4.3.4
  _ZN11TaskManager4Task16toCurrentDesktopEv@Base 4:4.3.4
  _ZN11TaskManager4Task16toggleFullScreenEv@Base 4:4.3.4
@@ -158,7 +162,7 @@ libtaskmanager.so.4 libtaskmanager4a #MINVER#
  _ZN11TaskManager4Task6resizeEv@Base 4:4.3.4
  _ZN11TaskManager4Task7changedE6QFlagsINS_10TaskChangeEE@Base 4:4.3.4
  _ZN11TaskManager4Task7idMatchERK7QStringS3_@Base 4:4.3.4
- _ZN11TaskManager4Task7refreshEj@Base 4:4.3.4
+ _ZN11TaskManager4Task7refreshENS0_16WindowPropertiesE@Base 4:4.5.0
  _ZN11TaskManager4Task7restoreEv@Base 4:4.3.4
  _ZN11TaskManager4Task8activateEv@Base 4:4.3.4
  _ZN11TaskManager4Task8bestIconEiRb@Base 4:4.3.4
@@ -175,6 +179,7 @@ libtaskmanager.so.4 libtaskmanager4a #MINVER#
  _ZN11TaskManager7Startup11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11TaskManager7Startup11qt_metacastEPKc@Base 4:4.3.4
  _ZN11TaskManager7Startup14addWindowMatchEm@Base 4:4.3.4
+ _ZN11TaskManager7Startup15clearPixmapDataEv@Base 4:4.5.0
  _ZN11TaskManager7Startup16staticMetaObjectE@Base 4:4.3.4
  _ZN11TaskManager7Startup6updateERK16KStartupInfoData@Base 4:4.3.4
  _ZN11TaskManager7Startup7changedE6QFlagsINS_10TaskChangeEE@Base 4:4.3.4
@@ -283,6 +288,8 @@ libtaskmanager.so.4 libtaskmanager4a #MINVER#
  _ZNK11TaskManager21AbstractGroupableItem10metaObjectEv@Base 4:4.3.4
  _ZNK11TaskManager21AbstractGroupableItem11parentGroupEv@Base 4:4.3.4
  _ZNK11TaskManager21AbstractGroupableItem13isGroupMemberEPNS_9TaskGroupE@Base 4:4.3.4
+ _ZNK11TaskManager21AbstractGroupableItem13isStartupItemEv@Base 4:4.5.0
+ _ZNK11TaskManager21AbstractGroupableItem2idEv@Base 4:4.5.0
  _ZNK11TaskManager21AbstractGroupableItem4iconEv@Base 4:4.3.4
  _ZNK11TaskManager21AbstractGroupableItem4nameEv@Base 4:4.3.4
  _ZNK11TaskManager21AbstractGroupableItem6winIdsEv@Base 4:4.4.0
@@ -334,6 +341,7 @@ libtaskmanager.so.4 libtaskmanager4a #MINVER#
  _ZNK11TaskManager8TaskItem11isMinimizedEv@Base 4:4.3.4
  _ZNK11TaskManager8TaskItem12isFullScreenEv@Base 4:4.3.4
  _ZNK11TaskManager8TaskItem13isAlwaysOnTopEv@Base 4:4.3.4
+ _ZNK11TaskManager8TaskItem13isStartupItemEv@Base 4:4.5.0
  _ZNK11TaskManager8TaskItem15isOnAllDesktopsEv@Base 4:4.3.4
  _ZNK11TaskManager8TaskItem16demandsAttentionEv@Base 4:4.3.4
  _ZNK11TaskManager8TaskItem17isActionSupportedEN3NET6ActionE@Base 4:4.3.4
