@@ -149,7 +149,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  		getInitTab();
  		ASPrintf( (char **)&ce->value, "-%d", maxTTY + 1 );
  		ce->active = ce->written = True;
-@@ -1495,7 +1496,8 @@ static void
+@@ -1495,14 +1496,19 @@ static void
  upd_consolettys( Entry *ce, Section *cs ATTR_UNUSED )
  {
  	if (!ce->active) { /* there is only the Global one */
@@ -159,7 +159,18 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  		char *buf;
  		int i;
  
-@@ -3072,7 +3074,7 @@ int main( int argc, char **argv )
+ 		getInitTab();
+ 		for (i = 0, buf = 0; i < 16; i++)
+ 			if (TTYmask & (1 << i))
++#if defined(__linux__)
+ 				strCat( &buf, ",tty%d", i + 1 );
++#elif defined(__FreeBSD_kernel__)
++				strCat( &buf, ",ttyv%x", i );
++#endif
+ 		if (buf) {
+ 			ce->value = buf + 1;
+ 			ce->active = ce->written = True;
+@@ -3072,7 +3078,7 @@ int main( int argc, char **argv )
  			}
  		}
  	}
@@ -168,3 +179,14 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  	if (!stat( "/etc/debian_version", &st )) { /* debian */
  		defminuid = "1000";
  		defmaxuid = "29999";
+--- a/kdm/config.def
++++ b/kdm/config.def
+@@ -870,7 +870,7 @@ Description:
+  This option is for operating systems (<acronym>OS</acronym>s) with support
+  for virtual terminals (<acronym>VT</acronym>s), by both &kdm; and the
+  <acronym>OS</acronym>s itself.
+- Currently this applies only to Linux.
++ Currently this applies only to Linux and kFreeBSD.
+  </para><para>
+  When &kdm; switches to console mode, it starts monitoring all
+  <acronym>TTY</acronym> lines listed here (without the leading
