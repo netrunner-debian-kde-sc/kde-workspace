@@ -95,7 +95,8 @@ Conflicts: kcontrol, libplasma1, libplasma2, libkfontinst4, ksplash
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip, libplasma2,
  kde-window-manager (<< 4:4.1.80), kdebase-workspace-data (<< 4:4.1.82),
  kdebase-workspace-libs4+5, libkfontinst4, ksplash, kdebase-runtime (<< 4:4.5.0),
- kdebase-data (<< 4:4.5.0)
+ kdebase-data (<< 4:4.5.0), kdesktop
+Breaks: kdesktop
 Description: core binaries for the KDE Plasma Workspace
  This package contains miscellaneous programs needed for a basic desktop
  installation. Among other standard KDE Workspace components, the package

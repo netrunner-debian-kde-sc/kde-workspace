@@ -1,0 +1,20 @@
+From: Modestas Vainius <modax@debian.org>
+Subject: fix ksmserver crash inside ~FaceEffect() on logout
+Forwarded: no
+Origin: vendor
+Last-Update: 2010-11-27
+
+Use _mm_free() for image->data because it was allocated with _mm_alloc() inside
+constructor in the first place. Otherwise this might lead to crash in
+XDestroyImage(). The crash is 100% reproducible on kfreebsd-amd64.
+--- a/ksmserver/fadeeffect.cpp
++++ b/ksmserver/fadeeffect.cpp
+@@ -497,6 +497,8 @@ FadeEffect::FadeEffect(QWidget *parent,
+ FadeEffect::~FadeEffect()
+ {
+     blender->wait();
++    _mm_free(image->data);
++    image->data = NULL;
+     XDestroyImage(image);
+     XFreeGC(QX11Info::display(), gc);
+ }

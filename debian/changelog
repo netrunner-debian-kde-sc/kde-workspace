@@ -62,6 +62,22 @@ kdebase-workspace (4:4.5.1-0r2) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
+kdebase-workspace (4:4.4.5-5) unstable; urgency=medium
+
+  [ Modestas Vainius ]
+  * Add patch 31_kdm_vt_switching_on_kfreebsd.diff which implements VT
+    switching and status detection support for KDM on kFreeBSD. This should
+    fix an issue with KDM hijacking VT2 on bootup. (Closes: #586540)
+  * Fix ksmserver crash on logout. It's 100% reproducible on kfreebsd-amd64.
+  * Make kdebase-workspace-bin Replace and Break kdesktop. (Closes: #605135)
+  * Set urgency=medium due to multiple RC bug fixes.
+
+  [ Didier Raboud ]
+  * Fix a segfault in qguiplatformplugin_kde, thanks to David Alan Gilbert
+    (patch 33_qguiplatformplugin_kde_NULL_check.diff). (Closes: #603480)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Nov 2010 13:09:18 +0200
+
 kdebase-workspace (4:4.4.5-4) unstable; urgency=low
 
   [ Frederik Schwarzer ]
