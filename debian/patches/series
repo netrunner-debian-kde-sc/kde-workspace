@@ -17,5 +17,6 @@
 30_plasma_netbook_fix_autostart.diff
 31_kdm_vt_switching_on_kfreebsd.diff
 32_ksmserver_fadeeffect_use_sse2_free.diff
+33_qguiplatformplugin_kde_NULL_check.patch
 97_fix_target_link_libraries.diff
 99_solid_network_use_ntrack.diff

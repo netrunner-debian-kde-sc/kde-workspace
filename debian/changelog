@@ -1,10 +1,15 @@
 kdebase-workspace (4:4.4.5-5) UNRELEASED; urgency=low
 
+  [ Modestas Vainius ]
   * Add patch 31_kdm_vt_switching_on_kfreebsd.diff which implements VT
     switching and status detection support in KDM on kFreeBSD. This should
     fix an issue with with KDM hijacking VT2 on bootup. (Closes: #586540)
   * Fix ksmserver crash on logout. It's 100% reproducible on kfreebsd-amd64.
   * Make kdebase-workspace-bin Replace and Break kdesktop. (Closes: #605135)
+
+  [ Didier Raboud ]
+  * Fix a segfault in qguiplatformplugin_kde, thanks to David Alan Gilbert
+    (patch 33_qguiplatformplugin_kde_NULL_check.diff). (Closes: #603480)
 
  -- Modestas Vainius <modax@debian.org>  Sat, 27 Nov 2010 01:02:53 +0200
 
