@@ -2,8 +2,8 @@ kdebase-workspace (4:4.4.5-5) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Add patch 31_kdm_vt_switching_on_kfreebsd.diff which implements VT
-    switching and status detection support in KDM on kFreeBSD. This should
-    fix an issue with with KDM hijacking VT2 on bootup. (Closes: #586540)
+    switching and status detection support for KDM on kFreeBSD. This should
+    fix an issue with KDM hijacking VT2 on bootup. (Closes: #586540)
   * Fix ksmserver crash on logout. It's 100% reproducible on kfreebsd-amd64.
   * Make kdebase-workspace-bin Replace and Break kdesktop. (Closes: #605135)
 
