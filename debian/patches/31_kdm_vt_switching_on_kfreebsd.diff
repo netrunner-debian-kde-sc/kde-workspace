@@ -190,3 +190,83 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
   </para><para>
   When &kdm; switches to console mode, it starts monitoring all
   <acronym>TTY</acronym> lines listed here (without the leading
+--- a/kdm/backend/util.c
++++ b/kdm/backend/util.c
+@@ -53,6 +53,14 @@ from the copyright holder.
+ # include <sys/utsname.h>
+ #endif
+ 
++#ifdef HAVE_VTS
++#  if defined(__linux__)
++#    include <linux/vt.h>
++#  elif defined(__FreeBSD_kernel__)
++#    include <sys/consio.h>
++#  endif
++#endif
++
+ void *
+ Calloc( size_t nmemb, size_t size )
+ {
+@@ -621,6 +629,29 @@ hexToBinary( char *out, const char *in )
+ 
+ #undef atox
+ 
++#ifdef HAVE_VTS
++/* Get next free VT. Works only on virtual terminal devices */
++static int
++getNextFreeVT( const char *tty )
++{
++	int fd, vt;
++	char *dev;
++
++	vt = -1;
++	dev = (char*) Malloc( strlen(tty) + 6 );
++	sprintf( dev, "/dev/%s", tty );
++
++	fd = open( dev, O_RDONLY );
++        if (fd >= 0) {
++                if (ioctl( fd, VT_OPENQRY, &vt ))
++			vt = -1;
++		close( fd );
++        }
++	free( dev );
++	return vt;
++}
++#endif
++
+ /* X -from ip6-addr does not work here, so i don't know whether this is needed.
+ #define IP6_MAGIC
+ */
+@@ -640,6 +671,10 @@ listSessions( int flags, struct display
+ #else
+ 	STRUCTUTMP *ut;
+ #endif
++#ifdef HAVE_VTS
++	int con_fvt;
++	con_fvt = -2;
++#endif
+ 
+ 	for (di = displays; di; di = di->next)
+ 		if (((flags & lstRemote) || (di->displayType & d_location) == dLocal) &&
+@@ -671,12 +706,20 @@ listSessions( int flags, struct display
+ 				if (!(flags & lstRemote))
+ 					continue;
+ 			} else {
++				if (!*ut->ut_line)
++					continue;
+ 				/* hack around broken konsole which does not set ut_host. */
++#ifdef HAVE_VTS
++				if (con_fvt == -2)
++					con_fvt = getNextFreeVT("console");
++				if (con_fvt >= 0 && con_fvt != getNextFreeVT( ut->ut_line ))
++					continue;
++#else
+ 				/* this check is probably linux-specific. */
+-				/* alternatively we could open the device and try VT_OPENQRY. */
+ 				if (memcmp( ut->ut_line, "tty", 3 ) ||
+ 				    !isdigit( ut->ut_line[3] ))
+ 					continue;
++#endif
+ 			}
+ 			if (strNChrCnt( ut->ut_line, sizeof(ut->ut_line), ':' ))
+ 				continue; /* x login */
