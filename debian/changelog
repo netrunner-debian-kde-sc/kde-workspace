@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.4.5-5) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.5-5) UNRELEASED; urgency=medium
 
   [ Modestas Vainius ]
   * Add patch 31_kdm_vt_switching_on_kfreebsd.diff which implements VT
@@ -6,6 +6,7 @@ kdebase-workspace (4:4.4.5-5) UNRELEASED; urgency=low
     fix an issue with KDM hijacking VT2 on bootup. (Closes: #586540)
   * Fix ksmserver crash on logout. It's 100% reproducible on kfreebsd-amd64.
   * Make kdebase-workspace-bin Replace and Break kdesktop. (Closes: #605135)
+  * Set urgency=medium due to multiple RC bug fixes.
 
   [ Didier Raboud ]
   * Fix a segfault in qguiplatformplugin_kde, thanks to David Alan Gilbert
