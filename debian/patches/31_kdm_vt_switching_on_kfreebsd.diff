@@ -31,9 +31,9 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  TTYtoVT( const char *tty )
  {
 -	return memcmp( tty, "tty", 3 ) ? 0 : atoi( tty + 3 );
-+	if (!memcmp( tty, "ttyv", 4 )) // FreeBSD, tty no is in hex
++	if (!memcmp( tty, "ttyv", 4 )) /* FreeBSD, tty no is in hex */
 +		return (int) strtoul( tty+4, NULL, 16 );
-+	else if (!memcmp( tty, "tty", 3 )) // Linux
++	else if (!memcmp( tty, "tty", 3 )) /* Linux */
 +		return atoi( tty + 3 );
 +	else
 +		return 0;
@@ -92,9 +92,9 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
 +
 +		activeVTs = 0;
 +		firstvt = ~0;
-+		// We need rdev of the first tty
++		/* We need rdev of the first tty */
 +		if (stat("/dev/ttyv0", &st))
-+			firstvt = 0; // If stat fails, 0 should be safe default
++			firstvt = 0; /* If stat fails, 0 should be safe default */
 +
 +		if (!sysctlbyname("kern.ttys", NULL, &s, NULL, 0)) {
 +			ttys = (struct xtty *) malloc(s);
@@ -192,11 +192,12 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
   <acronym>TTY</acronym> lines listed here (without the leading
 --- a/kdm/backend/util.c
 +++ b/kdm/backend/util.c
-@@ -53,6 +53,14 @@ from the copyright holder.
+@@ -53,6 +53,15 @@ from the copyright holder.
  # include <sys/utsname.h>
  #endif
  
 +#ifdef HAVE_VTS
++#  include <sys/ioctl.h>
 +#  if defined(__linux__)
 +#    include <linux/vt.h>
 +#  elif defined(__FreeBSD_kernel__)
@@ -207,7 +208,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  void *
  Calloc( size_t nmemb, size_t size )
  {
-@@ -621,6 +629,29 @@ hexToBinary( char *out, const char *in )
+@@ -621,6 +630,29 @@ hexToBinary( char *out, const char *in )
  
  #undef atox
  
@@ -237,7 +238,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  /* X -from ip6-addr does not work here, so i don't know whether this is needed.
  #define IP6_MAGIC
  */
-@@ -640,6 +671,10 @@ listSessions( int flags, struct display
+@@ -640,6 +672,10 @@ listSessions( int flags, struct display
  #else
  	STRUCTUTMP *ut;
  #endif
@@ -248,7 +249,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  
  	for (di = displays; di; di = di->next)
  		if (((flags & lstRemote) || (di->displayType & d_location) == dLocal) &&
-@@ -671,12 +706,20 @@ listSessions( int flags, struct display
+@@ -671,12 +707,20 @@ listSessions( int flags, struct display
  				if (!(flags & lstRemote))
  					continue;
  			} else {
