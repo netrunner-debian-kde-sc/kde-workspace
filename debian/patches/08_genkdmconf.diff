@@ -1,5 +1,7 @@
---- a/kdm/kfrontend/genkdmconf.c
-+++ b/kdm/kfrontend/genkdmconf.c
+Index: kdebase-workspace/kdm/kfrontend/genkdmconf.c
+===================================================================
+--- kdebase-workspace.orig/kdm/kfrontend/genkdmconf.c	2010-12-18 20:44:27.000000000 +0100
++++ kdebase-workspace/kdm/kfrontend/genkdmconf.c	2010-12-18 20:56:31.274321200 +0100
 @@ -613,7 +613,7 @@
  "# right hand sides can match.\n"
  "#\n"
@@ -54,13 +56,17 @@
  "    ;;\n"
  "  */csh|*/tcsh)\n"
  "    # [t]cshrc is always sourced automatically.\n"
-@@ -738,28 +741,8 @@
- "    [ -f $HOME/.profile ] && . $HOME/.profile\n"
+@@ -739,32 +742,8 @@
  "    ;;\n"
  "esac\n"
--"\n"
+ "\n"
 -"[ -f /etc/xprofile ] && . /etc/xprofile\n"
 -"[ -f $HOME/.xprofile ] && . $HOME/.xprofile\n"
+-"\n"
+-"for i in /etc/X11/Xresources/*; do\n"
+-"  [ -f $i ] && xrdb -merge $i\n"
+-"done\n"
+-"[ -f $HOME/.Xresources ] && xrdb -merge $HOME/.Xresources\n"
 -"\n"
 -"case $session in\n"
 -"  \"\")\n"
@@ -85,7 +91,7 @@
  
  static const char def_background[] =
  "[Desktop0]\n"
-@@ -1110,29 +1093,6 @@
+@@ -1115,29 +1094,6 @@
  
      if (maxTTY)
          return;

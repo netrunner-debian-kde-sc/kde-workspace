@@ -4,9 +4,11 @@ Author: "Dr. David Alan Gilbert" <debian@treblig.org>
 Signed-By: Didier Raboud <didier@raboud.com>
 Bugs-Debian: #603480
 Last-Update: 2010-11-28
---- a/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp
-+++ b/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp
-@@ -246,7 +246,9 @@
+Index: kdebase-workspace/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp
+===================================================================
+--- kdebase-workspace.orig/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp	2010-06-01 20:10:52.000000000 +0200
++++ kdebase-workspace/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp	2010-12-18 22:31:42.726096651 +0100
+@@ -247,7 +247,9 @@
              kdefd->setConfirmOverwrite(qfd->confirmOverwrite());
              kdefd->setSelection(qfd->selectedFiles().value(0));
          }

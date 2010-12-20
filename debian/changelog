@@ -60,6 +60,26 @@ kdebase-workspace (4:4.5.86-0r1) UNRELEASED; urgency=low
     configuration file from /usr/share to /etc.
   * Update lintian overrides.
 
+  [ José Manuel Santamaría Lema ]
+  * Refreshed patches:
+    - 06_kdm_does_not_wreak_havoc.diff
+    - 07_kdmrc_defaults.diff
+    - 08_genkdmconf.diff
+    - 09_genkdm_make.diff
+    - 10_kdm_no_custom.diff
+    - 12_be_better_at_honouring_user_kdm_theming.diff
+    - 21_place_global_config_in_etc.diff
+    - 33_qguiplatformplugin_kde_NULL_check.diff
+    - 97_fix_target_link_libraries.diff
+  * Dropped patches:
+    - 02_kdm_double_servertimeout.diff - applied upstream
+    - 28_backport_bug156475_dualhead_support.diff - applied upstream
+    - 29_backport_fix_krandr_support_in_startkde.diff - applied upstream
+    - 99_solid_network_use_ntrack.diff - applied upstream
+  * TODO:
+    - 30_plasma_netbook_fix_autostart.diff - check if the issue still exists
+    - 31_kdm_vt_switching_on_kfreebsd.diff - should be refreshed/reworked
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
 kdebase-workspace (4:4.4.5-5) unstable; urgency=medium

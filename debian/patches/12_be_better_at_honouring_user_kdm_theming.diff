@@ -1,6 +1,8 @@
---- a/kdm/config.def
-+++ b/kdm/config.def
-@@ -2703,7 +2703,7 @@
+Index: kdebase-workspace/kdm/config.def
+===================================================================
+--- kdebase-workspace.orig/kdm/config.def	2010-12-18 20:45:45.790819514 +0100
++++ kdebase-workspace/kdm/config.def	2010-12-18 21:00:40.918568853 +0100
+@@ -2679,7 +2679,7 @@
  Type: string
  Default: ""
  User: greeter

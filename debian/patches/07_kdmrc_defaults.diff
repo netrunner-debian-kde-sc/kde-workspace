@@ -1,5 +1,7 @@
---- a/kdm/config.def
-+++ b/kdm/config.def
+Index: kdebase-workspace/kdm/config.def
+===================================================================
+--- kdebase-workspace.orig/kdm/config.def	2010-12-18 20:44:08.786127265 +0100
++++ kdebase-workspace/kdm/config.def	2010-12-18 20:45:45.790819514 +0100
 @@ -49,11 +49,11 @@
  #endif
  
@@ -32,7 +34,7 @@
  Comment: &
  Description:
   Additional arguments for the &X-Server;s for local sessions.
-@@ -1953,10 +1953,10 @@
+@@ -1929,10 +1929,10 @@
  
  Key: SessionsDirs
  Type: list
@@ -45,7 +47,7 @@
  Update: upd_sessionsdirs
  Comment:
   The directories containing session type definitions in .desktop format,
-@@ -2025,7 +2025,7 @@
+@@ -2001,7 +2001,7 @@
  
  Key: UseSessReg
  Type: bool
@@ -54,7 +56,7 @@
  User: core
  Instance: #*/!
  Comment:
-@@ -2116,9 +2116,9 @@
+@@ -2092,9 +2092,9 @@
  
  Key: GreetString
  Type: string
@@ -66,7 +68,7 @@
  Comment:
   The headline in the greeter. The following character pairs are replaced:
   - %d -> current display
-@@ -2577,7 +2577,6 @@
+@@ -2553,7 +2553,6 @@
  Default: 0
  User: greeter
  Instance: #*/
@@ -74,7 +76,7 @@
  Comment:
   Random seed for forging saved session types, etc. of unknown users.
   This value should be random but constant across the login domain.
-@@ -2674,7 +2673,7 @@
+@@ -2650,7 +2649,7 @@
  Type: bool
  Default: true
  User: greeter
