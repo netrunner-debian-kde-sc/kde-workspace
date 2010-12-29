@@ -27,7 +27,12 @@ usr/share/kde4/apps/plasma-desktop/plasma-desktop.notifyrc
 usr/share/kde4/apps/plasma-desktop/updates/systray-to-notifications-widget.js
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.defaultPanel/contents/layout.js
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.defaultPanel/metadata.desktop
+usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.findWidgets/contents/layout.js
+usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.findWidgets/metadata.desktop
+usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.photoActivity/contents/layout.js
+usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.photoActivity/metadata.desktop
 usr/share/kde4/config.kcfg/plasma-shell-desktop.kcfg
+usr/share/kde4/config/activities.knsrc
 usr/share/kde4/config/plasma-themes.knsrc
 usr/share/kde4/services/plasma-applet-launcher.desktop
 usr/share/kde4/services/plasma-applet-simplelauncher.desktop

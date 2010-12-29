@@ -2,7 +2,6 @@ usr/bin/plasma-netbook
 usr/lib/kde4/plasma_applet_currentappcontrol.so
 usr/lib/kde4/plasma_applet_searchbox.so
 usr/lib/kde4/plasma_containment_netpanel.so
-usr/lib/kde4/plasma_containment_newspaper.so
 usr/lib/kde4/plasma_containment_sal.so
 usr/lib/kde4/plasma_engine_searchlaunch.so
 usr/lib/libkdeinit4_plasma-netbook.so
@@ -21,7 +20,6 @@ usr/share/kde4/apps/plasma/services/searchlaunch.operations
 usr/share/kde4/services/plasma-applet-currentappcontrol.desktop
 usr/share/kde4/services/plasma-applet-searchbox.desktop
 usr/share/kde4/services/plasma-containment-netpanel.desktop
-usr/share/kde4/services/plasma-containment-newspaper.desktop
 usr/share/kde4/services/plasma-containment-sal.desktop
 usr/share/kde4/services/plasma-engine-searchlaunch.desktop
 usr/share/kde4/services/plasma-layout-org.kde.plasma-netbook.defaultPage.desktop

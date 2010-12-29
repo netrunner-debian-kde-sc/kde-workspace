@@ -5,16 +5,19 @@
 ./usr/lib/libplasmagenericshell.so
 ./usr/lib/libsystemsettingsview.so
 ./usr/lib/libplasma_applet-system-monitor.so
+./usr/lib/libpowerdevilcore.so
 ./usr/lib/liboxygenstyle.so
 
 # Python *.pyc files
 ./usr/share/kde4/apps/plasma_scriptengine_python/pyappletscript.pyc
 ./usr/share/kde4/apps/plasma_scriptengine_python/pydataengine.pyc
 ./usr/share/kde4/apps/plasma_scriptengine_python/plasma_importer.pyc
-./usr/lib/python2.5/site-packages/PyKDE4/plasmascript.pyc
+./usr/share/kde4/apps/plasma_scriptengine_python/pyrunner.pyc
+./usr/share/kde4/apps/plasma_scriptengine_python/pywallpaper.pyc
+./usr/lib/python2.6/site-packages/PyKDE4/plasmascript.pyc
 
 # Gets renamed by python-support
-./usr/lib/python2.5/site-packages/PyKDE4/plasmascript.py
+./usr/lib/python2.6/site-packages/PyKDE4/plasmascript.py
 
 #cursors is in oxygencursors package
 ./usr/share/icons/Oxygen_Black/cursors/00000000000000020006000e7e9ffc3f
@@ -783,3 +786,5 @@
 
 # Manual page gets compressed
 ./usr/share/man/man1/plasmaengineexplorer.1
+./usr/share/man/man1/plasmapkg.1
+./usr/share/man/man1/plasmoidviewer.1

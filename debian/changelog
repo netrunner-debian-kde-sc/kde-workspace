@@ -79,6 +79,9 @@ kdebase-workspace (4:4.5.86-0r1) UNRELEASED; urgency=low
   * TODO:
     - 30_plasma_netbook_fix_autostart.diff - check if the issue still exists
     - 31_kdm_vt_switching_on_kfreebsd.diff - should be refreshed/reworked
+  * Update installed files.
+  * Rename libweather-ion4a as libweather-ion6.
+  * Remove plasma-scriptengine-qedje package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 

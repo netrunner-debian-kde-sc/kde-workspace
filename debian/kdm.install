@@ -71,8 +71,8 @@ usr/share/kde4/apps/kdm/sessions/gnome.desktop
 usr/share/kde4/apps/kdm/sessions/golem.desktop
 usr/share/kde4/apps/kdm/sessions/icewm.desktop
 usr/share/kde4/apps/kdm/sessions/ion.desktop
-usr/share/kde4/apps/kdm/sessions/kde-safe.desktop
-usr/share/kde4/apps/kdm/sessions/kde.desktop
+usr/share/kde4/apps/kdm/sessions/kde-plasma-safe.desktop
+usr/share/kde4/apps/kdm/sessions/kde-plasma.desktop
 usr/share/kde4/apps/kdm/sessions/larswm.desktop
 usr/share/kde4/apps/kdm/sessions/lwm.desktop
 usr/share/kde4/apps/kdm/sessions/matchbox.desktop

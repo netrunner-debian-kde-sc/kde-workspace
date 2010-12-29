@@ -16,6 +16,9 @@ usr/share/doc/kde/HTML/en/kcontrol/clock/index.docbook
 usr/share/doc/kde/HTML/en/kcontrol/colors/common
 usr/share/doc/kde/HTML/en/kcontrol/colors/index.cache.bz2
 usr/share/doc/kde/HTML/en/kcontrol/colors/index.docbook
+usr/share/doc/kde/HTML/en/kcontrol/cursortheme/common
+usr/share/doc/kde/HTML/en/kcontrol/cursortheme/index.cache.bz2
+usr/share/doc/kde/HTML/en/kcontrol/cursortheme/index.docbook
 usr/share/doc/kde/HTML/en/kcontrol/desktopthemedetails/clicking-apply.png
 usr/share/doc/kde/HTML/en/kcontrol/desktopthemedetails/common
 usr/share/doc/kde/HTML/en/kcontrol/desktopthemedetails/customizing.png
@@ -169,7 +172,6 @@ usr/share/kde4/apps/kdisplay/app-defaults/XV.ad
 usr/share/kde4/apps/kdisplay/app-defaults/Xawtv.ad
 usr/share/kde4/apps/kdisplay/app-defaults/Xdvi.ad
 usr/share/kde4/apps/kdisplay/app-defaults/Xpdf.ad
-usr/share/kde4/apps/kdm/sessions/kde.desktop usr/share/xsessions
 usr/share/kde4/apps/kfontinst/icons/oxygen/16x16/actions/addfont.png
 usr/share/kde4/apps/kfontinst/icons/oxygen/16x16/actions/disablefont.png
 usr/share/kde4/apps/kfontinst/icons/oxygen/16x16/actions/enablefont.png
@@ -251,7 +253,6 @@ usr/share/kde4/apps/kthememanager/themes/YellowOnBlue-big/YellowOnBlue-big.xml
 usr/share/kde4/apps/kthememanager/themes/YellowOnBlue/YellowOnBlue.preview.png
 usr/share/kde4/apps/kthememanager/themes/YellowOnBlue/YellowOnBlue.xml
 usr/share/kde4/apps/kwrited/kwrited.notifyrc
-usr/share/kde4/apps/powerdevil/default.powerdevilprofiles
 usr/share/kde4/apps/powerdevil/powerdevil.notifyrc
 usr/share/kde4/apps/solid/devices/solid-device-AcAdapter.desktop
 usr/share/kde4/apps/solid/devices/solid-device-AudioInterface.desktop
