@@ -5,5 +5,4 @@ usr/lib/kde4/solid_networkmanager07.so
 usr/share/kde4/services/joystick.desktop
 usr/share/kde4/services/solidbackends/solid_modemmanager04.desktop
 usr/share/kde4/services/solidbackends/solid_networkmanager07.desktop
-usr/share/kde4/servicetypes/solidmodemmanager.desktop
 usr/share/kde4/servicetypes/solidnetworkmanager.desktop

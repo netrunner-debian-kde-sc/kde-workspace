@@ -230,6 +230,7 @@ usr/share/kde4/servicetypes/plasma_shareprovider.desktop
 usr/share/kde4/servicetypes/powerdevilaction.desktop
 usr/share/kde4/servicetypes/screensaver.desktop
 usr/share/kde4/servicetypes/solid-device-type.desktop
+usr/share/kde4/servicetypes/solidmodemmanager.desktop
 usr/share/kde4/servicetypes/solidremotecontrolmanager.desktop
 usr/share/man/man1/plasmaengineexplorer.1
 usr/share/man/man1/plasmapkg.1
