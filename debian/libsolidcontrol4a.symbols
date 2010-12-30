@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.90 amd64
 libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN5Solid7Control10IPv4ConfigC1ERK5QListINS0_11IPv4AddressEERKS2_IjERK11QStringListRKS2_INS0_9IPv4RouteEE@Base 4:4.3.4
@@ -38,31 +38,40 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZN5Solid7Control11IPv4AddressD1Ev@Base 4:4.3.4
  _ZN5Solid7Control11IPv4AddressD2Ev@Base 4:4.3.4
  _ZN5Solid7Control11IPv4AddressaSERKS1_@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager10brightnessERK7QString@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager12batteryStateEv@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager12setPowerSaveEb@Base 4:4.5.0
- _ZN5Solid7Control12PowerManager13canDisableCpuEi@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager13cpuFreqPolicyEv@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager13setBrightnessEfRK7QString@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager13setCpuEnabledEib@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager14acAdapterStateEv@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager16setCpuFreqPolicyENS1_13CpuFreqPolicyE@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager20batteryChargePercentEv@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager20batteryRemainingTimeEv@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager20brightnessKeyPressedENS1_17BrightnessKeyTypeE@Base 4:4.5.0
- _ZN5Solid7Control12PowerManager23supportedSuspendMethodsEv@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager24supportedCpuFreqPoliciesEv@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager27brightnessControlsAvailableEv@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager7suspendENS1_13SuspendMethodE@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager8Notifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager8Notifier11qt_metacastEPKc@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager8Notifier13buttonPressedEi@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager8Notifier16staticMetaObjectE@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager8Notifier17brightnessChangedEf@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager8Notifier19batteryStateChangedEi@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager8Notifier21acAdapterStateChangedEi@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager8Notifier27batteryRemainingTimeChangedEi@Base 4:4.3.4
- _ZN5Solid7Control12PowerManager8notifierEv@Base 4:4.3.4
+ _ZN5Solid7Control12ModemManager15modemInterfacesEv@Base 4:4.5.90
+ _ZN5Solid7Control12ModemManager18findModemInterfaceERK7QStringNS0_14ModemInterface16GsmInterfaceTypeE@Base 4:4.5.90
+ _ZN5Solid7Control12ModemManager8Notifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
+ _ZN5Solid7Control12ModemManager8Notifier11qt_metacastEPKc@Base 4:4.5.90
+ _ZN5Solid7Control12ModemManager8Notifier13statusChangedENS_10Networking6StatusE@Base 4:4.5.90
+ _ZN5Solid7Control12ModemManager8Notifier16staticMetaObjectE@Base 4:4.5.90
+ _ZN5Solid7Control12ModemManager8Notifier19modemInterfaceAddedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control12ModemManager8Notifier21modemInterfaceRemovedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control12ModemManager8notifierEv@Base 4:4.5.90
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager10brightnessERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager12batteryStateEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager12setPowerSaveEb@Base 4:4.5.0
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager13canDisableCpuEi@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager13cpuFreqPolicyEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager13setBrightnessEfRK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager13setCpuEnabledEib@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager14acAdapterStateEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager16setCpuFreqPolicyENS1_13CpuFreqPolicyE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager20batteryChargePercentEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager20batteryRemainingTimeEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager20brightnessKeyPressedENS1_17BrightnessKeyTypeE@Base 4:4.5.0
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager23supportedSuspendMethodsEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager24supportedCpuFreqPoliciesEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager27brightnessControlsAvailableEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager7suspendENS1_13SuspendMethodE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager8Notifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager8Notifier11qt_metacastEPKc@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager8Notifier13buttonPressedEi@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager8Notifier16staticMetaObjectE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager8Notifier17brightnessChangedEf@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager8Notifier19batteryStateChangedEi@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager8Notifier21acAdapterStateChangedEi@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager8Notifier27batteryRemainingTimeChangedEi@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control12PowerManager8notifierEv@Base 4:4.3.4
  _ZN5Solid7Control13RemoteControl10allRemotesEv@Base 4:4.4.0
  _ZN5Solid7Control13RemoteControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN5Solid7Control13RemoteControl11qt_metacastEPKc@Base 4:4.4.0
@@ -82,6 +91,35 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZN5Solid7Control13RemoteControlD0Ev@Base 4:4.4.0
  _ZN5Solid7Control13RemoteControlD1Ev@Base 4:4.4.0
  _ZN5Solid7Control13RemoteControlD2Ev@Base 4:4.4.0
+ _ZN5Solid7Control14ModemInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface11qt_metacastEPKc@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface11typeChangedENS1_4TypeE@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface13deviceChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface13driverChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface14enabledChangedEb@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface15ipMethodChangedENS1_6MethodE@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface16staticMetaObjectE@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface17slotDeviceChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface17slotDriverChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface19convertBandToStringENS1_4BandE@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface19convertTypeToStringENS1_4TypeE@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface19masterDeviceChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface21unlockRequiredChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface23slotMasterDeviceChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface25slotUnlockRequiredChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface26convertAllowedModeToStringENS1_11AllowedModeE@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterface31convertAccessTechnologyToStringENS1_16AccessTechnologyE@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterfaceC1EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterfaceC1ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterfaceC1ERNS0_21ModemInterfacePrivateEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterfaceC1ERNS0_21ModemInterfacePrivateERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterfaceC2EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterfaceC2ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterfaceC2ERNS0_21ModemInterfacePrivateEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterfaceC2ERNS0_21ModemInterfacePrivateERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterfaceD0Ev@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterfaceD1Ev@Base 4:4.5.90
+ _ZN5Solid7Control14ModemInterfaceD2Ev@Base 4:4.5.90
  _ZN5Solid7Control14NetworkManager17activeConnectionsEv@Base 4:4.3.4
  _ZN5Solid7Control14NetworkManager17isWirelessEnabledEv@Base 4:4.3.4
  _ZN5Solid7Control14NetworkManager17networkInterfacesEv@Base 4:4.3.4
@@ -102,20 +140,21 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZN5Solid7Control14NetworkManager8Notifier22wirelessEnabledChangedEb@Base 4:4.3.4
  _ZN5Solid7Control14NetworkManager8Notifier23networkInterfaceRemovedERK7QString@Base 4:4.3.4
  _ZN5Solid7Control14NetworkManager8Notifier24activeConnectionsChangedEv@Base 4:4.3.4
+ _ZN5Solid7Control14NetworkManager8Notifier24networkingEnabledChangedEb@Base 4:4.5.90
  _ZN5Solid7Control14NetworkManager8Notifier30wirelessHardwareEnabledChangedEb@Base 4:4.3.4
  _ZN5Solid7Control14NetworkManager8notifierEv@Base 4:4.3.4
- _ZN5Solid7Control16BluetoothManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN5Solid7Control16BluetoothManager11qt_metacastEPKc@Base 4:4.3.4
- _ZN5Solid7Control16BluetoothManager14interfaceAddedERK7QString@Base 4:4.3.4
- _ZN5Solid7Control16BluetoothManager16interfaceRemovedERK7QString@Base 4:4.3.4
- _ZN5Solid7Control16BluetoothManager16staticMetaObjectE@Base 4:4.3.4
- _ZN5Solid7Control16BluetoothManager23defaultInterfaceChangedERK7QString@Base 4:4.3.4
- _ZN5Solid7Control16BluetoothManager4selfEv@Base 4:4.3.4
- _ZN5Solid7Control16BluetoothManagerC1Ev@Base 4:4.3.4
- _ZN5Solid7Control16BluetoothManagerC2Ev@Base 4:4.3.4
- _ZN5Solid7Control16BluetoothManagerD0Ev@Base 4:4.3.4
- _ZN5Solid7Control16BluetoothManagerD1Ev@Base 4:4.3.4
- _ZN5Solid7Control16BluetoothManagerD2Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control16BluetoothManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control16BluetoothManager11qt_metacastEPKc@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control16BluetoothManager14interfaceAddedERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control16BluetoothManager16interfaceRemovedERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control16BluetoothManager16staticMetaObjectE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control16BluetoothManager23defaultInterfaceChangedERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control16BluetoothManager4selfEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control16BluetoothManagerC1Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control16BluetoothManagerC2Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control16BluetoothManagerD0Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control16BluetoothManagerD1Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control16BluetoothManagerD2Ev@Base 4:4.3.4
  _ZN5Solid7Control16NetworkInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid7Control16NetworkInterface11qt_metacastEPKc@Base 4:4.3.4
  _ZN5Solid7Control16NetworkInterface13linkUpChangedEb@Base 4:4.3.4
@@ -134,50 +173,67 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZN5Solid7Control16NetworkInterfaceD0Ev@Base 4:4.3.4
  _ZN5Solid7Control16NetworkInterfaceD1Ev@Base 4:4.3.4
  _ZN5Solid7Control16NetworkInterfaceD2Ev@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurity11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurity11qt_metacastEPKc@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurity15setPasskeyAgentEPNS0_21BluetoothPasskeyAgentE@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurity16staticMetaObjectE@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurity21setAuthorizationAgentEPNS0_27BluetoothAuthorizationAgentE@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurityC1EP7QObject@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurityC1Ev@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurityC2EP7QObject@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurityC2Ev@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurityD0Ev@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurityD1Ev@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurityD2Ev@Base 4:4.3.4
- _ZN5Solid7Control17BluetoothSecurityaSERKS1_@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface11deviceFoundERK7QStringRK4QMapIS2_8QVariantE@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface11qt_metacastEPKc@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface13deviceCreatedERK7QString@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface13deviceRemovedERK7QString@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface15propertyChangedERK7QStringRK8QVariant@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface15setDiscoverableEb@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface16staticMetaObjectE@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface17deviceDisappearedERK7QString@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface17slotDeviceCreatedERK7QString@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface22setDiscoverableTimeoutEi@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface27createBluetoothRemoteDeviceERK7QString@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterface7setNameERK7QString@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterfaceC1EP7QObject@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterfaceC1ERK7QString@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterfaceC1ERKS1_@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterfaceC1Ev@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterfaceC2EP7QObject@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterfaceC2ERK7QString@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterfaceC2ERKS1_@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterfaceC2Ev@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterfaceD0Ev@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterfaceD1Ev@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterfaceD2Ev@Base 4:4.3.4
- _ZN5Solid7Control18BluetoothInterfaceaSERKS1_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurity11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurity11qt_metacastEPKc@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurity15setPasskeyAgentEPNS0_21BluetoothPasskeyAgentE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurity16staticMetaObjectE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurity21setAuthorizationAgentEPNS0_27BluetoothAuthorizationAgentE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurityC1EP7QObject@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurityC1Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurityC2EP7QObject@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurityC2Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurityD0Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurityD1Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurityD2Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control17BluetoothSecurityaSERKS1_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface11deviceFoundERK7QStringRK4QMapIS2_8QVariantE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface11qt_metacastEPKc@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface13deviceCreatedERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface13deviceRemovedERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface15propertyChangedERK7QStringRK8QVariant@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface15setDiscoverableEb@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface16staticMetaObjectE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface17deviceDisappearedERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface17slotDeviceCreatedERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface22setDiscoverableTimeoutEi@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface27createBluetoothRemoteDeviceERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterface7setNameERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterfaceC1EP7QObject@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterfaceC1ERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterfaceC1ERKS1_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterfaceC1Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterfaceC2EP7QObject@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterfaceC2ERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterfaceC2ERKS1_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterfaceC2Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterfaceD0Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterfaceD1Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterfaceD2Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control18BluetoothInterfaceaSERKS1_@Base 4:4.3.4
  _ZN5Solid7Control18ManagerBasePrivate24_k_forcePreloadedBackendEPKcP7QObject@Base 4:4.3.4
+ _ZN5Solid7Control18ModemCdmaInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterface11qt_metacastEPKc@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterface12_k_destroyedEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterface15makeConnectionsEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterface16staticMetaObjectE@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterface20signalQualityChangedEj@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterface24registrationStateChangedENS1_17RegistrationStateES2_@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterfaceC1EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterfaceC1ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterfaceC2EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterfaceC2ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterfaceD0Ev@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterfaceD1Ev@Base 4:4.5.90
+ _ZN5Solid7Control18ModemCdmaInterfaceD2Ev@Base 4:4.5.90
  _ZN5Solid7Control19GsmNetworkInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid7Control19GsmNetworkInterface11qt_metacastEPKc@Base 4:4.3.4
  _ZN5Solid7Control19GsmNetworkInterface12_k_destroyedEP7QObject@Base 4:4.3.4
  _ZN5Solid7Control19GsmNetworkInterface15makeConnectionsEP7QObject@Base 4:4.3.4
  _ZN5Solid7Control19GsmNetworkInterface16staticMetaObjectE@Base 4:4.3.4
+ _ZN5Solid7Control19GsmNetworkInterface17getModemCardIfaceEv@Base 4:4.5.90
+ _ZN5Solid7Control19GsmNetworkInterface20getModemNetworkIfaceEv@Base 4:4.5.90
+ _ZN5Solid7Control19GsmNetworkInterface20setModemNetworkIfaceEPNS0_24ModemGsmNetworkInterfaceE@Base 4:4.5.90
  _ZN5Solid7Control19GsmNetworkInterfaceC1EP7QObject@Base 4:4.3.4
  _ZN5Solid7Control19GsmNetworkInterfaceC1ERKS1_@Base 4:4.3.4
  _ZN5Solid7Control19GsmNetworkInterfaceC1ERNS0_26GsmNetworkInterfacePrivateEP7QObject@Base 4:4.3.4
@@ -197,20 +253,20 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZN5Solid7Control19RemoteControlButtonC2ERKS1_@Base 4:4.4.0
  _ZN5Solid7Control19RemoteControlButtonD1Ev@Base 4:4.4.0
  _ZN5Solid7Control19RemoteControlButtonD2Ev@Base 4:4.4.0
- _ZN5Solid7Control20BluetoothInputDevice10disconnectEv@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDevice11qt_metacastEPKc@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDevice15propertyChangedERK7QStringRK8QVariant@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDevice16staticMetaObjectE@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDevice7connectEv@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDeviceC1EP7QObject@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDeviceC1ERKS1_@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDeviceC2EP7QObject@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDeviceC2ERKS1_@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDeviceD0Ev@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDeviceD1Ev@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDeviceD2Ev@Base 4:4.3.4
- _ZN5Solid7Control20BluetoothInputDeviceaSERKS1_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDevice10disconnectEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDevice11qt_metacastEPKc@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDevice15propertyChangedERK7QStringRK8QVariant@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDevice16staticMetaObjectE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDevice7connectEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDeviceC1EP7QObject@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDeviceC1ERKS1_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDeviceC2EP7QObject@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDeviceC2ERKS1_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDeviceD0Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDeviceD1Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDeviceD2Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control20BluetoothInputDeviceaSERKS1_@Base 4:4.3.4
  _ZN5Solid7Control20CdmaNetworkInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid7Control20CdmaNetworkInterface11qt_metacastEPKc@Base 4:4.3.4
  _ZN5Solid7Control20CdmaNetworkInterface12_k_destroyedEP7QObject@Base 4:4.3.4
@@ -227,6 +283,32 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZN5Solid7Control20CdmaNetworkInterfaceD0Ev@Base 4:4.3.4
  _ZN5Solid7Control20CdmaNetworkInterfaceD1Ev@Base 4:4.3.4
  _ZN5Solid7Control20CdmaNetworkInterfaceD2Ev@Base 4:4.3.4
+ _ZN5Solid7Control20ModemGsmHsoInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmHsoInterface11qt_metacastEPKc@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmHsoInterface12_k_destroyedEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmHsoInterface15makeConnectionsEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmHsoInterface16staticMetaObjectE@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmHsoInterfaceC1EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmHsoInterfaceC1ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmHsoInterfaceC2EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmHsoInterfaceC2ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmHsoInterfaceD0Ev@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmHsoInterfaceD1Ev@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmHsoInterfaceD2Ev@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterface11qt_metacastEPKc@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterface11smsReceivedEib@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterface12_k_destroyedEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterface15makeConnectionsEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterface16staticMetaObjectE@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterface9completedEib@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterfaceC1EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterfaceC1ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterfaceC2EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterfaceC2ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterfaceD0Ev@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterfaceD1Ev@Base 4:4.5.90
+ _ZN5Solid7Control20ModemGsmSmsInterfaceD2Ev@Base 4:4.5.90
  _ZN5Solid7Control20RemoteControlManager8Notifier11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.4.0
  _ZN5Solid7Control20RemoteControlManager8Notifier11qt_metacastEPKc@Base 4:4.4.0
  _ZN5Solid7Control20RemoteControlManager8Notifier13statusChangedEb@Base 4:4.4.0
@@ -235,46 +317,94 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZN5Solid7Control20RemoteControlManager8Notifier20remoteControlRemovedERK7QString@Base 4:4.4.0
  _ZN5Solid7Control20RemoteControlManager8notifierEv@Base 4:4.4.0
  _ZN5Solid7Control20RemoteControlManager9connectedEv@Base 4:4.4.0
- _ZN5Solid7Control21BluetoothPasskeyAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothPasskeyAgent11qt_metacastEPKc@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothPasskeyAgent14confirmPasskeyERK7QStringS4_@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothPasskeyAgent14displayPasskeyERK7QStringS4_@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothPasskeyAgent14requestPasskeyERK7QStringb@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothPasskeyAgent16staticMetaObjectE@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothPasskeyAgent20cancelAuthenticationERK7QString@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothPasskeyAgent23completedAuthenticationERK7QString@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothPasskeyAgent6remoteEv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothPasskeyAgent8keypressERK7QString@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothPasskeyAgentC1EP7QObjectRK7QString@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothPasskeyAgentC2EP7QObjectRK7QString@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice10disconnectEv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice10setTrustedEb@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice11getPropertyERK7QString@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice11isConnectedEv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice11qt_metacastEPKc@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice11setPropertyERK7QStringRK8QVariant@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice13getPropertiesEv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice15cancelDiscoveryEv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice15propertyChangedERK7QStringRK8QVariant@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice16discoverServicesERK7QString@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice16staticMetaObjectE@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice19disconnectRequestedEv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice24serviceDiscoverAvailableERK7QStringRK4QMapIjS2_E@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice4iconEv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice4nameEv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice5uuidsEv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice7addressEv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice9isTrustedEv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDevice9listNodesEv@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDeviceC1EP7QObject@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDeviceC1ERKS1_@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDeviceC2EP7QObject@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDeviceC2ERKS1_@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDeviceD0Ev@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDeviceD1Ev@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDeviceD2Ev@Base 4:4.3.4
- _ZN5Solid7Control21BluetoothRemoteDeviceaSERKS1_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothPasskeyAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothPasskeyAgent11qt_metacastEPKc@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothPasskeyAgent14confirmPasskeyERK7QStringS4_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothPasskeyAgent14displayPasskeyERK7QStringS4_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothPasskeyAgent14requestPasskeyERK7QStringb@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothPasskeyAgent16staticMetaObjectE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothPasskeyAgent20cancelAuthenticationERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothPasskeyAgent23completedAuthenticationERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothPasskeyAgent6remoteEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothPasskeyAgent8keypressERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothPasskeyAgentC1EP7QObjectRK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothPasskeyAgentC2EP7QObjectRK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice10disconnectEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice10setTrustedEb@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice11getPropertyERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice11isConnectedEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice11qt_metacastEPKc@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice11setPropertyERK7QStringRK8QVariant@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice13getPropertiesEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice15cancelDiscoveryEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice15propertyChangedERK7QStringRK8QVariant@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice16discoverServicesERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice16staticMetaObjectE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice19disconnectRequestedEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice24serviceDiscoverAvailableERK7QStringRK4QMapIjS2_E@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice4iconEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice4nameEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice5uuidsEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice7addressEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice9isTrustedEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDevice9listNodesEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDeviceC1EP7QObject@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDeviceC1ERKS1_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDeviceC2EP7QObject@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDeviceC2ERKS1_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDeviceD0Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDeviceD1Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDeviceD2Ev@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control21BluetoothRemoteDeviceaSERKS1_@Base 4:4.3.4
+ _ZN5Solid7Control21ModemGsmCardInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterface11qt_metacastEPKc@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterface12_k_destroyedEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterface15makeConnectionsEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterface16staticMetaObjectE@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterface21supportedBandsChangedENS0_14ModemInterface4BandE@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterface21supportedModesChangedENS0_14ModemInterface4ModeE@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterfaceC1EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterfaceC1ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterfaceC2EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterfaceC2ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterfaceD0Ev@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterfaceD1Ev@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmCardInterfaceD2Ev@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterface11qt_metacastEPKc@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterface12_k_destroyedEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterface12stateChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterface15makeConnectionsEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterface16slotStateChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterface16staticMetaObjectE@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterface21networkRequestChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterface25slotNetworkRequestChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterface26networkNotificationChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterface30slotNetworkNotificationChangedERK7QString@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterfaceC1EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterfaceC1ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterfaceC2EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterfaceC2ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterfaceD0Ev@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterfaceD1Ev@Base 4:4.5.90
+ _ZN5Solid7Control21ModemGsmUssdInterfaceD2Ev@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterface11deviceAddedER7QString@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterface11qt_metacastEPKc@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterface13deviceRemovedER7QString@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterface16staticMetaObjectE@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterfaceC1EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterfaceC1ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterfaceC1ERNS0_28ModemManagerInterfacePrivateEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterfaceC1ERNS0_28ModemManagerInterfacePrivateERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterfaceC2EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterfaceC2ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterfaceC2ERNS0_28ModemManagerInterfacePrivateEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterfaceC2ERNS0_28ModemManagerInterfacePrivateERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterfaceD0Ev@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterfaceD1Ev@Base 4:4.5.90
+ _ZN5Solid7Control21ModemManagerInterfaceD2Ev@Base 4:4.5.90
  _ZN5Solid7Control21WiredNetworkInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid7Control21WiredNetworkInterface11qt_metacastEPKc@Base 4:4.3.4
  _ZN5Solid7Control21WiredNetworkInterface12_k_destroyedEP7QObject@Base 4:4.3.4
@@ -292,6 +422,23 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZN5Solid7Control21WiredNetworkInterfaceD0Ev@Base 4:4.3.4
  _ZN5Solid7Control21WiredNetworkInterfaceD1Ev@Base 4:4.3.4
  _ZN5Solid7Control21WiredNetworkInterfaceD2Ev@Base 4:4.3.4
+ _ZN5Solid7Control22ModemLocationInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterface11qt_metacastEPKc@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterface12_k_destroyedEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterface14enabledChangedEb@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterface15locationChangedERK5QListI4QMapINS1_10CapabilityE8QVariantEE@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterface15makeConnectionsEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterface16staticMetaObjectE@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterface19capabilitiesChangedENS1_10CapabilityE@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterface19slotLocationChangedERK5QListI4QMapINS1_10CapabilityE8QVariantEE@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterface22signalsLocationChangedEb@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterfaceC1EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterfaceC1ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterfaceC2EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterfaceC2ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterfaceD0Ev@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterfaceD1Ev@Base 4:4.5.90
+ _ZN5Solid7Control22ModemLocationInterfaceD2Ev@Base 4:4.5.90
  _ZN5Solid7Control22SerialNetworkInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid7Control22SerialNetworkInterface11qt_metacastEPKc@Base 4:4.3.4
  _ZN5Solid7Control22SerialNetworkInterface12_k_destroyedEP7QObject@Base 4:4.3.4
@@ -309,6 +456,21 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZN5Solid7Control22SerialNetworkInterfaceD0Ev@Base 4:4.3.4
  _ZN5Solid7Control22SerialNetworkInterfaceD1Ev@Base 4:4.3.4
  _ZN5Solid7Control22SerialNetworkInterfaceD2Ev@Base 4:4.3.4
+ _ZN5Solid7Control24ModemGsmNetworkInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterface11qt_metacastEPKc@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterface12_k_destroyedEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterface15makeConnectionsEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterface16staticMetaObjectE@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterface18allowedModeChangedENS0_14ModemInterface11AllowedModeE@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterface20signalQualityChangedEj@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterface23accessTechnologyChangedENS0_14ModemInterface16AccessTechnologyE@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterfaceC1EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterfaceC1ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterfaceC2EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterfaceC2ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterfaceD0Ev@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterfaceD1Ev@Base 4:4.5.90
+ _ZN5Solid7Control24ModemGsmNetworkInterfaceD2Ev@Base 4:4.5.90
  _ZN5Solid7Control24WirelessNetworkInterface11modeChangedENS1_13OperationModeE@Base 4:4.3.4
  _ZN5Solid7Control24WirelessNetworkInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN5Solid7Control24WirelessNetworkInterface11qt_metacastEPKc@Base 4:4.3.4
@@ -332,11 +494,23 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZN5Solid7Control24WirelessNetworkInterfaceD0Ev@Base 4:4.3.4
  _ZN5Solid7Control24WirelessNetworkInterfaceD1Ev@Base 4:4.3.4
  _ZN5Solid7Control24WirelessNetworkInterfaceD2Ev@Base 4:4.3.4
- _ZN5Solid7Control27BluetoothAuthorizationAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
- _ZN5Solid7Control27BluetoothAuthorizationAgent11qt_metacastEPKc@Base 4:4.3.4
- _ZN5Solid7Control27BluetoothAuthorizationAgent16staticMetaObjectE@Base 4:4.3.4
- _ZN5Solid7Control27BluetoothAuthorizationAgentC1EP7QObject@Base 4:4.3.4
- _ZN5Solid7Control27BluetoothAuthorizationAgentC2EP7QObject@Base 4:4.3.4
+ _ZN5Solid7Control25ModemGsmContactsInterface11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.90
+ _ZN5Solid7Control25ModemGsmContactsInterface11qt_metacastEPKc@Base 4:4.5.90
+ _ZN5Solid7Control25ModemGsmContactsInterface12_k_destroyedEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control25ModemGsmContactsInterface15makeConnectionsEP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control25ModemGsmContactsInterface16staticMetaObjectE@Base 4:4.5.90
+ _ZN5Solid7Control25ModemGsmContactsInterfaceC1EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control25ModemGsmContactsInterfaceC1ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control25ModemGsmContactsInterfaceC2EP7QObject@Base 4:4.5.90
+ _ZN5Solid7Control25ModemGsmContactsInterfaceC2ERKS1_@Base 4:4.5.90
+ _ZN5Solid7Control25ModemGsmContactsInterfaceD0Ev@Base 4:4.5.90
+ _ZN5Solid7Control25ModemGsmContactsInterfaceD1Ev@Base 4:4.5.90
+ _ZN5Solid7Control25ModemGsmContactsInterfaceD2Ev@Base 4:4.5.90
+#MISSING: 4:4.5.90# _ZN5Solid7Control27BluetoothAuthorizationAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control27BluetoothAuthorizationAgent11qt_metacastEPKc@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control27BluetoothAuthorizationAgent16staticMetaObjectE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control27BluetoothAuthorizationAgentC1EP7QObject@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZN5Solid7Control27BluetoothAuthorizationAgentC2EP7QObject@Base 4:4.3.4
  _ZN5Solid7Control9IPv4RouteC1ERKS1_@Base 4:4.3.4
  _ZN5Solid7Control9IPv4RouteC1Ejjjj@Base 4:4.3.4
  _ZN5Solid7Control9IPv4RouteC1Ev@Base 4:4.3.4
@@ -371,52 +545,76 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZNK5Solid7Control11IPv4Address7gatewayEv@Base 4:4.3.4
  _ZNK5Solid7Control11IPv4Address7isValidEv@Base 4:4.3.4
  _ZNK5Solid7Control11IPv4Address7netMaskEv@Base 4:4.3.4
- _ZNK5Solid7Control12PowerManager8Notifier10metaObjectEv@Base 4:4.3.4
+ _ZNK5Solid7Control12ModemManager8Notifier10metaObjectEv@Base 4:4.5.90
+#MISSING: 4:4.5.90# _ZNK5Solid7Control12PowerManager8Notifier10metaObjectEv@Base 4:4.3.4
  _ZNK5Solid7Control13RemoteControl10metaObjectEv@Base 4:4.4.0
  _ZNK5Solid7Control13RemoteControl4nameEv@Base 4:4.4.0
  _ZNK5Solid7Control13RemoteControl7buttonsEv@Base 4:4.4.0
+ _ZNK5Solid7Control14ModemInterface10metaObjectEv@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface12connectModemERK4QMapI7QString8QVariantE@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface12connectModemERK7QString@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface12getIp4ConfigEv@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface12masterDeviceEv@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface14unlockRequiredEv@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface15disconnectModemEv@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface3udiEv@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface4typeEv@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface6deviceEv@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface6driverEv@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface6enableEb@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface7enabledEv@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface7getInfoEv@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface8ipMethodEv@Base 4:4.5.90
+ _ZNK5Solid7Control14ModemInterface9getStatusEv@Base 4:4.5.90
  _ZNK5Solid7Control14NetworkManager8Notifier10metaObjectEv@Base 4:4.3.4
- _ZNK5Solid7Control16BluetoothManager10metaObjectEv@Base 4:4.3.4
- _ZNK5Solid7Control16BluetoothManager13findInterfaceERK7QString@Base 4:4.3.4
- _ZNK5Solid7Control16BluetoothManager15buildDeviceListERK11QStringList@Base 4:4.3.4
- _ZNK5Solid7Control16BluetoothManager16defaultInterfaceEv@Base 4:4.3.4
- _ZNK5Solid7Control16BluetoothManager19bluetoothInterfacesEv@Base 4:4.3.4
- _ZNK5Solid7Control16BluetoothManager22findBluetoothInterfaceERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control16BluetoothManager10metaObjectEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control16BluetoothManager13findInterfaceERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control16BluetoothManager15buildDeviceListERK11QStringList@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control16BluetoothManager16defaultInterfaceEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control16BluetoothManager19bluetoothInterfacesEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control16BluetoothManager22findBluetoothInterfaceERK7QString@Base 4:4.3.4
  _ZNK5Solid7Control16NetworkInterface10ipV4ConfigEv@Base 4:4.3.4
  _ZNK5Solid7Control16NetworkInterface10metaObjectEv@Base 4:4.3.4
  _ZNK5Solid7Control16NetworkInterface11designSpeedEv@Base 4:4.3.4
  _ZNK5Solid7Control16NetworkInterface12capabilitiesEv@Base 4:4.3.4
  _ZNK5Solid7Control16NetworkInterface13interfaceNameEv@Base 4:4.3.4
  _ZNK5Solid7Control16NetworkInterface15connectionStateEv@Base 4:4.3.4
+ _ZNK5Solid7Control16NetworkInterface3udiEv@Base 4:4.5.90
  _ZNK5Solid7Control16NetworkInterface3uniEv@Base 4:4.3.4
  _ZNK5Solid7Control16NetworkInterface4typeEv@Base 4:4.3.4
  _ZNK5Solid7Control16NetworkInterface6driverEv@Base 4:4.3.4
  _ZNK5Solid7Control16NetworkInterface8isActiveEv@Base 4:4.3.4
- _ZNK5Solid7Control17BluetoothSecurity10metaObjectEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface10metaObjectEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface11getPropertyERK7QString@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface11listDevicesEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface11setPropertyERK7QStringRK8QVariant@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface12removeDeviceERK7QString@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface13getPropertiesEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface13isDiscoveringEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface13registerAgentERK7QStringS4_@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface13stopDiscoveryEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface14isDiscoverableEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface14releaseSessionEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface14requestSessionEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface14startDiscoveryEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface15unregisterAgentERK7QString@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface18createPairedDeviceERK7QStringS4_S4_@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface19discoverableTimeoutEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface20cancelDeviceCreationERK7QString@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface27findBluetoothInputDeviceUBIERK7QString@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface27getBluetoothRemoteDeviceUBIERK7QString@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface28findBluetoothRemoteDeviceUBIERK7QString@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface29findBluetoothRemoteDeviceAddrERK7QString@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface3ubiEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface4nameEv@Base 4:4.3.4
- _ZNK5Solid7Control18BluetoothInterface7addressEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control17BluetoothSecurity10metaObjectEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface10metaObjectEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface11getPropertyERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface11listDevicesEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface11setPropertyERK7QStringRK8QVariant@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface12removeDeviceERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface13getPropertiesEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface13isDiscoveringEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface13registerAgentERK7QStringS4_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface13stopDiscoveryEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface14isDiscoverableEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface14releaseSessionEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface14requestSessionEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface14startDiscoveryEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface15unregisterAgentERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface18createPairedDeviceERK7QStringS4_S4_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface19discoverableTimeoutEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface20cancelDeviceCreationERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface27findBluetoothInputDeviceUBIERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface27getBluetoothRemoteDeviceUBIERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface28findBluetoothRemoteDeviceUBIERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface29findBluetoothRemoteDeviceAddrERK7QString@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface3ubiEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface4nameEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control18BluetoothInterface7addressEv@Base 4:4.3.4
+ _ZNK5Solid7Control18ModemCdmaInterface10metaObjectEv@Base 4:4.5.90
+ _ZNK5Solid7Control18ModemCdmaInterface16getServingSystemEv@Base 4:4.5.90
+ _ZNK5Solid7Control18ModemCdmaInterface16getSignalQualityEv@Base 4:4.5.90
+ _ZNK5Solid7Control18ModemCdmaInterface20getRegistrationStateEv@Base 4:4.5.90
+ _ZNK5Solid7Control18ModemCdmaInterface4typeEv@Base 4:4.5.90
+ _ZNK5Solid7Control18ModemCdmaInterface6getEsnEv@Base 4:4.5.90
  _ZNK5Solid7Control19GsmNetworkInterface10metaObjectEv@Base 4:4.3.4
  _ZNK5Solid7Control19GsmNetworkInterface4typeEv@Base 4:4.3.4
  _ZNK5Solid7Control19RemoteControlButton10remoteNameEv@Base 4:4.4.0
@@ -424,23 +622,67 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZNK5Solid7Control19RemoteControlButton13repeatCounterEv@Base 4:4.4.0
  _ZNK5Solid7Control19RemoteControlButton2idEv@Base 4:4.4.0
  _ZNK5Solid7Control19RemoteControlButton4nameEv@Base 4:4.4.0
- _ZNK5Solid7Control20BluetoothInputDevice10metaObjectEv@Base 4:4.3.4
- _ZNK5Solid7Control20BluetoothInputDevice13getPropertiesEv@Base 4:4.3.4
- _ZNK5Solid7Control20BluetoothInputDevice3ubiEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control20BluetoothInputDevice10metaObjectEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control20BluetoothInputDevice13getPropertiesEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control20BluetoothInputDevice3ubiEv@Base 4:4.3.4
  _ZNK5Solid7Control20CdmaNetworkInterface10metaObjectEv@Base 4:4.3.4
  _ZNK5Solid7Control20CdmaNetworkInterface4typeEv@Base 4:4.3.4
+ _ZNK5Solid7Control20ModemGsmHsoInterface10metaObjectEv@Base 4:4.5.90
+ _ZNK5Solid7Control20ModemGsmHsoInterface12authenticateERK7QStringS4_@Base 4:4.5.90
+ _ZNK5Solid7Control20ModemGsmSmsInterface10metaObjectEv@Base 4:4.5.90
+ _ZNK5Solid7Control20ModemGsmSmsInterface13setIndicationEiiiii@Base 4:4.5.90
+ _ZNK5Solid7Control20ModemGsmSmsInterface15sendFromStorageEi@Base 4:4.5.90
+ _ZNK5Solid7Control20ModemGsmSmsInterface3getEi@Base 4:4.5.90
+ _ZNK5Solid7Control20ModemGsmSmsInterface4listEv@Base 4:4.5.90
+ _ZNK5Solid7Control20ModemGsmSmsInterface4saveERK4QMapI7QString8QVariantE@Base 4:4.5.90
+ _ZNK5Solid7Control20ModemGsmSmsInterface4sendERK4QMapI7QString8QVariantE@Base 4:4.5.90
+ _ZNK5Solid7Control20ModemGsmSmsInterface7getSmscEv@Base 4:4.5.90
+ _ZNK5Solid7Control20ModemGsmSmsInterface9deleteSmsEi@Base 4:4.5.90
+ _ZNK5Solid7Control20ModemGsmSmsInterface9getFormatEv@Base 4:4.5.90
+ _ZNK5Solid7Control20ModemGsmSmsInterface9setFormatEi@Base 4:4.5.90
  _ZNK5Solid7Control20RemoteControlManager8Notifier10metaObjectEv@Base 4:4.4.0
- _ZNK5Solid7Control21BluetoothPasskeyAgent10metaObjectEv@Base 4:4.3.4
- _ZNK5Solid7Control21BluetoothRemoteDevice10metaObjectEv@Base 4:4.3.4
- _ZNK5Solid7Control21BluetoothRemoteDevice3ubiEv@Base 4:4.3.4
- _ZNK5Solid7Control21BluetoothRemoteDeviceeqERKS1_@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control21BluetoothPasskeyAgent10metaObjectEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control21BluetoothRemoteDevice10metaObjectEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control21BluetoothRemoteDevice3ubiEv@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZNK5Solid7Control21BluetoothRemoteDeviceeqERKS1_@Base 4:4.3.4
+ _ZNK5Solid7Control21ModemGsmCardInterface10metaObjectEv@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmCardInterface17getSupportedBandsEv@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmCardInterface17getSupportedModesEv@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmCardInterface7getImeiEv@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmCardInterface7getImsiEv@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmCardInterface7sendPinERK7QString@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmCardInterface7sendPukERK7QStringS4_@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmCardInterface9changePinERK7QStringS4_@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmCardInterface9enablePinERK7QStringb@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmUssdInterface10metaObjectEv@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmUssdInterface17getNetworkRequestEv@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmUssdInterface22getNetworkNotificationEv@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmUssdInterface6cancelEv@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmUssdInterface7respondE7QString@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmUssdInterface8getStateEv@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemGsmUssdInterface8initiateERK7QString@Base 4:4.5.90
+ _ZNK5Solid7Control21ModemManagerInterface10metaObjectEv@Base 4:4.5.90
  _ZNK5Solid7Control21WiredNetworkInterface10metaObjectEv@Base 4:4.3.4
  _ZNK5Solid7Control21WiredNetworkInterface15hardwareAddressEv@Base 4:4.3.4
  _ZNK5Solid7Control21WiredNetworkInterface4typeEv@Base 4:4.3.4
  _ZNK5Solid7Control21WiredNetworkInterface7bitRateEv@Base 4:4.3.4
  _ZNK5Solid7Control21WiredNetworkInterface7carrierEv@Base 4:4.3.4
+ _ZNK5Solid7Control22ModemLocationInterface10metaObjectEv@Base 4:4.5.90
  _ZNK5Solid7Control22SerialNetworkInterface10metaObjectEv@Base 4:4.3.4
  _ZNK5Solid7Control22SerialNetworkInterface4typeEv@Base 4:4.3.4
+ _ZNK5Solid7Control24ModemGsmNetworkInterface10metaObjectEv@Base 4:4.5.90
+ _ZNK5Solid7Control24ModemGsmNetworkInterface14getAllowedModeEv@Base 4:4.5.90
+ _ZNK5Solid7Control24ModemGsmNetworkInterface14setAllowedModeENS0_14ModemInterface11AllowedModeE@Base 4:4.5.90
+ _ZNK5Solid7Control24ModemGsmNetworkInterface16getSignalQualityEv@Base 4:4.5.90
+ _ZNK5Solid7Control24ModemGsmNetworkInterface17registerToNetworkERK7QString@Base 4:4.5.90
+ _ZNK5Solid7Control24ModemGsmNetworkInterface19getAccessTechnologyEv@Base 4:4.5.90
+ _ZNK5Solid7Control24ModemGsmNetworkInterface19getRegistrationInfoEv@Base 4:4.5.90
+ _ZNK5Solid7Control24ModemGsmNetworkInterface23registrationInfoChangedERKNS1_20RegistrationInfoTypeE@Base 4:4.5.90
+ _ZNK5Solid7Control24ModemGsmNetworkInterface4scanEv@Base 4:4.5.90
+ _ZNK5Solid7Control24ModemGsmNetworkInterface4typeEv@Base 4:4.5.90
+ _ZNK5Solid7Control24ModemGsmNetworkInterface6setApnERK7QString@Base 4:4.5.90
+ _ZNK5Solid7Control24ModemGsmNetworkInterface7getBandEv@Base 4:4.5.90
+ _ZNK5Solid7Control24ModemGsmNetworkInterface7setBandENS0_14ModemInterface4BandE@Base 4:4.5.90
  _ZNK5Solid7Control24WirelessNetworkInterface10metaObjectEv@Base 4:4.3.4
  _ZNK5Solid7Control24WirelessNetworkInterface12accessPointsEv@Base 4:4.3.4
  _ZNK5Solid7Control24WirelessNetworkInterface15findAccessPointERK7QString@Base 4:4.3.4
@@ -451,63 +693,103 @@ libsolidcontrol.so.4 libsolidcontrol4a #MINVER#
  _ZNK5Solid7Control24WirelessNetworkInterface4modeEv@Base 4:4.3.4
  _ZNK5Solid7Control24WirelessNetworkInterface4typeEv@Base 4:4.3.4
  _ZNK5Solid7Control24WirelessNetworkInterface7bitRateEv@Base 4:4.3.4
- _ZNK5Solid7Control27BluetoothAuthorizationAgent10metaObjectEv@Base 4:4.3.4
+ _ZNK5Solid7Control25ModemGsmContactsInterface10addContactERK7QStringS4_@Base 4:4.5.90
+ _ZNK5Solid7Control25ModemGsmContactsInterface10metaObjectEv@Base 4:4.5.90
+ _ZNK5Solid7Control25ModemGsmContactsInterface13deleteContactEi@Base 4:4.5.90
+ _ZNK5Solid7Control25ModemGsmContactsInterface3getEi@Base 4:4.5.90
+ _ZNK5Solid7Control25ModemGsmContactsInterface4findERK7QString@Base 4:4.5.90
+ _ZNK5Solid7Control25ModemGsmContactsInterface4listEv@Base 4:4.5.90
+ _ZNK5Solid7Control25ModemGsmContactsInterface8getCountEv@Base 4:4.5.90
+#MISSING: 4:4.5.90# _ZNK5Solid7Control27BluetoothAuthorizationAgent10metaObjectEv@Base 4:4.3.4
  _ZNK5Solid7Control9IPv4Route5routeEv@Base 4:4.3.4
  _ZNK5Solid7Control9IPv4Route6metricEv@Base 4:4.3.4
  _ZNK5Solid7Control9IPv4Route6prefixEv@Base 4:4.3.4
  _ZNK5Solid7Control9IPv4Route7isValidEv@Base 4:4.3.4
  _ZNK5Solid7Control9IPv4Route7nextHopEv@Base 4:4.3.4
  _ZTIN5Solid7Control11AccessPointE@Base 4:4.3.4
- _ZTIN5Solid7Control12PowerManager8NotifierE@Base 4:4.3.4
+ _ZTIN5Solid7Control12ModemManager8NotifierE@Base 4:4.5.90
+#MISSING: 4:4.5.90# _ZTIN5Solid7Control12PowerManager8NotifierE@Base 4:4.3.4
  _ZTIN5Solid7Control13RemoteControlE@Base 4:4.4.0
+ _ZTIN5Solid7Control14ModemInterfaceE@Base 4:4.5.90
  _ZTIN5Solid7Control14NetworkManager8NotifierE@Base 4:4.3.4
- _ZTIN5Solid7Control16BluetoothManagerE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTIN5Solid7Control16BluetoothManagerE@Base 4:4.3.4
  _ZTIN5Solid7Control16NetworkInterfaceE@Base 4:4.3.4
- _ZTIN5Solid7Control17BluetoothSecurityE@Base 4:4.3.4
- _ZTIN5Solid7Control18BluetoothInterfaceE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTIN5Solid7Control17BluetoothSecurityE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTIN5Solid7Control18BluetoothInterfaceE@Base 4:4.3.4
+ _ZTIN5Solid7Control18ModemCdmaInterfaceE@Base 4:4.5.90
  _ZTIN5Solid7Control19GsmNetworkInterfaceE@Base 4:4.3.4
- _ZTIN5Solid7Control20BluetoothInputDeviceE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTIN5Solid7Control20BluetoothInputDeviceE@Base 4:4.3.4
  _ZTIN5Solid7Control20CdmaNetworkInterfaceE@Base 4:4.3.4
+ _ZTIN5Solid7Control20ModemGsmHsoInterfaceE@Base 4:4.5.90
+ _ZTIN5Solid7Control20ModemGsmSmsInterfaceE@Base 4:4.5.90
  _ZTIN5Solid7Control20RemoteControlManager8NotifierE@Base 4:4.4.0
- _ZTIN5Solid7Control21BluetoothPasskeyAgentE@Base 4:4.3.4
- _ZTIN5Solid7Control21BluetoothRemoteDeviceE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTIN5Solid7Control21BluetoothPasskeyAgentE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTIN5Solid7Control21BluetoothRemoteDeviceE@Base 4:4.3.4
+ _ZTIN5Solid7Control21ModemGsmCardInterfaceE@Base 4:4.5.90
+ _ZTIN5Solid7Control21ModemGsmUssdInterfaceE@Base 4:4.5.90
+ _ZTIN5Solid7Control21ModemManagerInterfaceE@Base 4:4.5.90
  _ZTIN5Solid7Control21WiredNetworkInterfaceE@Base 4:4.3.4
+ _ZTIN5Solid7Control22ModemLocationInterfaceE@Base 4:4.5.90
  _ZTIN5Solid7Control22SerialNetworkInterfaceE@Base 4:4.3.4
+ _ZTIN5Solid7Control24ModemGsmNetworkInterfaceE@Base 4:4.5.90
  _ZTIN5Solid7Control24WirelessNetworkInterfaceE@Base 4:4.3.4
- _ZTIN5Solid7Control27BluetoothAuthorizationAgentE@Base 4:4.3.4
+ _ZTIN5Solid7Control25ModemGsmContactsInterfaceE@Base 4:4.5.90
+#MISSING: 4:4.5.90# _ZTIN5Solid7Control27BluetoothAuthorizationAgentE@Base 4:4.3.4
  _ZTSN5Solid7Control11AccessPointE@Base 4:4.3.4
- _ZTSN5Solid7Control12PowerManager8NotifierE@Base 4:4.3.4
+ _ZTSN5Solid7Control12ModemManager8NotifierE@Base 4:4.5.90
+#MISSING: 4:4.5.90# _ZTSN5Solid7Control12PowerManager8NotifierE@Base 4:4.3.4
  _ZTSN5Solid7Control13RemoteControlE@Base 4:4.4.0
+ _ZTSN5Solid7Control14ModemInterfaceE@Base 4:4.5.90
  _ZTSN5Solid7Control14NetworkManager8NotifierE@Base 4:4.3.4
- _ZTSN5Solid7Control16BluetoothManagerE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTSN5Solid7Control16BluetoothManagerE@Base 4:4.3.4
  _ZTSN5Solid7Control16NetworkInterfaceE@Base 4:4.3.4
- _ZTSN5Solid7Control17BluetoothSecurityE@Base 4:4.3.4
- _ZTSN5Solid7Control18BluetoothInterfaceE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTSN5Solid7Control17BluetoothSecurityE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTSN5Solid7Control18BluetoothInterfaceE@Base 4:4.3.4
+ _ZTSN5Solid7Control18ModemCdmaInterfaceE@Base 4:4.5.90
  _ZTSN5Solid7Control19GsmNetworkInterfaceE@Base 4:4.3.4
- _ZTSN5Solid7Control20BluetoothInputDeviceE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTSN5Solid7Control20BluetoothInputDeviceE@Base 4:4.3.4
  _ZTSN5Solid7Control20CdmaNetworkInterfaceE@Base 4:4.3.4
+ _ZTSN5Solid7Control20ModemGsmHsoInterfaceE@Base 4:4.5.90
+ _ZTSN5Solid7Control20ModemGsmSmsInterfaceE@Base 4:4.5.90
  _ZTSN5Solid7Control20RemoteControlManager8NotifierE@Base 4:4.4.0
- _ZTSN5Solid7Control21BluetoothPasskeyAgentE@Base 4:4.3.4
- _ZTSN5Solid7Control21BluetoothRemoteDeviceE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTSN5Solid7Control21BluetoothPasskeyAgentE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTSN5Solid7Control21BluetoothRemoteDeviceE@Base 4:4.3.4
+ _ZTSN5Solid7Control21ModemGsmCardInterfaceE@Base 4:4.5.90
+ _ZTSN5Solid7Control21ModemGsmUssdInterfaceE@Base 4:4.5.90
+ _ZTSN5Solid7Control21ModemManagerInterfaceE@Base 4:4.5.90
  _ZTSN5Solid7Control21WiredNetworkInterfaceE@Base 4:4.3.4
+ _ZTSN5Solid7Control22ModemLocationInterfaceE@Base 4:4.5.90
  _ZTSN5Solid7Control22SerialNetworkInterfaceE@Base 4:4.3.4
+ _ZTSN5Solid7Control24ModemGsmNetworkInterfaceE@Base 4:4.5.90
  _ZTSN5Solid7Control24WirelessNetworkInterfaceE@Base 4:4.3.4
- _ZTSN5Solid7Control27BluetoothAuthorizationAgentE@Base 4:4.3.4
+ _ZTSN5Solid7Control25ModemGsmContactsInterfaceE@Base 4:4.5.90
+#MISSING: 4:4.5.90# _ZTSN5Solid7Control27BluetoothAuthorizationAgentE@Base 4:4.3.4
  _ZTVN5Solid7Control11AccessPointE@Base 4:4.3.4
- _ZTVN5Solid7Control12PowerManager8NotifierE@Base 4:4.3.4
+ _ZTVN5Solid7Control12ModemManager8NotifierE@Base 4:4.5.90
+#MISSING: 4:4.5.90# _ZTVN5Solid7Control12PowerManager8NotifierE@Base 4:4.3.4
  _ZTVN5Solid7Control13RemoteControlE@Base 4:4.4.0
+ _ZTVN5Solid7Control14ModemInterfaceE@Base 4:4.5.90
  _ZTVN5Solid7Control14NetworkManager8NotifierE@Base 4:4.3.4
- _ZTVN5Solid7Control16BluetoothManagerE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTVN5Solid7Control16BluetoothManagerE@Base 4:4.3.4
  _ZTVN5Solid7Control16NetworkInterfaceE@Base 4:4.3.4
- _ZTVN5Solid7Control17BluetoothSecurityE@Base 4:4.3.4
- _ZTVN5Solid7Control18BluetoothInterfaceE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTVN5Solid7Control17BluetoothSecurityE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTVN5Solid7Control18BluetoothInterfaceE@Base 4:4.3.4
+ _ZTVN5Solid7Control18ModemCdmaInterfaceE@Base 4:4.5.90
  _ZTVN5Solid7Control19GsmNetworkInterfaceE@Base 4:4.3.4
- _ZTVN5Solid7Control20BluetoothInputDeviceE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTVN5Solid7Control20BluetoothInputDeviceE@Base 4:4.3.4
  _ZTVN5Solid7Control20CdmaNetworkInterfaceE@Base 4:4.3.4
+ _ZTVN5Solid7Control20ModemGsmHsoInterfaceE@Base 4:4.5.90
+ _ZTVN5Solid7Control20ModemGsmSmsInterfaceE@Base 4:4.5.90
  _ZTVN5Solid7Control20RemoteControlManager8NotifierE@Base 4:4.4.0
- _ZTVN5Solid7Control21BluetoothPasskeyAgentE@Base 4:4.3.4
- _ZTVN5Solid7Control21BluetoothRemoteDeviceE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTVN5Solid7Control21BluetoothPasskeyAgentE@Base 4:4.3.4
+#MISSING: 4:4.5.90# _ZTVN5Solid7Control21BluetoothRemoteDeviceE@Base 4:4.3.4
+ _ZTVN5Solid7Control21ModemGsmCardInterfaceE@Base 4:4.5.90
+ _ZTVN5Solid7Control21ModemGsmUssdInterfaceE@Base 4:4.5.90
+ _ZTVN5Solid7Control21ModemManagerInterfaceE@Base 4:4.5.90
  _ZTVN5Solid7Control21WiredNetworkInterfaceE@Base 4:4.3.4
+ _ZTVN5Solid7Control22ModemLocationInterfaceE@Base 4:4.5.90
  _ZTVN5Solid7Control22SerialNetworkInterfaceE@Base 4:4.3.4
+ _ZTVN5Solid7Control24ModemGsmNetworkInterfaceE@Base 4:4.5.90
  _ZTVN5Solid7Control24WirelessNetworkInterfaceE@Base 4:4.3.4
- _ZTVN5Solid7Control27BluetoothAuthorizationAgentE@Base 4:4.3.4
+ _ZTVN5Solid7Control25ModemGsmContactsInterfaceE@Base 4:4.5.90
+#MISSING: 4:4.5.90# _ZTVN5Solid7Control27BluetoothAuthorizationAgentE@Base 4:4.3.4

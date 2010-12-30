@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.0 amd64
+# SymbolsHelper-Confirmed: 4:4.5.90 amd64
 libplasmaclock.so.4 libplasmaclock4b #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN11ClockApplet10popupEventEb@Base 4:4.3.4
@@ -16,6 +16,8 @@ libplasmaclock.so.4 libplasmaclock4b #MINVER#
  _ZN11ClockApplet16staticMetaObjectE@Base 4:4.3.4
  _ZN11ClockApplet16updateTipContentEv@Base 4:4.3.4
  _ZN11ClockApplet17contextualActionsEv@Base 4:4.3.4
+ _ZN11ClockApplet17resetLastTimeSeenEv@Base 4:4.5.90
+ _ZN11ClockApplet17updateClockAppletERK5QHashI7QString8QVariantE@Base 4:4.5.90
  _ZN11ClockApplet17updateClockAppletEv@Base 4:4.5.0
  _ZN11ClockApplet18clockConfigChangedEv@Base 4:4.4.1
  _ZN11ClockApplet18setCurrentTimezoneERK7QString@Base 4:4.3.4
@@ -35,7 +37,8 @@ libplasmaclock.so.4 libplasmaclock4b #MINVER#
  _ZN11ClockAppletD0Ev@Base 4:4.3.4
  _ZN11ClockAppletD1Ev@Base 4:4.3.4
  _ZN11ClockAppletD2Ev@Base 4:4.3.4
- _ZN6Plasma13CalendarTable10addHolidayERK5QDate5QHashI7QString8QVariantE@Base 4:4.5.0
+ _ZN6Plasma13CalendarTable10addHolidayE5QHashI7QString8QVariantE@Base 4:4.5.90
+#MISSING: 4:4.5.90# _ZN6Plasma13CalendarTable10addHolidayERK5QDate5QHashI7QString8QVariantE@Base 4:4.5.0
  _ZN6Plasma13CalendarTable10wheelEventEP24QGraphicsSceneWheelEvent@Base 4:4.3.4
  _ZN6Plasma13CalendarTable11dataUpdatedERK7QStringRK5QHashIS1_8QVariantE@Base 4:4.5.0
  _ZN6Plasma13CalendarTable11dateChangedERK5QDate@Base 4:4.3.4
@@ -62,11 +65,13 @@ libplasmaclock.so.4 libplasmaclock4b #MINVER#
  _ZN6Plasma13CalendarTable16populateHolidaysEv@Base 4:4.3.4
  _ZN6Plasma13CalendarTable16setDisplayEventsEb@Base 4:4.5.0
  _ZN6Plasma13CalendarTable16staticMetaObjectE@Base 4:4.3.4
+ _ZN6Plasma13CalendarTable17addHolidaysRegionERK7QStringb@Base 4:4.5.90
  _ZN6Plasma13CalendarTable17mouseReleaseEventEP24QGraphicsSceneMouseEvent@Base 4:4.3.4
- _ZN6Plasma13CalendarTable17setHolidaysRegionERK7QString@Base 4:4.4.0
+#MISSING: 4:4.5.90# _ZN6Plasma13CalendarTable17setHolidaysRegionERK7QString@Base 4:4.4.0
  _ZN6Plasma13CalendarTable18applyConfigurationE12KConfigGroup@Base 4:4.4.0
  _ZN6Plasma13CalendarTable18setDisplayHolidaysEb@Base 4:4.4.0
  _ZN6Plasma13CalendarTable18writeConfigurationE12KConfigGroup@Base 4:4.4.0
+ _ZN6Plasma13CalendarTable20clearHolidaysRegionsEv@Base 4:4.5.90
  _ZN6Plasma13CalendarTable25setAutomaticUpdateEnabledEb@Base 4:4.5.0
  _ZN6Plasma13CalendarTable27applyConfigurationInterfaceEv@Base 4:4.4.0
  _ZN6Plasma13CalendarTable28createConfigurationInterfaceEP13KConfigDialog@Base 4:4.4.0
@@ -101,10 +106,12 @@ libplasmaclock.so.4 libplasmaclock4b #MINVER#
  _ZN6Plasma8Calendar15showYearSpinBoxEv@Base 4:4.3.4
  _ZN6Plasma8Calendar16manualDateChangeEv@Base 4:4.3.4
  _ZN6Plasma8Calendar16staticMetaObjectE@Base 4:4.3.4
- _ZN6Plasma8Calendar17setHolidaysRegionERK7QString@Base 4:4.4.0
+ _ZN6Plasma8Calendar17addHolidaysRegionERK7QStringb@Base 4:4.5.90
+#MISSING: 4:4.5.90# _ZN6Plasma8Calendar17setHolidaysRegionERK7QString@Base 4:4.4.0
  _ZN6Plasma8Calendar18applyConfigurationE12KConfigGroup@Base 4:4.4.0
  _ZN6Plasma8Calendar18setDisplayHolidaysEb@Base 4:4.4.0
  _ZN6Plasma8Calendar18writeConfigurationE12KConfigGroup@Base 4:4.4.0
+ _ZN6Plasma8Calendar20clearHolidaysRegionsEv@Base 4:4.5.90
  _ZN6Plasma8Calendar25setAutomaticUpdateEnabledEb@Base 4:4.5.0
  _ZN6Plasma8Calendar27applyConfigurationInterfaceEv@Base 4:4.4.0
  _ZN6Plasma8Calendar28createConfigurationInterfaceEP13KConfigDialog@Base 4:4.4.0
@@ -127,6 +134,7 @@ libplasmaclock.so.4 libplasmaclock4b #MINVER#
  _ZN6Plasma8CalendarD1Ev@Base 4:4.3.4
  _ZN6Plasma8CalendarD2Ev@Base 4:4.3.4
  _ZNK11ClockApplet10metaObjectEv@Base 4:4.3.4
+ _ZNK11ClockApplet12lastTimeSeenEv@Base 4:4.5.90
  _ZNK11ClockApplet14prettyTimezoneEv@Base 4:4.3.4
  _ZNK11ClockApplet15currentTimezoneEv@Base 4:4.3.4
  _ZNK11ClockApplet15isLocalTimezoneEv@Base 4:4.3.4
@@ -138,7 +146,9 @@ libplasmaclock.so.4 libplasmaclock4b #MINVER#
  _ZNK6Plasma13CalendarTable11currentDateEv@Base 4:4.5.0
  _ZNK6Plasma13CalendarTable11dateDetailsERK5QDate@Base 4:4.5.0
  _ZNK6Plasma13CalendarTable14dateHasDetailsERK5QDate@Base 4:4.5.0
- _ZNK6Plasma13CalendarTable14holidaysRegionEv@Base 4:4.4.0
+#MISSING: 4:4.5.90# _ZNK6Plasma13CalendarTable14holidaysRegionEv@Base 4:4.4.0
+ _ZNK6Plasma13CalendarTable15holidaysRegionsEv@Base 4:4.5.90
+ _ZNK6Plasma13CalendarTable22holidaysRegionsDaysOffEv@Base 4:4.5.90
  _ZNK6Plasma13CalendarTable24isAutomaticUpdateEnabledEv@Base 4:4.5.0
  _ZNK6Plasma13CalendarTable4dateEv@Base 4:4.3.4
  _ZNK6Plasma13CalendarTable8calendarEv@Base 4:4.3.4
@@ -148,7 +158,8 @@ libplasmaclock.so.4 libplasmaclock4b #MINVER#
  _ZNK6Plasma8Calendar11dateDetailsERK5QDate@Base 4:4.5.0
  _ZNK6Plasma8Calendar13calendarTableEv@Base 4:4.3.4
  _ZNK6Plasma8Calendar14dateHasDetailsERK5QDate@Base 4:4.5.0
- _ZNK6Plasma8Calendar14holidaysRegionEv@Base 4:4.4.0
+#MISSING: 4:4.5.90# _ZNK6Plasma8Calendar14holidaysRegionEv@Base 4:4.4.0
+ _ZNK6Plasma8Calendar15holidaysRegionsEv@Base 4:4.5.90
  _ZNK6Plasma8Calendar24isAutomaticUpdateEnabledEv@Base 4:4.5.0
  _ZNK6Plasma8Calendar4dateEv@Base 4:4.3.4
  _ZNK6Plasma8Calendar8calendarEv@Base 4:4.3.4
