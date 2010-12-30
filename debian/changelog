@@ -83,6 +83,11 @@ kdebase-workspace (4:4.5.86-0r1) UNRELEASED; urgency=low
   * Rename libweather-ion4a as libweather-ion6.
   * Remove plasma-scriptengine-qedje package.
 
+  [ Pino Toscano]
+  * Remove unused build dependencies:
+    - libqedje-dev
+    - libbluetooth-dev
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
 kdebase-workspace (4:4.4.5-5) unstable; urgency=medium
