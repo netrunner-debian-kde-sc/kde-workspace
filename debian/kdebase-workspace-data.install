@@ -1,9 +1,11 @@
 etc/dbus-1/system.d/org.kde.fontinst.conf
 etc/dbus-1/system.d/org.kde.kcontrol.kcmclock.conf
+etc/dbus-1/system.d/org.kde.powerdevil.backlighthelper.conf
 usr/share/dbus-1/services/org.kde.fontinst.service
 usr/share/dbus-1/services/org.kde.krunner.service
 usr/share/dbus-1/system-services/org.kde.fontinst.service
 usr/share/dbus-1/system-services/org.kde.kcontrol.kcmclock.service
+usr/share/dbus-1/system-services/org.kde.powerdevil.backlighthelper.service
 usr/share/doc/kde/HTML/en/kcontrol/autostart/common
 usr/share/doc/kde/HTML/en/kcontrol/autostart/index.cache.bz2
 usr/share/doc/kde/HTML/en/kcontrol/autostart/index.docbook
@@ -211,6 +213,7 @@ usr/share/kde4/apps/ksplash/Themes/Default/1600x1200/icon4_anim.png
 usr/share/kde4/apps/ksplash/Themes/Default/1600x1200/icon5.png
 usr/share/kde4/apps/ksplash/Themes/Default/1600x1200/icon5_anim.png
 usr/share/kde4/apps/ksplash/Themes/Default/1600x1200/rectangle.png
+usr/share/kde4/apps/ksplash/Themes/Default/1920x1080/background.png
 usr/share/kde4/apps/ksplash/Themes/Default/1920x1200/background.png
 usr/share/kde4/apps/ksplash/Themes/Default/600x400/background.png
 usr/share/kde4/apps/ksplash/Themes/Default/800x600/background.png
@@ -282,6 +285,7 @@ usr/share/kde4/config/wallpaper.knsrc
 usr/share/kde4/services/fonts.protocol
 usr/share/polkit-1/actions/org.kde.fontinst.policy
 usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy
+usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy
 usr/share/wallpapers/Aghi/contents/images/1024x768.jpg
 usr/share/wallpapers/Aghi/contents/images/1280x1024.jpg
 usr/share/wallpapers/Aghi/contents/images/1280x800.jpg
@@ -352,6 +356,12 @@ usr/share/wallpapers/Hanami/contents/images/1920x1080.jpg
 usr/share/wallpapers/Hanami/contents/images/1920x1200.jpg
 usr/share/wallpapers/Hanami/contents/screenshot.png
 usr/share/wallpapers/Hanami/metadata.desktop
+usr/share/wallpapers/Horos/contents/images/1280x1024.png
+usr/share/wallpapers/Horos/contents/images/1600x1200.png
+usr/share/wallpapers/Horos/contents/images/1920x1080.png
+usr/share/wallpapers/Horos/contents/images/1920x1200.png
+usr/share/wallpapers/Horos/contents/screenshot.png
+usr/share/wallpapers/Horos/metadata.desktop
 usr/share/wallpapers/Media_Life/contents/images/1280x1024.jpg
 usr/share/wallpapers/Media_Life/contents/images/1280x800.jpg
 usr/share/wallpapers/Media_Life/contents/images/1440x900.jpg
