@@ -184,5 +184,8 @@ usr/share/kde4/services/workspaceoptions.desktop
 usr/share/kde4/services/xinerama.desktop
 usr/share/kde4/servicetypes/screensaver.desktop
 usr/share/kde4/servicetypes/solid-device-type.desktop
+usr/share/kde4/servicetypes/solidbluetoothmanager.desktop
+usr/share/kde4/servicetypes/solidnetworkmanager.desktop
+usr/share/kde4/servicetypes/solidpowermanager.desktop
 usr/share/kde4/servicetypes/solidremotecontrolmanager.desktop
 usr/share/man/man1/plasmaengineexplorer.1

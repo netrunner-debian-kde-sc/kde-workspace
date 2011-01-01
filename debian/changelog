@@ -1,5 +1,8 @@
 kdebase-workspace (4:4.4.5-6) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Move the solid servicetypes from kdebase-workspace-bin.install.linux to
+    kdebase-workspace-bin.install. (Closes: #608541)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jan 2011 10:36:45 +0100
 
