@@ -4,6 +4,11 @@ kdebase-workspace (4:4.4.5-6) UNRELEASED; urgency=medium
   * Move the solid servicetypes from kdebase-workspace-bin.install.linux to
     kdebase-workspace-bin.install. (Closes: #608541)
 
+  [ Modestas Vainius ]
+  * Document a workaround for the "dark taskbar" bug in README.Debian. The real
+    fix is in KDE SC 4.5 or later. However, regardless, I think this change
+    closes: #564941.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jan 2011 10:36:45 +0100
 
 kdebase-workspace (4:4.4.5-5) unstable; urgency=medium
