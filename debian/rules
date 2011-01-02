@@ -25,6 +25,9 @@ DEB_DH_SHLIBDEPS_ARGS_kdebase-workspace-dev := -- -xkdebase-runtime
 # is not enough)
 DEB_DH_INSTALLINIT_ARGS = --noscripts
 
+# Install README.Debian to all binary packages
+DEB_INSTALL_DOCS_DEFAULT += ./debian/README.Debian
+
 $(foreach p,$(filter lib%, $(DEB_ARCH_PACKAGES)),$(eval DEB_DH_SHLIBDEPS_ARGS_$(p) := -- -xkdebase-runtime))
 
 binary-install/kdm::
