@@ -88,6 +88,9 @@ kdebase-workspace (4:4.5.90-0r1) UNRELEASED; urgency=low
     - libqedje-dev
     - libbluetooth-dev
 
+  [ Modestas Vainius ]
+  * Remove README.Debian introduced in 4.4.5-6, no longer applicable.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
 kdebase-workspace (4:4.4.5-6) unstable; urgency=medium
