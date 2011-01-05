@@ -87,6 +87,9 @@ kdebase-workspace (4:4.5.90-0r1) UNRELEASED; urgency=low
   * Remove unused build dependencies:
     - libqedje-dev
     - libbluetooth-dev
+    - libntrack-qt4-dev
+  * Add build dependencies:
+    - libdmtx-dev
 
   [ Modestas Vainius ]
   * Remove README.Debian introduced in 4.4.5-6, no longer applicable.
