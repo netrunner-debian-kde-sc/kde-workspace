@@ -30,7 +30,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  libxfixes-dev, libxft-dev, libxtst-dev, libxss-dev, libsm-dev, libxinerama-dev, libxi-dev,
  libpng-dev, libjpeg62-dev, libxcursor-dev,
  libqalculate-dev,
- libdmtx-dev
+ libdmtx-dev,
+ libqtwebkit-dev
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdebase-workspace.git

@@ -82,6 +82,8 @@ kdebase-workspace (4:4.5.90-0r1) UNRELEASED; urgency=low
   * Update installed files.
   * Rename libweather-ion4a as libweather-ion6.
   * Remove plasma-scriptengine-qedje package.
+  * Add build dependencies:
+    - libqtwebkit-dev
 
   [ Pino Toscano]
   * Remove unused build dependencies:
