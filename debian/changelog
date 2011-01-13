@@ -2,6 +2,8 @@ kdebase-workspace (4:4.4.5-7) UNRELEASED; urgency=low
 
   * Replace Conflicts against kwin with Breaks in kde-window-manager. Also
     version them at (<< 4:4).
+  * Remove Replaces/Conflicts on kwin (>= 4:4.0.1-1) from libkdecorations4 and
+    libkwineffects1a packages.
 
  -- Modestas Vainius <modax@debian.org>  Thu, 13 Jan 2011 21:43:46 +0200
 
