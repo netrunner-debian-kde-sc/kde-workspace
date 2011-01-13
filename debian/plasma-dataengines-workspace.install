@@ -40,14 +40,8 @@ usr/share/kde4/apps/plasma/services/org.kde.places.operations
 usr/share/kde4/apps/plasma/services/share.operations
 usr/share/kde4/apps/plasma/services/statusnotifieritem.operations
 usr/share/kde4/apps/plasma/services/tasks.operations
-usr/share/kde4/apps/plasma/shareprovider/imagebinca/contents/code/main.js
-usr/share/kde4/apps/plasma/shareprovider/imagebinca/metadata.desktop
-usr/share/kde4/apps/plasma/shareprovider/imageshack/contents/code/main.js
-usr/share/kde4/apps/plasma/shareprovider/imageshack/metadata.desktop
 usr/share/kde4/apps/plasma/shareprovider/imgur/contents/code/main.js
 usr/share/kde4/apps/plasma/shareprovider/imgur/metadata.desktop
-usr/share/kde4/apps/plasma/shareprovider/pastebinca/contents/code/main.js
-usr/share/kde4/apps/plasma/shareprovider/pastebinca/metadata.desktop
 usr/share/kde4/apps/plasma/shareprovider/pastebincom/contents/code/main.js
 usr/share/kde4/apps/plasma/shareprovider/pastebincom/metadata.desktop
 usr/share/kde4/apps/plasma/shareprovider/pasteopensuseorg/contents/code/main.js
@@ -84,10 +78,7 @@ usr/share/kde4/services/plasma-dataengine-nowplaying.desktop
 usr/share/kde4/services/plasma-dataengine-places.desktop
 usr/share/kde4/services/plasma-dataengine-powermanagement.desktop
 usr/share/kde4/services/plasma-dataengine-rss.desktop
-usr/share/kde4/services/plasma-dataengine-share-addon-imagebinca.desktop
-usr/share/kde4/services/plasma-dataengine-share-addon-imageshack.desktop
 usr/share/kde4/services/plasma-dataengine-share-addon-imgur.desktop
-usr/share/kde4/services/plasma-dataengine-share-addon-pastebinca.desktop
 usr/share/kde4/services/plasma-dataengine-share-addon-pastebincom.desktop
 usr/share/kde4/services/plasma-dataengine-share-addon-pasteopensuseorg.desktop
 usr/share/kde4/services/plasma-dataengine-share-addon-pasteubuntucom.desktop

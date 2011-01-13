@@ -1,7 +1,5 @@
 
 #no need to ship dev symlink
-./usr/lib/libkwinnvidiahack.so
-./usr/lib/libtime_solar.so
 ./usr/lib/libplasmagenericshell.so
 ./usr/lib/libsystemsettingsview.so
 ./usr/lib/libplasma_applet-system-monitor.so
@@ -779,7 +777,6 @@
 ./usr/include/systemsettingsview/MenuProxyModel.h
 ./usr/include/systemsettingsview/ModuleView.h
 ./usr/include/systemsettingsview/systemsettingsview_export.h
-./usr/include/systemsettingsview/ToolTipManager.h
 
 # this is installed for upgrade purposes for people that build from sources
 ./usr/share/autostart/plasma.desktop
@@ -788,3 +785,13 @@
 ./usr/share/man/man1/plasmaengineexplorer.1
 ./usr/share/man/man1/plasmapkg.1
 ./usr/share/man/man1/plasmoidviewer.1
+
+# These are moved by dh_movelibkdeinit
+./usr/lib/libkdeinit4_kaccess.so
+./usr/lib/libkdeinit4_kcminit.so
+./usr/lib/libkdeinit4_kcminit_startup.so
+./usr/lib/libkdeinit4_kmenuedit.so
+./usr/lib/libkdeinit4_krunner.so
+./usr/lib/libkdeinit4_ksmserver.so
+./usr/lib/libkdeinit4_plasma-windowed.so
+
