@@ -317,8 +317,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Provides: x-window-manager
 Replaces: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80),
- kwin, kdebase-runtime-data (<< 4:4.4.0)
-Conflicts: kwin
+ kwin (<< 4:4), kdebase-runtime-data (<< 4:4.4.0)
+Breaks: kwin (<< 4:4)
 Description: the K window manager (KWin)
  This package contains KWin, the KDE window manager, featuring 
  hardware-accelerated compositing effects.
@@ -329,8 +329,6 @@ Package: libkdecorations4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kwin (>= 4:4.0.1-1)
-Conflicts: kwin (>= 4:4.0.1-1)
 Description: library used by decorations for the KDE window manager
  This package contains a library used by decorations of the KDE  window
  manager.
@@ -342,8 +340,8 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: libkwineffects1-api
-Replaces: kwin (>= 4:4.0.1-1), libkwineffects1, libkwineffects1-api
-Conflicts: kwin (>= 4:4.0.1-1), libkwineffects1, libkwineffects1-api
+Replaces: libkwineffects1, libkwineffects1-api
+Conflicts: libkwineffects1, libkwineffects1-api
 Description: library used by effects for the KDE window manager
  This package contains a library used by effects for the KDE window manager.
  .

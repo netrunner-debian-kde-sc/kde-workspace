@@ -98,6 +98,16 @@ kdebase-workspace (4:4.5.95-0r1) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
+kdebase-workspace (4:4.4.5-7) unstable; urgency=high
+
+  * Replace Conflicts against kwin with Breaks in kde-window-manager. Also
+    version them at (<< 4:4).
+  * Remove Replaces/Conflicts on kwin (>= 4:4.0.1-1) from libkdecorations4 and
+    libkwineffects1a packages.
+  * Urgency=high, important for squeeze release.
+
+ -- Modestas Vainius <modax@debian.org>  Thu, 13 Jan 2011 21:50:34 +0200
+
 kdebase-workspace (4:4.4.5-6) unstable; urgency=medium
 
   [ Pino Toscano ]
