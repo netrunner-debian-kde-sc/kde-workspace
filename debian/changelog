@@ -1,7 +1,22 @@
 kdebase-workspace (4:4.5.95-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
-    - no more dirt in kdmrc. (Closes: #439781)
+    - adds authorization support to the login manager configuration module
+      (Closes: #523094)
+    - fixes unresponsive Plasma desktop while editing device actions
+      (Closes: #597635)
+    - makes example host names in KDM configuration file more neutral
+      (Closes: #439781)
+    - removes Plasma zooming user interface. (Closes: #523524)
+    - fixes broken web shortcuts in krunner (Closes: #529861)
+    - adjusts strict geometry policies in kwin (Closes: #564800)
+    - limits the number of power profiles shown at the same time
+      (Closes: #577475)
+    - fixes missing shutdown and restart functionality in gdm 2.21+
+      (Closes: #581841)
+    - fixes Plasma digital clock widget not using locale date format
+      (Closes: #524055)
+    - fixes long application startup delays in krunner (Closes: #597111)
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
