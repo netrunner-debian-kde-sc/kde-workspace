@@ -1,9 +1,10 @@
-kdebase-workspace (4:4.4.5-8) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.5-8) unstable; urgency=high
 
   * Backport 33_backport_krunner_crash_fix_threading.diff patch from 4.5.0 to
     fix random but common krunner crashes. (Closes: #607974)
+  * Urgency=high, might get to squeeze.
 
- -- Modestas Vainius <modax@debian.org>  Tue, 18 Jan 2011 01:51:24 +0200
+ -- Modestas Vainius <modax@debian.org>  Thu, 20 Jan 2011 01:04:32 +0200
 
 kdebase-workspace (4:4.4.5-7) unstable; urgency=high
 
