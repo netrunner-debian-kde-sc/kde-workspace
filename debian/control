@@ -88,7 +88,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, iso-codes,
  plasma-desktop (= ${binary:Version}) | plasma-netbook (= ${binary:Version}),
  kdebase-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils,
  kaboom (>= 1.0.5), kdebase-workspace-kgreet-plugins (= ${binary:Version})
-Recommends: plasma-scriptengines, polkit-kde-1 | policykit-1-gnome
+Recommends: plasma-scriptengines, polkit-kde-1 | policykit-1-gnome,
+ upower [linux-any]
 Suggests: x11-xkb-utils
 Conflicts: kcontrol, libplasma1, libplasma2, libkfontinst4, ksplash
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip, libplasma2,
