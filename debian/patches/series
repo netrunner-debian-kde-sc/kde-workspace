@@ -13,3 +13,4 @@
 32_ksmserver_fadeeffect_use_sse2_free.diff
 33_qguiplatformplugin_kde_NULL_check.diff
 97_fix_target_link_libraries.diff
+98_remove_malloc_check_r1217284.diff
