@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.90 amd64
+# SymbolsHelper-Confirmed: 4:4.6.0 amd64
 libkwineffects.so.1 libkwineffects1a #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN4KWin10Extensions10has_damageE@Base 4:4.3.4
@@ -381,6 +381,7 @@ libkwineffects.so.1 libkwineffects1a #MINVER#
  _ZNK4KWin10GLPlatform13kernelVersionEv@Base 4:4.5.90
  _ZNK4KWin10GLPlatform13serverVersionEv@Base 4:4.5.90
  _ZNK4KWin10GLPlatform14galliumVersionEv@Base 4:4.5.90
+ _ZNK4KWin10GLPlatform15isGalliumDriverEv@Base 4:4.6.0
  _ZNK4KWin10GLPlatform6driverEv@Base 4:4.5.90
  _ZNK4KWin10GLPlatform7isIntelEv@Base 4:4.5.90
  _ZNK4KWin10GLPlatform8isNvidiaEv@Base 4:4.5.90

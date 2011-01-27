@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.5.90 amd64
+# SymbolsHelper-Confirmed: 4:4.6.0 amd64
 libtaskmanager.so.4 libtaskmanager4b #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN11TaskManager11TaskManager10isOnScreenEim@Base 4:4.3.4
@@ -45,14 +45,16 @@ libtaskmanager.so.4 libtaskmanager4b #MINVER#
  _ZN11TaskManager12DesktopsMenu16staticMetaObjectE@Base 4:4.3.4
  _ZN11TaskManager12DesktopsMenuC1EP7QWidgetPNS_21AbstractGroupableItemE@Base 4:4.3.4
  _ZN11TaskManager12DesktopsMenuC2EP7QWidgetPNS_21AbstractGroupableItemE@Base 4:4.3.4
- _ZN11TaskManager12GroupManager11addLauncherERK4KUrl5QIcon7QStringS5_b@Base 4:4.5.90
+ _ZN11TaskManager12GroupManager11addLauncherERK4KUrl5QIcon7QStringS5_@Base 4:4.6.0
+#MISSING: 4:4.6.0# _ZN11TaskManager12GroupManager11addLauncherERK4KUrl5QIcon7QStringS5_b@Base 4:4.5.90
  _ZN11TaskManager12GroupManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN11TaskManager12GroupManager11qt_metacastEPKc@Base 4:4.3.4
- _ZN11TaskManager12GroupManager12findLauncherERK7QString@Base 4:4.5.90
+#MISSING: 4:4.6.0# _ZN11TaskManager12GroupManager12findLauncherERK7QString@Base 4:4.5.90
  _ZN11TaskManager12GroupManager12setFullLimitEi@Base 4:4.3.4
  _ZN11TaskManager12GroupManager13launcherAddedEPNS_12LauncherItemE@Base 4:4.5.90
- _ZN11TaskManager12GroupManager14removeLauncherEPNS_12LauncherItemEb@Base 4:4.5.90
- _ZN11TaskManager12GroupManager14updateLauncherEPNS_21AbstractGroupableItemE@Base 4:4.5.90
+#MISSING: 4:4.6.0# _ZN11TaskManager12GroupManager14removeLauncherEPNS_12LauncherItemEb@Base 4:4.5.90
+ _ZN11TaskManager12GroupManager14removeLauncherERK4KUrl@Base 4:4.6.0
+#MISSING: 4:4.6.0# _ZN11TaskManager12GroupManager14updateLauncherEPNS_21AbstractGroupableItemE@Base 4:4.5.90
  _ZN11TaskManager12GroupManager15launcherRemovedEPNS_12LauncherItemE@Base 4:4.5.90
  _ZN11TaskManager12GroupManager16staticMetaObjectE@Base 4:4.3.4
  _ZN11TaskManager12GroupManager18setSortingStrategyENS0_19TaskSortingStrategyE@Base 4:4.3.4
@@ -88,6 +90,9 @@ libtaskmanager.so.4 libtaskmanager4b #MINVER#
  _ZN11TaskManager12LauncherItem17toggleAlwaysOnTopEv@Base 4:4.5.90
  _ZN11TaskManager12LauncherItem18setKeptBelowOthersEb@Base 4:4.5.90
  _ZN11TaskManager12LauncherItem21toggleKeptBelowOthersEv@Base 4:4.5.90
+ _ZN11TaskManager12LauncherItem22associateItemIfMatchesEPNS_21AbstractGroupableItemE@Base 4:4.6.0
+ _ZN11TaskManager12LauncherItem22removeItemIfAssociatedEPNS_21AbstractGroupableItemE@Base 4:4.6.0
+ _ZN11TaskManager12LauncherItem4showEb@Base 4:4.6.0
  _ZN11TaskManager12LauncherItem5closeEv@Base 4:4.5.90
  _ZN11TaskManager12LauncherItem6launchEv@Base 4:4.5.90
  _ZN11TaskManager12LauncherItem6setUrlERK4KUrl@Base 4:4.5.90
@@ -322,6 +327,7 @@ libtaskmanager.so.4 libtaskmanager4b #MINVER#
  _ZNK11TaskManager12GroupManager10metaObjectEv@Base 4:4.3.4
  _ZNK11TaskManager12GroupManager10taskSorterEv@Base 4:4.3.4
  _ZNK11TaskManager12GroupManager11taskGrouperEv@Base 4:4.3.4
+ _ZNK11TaskManager12GroupManager14launcherExistsERK4KUrl@Base 4:4.6.0
  _ZNK11TaskManager12GroupManager15sortingStrategyEv@Base 4:4.3.4
  _ZNK11TaskManager12GroupManager16groupingStrategyEv@Base 4:4.3.4
  _ZNK11TaskManager12GroupManager17onlyGroupWhenFullEv@Base 4:4.3.4
@@ -331,6 +337,7 @@ libtaskmanager.so.4 libtaskmanager4b #MINVER#
  _ZNK11TaskManager12GroupManager23showOnlyCurrentActivityEv@Base 4:4.5.90
  _ZNK11TaskManager12GroupManager9rootGroupEv@Base 4:4.3.4
  _ZNK11TaskManager12LauncherItem10metaObjectEv@Base 4:4.5.90
+ _ZNK11TaskManager12LauncherItem10shouldShowEv@Base 4:4.6.0
  _ZNK11TaskManager12LauncherItem11addMimeDataEP9QMimeData@Base 4:4.5.90
  _ZNK11TaskManager12LauncherItem11genericNameEv@Base 4:4.5.90
  _ZNK11TaskManager12LauncherItem11isGroupItemEv@Base 4:4.5.90
