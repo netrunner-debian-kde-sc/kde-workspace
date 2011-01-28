@@ -55,7 +55,7 @@ kdebase-workspace (4:4.6.0-0r1) UNRELEASED; urgency=low
       - libxklavier-dev
       - libsmbclient-dev
       - libxcb1-dev
-    - Bump version of kdelibs5-dev and kdepimlibs5-dev to 4:4.6.0.
+    - Bump version of kdelibs5-dev and kdepimlibs5-dev to 4:4.6.
   * Update symbol files.
   * Rename the following library packages due to binary incompatible changes:
     - libkephal4 -> libkephal4a
