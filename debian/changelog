@@ -17,6 +17,9 @@ kdebase-workspace (4:4.6.0-0r1) UNRELEASED; urgency=low
     - fixes Plasma digital clock widget not using locale date format
       (Closes: #524055)
     - fixes long application startup delays in krunner (Closes: #597111)
+  * Update installed files.
+  * Update symbol files.
+  * Refresh patches.
 
   [ George Kiagiadakis ]
   * Change my email address in uploaders.
@@ -29,7 +32,6 @@ kdebase-workspace (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Drop patches for bugs that are fixed upstream:
     - 01_plasma_netbook_no_autostart.diff
     - 27_ld_exclude_libs_qtuitools.diff
-  * Update installed files.
   * Add replaces:
     - kdebase-workspace-data replaces kdebase-runtime-data
       << 4:4.5.0 due to the moved themerc files.
@@ -56,7 +58,6 @@ kdebase-workspace (4:4.6.0-0r1) UNRELEASED; urgency=low
       - libsmbclient-dev
       - libxcb1-dev
     - Bump version of kdelibs5-dev and kdepimlibs5-dev to 4:4.6.
-  * Update symbol files.
   * Rename the following library packages due to binary incompatible changes:
     - libkephal4 -> libkephal4a
     - libplasmaclock4a -> libplasmaclock4b
@@ -76,16 +77,6 @@ kdebase-workspace (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Update lintian overrides.
 
   [ José Manuel Santamaría Lema ]
-  * Refreshed patches:
-    - 06_kdm_does_not_wreak_havoc.diff
-    - 07_kdmrc_defaults.diff
-    - 08_genkdmconf.diff
-    - 09_genkdm_make.diff
-    - 10_kdm_no_custom.diff
-    - 12_be_better_at_honouring_user_kdm_theming.diff
-    - 21_place_global_config_in_etc.diff
-    - 33_qguiplatformplugin_kde_NULL_check.diff
-    - 97_fix_target_link_libraries.diff
   * Dropped patches:
     - 02_kdm_double_servertimeout.diff - applied upstream
     - 28_backport_bug156475_dualhead_support.diff - applied upstream
@@ -96,7 +87,6 @@ kdebase-workspace (4:4.6.0-0r1) UNRELEASED; urgency=low
   * TODO:
     - 30_plasma_netbook_fix_autostart.diff - check if the issue still exists
     - 31_kdm_vt_switching_on_kfreebsd.diff - should be refreshed/reworked
-  * Update installed files.
   * Rename libweather-ion4a as libweather-ion6.
   * Remove plasma-scriptengine-qedje package.
   * Add build dependencies:
