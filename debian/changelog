@@ -102,6 +102,7 @@ kdebase-workspace (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Add build dependencies:
     - libqtwebkit-dev
   * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
+  * Bump S-V to 3.9.1; updated Breaks/Replaces/Conflicts.
 
   [ Pino Toscano]
   * Remove unused build dependencies:

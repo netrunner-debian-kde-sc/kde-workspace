@@ -32,7 +32,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.0),
  libqalculate-dev,
  libdmtx-dev,
  libqtwebkit-dev
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdebase-workspace.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdebase-workspace.git
@@ -59,6 +59,8 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version})
 Recommends: kdebase-workspace
 Replaces: kdebase-workspace-bin (<< 4:4.5.0), kdebase-workspace-data (<< 4:4.5.0),
+ plasma-widgets-workspace (<< 4:4.4.0)
+Breaks: kdebase-workspace-bin (<< 4:4.5.0), kdebase-workspace-data (<< 4:4.5.0),
  plasma-widgets-workspace (<< 4:4.4.0)
 Description: The KDE Plasma workspace for desktop and laptop computers
  Provides the environment for running and managing applications and integrating
@@ -91,12 +93,14 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, iso-codes,
 Recommends: plasma-scriptengines, polkit-kde-1 | policykit-1-gnome,
  upower [linux-any]
 Suggests: x11-xkb-utils
-Conflicts: kcontrol, libplasma1, libplasma2, libkfontinst4, ksplash
 Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip, libplasma2,
  kde-window-manager (<< 4:4.1.80), kdebase-workspace-data (<< 4:4.1.82),
  kdebase-workspace-libs4+5, libkfontinst4, ksplash, kdebase-runtime (<< 4:4.5.0),
- kdebase-data (<< 4:4.5.0), kdesktop
-Breaks: kdesktop
+ kdebase-data (<< 4:4.5.0), kdesktop, libplasma1
+Breaks: kdebase-bin (<< 4:4.0.0-1), kcontrol, kmenuedit, ktip, libplasma2,
+ kde-window-manager (<< 4:4.1.80), kdebase-workspace-data (<< 4:4.1.82),
+ kdebase-workspace-libs4+5, libkfontinst4, ksplash, kdebase-runtime (<< 4:4.5.0),
+ kdebase-data (<< 4:4.5.0), kdesktop, libplasma1
 Description: core binaries for the KDE Plasma Workspace
  This package contains miscellaneous programs needed for a basic desktop
  installation. Among other standard KDE Workspace components, the package
@@ -109,11 +113,12 @@ Description: core binaries for the KDE Plasma Workspace
 Package: kdebase-workspace-data
 Architecture: all
 Depends: oxygencursors, ${misc:Depends}, ${perl:Depends}
-Conflicts: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
- kmenuedit, ktip, libplasma1, systemsettings (<< 4:4.1.80), ksplash
 Replaces: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
  kmenuedit, ktip, kdebase-runtime-data (<< 4:4.5.0), kde-window-manager (<< 4:4.1.80),
- kdm (<< 4:4.2.0-3), systemsettings (<< 4:4.1.80), ksplash
+ kdm (<< 4:4.2.0-3), systemsettings (<< 4:4.1.80), ksplash, libplasma1
+Breaks: ksmserver, kdebase-bin (<< 4:4.0.0-1), kdebase-data (<< 4:4.0.0-1),
+ kmenuedit, ktip, kdebase-runtime-data (<< 4:4.5.0), kde-window-manager (<< 4:4.1.80),
+ kdm (<< 4:4.2.0-3), systemsettings (<< 4:4.1.80), ksplash, libplasma1
 Description: shared data files for the KDE Plasma Workspace
  This package contains architecture-independent shared data files needed for a
  basic KDE Workspace installation.
@@ -126,7 +131,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${allLibraries},
  ${sameVersionDep:kdelibs5-dev:kdebase-workspace-bin},
 Replaces: kdebase-workspace-data (<< 4:4.1.80), ksysguard (<< 4:4.1.80), libplasma-dev (<< 4:4.1.80),
  kde-window-manager (<< 4:4.1.80)
-Conflicts: kdebase-workspace-libs4+5
+Breaks: kdebase-workspace-data (<< 4:4.1.80), ksysguard (<< 4:4.1.80), libplasma-dev (<< 4:4.1.80),
+ kde-window-manager (<< 4:4.1.80), kdebase-workspace-libs4+5
 Description: development files for the KDE Plasma Workspace
  This package contains development files for building software that uses
  libraries from the KDE Plasma Workspace.
@@ -139,7 +145,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: ksysguardd (= ${binary:Version})
 Replaces: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82),
  systemsettings (<< 4:4.1.80), libplasma2
-Conflicts: libplasma2
+Breaks: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82),
+ systemsettings (<< 4:4.1.80), libplasma2
 Description: KDE Plasma data engines
  This package contains standard Plasma data engines shipped in KDE Plasma
  workspace. These engines are needed by the standard KDE base
@@ -153,7 +160,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, plasma-dataengines-workspace (= ${binary:Version}), ${misc:Depends}, kdebase-runtime (>> 4.3.3~)
 Replaces: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82), libplasma2,
  plasma-applets-workspace, kdebase-workspace-libs4+5, libplasma-applet-system-monitor4
-Conflicts: libplasma2, plasma-applets-workspace, kdebase-workspace-libs4+5, libplasma-applet-system-monitor4
+Breaks: kdebase-workspace-bin (<< 4:4.1.82), kdebase-workspace-data (<< 4:4.1.82), libplasma2,
+ plasma-applets-workspace, kdebase-workspace-libs4+5, libplasma-applet-system-monitor4
 Description: plasma widgets and containments for the KDE Plasma Workspace
  This package contains standard Plasma widgets and containments shipped in the
  KDE base workspace module. They provide such basic desktop functionality as
@@ -194,6 +202,7 @@ Package: plasma-scriptengine-ruby
 Architecture: all
 Depends: libplasma-ruby (>= 4:4.2.0), ${misc:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
+Breaks: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
 Description: Ruby script engine for Plasma
  This package provides the Ruby script engine for Plasma. You have to install it
  if you want to use Plasma widgets and data engines written in Ruby.
@@ -213,6 +222,7 @@ Package: plasma-scriptengine-webkit
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
+Breaks: kdebase-workspace-bin (<< 4:4.1.82+svn893000), kdebase-workspace-data (<< 4:4.1.82+svn893000)
 Description: Web and Mac OS X dashboard widget support for Plasma
  This package provides the WebKit script engine for Plasma which adds support
  for the webpage widgets written in HTML and JavaScript and for the Apple
@@ -252,8 +262,10 @@ Depends: ${shlibs:Depends}, debconf | debconf-2.0, lsb-base (>= 3.2-14), console
 Recommends: logrotate, xserver-xorg-core | xserver,
  kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
 Suggests: kdepasswd
-Replaces: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80)
-Conflicts: desktop-base (<< 4.0.4), kdebase-data (<< 4:4.0.0-1), kde-kdm-themes, kdmtheme
+Replaces: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80),
+ desktop-base (<< 4.0.4), kdebase-data (<< 4:4.0.0-1), kde-kdm-themes, kdmtheme
+Breaks: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80),
+ desktop-base (<< 4.0.4), kdebase-data (<< 4:4.0.0-1), kde-kdm-themes, kdmtheme
 Provides: x-display-manager
 Description: KDE Display Manager for X11
  KDM manages a collection of X servers running on local or remote machines.
@@ -269,8 +281,8 @@ Package: kinfocenter
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: kcontrol
-Replaces: kdebase-bin (<< 4:4.0.0-1)
+Replaces: kdebase-bin (<< 4:4.0.0-1), kcontrol
+Breaks: kdebase-bin (<< 4:4.0.0-1), kcontrol
 Description: system information viewer
  KInfoCenter provides you with a graphical overview of various aspects of your
  system, such as memory usage, storage capacity, and attached devices.
@@ -282,6 +294,7 @@ Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-data (<< 4:4.1.80)
+Breaks: kdebase-workspace-data (<< 4:4.1.80)
 Description: clipboard manager
  Klipper is a clipboard manager. It stores a history of the clipboard
  contents and can automatically perform actions when certain items are
@@ -304,6 +317,7 @@ Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ksysguardd (= ${binary:Version})
 Replaces: kdebase-workspace-data (<< 4:4.1.80)
+Breaks: kdebase-workspace-data (<< 4:4.1.80)
 Description: process monitor and system statistics
  System Guard allows you to monitor various statistics about your system.
  .
@@ -319,7 +333,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Provides: x-window-manager
 Replaces: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80),
  kwin (<< 4:4), kdebase-runtime-data (<< 4:4.4.0)
-Breaks: kwin (<< 4:4)
+Breaks: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80),
+ kwin (<< 4:4), kdebase-runtime-data (<< 4:4.4.0)
 Description: the K window manager (KWin)
  This package contains KWin, the KDE window manager, featuring 
  hardware-accelerated compositing effects.
@@ -342,7 +357,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: libkwineffects1-api
 Replaces: libkwineffects1, libkwineffects1-api
-Conflicts: libkwineffects1, libkwineffects1-api
+Breaks: libkwineffects1
+Conflicts: libkwineffects1-api
 Description: library used by effects for the KDE window manager
  This package contains a library used by effects for the KDE window manager.
  .
@@ -352,6 +368,7 @@ Package: systemsettings
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-bin (<= 4:4.2.2-2), kdebase-workspace-data (<< 4:4.1.80)
+Breaks: kdebase-workspace-bin (<= 4:4.2.2-2), kdebase-workspace-data (<< 4:4.1.80)
 Description: System Settings
  System Settings is an improved user interface for configuring the desktop
  and other aspects of the system.
@@ -363,6 +380,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-bin (<< 4:4.2.4), kdm (<< 4:4.2.0-2)
+Breaks: kdebase-workspace-bin (<< 4:4.2.4), kdm (<< 4:4.2.0-2)
 Description: KDE greet libraries for authentication
  This package contains libraries needed for kdm and locker authentication.
  .
@@ -374,7 +392,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: libkephal4-api
 Replaces: kdebase-workspace-libs4+5, libkephal4, libkephal4-api
-Conflicts: kdebase-workspace-libs4+5, libkephal4, libkephal4-api
+Breaks: kdebase-workspace-libs4+5, libkephal4
+Conflicts: libkephal4-api
 Description: API for easier handling of multihead systems
  This package contains libraries needed for Kephal's D-Bus API.
  .
@@ -385,7 +404,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
-Conflicts: kdebase-workspace-libs4+5
+Breaks: kdebase-workspace-libs4+5
 Description: library of the KDE Screensaver system
  This package contains libraries needed for kscreensaver.
  .
@@ -396,7 +415,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
-Conflicts: kdebase-workspace-libs4+5
+Breaks: kdebase-workspace-libs4+5
 Description: library for ksysguard
  This package contains the library needed for ksysguard, the KDE process
  monitor and system statistics application, and for applications and Plasma
@@ -419,7 +438,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
-Conflicts: kdebase-workspace-libs4+5
+Breaks: kdebase-workspace-libs4+5
 Description: library for the kdebase workspace
  This package contains libraries needed for the kdebase workspace.
  .
@@ -430,7 +449,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
-Conflicts: kdebase-workspace-libs4+5
+Breaks: kdebase-workspace-libs4+5
 Description: library for ksysguard based priority scheduling
  This package contains libraries needed for ksysguard based scheduling
  priority of a process.
@@ -443,7 +462,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: libplasmaclock4-api
 Replaces: kdebase-workspace-libs4+5, libplasmaclock4, libplasmaclock4-api
-Conflicts: kdebase-workspace-libs4+5, libplasmaclock4, libplasmaclock4-api
+Breaks: kdebase-workspace-libs4+5, libplasmaclock4
+Conflicts: libplasmaclock4-api
 Description: library for Plasma clocks
  This package contains libraries needed for Plasma clocks.
  .
@@ -454,7 +474,7 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
-Conflicts: kdebase-workspace-libs4+5
+Breaks: kdebase-workspace-libs4+5
 Description: library for the Plasma geolocation
  This package contains libraries needed for the Plasma geolocation.
  .
@@ -476,7 +496,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: libprocesscore4-api
 Replaces: kdebase-workspace-libs4+5, libprocesscore4, libprocesscore4-api
-Conflicts: kdebase-workspace-libs4+5, libprocesscore4, libprocesscore4-api
+Breaks: kdebase-workspace-libs4+5, libprocesscore4
+Conflicts: libprocesscore4-api
 Description: library for ksysguard based process view
  This package contains libraries needed for ksysguard based process view.
  .
@@ -488,7 +509,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: libprocessui4-api
 Replaces: kdebase-workspace-libs4+5, libprocessui4, libprocessui4-api
-Conflicts: kdebase-workspace-libs4+5, libprocessui4, libprocessui4-api
+Breaks: kdebase-workspace-libs4+5, libprocessui4
+Conflicts: libprocessui4-api
 Description: library for ksysguard process user interface
  This package contains libraries needed for ksysguard process user interface.
  .
@@ -500,7 +522,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: libsolidcontrol4-api
 Replaces: kdebase-workspace-libs4+5, libsolidcontrol4, libsolidcontrol4-api
-Conflicts: kdebase-workspace-libs4+5, libsolidcontrol4, libsolidcontrol4-api
+Breaks: kdebase-workspace-libs4+5, libsolidcontrol4
+Conflicts: libsolidcontrol4-api
 Description: library for Solid based network management
  This package contains libraries needed for Solid based network management.
  .
@@ -512,7 +535,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: libsolidcontrolifaces4-api
 Replaces: kdebase-workspace-libs4+5, libsolidcontrolifaces4, libsolidcontrolifaces4-api
-Conflicts: kdebase-workspace-libs4+5, libsolidcontrolifaces4, libsolidcontrolifaces4-api
+Breaks: kdebase-workspace-libs4+5, libsolidcontrolifaces4
+Conflicts: libsolidcontrolifaces4-api
 Description: library for Solid based network interface management
  This package contains libraries needed for Solid based network interface
  management.
@@ -525,7 +549,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: libtaskmanager4-api
 Replaces: kdebase-workspace-libs4+5, libtaskmanager4, libtaskmanager4-api
-Conflicts: kdebase-workspace-libs4+5, libtaskmanager4, libtaskmanager4-api
+Breaks: kdebase-workspace-libs4+5, libtaskmanager4
+Conflicts: libtaskmanager4-api
 Description: library which provides task management facilities
  This package contains libraries which provide task management facilities.
  .
@@ -546,8 +571,8 @@ Section: debug
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg, ${misc:Depends}
-Conflicts: kdebase-dbg (<< 4:4.0), kdebase-workspace-libs4+5
 Replaces: kdebase-dbg (<< 4:4.5.0)
+Breaks: kdebase-dbg (<< 4:4.5.0), kdebase-workspace-libs4+5
 Suggests: kdebase-workspace (>= ${source:Version})
 Description: debugging symbols for the KDE Plasma Workspaces
  This package contains debugging files used to investigate problems with
