@@ -103,6 +103,9 @@ kdebase-workspace (4:4.6.0-0r1) UNRELEASED; urgency=low
     - libdmtx-dev
   * Make kdebase-workspace-bin recommend upower on Linux archs,
     for power management.
+  * Use wildcard architectures:
+    - !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 -> linux-any
+    - kfreebsd-i386 kfreebsd-amd64 -> kfreebsd-any
 
   [ Modestas Vainius ]
   * Remove README.Debian introduced in 4.4.5-6, no longer applicable.
