@@ -5,7 +5,6 @@ libkworkspace.so.4 libkworkspace4 #MINVER#
  _ZN10KWorkSpace15requestShutDownENS_15ShutdownConfirmENS_12ShutdownTypeENS_12ShutdownModeE@Base 4:4.3.4
  _ZN10KWorkSpace23propagateSessionManagerEv@Base 4:4.3.4
  _ZN13KActivityInfo11infoChangedEv@Base 4:4.5.90
-#MISSING: 4:4.5.90# _ZN13KActivityInfo11nameChangedERK7QString@Base 4:4.5.0
  _ZN13KActivityInfo11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.5.0
  _ZN13KActivityInfo11qt_metacastEPKc@Base 4:4.5.0
  _ZN13KActivityInfo12stateChangedENS_5StateE@Base 4:4.5.90
@@ -16,9 +15,6 @@ libkworkspace.so.4 libkworkspace4 #MINVER#
  _ZN13KActivityInfo4nameERK7QString@Base 4:4.5.0
  _ZN13KActivityInfo5addedEv@Base 4:4.5.90
  _ZN13KActivityInfo7Private20activityStateChangedERK7QStringi@Base 4:4.5.90
-#MISSING: 4:4.5.90# _ZN13KActivityInfo7Private7managerEv@Base 4:4.5.0
-#MISSING: 4:4.5.90# _ZN13KActivityInfo7Private7s_storeE@Base 4:4.5.0
-#MISSING: 4:4.5.90# _ZN13KActivityInfo7Private9s_managerE@Base 4:4.5.0
  _ZN13KActivityInfo7PrivateC1EPS_RK7QString@Base 4:4.5.0
  _ZN13KActivityInfo7PrivateC2EPS_RK7QString@Base 4:4.5.0
  _ZN13KActivityInfo7removedEv@Base 4:4.5.90
@@ -71,8 +67,6 @@ libkworkspace.so.4 libkworkspace4 #MINVER#
  _ZN17KActivityConsumer20serviceStatusChangedENS_13ServiceStatusE@Base 4:4.5.90
  _ZN17KActivityConsumer21activitiesForResourceERK4KUrl@Base 4:4.5.0
  _ZN17KActivityConsumer22currentActivityChangedERK7QString@Base 4:4.5.0
-#MISSING: 4:4.5.90# _ZN17KActivityConsumer22registerResourceWindowEmRK4KUrl@Base 4:4.5.0
-#MISSING: 4:4.5.90# _ZN17KActivityConsumer24unregisterResourceWindowEmRK4KUrl@Base 4:4.5.0
  _ZN17KActivityConsumerC1EP7QObject@Base 4:4.5.0
  _ZN17KActivityConsumerC2EP7QObject@Base 4:4.5.0
  _ZN17KActivityConsumerD0Ev@Base 4:4.5.0
@@ -92,9 +86,6 @@ libkworkspace.so.4 libkworkspace4 #MINVER#
  _ZN19KActivityController16resourceAccessedERK7QStringjRK4KUrlN17KActivityConsumer14ResourceActionE@Base 4:4.5.90
  _ZN19KActivityController16staticMetaObjectE@Base 4:4.5.0
  _ZN19KActivityController18setCurrentActivityERK7QString@Base 4:4.5.0
-#MISSING: 4:4.5.90# _ZN19KActivityController24resourceWindowRegisteredEjRK7QString@Base 4:4.5.0
-#MISSING: 4:4.5.90# _ZN19KActivityController26resourceWindowUnregisteredEjRK7QString@Base 4:4.5.0
-#MISSING: 4:4.5.90# _ZN19KActivityController7Private16s_dbusControllerE@Base 4:4.5.0
  _ZN19KActivityControllerC1EP7QObject@Base 4:4.5.0
  _ZN19KActivityControllerC2EP7QObject@Base 4:4.5.0
  _ZN19KActivityControllerD0Ev@Base 4:4.5.0
@@ -127,7 +118,6 @@ libkworkspace.so.4 libkworkspace4 #MINVER#
  _ZNK13KActivityInfo5stateEv@Base 4:4.5.90
  _ZNK13KActivityInfo7Private10urlForTypeENS_12ResourceTypeE@Base 4:4.5.0
  _ZNK13KActivityInfo7Private11infoChangedERK7QString@Base 4:4.5.90
-#MISSING: 4:4.5.90# _ZNK13KActivityInfo7Private19activityNameChangedERK7QStringS3_@Base 4:4.5.0
  _ZNK13KActivityInfo7Private5addedERK7QString@Base 4:4.5.90
  _ZNK13KActivityInfo7Private7removedERK7QString@Base 4:4.5.90
  _ZNK13KActivityInfo7Private7startedERK7QString@Base 4:4.5.90
@@ -138,7 +128,6 @@ libkworkspace.so.4 libkworkspace4 #MINVER#
  _ZNK17KActivityConsumer14listActivitiesEN13KActivityInfo5StateE@Base 4:4.5.90
  _ZNK17KActivityConsumer14listActivitiesEv@Base 4:4.5.90
  _ZNK17KActivityConsumer15currentActivityEv@Base 4:4.5.0
-#MISSING: 4:4.5.90# _ZNK17KActivityConsumer19availableActivitiesEv@Base 4:4.5.0
  _ZNK19KActivityController10metaObjectEv@Base 4:4.5.0
  _ZNK19ScreenPreviewWidget10metaObjectEv@Base 4:4.3.4
  _ZNK19ScreenPreviewWidget11previewRectEv@Base 4:4.3.4

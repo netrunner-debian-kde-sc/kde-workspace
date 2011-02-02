@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.6.0 amd64
-libkwineffects.so.1 libkwineffects1a #MINVER#
+libkwineffects.so.1 libkwineffects1b #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  _ZN4KWin10Extensions10has_damageE@Base 4:4.3.4
  _ZN4KWin10Extensions12data_opcodesE@Base 4:4.3.4
@@ -34,32 +34,10 @@ libkwineffects.so.1 libkwineffects1a #MINVER#
  _ZN4KWin10GLPlatformC2Ev@Base 4:4.5.90
  _ZN4KWin10GLPlatformD1Ev@Base 4:4.5.90
  _ZN4KWin10GLPlatformD2Ev@Base 4:4.5.90
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame10autoResizeEv@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame11qt_metacastEPKc@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame11setGeometryERK5QRectb@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame11setIconSizeERK5QSize@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame11setPositionERK6QPoint@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame13updatePictureEv@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame13updateTextureEv@Base 4:4.3.4
  _ZN4KWin11EffectFrame15enableCrossFadeEb@Base 4:4.5.90
  _ZN4KWin11EffectFrame15styledTextColorEv@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame16staticMetaObjectE@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame17m_unstyledTextureE@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame17updateTextPictureEv@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame17updateTextTextureEv@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame18plasmaThemeChangedEv@Base 4:4.3.4
  _ZN4KWin11EffectFrame20setCrossFadeProgressEd@Base 4:4.5.90
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame21updateUnstyledTextureEv@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame4freeEv@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame6renderE7QRegiondd@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame7cleanupEv@Base 4:4.4.0
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame7setFontERK5QFont@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame7setIconERK7QPixmap@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrame7setTextERK7QString@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrameC1ENS0_5StyleEb6QPoint6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.3.4
  _ZN4KWin11EffectFrameC1Ev@Base 4:4.5.90
-#MISSING: 4:4.5.90# _ZN4KWin11EffectFrameC2ENS0_5StyleEb6QPoint6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.3.4
  _ZN4KWin11EffectFrameC2Ev@Base 4:4.5.90
  _ZN4KWin11EffectFrameD0Ev@Base 4:4.3.4
  _ZN4KWin11EffectFrameD1Ev@Base 4:4.3.4
@@ -120,9 +98,7 @@ libkwineffects.so.1 libkwineffects1a #MINVER#
  _ZN4KWin14EffectsHandler17sendReloadMessageERK7QString@Base 4:4.3.4
  _ZN4KWin14EffectsHandler20checkDriverBlacklistERK12KConfigGroup@Base 4:4.5.0
  _ZN4KWin14EffectsHandler21transformWindowDamageEPNS_12EffectWindowERK5QRect@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin14EffectsHandler23paintTextWithBackgroundERK7QStringRK5QRectRK6QColorS9_RK5QFontRK6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.3.4
  _ZN4KWin14EffectsHandler27createFullScreenInputWindowEPNS_6EffectERK7QCursor@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin14EffectsHandler9paintTextERK7QStringRK5QRectRK6QColorRK5QFontRK6QFlagsIN2Qt13AlignmentFlagEE@Base 4:4.3.4
  _ZN4KWin14EffectsHandlerC1ENS_15CompositingTypeE@Base 4:4.3.4
  _ZN4KWin14EffectsHandlerC2ENS_15CompositingTypeE@Base 4:4.3.4
  _ZN4KWin14EffectsHandlerD0Ev@Base 4:4.3.4
@@ -156,7 +132,6 @@ libkwineffects.so.1 libkwineffects1a #MINVER#
  _ZN4KWin14glGetProgramivE@Base 4:4.3.4
  _ZN4KWin14glShaderSourceE@Base 4:4.3.4
  _ZN4KWin14hasGLExtensionERK7QString@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin14renderRoundBoxERK5QRectfPNS_9GLTextureE@Base 4:4.3.4
  _ZN4KWin15ScreenPaintDataC1Ev@Base 4:4.3.4
  _ZN4KWin15ScreenPaintDataC2Ev@Base 4:4.3.4
  _ZN4KWin15WindowPaintDataC1EPNS_12EffectWindowE@Base 4:4.3.4
@@ -233,7 +208,6 @@ libkwineffects.so.1 libkwineffects1a #MINVER#
  _ZN4KWin22glFramebufferTexture1DE@Base 4:4.3.4
  _ZN4KWin22glFramebufferTexture2DE@Base 4:4.3.4
  _ZN4KWin22glFramebufferTexture3DE@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZN4KWin22renderRoundBoxWithEdgeERK5QRectf@Base 4:4.3.4
  _ZN4KWin24glCheckFramebufferStatusE@Base 4:4.3.4
  _ZN4KWin24glXGetVisualFromFBConfigE@Base 4:4.3.4
  _ZN4KWin25glFramebufferRenderbufferE@Base 4:4.3.4
@@ -391,7 +365,6 @@ libkwineffects.so.1 libkwineffects1a #MINVER#
  _ZNK4KWin10GLPlatform9glVersionEv@Base 4:4.5.90
  _ZNK4KWin10WindowQuad11makeSubQuadEdddd@Base 4:4.3.4
  _ZNK4KWin10WindowQuad12smoothNeededEv@Base 4:4.3.4
-#MISSING: 4:4.5.90# _ZNK4KWin11EffectFrame10metaObjectEv@Base 4:4.3.4
  _ZNK4KWin11EffectFrame11isCrossFadeEv@Base 4:4.5.90
  _ZNK4KWin11EffectFrame17crossFadeProgressEv@Base 4:4.5.90
  _ZNK4KWin12EffectWindow11isOnDesktopEi@Base 4:4.3.4

@@ -351,7 +351,7 @@ Description: library used by decorations for the KDE window manager
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwineffects1a
+Package: libkwineffects1b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -456,7 +456,7 @@ Description: library for ksysguard based priority scheduling
  .
  This package is part of the KDE base workspace module.
 
-Package: libplasmaclock4b
+Package: libplasmaclock4c
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -516,7 +516,7 @@ Description: library for ksysguard process user interface
  .
  This package is part of the KDE base workspace module.
 
-Package: libsolidcontrol4a
+Package: libsolidcontrol4b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -529,7 +529,7 @@ Description: library for Solid based network management
  .
  This package is part of the KDE base workspace module.
 
-Package: libsolidcontrolifaces4a
+Package: libsolidcontrolifaces4b
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -543,7 +543,7 @@ Description: library for Solid based network interface management
  .
  This package is part of the KDE base workspace module.
 
-Package: libtaskmanager4b
+Package: libtaskmanager4c
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
