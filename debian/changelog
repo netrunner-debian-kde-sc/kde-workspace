@@ -87,7 +87,9 @@ kdebase-workspace (4:4.6.0-0r1) UNRELEASED; urgency=low
   * TODO:
     - 30_plasma_netbook_fix_autostart.diff - check if the issue still exists
     - 31_kdm_vt_switching_on_kfreebsd.diff - should be refreshed/reworked
-  * Rename libweather-ion4a as libweather-ion6.
+  * Rename libweather-ion4a as libweather-ion6 due to soname bump.
+  * Rename libkwineffects1a as libkwineffects1b due to binary incompatible
+    changes.
   * Remove plasma-scriptengine-qedje package.
   * Add build dependencies:
     - libqtwebkit-dev
