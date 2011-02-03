@@ -123,15 +123,9 @@ usr/lib/kde4/solid_wicd.so
 usr/lib/libkdeinit4_kaccess.so
 usr/lib/libkdeinit4_kcminit.so
 usr/lib/libkdeinit4_kcminit_startup.so
-usr/lib/libkdeinit4_klipper.so
 usr/lib/libkdeinit4_kmenuedit.so
 usr/lib/libkdeinit4_krunner.so
 usr/lib/libkdeinit4_ksmserver.so
-usr/lib/libkdeinit4_ksysguard.so
-usr/lib/libkdeinit4_kwin.so
-usr/lib/libkdeinit4_kwin_rules_dialog.so
-usr/lib/libkdeinit4_plasma-desktop.so
-usr/lib/libkdeinit4_plasma-netbook.so
 usr/lib/libkdeinit4_plasma-windowed.so
 usr/lib/libkfontinst.so.4
 usr/lib/libkfontinst.so.4.6.0
