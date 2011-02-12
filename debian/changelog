@@ -124,6 +124,13 @@ kdebase-workspace (4:4.4.5-8) unstable; urgency=high
 
  -- Modestas Vainius <modax@debian.org>  Thu, 20 Jan 2011 01:04:32 +0200
 
+kdebase-workspace (4:4.4.5-7+squeeze1) stable-proposed-updates; urgency=low
+
+  * Backport 33_backport_krunner_crash_fix_threading.diff patch from 4.5.0 to
+    fix random but common krunner crashes. (Closes: #607974)
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 12 Feb 2011 20:38:18 +0200
+
 kdebase-workspace (4:4.4.5-7) unstable; urgency=high
 
   * Replace Conflicts against kwin with Breaks in kde-window-manager. Also
