@@ -146,7 +146,7 @@ usr/share/kde4/apps/kcmkeys/wm3.kksrc
 usr/share/kde4/apps/kconf_update/convertShortcuts.pl
 usr/share/kde4/apps/kconf_update/kaccel.upd
 usr/share/kde4/apps/kconf_update/kcmdisplayrc.upd
-usr/share/kde4/apps/kconf_update/krdb.upd
+usr/share/kde4/apps/kconf_update/krdb_libpathwipe.upd
 usr/share/kde4/apps/kconf_update/ksmserver.upd
 usr/share/kde4/apps/kconf_update/ksmserver_shortcuts.upd
 usr/share/kde4/apps/kconf_update/mouse_cursor_theme.upd
