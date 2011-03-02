@@ -82,8 +82,6 @@ kdebase-workspace (4:4.6.1-0r0) UNRELEASED; urgency=low
     - 28_backport_bug156475_dualhead_support.diff - applied upstream
     - 29_backport_fix_krandr_support_in_startkde.diff - applied upstream
     - 99_solid_network_use_ntrack.diff - applied upstream
-  * Added patches:
-    - 98_remove_malloc_check_r1217284.diff
   * TODO:
     - 30_plasma_netbook_fix_autostart.diff - check if the issue still exists
     - 31_kdm_vt_switching_on_kfreebsd.diff - should be refreshed/reworked
