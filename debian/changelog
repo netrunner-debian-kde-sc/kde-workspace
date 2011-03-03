@@ -96,6 +96,7 @@ kdebase-workspace (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Remove starting articles in short descriptions.
   * Fix mispelling in plasma-scriptengine-googlegadgets long description:
     replace "allows to" with  "allows one to".
+  * Add myself to Uploaders.
 
   [ Pino Toscano]
   * Remove unused build dependencies:
