@@ -237,9 +237,9 @@ Architecture: any
 Depends: ${shlibs:Depends}, google-gadgets-qt, google-gadgets-xul, ${misc:Depends}
 Description: Google Gadgets script engine for Plasma
  This package contains the Google Gadgets script engine for Plasma. It enables
- Plasma to serve as a Google Gadgets host and allows to load and use any gadget
- as if it was a Plasma widget. It also integrates download and installation of
- new gadgets from the official Google Desktop Gadgets website.
+ Plasma to serve as a Google Gadgets host and allows one to load and use any
+ gadget as if it was a Plasma widget. It also integrates download and
+ installation of new gadgets from the official Google Desktop Gadgets website.
  .
  This package is part of the KDE base workspace module.
 

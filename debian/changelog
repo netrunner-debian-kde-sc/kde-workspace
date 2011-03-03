@@ -94,6 +94,8 @@ kdebase-workspace (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Bump S-V to 3.9.1; updated Breaks/Replaces/Conflicts.
   * Remove starting articles in short descriptions.
+  * Fix mispelling in plasma-scriptengine-googlegadgets long description:
+    replace "allows to" with  "allows one to".
 
   [ Pino Toscano]
   * Remove unused build dependencies:
