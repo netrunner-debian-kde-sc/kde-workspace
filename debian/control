@@ -62,7 +62,7 @@ Replaces: kdebase-workspace-bin (<< 4:4.5.0), kdebase-workspace-data (<< 4:4.5.0
  plasma-widgets-workspace (<< 4:4.4.0)
 Breaks: kdebase-workspace-bin (<< 4:4.5.0), kdebase-workspace-data (<< 4:4.5.0),
  plasma-widgets-workspace (<< 4:4.4.0)
-Description: The KDE Plasma workspace for desktop and laptop computers
+Description: KDE Plasma workspace for desktop and laptop computers
  Provides the environment for running and managing applications and integrating
  interaction of applications. It is designed as generic environment for all
  kinds of desktop applications, not only applications built on the KDE Platform.
@@ -75,7 +75,7 @@ Package: plasma-netbook
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version})
 Recommends: kdebase-workspace
-Description: The KDE Plasma workspace for netbook computers
+Description: KDE Plasma workspace for netbook computers
  Provides the environment for running and managing applications and integrating
  interaction of applications. It is designed as generic environment for all
  kinds of applications in a netbook environment, not only applications built on
@@ -183,7 +183,7 @@ Depends: plasma-scriptengine-javascript (>= 4:4.2.95),
  plasma-scriptengine-googlegadgets (>= ${source:Version}), ${misc:Depends}
 Recommends: plasma-scriptengine-superkaramba
 Suggests: plasma-scriptengine-kimono
-Description: a metapackage to install all Plasma script engines
+Description: metapackage to install all Plasma script engines
  This metapackage depends on all Plasma script engines which kdebase-workspace
  module provides and suggests script engines from other official KDE modules.
  .
@@ -335,7 +335,7 @@ Replaces: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.
  kwin (<< 4:4), kdebase-runtime-data (<< 4:4.4.0)
 Breaks: kdebase-workspace-data (<< 4:4.1.80), kdebase-workspace-bin (<< 4:4.1.80),
  kwin (<< 4:4), kdebase-runtime-data (<< 4:4.4.0)
-Description: the K window manager (KWin)
+Description: K window manager (KWin)
  This package contains KWin, the KDE window manager, featuring 
  hardware-accelerated compositing effects.
  .
@@ -427,7 +427,7 @@ Package: libksignalplotter4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: the KSignalPlotter widget
+Description: KSignalPlotter widget
  This library contains the KSignalPlotter widget, which is a widget that
  draws a real time graph of data that updates continually.
  .
