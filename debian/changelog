@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.6.1-0r0) UNRELEASED; urgency=low
+kdebase-workspace (4:4.6.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - adds authorization support to the login manager configuration module
