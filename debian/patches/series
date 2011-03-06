@@ -10,6 +10,7 @@
 21_place_global_config_in_etc.diff
 22_kdm_xreset_hook_framework.diff
 26_run_kaboom_when_starting_kde.diff
+30_plasma_netbook_fix_autostart.diff
 32_ksmserver_fadeeffect_use_sse2_free.diff
 33_qguiplatformplugin_kde_NULL_check.diff
 97_fix_target_link_libraries.diff

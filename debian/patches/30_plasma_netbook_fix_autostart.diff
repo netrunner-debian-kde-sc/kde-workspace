@@ -1,24 +1,15 @@
 From: Modestas Vainius <modax@debian.org>
 Subject: Fix various problems with autostart of plasma-netbook
 Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=584905
-Last-Update: 2010-10-17
+Last-Update: 2011-03-06
 
 This patch should fully fix problems with startup of plasma-netbook when
 plasma-desktop is NOT installed. We aim to support "plasma-desktop"-less
 installation via kde-plasma-netbook metapackage hence this bug was a
 showstopper for this goal.
---- a/plasma/netbook/shell/CMakeLists.txt
-+++ b/plasma/netbook/shell/CMakeLists.txt
-@@ -22,5 +22,5 @@ endif(X11_Xrender_FOUND)
- install(TARGETS kdeinit_plasma-netbook DESTINATION ${LIB_INSTALL_DIR})
- install(TARGETS plasma-netbook ${INSTALL_TARGETS_DEFAULT_ARGS})
- install(FILES plasma-default-layoutrc DESTINATION ${DATA_INSTALL_DIR}/plasma-netbook/)
--#install(FILES plasma-netbook.desktop DESTINATION ${AUTOSTART_INSTALL_DIR})
-+install(FILES plasma-netbook.desktop DESTINATION ${AUTOSTART_INSTALL_DIR})
- 
 --- a/kcontrol/workspaceoptions/workspaceoptions.cpp
 +++ b/kcontrol/workspaceoptions/workspaceoptions.cpp
-@@ -89,7 +89,7 @@ void WorkspaceOptionsModule::save()
+@@ -91,7 +91,7 @@
  
      m_plasmaNetbookAutostart.setAutostarts(!isDesktop);
      m_plasmaNetbookAutostart.setStartPhase(KAutostart::BaseDesktop);
@@ -26,10 +17,10 @@ showstopper for this goal.
 +    m_plasmaNetbookAutostart.setCommand("plasma-netbook --desktop");
      m_plasmaNetbookAutostart.setAllowedEnvironments(QStringList()<<"KDE");
  
-     KConfigGroup winCg(m_kwinConfig, "Windows");
+     m_krunnerAutostart.setAutostarts(isDesktop);
 --- a/plasma/netbook/shell/main.cpp
 +++ b/plasma/netbook/shell/main.cpp
-@@ -41,10 +41,16 @@ KDE_EXPORT int kdemain(int argc, char **
+@@ -40,10 +40,16 @@
  
  
      bool customGraphicsSystem = false;
@@ -47,9 +38,9 @@ showstopper for this goal.
          }
      }
  
-@@ -58,9 +64,16 @@ KDE_EXPORT int kdemain(int argc, char **
-     KCmdLineOptions options;
+@@ -58,9 +64,16 @@
      options.add("nodesktop", ki18n("Starts as a normal application instead of as the primary user interface"));
+     options.add("opengl", ki18n("Use OpenGL to draw the main screen"));
      options.add("screen <geometry>", ki18n("The geometry of the screen"), "800x480");
 +    if (argExplicitDesktop)
 +        options.add("noautostart", ki18n("Explicit --desktop enables autostart handling which may be disabled with this option"));
@@ -66,24 +57,25 @@ showstopper for this goal.
      int rc = app->exec();
 --- a/plasma/netbook/shell/plasmaapp.cpp
 +++ b/plasma/netbook/shell/plasmaapp.cpp
-@@ -34,6 +34,7 @@
- #include <KCmdLineArgs>
+@@ -33,6 +33,7 @@
  #include <KStandardAction>
  #include <KWindowSystem>
+ #include <KAction>
 +#include <KAutostart>
  
  #include <ksmserver_interface.h>
  
-@@ -216,13 +217,21 @@ PlasmaApp::PlasmaApp()
-       m_isDesktop(false),
+@@ -320,7 +321,8 @@
        m_autoHideControlBar(true),
-       m_raiseTimer(new QTimer(this)),
--      m_unHideTimer(0)
-+      m_unHideTimer(0),
+       m_unHideTimer(0),
+       m_shadowWindow(0),
+-      m_startupSuspendWaitCount(0)
++      m_startupSuspendWaitCount(0),
 +      m_shallBeStarted(true)
  {
+     PlasmaApp::suspendStartup(true);
      KGlobal::locale()->insertCatalog("libplasma");
-     KGlobal::locale()->insertCatalog("plasmagenericshell");
+@@ -328,6 +330,13 @@
  
  
      KCmdLineArgs *args = KCmdLineArgs::parsedArgs();
@@ -96,8 +88,8 @@ showstopper for this goal.
 +
      bool isDesktop = args->isSet("desktop");
      if (isDesktop) {
-         notifyStartup(false);
-@@ -296,6 +305,38 @@ PlasmaApp::~PlasmaApp()
+         KCrash::setFlags(KCrash::AutoRestart);
+@@ -397,6 +406,38 @@
  {
  }
  
@@ -138,7 +130,7 @@ showstopper for this goal.
      if (m_corona) {
 --- a/plasma/netbook/shell/plasmaapp.h
 +++ b/plasma/netbook/shell/plasmaapp.h
-@@ -84,6 +84,12 @@ public:
+@@ -87,6 +87,12 @@
       */
      bool isDesktop() const;
  
@@ -151,7 +143,7 @@ showstopper for this goal.
      void showWidgetExplorer(Plasma::Containment *containment);
  
  public Q_SLOTS:
-@@ -99,6 +105,7 @@ private:
+@@ -105,6 +111,7 @@
      void reserveStruts();
      void createUnhideTrigger();
      void destroyUnHideTrigger();
@@ -159,17 +151,17 @@ showstopper for this goal.
  
  private Q_SLOTS:
      void cleanup();
-@@ -140,6 +147,7 @@ private:
-     bool m_autoHideControlBar;
+@@ -152,6 +159,7 @@
      QTimer *m_unHideTimer;
-     QTimer *m_raiseTimer;
+     ShadowWindow *m_shadowWindow;
+     int m_startupSuspendWaitCount;
 +    bool m_shallBeStarted;
  };
  
  #endif // multiple inclusion guard
 --- a/startkde.cmake
 +++ b/startkde.cmake
-@@ -356,6 +356,24 @@ else
+@@ -301,6 +301,24 @@
      exit 1
  fi
  

@@ -1,4 +1,5 @@
 usr/bin/plasma-netbook
+debian/plasma-netbook.desktop usr/share/autostart
 usr/lib/kde4/plasma_applet_currentappcontrol.so
 usr/lib/kde4/plasma_applet_searchbox.so
 usr/lib/kde4/plasma_containment_netpanel.so
