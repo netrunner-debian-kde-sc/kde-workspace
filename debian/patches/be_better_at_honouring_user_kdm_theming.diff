@@ -1,6 +1,6 @@
 --- a/kdm/config.def
 +++ b/kdm/config.def
-@@ -2679,7 +2679,7 @@
+@@ -2679,7 +2679,7 @@ Key: Theme
  Type: string
  Default: ""
  User: greeter

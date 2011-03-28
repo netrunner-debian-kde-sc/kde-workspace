@@ -1,6 +1,6 @@
 --- a/kcontrol/fonts/fonts.cpp
 +++ b/kcontrol/fonts/fonts.cpp
-@@ -514,12 +514,12 @@
+@@ -514,12 +514,12 @@ KFonts::KFonts(QWidget *parent, const QV
  
    // NOTE: keep in sync with kdelibs/kdeui/kernel/kglobalsettings.cpp
  

@@ -2,11 +2,9 @@ As we use DEB_CONFIG_INSTALL_DIR ?= /usr/share/kde4/config
 and we want kdm configuration files in /etc/kde4/kdm,
 Let's hardcode it.
 
-Index: kdebase-workspace/kdm/kfrontend/CMakeLists.txt
-===================================================================
---- kdebase-workspace.orig/kdm/kfrontend/CMakeLists.txt	2010-10-27 21:55:03.000000000 +0200
-+++ kdebase-workspace/kdm/kfrontend/CMakeLists.txt	2010-12-18 21:00:13.950319340 +0100
-@@ -112,5 +112,5 @@
+--- a/kdm/kfrontend/CMakeLists.txt
++++ b/kdm/kfrontend/CMakeLists.txt
+@@ -112,5 +112,5 @@ install(TARGETS kdmctl ${INSTALL_TARGETS
  
  # use 'GENKDMCONF_FLAGS=... make install' to add flags to the config generation (try genkdmconf -h)
  install(CODE "

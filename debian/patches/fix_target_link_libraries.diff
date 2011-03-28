@@ -1,8 +1,6 @@
-Index: kdebase-workspace/libs/kworkspace/CMakeLists.txt
-===================================================================
---- kdebase-workspace.orig/libs/kworkspace/CMakeLists.txt	2010-11-05 11:47:18.000000000 +0100
-+++ kdebase-workspace/libs/kworkspace/CMakeLists.txt	2010-12-18 22:36:55.306819074 +0100
-@@ -65,6 +65,7 @@
+--- a/libs/kworkspace/CMakeLists.txt
++++ b/libs/kworkspace/CMakeLists.txt
+@@ -65,6 +65,7 @@ endif(WIN32)
  kde4_add_library(kworkspace ${LIB_MODE} ${kworkspace_LIB_SRCS})
  
  target_link_libraries(kworkspace  ${KDE4_KDEUI_LIBS} ${X11_LIBRARIES} ${KDE4_PLASMA_LIBS} )
@@ -10,11 +8,9 @@ Index: kdebase-workspace/libs/kworkspace/CMakeLists.txt
  
  set_target_properties(kworkspace PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )
  install(TARGETS kworkspace EXPORT kdeworkspaceLibraryTargets ${INSTALL_TARGETS_DEFAULT_ARGS} )
-Index: kdebase-workspace/libs/taskmanager/CMakeLists.txt
-===================================================================
---- kdebase-workspace.orig/libs/taskmanager/CMakeLists.txt	2010-11-11 15:40:48.000000000 +0100
-+++ kdebase-workspace/libs/taskmanager/CMakeLists.txt	2010-12-18 22:36:55.306819074 +0100
-@@ -47,6 +47,7 @@
+--- a/libs/taskmanager/CMakeLists.txt
++++ b/libs/taskmanager/CMakeLists.txt
+@@ -47,6 +47,7 @@ endif (X11_Xcomposite_FOUND)
  target_link_libraries(taskmanager kephal)
  target_link_libraries(taskmanager kworkspace)
  

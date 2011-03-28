@@ -1,7 +1,5 @@
-Index: kdebase-workspace/kdm/config.def
-===================================================================
---- kdebase-workspace.orig/kdm/config.def	2010-12-18 20:44:08.786127265 +0100
-+++ kdebase-workspace/kdm/config.def	2010-12-18 20:45:45.790819514 +0100
+--- a/kdm/config.def
++++ b/kdm/config.def
 @@ -49,11 +49,11 @@
  #endif
  
@@ -18,7 +16,7 @@ Index: kdebase-workspace/kdm/config.def
  #endif
  
  #if 0 /*def HASXDMAUTH*/
-@@ -1369,13 +1369,13 @@
+@@ -1369,13 +1369,13 @@ Description:
   This string is subject to word splitting.
   </para><para>
   The default is something reasonable for the system on which &kdm; was built,
@@ -34,7 +32,7 @@ Index: kdebase-workspace/kdm/config.def
  Comment: &
  Description:
   Additional arguments for the &X-Server;s for local sessions.
-@@ -1929,10 +1929,10 @@
+@@ -1929,10 +1929,10 @@ Description:
  
  Key: SessionsDirs
  Type: list
@@ -47,7 +45,7 @@ Index: kdebase-workspace/kdm/config.def
  Update: upd_sessionsdirs
  Comment:
   The directories containing session type definitions in .desktop format,
-@@ -2001,7 +2001,7 @@
+@@ -2001,7 +2001,7 @@ Description:
  
  Key: UseSessReg
  Type: bool
@@ -56,7 +54,7 @@ Index: kdebase-workspace/kdm/config.def
  User: core
  Instance: #*/!
  Comment:
-@@ -2092,9 +2092,9 @@
+@@ -2092,9 +2092,9 @@ Description:
  
  Key: GreetString
  Type: string
@@ -68,7 +66,7 @@ Index: kdebase-workspace/kdm/config.def
  Comment:
   The headline in the greeter. The following character pairs are replaced:
   - %d -> current display
-@@ -2553,7 +2553,6 @@
+@@ -2553,7 +2553,6 @@ Type: int
  Default: 0
  User: greeter
  Instance: #*/
@@ -76,7 +74,7 @@ Index: kdebase-workspace/kdm/config.def
  Comment:
   Random seed for forging saved session types, etc. of unknown users.
   This value should be random but constant across the login domain.
-@@ -2650,7 +2649,7 @@
+@@ -2650,7 +2649,7 @@ Key: AllowClose
  Type: bool
  Default: true
  User: greeter

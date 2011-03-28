@@ -5,10 +5,8 @@ we can detect possible new uses of KDE_CONFDIR in upstream code that might
 have trouble if we apply this patch. With the renamed define, it will at
 least FTBFS, so that we have the chance to inspect.
 
-Index: kdebase-workspace/config-workspace.h.cmake
-===================================================================
---- kdebase-workspace.orig/config-workspace.h.cmake	2009-03-27 15:46:42.000000000 +0100
-+++ kdebase-workspace/config-workspace.h.cmake	2010-12-18 22:10:20.366072714 +0100
+--- a/config-workspace.h.cmake
++++ b/config-workspace.h.cmake
 @@ -121,7 +121,7 @@
  #define KDE_BINDIR "${BIN_INSTALL_DIR}"
  
@@ -18,11 +16,9 @@ Index: kdebase-workspace/config-workspace.h.cmake
  
  /* KDE's static data directory */
  #define KDE_DATADIR "${DATA_INSTALL_DIR}"
-Index: kdebase-workspace/kdm/kcm/main.cpp
-===================================================================
---- kdebase-workspace.orig/kdm/kcm/main.cpp	2010-10-27 21:55:02.000000000 +0200
-+++ kdebase-workspace/kdm/kcm/main.cpp	2010-12-18 22:10:20.366072714 +0100
-@@ -282,7 +282,7 @@
+--- a/kdm/kcm/main.cpp
++++ b/kdm/kcm/main.cpp
+@@ -282,7 +282,7 @@ KConfig *KDModule::createTempConfig()
      QString tempConfigName = pTempConfigFile->fileName();
  
      KConfig *pSystemKDMConfig = new KConfig(
@@ -31,7 +27,7 @@ Index: kdebase-workspace/kdm/kcm/main.cpp
  
      KConfig *pTempConfig = pSystemKDMConfig->copyTo(tempConfigName);
      pTempConfig->sync();
-@@ -301,7 +301,7 @@
+@@ -301,7 +301,7 @@ KSharedConfigPtr KDModule::createBackgro
  
      QString systemBackgroundConfigName =
          config->group("X-*-Greeter").readEntry(
@@ -40,10 +36,8 @@ Index: kdebase-workspace/kdm/kcm/main.cpp
  
      KConfig systemBackgroundConfig(systemBackgroundConfigName);
      KSharedConfigPtr pTempConfig = KSharedConfig::openConfig(tempBackgroundConfigName);
-Index: kdebase-workspace/kdm/config.def
-===================================================================
---- kdebase-workspace.orig/kdm/config.def	2010-12-18 22:10:16.866820187 +0100
-+++ kdebase-workspace/kdm/config.def	2010-12-18 22:10:20.370070760 +0100
+--- a/kdm/config.def
++++ b/kdm/config.def
 @@ -29,7 +29,7 @@
  #define RCVERMAJOR 2
  #define RCVERMINOR 4
@@ -53,11 +47,9 @@ Index: kdebase-workspace/kdm/config.def
  #define KDMDATA KDE_DATADIR "/kdm"
  
  #include <sys/param.h> /* for #define BSD */
-Index: kdebase-workspace/kdm/kfrontend/kdmctl.c
-===================================================================
---- kdebase-workspace.orig/kdm/kfrontend/kdmctl.c	2010-11-19 11:51:19.000000000 +0100
-+++ kdebase-workspace/kdm/kfrontend/kdmctl.c	2010-12-18 22:10:20.370070760 +0100
-@@ -148,7 +148,7 @@
+--- a/kdm/kfrontend/kdmctl.c
++++ b/kdm/kfrontend/kdmctl.c
+@@ -148,7 +148,7 @@ main(int argc, char **argv)
  {
      char *dpy = getenv("DISPLAY");
      const char *ctl = getenv("DM_CONTROL");
@@ -66,11 +58,9 @@ Index: kdebase-workspace/kdm/kfrontend/kdmctl.c
      char *ptr;
      int fd;
  
-Index: kdebase-workspace/kdm/kfrontend/genkdmconf.c
-===================================================================
---- kdebase-workspace.orig/kdm/kfrontend/genkdmconf.c	2010-12-18 22:10:12.634569938 +0100
-+++ kdebase-workspace/kdm/kfrontend/genkdmconf.c	2010-12-18 22:10:20.370070760 +0100
-@@ -2918,7 +2918,7 @@
+--- a/kdm/kfrontend/genkdmconf.c
++++ b/kdm/kfrontend/genkdmconf.c
+@@ -2918,7 +2918,7 @@ fprintfLineWrap(FILE *f, const char *msg
  
  
  static const char * const oldkdes[] = {
@@ -79,7 +69,7 @@ Index: kdebase-workspace/kdm/kfrontend/genkdmconf.c
      "/opt/kde4/share/config",
      "/usr/local/kde4/share/config",
  
-@@ -2926,6 +2926,7 @@
+@@ -2926,6 +2926,7 @@ static const char * const oldkdes[] = {
      "/usr/local/kde/share/config",
      "/usr/local/share/config",
      "/usr/share/config",
@@ -87,7 +77,7 @@ Index: kdebase-workspace/kdm/kfrontend/genkdmconf.c
  
      "/opt/kde3/share/config",
      "/usr/local/kde3/share/config",
-@@ -2969,7 +2970,7 @@
+@@ -2969,7 +2970,7 @@ int main(int argc, char **argv)
  "    Note that you possibly need to use --no-old-kde to make this take effect.\n"
  "  --old-kde /path/to/old/kde-config-dir\n"
  "    Where to look for the kdmrc of a previously installed kdm.\n"
@@ -96,11 +86,9 @@ Index: kdebase-workspace/kdm/kfrontend/genkdmconf.c
  "    {/usr,/usr/local,{/opt,/usr/local}/{kde4,kde,kde3}}/share/config.\n"
  "  --no-old\n"
  "    Do not look at older xdm/kdm configurations, just create default config.\n"
-Index: kdebase-workspace/kdm/kcm/helper.cpp
-===================================================================
---- kdebase-workspace.orig/kdm/kcm/helper.cpp	2010-10-27 21:55:02.000000000 +0200
-+++ kdebase-workspace/kdm/kcm/helper.cpp	2010-12-18 22:10:20.370070760 +0100
-@@ -131,9 +131,9 @@
+--- a/kdm/kcm/helper.cpp
++++ b/kdm/kcm/helper.cpp
+@@ -131,9 +131,9 @@ ActionReply Helper::save(const QVariantM
      QString tempConfigName = args.value("tempkdmrcfile").toString();
      QString tempBackgroundConfigName = args.value("tempbackgroundrcfile").toString();
  
@@ -112,7 +100,7 @@ Index: kdebase-workspace/kdm/kcm/helper.cpp
  
      int code = 0;
  
-@@ -167,7 +167,7 @@
+@@ -167,7 +167,7 @@ ActionReply Helper::managefaces(const QV
  {
      int subaction = args.value("subaction").toInt();
      QString facesDir =
@@ -121,11 +109,9 @@ Index: kdebase-workspace/kdm/kcm/helper.cpp
              .group("X-*-Greeter").readEntry("FaceDir",
                  KStandardDirs::installPath("data") + "kdm/faces") + '/';
  
-Index: kdebase-workspace/kcontrol/dateandtime/helper.cpp
-===================================================================
---- kdebase-workspace.orig/kcontrol/dateandtime/helper.cpp	2010-09-01 15:36:50.000000000 +0200
-+++ kdebase-workspace/kcontrol/dateandtime/helper.cpp	2010-12-18 22:10:20.370070760 +0100
-@@ -54,7 +54,7 @@
+--- a/kcontrol/dateandtime/helper.cpp
++++ b/kcontrol/dateandtime/helper.cpp
+@@ -54,7 +54,7 @@ int ClockHelper::ntp( const QStringList&
    int ret = 0;
  
    // write to the system config file
