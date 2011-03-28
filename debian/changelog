@@ -128,6 +128,7 @@ kdebase-workspace (4:4.6.1-0r2) UNRELEASED; urgency=low
       (patch enable_debianabimanager.diff);
     - debian/control: managing all non-local unstable-BC libraries (all lib*
       packages but libplasmagenericshell4);
+    - rename and modify install files of those packages that got ABI: 1;
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
