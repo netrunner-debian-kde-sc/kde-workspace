@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.6.1-0r2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.6.1-0r3) UNRELEASED; urgency=low
 
   * New upstream release:
     - adds authorization support to the login manager configuration module
@@ -150,7 +150,7 @@ kdebase-workspace (4:4.6.1-0r2) UNRELEASED; urgency=low
   * Drop kaboom support: remove depend and run_kaboom_when_starting_kde.diff
     patch.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Mar 2011 00:43:49 +0300
 
 kdebase-workspace (4:4.4.5-8) unstable; urgency=high
 
