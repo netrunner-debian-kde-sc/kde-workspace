@@ -120,6 +120,8 @@ kdebase-workspace (4:4.6.1-0r2) UNRELEASED; urgency=low
   * Disable testsuite.
   * Require debhelper 7.2.7~.
   * Remove executable permissions from klipper.desktop.
+  * Add shebang to the kwin/data/kwin_blacklist.sh script
+    (patch upstream_kwin_blacklist_add_shebang.diff).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 

@@ -1,0 +1,22 @@
+From: Modestas Vainius <modax@debian.org>
+Subject: Add shebang to the kwin/data/kwin_blacklist.sh script
+Forwarded: no
+Origin: vendor
+Last-Update: 2011-03-28
+
+--- a/kwin/data/kwin_blacklist.sh
++++ b/kwin/data/kwin_blacklist.sh
+@@ -1,3 +1,5 @@
++#!/bin/sh
++
+ while read line; do
+     echo $line
+ done
+@@ -11,4 +13,5 @@ echo "[Blacklist][Blur]"
+ echo "Advanced Micro Devices=DRI R600:-:7.8.1,DRI R600:-:7.8.2"
+ echo "Ati=Radeon HD 3650:-:3.3.9901"
+ echo "NVIDIA=GeForce 6150/PCI/SSE2:-:195"
+-echo ""
+\ No newline at end of file
++echo ""
++
