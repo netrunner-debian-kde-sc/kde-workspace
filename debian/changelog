@@ -59,13 +59,6 @@ kdebase-workspace (4:4.6.1-0r2) UNRELEASED; urgency=low
       - libsmbclient-dev
       - libxcb1-dev
     - Bump version of kdelibs5-dev and kdepimlibs5-dev to 4:4.6.
-  * Rename the following library packages due to binary incompatible changes:
-    - libkephal4 -> libkephal4a
-    - libplasmaclock4a -> libplasmaclock4b
-    - libprocesscore4a -> libprocesscore4b
-    - libsolidcontrol4 -> libsolidcontrol4a
-    - libsolidcontrolifaces4 -> libsolidcontrolifaces4a
-    - libtaskmanager4a -> libtaskmanager4b
   * Move the freespacenotifier package from src:freespacenotifier here.
   * Adjust the kdm postinst and postrm scripts to create and remove (on purge)
     a "kdm" user, which is now used by default as the user to run the greeter.
@@ -87,7 +80,6 @@ kdebase-workspace (4:4.6.1-0r2) UNRELEASED; urgency=low
   * TODO:
     - 31_kdm_vt_switching_on_kfreebsd.diff - should be refreshed/reworked
   * Rename libweather-ion4a as libweather-ion6 due to soname bump.
-  * Rename libkwineffects1a as libkwineffects1b due to binary incompatible
     changes.
   * Remove plasma-scriptengine-qedje package.
   * Add build dependencies:
@@ -135,6 +127,24 @@ kdebase-workspace (4:4.6.1-0r2) UNRELEASED; urgency=low
       + set versions of all symbols to 4:4.6.1;
       + replace @Base with appropriate @ABI string;
       + restart symbol confirmation process at 4:4.6.1;
+    - ABI-0 library packages:
+      + libkdecorations4;
+      + libkscreensaver5;
+      + libksgrd4;
+      + libksignalplotter4;
+      + libkworkspace4;
+      + liblsofui4;
+      + libplasma-geolocation-interface4;
+      + libprocessui4a;
+      + libweather-ion6;
+    - ABI-1 library packages:
+      + libkwineffects1abi1;
+      + libkephal4abi1;
+      + libplasmaclock4abi1;
+      + libprocesscore4abi1;
+      + libsolidcontrol4abi1;
+      + libsolidcontrolifaces4abi1;
+      + libtaskmanager4abi1.
   * Add symbol file for libweather-ion6.
   * Strip sequence numbers from the debian/patches/*.
   * Drop kaboom support: remove depend and run_kaboom_when_starting_kde.diff
