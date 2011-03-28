@@ -9,7 +9,6 @@ kdm_override_docs.diff
 use_dejavu_as_default_font.diff
 place_global_config_in_etc.diff
 kdm_xreset_hook_framework.diff
-run_kaboom_when_starting_kde.diff
 plasma_netbook_fix_autostart.diff
 ksmserver_fadeeffect_use_sse2_free.diff
 qguiplatformplugin_kde_NULL_check.diff

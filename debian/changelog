@@ -137,6 +137,8 @@ kdebase-workspace (4:4.6.1-0r2) UNRELEASED; urgency=low
       + restart symbol confirmation process at 4:4.6.1;
   * Add symbol file for libweather-ion6.
   * Strip sequence numbers from the debian/patches/*.
+  * Drop kaboom support: remove depend and run_kaboom_when_starting_kde.diff
+    patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
