@@ -80,7 +80,6 @@ kdebase-workspace (4:4.6.1-0r3) UNRELEASED; urgency=low
   * TODO:
     - 31_kdm_vt_switching_on_kfreebsd.diff - should be refreshed/reworked
   * Rename libweather-ion4a as libweather-ion6 due to soname bump.
-    changes.
   * Remove plasma-scriptengine-qedje package.
   * Add build dependencies:
     - libqtwebkit-dev
