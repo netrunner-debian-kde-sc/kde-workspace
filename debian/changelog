@@ -126,6 +126,8 @@ kdebase-workspace (4:4.6.1-0r2) UNRELEASED; urgency=low
   * Enable DebianABIManager:
     - include DebianABIManager.cmake at the bottom of the main CMakeLists.txt
       (patch enable_debianabimanager.diff);
+    - debian/control: managing all non-local unstable-BC libraries (all lib*
+      packages but libplasmagenericshell4);
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 

@@ -345,6 +345,7 @@ Description: K window manager (KWin)
 Package: libkdecorations4
 Section: libs
 Architecture: any
+X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library used by decorations for the KDE window manager
  This package contains a library used by decorations of the KDE  window
@@ -352,14 +353,11 @@ Description: library used by decorations for the KDE window manager
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwineffects1b
+Package: libkwineffects1abi1
 Section: libs
 Architecture: any
+X-Debian-ABI: 1
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libkwineffects1-api
-Replaces: libkwineffects1, libkwineffects1-api
-Breaks: libkwineffects1
-Conflicts: libkwineffects1-api
 Description: library used by effects for the KDE window manager
  This package contains a library used by effects for the KDE window manager.
  .
@@ -387,14 +385,11 @@ Description: KDE greet libraries for authentication
  .
  This package is part of the KDE base workspace module.
 
-Package: libkephal4a
+Package: libkephal4abi1
 Section: libs
 Architecture: any
+X-Debian-ABI: 1
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libkephal4-api
-Replaces: kdebase-workspace-libs4+5, libkephal4, libkephal4-api
-Breaks: kdebase-workspace-libs4+5, libkephal4
-Conflicts: libkephal4-api
 Description: API for easier handling of multihead systems
  This package contains libraries needed for Kephal's D-Bus API.
  .
@@ -403,6 +398,7 @@ Description: API for easier handling of multihead systems
 Package: libkscreensaver5
 Section: libs
 Architecture: any
+X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Breaks: kdebase-workspace-libs4+5
@@ -414,6 +410,7 @@ Description: library of the KDE Screensaver system
 Package: libksgrd4
 Section: libs
 Architecture: any
+X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Breaks: kdebase-workspace-libs4+5
@@ -427,6 +424,7 @@ Description: library for ksysguard
 Package: libksignalplotter4
 Section: libs
 Architecture: any
+X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: KSignalPlotter widget
  This library contains the KSignalPlotter widget, which is a widget that
@@ -437,6 +435,7 @@ Description: KSignalPlotter widget
 Package: libkworkspace4
 Section: libs
 Architecture: any
+X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Breaks: kdebase-workspace-libs4+5
@@ -448,6 +447,7 @@ Description: library for the kdebase workspace
 Package: liblsofui4
 Section: libs
 Architecture: any
+X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Breaks: kdebase-workspace-libs4+5
@@ -457,14 +457,11 @@ Description: library for ksysguard based priority scheduling
  .
  This package is part of the KDE base workspace module.
 
-Package: libplasmaclock4b
+Package: libplasmaclock4abi1
 Section: libs
 Architecture: any
+X-Debian-ABI: 1
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libplasmaclock4-api
-Replaces: kdebase-workspace-libs4+5, libplasmaclock4, libplasmaclock4-api
-Breaks: kdebase-workspace-libs4+5, libplasmaclock4
-Conflicts: libplasmaclock4-api
 Description: library for Plasma clocks
  This package contains libraries needed for Plasma clocks.
  .
@@ -473,6 +470,7 @@ Description: library for Plasma clocks
 Package: libplasma-geolocation-interface4
 Section: libs
 Architecture: any
+X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdebase-workspace-libs4+5
 Breaks: kdebase-workspace-libs4+5
@@ -491,14 +489,11 @@ Description: shared elements for all the plasma shells
  .
  This package is part of the KDE base workspace module.
 
-Package: libprocesscore4b
+Package: libprocesscore4abi1
 Section: libs
 Architecture: any
+X-Debian-ABI: 1
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libprocesscore4-api
-Replaces: kdebase-workspace-libs4+5, libprocesscore4, libprocesscore4-api
-Breaks: kdebase-workspace-libs4+5, libprocesscore4
-Conflicts: libprocesscore4-api
 Description: library for ksysguard based process view
  This package contains libraries needed for ksysguard based process view.
  .
@@ -507,6 +502,7 @@ Description: library for ksysguard based process view
 Package: libprocessui4a
 Section: libs
 Architecture: any
+X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: libprocessui4-api
 Replaces: kdebase-workspace-libs4+5, libprocessui4, libprocessui4-api
@@ -517,41 +513,32 @@ Description: library for ksysguard process user interface
  .
  This package is part of the KDE base workspace module.
 
-Package: libsolidcontrol4a
+Package: libsolidcontrol4abi1
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libsolidcontrol4-api
-Replaces: kdebase-workspace-libs4+5, libsolidcontrol4, libsolidcontrol4-api
-Breaks: kdebase-workspace-libs4+5, libsolidcontrol4
-Conflicts: libsolidcontrol4-api
+X-Debian-ABI: 1
 Description: library for Solid based network management
  This package contains libraries needed for Solid based network management.
  .
  This package is part of the KDE base workspace module.
 
-Package: libsolidcontrolifaces4a
+Package: libsolidcontrolifaces4abi1
 Section: libs
 Architecture: any
+X-Debian-ABI: 1
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libsolidcontrolifaces4-api
-Replaces: kdebase-workspace-libs4+5, libsolidcontrolifaces4, libsolidcontrolifaces4-api
-Breaks: kdebase-workspace-libs4+5, libsolidcontrolifaces4
-Conflicts: libsolidcontrolifaces4-api
 Description: library for Solid based network interface management
  This package contains libraries needed for Solid based network interface
  management.
  .
  This package is part of the KDE base workspace module.
 
-Package: libtaskmanager4b
+Package: libtaskmanager4abi1
 Section: libs
 Architecture: any
+X-Debian-ABI: 1
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Provides: libtaskmanager4-api
-Replaces: kdebase-workspace-libs4+5, libtaskmanager4, libtaskmanager4-api
-Breaks: kdebase-workspace-libs4+5, libtaskmanager4
-Conflicts: libtaskmanager4-api
 Description: library which provides task management facilities
  This package contains libraries which provide task management facilities.
  .
@@ -560,6 +547,8 @@ Description: library which provides task management facilities
 Package: libweather-ion6
 Section: libs
 Architecture: any
+X-Debian-ABI: 0
+X-CMake-Target: weather_ion
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library which provides an interface for weather information services
  This package contains the library used to implement new ions (i.e. information
