@@ -15,3 +15,4 @@
 33_qguiplatformplugin_kde_NULL_check.diff
 97_fix_target_link_libraries.diff
 upstream_kwin_blacklist_add_shebang.diff
+enable_debianabimanager.diff

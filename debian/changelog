@@ -123,6 +123,9 @@ kdebase-workspace (4:4.6.1-0r2) UNRELEASED; urgency=low
   * Add shebang to the kwin/data/kwin_blacklist.sh script
     (patch upstream_kwin_blacklist_add_shebang.diff).
   * Override plasma-desktop: postinst-must-call-ldconfig usr/lib/libkickoff.so.
+  * Enable DebianABIManager:
+    - include DebianABIManager.cmake at the bottom of the main CMakeLists.txt
+      (patch enable_debianabimanager.diff);
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
