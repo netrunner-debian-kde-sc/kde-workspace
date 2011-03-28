@@ -13,6 +13,10 @@ DEB_HOST_ARCH_OS := $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
 override_dh_auto_configure:
 	$(overriden_command) -- -DKDE4_KDM_PAM_SERVICE=kdm -DKDE4_COMMON_PAM_SERVICE=kdm
 
+override_dh_auto_install:
+	$(overriden_command)
+	chmod a-x debian/tmp/usr/share/autostart/klipper.desktop
+
 .PHONY: override_dh_auto_test
 
 override_dh_strip:

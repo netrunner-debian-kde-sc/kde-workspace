@@ -119,6 +119,7 @@ kdebase-workspace (4:4.6.1-0r2) UNRELEASED; urgency=low
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
   * Disable testsuite.
   * Require debhelper 7.2.7~.
+  * Remove executable permissions from klipper.desktop.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 16:41:50 +0300
 
