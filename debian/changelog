@@ -148,6 +148,8 @@ kdebase-workspace (4:4.6.1-0r3) UNRELEASED; urgency=low
   * Strip sequence numbers from the debian/patches/*.
   * Drop kaboom support: remove depend and run_kaboom_when_starting_kde.diff
     patch.
+  * Add kdebase-runtime-dbg (<< 4:4.5) to kdebase-workspace-dbg
+    Replaces/Breaks due to moved oxygen style plugin.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Mar 2011 00:43:49 +0300
 
