@@ -150,6 +150,8 @@ kdebase-workspace (4:4.6.1-0r4) UNRELEASED; urgency=low
     patch.
   * Add kdebase-runtime-dbg (<< 4:4.5) to kdebase-workspace-dbg
     Replaces/Breaks due to moved oxygen style plugin.
+  * Make plasma-desktop Break pre-4.6 plasma-widget-networkmanagement. Symbol
+    clashes (from libsolidcontrol4) cause a crash.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Mar 2011 16:53:05 +0300
 

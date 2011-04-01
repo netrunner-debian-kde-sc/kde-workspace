@@ -62,7 +62,7 @@ Recommends: kdebase-workspace
 Replaces: kdebase-workspace-bin (<< 4:4.5.0), kdebase-workspace-data (<< 4:4.5.0),
  plasma-widgets-workspace (<< 4:4.4.0)
 Breaks: kdebase-workspace-bin (<< 4:4.5.0), kdebase-workspace-data (<< 4:4.5.0),
- plasma-widgets-workspace (<< 4:4.4.0)
+ plasma-widgets-workspace (<< 4:4.4.0), plasma-widget-networkmanagement (<< 0.1+git20110318.941cde9-10~)
 Description: KDE Plasma workspace for desktop and laptop computers
  Provides the environment for running and managing applications and integrating
  interaction of applications. It is designed as generic environment for all
