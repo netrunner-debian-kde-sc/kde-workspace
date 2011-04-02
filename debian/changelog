@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.6.1-0r4) UNRELEASED; urgency=low
+kdebase-workspace (4:4.6.1-0r5) UNRELEASED; urgency=low
 
   * New upstream release:
     - adds authorization support to the login manager configuration module
@@ -153,7 +153,7 @@ kdebase-workspace (4:4.6.1-0r4) UNRELEASED; urgency=low
   * Make plasma-desktop Break pre-4.6 plasma-widget-networkmanagement. Symbol
     clashes (from libsolidcontrol4) cause a crash.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Mar 2011 16:53:05 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Apr 2011 01:56:57 +0300
 
 kdebase-workspace (4:4.4.5-8) unstable; urgency=high
 
