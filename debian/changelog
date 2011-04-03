@@ -17,6 +17,7 @@ kdebase-workspace (4:4.6.1-0r5) UNRELEASED; urgency=low
     - fixes Plasma digital clock widget not using locale date format
       (Closes: #524055)
     - fixes long application startup delays in krunner (Closes: #597111)
+    - fixes font defaults in kdmrc (Closes: #605714)
   * Update installed files.
   * Update symbol files.
   * Refresh patches.
