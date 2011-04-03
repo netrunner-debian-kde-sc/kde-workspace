@@ -11,38 +11,38 @@ BINARYVERSION := $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Versi
 DEB_HOST_ARCH_OS := $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
 
 override_dh_auto_configure:
-	$(overriden_command) -- -DKDE4_KDM_PAM_SERVICE=kdm -DKDE4_COMMON_PAM_SERVICE=kdm
+	$(overridden_command) -- -DKDE4_KDM_PAM_SERVICE=kdm -DKDE4_COMMON_PAM_SERVICE=kdm
 
 override_dh_auto_install:
-	$(overriden_command)
+	$(overridden_command)
 	chmod a-x debian/tmp/usr/share/autostart/klipper.desktop
 
 .PHONY: override_dh_auto_test
 
 override_dh_strip:
-	$(overriden_command) --dbg-package=kdebase-workspace-dbg
+	$(overridden_command) --dbg-package=kdebase-workspace-dbg
 
 override_dh_makeshlibs:
 	# Private shared libraries which do not install headers
-	$(overriden_command) -plibplasmagenericshell4 '-Vlibplasmagenericshell4 (= $(BINARYVERSION))'
-	$(overriden_command) -pplasma-desktop -Xlibkickoff.so
-	$(overriden_command) --remaining-packages -V -- -c0
+	$(overridden_command) -plibplasmagenericshell4 '-Vlibplasmagenericshell4 (= $(BINARYVERSION))'
+	$(overridden_command) -pplasma-desktop -Xlibkickoff.so
+	$(overridden_command) --remaining-packages -V -- -c0
 
 override_dh_shlibdeps:
-	$(overriden_command) -pkdebase-workspace-bin -- -xksysguard
-	$(overriden_command) -pkdebase-workspace-dev -- -xkdebase-runtime
-	$(overriden_command) $(foreach p,$(filter lib%,$(shell dh_listpackages -a)),-p$p) -- -xkdebase-runtime
-	$(overriden_command) --remaining-packages
+	$(overridden_command) -pkdebase-workspace-bin -- -xksysguard
+	$(overridden_command) -pkdebase-workspace-dev -- -xkdebase-runtime
+	$(overridden_command) $(foreach p,$(filter lib%,$(shell dh_listpackages -a)),-p$p) -- -xkdebase-runtime
+	$(overridden_command) --remaining-packages
 
 # Prevent it from stopping kdm in prerm ever (--no-restart-on-upgrade is not
 # enough)
 override_dh_installinit:
-	$(overriden_command) -pkdm --noscripts
-	$(overriden_command) --remaining-packages
+	$(overridden_command) -pkdm --noscripts
+	$(overridden_command) --remaining-packages
 
 pkgs_with_install_linux = $(patsubst debian/%.install.linux,%,$(wildcard debian/*.install.linux))
 override_dh_install:
-	$(overriden_command)
+	$(overridden_command)
 ifeq ($(DEB_HOST_ARCH_OS),linux)
 	# Also install common files in place of debian/*.install.linux variants
 	dh_install $(foreach p,$(pkgs_with_install_linux),-p$p --ignore=debian/$p.install.linux)
