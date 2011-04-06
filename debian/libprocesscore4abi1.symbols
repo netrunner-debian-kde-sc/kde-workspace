@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.2 amd64
 libprocesscore.so.4abi1 libprocesscore4abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_1@ABI_4_1 4:4.6.1
@@ -97,6 +97,7 @@ libprocesscore.so.4abi1 libprocesscore4abi1 #MINVER#
  _ZNK9KSysGuard9Processes15historyFileNameEv@ABI_4_1 4:4.6.1
  _ZNK9KSysGuard9Processes18historiesAvailableEv@ABI_4_1 4:4.6.1
  _ZNK9KSysGuard9Processes18isHistoryAvailableEv@ABI_4_1 4:4.6.1
+ _ZNK9KSysGuard9Processes9lastErrorEv@ABI_4_1 4:4.6.2
  _ZTIN9KSysGuard9ProcessesE@ABI_4_1 4:4.6.1
  _ZTSN9KSysGuard9ProcessesE@ABI_4_1 4:4.6.1
  _ZTVN9KSysGuard9ProcessesE@ABI_4_1 4:4.6.1

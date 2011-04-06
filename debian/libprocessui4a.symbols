@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.2 amd64
 libprocessui.so.4 libprocessui4a #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -68,6 +68,7 @@ libprocessui.so.4 libprocessui4a #MINVER#
  _ZN20KSysGuardProcessList22showProcessContextMenuERK11QModelIndex@ABI_4_0 4:4.6.1
  _ZN20KSysGuardProcessList22showProcessContextMenuERK6QPoint@ABI_4_0 4:4.6.1
  _ZN20KSysGuardProcessList23reniceSelectedProcessesEv@ABI_4_0 4:4.6.1
+ _ZN20KSysGuardProcessList29sendSignalToSelectedProcessesEib@ABI_4_0 4:4.6.2
  _ZN20KSysGuardProcessList7updatedEv@ABI_4_0 4:4.6.1
  _ZN20KSysGuardProcessList8setStateEN13ProcessFilter5StateE@ABI_4_0 4:4.6.1
  _ZN20KSysGuardProcessList8setUnitsEN12ProcessModel5UnitsE@ABI_4_0 4:4.6.1
