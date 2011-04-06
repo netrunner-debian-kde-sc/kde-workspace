@@ -112,8 +112,6 @@ kdebase-workspace (4:4.6.2-0r0) UNRELEASED; urgency=low
   * Disable testsuite.
   * Require debhelper 7.2.7~.
   * Remove executable permissions from klipper.desktop.
-  * Add shebang to the kwin/data/kwin_blacklist.sh script
-    (patch upstream_kwin_blacklist_add_shebang.diff).
   * Override plasma-desktop: postinst-must-call-ldconfig usr/lib/libkickoff.so.
   * Enable DebianABIManager:
     - include DebianABIManager.cmake at the bottom of the main CMakeLists.txt

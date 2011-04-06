@@ -60,8 +60,6 @@ usr/share/icons/oxygen/scalable/apps/kwin.svgz
 usr/share/kde4/apps/kconf_update/kwin.upd
 usr/share/kde4/apps/kconf_update/kwin3_plugin.pl
 usr/share/kde4/apps/kconf_update/kwin3_plugin.upd
-usr/share/kde4/apps/kconf_update/kwin_blacklist.sh
-usr/share/kde4/apps/kconf_update/kwin_blacklist.upd
 usr/share/kde4/apps/kconf_update/kwin_focus1.sh
 usr/share/kde4/apps/kconf_update/kwin_focus1.upd
 usr/share/kde4/apps/kconf_update/kwin_focus2.sh

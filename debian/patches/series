@@ -13,5 +13,4 @@ plasma_netbook_fix_autostart.diff
 ksmserver_fadeeffect_use_sse2_free.diff
 qguiplatformplugin_kde_NULL_check.diff
 fix_target_link_libraries.diff
-upstream_kwin_blacklist_add_shebang.diff
 enable_debianabimanager.diff
