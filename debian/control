@@ -506,8 +506,7 @@ X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: libprocessui4-api
 Replaces: kdebase-workspace-libs4+5, libprocessui4, libprocessui4-api
-Breaks: kdebase-workspace-libs4+5, libprocessui4
-Conflicts: libprocessui4-api
+Breaks: kdebase-workspace-libs4+5, libprocessui4, libprocessui4-api
 Description: library for ksysguard process user interface
  This package contains libraries needed for ksysguard process user interface.
  .
