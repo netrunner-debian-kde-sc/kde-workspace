@@ -153,6 +153,8 @@ kdebase-workspace (4:4.6.2-0r0) UNRELEASED; urgency=low
     Replaces/Breaks due to moved oxygen style plugin.
   * Make plasma-desktop Break pre-4.6 plasma-widget-networkmanagement. Symbol
     clashes (from libsolidcontrol4) cause a crash.
+  * Do not bother about shlibs anymore: remove -V from the generic
+    dh_makeshlibs call.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Apr 2011 01:56:57 +0300
 

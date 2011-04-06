@@ -23,10 +23,8 @@ override_dh_strip:
 	$(overridden_command) --dbg-package=kdebase-workspace-dbg
 
 override_dh_makeshlibs:
-	# Private shared libraries which do not install headers
-	$(overridden_command) -plibplasmagenericshell4 '-Vlibplasmagenericshell4 (= $(BINARYVERSION))'
 	$(overridden_command) -pplasma-desktop -Xlibkickoff.so
-	$(overridden_command) --remaining-packages -V -- -c0
+	$(overridden_command) --remaining-packages -- -c0
 
 override_dh_shlibdeps:
 	$(overridden_command) -pkdebase-workspace-bin -- -xksysguard
