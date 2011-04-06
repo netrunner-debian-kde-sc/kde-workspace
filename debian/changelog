@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.6.1-0r5) UNRELEASED; urgency=low
+kdebase-workspace (4:4.6.2-0r0) UNRELEASED; urgency=low
 
   * New upstream release:
     - adds authorization support to the login manager configuration module
@@ -84,7 +84,7 @@ kdebase-workspace (4:4.6.1-0r5) UNRELEASED; urgency=low
   * Remove plasma-scriptengine-qedje package.
   * Add build dependencies:
     - libqtwebkit-dev
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Bump S-V to 3.9.1; updated Breaks/Replaces/Conflicts.
   * Remove starting articles in short descriptions.
   * Fix mispelling in plasma-scriptengine-googlegadgets long description.
