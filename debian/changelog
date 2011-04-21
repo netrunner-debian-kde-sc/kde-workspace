@@ -1,5 +1,6 @@
 kdebase-workspace (4:4.4.5-9) UNRELEASED; urgency=low
 
+  * Add ftbfs_remove_notify.diff to avoid FTBFS with Qt 4.7 (Closes: #618073)
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Thu, 21 Apr 2011 18:43:08 +0200
 

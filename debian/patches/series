@@ -21,3 +21,4 @@
 34_backport_krunner_crash_fix_threading.diff
 97_fix_target_link_libraries.diff
 99_solid_network_use_ntrack.diff
+ftbfs_remove_notify.diff
