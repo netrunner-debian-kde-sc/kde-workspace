@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.4.5-9) UNRELEASED; urgency=low
+kdebase-workspace (4:4.4.5-9) unstable; urgency=high
 
   [ José Manuel Santamaría Lema ]
   * Add ftbfs_remove_notify.diff to avoid FTBFS with Qt 4.7 (Closes: #618073)
@@ -7,8 +7,9 @@ kdebase-workspace (4:4.4.5-9) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Add initialize_variables_crashfix.diff patch which initializes some
     variables in order to avoid kded crash with dbus 1.4.8. (Closes: #623492)
+  * Urgency=high because #623492 makes KDE desktop unusable.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Thu, 21 Apr 2011 18:43:08 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Apr 2011 16:05:31 +0300
 
 kdebase-workspace (4:4.4.5-8) unstable; urgency=high
 
