@@ -1,7 +1,12 @@
 kdebase-workspace (4:4.4.5-9) UNRELEASED; urgency=low
 
+  [ José Manuel Santamaría Lema ]
   * Add ftbfs_remove_notify.diff to avoid FTBFS with Qt 4.7 (Closes: #618073)
   * Build depend on libqtwebkit-dev.
+
+  [ Modestas Vainius ]
+  * Add initialize_variables_crashfix.diff patch which initializes some
+    variables in order to avoid kded crash with dbus 1.4.8. (Closes: #623492)
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Thu, 21 Apr 2011 18:43:08 +0200
 

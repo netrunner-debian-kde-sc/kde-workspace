@@ -1,0 +1,7 @@
+From: José Manuel Santamaría Lema <panfaust@gmail.com>
+Subject: initialize some primitive variables avoiding crashes with dbus 1.4.8
+Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=623492
+Last-Update: 2011-04-22
+Forwarded: not-needed
+Origin: vendor
+
