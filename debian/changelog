@@ -108,7 +108,7 @@ kdebase-workspace (4:4.6.2-0r2) UNRELEASED; urgency=low
   * Replace /usr/share/common-licenses/BSD with verbatim license text.
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*.
   * Disable testsuite.
-  * Require debhelper 7.2.7~.
+  * Require debhelper 7.3.16.
   * Remove executable permissions from klipper.desktop.
   * Override plasma-desktop: postinst-must-call-ldconfig usr/lib/libkickoff.so.
   * Enable DebianABIManager:
