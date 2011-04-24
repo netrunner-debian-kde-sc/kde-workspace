@@ -77,8 +77,9 @@ kdebase-workspace (4:4.6.2-0r1) UNRELEASED; urgency=low
     - 29_backport_fix_krandr_support_in_startkde.diff - applied upstream
     - 99_solid_network_use_ntrack.diff - applied upstream
     - ftbfs_remove_notify.diff - applied upstream
-  * Refreshed patches:
+  * Refreshed/reworked patches:
     - 30_plasma_netbook_fix_autostart.diff
+    - initialize_variables_crashfix.diff
   * TODO:
     - 31_kdm_vt_switching_on_kfreebsd.diff - should be refreshed/reworked
   * Rename libweather-ion4a as libweather-ion6 due to soname bump.
