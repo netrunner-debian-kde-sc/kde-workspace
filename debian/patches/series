@@ -14,3 +14,4 @@ ksmserver_fadeeffect_use_sse2_free.diff
 qguiplatformplugin_kde_NULL_check.diff
 fix_target_link_libraries.diff
 enable_debianabimanager.diff
+initialize_variables_crashfix.diff

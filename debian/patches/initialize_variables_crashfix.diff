@@ -1,0 +1,100 @@
+From: José Manuel Santamaría Lema <panfaust@gmail.com>
+From: Modestas Vainius <modax@debian.org>
+Subject: initialize some primitive variables avoiding crashes with dbus 1.4.8
+Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=623492
+Last-Update: 2011-04-22
+Forwarded: not-needed
+Origin: vendor
+
+--- a/libs/kephal/outputs/backendoutputs.cpp
++++ b/libs/kephal/outputs/backendoutputs.cpp
+@@ -26,7 +26,12 @@
+ namespace Kephal {
+ 
+     BackendOutput::BackendOutput(QObject * parent)
+-        : Output(parent)
++        : Output(parent),
++        m_markedActive(false),
++        m_markedRate(0),
++        m_markedRotation(RotateNormal),
++        m_markedReflectX(false),
++        m_markedReflectY(false)
+     {
+     }
+     
+--- a/libs/kephal/outputs/simpleoutput.cpp
++++ b/libs/kephal/outputs/simpleoutput.cpp
+@@ -24,7 +24,13 @@
+ namespace Kephal {
+ 
+     SimpleOutput::SimpleOutput(QObject * parent, QString id, QSize size, QPoint position, bool connected, bool activated)
+-        : Output(parent)
++        : Output(parent),
++        m_productId(0),
++        m_serialNumber(0),
++        m_rotation(RotateNormal),
++        m_reflectX(false),
++        m_reflectY(false),
++        m_rate(0)
+     {
+         m_id = id;
+         m_size = size;
+@@ -39,12 +45,24 @@ namespace Kephal {
+         m_size(0, 0),
+         m_position(0, 0),
+         m_connected(false),
+-        m_activated(false)
++        m_activated(false),
++        m_productId(0),
++        m_serialNumber(0),
++        m_rotation(RotateNormal),
++        m_reflectX(false),
++        m_reflectY(false),
++        m_rate(0)
+     {
+     }
+     
+     SimpleOutput::SimpleOutput(QObject * parent, Output * output)
+-        : Output(parent)
++        : Output(parent),
++        m_productId(0),
++        m_serialNumber(0),
++        m_rotation(RotateNormal),
++        m_reflectX(false),
++        m_reflectY(false),
++        m_rate(0)
+     {
+         m_id = output->id();
+         m_size = output->size();
+--- a/libs/kephal/outputs/xrandr/xrandroutputs.cpp
++++ b/libs/kephal/outputs/xrandr/xrandroutputs.cpp
+@@ -63,7 +63,15 @@ namespace Kephal {
+     }
+     
+     XRandROutput::XRandROutput(XRandROutputs * parent, RROutput rrId)
+-            : BackendOutput(parent)
++            : BackendOutput(parent),
++            m_productId(0),
++            m_serialNumber(0),
++            m_previousConnected(false),
++            m_previousActivated(false),
++            m_previousRotation(RotateNormal),
++            m_previousRate(0),
++            m_previousReflectX(false),
++            m_previousReflectY(false)
+     {
+         m_outputs = parent;
+         m_rrId = rrId;
+--- a/powerdevil/daemon/PowerDevilDaemon.cpp
++++ b/powerdevil/daemon/PowerDevilDaemon.cpp
+@@ -93,6 +93,10 @@ public:
+             : notifier(Solid::Control::PowerManager::notifier())
+             , currentConfig(0)
+             , status(PowerDevilDaemon::NoAction)
++            , batteryPercent(0)
++            , brightness(0)
++            , isPlugged(false)
++            , ckAvailable(false)
+             , ckSessionInterface(0) {}
+ 
+     Solid::Control::PowerManager::Notifier *notifier;

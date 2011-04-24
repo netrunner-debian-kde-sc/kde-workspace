@@ -76,14 +76,13 @@ kdebase-workspace (4:4.6.2-0r1) UNRELEASED; urgency=low
     - 28_backport_bug156475_dualhead_support.diff - applied upstream
     - 29_backport_fix_krandr_support_in_startkde.diff - applied upstream
     - 99_solid_network_use_ntrack.diff - applied upstream
+    - ftbfs_remove_notify.diff - applied upstream
   * Refreshed patches:
     - 30_plasma_netbook_fix_autostart.diff
   * TODO:
     - 31_kdm_vt_switching_on_kfreebsd.diff - should be refreshed/reworked
   * Rename libweather-ion4a as libweather-ion6 due to soname bump.
   * Remove plasma-scriptengine-qedje package.
-  * Add build dependencies:
-    - libqtwebkit-dev
   * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Bump S-V to 3.9.1; updated Breaks/Replaces/Conflicts.
   * Remove starting articles in short descriptions.
@@ -156,6 +155,19 @@ kdebase-workspace (4:4.6.2-0r1) UNRELEASED; urgency=low
   * Clean up Replaces/Breaks which predate squeeze and can be removed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Apr 2011 20:47:32 +0300
+
+kdebase-workspace (4:4.4.5-9) unstable; urgency=high
+
+  [ José Manuel Santamaría Lema ]
+  * Add ftbfs_remove_notify.diff to avoid FTBFS with Qt 4.7 (Closes: #618073)
+  * Build depend on libqtwebkit-dev.
+
+  [ Modestas Vainius ]
+  * Add initialize_variables_crashfix.diff patch which initializes some
+    variables in order to avoid kded crash with dbus 1.4.8. (Closes: #623492)
+  * Urgency=high because #623492 makes KDE desktop unusable.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Apr 2011 16:05:31 +0300
 
 kdebase-workspace (4:4.4.5-8) unstable; urgency=high
 
