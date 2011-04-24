@@ -61,7 +61,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binar
 Recommends: kdebase-workspace
 Replaces: kdebase-workspace-bin (<< 4:4.5), kdebase-workspace-data (<< 4:4.5)
 Breaks: kdebase-workspace-bin (<< 4:4.5), kdebase-workspace-data (<< 4:4.5),
- plasma-widget-networkmanagement (<< 0.1+git20110422.810bc16-1)
+ plasma-widget-networkmanagement (<< 0.1+git20110422.810bc16-1+)
 Description: KDE Plasma workspace for desktop and laptop computers
  Provides the environment for running and managing applications and integrating
  interaction of applications. It is designed as generic environment for all
