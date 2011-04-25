@@ -80,6 +80,8 @@ kdebase-workspace (4:4.6.2-0r2) UNRELEASED; urgency=low
   * Refreshed/reworked patches:
     - 30_plasma_netbook_fix_autostart.diff
     - initialize_variables_crashfix.diff
+  * New patches:
+    - initialize_variables_crashfix.diff
   * Rename libweather-ion4a as libweather-ion6 due to soname bump.
   * Remove plasma-scriptengine-qedje package.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
