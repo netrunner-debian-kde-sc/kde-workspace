@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.6.2-0r3) UNRELEASED; urgency=low
+kdebase-workspace (4:4.6.2-1) experimental; urgency=low
 
   * New upstream release:
     - adds authorization support to the login manager configuration module
@@ -155,7 +155,7 @@ kdebase-workspace (4:4.6.2-0r3) UNRELEASED; urgency=low
     dh_makeshlibs call.
   * Clean up Replaces/Breaks which predate squeeze and can be removed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Apr 2011 20:47:32 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:40 +0300
 
 kdebase-workspace (4:4.4.5-9) unstable; urgency=high
 
