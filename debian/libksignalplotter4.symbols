@@ -1,11 +1,11 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
 libksignalplotter.so.4 libksignalplotter4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter10paintEventEP11QPaintEvent@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter10removeBeamEi@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter11changeEventEP6QEvent@ABI_4_0 4:4.6.1
- _ZN14KSignalPlotter11changeRangeEdd@ABI_4_0 4:4.6.1
+ (subst)_ZN14KSignalPlotter11changeRangeE{qreal}{qreal}@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter11resizeEventEP12QResizeEvent@ABI_4_0 4:4.6.1
@@ -15,10 +15,10 @@ libksignalplotter.so.4 libksignalplotter4 #MINVER#
  _ZN14KSignalPlotter12setThinFrameEb@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter13setStackGraphEb@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter14setFillOpacityEi@ABI_4_0 4:4.6.1
- _ZN14KSignalPlotter14setScaleDownByEd@ABI_4_0 4:4.6.1
+ (subst)_ZN14KSignalPlotter14setScaleDownByE{qreal}@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter14setSmoothGraphEb@ABI_4_0 4:4.6.1
- _ZN14KSignalPlotter15setMaximumValueEd@ABI_4_0 4:4.6.1
- _ZN14KSignalPlotter15setMinimumValueEd@ABI_4_0 4:4.6.1
+ (subst)_ZN14KSignalPlotter15setMaximumValueE{qreal}@ABI_4_0 4:4.6.1
+ (subst)_ZN14KSignalPlotter15setMinimumValueE{qreal}@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter15setUseAutoRangeEb@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter16axisScaleChangedEv@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter16setSvgBackgroundERK7QString@ABI_4_0 4:4.6.1
@@ -31,7 +31,7 @@ libksignalplotter.so.4 libksignalplotter4 #MINVER#
  _ZN14KSignalPlotter24setVerticalLinesDistanceEj@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter7addBeamERK6QColor@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter7setUnitERK16KLocalizedString@ABI_4_0 4:4.6.1
- _ZN14KSignalPlotter9addSampleERK5QListIdE@ABI_4_0 4:4.6.1
+ (subst)_ZN14KSignalPlotter9addSampleERK5QListI{qreal}E@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotterC1EP7QWidget@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotterC2EP7QWidget@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotterD0Ev@ABI_4_0 4:4.6.1
@@ -39,7 +39,7 @@ libksignalplotter.so.4 libksignalplotter4 #MINVER#
  _ZN14KSignalPlotterD2Ev@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter10removeBeamEi@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter11changeEventEP6QEvent@ABI_4_0 4:4.6.1
- _ZN22KGraphicsSignalPlotter11changeRangeEdd@ABI_4_0 4:4.6.1
+ (subst)_ZN22KGraphicsSignalPlotter11changeRangeE{qreal}{qreal}@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter11resizeEventEP25QGraphicsSceneResizeEvent@ABI_4_0 4:4.6.1
@@ -49,10 +49,10 @@ libksignalplotter.so.4 libksignalplotter4 #MINVER#
  _ZN22KGraphicsSignalPlotter12setThinFrameEb@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter13setStackGraphEb@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter14setFillOpacityEi@ABI_4_0 4:4.6.1
- _ZN22KGraphicsSignalPlotter14setScaleDownByEd@ABI_4_0 4:4.6.1
+ (subst)_ZN22KGraphicsSignalPlotter14setScaleDownByE{qreal}@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter14setSmoothGraphEb@ABI_4_0 4:4.6.1
- _ZN22KGraphicsSignalPlotter15setMaximumValueEd@ABI_4_0 4:4.6.1
- _ZN22KGraphicsSignalPlotter15setMinimumValueEd@ABI_4_0 4:4.6.1
+ (subst)_ZN22KGraphicsSignalPlotter15setMaximumValueE{qreal}@ABI_4_0 4:4.6.1
+ (subst)_ZN22KGraphicsSignalPlotter15setMinimumValueE{qreal}@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter15setUseAutoRangeEb@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter16axisScaleChangedEv@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter16setSvgBackgroundERK7QString@ABI_4_0 4:4.6.1
@@ -66,7 +66,7 @@ libksignalplotter.so.4 libksignalplotter4 #MINVER#
  _ZN22KGraphicsSignalPlotter5paintEP8QPainterPK24QStyleOptionGraphicsItemP7QWidget@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter7addBeamERK6QColor@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotter7setUnitERK16KLocalizedString@ABI_4_0 4:4.6.1
- _ZN22KGraphicsSignalPlotter9addSampleERK5QListIdE@ABI_4_0 4:4.6.1
+ (subst)_ZN22KGraphicsSignalPlotter9addSampleERK5QListI{qreal}E@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotterC1EP13QGraphicsItem@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotterC2EP13QGraphicsItem@ABI_4_0 4:4.6.1
  _ZN22KGraphicsSignalPlotterD0Ev@ABI_4_0 4:4.6.1
@@ -81,7 +81,7 @@ libksignalplotter.so.4 libksignalplotter4 #MINVER#
  _ZNK14KSignalPlotter12minimumValueEv@ABI_4_0 4:4.6.1
  _ZNK14KSignalPlotter12useAutoRangeEv@ABI_4_0 4:4.6.1
  _ZNK14KSignalPlotter13svgBackgroundEv@ABI_4_0 4:4.6.1
- _ZNK14KSignalPlotter13valueAsStringEdi@ABI_4_0 4:4.6.1
+ (subst)_ZNK14KSignalPlotter13valueAsStringE{qreal}i@ABI_4_0 4:4.6.1
  _ZNK14KSignalPlotter15horizontalScaleEv@ABI_4_0 4:4.6.1
  _ZNK14KSignalPlotter16maxAxisTextWidthEv@ABI_4_0 4:4.6.1
  _ZNK14KSignalPlotter17lastValueAsStringEii@ABI_4_0 4:4.6.1
@@ -109,7 +109,7 @@ libksignalplotter.so.4 libksignalplotter4 #MINVER#
  _ZNK22KGraphicsSignalPlotter12minimumValueEv@ABI_4_0 4:4.6.1
  _ZNK22KGraphicsSignalPlotter12useAutoRangeEv@ABI_4_0 4:4.6.1
  _ZNK22KGraphicsSignalPlotter13svgBackgroundEv@ABI_4_0 4:4.6.1
- _ZNK22KGraphicsSignalPlotter13valueAsStringEdi@ABI_4_0 4:4.6.1
+ (subst)_ZNK22KGraphicsSignalPlotter13valueAsStringE{qreal}i@ABI_4_0 4:4.6.1
  _ZNK22KGraphicsSignalPlotter15horizontalScaleEv@ABI_4_0 4:4.6.1
  _ZNK22KGraphicsSignalPlotter16maxAxisTextWidthEv@ABI_4_0 4:4.6.1
  _ZNK22KGraphicsSignalPlotter17lastValueAsStringEii@ABI_4_0 4:4.6.1

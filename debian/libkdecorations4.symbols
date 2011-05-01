@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64
+# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
 libkdecorations.so.4 libkdecorations4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -228,6 +228,7 @@ libkdecorations.so.4 libkdecorations4 #MINVER#
  _ZNK11KDecoration9isPreviewEv@ABI_4_0 4:4.6.1
  _ZNK11KDecoration9keepAboveEv@ABI_4_0 4:4.6.1
  _ZNK11KDecoration9keepBelowEv@ABI_4_0 4:4.6.1
+ (optional=templinst|arch=ia64 mips s390 sparc)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@ABI_4_0 4:4.6.2
  _ZNK17KCommonDecoration10decorationEv@ABI_4_0 4:4.6.1
  _ZNK17KCommonDecoration10isSetShadeEv@ABI_4_0 4:4.6.1
  _ZNK17KCommonDecoration10metaObjectEv@ABI_4_0 4:4.6.1

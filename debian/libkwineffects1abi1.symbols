@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
 libkwineffects.so.1abi1 libkwineffects1abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_1_1@ABI_1_1 4:4.6.1
@@ -37,7 +37,7 @@ libkwineffects.so.1abi1 libkwineffects1abi1 #MINVER#
  _ZN4KWin10GLPlatformD2Ev@ABI_1_1 4:4.6.1
  _ZN4KWin11EffectFrame15enableCrossFadeEb@ABI_1_1 4:4.6.1
  _ZN4KWin11EffectFrame15styledTextColorEv@ABI_1_1 4:4.6.1
- _ZN4KWin11EffectFrame20setCrossFadeProgressEd@ABI_1_1 4:4.6.1
+ (subst)_ZN4KWin11EffectFrame20setCrossFadeProgressE{qreal}@ABI_1_1 4:4.6.1
  _ZN4KWin11EffectFrameC1Ev@ABI_1_1 4:4.6.1
  _ZN4KWin11EffectFrameC2Ev@ABI_1_1 4:4.6.1
  _ZN4KWin11EffectFrameD0Ev@ABI_1_1 4:4.6.1
