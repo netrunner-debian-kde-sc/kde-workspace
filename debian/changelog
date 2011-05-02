@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.6.2-2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.6.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Make kdm recommend server-xorg, not xserver-xorg-core. (Closes: #624342)
@@ -8,7 +8,7 @@ kdebase-workspace (4:4.6.2-2) UNRELEASED; urgency=low
   * Build depend on libglib2.0-dev. This should fix FTBFS on kFreeBSD.
   * Bump Standards-Version to 3.9.2: no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Apr 2011 10:57:35 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 May 2011 03:06:18 +0300
 
 kdebase-workspace (4:4.6.2-1) experimental; urgency=low
 
