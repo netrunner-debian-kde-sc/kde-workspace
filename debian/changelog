@@ -5,6 +5,7 @@ kdebase-workspace (4:4.6.2-2) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Confirm symbol files on more debian arches.
+  * Build depend on libglib2.0-dev. This should fix FTBFS on kFreeBSD.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Apr 2011 10:57:35 +0200
 
