@@ -5,6 +5,7 @@ kdebase-workspace (4:4.6.3-0r0) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Remove fix_temperature_sensors.diff, applied upstream.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 May 2011 22:16:17 +0200
 

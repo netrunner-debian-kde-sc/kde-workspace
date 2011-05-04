@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkwineffects.so.1abi1 libkwineffects1abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_1_1@ABI_1_1 4:4.6.1
@@ -400,7 +400,7 @@ libkwineffects.so.1abi1 libkwineffects1abi1 #MINVER#
  _ZNK4KWin9GLTexture6targetEv@ABI_1_1 4:4.6.1
  _ZNK4KWin9GLTexture7isDirtyEv@ABI_1_1 4:4.6.1
  _ZNK4KWin9GLTexture7textureEv@ABI_1_1 4:4.6.1
- _ZSt4leftRSt8ios_base@ABI_1_1 4:4.6.1
+#MISSING: 4:4.6.3# _ZSt4leftRSt8ios_base@ABI_1_1 4:4.6.1
  _ZTIN4KWin11EffectFrameE@ABI_1_1 4:4.6.1
  _ZTIN4KWin12EffectWindowE@ABI_1_1 4:4.6.1
  _ZTIN4KWin12ShaderEffectE@ABI_1_1 4:4.6.1
