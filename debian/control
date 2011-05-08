@@ -90,13 +90,13 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, iso-codes,
  plasma-desktop (= ${binary:Version}) | plasma-netbook (= ${binary:Version}),
  kdebase-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils,
  kdebase-workspace-kgreet-plugins (= ${binary:Version})
-Recommends: plasma-scriptengines, polkit-kde-1 | policykit-1-gnome,
+Recommends: plasma-scriptengines, polkit-kde-1 (>= 0.99) | policykit-1-gnome,
  upower [linux-any]
 Suggests: x11-xkb-utils
 Replaces: kcontrol, kmenuedit, ktip, libkfontinst4, ksplash, kdesktop,
  kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5)
 Breaks: kcontrol, kmenuedit, ktip, libkfontinst4, kdesktop, ksplash,
- kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5)
+ kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), polkit-kde-1 (<< 0.99)
 Description: core binaries for the KDE Plasma Workspace
  This package contains miscellaneous programs needed for a basic desktop
  installation. Among other standard KDE Workspace components, the package

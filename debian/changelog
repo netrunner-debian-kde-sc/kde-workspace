@@ -7,6 +7,9 @@ kdebase-workspace (4:4.6.3-0r1) UNRELEASED; urgency=low
   * Remove fix_temperature_sensors.diff, applied upstream.
   * Update symbols files.
 
+  [ Modestas Vainius ]
+  * Make kdebase-workspace-bin break polkit-kde-1 (<< 0.99).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 May 2011 19:47:47 +0200
 
 kdebase-workspace (4:4.6.2-2) experimental; urgency=low
