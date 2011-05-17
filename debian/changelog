@@ -10,6 +10,10 @@ kdebase-workspace (4:4.6.3-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Make kdebase-workspace-bin break polkit-kde-1 (<< 0.99).
 
+  [ Pino Toscano ]
+  * Make plasma-scriptengine-python recommend python-qt4-dbus, as Python
+    widgets could use D-Bus functions. (Closes: #619511)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 May 2011 19:47:47 +0200
 
 kdebase-workspace (4:4.6.2-2) experimental; urgency=low

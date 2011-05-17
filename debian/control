@@ -191,7 +191,8 @@ Description: Ruby script engine for Plasma
 
 Package: plasma-scriptengine-python
 Architecture: all
-Depends: ${python:Depends}, python-kde4 (>= 4:4.2.0), ${misc:Depends}
+Depends: ${python:Depends}, python-kde4 (>= 4:4.2.0), ${misc:Depends},
+ python-qt4-dbus
 Description: Python script engine for Plasma
  This package provides the Python script engine for Plasma. You have to install
  it if you want to use Plasma widgets and data engines written in Python.
