@@ -1,3 +1,12 @@
+From: Modestas Vainius <modax@debian.org>
+Subject: Enable DLRestrictions (REJECT:OTHERSOVERSION) support for all libraries
+Forwarded: not-needed
+Origin: vendor
+Last-Update: 2011-05-25
+
+Enable REJECT:OTHERSOVERSION for these libraries because their ABI is typically
+not stable and structures frequently conflict.
+
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -244,3 +244,10 @@ install(EXPORT kdeworkspaceLibraryTarget
