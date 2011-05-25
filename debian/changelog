@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.6.3-0r3) UNRELEASED; urgency=low
+kdebase-workspace (4:4.6.3-1) unstable; urgency=low
 
   * New upstream release:
     - fixes shutdown with default kdm config (Closes: #627917);
@@ -19,7 +19,7 @@ kdebase-workspace (4:4.6.3-0r3) UNRELEASED; urgency=low
   * Make plasma-scriptengine-python recommend python-qt4-dbus, as Python
     widgets could use D-Bus functions. (Closes: #619511)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 May 2011 19:47:47 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 02:41:32 +0300
 
 kdebase-workspace (4:4.6.2-2) experimental; urgency=low
 
