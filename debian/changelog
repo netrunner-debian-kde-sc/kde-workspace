@@ -9,6 +9,9 @@ kdebase-workspace (4:4.6.3-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Make kdebase-workspace-bin break polkit-kde-1 (<< 0.99).
+  * Add DLRestriction "REJECT:OTHERSOVERSION" to all libs on Debian (patch
+    enable_dlrestrcitions.diff). Requires kdelibs5-dev 4.6.3 and
+    libdlrestrictions-dev 0.14.
 
   [ Pino Toscano ]
   * Make plasma-scriptengine-python recommend python-qt4-dbus, as Python

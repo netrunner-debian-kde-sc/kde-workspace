@@ -15,3 +15,4 @@ qguiplatformplugin_kde_NULL_check.diff
 fix_target_link_libraries.diff
 enable_debianabimanager.diff
 initialize_variables_crashfix.diff
+enable_dlrestrcitions.diff
