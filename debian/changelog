@@ -1,6 +1,7 @@
 kdebase-workspace (4:4.6.3-0r2) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fixes shutdown with default kdm config (Closes: #627917);
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
