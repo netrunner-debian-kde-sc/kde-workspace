@@ -13,6 +13,7 @@ kdebase-workspace (4:4.6.3-0r2) UNRELEASED; urgency=low
   * Add DLRestriction "REJECT:OTHERSOVERSION" to all libs on Debian (patch
     enable_dlrestrcitions.diff). Requires kdelibs5-dev 4.6.3 and
     libdlrestrictions-dev 0.14.
+  * Update symbol files: DLRestrictions symbols added.
 
   [ Pino Toscano ]
   * Make plasma-scriptengine-python recommend python-qt4-dbus, as Python

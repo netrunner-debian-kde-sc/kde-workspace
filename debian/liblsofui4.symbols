@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 liblsofui.so.4 liblsofui4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -18,4 +18,5 @@ liblsofui.so.4 liblsofui4 #MINVER#
  _ZTI11KLsofWidget@ABI_4_0 4:4.6.1
  _ZTS11KLsofWidget@ABI_4_0 4:4.6.1
  _ZTV11KLsofWidget@ABI_4_0 4:4.6.1
+ dlrestrictions_data@ABI_4_0 4:4.6.3
  (c++)"non-virtual thunk to KLsofWidget::~KLsofWidget()@ABI_4_0" 4:4.6.1

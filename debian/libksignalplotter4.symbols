@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libksignalplotter.so.4 libksignalplotter4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -133,6 +133,7 @@ libksignalplotter.so.4 libksignalplotter4 #MINVER#
  _ZTS22KGraphicsSignalPlotter@ABI_4_0 4:4.6.1
  _ZTV14KSignalPlotter@ABI_4_0 4:4.6.1
  _ZTV22KGraphicsSignalPlotter@ABI_4_0 4:4.6.1
+ dlrestrictions_data@ABI_4_0 4:4.6.3
  (c++)"non-virtual thunk to KGraphicsSignalPlotter::opaqueArea() const@ABI_4_0" 4:4.6.1
  (c++)"non-virtual thunk to KGraphicsSignalPlotter::paint(QPainter*, QStyleOptionGraphicsItem const*, QWidget*)@ABI_4_0" 4:4.6.1
  (c++)"non-virtual thunk to KGraphicsSignalPlotter::sizeHint(Qt::SizeHint, QSizeF const&) const@ABI_4_0" 4:4.6.1

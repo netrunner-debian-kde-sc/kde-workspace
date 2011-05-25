@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkworkspace.so.4 libkworkspace4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -152,5 +152,6 @@ libkworkspace.so.4 libkworkspace4 #MINVER#
  _ZTV19KActivityController@ABI_4_0 4:4.6.1
  _ZTV19ScreenPreviewWidget@ABI_4_0 4:4.6.1
  _ZTVN19KActivityController7PrivateE@ABI_4_0 4:4.6.1
+ dlrestrictions_data@ABI_4_0 4:4.6.3
  (c++)"non-virtual thunk to KWindowListMenu::~KWindowListMenu()@ABI_4_0" 4:4.6.1
  (c++)"non-virtual thunk to ScreenPreviewWidget::~ScreenPreviewWidget()@ABI_4_0" 4:4.6.1

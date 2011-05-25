@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkdecorations.so.4 libkdecorations4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -332,4 +332,5 @@ libkdecorations.so.4 libkdecorations4 #MINVER#
  _ZTV19KDecorationUnstable@ABI_4_0 4:4.6.1
  _ZTV23KCommonDecorationButton@ABI_4_0 4:4.6.1
  _ZTV25KCommonDecorationUnstable@ABI_4_0 4:4.6.1
+ dlrestrictions_data@ABI_4_0 4:4.6.3
  (c++)"non-virtual thunk to KCommonDecorationButton::~KCommonDecorationButton()@ABI_4_0" 4:4.6.1

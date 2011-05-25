@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.2 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libprocessui.so.4 libprocessui4a #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -137,4 +137,5 @@ libprocessui.so.4 libprocessui4a #MINVER#
  _ZTV12ProcessModel@ABI_4_0 4:4.6.1
  _ZTV13ProcessFilter@ABI_4_0 4:4.6.1
  _ZTV20KSysGuardProcessList@ABI_4_0 4:4.6.1
+ dlrestrictions_data@ABI_4_0 4:4.6.3
  (c++)"non-virtual thunk to KSysGuardProcessList::~KSysGuardProcessList()@ABI_4_0" 4:4.6.1

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_1@ABI_4_1 4:4.6.1
@@ -596,3 +596,4 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZTVN5Solid7Control24ModemGsmNetworkInterfaceE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control24WirelessNetworkInterfaceE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control25ModemGsmContactsInterfaceE@ABI_4_1 4:4.6.1
+ dlrestrictions_data@ABI_4_1 4:4.6.3

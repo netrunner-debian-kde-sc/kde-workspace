@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libplasmaclock.so.4abi1 libplasmaclock4abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_1@ABI_4_1 4:4.6.1
@@ -162,6 +162,7 @@ libplasmaclock.so.4abi1 libplasmaclock4abi1 #MINVER#
  _ZTV11ClockApplet@ABI_4_1 4:4.6.1
  _ZTVN6Plasma13CalendarTableE@ABI_4_1 4:4.6.1
  _ZTVN6Plasma8CalendarE@ABI_4_1 4:4.6.1
+ dlrestrictions_data@ABI_4_1 4:4.6.3
  (c++)"non-virtual thunk to ClockApplet::wheelEvent(QGraphicsSceneWheelEvent*)@ABI_4_1" 4:4.6.1
  (c++)"non-virtual thunk to ClockApplet::~ClockApplet()@ABI_4_1" 4:4.6.1
  (c++)"non-virtual thunk to Plasma::Calendar::~Calendar()@ABI_4_1" 4:4.6.1

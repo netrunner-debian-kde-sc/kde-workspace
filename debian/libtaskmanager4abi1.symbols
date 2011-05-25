@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_1@ABI_4_1 4:4.6.1
@@ -499,3 +499,4 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZTVN11TaskManager8TaskItemE@ABI_4_1 4:4.6.1
  _ZTVN11TaskManager9BasicMenuE@ABI_4_1 4:4.6.1
  _ZTVN11TaskManager9TaskGroupE@ABI_4_1 4:4.6.1
+ dlrestrictions_data@ABI_4_1 4:4.6.3

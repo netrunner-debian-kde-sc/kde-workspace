@@ -425,3 +425,4 @@ libkwineffects.so.1abi1 libkwineffects1abi1 #MINVER#
  _ZTVN4KWin21GlobalShortcutsEditorE@ABI_1_1 4:4.6.1
  _ZTVN4KWin6EffectE@ABI_1_1 4:4.6.1
  _ZTVN4KWin9GLTextureE@ABI_1_1 4:4.6.1
+ dlrestrictions_data@ABI_1_1 4:4.6.3

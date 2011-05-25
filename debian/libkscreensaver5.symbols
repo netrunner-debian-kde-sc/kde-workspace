@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkscreensaver.so.5 libkscreensaver5 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_5_0@ABI_5_0 4:4.6.1
@@ -24,4 +24,5 @@ libkscreensaver.so.5 libkscreensaver5 #MINVER#
  _ZTS21KScreenSaverInterface@ABI_5_0 4:4.6.1
  _ZTV12KScreenSaver@ABI_5_0 4:4.6.1
  _ZTV21KScreenSaverInterface@ABI_5_0 4:4.6.1
+ dlrestrictions_data@ABI_5_0 4:4.6.3
  (c++)"non-virtual thunk to KScreenSaver::~KScreenSaver()@ABI_5_0" 4:4.6.1

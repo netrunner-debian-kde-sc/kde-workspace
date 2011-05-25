@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libplasma-geolocation-interface.so.4 libplasma-geolocation-interface4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -26,3 +26,4 @@ libplasma-geolocation-interface.so.4 libplasma-geolocation-interface4 #MINVER#
  _ZTI19GeolocationProvider@ABI_4_0 4:4.6.1
  _ZTS19GeolocationProvider@ABI_4_0 4:4.6.1
  _ZTV19GeolocationProvider@ABI_4_0 4:4.6.1
+ dlrestrictions_data@ABI_4_0 4:4.6.3

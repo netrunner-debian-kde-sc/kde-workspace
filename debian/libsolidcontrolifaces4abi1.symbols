@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libsolidcontrolifaces.so.4abi1 libsolidcontrolifaces4abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_1@ABI_4_1 4:4.6.1
@@ -186,6 +186,7 @@ libsolidcontrolifaces.so.4abi1 libsolidcontrolifaces4abi1 #MINVER#
  _ZTVN5Solid7Control6Ifaces25ModemGsmContactsInterfaceE@ABI_4_1 4:4.6.1
  (c++)"construction vtable for Solid::Control::Ifaces::SerialNetworkInterface-in-Solid::Control::Ifaces::CdmaNetworkInterface@ABI_4_1" 4:4.6.1
  (c++)"construction vtable for Solid::Control::Ifaces::SerialNetworkInterface-in-Solid::Control::Ifaces::GsmNetworkInterface@ABI_4_1" 4:4.6.1
+ dlrestrictions_data@ABI_4_1 4:4.6.3
  (c++)"virtual thunk to Solid::Control::Ifaces::CdmaNetworkInterface::~CdmaNetworkInterface()@ABI_4_1" 4:4.6.1
  (c++)"virtual thunk to Solid::Control::Ifaces::GsmNetworkInterface::~GsmNetworkInterface()@ABI_4_1" 4:4.6.1
  (c++)"virtual thunk to Solid::Control::Ifaces::ModemCdmaInterface::~ModemCdmaInterface()@ABI_4_1" 4:4.6.1

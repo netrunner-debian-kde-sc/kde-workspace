@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkephal.so.4abi1 libkephal4abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_1@ABI_4_1 4:4.6.1
@@ -40,3 +40,4 @@ libkephal.so.4abi1 libkephal4abi1 #MINVER#
  _ZTSN6Kephal7ScreensE@ABI_4_1 4:4.6.1
  _ZTVN6Kephal6ScreenE@ABI_4_1 4:4.6.1
  _ZTVN6Kephal7ScreensE@ABI_4_1 4:4.6.1
+ dlrestrictions_data@ABI_4_1 4:4.6.3
