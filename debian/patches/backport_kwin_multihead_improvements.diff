@@ -1,0 +1,276 @@
+From: Alberto Mattea <alberto@mattea.info>
+From: Modestas Vainius <modax@debian.org>
+Subject: Add basic multihead support to kwin
+Origin: backport, commit:299a78772b823d28cf3c48aff696cfb978d0ae7e
+Date: Sun May 8 20:39:27 2011 +0200
+Last-Update: 2011-06-02
+Bug: https://bugs.kde.org/256242
+Applied-Upstream: 4.7
+
+For now there is autostart support on all screens and support for different resolutions on different screens.
+Keyboard shortcuts are still TODO
+REVIEW: 101125
+BUG: 256242
+
+--- a/ksmserver/startup.cpp
++++ b/ksmserver/startup.cpp
+@@ -161,10 +161,6 @@ void KSMServer::launchWM( const QList< Q
+     wmProcess = startApplication( wmStartCommands[ 0 ], QString(), QString(), true );
+     connect( wmProcess, SIGNAL( error( QProcess::ProcessError )), SLOT( wmProcessChange()));
+     connect( wmProcess, SIGNAL( finished( int, QProcess::ExitStatus )), SLOT( wmProcessChange()));
+-    // there can be possibly more wm's (because of forking for multihead),
+-    // but in such case care only about the process of the first one
+-    for (int i = 1; i < wmStartCommands.count(); i++)
+-        startApplication( wmStartCommands[i] );
+     QTimer::singleShot( 4000, this, SLOT( autoStart0() ) );
+ }
+ 
+--- a/kwin/geometry.cpp
++++ b/kwin/geometry.cpp
+@@ -55,6 +55,9 @@ namespace KWin
+ // Workspace
+ //********************************************
+ 
++extern int screen_number;
++extern bool is_multihead;
++
+ /*!
+   Resizes the workspace after an XRANDR screen size change
+  */
+@@ -250,56 +253,89 @@ void Workspace::updateClientArea()
+ 
+   \sa geometry()
+  */
++
+ QRect Workspace::clientArea( clientAreaOption opt, int screen, int desktop ) const
+     {
+     if( desktop == NETWinInfo::OnAllDesktops || desktop == 0 )
+         desktop = currentDesktop();
+     if( screen == -1 )
+         screen = activeScreen();
+-    
+-    QRect sarea = (!screenarea.isEmpty() 
+-            && screen < screenarea[ desktop ].size()) // screens may be missing during KWin initialization or screen config changes
+-        ? screenarea[ desktop ][ screen ]
+-        : Kephal::ScreenUtils::screenGeometry( screen );
+-    QRect warea = workarea[ desktop ].isNull()
+-        ? Kephal::ScreenUtils::desktopGeometry()
+-        : workarea[ desktop ];
+-    switch (opt)
+-        {
+-        case MaximizeArea:
+-            if (options->xineramaMaximizeEnabled)
+-                return sarea;
+-            else
+-                return warea;
+-        case MaximizeFullArea:
+-            if (options->xineramaMaximizeEnabled)
+-                return Kephal::ScreenUtils::screenGeometry( screen );
+-            else
+-                return Kephal::ScreenUtils::desktopGeometry();
+-        case FullScreenArea:
+-            if (options->xineramaFullscreenEnabled)
+-                return Kephal::ScreenUtils::screenGeometry( screen );
+-            else
+-                return Kephal::ScreenUtils::desktopGeometry();
+-        case PlacementArea:
+-            if (options->xineramaPlacementEnabled)
+-                return sarea;
+-            else
+-                return warea;
+-        case MovementArea:
+-            if (options->xineramaMovementEnabled)
+-                return Kephal::ScreenUtils::screenGeometry( screen );
+-            else
+-                return Kephal::ScreenUtils::desktopGeometry();
+-        case WorkArea:
++
++    QRect sarea, warea;
++
++    if (is_multihead) {
++        sarea = (!screenarea.isEmpty()
++                   && screen < screenarea[ desktop ].size()) // screens may be missing during KWin initialization or screen config changes
++                  ? screenarea[ desktop ][ screen_number ]
++                  : Kephal::ScreenUtils::screenGeometry(screen_number);
++        warea = workarea[ desktop ].isNull()
++                ? Kephal::ScreenUtils::screenGeometry(screen_number)
++                : workarea[ desktop ];
++    } else {
++        sarea = (!screenarea.isEmpty()
++                && screen < screenarea[ desktop ].size()) // screens may be missing during KWin initialization or screen config changes
++                ? screenarea[ desktop ][ screen ]
++                : Kephal::ScreenUtils::screenGeometry(screen);
++        warea = workarea[ desktop ].isNull()
++                ? Kephal::ScreenUtils::desktopGeometry()
++                : workarea[ desktop ];
++    }
++
++    switch(opt) {
++    case MaximizeArea:
++        if (is_multihead)
++            return sarea;
++        else if (options->xineramaMaximizeEnabled)
++            return sarea;
++        else
+             return warea;
+-        case FullArea:
++    case MaximizeFullArea:
++        if (is_multihead)
++            return Kephal::ScreenUtils::screenGeometry(screen_number);
++        else if (options->xineramaMaximizeEnabled)
++            return Kephal::ScreenUtils::screenGeometry(screen);
++        else
+             return Kephal::ScreenUtils::desktopGeometry();
+-        case ScreenArea:
+-            return Kephal::ScreenUtils::screenGeometry( screen );
+-        }
+-    abort();
++    case FullScreenArea:
++        if (is_multihead)
++            return Kephal::ScreenUtils::screenGeometry(screen_number);
++        else if (options->xineramaFullscreenEnabled)
++            return Kephal::ScreenUtils::screenGeometry(screen);
++        else
++            return Kephal::ScreenUtils::desktopGeometry();
++    case PlacementArea:
++        if (is_multihead)
++            return sarea;
++        else if (options->xineramaPlacementEnabled)
++            return sarea;
++        else
++            return warea;
++    case MovementArea:
++        if (is_multihead)
++            return Kephal::ScreenUtils::screenGeometry(screen_number);
++        else if (options->xineramaMovementEnabled)
++            return Kephal::ScreenUtils::screenGeometry(screen);
++        else
++            return Kephal::ScreenUtils::desktopGeometry();
++    case WorkArea:
++        if (is_multihead)
++            return sarea;
++        else
++            return warea;
++    case FullArea:
++        if (is_multihead)
++            return Kephal::ScreenUtils::screenGeometry(screen_number);
++        else
++            return Kephal::ScreenUtils::desktopGeometry();
++    case ScreenArea:
++        if (is_multihead)
++            return Kephal::ScreenUtils::screenGeometry(screen_number);
++        else
++            return Kephal::ScreenUtils::screenGeometry(screen);
+     }
++    abort();
++}
++
+ 
+ QRect Workspace::clientArea( clientAreaOption opt, const QPoint& p, int desktop ) const
+     {
+--- a/kwin/main.cpp
++++ b/kwin/main.cpp
+@@ -74,6 +74,7 @@ Options* options;
+ Atoms* atoms;
+ 
+ int screen_number = -1;
++bool is_multihead = false;
+ 
+ bool initting = false;
+ 
+@@ -421,58 +422,47 @@ KDE_EXPORT int kdemain( int argc, char *
+     // or command line settings to raster or OpenGL.
+     QApplication::setGraphicsSystem("native");
+ 
+-    if( !restored )
+-        { // We only do the multihead fork if we are not restored by the session
+-          // manager, since the session manager will register multiple kwins,
+-          // one for each screen...
+-        QByteArray multiHead = qgetenv( "KDE_MULTIHEAD" );
+-        if( multiHead.toLower() == "true" )
+-            {
+-            Display* dpy = XOpenDisplay( NULL );
+-            if( !dpy )
+-                {
+-                fprintf( stderr, "%s: FATAL ERROR while trying to open display %s\n",
+-                    argv[0], XDisplayName( NULL ));
+-                exit( 1 );
+-                }
+-
+-            int number_of_screens = ScreenCount( dpy );
+-            KWin::screen_number = DefaultScreen( dpy );
+-            int pos; // Temporarily needed to reconstruct DISPLAY var if multi-head
+-            QByteArray display_name = XDisplayString( dpy );
+-            XCloseDisplay( dpy );
+-            dpy = 0;
++    Display* dpy = XOpenDisplay(NULL);
++    if (!dpy) {
++        fprintf(stderr, "%s: FATAL ERROR while trying to open display %s\n",
++                argv[0], XDisplayName(NULL));
++        exit(1);
++    }
+ 
+-            if(( pos = display_name.lastIndexOf( '.' )) != -1 )
+-                display_name.remove( pos, 10 ); // 10 is enough to be sure we removed ".s"
++    int number_of_screens = ScreenCount(dpy);
+ 
+-            QString envir;
+-            if( number_of_screens != 1 )
+-                {
+-                for( int i = 0; i < number_of_screens; i++ )
+-                    {
+-                    // If execution doesn't pass by here, then kwin
+-                    // acts exactly as previously
+-                    if( i != KWin::screen_number && fork() == 0 )
+-                        {
+-                        KWin::screen_number = i;
+-                        // Break here because we are the child process, we don't
+-                        // want to fork() anymore
+-                        break;
+-                        }
+-                    }
+-                // In the next statement, display_name shouldn't contain a screen
+-                // number. If it had it, it was removed at the "pos" check
+-                envir.sprintf( "DISPLAY=%s.%d", display_name.data(), KWin::screen_number );
+-
+-                if( putenv( strdup( envir.toAscii() )))
+-                    {
+-                    fprintf( stderr, "%s: WARNING: unable to set DISPLAY environment variable\n", argv[0] );
+-                    perror("putenv()");
+-                    }
+-                }
++    // multi head
++    if (number_of_screens != 1) {
++        KWin::is_multihead = true;
++        KWin::screen_number = DefaultScreen(dpy);
++        int pos; // Temporarily needed to reconstruct DISPLAY var if multi-head
++        QByteArray display_name = XDisplayString(dpy);
++        XCloseDisplay(dpy);
++        dpy = 0;
++
++        if ((pos = display_name.lastIndexOf('.')) != -1)
++            display_name.remove(pos, 10);   // 10 is enough to be sure we removed ".s"
++
++        QString envir;
++        for (int i = 0; i < number_of_screens; i++) {
++            // If execution doesn't pass by here, then kwin
++            // acts exactly as previously
++            if (i != KWin::screen_number && fork() == 0) {
++                KWin::screen_number = i;
++                // Break here because we are the child process, we don't
++                // want to fork() anymore
++                break;
+             }
+         }
++        // In the next statement, display_name shouldn't contain a screen
++        // number. If it had it, it was removed at the "pos" check
++        envir.sprintf("DISPLAY=%s.%d", display_name.data(), KWin::screen_number);
++
++        if (putenv(strdup(envir.toAscii()))) {
++            fprintf(stderr, "%s: WARNING: unable to set DISPLAY environment variable\n", argv[0]);
++            perror("putenv()");
++        }
++    }
+ 
+     KAboutData aboutData(
+         "kwin",                     // The program name used internally
