@@ -2,6 +2,8 @@ kdebase-workspace (4:4.6.3-2) UNRELEASED; urgency=low
 
   * Backport a patch from 4.7 in order to fix some problems with multihead in
     kwin (patch backport_kwin_multihead_improvements.diff).
+  * Adapt kdm_vt_switching_on_kfreebsd.diff patch to upstream changes in 4.6
+    and reenable the patch.
 
  -- Modestas Vainius <modax@debian.org>  Fri, 03 Jun 2011 01:11:58 +0300
 
