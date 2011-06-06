@@ -144,6 +144,7 @@ Description: KDE Plasma data engines
 Package: plasma-widgets-workspace
 Architecture: any
 Depends: ${shlibs:Depends}, plasma-dataengines-workspace (= ${binary:Version}), ${misc:Depends}
+Provides: notification-daemon
 Description: plasma widgets and containments for the KDE Plasma Workspace
  This package contains standard Plasma widgets and containments shipped in the
  KDE base workspace module. They provide such basic desktop functionality as
