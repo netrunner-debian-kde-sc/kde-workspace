@@ -5,6 +5,7 @@ kdebase-workspace (4:4.6.3-2) UNRELEASED; urgency=low
     kwin (patch backport_kwin_multihead_improvements.diff).
   * Adapt kdm_vt_switching_on_kfreebsd.diff patch to upstream changes in 4.6
     and reenable the patch.
+  * Confirm symbol files on all Debian arches.
 
   [ Felix Geyer ]
   * Make plasma-widgets-workspace provide notification-daemon since the
