@@ -1,4 +1,6 @@
-kdebase-workspace (4:4.6.3-2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.6.4-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Modestas Vainius ]
   * Backport a patch from 4.7 in order to fix some problems with multihead in
