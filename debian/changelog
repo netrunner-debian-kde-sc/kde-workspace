@@ -21,7 +21,7 @@ kdebase-workspace (4:4.6.3-1) unstable; urgency=low
     - fixes shutdown with default kdm config (Closes: #627917);
 
   [ José Manuel Santamaría Lema ]
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.3.
   * Remove fix_temperature_sensors.diff, applied upstream.
   * Update symbols files.
 
