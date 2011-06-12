@@ -15,6 +15,9 @@ kdebase-workspace (4:4.6.4-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.4.
+  * Refresh patches:
+    - Update genkdmconf.diff to make it apply to this version.
+    - Refresh other patches to make it apply without any offset.
 
  -- Modestas Vainius <modax@debian.org>  Fri, 03 Jun 2011 01:11:58 +0300
 

@@ -1,6 +1,6 @@
 --- a/kdm/config.def
 +++ b/kdm/config.def
-@@ -49,11 +49,11 @@
+@@ -52,11 +52,11 @@
  #endif
  
  #if defined(BSD) || defined(__linux__)
@@ -16,7 +16,7 @@
  #endif
  
  #if 0 /*def HASXDMAUTH*/
-@@ -1369,13 +1369,13 @@ Description:
+@@ -1372,13 +1372,13 @@
   This string is subject to word splitting.
   </para><para>
   The default is something reasonable for the system on which &kdm; was built,
@@ -32,7 +32,7 @@
  Comment: &
  Description:
   Additional arguments for the &X-Server;s for local sessions.
-@@ -1929,10 +1929,10 @@ Description:
+@@ -1932,10 +1932,10 @@
  
  Key: SessionsDirs
  Type: list
@@ -45,7 +45,7 @@
  Update: upd_sessionsdirs
  Comment:
   The directories containing session type definitions in .desktop format,
-@@ -2001,7 +2001,7 @@ Description:
+@@ -2004,7 +2004,7 @@
  
  Key: UseSessReg
  Type: bool
@@ -54,7 +54,7 @@
  User: core
  Instance: #*/!
  Comment:
-@@ -2092,9 +2092,9 @@ Description:
+@@ -2095,9 +2095,9 @@
  
  Key: GreetString
  Type: string
@@ -66,7 +66,7 @@
  Comment:
   The headline in the greeter. The following character pairs are replaced:
   - %d -> current display
-@@ -2553,7 +2553,6 @@ Type: int
+@@ -2556,7 +2556,6 @@
  Default: 0
  User: greeter
  Instance: #*/
@@ -74,7 +74,7 @@
  Comment:
   Random seed for forging saved session types, etc. of unknown users.
   This value should be random but constant across the login domain.
-@@ -2650,7 +2649,7 @@ Key: AllowClose
+@@ -2653,7 +2652,7 @@
  Type: bool
  Default: true
  User: greeter

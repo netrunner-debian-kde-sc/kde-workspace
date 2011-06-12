@@ -1,6 +1,6 @@
 --- a/kdm/config.def
 +++ b/kdm/config.def
-@@ -89,6 +89,12 @@
+@@ -92,6 +92,12 @@
  <kdmrc>
   &kdm; master configuration file
   _

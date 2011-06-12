@@ -1,6 +1,6 @@
 --- a/kdm/kfrontend/genkdmconf.c
 +++ b/kdm/kfrontend/genkdmconf.c
-@@ -3141,9 +3141,11 @@ int main(int argc, char **argv)
+@@ -3145,9 +3145,11 @@
                  memcmp(oldkde + olen - sizeof(SHR_CONF) + 1,
                         SHR_CONF, sizeof(SHR_CONF)))
              {
