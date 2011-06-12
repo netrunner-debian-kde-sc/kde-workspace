@@ -13,6 +13,9 @@ kdebase-workspace (4:4.6.4-0r0) UNRELEASED; urgency=low
   * Make plasma-widgets-workspace provide notification-daemon since the
     notifications applet implements the galago spec.
 
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.4.
+
  -- Modestas Vainius <modax@debian.org>  Fri, 03 Jun 2011 01:11:58 +0300
 
 kdebase-workspace (4:4.6.3-1) unstable; urgency=low
