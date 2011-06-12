@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.6.4-0r0) UNRELEASED; urgency=low
+kdebase-workspace (4:4.6.4-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -19,7 +19,7 @@ kdebase-workspace (4:4.6.4-0r0) UNRELEASED; urgency=low
     - Update genkdmconf.diff to make it apply to this version.
     - Refresh other patches to make it apply without any offset.
 
- -- Modestas Vainius <modax@debian.org>  Fri, 03 Jun 2011 01:11:58 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2011 13:20:48 +0200
 
 kdebase-workspace (4:4.6.3-1) unstable; urgency=low
 
