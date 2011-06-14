@@ -1,6 +1,7 @@
 kdebase-workspace (4:4.6.4-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fixes double execution in application launcher menu (Closes: #628658)
 
   [ Modestas Vainius ]
   * Backport a patch from 4.7 in order to fix some problems with multihead in
