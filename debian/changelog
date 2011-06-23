@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.6.4-0r1) UNRELEASED; urgency=low
+kdebase-workspace (4:4.6.4-1) unstable; urgency=low
 
   * New upstream release:
     - fixes double execution in application launcher menu (Closes: #628658)
@@ -23,7 +23,7 @@ kdebase-workspace (4:4.6.4-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Change libjpeg62-dev build-dependency to libjpeg-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2011 13:20:48 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 Jun 2011 13:07:30 +0300
 
 kdebase-workspace (4:4.6.3-1) unstable; urgency=low
 
