@@ -1,0 +1,31 @@
+commit 175afa1e2569eeee204d660628c06928882e034f
+Author: Oswald Buddenhagen <ossi@kde.org>
+Date:   Sun Jun 12 12:47:02 2011 +0200
+
+    remove pointless bash-ism
+    
+    there are no escapes to process here.
+    and as the newlines appear literally in the first place, there is also
+    no reason for using a loop.
+    
+    BUG: 275360
+    FIXED-IN: 4.6.5
+
+---
+ kcontrol/randr/krandrstartup |    5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+--- a/kcontrol/randr/krandrstartup
++++ b/kcontrol/randr/krandrstartup
+@@ -6,10 +6,7 @@
+ if test "$krandrrc_display_applyonstartup" = "true"; then
+     if test -n "$krandrrc_display_startupcommands"; then
+         # new way of simply storing the commands
+-        echo -e "$krandrrc_display_startupcommands" | \
+-        while read command; do
+-            eval "$command"
+-        done
++        eval "$krandrrc_display_startupcommands"
+     else
+         # backwards compatibility
+         # 4 screens is hopefully enough

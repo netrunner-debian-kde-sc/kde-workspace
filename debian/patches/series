@@ -1,4 +1,5 @@
 backport_kwin_multihead_improvements.diff
+krandr_remove_pointless_bash-ism.diff
 kdm_does_not_wreak_havoc.diff
 kdmrc_defaults.diff
 genkdmconf.diff
