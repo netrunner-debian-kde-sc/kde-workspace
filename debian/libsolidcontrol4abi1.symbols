@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_1@ABI_4_1 4:4.6.1
@@ -47,6 +47,9 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZN5Solid7Control12ModemManager8Notifier16staticMetaObjectE@ABI_4_1 4:4.6.1
  _ZN5Solid7Control12ModemManager8Notifier19modemInterfaceAddedERK7QString@ABI_4_1 4:4.6.1
  _ZN5Solid7Control12ModemManager8Notifier21modemInterfaceRemovedERK7QString@ABI_4_1 4:4.6.1
+ _ZN5Solid7Control12ModemManager8NotifierD0Ev@ABI_4_1 4:4.6.5
+ _ZN5Solid7Control12ModemManager8NotifierD1Ev@ABI_4_1 4:4.6.5
+ _ZN5Solid7Control12ModemManager8NotifierD2Ev@ABI_4_1 4:4.6.5
  _ZN5Solid7Control12ModemManager8notifierEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control13RemoteControl10allRemotesEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control13RemoteControl11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
@@ -118,6 +121,9 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZN5Solid7Control14NetworkManager8Notifier24activeConnectionsChangedEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager8Notifier24networkingEnabledChangedEb@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager8Notifier30wirelessHardwareEnabledChangedEb@ABI_4_1 4:4.6.1
+ _ZN5Solid7Control14NetworkManager8NotifierD0Ev@ABI_4_1 4:4.6.5
+ _ZN5Solid7Control14NetworkManager8NotifierD1Ev@ABI_4_1 4:4.6.5
+ _ZN5Solid7Control14NetworkManager8NotifierD2Ev@ABI_4_1 4:4.6.5
  _ZN5Solid7Control14NetworkManager8notifierEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control16NetworkInterface11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control16NetworkInterface11qt_metacastEPKc@ABI_4_1 4:4.6.1
@@ -227,6 +233,9 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZN5Solid7Control20RemoteControlManager8Notifier16staticMetaObjectE@ABI_4_1 4:4.6.1
  _ZN5Solid7Control20RemoteControlManager8Notifier18remoteControlAddedERK7QString@ABI_4_1 4:4.6.1
  _ZN5Solid7Control20RemoteControlManager8Notifier20remoteControlRemovedERK7QString@ABI_4_1 4:4.6.1
+ _ZN5Solid7Control20RemoteControlManager8NotifierD0Ev@ABI_4_1 4:4.6.5
+ _ZN5Solid7Control20RemoteControlManager8NotifierD1Ev@ABI_4_1 4:4.6.5
+ _ZN5Solid7Control20RemoteControlManager8NotifierD2Ev@ABI_4_1 4:4.6.5
  _ZN5Solid7Control20RemoteControlManager8notifierEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control20RemoteControlManager9connectedEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control21ModemGsmCardInterface11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1

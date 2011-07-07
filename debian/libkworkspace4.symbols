@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libkworkspace.so.4 libkworkspace4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -87,6 +87,9 @@ libkworkspace.so.4 libkworkspace4 #MINVER#
  _ZN19KActivityController16resourceAccessedERK7QStringjRK4KUrlN17KActivityConsumer14ResourceActionE@ABI_4_0 4:4.6.1
  _ZN19KActivityController16staticMetaObjectE@ABI_4_0 4:4.6.1
  _ZN19KActivityController18setCurrentActivityERK7QString@ABI_4_0 4:4.6.1
+ _ZN19KActivityController7PrivateD0Ev@ABI_4_0 4:4.6.5
+ _ZN19KActivityController7PrivateD1Ev@ABI_4_0 4:4.6.5
+ _ZN19KActivityController7PrivateD2Ev@ABI_4_0 4:4.6.5
  _ZN19KActivityControllerC1EP7QObject@ABI_4_0 4:4.6.1
  _ZN19KActivityControllerC2EP7QObject@ABI_4_0 4:4.6.1
  _ZN19KActivityControllerD0Ev@ABI_4_0 4:4.6.1

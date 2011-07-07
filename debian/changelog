@@ -5,6 +5,7 @@ kdebase-workspace (4:4.6.5-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Jul 2011 08:12:18 +0200
 

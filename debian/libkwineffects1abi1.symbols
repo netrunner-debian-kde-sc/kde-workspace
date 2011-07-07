@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libkwineffects.so.1abi1 libkwineffects1abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_1_1@ABI_1_1 4:4.6.1
@@ -127,6 +127,8 @@ libkwineffects.so.1abi1 libkwineffects1abi1 #MINVER#
  _ZN4KWin14XRenderPictureC1Emi@ABI_1_1 4:4.6.1
  _ZN4KWin14XRenderPictureC2E7QPixmap@ABI_1_1 4:4.6.1
  _ZN4KWin14XRenderPictureC2Emi@ABI_1_1 4:4.6.1
+ _ZN4KWin14XRenderPictureD1Ev@ABI_1_1 4:4.6.5
+ _ZN4KWin14XRenderPictureD2Ev@ABI_1_1 4:4.6.5
  _ZN4KWin14glAttachShaderE@ABI_1_1 4:4.6.1
  _ZN4KWin14glCreateShaderE@ABI_1_1 4:4.6.1
  _ZN4KWin14glDeleteShaderE@ABI_1_1 4:4.6.1
@@ -203,6 +205,9 @@ libkwineffects.so.1abi1 libkwineffects1abi1 #MINVER#
  _ZN4KWin20glXGetFBConfigAttribE@ABI_1_1 4:4.6.1
  _ZN4KWin21GlobalShortcutsEditorC1EP7QWidget@ABI_1_1 4:4.6.1
  _ZN4KWin21GlobalShortcutsEditorC2EP7QWidget@ABI_1_1 4:4.6.1
+ _ZN4KWin21GlobalShortcutsEditorD0Ev@ABI_1_1 4:4.6.5
+ _ZN4KWin21GlobalShortcutsEditorD1Ev@ABI_1_1 4:4.6.5
+ _ZN4KWin21GlobalShortcutsEditorD2Ev@ABI_1_1 4:4.6.5
  _ZN4KWin21glDeleteRenderbuffersE@ABI_1_1 4:4.6.1
  _ZN4KWin21glRenderbufferStorageE@ABI_1_1 4:4.6.1
  _ZN4KWin21glXReleaseTexImageEXTE@ABI_1_1 4:4.6.1
@@ -426,3 +431,4 @@ libkwineffects.so.1abi1 libkwineffects1abi1 #MINVER#
  _ZTVN4KWin6EffectE@ABI_1_1 4:4.6.1
  _ZTVN4KWin9GLTextureE@ABI_1_1 4:4.6.1
  dlrestrictions_data@ABI_1_1 4:4.6.3
+ (c++)"non-virtual thunk to KWin::GlobalShortcutsEditor::~GlobalShortcutsEditor()@ABI_1_1" 4:4.6.5
