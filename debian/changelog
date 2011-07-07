@@ -9,6 +9,11 @@ kdebase-workspace (4:4.6.5-0r1) UNRELEASED; urgency=low
   * Drop kdebase-workspace-dbg and -dev lintian overrides files, no longer
     needed.
 
+  [ Modestas Vainius ]
+  * Follow python-kde4 4:4.6.80 and switch plasma-scriptengine-python from
+    python-support to dh_python2. Otherwise, python fails to find
+    PyKDE4.plasmascript. (Closes: #633000)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Jul 2011 08:12:18 +0200
 
 kdebase-workspace (4:4.6.4-1) unstable; urgency=low
