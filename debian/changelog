@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.6.5-0r2) UNRELEASED; urgency=low
+kdebase-workspace (4:4.6.5-1) unstable; urgency=low
 
   * New upstream release:
     - fixes bashishm in krandrstartup (Closes: #630015)
@@ -14,7 +14,7 @@ kdebase-workspace (4:4.6.5-0r2) UNRELEASED; urgency=low
     python-support to dh_python2. Otherwise, python fails to find
     PyKDE4.plasmascript. (Closes: #633000)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Jul 2011 08:12:18 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jul 2011 21:53:55 +0300
 
 kdebase-workspace (4:4.6.4-1) unstable; urgency=low
 
