@@ -215,7 +215,7 @@ Description: Web and Mac OS X dashboard widget support for Plasma
 Package: plasma-scriptengine-googlegadgets
 Priority: extra
 Architecture: any
-Depends: ${shlibs:Depends}, google-gadgets-qt, google-gadgets-xul, ${misc:Depends}
+Depends: ${shlibs:Depends}, google-gadgets-qt, ${misc:Depends}
 Description: Google Gadgets script engine for Plasma
  This package contains the Google Gadgets script engine for Plasma. It enables
  Plasma to serve as a Google Gadgets host and allows one to load and use any

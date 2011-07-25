@@ -1,5 +1,9 @@
 kdebase-workspace (4:4.6.5-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * plasma-scriptengine-googlegadgets: do not depend anymore on
+    google-gadgets-xul: the next google-gadget revision will not provide it
+    anymore, while just google-gagets-qt will have the needed modules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Jul 2011 23:48:06 +0200
 
