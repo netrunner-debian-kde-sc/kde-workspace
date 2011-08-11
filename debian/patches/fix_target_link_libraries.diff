@@ -11,8 +11,8 @@
 --- a/libs/taskmanager/CMakeLists.txt
 +++ b/libs/taskmanager/CMakeLists.txt
 @@ -47,6 +47,7 @@ endif (X11_Xcomposite_FOUND)
- target_link_libraries(taskmanager kephal)
- target_link_libraries(taskmanager kworkspace)
+ 
+ target_link_libraries(taskmanager kephal kworkspace)
  
 +target_link_libraries(taskmanager LINK_INTERFACE_LIBRARIES ${QT_QTGUI_LIBRARY} )
  set_target_properties(taskmanager PROPERTIES VERSION ${GENERIC_LIB_VERSION} SOVERSION ${GENERIC_LIB_SOVERSION} )

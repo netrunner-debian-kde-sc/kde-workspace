@@ -6,6 +6,10 @@ kdebase-workspace (4:4.7.0-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.7.0.
   * Bump kdelibs5-dev build dependency to 4:4.7.
   * Bump kdepimlibs5-dev build dependency to 4:4.7.
+  * Update patches:
+    - Remove backport_kwin_multihead_improvements.diff, applied usptream.
+    - Remove ksmserver_fadeeffect_use_sse2_free.diff, applied upstream.
+    - Refreshed various patches to make them apply without offsets.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Aug 2011 19:17:29 +0200
 
@@ -86,7 +90,7 @@ kdebase-workspace (4:4.6.3-1) unstable; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 02:41:32 +0300
 
-kdebase-workspace (4:4.6.2-2) experimental; urgency=low
+ikdebase-workspace (4:4.6.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Make kdm recommend server-xorg, not xserver-xorg-core. (Closes: #624342)

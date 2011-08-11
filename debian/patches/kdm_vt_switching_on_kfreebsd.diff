@@ -2,7 +2,7 @@ From: Modestas Vainius <modax@debian.org>
 Subject: implement VT switching and status detection support in KDM on kFreeBSD
 Forwarded: no
 Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=586540
-Last-Update: 2011-06-05
+Last-Update: 2011-08-11
 
 This patch implements proper VT switching for KDM on kFreeBSD. It also includes
 detection of the next available VT which should prevent KDM from taking over
@@ -26,7 +26,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  #endif
  
  static void sigHandler(int n);
-@@ -328,7 +334,12 @@ main(int argc, char **argv)
+@@ -349,7 +355,12 @@ updateNow(void)
  int
  TTYtoVT(const char *tty)
  {
@@ -40,7 +40,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  }
  
  int
-@@ -1030,9 +1041,15 @@ reapChildren(void)
+@@ -1051,9 +1062,15 @@ reapChildren(void)
                      } else {
                          int con = open("/dev/console", O_RDONLY);
                          if (con >= 0) {
@@ -57,7 +57,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
                                  int vt = 1;
                                  struct display *di;
                                  for (di = displays; di; di = di->next)
-@@ -1045,7 +1062,9 @@ reapChildren(void)
+@@ -1066,7 +1083,9 @@ reapChildren(void)
                                          vt = di->serverVT;
                                  ioctl(con, VT_ACTIVATE, vt);
                              }
@@ -67,7 +67,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
                              close(con);
                          }
                      }
-@@ -1318,16 +1337,41 @@ static int activeVTs;
+@@ -1339,16 +1358,41 @@ static int activeVTs;
  static int
  getBusyVTs(void)
  {

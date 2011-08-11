@@ -107,7 +107,7 @@ least FTBFS, so that we have the chance to inspect.
 -        KConfig(QString::fromLatin1(KDE_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig)
 +        KConfig(QString::fromLatin1(KDE_DEBIAN_CONFDIR "/kdm/kdmrc"), KConfig::SimpleConfig)
              .group("X-*-Greeter").readEntry("FaceDir",
-                 KStandardDirs::installPath("data") + "kdm/faces") + '/';
+                 QString(KStandardDirs::installPath("data") + "kdm/faces" + '/'));
  
 --- a/kcontrol/dateandtime/helper.cpp
 +++ b/kcontrol/dateandtime/helper.cpp

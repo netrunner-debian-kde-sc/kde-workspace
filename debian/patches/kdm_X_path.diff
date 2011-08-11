@@ -1,6 +1,6 @@
 --- a/kdm/backend/dm.c
 +++ b/kdm/backend/dm.c
-@@ -608,7 +608,13 @@ startRemoteLogin(struct display *d)
+@@ -629,7 +629,13 @@ startRemoteLogin(struct display *d)
              exit(1);
          debug("exec %\"[s\n", argv);
          (void)execv(argv[0], argv);

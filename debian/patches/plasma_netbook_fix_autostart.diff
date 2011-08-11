@@ -161,7 +161,7 @@ showstopper for this goal.
  #endif // multiple inclusion guard
 --- a/startkde.cmake
 +++ b/startkde.cmake
-@@ -291,6 +291,24 @@ else
+@@ -287,6 +287,24 @@ else
      exit 1
  fi
  

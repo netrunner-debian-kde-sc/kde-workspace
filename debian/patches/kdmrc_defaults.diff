@@ -16,7 +16,7 @@
  #endif
  
  #if 0 /*def HASXDMAUTH*/
-@@ -1372,13 +1372,13 @@
+@@ -1373,13 +1373,13 @@ Description:
   This string is subject to word splitting.
   </para><para>
   The default is something reasonable for the system on which &kdm; was built,
@@ -32,7 +32,7 @@
  Comment: &
  Description:
   Additional arguments for the &X-Server;s for local sessions.
-@@ -1932,10 +1932,10 @@
+@@ -1933,10 +1933,10 @@ Description:
  
  Key: SessionsDirs
  Type: list
@@ -45,7 +45,7 @@
  Update: upd_sessionsdirs
  Comment:
   The directories containing session type definitions in .desktop format,
-@@ -2004,7 +2004,7 @@
+@@ -2005,7 +2005,7 @@ Description:
  
  Key: UseSessReg
  Type: bool
@@ -54,7 +54,7 @@
  User: core
  Instance: #*/!
  Comment:
-@@ -2095,9 +2095,9 @@
+@@ -2096,9 +2096,9 @@ Description:
  
  Key: GreetString
  Type: string
@@ -66,7 +66,7 @@
  Comment:
   The headline in the greeter. The following character pairs are replaced:
   - %d -> current display
-@@ -2556,7 +2556,6 @@
+@@ -2557,7 +2557,6 @@ Type: int
  Default: 0
  User: greeter
  Instance: #*/
@@ -74,7 +74,7 @@
  Comment:
   Random seed for forging saved session types, etc. of unknown users.
   This value should be random but constant across the login domain.
-@@ -2653,7 +2652,7 @@
+@@ -2654,7 +2653,7 @@ Key: AllowClose
  Type: bool
  Default: true
  User: greeter
