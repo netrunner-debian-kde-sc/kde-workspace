@@ -90,7 +90,7 @@ kdebase-workspace (4:4.6.3-1) unstable; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 02:41:32 +0300
 
-ikdebase-workspace (4:4.6.2-2) experimental; urgency=low
+kdebase-workspace (4:4.6.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
   * Make kdm recommend server-xorg, not xserver-xorg-core. (Closes: #624342)
