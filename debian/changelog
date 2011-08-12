@@ -7,6 +7,7 @@ kdebase-workspace (4:4.7.0-0r0) UNRELEASED; urgency=low
   * Bump kdelibs5-dev build dependency to 4:4.7.
   * Bump kdepimlibs5-dev build dependency to 4:4.7.
   * Update patches:
+    - Import plasma_desktop_shell_drop_kactivities.diff from Ubuntu.
     - Remove backport_kwin_multihead_improvements.diff, applied usptream.
     - Remove ksmserver_fadeeffect_use_sse2_free.diff, applied upstream.
     - Refreshed various patches to make them apply without offsets.

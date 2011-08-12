@@ -17,3 +17,4 @@ initialize_variables_crashfix.diff
 enable_dlrestrcitions.diff
 kdm_vt_switching_on_kfreebsd.diff
 kwin_avoid_deep_vector_copies.diff
+plasma_desktop_shell_drop_kactivities.diff
