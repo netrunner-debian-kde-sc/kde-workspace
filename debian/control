@@ -32,7 +32,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.0),
  libpng-dev, libjpeg-dev, libxcursor-dev,
  libqalculate-dev, libglib2.0-dev,
  libdmtx-dev,
- libqtwebkit-dev
+ libqtwebkit-dev,
+ libprison-dev
 Standards-Version: 3.9.2
 X-Python-Version: >= 2.5
 Homepage: http://www.kde.org/

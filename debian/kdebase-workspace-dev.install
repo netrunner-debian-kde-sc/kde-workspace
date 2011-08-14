@@ -22,9 +22,9 @@ usr/include/ksysguard/processes.h
 usr/include/kwinconfig.h
 usr/include/kwineffects.h
 usr/include/kwinglobals.h
+usr/include/kwinglplatform.h
 usr/include/kwinglutils.h
 usr/include/kwinglutils_funcs.h
-usr/include/kwinshadereffect.h
 usr/include/kwinxrenderutils.h
 usr/include/kworkspace/kactivityconsumer.h
 usr/include/kworkspace/kactivitycontroller.h
@@ -50,13 +50,12 @@ usr/include/solid/control/ifaces/modemgsmussdinterface.h
 usr/include/solid/control/ifaces/modeminterface.h
 usr/include/solid/control/ifaces/modemlocationinterface.h
 usr/include/solid/control/ifaces/modemmanager.h
+usr/include/solid/control/ifaces/networkbtinterface.h
 usr/include/solid/control/ifaces/networkcdmainterface.h
 usr/include/solid/control/ifaces/networkgsminterface.h
 usr/include/solid/control/ifaces/networkinterface.h
 usr/include/solid/control/ifaces/networkmanager.h
 usr/include/solid/control/ifaces/networkserialinterface.h
-usr/include/solid/control/ifaces/remotecontrol.h
-usr/include/solid/control/ifaces/remotecontrolmanager.h
 usr/include/solid/control/ifaces/wirednetworkinterface.h
 usr/include/solid/control/ifaces/wirelessaccesspoint.h
 usr/include/solid/control/ifaces/wirelessnetworkinterface.h
@@ -71,6 +70,7 @@ usr/include/solid/control/modeminterface.h
 usr/include/solid/control/modemlocationinterface.h
 usr/include/solid/control/modemmanager.h
 usr/include/solid/control/modemmanagerinterface.h
+usr/include/solid/control/networkbtinterface.h
 usr/include/solid/control/networkcdmainterface.h
 usr/include/solid/control/networkgsminterface.h
 usr/include/solid/control/networking.h
@@ -78,9 +78,6 @@ usr/include/solid/control/networkinterface.h
 usr/include/solid/control/networkipv4config.h
 usr/include/solid/control/networkmanager.h
 usr/include/solid/control/networkserialinterface.h
-usr/include/solid/control/remotecontrol.h
-usr/include/solid/control/remotecontrolbutton.h
-usr/include/solid/control/remotecontrolmanager.h
 usr/include/solid/control/singletondefs.h
 usr/include/solid/control/solid_control_export.h
 usr/include/solid/control/wirednetworkinterface.h
@@ -98,10 +95,10 @@ usr/include/taskmanager/taskgroup.h
 usr/include/taskmanager/taskitem.h
 usr/include/taskmanager/taskmanager.h
 usr/include/taskmanager/taskmanager_export.h
-usr/lib/cmake/KDE4Workspace-4.6.*/KDE4WorkspaceConfig.cmake
-usr/lib/cmake/KDE4Workspace-4.6.*/KDE4WorkspaceConfigVersion.cmake
-usr/lib/cmake/KDE4Workspace-4.6.*/KDE4WorkspaceLibraryTargets-debian.cmake
-usr/lib/cmake/KDE4Workspace-4.6.*/KDE4WorkspaceLibraryTargets.cmake
+usr/lib/cmake/KDE4Workspace/KDE4WorkspaceConfig.cmake
+usr/lib/cmake/KDE4Workspace/KDE4WorkspaceConfigVersion.cmake
+usr/lib/cmake/KDE4Workspace/KDE4WorkspaceLibraryTargets-debian.cmake
+usr/lib/cmake/KDE4Workspace/KDE4WorkspaceLibraryTargets.cmake
 usr/lib/kde4/plugins/designer/ksignalplotterwidgets.so
 usr/lib/kde4/plugins/designer/ksysguardlsofwidgets.so
 usr/lib/kde4/plugins/designer/ksysguardwidgets.so
@@ -134,6 +131,7 @@ usr/share/kde4/apps/cmake/modules/FindDBus.cmake
 usr/share/kde4/apps/cmake/modules/FindGooglegadgets.cmake
 usr/share/kde4/apps/cmake/modules/FindKephal.cmake
 usr/share/kde4/apps/cmake/modules/FindLibXKlavier.cmake
+usr/share/kde4/apps/cmake/modules/FindOpenGLES.cmake
 usr/share/kde4/apps/cmake/modules/FindPAM.cmake
 usr/share/kde4/apps/cmake/modules/FindSensors.cmake
 usr/share/kde4/apps/cmake/modules/PkgConfigGetVar.cmake
