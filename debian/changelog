@@ -6,6 +6,9 @@ kdebase-workspace (4:4.6.5-3) UNRELEASED; urgency=low
   * Bump the libnm-util-dev and network-manager-dev build dependencies to 0.9,
     to be sure to not use an older NM version.
 
+  [ José Manuel Santamaría Lema ]
+  * Add kwin_avoid_deep_vector_copies.diff to improve kwin performance.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 15 Sep 2011 23:02:00 +0200
 
 kdebase-workspace (4:4.6.5-2) unstable; urgency=low
