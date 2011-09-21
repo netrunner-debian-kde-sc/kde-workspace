@@ -1,7 +1,8 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libkworkspace.so.4 libkworkspace4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
+ _ZN10KWorkSpace10trimMallocEv@ABI_4_0 4:4.7.1
  _ZN10KWorkSpace11canShutDownENS_15ShutdownConfirmENS_12ShutdownTypeENS_12ShutdownModeE@ABI_4_0 4:4.6.1
  _ZN10KWorkSpace15requestShutDownENS_15ShutdownConfirmENS_12ShutdownTypeENS_12ShutdownModeE@ABI_4_0 4:4.6.1
  _ZN10KWorkSpace23propagateSessionManagerEv@ABI_4_0 4:4.6.1

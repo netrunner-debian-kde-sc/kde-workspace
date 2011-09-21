@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_1@ABI_4_1 4:4.6.1
@@ -51,25 +51,25 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZN5Solid7Control12ModemManager8NotifierD1Ev@ABI_4_1 4:4.6.5
  _ZN5Solid7Control12ModemManager8NotifierD2Ev@ABI_4_1 4:4.6.5
  _ZN5Solid7Control12ModemManager8notifierEv@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControl10allRemotesEv@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControl11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControl11qt_metacastEPKc@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControl13buttonPressedERKNS0_19RemoteControlButtonE@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControl14allRemoteNamesEv@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControl16staticMetaObjectE@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlC1EP7QObject@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlC1ERK7QString@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlC1ERKS1_@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlC1ERNS0_20RemoteControlPrivateEP7QObject@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlC1ERNS0_20RemoteControlPrivateERKS1_@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlC2EP7QObject@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlC2ERK7QString@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlC2ERKS1_@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlC2ERNS0_20RemoteControlPrivateEP7QObject@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlC2ERNS0_20RemoteControlPrivateERKS1_@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlD0Ev@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlD1Ev@ABI_4_1 4:4.6.1
- _ZN5Solid7Control13RemoteControlD2Ev@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControl10allRemotesEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControl11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControl11qt_metacastEPKc@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControl13buttonPressedERKNS0_19RemoteControlButtonE@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControl14allRemoteNamesEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControl16staticMetaObjectE@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlC1EP7QObject@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlC1ERK7QString@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlC1ERKS1_@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlC1ERNS0_20RemoteControlPrivateEP7QObject@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlC1ERNS0_20RemoteControlPrivateERKS1_@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlC2EP7QObject@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlC2ERK7QString@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlC2ERKS1_@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlC2ERNS0_20RemoteControlPrivateEP7QObject@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlC2ERNS0_20RemoteControlPrivateERKS1_@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlD0Ev@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlD1Ev@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control13RemoteControlD2Ev@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14ModemInterface11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14ModemInterface11qt_metacastEPKc@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14ModemInterface11typeChangedENS1_4TypeE@ABI_4_1 4:4.6.1
@@ -99,6 +99,8 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZN5Solid7Control14ModemInterfaceD0Ev@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14ModemInterfaceD1Ev@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14ModemInterfaceD2Ev@ABI_4_1 4:4.6.1
+ _ZN5Solid7Control14NetworkManager13isWwanEnabledEv@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control14NetworkManager14setWwanEnabledEb@ABI_4_1 4:4.7.1
  _ZN5Solid7Control14NetworkManager17activeConnectionsEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager17isWirelessEnabledEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager17networkInterfacesEv@ABI_4_1 4:4.6.1
@@ -108,6 +110,7 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZN5Solid7Control14NetworkManager20deactivateConnectionERK7QString@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager20findNetworkInterfaceERK7QString@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager20setNetworkingEnabledEb@ABI_4_1 4:4.6.1
+ _ZN5Solid7Control14NetworkManager21isWwanHardwareEnabledEv@ABI_4_1 4:4.7.1
  _ZN5Solid7Control14NetworkManager23supportedInterfaceTypesEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager25isWirelessHardwareEnabledEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager6statusEv@ABI_4_1 4:4.6.1
@@ -115,11 +118,13 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZN5Solid7Control14NetworkManager8Notifier11qt_metacastEPKc@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager8Notifier13statusChangedENS_10Networking6StatusE@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager8Notifier16staticMetaObjectE@ABI_4_1 4:4.6.1
+ _ZN5Solid7Control14NetworkManager8Notifier18wwanEnabledChangedEb@ABI_4_1 4:4.7.1
  _ZN5Solid7Control14NetworkManager8Notifier21networkInterfaceAddedERK7QString@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager8Notifier22wirelessEnabledChangedEb@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager8Notifier23networkInterfaceRemovedERK7QString@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager8Notifier24activeConnectionsChangedEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager8Notifier24networkingEnabledChangedEb@ABI_4_1 4:4.6.1
+ _ZN5Solid7Control14NetworkManager8Notifier26wwanHardwareEnabledChangedEb@ABI_4_1 4:4.7.1
  _ZN5Solid7Control14NetworkManager8Notifier30wirelessHardwareEnabledChangedEb@ABI_4_1 4:4.6.1
  _ZN5Solid7Control14NetworkManager8NotifierD0Ev@ABI_4_1 4:4.6.5
  _ZN5Solid7Control14NetworkManager8NotifierD1Ev@ABI_4_1 4:4.6.5
@@ -143,6 +148,22 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZN5Solid7Control16NetworkInterfaceD0Ev@ABI_4_1 4:4.6.1
  _ZN5Solid7Control16NetworkInterfaceD1Ev@ABI_4_1 4:4.6.1
  _ZN5Solid7Control16NetworkInterfaceD2Ev@ABI_4_1 4:4.6.1
+ _ZN5Solid7Control18BtNetworkInterface11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterface11qt_metacastEPKc@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterface12_k_destroyedEP7QObject@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterface15makeConnectionsEP7QObject@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterface16staticMetaObjectE@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterfaceC1EP7QObject@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterfaceC1ERKS1_@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterfaceC1ERNS0_25BtNetworkInterfacePrivateEP7QObject@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterfaceC1ERNS0_25BtNetworkInterfacePrivateERKS1_@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterfaceC2EP7QObject@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterfaceC2ERKS1_@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterfaceC2ERNS0_25BtNetworkInterfacePrivateEP7QObject@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterfaceC2ERNS0_25BtNetworkInterfacePrivateERKS1_@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterfaceD0Ev@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterfaceD1Ev@ABI_4_1 4:4.7.1
+ _ZN5Solid7Control18BtNetworkInterfaceD2Ev@ABI_4_1 4:4.7.1
  _ZN5Solid7Control18ManagerBasePrivate24_k_forcePreloadedBackendEPKcP7QObject@ABI_4_1 4:4.6.1
  _ZN5Solid7Control18ModemCdmaInterface11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control18ModemCdmaInterface11qt_metacastEPKc@ABI_4_1 4:4.6.1
@@ -164,6 +185,7 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZN5Solid7Control19GsmNetworkInterface15makeConnectionsEP7QObject@ABI_4_1 4:4.6.1
  _ZN5Solid7Control19GsmNetworkInterface16staticMetaObjectE@ABI_4_1 4:4.6.1
  _ZN5Solid7Control19GsmNetworkInterface17getModemCardIfaceEv@ABI_4_1 4:4.6.1
+ _ZN5Solid7Control19GsmNetworkInterface17setModemCardIfaceEPNS0_21ModemGsmCardInterfaceE@ABI_4_1 4:4.7.1
  _ZN5Solid7Control19GsmNetworkInterface20getModemNetworkIfaceEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control19GsmNetworkInterface20setModemNetworkIfaceEPNS0_24ModemGsmNetworkInterfaceE@ABI_4_1 4:4.6.1
  _ZN5Solid7Control19GsmNetworkInterfaceC1EP7QObject@ABI_4_1 4:4.6.1
@@ -177,14 +199,14 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZN5Solid7Control19GsmNetworkInterfaceD0Ev@ABI_4_1 4:4.6.1
  _ZN5Solid7Control19GsmNetworkInterfaceD1Ev@ABI_4_1 4:4.6.1
  _ZN5Solid7Control19GsmNetworkInterfaceD2Ev@ABI_4_1 4:4.6.1
- _ZN5Solid7Control19RemoteControlButtonC1ERK7QStringNS1_8ButtonIdEi@ABI_4_1 4:4.6.1
- _ZN5Solid7Control19RemoteControlButtonC1ERK7QStringS4_i@ABI_4_1 4:4.6.1
- _ZN5Solid7Control19RemoteControlButtonC1ERKS1_@ABI_4_1 4:4.6.1
- _ZN5Solid7Control19RemoteControlButtonC2ERK7QStringNS1_8ButtonIdEi@ABI_4_1 4:4.6.1
- _ZN5Solid7Control19RemoteControlButtonC2ERK7QStringS4_i@ABI_4_1 4:4.6.1
- _ZN5Solid7Control19RemoteControlButtonC2ERKS1_@ABI_4_1 4:4.6.1
- _ZN5Solid7Control19RemoteControlButtonD1Ev@ABI_4_1 4:4.6.1
- _ZN5Solid7Control19RemoteControlButtonD2Ev@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control19RemoteControlButtonC1ERK7QStringNS1_8ButtonIdEi@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control19RemoteControlButtonC1ERK7QStringS4_i@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control19RemoteControlButtonC1ERKS1_@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control19RemoteControlButtonC2ERK7QStringNS1_8ButtonIdEi@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control19RemoteControlButtonC2ERK7QStringS4_i@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control19RemoteControlButtonC2ERKS1_@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control19RemoteControlButtonD1Ev@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control19RemoteControlButtonD2Ev@ABI_4_1 4:4.6.1
  _ZN5Solid7Control20CdmaNetworkInterface11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control20CdmaNetworkInterface11qt_metacastEPKc@ABI_4_1 4:4.6.1
  _ZN5Solid7Control20CdmaNetworkInterface12_k_destroyedEP7QObject@ABI_4_1 4:4.6.1
@@ -227,17 +249,17 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZN5Solid7Control20ModemGsmSmsInterfaceD0Ev@ABI_4_1 4:4.6.1
  _ZN5Solid7Control20ModemGsmSmsInterfaceD1Ev@ABI_4_1 4:4.6.1
  _ZN5Solid7Control20ModemGsmSmsInterfaceD2Ev@ABI_4_1 4:4.6.1
- _ZN5Solid7Control20RemoteControlManager8Notifier11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
- _ZN5Solid7Control20RemoteControlManager8Notifier11qt_metacastEPKc@ABI_4_1 4:4.6.1
- _ZN5Solid7Control20RemoteControlManager8Notifier13statusChangedEb@ABI_4_1 4:4.6.1
- _ZN5Solid7Control20RemoteControlManager8Notifier16staticMetaObjectE@ABI_4_1 4:4.6.1
- _ZN5Solid7Control20RemoteControlManager8Notifier18remoteControlAddedERK7QString@ABI_4_1 4:4.6.1
- _ZN5Solid7Control20RemoteControlManager8Notifier20remoteControlRemovedERK7QString@ABI_4_1 4:4.6.1
- _ZN5Solid7Control20RemoteControlManager8NotifierD0Ev@ABI_4_1 4:4.6.5
- _ZN5Solid7Control20RemoteControlManager8NotifierD1Ev@ABI_4_1 4:4.6.5
- _ZN5Solid7Control20RemoteControlManager8NotifierD2Ev@ABI_4_1 4:4.6.5
- _ZN5Solid7Control20RemoteControlManager8notifierEv@ABI_4_1 4:4.6.1
- _ZN5Solid7Control20RemoteControlManager9connectedEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control20RemoteControlManager8Notifier11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control20RemoteControlManager8Notifier11qt_metacastEPKc@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control20RemoteControlManager8Notifier13statusChangedEb@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control20RemoteControlManager8Notifier16staticMetaObjectE@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control20RemoteControlManager8Notifier18remoteControlAddedERK7QString@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control20RemoteControlManager8Notifier20remoteControlRemovedERK7QString@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control20RemoteControlManager8NotifierD0Ev@ABI_4_1 4:4.6.5
+#MISSING: 4:4.7.1# _ZN5Solid7Control20RemoteControlManager8NotifierD1Ev@ABI_4_1 4:4.6.5
+#MISSING: 4:4.7.1# _ZN5Solid7Control20RemoteControlManager8NotifierD2Ev@ABI_4_1 4:4.6.5
+#MISSING: 4:4.7.1# _ZN5Solid7Control20RemoteControlManager8notifierEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN5Solid7Control20RemoteControlManager9connectedEv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control21ModemGsmCardInterface11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
  _ZN5Solid7Control21ModemGsmCardInterface11qt_metacastEPKc@ABI_4_1 4:4.6.1
  _ZN5Solid7Control21ModemGsmCardInterface12_k_destroyedEP7QObject@ABI_4_1 4:4.6.1
@@ -422,9 +444,9 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZNK5Solid7Control11IPv4Address7isValidEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control11IPv4Address7netMaskEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control12ModemManager8Notifier10metaObjectEv@ABI_4_1 4:4.6.1
- _ZNK5Solid7Control13RemoteControl10metaObjectEv@ABI_4_1 4:4.6.1
- _ZNK5Solid7Control13RemoteControl4nameEv@ABI_4_1 4:4.6.1
- _ZNK5Solid7Control13RemoteControl7buttonsEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZNK5Solid7Control13RemoteControl10metaObjectEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZNK5Solid7Control13RemoteControl4nameEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZNK5Solid7Control13RemoteControl7buttonsEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control14ModemInterface10metaObjectEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control14ModemInterface12connectModemERK4QMapI7QString8QVariantE@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control14ModemInterface12connectModemERK7QString@ABI_4_1 4:4.6.1
@@ -448,11 +470,19 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZNK5Solid7Control16NetworkInterface12capabilitiesEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control16NetworkInterface13interfaceNameEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control16NetworkInterface15connectionStateEv@ABI_4_1 4:4.6.1
+ _ZNK5Solid7Control16NetworkInterface15firmwareMissingEv@ABI_4_1 4:4.7.1
+ _ZNK5Solid7Control16NetworkInterface15ipInterfaceNameEv@ABI_4_1 4:4.7.1
+ _ZNK5Solid7Control16NetworkInterface19disconnectInterfaceEv@ABI_4_1 4:4.7.1
  _ZNK5Solid7Control16NetworkInterface3udiEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control16NetworkInterface3uniEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control16NetworkInterface4typeEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control16NetworkInterface6driverEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control16NetworkInterface8isActiveEv@ABI_4_1 4:4.6.1
+ _ZNK5Solid7Control18BtNetworkInterface10metaObjectEv@ABI_4_1 4:4.7.1
+ _ZNK5Solid7Control18BtNetworkInterface14btCapabilitiesEv@ABI_4_1 4:4.7.1
+ _ZNK5Solid7Control18BtNetworkInterface15hardwareAddressEv@ABI_4_1 4:4.7.1
+ _ZNK5Solid7Control18BtNetworkInterface4nameEv@ABI_4_1 4:4.7.1
+ _ZNK5Solid7Control18BtNetworkInterface4typeEv@ABI_4_1 4:4.7.1
  _ZNK5Solid7Control18ModemCdmaInterface10metaObjectEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control18ModemCdmaInterface16getServingSystemEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control18ModemCdmaInterface16getSignalQualityEv@ABI_4_1 4:4.6.1
@@ -461,11 +491,11 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZNK5Solid7Control18ModemCdmaInterface6getEsnEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control19GsmNetworkInterface10metaObjectEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control19GsmNetworkInterface4typeEv@ABI_4_1 4:4.6.1
- _ZNK5Solid7Control19RemoteControlButton10remoteNameEv@ABI_4_1 4:4.6.1
- _ZNK5Solid7Control19RemoteControlButton11descriptionEv@ABI_4_1 4:4.6.1
- _ZNK5Solid7Control19RemoteControlButton13repeatCounterEv@ABI_4_1 4:4.6.1
- _ZNK5Solid7Control19RemoteControlButton2idEv@ABI_4_1 4:4.6.1
- _ZNK5Solid7Control19RemoteControlButton4nameEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZNK5Solid7Control19RemoteControlButton10remoteNameEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZNK5Solid7Control19RemoteControlButton11descriptionEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZNK5Solid7Control19RemoteControlButton13repeatCounterEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZNK5Solid7Control19RemoteControlButton2idEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZNK5Solid7Control19RemoteControlButton4nameEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control20CdmaNetworkInterface10metaObjectEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control20CdmaNetworkInterface4typeEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control20ModemGsmHsoInterface10metaObjectEv@ABI_4_1 4:4.6.1
@@ -481,7 +511,7 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZNK5Solid7Control20ModemGsmSmsInterface9deleteSmsEi@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control20ModemGsmSmsInterface9getFormatEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control20ModemGsmSmsInterface9setFormatEi@ABI_4_1 4:4.6.1
- _ZNK5Solid7Control20RemoteControlManager8Notifier10metaObjectEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZNK5Solid7Control20RemoteControlManager8Notifier10metaObjectEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control21ModemGsmCardInterface10metaObjectEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control21ModemGsmCardInterface17getSupportedBandsEv@ABI_4_1 4:4.6.1
  _ZNK5Solid7Control21ModemGsmCardInterface17getSupportedModesEv@ABI_4_1 4:4.6.1
@@ -544,16 +574,17 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZNK5Solid7Control9IPv4Route7nextHopEv@ABI_4_1 4:4.6.1
  _ZTIN5Solid7Control11AccessPointE@ABI_4_1 4:4.6.1
  _ZTIN5Solid7Control12ModemManager8NotifierE@ABI_4_1 4:4.6.1
- _ZTIN5Solid7Control13RemoteControlE@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZTIN5Solid7Control13RemoteControlE@ABI_4_1 4:4.6.1
  _ZTIN5Solid7Control14ModemInterfaceE@ABI_4_1 4:4.6.1
  _ZTIN5Solid7Control14NetworkManager8NotifierE@ABI_4_1 4:4.6.1
  _ZTIN5Solid7Control16NetworkInterfaceE@ABI_4_1 4:4.6.1
+ _ZTIN5Solid7Control18BtNetworkInterfaceE@ABI_4_1 4:4.7.1
  _ZTIN5Solid7Control18ModemCdmaInterfaceE@ABI_4_1 4:4.6.1
  _ZTIN5Solid7Control19GsmNetworkInterfaceE@ABI_4_1 4:4.6.1
  _ZTIN5Solid7Control20CdmaNetworkInterfaceE@ABI_4_1 4:4.6.1
  _ZTIN5Solid7Control20ModemGsmHsoInterfaceE@ABI_4_1 4:4.6.1
  _ZTIN5Solid7Control20ModemGsmSmsInterfaceE@ABI_4_1 4:4.6.1
- _ZTIN5Solid7Control20RemoteControlManager8NotifierE@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZTIN5Solid7Control20RemoteControlManager8NotifierE@ABI_4_1 4:4.6.1
  _ZTIN5Solid7Control21ModemGsmCardInterfaceE@ABI_4_1 4:4.6.1
  _ZTIN5Solid7Control21ModemGsmUssdInterfaceE@ABI_4_1 4:4.6.1
  _ZTIN5Solid7Control21ModemManagerInterfaceE@ABI_4_1 4:4.6.1
@@ -565,16 +596,17 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZTIN5Solid7Control25ModemGsmContactsInterfaceE@ABI_4_1 4:4.6.1
  _ZTSN5Solid7Control11AccessPointE@ABI_4_1 4:4.6.1
  _ZTSN5Solid7Control12ModemManager8NotifierE@ABI_4_1 4:4.6.1
- _ZTSN5Solid7Control13RemoteControlE@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZTSN5Solid7Control13RemoteControlE@ABI_4_1 4:4.6.1
  _ZTSN5Solid7Control14ModemInterfaceE@ABI_4_1 4:4.6.1
  _ZTSN5Solid7Control14NetworkManager8NotifierE@ABI_4_1 4:4.6.1
  _ZTSN5Solid7Control16NetworkInterfaceE@ABI_4_1 4:4.6.1
+ _ZTSN5Solid7Control18BtNetworkInterfaceE@ABI_4_1 4:4.7.1
  _ZTSN5Solid7Control18ModemCdmaInterfaceE@ABI_4_1 4:4.6.1
  _ZTSN5Solid7Control19GsmNetworkInterfaceE@ABI_4_1 4:4.6.1
  _ZTSN5Solid7Control20CdmaNetworkInterfaceE@ABI_4_1 4:4.6.1
  _ZTSN5Solid7Control20ModemGsmHsoInterfaceE@ABI_4_1 4:4.6.1
  _ZTSN5Solid7Control20ModemGsmSmsInterfaceE@ABI_4_1 4:4.6.1
- _ZTSN5Solid7Control20RemoteControlManager8NotifierE@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZTSN5Solid7Control20RemoteControlManager8NotifierE@ABI_4_1 4:4.6.1
  _ZTSN5Solid7Control21ModemGsmCardInterfaceE@ABI_4_1 4:4.6.1
  _ZTSN5Solid7Control21ModemGsmUssdInterfaceE@ABI_4_1 4:4.6.1
  _ZTSN5Solid7Control21ModemManagerInterfaceE@ABI_4_1 4:4.6.1
@@ -586,16 +618,17 @@ libsolidcontrol.so.4abi1 libsolidcontrol4abi1 #MINVER#
  _ZTSN5Solid7Control25ModemGsmContactsInterfaceE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control11AccessPointE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control12ModemManager8NotifierE@ABI_4_1 4:4.6.1
- _ZTVN5Solid7Control13RemoteControlE@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZTVN5Solid7Control13RemoteControlE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control14ModemInterfaceE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control14NetworkManager8NotifierE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control16NetworkInterfaceE@ABI_4_1 4:4.6.1
+ _ZTVN5Solid7Control18BtNetworkInterfaceE@ABI_4_1 4:4.7.1
  _ZTVN5Solid7Control18ModemCdmaInterfaceE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control19GsmNetworkInterfaceE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control20CdmaNetworkInterfaceE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control20ModemGsmHsoInterfaceE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control20ModemGsmSmsInterfaceE@ABI_4_1 4:4.6.1
- _ZTVN5Solid7Control20RemoteControlManager8NotifierE@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZTVN5Solid7Control20RemoteControlManager8NotifierE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control21ModemGsmCardInterfaceE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control21ModemGsmUssdInterfaceE@ABI_4_1 4:4.6.1
  _ZTVN5Solid7Control21ModemManagerInterfaceE@ABI_4_1 4:4.6.1

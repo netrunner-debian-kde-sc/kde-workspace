@@ -1,7 +1,15 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_1@ABI_4_1 4:4.6.1
+ _ZN11TaskManager10TasksModel11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.7.1
+ _ZN11TaskManager10TasksModel11qt_metacastEPKc@ABI_4_1 4:4.7.1
+ _ZN11TaskManager10TasksModel16staticMetaObjectE@ABI_4_1 4:4.7.1
+ _ZN11TaskManager10TasksModelC1EPNS_12GroupManagerEP7QObject@ABI_4_1 4:4.7.1
+ _ZN11TaskManager10TasksModelC2EPNS_12GroupManagerEP7QObject@ABI_4_1 4:4.7.1
+ _ZN11TaskManager10TasksModelD0Ev@ABI_4_1 4:4.7.1
+ _ZN11TaskManager10TasksModelD1Ev@ABI_4_1 4:4.7.1
+ _ZN11TaskManager10TasksModelD2Ev@ABI_4_1 4:4.7.1
  _ZN11TaskManager11TaskManager10isOnScreenEim@ABI_4_1 4:4.6.1
  _ZN11TaskManager11TaskManager11killStartupE10KSharedPtrINS_7StartupEE@ABI_4_1 4:4.6.1
  _ZN11TaskManager11TaskManager11killStartupERK14KStartupInfoId@ABI_4_1 4:4.6.1
@@ -54,12 +62,15 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZN11TaskManager12GroupManager11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
  _ZN11TaskManager12GroupManager11qt_metacastEPKc@ABI_4_1 4:4.6.1
  _ZN11TaskManager12GroupManager12setFullLimitEi@ABI_4_1 4:4.6.1
- _ZN11TaskManager12GroupManager13launcherAddedEPNS_12LauncherItemE@ABI_4_1 4:4.6.1
+ _ZN11TaskManager12GroupManager13configChangedEv@ABI_4_1 4:4.7.1
+#MISSING: 4:4.7.1# _ZN11TaskManager12GroupManager13launcherAddedEPNS_12LauncherItemE@ABI_4_1 4:4.6.1
  _ZN11TaskManager12GroupManager14removeLauncherERK4KUrl@ABI_4_1 4:4.6.1
- _ZN11TaskManager12GroupManager15launcherRemovedEPNS_12LauncherItemE@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN11TaskManager12GroupManager15launcherRemovedEPNS_12LauncherItemE@ABI_4_1 4:4.6.1
  _ZN11TaskManager12GroupManager16staticMetaObjectE@ABI_4_1 4:4.6.1
+ _ZN11TaskManager12GroupManager18readLauncherConfigERK12KConfigGroup@ABI_4_1 4:4.7.1
  _ZN11TaskManager12GroupManager18setSortingStrategyENS0_19TaskSortingStrategyE@ABI_4_1 4:4.6.1
  _ZN11TaskManager12GroupManager19setGroupingStrategyENS0_20TaskGroupingStrategyE@ABI_4_1 4:4.6.1
+ _ZN11TaskManager12GroupManager20exportLauncherConfigERK12KConfigGroup@ABI_4_1 4:4.7.1
  _ZN11TaskManager12GroupManager20manualSortingRequestEPNS_21AbstractGroupableItemEi@ABI_4_1 4:4.6.1
  _ZN11TaskManager12GroupManager20setOnlyGroupWhenFullEb@ABI_4_1 4:4.6.1
  _ZN11TaskManager12GroupManager20setShowOnlyMinimizedEb@ABI_4_1 4:4.6.1
@@ -84,11 +95,13 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZN11TaskManager12LauncherItem13setFullScreenEb@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem14setAlwaysOnTopEb@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem14setGenericNameERK7QString@ABI_4_1 4:4.6.1
+ _ZN11TaskManager12LauncherItem14setLauncherUrlERK4KUrl@ABI_4_1 4:4.7.1
  _ZN11TaskManager12LauncherItem15toggleMaximizedEv@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem15toggleMinimizedEv@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem16staticMetaObjectE@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem16toggleFullScreenEv@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem17toggleAlwaysOnTopEv@ABI_4_1 4:4.6.1
+ _ZN11TaskManager12LauncherItem18defaultApplicationE7QStringb@ABI_4_1 4:4.7.1
  _ZN11TaskManager12LauncherItem18setKeptBelowOthersEb@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem21toggleKeptBelowOthersEv@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem22associateItemIfMatchesEPNS_21AbstractGroupableItemE@ABI_4_1 4:4.6.1
@@ -96,7 +109,7 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZN11TaskManager12LauncherItem4showEb@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem5closeEv@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem6launchEv@ABI_4_1 4:4.6.1
- _ZN11TaskManager12LauncherItem6setUrlERK4KUrl@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN11TaskManager12LauncherItem6setUrlERK4KUrl@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem7setIconERK5QIcon@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem7setNameERK7QString@ABI_4_1 4:4.6.1
  _ZN11TaskManager12LauncherItem9setShadedEb@ABI_4_1 4:4.6.1
@@ -288,14 +301,17 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZN11TaskManager9TaskGroup14getMemberByWIdEm@ABI_4_1 4:4.6.1
  _ZN11TaskManager9TaskGroup14movedToDesktopEi@ABI_4_1 4:4.6.1
  _ZN11TaskManager9TaskGroup14setAlwaysOnTopEb@ABI_4_1 4:4.6.1
+ _ZN11TaskManager9TaskGroup15itemAboutToMoveEPNS_21AbstractGroupableItemEii@ABI_4_1 4:4.7.1
  _ZN11TaskManager9TaskGroup15toggleMaximizedEv@ABI_4_1 4:4.6.1
  _ZN11TaskManager9TaskGroup15toggleMinimizedEv@ABI_4_1 4:4.6.1
  _ZN11TaskManager9TaskGroup16groupEditRequestEv@ABI_4_1 4:4.6.1
  _ZN11TaskManager9TaskGroup16staticMetaObjectE@ABI_4_1 4:4.6.1
  _ZN11TaskManager9TaskGroup16toggleFullScreenEv@ABI_4_1 4:4.6.1
  _ZN11TaskManager9TaskGroup17toggleAlwaysOnTopEv@ABI_4_1 4:4.6.1
+ _ZN11TaskManager9TaskGroup18itemAboutToBeAddedEPNS_21AbstractGroupableItemEi@ABI_4_1 4:4.7.1
  _ZN11TaskManager9TaskGroup18setKeptBelowOthersEb@ABI_4_1 4:4.6.1
  _ZN11TaskManager9TaskGroup19itemPositionChangedEPNS_21AbstractGroupableItemE@ABI_4_1 4:4.6.1
+ _ZN11TaskManager9TaskGroup20itemAboutToBeRemovedEPNS_21AbstractGroupableItemE@ABI_4_1 4:4.7.1
  _ZN11TaskManager9TaskGroup21toggleKeptBelowOthersEv@ABI_4_1 4:4.6.1
  _ZN11TaskManager9TaskGroup25setPersistentWithLauncherEb@ABI_4_1 4:4.6.1
  _ZN11TaskManager9TaskGroup3addEPNS_21AbstractGroupableItemE@ABI_4_1 4:4.6.1
@@ -320,6 +336,12 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZN11TaskManager9TaskGroupD0Ev@ABI_4_1 4:4.6.1
  _ZN11TaskManager9TaskGroupD1Ev@ABI_4_1 4:4.6.1
  _ZN11TaskManager9TaskGroupD2Ev@ABI_4_1 4:4.6.1
+ _ZNK11TaskManager10TasksModel10metaObjectEv@ABI_4_1 4:4.7.1
+ _ZNK11TaskManager10TasksModel11columnCountERK11QModelIndex@ABI_4_1 4:4.7.1
+ _ZNK11TaskManager10TasksModel4dataERK11QModelIndexi@ABI_4_1 4:4.7.1
+ _ZNK11TaskManager10TasksModel5indexEiiRK11QModelIndex@ABI_4_1 4:4.7.1
+ _ZNK11TaskManager10TasksModel6parentERK11QModelIndex@ABI_4_1 4:4.7.1
+ _ZNK11TaskManager10TasksModel8rowCountERK11QModelIndex@ABI_4_1 4:4.7.1
  _ZNK11TaskManager11TaskManager10metaObjectEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager11TaskManager11desktopNameEi@ABI_4_1 4:4.6.1
  _ZNK11TaskManager11TaskManager13trackGeometryEv@ABI_4_1 4:4.6.1
@@ -342,6 +364,8 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZNK11TaskManager12GroupManager21showOnlyCurrentScreenEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12GroupManager22showOnlyCurrentDesktopEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12GroupManager23showOnlyCurrentActivityEv@ABI_4_1 4:4.6.1
+ _ZNK11TaskManager12GroupManager6configEv@ABI_4_1 4:4.7.1
+ _ZNK11TaskManager12GroupManager6screenEv@ABI_4_1 4:4.7.1
  _ZNK11TaskManager12GroupManager9rootGroupEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem10metaObjectEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem10shouldShowEv@ABI_4_1 4:4.6.1
@@ -350,6 +374,7 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZNK11TaskManager12LauncherItem11isGroupItemEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem11isMaximizedEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem11isMinimizedEv@ABI_4_1 4:4.6.1
+ _ZNK11TaskManager12LauncherItem11launcherUrlEv@ABI_4_1 4:4.7.1
  _ZNK11TaskManager12LauncherItem12isFullScreenEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem13isAlwaysOnTopEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem15isOnAllDesktopsEv@ABI_4_1 4:4.6.1
@@ -357,10 +382,11 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZNK11TaskManager12LauncherItem17isActionSupportedEN3NET6ActionE@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem17isKeptBelowOthersEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem18isOnCurrentDesktopEv@ABI_4_1 4:4.6.1
- _ZNK11TaskManager12LauncherItem3urlEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZNK11TaskManager12LauncherItem3urlEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem4iconEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem4nameEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem7desktopEv@ABI_4_1 4:4.6.1
+ _ZNK11TaskManager12LauncherItem7isValidEv@ABI_4_1 4:4.7.1
  _ZNK11TaskManager12LauncherItem8isActiveEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem8isShadedEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager12LauncherItem8itemTypeEv@ABI_4_1 4:4.6.1
@@ -424,6 +450,7 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZNK11TaskManager8TaskItem11isGroupItemEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager8TaskItem11isMaximizedEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager8TaskItem11isMinimizedEv@ABI_4_1 4:4.6.1
+ _ZNK11TaskManager8TaskItem11launcherUrlEv@ABI_4_1 4:4.7.1
  _ZNK11TaskManager8TaskItem12isFullScreenEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager8TaskItem13isAlwaysOnTopEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager8TaskItem13isStartupItemEv@ABI_4_1 4:4.6.1
@@ -448,6 +475,7 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZNK11TaskManager9TaskGroup11isMaximizedEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager9TaskGroup11isMinimizedEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager9TaskGroup11isRootGroupEv@ABI_4_1 4:4.6.1
+ _ZNK11TaskManager9TaskGroup11launcherUrlEv@ABI_4_1 4:4.7.1
  _ZNK11TaskManager9TaskGroup12directMemberEPNS_21AbstractGroupableItemE@ABI_4_1 4:4.6.1
  _ZNK11TaskManager9TaskGroup12isFullScreenEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager9TaskGroup13isAlwaysOnTopEv@ABI_4_1 4:4.6.1
@@ -464,11 +492,13 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZNK11TaskManager9TaskGroup5colorEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager9TaskGroup6winIdsEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager9TaskGroup7desktopEv@ABI_4_1 4:4.6.1
+ _ZNK11TaskManager9TaskGroup7managerEv@ABI_4_1 4:4.7.1
  _ZNK11TaskManager9TaskGroup7membersEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager9TaskGroup8isActiveEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager9TaskGroup8isShadedEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager9TaskGroup8itemTypeEv@ABI_4_1 4:4.6.1
  _ZNK11TaskManager9TaskGroup9hasMemberEPNS_21AbstractGroupableItemE@ABI_4_1 4:4.6.1
+ _ZTIN11TaskManager10TasksModelE@ABI_4_1 4:4.7.1
  _ZTIN11TaskManager11TaskManagerE@ABI_4_1 4:4.6.1
  _ZTIN11TaskManager12AdvancedMenuE@ABI_4_1 4:4.6.1
  _ZTIN11TaskManager12DesktopsMenuE@ABI_4_1 4:4.6.1
@@ -484,6 +514,7 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZTIN11TaskManager8TaskItemE@ABI_4_1 4:4.6.1
  _ZTIN11TaskManager9BasicMenuE@ABI_4_1 4:4.6.1
  _ZTIN11TaskManager9TaskGroupE@ABI_4_1 4:4.6.1
+ _ZTSN11TaskManager10TasksModelE@ABI_4_1 4:4.7.1
  _ZTSN11TaskManager11TaskManagerE@ABI_4_1 4:4.6.1
  _ZTSN11TaskManager12AdvancedMenuE@ABI_4_1 4:4.6.1
  _ZTSN11TaskManager12DesktopsMenuE@ABI_4_1 4:4.6.1
@@ -499,6 +530,7 @@ libtaskmanager.so.4abi1 libtaskmanager4abi1 #MINVER#
  _ZTSN11TaskManager8TaskItemE@ABI_4_1 4:4.6.1
  _ZTSN11TaskManager9BasicMenuE@ABI_4_1 4:4.6.1
  _ZTSN11TaskManager9TaskGroupE@ABI_4_1 4:4.6.1
+ _ZTVN11TaskManager10TasksModelE@ABI_4_1 4:4.7.1
  _ZTVN11TaskManager11TaskManagerE@ABI_4_1 4:4.6.1
  _ZTVN11TaskManager12AdvancedMenuE@ABI_4_1 4:4.6.1
  _ZTVN11TaskManager12DesktopsMenuE@ABI_4_1 4:4.6.1

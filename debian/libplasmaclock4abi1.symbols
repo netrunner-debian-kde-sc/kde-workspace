@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libplasmaclock.so.4abi1 libplasmaclock4abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_1@ABI_4_1 4:4.6.1
@@ -6,6 +6,7 @@ libplasmaclock.so.4abi1 libplasmaclock4abi1 #MINVER#
  _ZN11ClockApplet10wheelEventEP24QGraphicsSceneWheelEvent@ABI_4_1 4:4.6.1
  _ZN11ClockApplet11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
  _ZN11ClockApplet11qt_metacastEPKc@ABI_4_1 4:4.6.1
+ _ZN11ClockApplet12focusInEventEP11QFocusEvent@ABI_4_1 4:4.7.1
  _ZN11ClockApplet13configChangedEv@ABI_4_1 4:4.6.1
  _ZN11ClockApplet13localTimezoneEv@ABI_4_1 4:4.6.1
  _ZN11ClockApplet13toolTipHiddenEv@ABI_4_1 4:4.6.1
@@ -54,6 +55,7 @@ libplasmaclock.so.4abi1 libplasmaclock4abi1 #MINVER#
  _ZN6Plasma13CalendarTable12tableClickedEv@ABI_4_1 4:4.6.1
  _ZN6Plasma13CalendarTable13clearHolidaysEv@ABI_4_1 4:4.6.1
  _ZN6Plasma13CalendarTable13displayEventsEv@ABI_4_1 4:4.6.1
+ _ZN6Plasma13CalendarTable13eventsChangedEv@ABI_4_1 4:4.7.1
  _ZN6Plasma13CalendarTable14configAcceptedE12KConfigGroup@ABI_4_1 4:4.6.1
  _ZN6Plasma13CalendarTable14hoverMoveEventEP24QGraphicsSceneHoverEvent@ABI_4_1 4:4.6.1
  _ZN6Plasma13CalendarTable14mouseMoveEventEP24QGraphicsSceneMouseEvent@ABI_4_1 4:4.6.1
@@ -69,7 +71,7 @@ libplasmaclock.so.4abi1 libplasmaclock4abi1 #MINVER#
  _ZN6Plasma13CalendarTable18writeConfigurationE12KConfigGroup@ABI_4_1 4:4.6.1
  _ZN6Plasma13CalendarTable20clearHolidaysRegionsEv@ABI_4_1 4:4.6.1
  _ZN6Plasma13CalendarTable25setAutomaticUpdateEnabledEb@ABI_4_1 4:4.6.1
- _ZN6Plasma13CalendarTable27applyConfigurationInterfaceEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN6Plasma13CalendarTable27applyConfigurationInterfaceEv@ABI_4_1 4:4.6.1
  _ZN6Plasma13CalendarTable28createConfigurationInterfaceEP13KConfigDialog@ABI_4_1 4:4.6.1
  _ZN6Plasma13CalendarTable5cellXEi@ABI_4_1 4:4.6.1
  _ZN6Plasma13CalendarTable5cellYEi@ABI_4_1 4:4.6.1
@@ -86,32 +88,38 @@ libplasmaclock.so.4abi1 libplasmaclock4abi1 #MINVER#
  _ZN6Plasma8Calendar11dateChangedERK5QDate@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar11dateChangedERK5QDateS3_@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar11dateHoveredERK5QDate@ABI_4_1 4:4.6.1
- _ZN6Plasma8Calendar11dateUpdatedERK5QDate@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN6Plasma8Calendar11dateUpdatedERK5QDate@ABI_4_1 4:4.6.1
+ _ZN6Plasma8Calendar11dateUpdatedEv@ABI_4_1 4:4.7.1
  _ZN6Plasma8Calendar11monthsPopupEv@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar11qt_metacastEPKc@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar11setCalendarEPK15KCalendarSystem@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar11setCalendarERK7QString@ABI_4_1 4:4.6.1
+ _ZN6Plasma8Calendar12focusInEventEP11QFocusEvent@ABI_4_1 4:4.7.1
+ _ZN6Plasma8Calendar13displayEventsERK5QDate@ABI_4_1 4:4.7.1
+ _ZN6Plasma8Calendar13focusOutEventEP11QFocusEvent@ABI_4_1 4:4.7.1
+ _ZN6Plasma8Calendar13keyPressEventEP9QKeyEvent@ABI_4_1 4:4.7.1
  _ZN6Plasma8Calendar14configAcceptedE12KConfigGroup@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar14monthTriggeredEv@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar14refreshWidgetsEv@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar14setCurrentDateERK5QDate@ABI_4_1 4:4.6.1
- _ZN6Plasma8Calendar15displayHolidaysEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN6Plasma8Calendar15displayHolidaysEv@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar15hideYearSpinBoxEv@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar15showYearSpinBoxEv@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar16manualDateChangeEv@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar16staticMetaObjectE@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar17addHolidaysRegionERK7QStringb@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar18applyConfigurationE12KConfigGroup@ABI_4_1 4:4.6.1
- _ZN6Plasma8Calendar18setDisplayHolidaysEb@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN6Plasma8Calendar18setDisplayHolidaysEb@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar18writeConfigurationE12KConfigGroup@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar20clearHolidaysRegionsEv@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar25setAutomaticUpdateEnabledEb@ABI_4_1 4:4.6.1
- _ZN6Plasma8Calendar27applyConfigurationInterfaceEv@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN6Plasma8Calendar27applyConfigurationInterfaceEv@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar28createConfigurationInterfaceEP13KConfigDialog@ABI_4_1 4:4.6.1
- _ZN6Plasma8Calendar4initEPNS_13CalendarTableE@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN6Plasma8Calendar4initEPNS_13CalendarTableE@ABI_4_1 4:4.6.1
+ _ZN6Plasma8Calendar4initERK5QDate@ABI_4_1 4:4.7.1
  _ZN6Plasma8Calendar7setDateERK5QDate@ABI_4_1 4:4.6.1
- _ZN6Plasma8Calendar7showTipERK5QDate@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN6Plasma8Calendar7showTipERK5QDate@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar8goToWeekEi@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar8nextYearEv@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar8prevYearEv@ABI_4_1 4:4.6.1
@@ -119,10 +127,10 @@ libplasmaclock.so.4abi1 libplasmaclock4abi1 #MINVER#
  _ZN6Plasma8Calendar9nextMonthEv@ABI_4_1 4:4.6.1
  _ZN6Plasma8Calendar9prevMonthEv@ABI_4_1 4:4.6.1
  _ZN6Plasma8CalendarC1EP15QGraphicsWidget@ABI_4_1 4:4.6.1
- _ZN6Plasma8CalendarC1EPNS_13CalendarTableEP15QGraphicsWidget@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN6Plasma8CalendarC1EPNS_13CalendarTableEP15QGraphicsWidget@ABI_4_1 4:4.6.1
  _ZN6Plasma8CalendarC1ERK5QDateP15QGraphicsWidget@ABI_4_1 4:4.6.1
  _ZN6Plasma8CalendarC2EP15QGraphicsWidget@ABI_4_1 4:4.6.1
- _ZN6Plasma8CalendarC2EPNS_13CalendarTableEP15QGraphicsWidget@ABI_4_1 4:4.6.1
+#MISSING: 4:4.7.1# _ZN6Plasma8CalendarC2EPNS_13CalendarTableEP15QGraphicsWidget@ABI_4_1 4:4.6.1
  _ZN6Plasma8CalendarC2ERK5QDateP15QGraphicsWidget@ABI_4_1 4:4.6.1
  _ZN6Plasma8CalendarD0Ev@ABI_4_1 4:4.6.1
  _ZN6Plasma8CalendarD1Ev@ABI_4_1 4:4.6.1
@@ -142,14 +150,18 @@ libplasmaclock.so.4abi1 libplasmaclock4abi1 #MINVER#
  _ZNK6Plasma13CalendarTable15holidaysRegionsEv@ABI_4_1 4:4.6.1
  _ZNK6Plasma13CalendarTable22holidaysRegionsDaysOffEv@ABI_4_1 4:4.6.1
  _ZNK6Plasma13CalendarTable24isAutomaticUpdateEnabledEv@ABI_4_1 4:4.6.1
+ _ZNK6Plasma13CalendarTable26buildOccurrenceDescriptionERK5QHashI7QString8QVariantE@ABI_4_1 4:4.7.1
  _ZNK6Plasma13CalendarTable4dateEv@ABI_4_1 4:4.6.1
+ _ZNK6Plasma13CalendarTable7endDateEv@ABI_4_1 4:4.7.1
  _ZNK6Plasma13CalendarTable8calendarEv@ABI_4_1 4:4.6.1
+ _ZNK6Plasma13CalendarTable9startDateEv@ABI_4_1 4:4.7.1
  _ZNK6Plasma8Calendar10metaObjectEv@ABI_4_1 4:4.6.1
  _ZNK6Plasma8Calendar11currentDateEv@ABI_4_1 4:4.6.1
  _ZNK6Plasma8Calendar11dateDetailsERK5QDate@ABI_4_1 4:4.6.1
  _ZNK6Plasma8Calendar13calendarTableEv@ABI_4_1 4:4.6.1
  _ZNK6Plasma8Calendar14dateHasDetailsERK5QDate@ABI_4_1 4:4.6.1
  _ZNK6Plasma8Calendar15holidaysRegionsEv@ABI_4_1 4:4.6.1
+ _ZNK6Plasma8Calendar23isDisplayingDateDetailsEv@ABI_4_1 4:4.7.1
  _ZNK6Plasma8Calendar24isAutomaticUpdateEnabledEv@ABI_4_1 4:4.6.1
  _ZNK6Plasma8Calendar4dateEv@ABI_4_1 4:4.6.1
  _ZNK6Plasma8Calendar8calendarEv@ABI_4_1 4:4.6.1
@@ -163,8 +175,12 @@ libplasmaclock.so.4abi1 libplasmaclock4abi1 #MINVER#
  _ZTVN6Plasma13CalendarTableE@ABI_4_1 4:4.6.1
  _ZTVN6Plasma8CalendarE@ABI_4_1 4:4.6.1
  dlrestrictions_data@ABI_4_1 4:4.6.3
+ (c++)"non-virtual thunk to ClockApplet::focusInEvent(QFocusEvent*)@ABI_4_1" 4:4.7.1
  (c++)"non-virtual thunk to ClockApplet::wheelEvent(QGraphicsSceneWheelEvent*)@ABI_4_1" 4:4.6.1
  (c++)"non-virtual thunk to ClockApplet::~ClockApplet()@ABI_4_1" 4:4.6.1
+ (c++)"non-virtual thunk to Plasma::Calendar::focusInEvent(QFocusEvent*)@ABI_4_1" 4:4.7.1
+ (c++)"non-virtual thunk to Plasma::Calendar::focusOutEvent(QFocusEvent*)@ABI_4_1" 4:4.7.1
+ (c++)"non-virtual thunk to Plasma::Calendar::keyPressEvent(QKeyEvent*)@ABI_4_1" 4:4.7.1
  (c++)"non-virtual thunk to Plasma::Calendar::~Calendar()@ABI_4_1" 4:4.6.1
  (c++)"non-virtual thunk to Plasma::CalendarTable::hoverMoveEvent(QGraphicsSceneHoverEvent*)@ABI_4_1" 4:4.6.1
  (c++)"non-virtual thunk to Plasma::CalendarTable::mouseMoveEvent(QGraphicsSceneMouseEvent*)@ABI_4_1" 4:4.6.1
