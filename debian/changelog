@@ -15,6 +15,8 @@ kdebase-workspace (4:4.7.1-0r1) UNRELEASED; urgency=low
   * Update build dependencies:
     - Add libgles2-mesa-dev.
     - Add libprison-dev.
+    - Replace libpng-dev build depend with libpng12-dev to avoid accidental
+      builds against libpng packages in experimental.
   * Update installed files.
   * Bump sonames due to binary incompatible changes:
     - libkwineffects1abi1 -> libkwineffects1abi2
