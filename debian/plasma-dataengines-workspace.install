@@ -1,4 +1,5 @@
 usr/lib/kde4/ion_bbcukmet.so
+usr/lib/kde4/ion_debianweather.so
 usr/lib/kde4/ion_envcan.so
 usr/lib/kde4/ion_noaa.so
 usr/lib/kde4/ion_wettercom.so
@@ -40,8 +41,12 @@ usr/share/kde4/apps/plasma/services/org.kde.places.operations
 usr/share/kde4/apps/plasma/services/share.operations
 usr/share/kde4/apps/plasma/services/statusnotifieritem.operations
 usr/share/kde4/apps/plasma/services/tasks.operations
+usr/share/kde4/apps/plasma/shareprovider/imgsusepasteorg/contents/code/main.js
+usr/share/kde4/apps/plasma/shareprovider/imgsusepasteorg/metadata.desktop
 usr/share/kde4/apps/plasma/shareprovider/imgur/contents/code/main.js
 usr/share/kde4/apps/plasma/shareprovider/imgur/metadata.desktop
+usr/share/kde4/apps/plasma/shareprovider/kde/contents/code/main.js
+usr/share/kde4/apps/plasma/shareprovider/kde/metadata.desktop
 usr/share/kde4/apps/plasma/shareprovider/pastebincom/contents/code/main.js
 usr/share/kde4/apps/plasma/shareprovider/pastebincom/metadata.desktop
 usr/share/kde4/apps/plasma/shareprovider/pasteopensuseorg/contents/code/main.js
@@ -57,6 +62,7 @@ usr/share/kde4/apps/plasma/shareprovider/wklej/metadata.desktop
 usr/share/kde4/apps/plasma/shareprovider/wstaw/contents/code/main.js
 usr/share/kde4/apps/plasma/shareprovider/wstaw/metadata.desktop
 usr/share/kde4/services/ion-bbcukmet.desktop
+usr/share/kde4/services/ion-debianweather.desktop
 usr/share/kde4/services/ion-envcan.desktop
 usr/share/kde4/services/ion-noaa.desktop
 usr/share/kde4/services/ion-wettercom.desktop
@@ -78,7 +84,9 @@ usr/share/kde4/services/plasma-dataengine-nowplaying.desktop
 usr/share/kde4/services/plasma-dataengine-places.desktop
 usr/share/kde4/services/plasma-dataengine-powermanagement.desktop
 usr/share/kde4/services/plasma-dataengine-rss.desktop
+usr/share/kde4/services/plasma-dataengine-share-addon-imgsusepasteorg.desktop
 usr/share/kde4/services/plasma-dataengine-share-addon-imgur.desktop
+usr/share/kde4/services/plasma-dataengine-share-addon-kde.desktop
 usr/share/kde4/services/plasma-dataengine-share-addon-pastebincom.desktop
 usr/share/kde4/services/plasma-dataengine-share-addon-pasteopensuseorg.desktop
 usr/share/kde4/services/plasma-dataengine-share-addon-pasteubuntucom.desktop

@@ -1,6 +1,7 @@
 etc/dbus-1/system.d/org.kde.fontinst.conf
 etc/dbus-1/system.d/org.kde.kcontrol.kcmclock.conf
 etc/dbus-1/system.d/org.kde.powerdevil.backlighthelper.conf
+usr/share/kde4/apps/kcmkeyboard/pics/epo.png
 usr/share/dbus-1/services/org.kde.fontinst.service
 usr/share/dbus-1/services/org.kde.krunner.service
 usr/share/dbus-1/system-services/org.kde.fontinst.service
@@ -130,6 +131,8 @@ usr/share/kde4/apps/color-schemes/Oxygen.colors
 usr/share/kde4/apps/color-schemes/OxygenCold.colors
 usr/share/kde4/apps/color-schemes/Steel.colors
 usr/share/kde4/apps/color-schemes/WontonSoup.colors
+usr/share/kde4/apps/color-schemes/Zion.colors
+usr/share/kde4/apps/color-schemes/ZionReversed.colors
 usr/share/kde4/apps/kaccess/kaccess.notifyrc
 usr/share/kde4/apps/kcminput/cursor_large_black.pcf.gz
 usr/share/kde4/apps/kcminput/cursor_large_white.pcf.gz

@@ -66,6 +66,7 @@ usr/share/kde4/apps/kconf_update/kwin_focus2.sh
 usr/share/kde4/apps/kconf_update/kwin_focus2.upd
 usr/share/kde4/apps/kconf_update/kwin_fsp_workarounds_1.upd
 usr/share/kde4/apps/kconf_update/kwin_on_off.upd
+usr/share/kde4/apps/kconf_update/kwin_remove_effects.upd
 usr/share/kde4/apps/kconf_update/kwin_update_tabbox_settings.upd
 usr/share/kde4/apps/kconf_update/kwin_window_shortcuts.sh
 usr/share/kde4/apps/kconf_update/kwin_window_shortcuts.upd
@@ -77,8 +78,12 @@ usr/share/kde4/apps/kconf_update/pluginlibFix.pl
 usr/share/kde4/apps/kwin/DefaultTabBoxLayouts.xml
 usr/share/kde4/apps/kwin/aurorae.desktop
 usr/share/kde4/apps/kwin/b2.desktop
+usr/share/kde4/apps/kwin/blinking-startup-fragment.glsl
 usr/share/kde4/apps/kwin/circle-edgy.png
 usr/share/kde4/apps/kwin/circle.png
+usr/share/kde4/apps/kwin/coverswitch-reflection.glsl
+usr/share/kde4/apps/kwin/cube-cap.glsl
+usr/share/kde4/apps/kwin/cube-reflection.glsl
 usr/share/kde4/apps/kwin/cubecap.png
 usr/share/kde4/apps/kwin/cylinder.frag
 usr/share/kde4/apps/kwin/cylinder.vert
@@ -139,6 +144,7 @@ usr/share/kde4/services/kwin/magnifier_config.desktop
 usr/share/kde4/services/kwin/minimizeanimation.desktop
 usr/share/kde4/services/kwin/mousemark.desktop
 usr/share/kde4/services/kwin/mousemark_config.desktop
+usr/share/kde4/services/kwin/outline.desktop
 usr/share/kde4/services/kwin/presentwindows.desktop
 usr/share/kde4/services/kwin/presentwindows_config.desktop
 usr/share/kde4/services/kwin/resize.desktop

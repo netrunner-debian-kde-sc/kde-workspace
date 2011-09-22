@@ -12,10 +12,7 @@
 ./usr/share/kde4/apps/plasma_scriptengine_python/plasma_importer.pyc
 ./usr/share/kde4/apps/plasma_scriptengine_python/pyrunner.pyc
 ./usr/share/kde4/apps/plasma_scriptengine_python/pywallpaper.pyc
-./usr/lib/python2.6/site-packages/PyKDE4/plasmascript.pyc
-
-# Gets renamed by python-support
-./usr/lib/python2.6/site-packages/PyKDE4/plasmascript.py
+./usr/lib/python2.6/dist-packages/PyKDE4/plasmascript.pyc
 
 #cursors is in oxygencursors package
 ./usr/share/icons/Oxygen_Black/cursors/00000000000000020006000e7e9ffc3f

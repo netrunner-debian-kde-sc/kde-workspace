@@ -15,6 +15,7 @@ kdebase-workspace (4:4.7.1-0r0) UNRELEASED; urgency=low
   * Update build dependencies:
     - Add libgles2-mesa-dev.
     - Add libprison-dev.
+  * Update installed files.
   * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Aug 2011 19:17:29 +0200

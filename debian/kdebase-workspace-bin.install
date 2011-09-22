@@ -21,11 +21,13 @@ usr/bin/kstartupconfig4
 usr/bin/ksystraycmd
 usr/bin/oxygen-demo
 usr/bin/oxygen-settings
+usr/bin/oxygen-shadow-demo
 usr/bin/plasma-overlay
 usr/bin/plasma-windowed
 usr/bin/plasmaengineexplorer
 usr/bin/plasmawallpaperviewer
 usr/bin/plasmoidviewer
+usr/bin/remote-widgets-browser
 usr/bin/solid-action-desktop-gen
 usr/bin/startkde
 usr/lib/kconf_update_bin/krdb_clearlibrarypath
@@ -78,6 +80,8 @@ usr/lib/kde4/krunner_services.so
 usr/lib/kde4/krunner_sessions.so
 usr/lib/kde4/krunner_shell.so
 usr/lib/kde4/krunner_solid.so
+usr/lib/kde4/krunner_activities.so
+usr/share/kde4/services/plasma-runner-activityrunner.desktop
 usr/lib/kde4/krunner_webshortcuts.so
 usr/lib/kde4/krunner_windowedwidgets.so
 usr/lib/kde4/krunner_windows.so
