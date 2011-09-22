@@ -16,7 +16,12 @@ kdebase-workspace (4:4.7.1-0r0) UNRELEASED; urgency=low
     - Add libgles2-mesa-dev.
     - Add libprison-dev.
   * Update installed files.
-  * Update symbols files.
+  * Bump sonames due to binary incompatible changes:
+    - libkwineffects1abi1 -> libkwineffects1abi2
+    - libplasmaclock4abi1 -> libplasmaclock4abi2
+    - libsolidcontrol4abi1 -> libsolidcontrol4abi2
+    - libsolidcontrolifaces4abi1 -> libsolidcontrolifaces4abi2
+    - libtaskmanager4abi1 -> libtaskmanager4abi2
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Aug 2011 19:17:29 +0200
 
