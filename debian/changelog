@@ -23,7 +23,10 @@ kdebase-workspace (4:4.7.1-0r1) UNRELEASED; urgency=low
     - libsolidcontrolifaces4abi1 -> libsolidcontrolifaces4abi2
     - libtaskmanager4abi1 -> libtaskmanager4abi2
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Aug 2011 19:17:29 +0200
+  [ Sune Vuorela ]
+  * Remove libdmtx-dev, not used directly (but thru libprison)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Sep 2011 20:37:44 +0200
 
 kdebase-workspace (4:4.6.5-3) unstable; urgency=low
 

@@ -31,7 +31,6 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
  libxfixes-dev, libxft-dev, libxtst-dev, libxss-dev, libsm-dev, libxinerama-dev, libxi-dev,
  libpng-dev, libjpeg-dev, libxcursor-dev,
  libqalculate-dev, libglib2.0-dev,
- libdmtx-dev,
  libqtwebkit-dev,
  libprison-dev
 Standards-Version: 3.9.2
