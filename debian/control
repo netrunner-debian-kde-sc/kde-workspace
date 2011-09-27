@@ -111,9 +111,9 @@ Package: kdebase-workspace-data
 Architecture: all
 Depends: oxygencursors, ${misc:Depends}, ${perl:Depends}
 Replaces: ksmserver, kmenuedit, ktip, ksplash, libplasma1,
- kdebase-runtime-data (<< 4:4.5)
+ kdebase-runtime-data (<< 4:4.5), kde-icons-mono (<< 4:4.6.80)
 Breaks: ksmserver, kmenuedit, ktip, ksplash, libplasma1,
- kdebase-runtime-data (<< 4:4.5)
+ kdebase-runtime-data (<< 4:4.5), kde-icons-mono (<< 4:4.6.80)
 Description: shared data files for the KDE Plasma Workspace
  This package contains architecture-independent shared data files needed for a
  basic KDE Workspace installation.

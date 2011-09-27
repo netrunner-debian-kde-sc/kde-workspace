@@ -24,6 +24,7 @@ kdebase-workspace (4:4.7.1-0r2) UNRELEASED; urgency=low
     - libsolidcontrol4abi1 -> libsolidcontrol4abi2
     - libsolidcontrolifaces4abi1 -> libsolidcontrolifaces4abi2
     - libtaskmanager4abi1 -> libtaskmanager4abi2
+  * kdebase-workspace-data Breaks/Replaces kde-icons-mono (<< 4:4.6.80).
 
   [ Sune Vuorela ]
   * Remove libdmtx-dev, not used directly (but thru libprison)
