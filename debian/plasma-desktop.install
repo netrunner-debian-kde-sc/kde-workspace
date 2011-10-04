@@ -15,8 +15,12 @@ usr/lib/libkickoff.so
 usr/share/autostart/plasma-desktop.desktop
 usr/share/doc/kde/HTML/en/plasma-desktop/add-widgets.png
 usr/share/doc/kde/HTML/en/plasma-desktop/common
+usr/share/doc/kde/HTML/en/plasma-desktop/desktop-settings.png
 usr/share/doc/kde/HTML/en/plasma-desktop/index.cache.bz2
 usr/share/doc/kde/HTML/en/plasma-desktop/index.docbook
+usr/share/doc/kde/HTML/en/plasma-desktop/panel-settings.png
+usr/share/doc/kde/HTML/en/plasma-desktop/system-tray-settings.png
+usr/share/doc/kde/HTML/en/plasma-desktop/system-tray-up-arrow.png
 usr/share/doc/kde/HTML/en/plasma-desktop/taskbar-settings.png
 usr/share/kde4/apps/katepart/syntax/plasma-desktop-js.xml
 usr/share/kde4/apps/kconf_update/plasma-add-shortcut-to-menu.upd
