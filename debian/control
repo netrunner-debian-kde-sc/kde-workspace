@@ -1,4 +1,4 @@
-Source: kdebase-workspace
+Source: kde-workspace
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
