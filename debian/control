@@ -39,13 +39,15 @@ Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdebase-workspace.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdebase-workspace.git
 
-Package: kdebase-workspace
+Package: kde-workspace
 Architecture: all
-Depends:  kdebase-workspace-bin (>= ${source:Version}), ${misc:Depends},
+Depends:  kde-workspace-bin (>= ${source:Version}), ${misc:Depends},
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), 
  kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version}),
  freespacenotifier (>= ${source:Version})
 Recommends: kdm (>= ${source:Version}), kinfocenter (>= ${source:Version})
+Breaks: kdebase-workspace (<< 4:4.7.2) 
+Replaces: kdebase-workspace (<< 4:4.7.2) 
 Description: KDE Plasma Workspace components
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -56,10 +58,17 @@ Description: KDE Plasma Workspace components
  .
  This package provides a basic KDE desktop installation.
 
+Package: kdebase-workspace
+Architecture: all
+Depends: ${misc:Depends}, kde-workspace
+Description: transitional package for kde-workspace
+ This is a dummy transitional package for kde-workspace and can be safely
+ removed after the installation is complete.
+
 Package: plasma-desktop
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version})
-Recommends: kdebase-workspace
+Recommends: kde-workspace
 Replaces: kdebase-workspace-bin (<< 4:4.5), kdebase-workspace-data (<< 4:4.5)
 Breaks: kdebase-workspace-bin (<< 4:4.5), kdebase-workspace-data (<< 4:4.5),
  plasma-widget-networkmanagement (<< 0.1+git20110422.810bc16-1+)
@@ -75,7 +84,7 @@ Description: KDE Plasma workspace for desktop and laptop computers
 Package: plasma-netbook
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version})
-Recommends: kdebase-workspace
+Recommends: kde-workspace
 Description: KDE Plasma workspace for netbook computers
  Provides the environment for running and managing applications and integrating
  interaction of applications. It is designed as generic environment for all
@@ -85,19 +94,20 @@ Description: KDE Plasma workspace for netbook computers
  .
  This package is part of the KDE base workspace module.
 
-Package: kdebase-workspace-bin
+Package: kde-workspace-bin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, iso-codes,
  plasma-desktop (= ${binary:Version}) | plasma-netbook (= ${binary:Version}),
- kdebase-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils,
- kdebase-workspace-kgreet-plugins (= ${binary:Version})
+ kde-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils,
+ kde-workspace-kgreet-plugins (= ${binary:Version})
 Recommends: plasma-scriptengines, polkit-kde-1 (>= 0.99) | policykit-1-gnome,
  upower [linux-any]
 Suggests: x11-xkb-utils
 Replaces: kcontrol, kmenuedit, ktip, libkfontinst4, ksplash, kdesktop,
- kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5)
+ kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), kdebase-workspace-bin (<< 4:4.7.2) 
 Breaks: kcontrol, kmenuedit, ktip, libkfontinst4, kdesktop, ksplash,
- kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), polkit-kde-1 (<< 0.99)
+ kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), kdebase-workspace-bin (<< 4:4.7.2),
+ polkit-kde-1 (<< 0.99)
 Description: core binaries for the KDE Plasma Workspace
  This package contains miscellaneous programs needed for a basic desktop
  installation. Among other standard KDE Workspace components, the package
@@ -107,28 +117,39 @@ Description: core binaries for the KDE Plasma Workspace
  .
  This package is part of the KDE base workspace module.
 
-Package: kdebase-workspace-data
+Package: kde-workspace-data
 Architecture: all
 Depends: oxygencursors, ${misc:Depends}, ${perl:Depends}
 Replaces: ksmserver, kmenuedit, ktip, ksplash, libplasma1,
- kdebase-runtime-data (<< 4:4.5), kde-icons-mono (<< 4:4.6.80)
+ kdebase-runtime-data (<< 4:4.5), kde-icons-mono (<< 4:4.6.80),
+ kdebase-workspace-data (<< 4:4.7.2) 
 Breaks: ksmserver, kmenuedit, ktip, ksplash, libplasma1,
- kdebase-runtime-data (<< 4:4.5), kde-icons-mono (<< 4:4.6.80)
+ kdebase-runtime-data (<< 4:4.5), kde-icons-mono (<< 4:4.6.80),
+ kdebase-workspace-data (<< 4:4.7.2) 
 Description: shared data files for the KDE Plasma Workspace
  This package contains architecture-independent shared data files needed for a
  basic KDE Workspace installation.
  .
  This package is part of the KDE base workspace module.
 
-Package: kdebase-workspace-dev
+Package: kde-workspace-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${allLibraries},
- ${sameVersionDep:kdelibs5-dev:kdebase-workspace-bin},
+ ${sameVersionDep:kdelibs5-dev:kde-workspace-bin}
+Breaks: kdebase-workspace-dev (<< 4:4.7.2) 
+Replaces: kdebase-workspace-dev (<< 4:4.7.2) 
 Description: development files for the KDE Plasma Workspace
  This package contains development files for building software that uses
  libraries from the KDE Plasma Workspace.
  .
  This package is part of the KDE base workspace module.
+
+Package: kdebase-workspace-dev
+Architecture: all
+Depends: ${misc:Depends}, kde-workspace-dev
+Description: transitional package for kde-workspace-dev
+ This is a dummy transitional package for kde-workspace-dev and can be safely
+ removed after the installation is complete.
 
 Package: plasma-dataengines-workspace
 Architecture: any
@@ -239,7 +260,7 @@ Package: kdm
 Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}, debconf | debconf-2.0, lsb-base (>= 3.2-14), consolekit, ${misc:Depends},
- kdebase-workspace-kgreet-plugins (= ${binary:Version}), adduser
+ kde-workspace-kgreet-plugins (= ${binary:Version}), adduser
 Recommends: logrotate, xserver-xorg | xserver,
  kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
 Suggests: kdepasswd
@@ -342,7 +363,7 @@ Description: System Settings
  .
  This package is part of the KDE base workspace module.
 
-Package: kdebase-workspace-kgreet-plugins
+Package: kde-workspace-kgreet-plugins
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -511,15 +532,25 @@ Description: library which provides an interface for weather information service
  .
  This package is part of the KDE base workspace module.
 
-Package: kdebase-workspace-dbg
+Package: kde-workspace-dbg
 Section: debug
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg, ${misc:Depends}
-Replaces: kdebase-dbg (<< 4:4.5), kdebase-runtime-dbg (<< 4:4.5)
-Breaks: kdebase-dbg (<< 4:4.5), kdebase-runtime-dbg (<< 4:4.5)
+Replaces: kdebase-dbg (<< 4:4.5), kdebase-runtime-dbg (<< 4:4.5),
+ kdebase-workspace-dbg (<< 4:4.7.2)
+Breaks: kdebase-dbg (<< 4:4.5), kdebase-runtime-dbg (<< 4:4.5),
+ kdebase-workspace-dbg (<< 4:4.7.2)
 Suggests: kdebase-workspace (>= ${source:Version})
 Description: debugging symbols for the KDE Plasma Workspaces
  This package contains debugging files used to investigate problems with
  binaries included in the KDE base workspace module.
 
+Package: kdebase-workspace-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: ${misc:Depends}, kde-workspace-dbg
+Description: transitional package for kde-workspace-dbg
+ This is a dummy transitional package for kde-workspace-dbg and can be safely
+ removed after the installation is complete.

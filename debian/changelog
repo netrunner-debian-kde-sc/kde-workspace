@@ -8,6 +8,16 @@ kde-workspace (4:4.7.2-0r0) UNRELEASED; urgency=low
   * Bump kdepimlibs5-dev build dependency to 4:4.7.
   * Change the source package name from kdebase-workspace to kde-workspace in
     order to match upstream naming.
+  * Rename the following binary packages to match upstream namimg:
+    - kdebase-workspace -> kde-workspace
+    - kdebase-workspace-bin -> kde-workspace-bin
+    - kdebase-workspace-data -> kde-workspace-data
+    - kdebase-workspace-dev -> kde-workspace-dev
+    - kdebase-workspace-kgreet-plugins -> kde-workspace-kgreet-plugins
+  * Add the following dummy packages (which depend on kde-workspace-*):
+    - kdebase-workspace
+    - kdebase-workspace-dev
+    - kdebase-workspace-dbg
   * Update patches:
     - Import plasma_desktop_shell_drop_kactivities.diff from Ubuntu.
     - Remove backport_kwin_multihead_improvements.diff, applied usptream.

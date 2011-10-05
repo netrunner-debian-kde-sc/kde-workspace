@@ -3,7 +3,7 @@
 dh = --with=python2
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
-libpkgs_addsubst_allLibraries = kdebase-workspace-dev
+libpkgs_addsubst_allLibraries = kde-workspace-dev
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
@@ -20,15 +20,15 @@ override_dh_auto_install:
 .PHONY: override_dh_auto_test
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=kdebase-workspace-dbg
+	$(overridden_command) --dbg-package=kde-workspace-dbg
 
 override_dh_makeshlibs:
 	$(overridden_command) -pplasma-desktop -Xlibkickoff.so
 	$(overridden_command) --remaining-packages -- -c0
 
 override_dh_shlibdeps:
-	$(overridden_command) -pkdebase-workspace-bin -- -xksysguard
-	$(overridden_command) -pkdebase-workspace-dev -- -xkdebase-runtime
+	$(overridden_command) -pkde-workspace-bin -- -xksysguard
+	$(overridden_command) -pkde-workspace-dev -- -xkdebase-runtime
 	$(overridden_command) $(foreach p,$(filter lib%,$(shell dh_listpackages -a)),-p$p) -- -xkdebase-runtime
 	$(overridden_command) --remaining-packages
 
