@@ -20,7 +20,6 @@ usr/bin/ksplashx_scale
 usr/bin/kstartupconfig4
 usr/bin/ksystraycmd
 usr/bin/oxygen-demo
-usr/bin/oxygen-settings
 usr/bin/oxygen-shadow-demo
 usr/bin/plasma-overlay
 usr/bin/plasma-windowed
@@ -85,7 +84,6 @@ usr/share/kde4/services/plasma-runner-activityrunner.desktop
 usr/lib/kde4/krunner_webshortcuts.so
 usr/lib/kde4/krunner_windowedwidgets.so
 usr/lib/kde4/krunner_windows.so
-usr/lib/kde4/kstyle_oxygen_config.so
 usr/lib/kde4/libexec/backlighthelper
 usr/lib/kde4/libexec/fontinst
 usr/lib/kde4/libexec/fontinst_helper
@@ -112,7 +110,6 @@ usr/lib/kde4/plasma_toolbox_paneltoolbox.so
 usr/lib/kde4/plasma_wallpaper_color.so
 usr/lib/kde4/plasma_wallpaper_image.so
 usr/lib/kde4/plugins/gui_platform/libkde.so
-usr/lib/kde4/plugins/styles/oxygen.so
 usr/lib/kde4/powerdevilbrightnesscontrolaction_config.so
 usr/lib/kde4/powerdevildimdisplayaction_config.so
 usr/lib/kde4/powerdevildisabledesktopeffectsaction_config.so
@@ -136,8 +133,6 @@ usr/lib/libkfontinstui.so.4
 usr/lib/libkfontinstui.so.4.7.0
 usr/lib/libkhotkeysprivate.so.4
 usr/lib/libkhotkeysprivate.so.4.7.0
-usr/lib/liboxygenstyle.so.4
-usr/lib/liboxygenstyle.so.4.7.0
 usr/lib/libpowerdevilcore.so.0
 usr/lib/libpowerdevilcore.so.0.1.0
 usr/lib/libpowerdevilui.so

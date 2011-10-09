@@ -36,8 +36,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
 Standards-Version: 3.9.2
 X-Python-Version: >= 2.5
 Homepage: http://www.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdebase-workspace.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdebase-workspace.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde-workspace.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kde-workspace.git
 
 Package: kde-workspace
 Architecture: all
@@ -189,7 +189,7 @@ Depends: plasma-scriptengine-javascript (>= 4:4.2.95),
 Recommends: plasma-scriptengine-superkaramba
 Suggests: plasma-scriptengine-kimono
 Description: metapackage to install all Plasma script engines
- This metapackage depends on all Plasma script engines which kdebase-workspace
+ This metapackage depends on all Plasma script engines which kde-workspace
  module provides and suggests script engines from other official KDE modules.
  .
  This package is part of the KDE base workspace module.
@@ -541,7 +541,7 @@ Replaces: kdebase-dbg (<< 4:4.5), kdebase-runtime-dbg (<< 4:4.5),
  kdebase-workspace-dbg (<< 4:4.7.2)
 Breaks: kdebase-dbg (<< 4:4.5), kdebase-runtime-dbg (<< 4:4.5),
  kdebase-workspace-dbg (<< 4:4.7.2)
-Suggests: kdebase-workspace (>= ${source:Version})
+Suggests: kde-workspace (>= ${source:Version})
 Description: debugging symbols for the KDE Plasma Workspaces
  This package contains debugging files used to investigate problems with
  binaries included in the KDE base workspace module.
