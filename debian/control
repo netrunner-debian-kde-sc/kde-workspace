@@ -375,6 +375,8 @@ Description: KDE greet libraries for authentication
 Package: kde-style-oxygen
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)
+Replaces: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)
 Description: ...
  ...
 
