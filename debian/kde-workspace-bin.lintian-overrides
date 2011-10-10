@@ -1,1 +1,1 @@
-kdebase-workspace-bin: package-name-doesnt-match-sonames libkfontinst4 libkfontinstui4 libkhotkeysprivate4 liboxygenstyle4 libpowerdevilcore0 libpowerdevilui
+kde-workspace-bin: package-name-doesnt-match-sonames libkfontinst4 libkfontinstui4 libkhotkeysprivate4 liboxygenstyle4 libpowerdevilcore0 libpowerdevilui
