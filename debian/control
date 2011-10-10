@@ -372,6 +372,12 @@ Description: KDE greet libraries for authentication
  .
  This package is part of the KDE base workspace module.
 
+Package: kde-style-oxygen
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ...
+ ...
+
 Package: libkephal4abi1
 Section: libs
 Architecture: any
