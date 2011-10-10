@@ -1,1 +1,2 @@
-kdebase-workspace source: dbg-package-missing-depends kdebase-workspace-dbg
+kde-workspace source: dbg-package-missing-depends kde-workspace-dbg
+kde-workspace source: dbg-package-missing-depends kdebase-workspace-dbg
