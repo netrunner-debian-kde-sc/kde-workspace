@@ -103,9 +103,9 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, iso-codes,
 Recommends: plasma-scriptengines, polkit-kde-1 (>= 0.99) | policykit-1-gnome,
  upower [linux-any]
 Suggests: x11-xkb-utils
-Replaces: kcontrol, kmenuedit, ktip, libkfontinst4, ksplash, kdesktop,
+Replaces: kcontrol, ktip, libkfontinst4, ksplash, kdesktop,
  kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), kdebase-workspace-bin (<< 4:4.7.2) 
-Breaks: kcontrol, kmenuedit, ktip, libkfontinst4, kdesktop, ksplash,
+Breaks: kcontrol, ktip, libkfontinst4, kdesktop, ksplash,
  kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), kdebase-workspace-bin (<< 4:4.7.2),
  polkit-kde-1 (<< 0.99)
 Description: core binaries for the KDE Plasma Workspace
@@ -120,10 +120,10 @@ Description: core binaries for the KDE Plasma Workspace
 Package: kde-workspace-data
 Architecture: all
 Depends: oxygencursors, ${misc:Depends}, ${perl:Depends}
-Replaces: ksmserver, kmenuedit, ktip, ksplash, libplasma1,
+Replaces: ksmserver, ktip, ksplash, libplasma1,
  kdebase-runtime-data (<< 4:4.5), kde-icons-mono (<< 4:4.6.80),
  kdebase-workspace-data (<< 4:4.7.2) 
-Breaks: ksmserver, kmenuedit, ktip, ksplash, libplasma1,
+Breaks: ksmserver, ktip, ksplash, libplasma1,
  kdebase-runtime-data (<< 4:4.5), kde-icons-mono (<< 4:4.6.80),
  kdebase-workspace-data (<< 4:4.7.2) 
 Description: shared data files for the KDE Plasma Workspace
@@ -373,6 +373,14 @@ Description: KDE greet libraries for authentication
  This package is part of the KDE base workspace module.
 
 Package: kde-style-oxygen
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)
+Replaces: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)
+Description: ...
+ ...
+
+Package: kmenuedit
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)

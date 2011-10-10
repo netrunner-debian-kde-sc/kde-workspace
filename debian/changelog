@@ -32,6 +32,7 @@ kde-workspace (4:4.7.2-0r0) UNRELEASED; urgency=low
       builds against libpng packages in experimental.
   * Update installed files.
   * Ship Oxygen style in a separate package: kde-style-oxygen. (Closes: #630012)
+  * Ship kmenuedit in a separate package.
   * Bump sonames due to binary incompatible changes:
     - libkwineffects1abi1 -> libkwineffects1abi2
     - libplasmaclock4abi1 -> libplasmaclock4abi2
