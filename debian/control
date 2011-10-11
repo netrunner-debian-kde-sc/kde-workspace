@@ -374,6 +374,8 @@ Package: kde-workspace-kgreet-plugins
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: kdebase-workspace-kgreet-plugins (<< 4:4.7.2)
+Replaces: kdebase-workspace-kgreet-plugins (<< 4:4.7.2)
 Description: KDE greet libraries for authentication
  This package contains libraries needed for kdm and locker authentication.
  .
