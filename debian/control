@@ -117,6 +117,13 @@ Description: core binaries for the KDE Plasma Workspace
  .
  This package is part of the KDE base workspace module.
 
+Package: kdebase-workspace-bin
+Architecture: all
+Depends: ${misc:Depends}, kde-workspace-bin
+Description: transitional package for kde-workspace-bin
+ This is a dummy transitional package for kde-workspace-bin and can be safely
+ removed after the installation is complete.
+
 Package: kde-workspace-data
 Architecture: all
 Depends: oxygencursors, ${misc:Depends}, ${perl:Depends}

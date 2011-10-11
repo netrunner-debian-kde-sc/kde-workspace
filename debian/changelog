@@ -16,6 +16,7 @@ kde-workspace (4:4.7.2-0r1) UNRELEASED; urgency=low
     - kdebase-workspace-kgreet-plugins -> kde-workspace-kgreet-plugins
   * Add the following dummy packages (which depend on kde-workspace-*):
     - kdebase-workspace
+    - kdebase-workspace-bin
     - kdebase-workspace-dev
     - kdebase-workspace-dbg
   * Update Vcs-* fields.
