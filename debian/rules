@@ -28,8 +28,8 @@ override_dh_makeshlibs:
 
 override_dh_shlibdeps:
 	$(overridden_command) -pkde-workspace-bin -- -xksysguard
-	$(overridden_command) -pkde-workspace-dev -- -xkdebase-runtime
-	$(overridden_command) $(foreach p,$(filter lib%,$(shell dh_listpackages -a)),-p$p) -- -xkdebase-runtime
+	$(overridden_command) -pkde-workspace-dev -- -xkde-runtime
+	$(overridden_command) $(foreach p,$(filter lib%,$(shell dh_listpackages -a)),-p$p) -- -xkde-runtime
 	$(overridden_command) --remaining-packages
 
 # Prevent it from stopping kdm in prerm ever (--no-restart-on-upgrade is not
