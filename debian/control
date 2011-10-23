@@ -386,16 +386,22 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)
 Replaces: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)
-Description: ...
- ...
+Description: Oxygen widget style
+ This package provides the Oxygen widget style. It may be used for KDE and Qt
+ applications.
+ .
+ This package is part of the KDE base workspace module.
 
 Package: kmenuedit
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Breaks: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)
 Replaces: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)
-Description: ...
- ...
+Description: XDG menu editor 
+ This package provides an menu editor which may be used to edit the KDE Plasma
+ workspaces menu or any other XDG menu.
+ .
+ This package is part of the KDE base workspace module.
 
 Package: libkephal4abi1
 Section: libs
