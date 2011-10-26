@@ -67,7 +67,8 @@ Description: transitional package for kde-workspace
 
 Package: plasma-desktop
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends},
+ plasma-widgets-workspace (= ${binary:Version}), kde-wallpapers-default
 Recommends: kde-workspace
 Replaces: kdebase-workspace-bin (<< 4:4.5), kdebase-workspace-data (<< 4:4.5)
 Breaks: kdebase-workspace-bin (<< 4:4.5), kdebase-workspace-data (<< 4:4.5),
@@ -83,7 +84,8 @@ Description: KDE Plasma workspace for desktop and laptop computers
 
 Package: plasma-netbook
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, plasma-widgets-workspace (= ${binary:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends},
+ plasma-widgets-workspace (= ${binary:Version}), kde-wallpapers-default
 Recommends: kde-workspace
 Description: KDE Plasma workspace for netbook computers
  Provides the environment for running and managing applications and integrating
@@ -133,6 +135,7 @@ Replaces: ksmserver, ktip, ksplash, libplasma1,
 Breaks: ksmserver, ktip, ksplash, libplasma1,
  kdebase-runtime-data (<< 4:4.5), kde-icons-mono (<< 4:4.6.80),
  kdebase-workspace-data (<< 4:4.7.2) 
+Recommends: kde-wallpapers
 Description: shared data files for the KDE Plasma Workspace
  This package contains architecture-independent shared data files needed for a
  basic KDE Workspace installation.
@@ -267,10 +270,10 @@ Package: kdm
 Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}, debconf | debconf-2.0, lsb-base (>= 3.2-14), consolekit, ${misc:Depends},
- kde-workspace-kgreet-plugins (= ${binary:Version}), adduser
+ kde-workspace-kgreet-plugins (= ${binary:Version}), adduser, kde-wallpapers-default
 Recommends: logrotate, xserver-xorg | xserver,
  kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
-Suggests: kdepasswd
+Suggests: kdepasswd, kde-wallpapers
 Replaces: kde-kdm-themes, kdmtheme
 Breaks: kde-kdm-themes, kdmtheme
 Provides: x-display-manager
