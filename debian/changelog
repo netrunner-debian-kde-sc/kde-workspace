@@ -44,7 +44,7 @@ kde-workspace (4:4.7.2-0r5) UNRELEASED; urgency=low
     - libtaskmanager4abi1 -> libtaskmanager4abi2
   * kdebase-workspace-data Breaks/Replaces kde-icons-mono (<< 4:4.6.80).
   * Add relationships because of the new, split kde-wallpapers source package:
-    - plasma-desktop, plasma-netbook and kdm depend on kde-wallpaers-default.
+    - plasma-desktop, plasma-netbook and kdm depend on kde-wallpapers-default.
     - kde-workspace-data recommends kde-wallpapers.
     - kdm suggests kde-wallpapers. 
   * Update lintian overrides.
