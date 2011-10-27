@@ -272,7 +272,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, debconf | debconf-2.0, lsb-base (>= 3.2-14), consolekit, ${misc:Depends},
  kde-workspace-kgreet-plugins (= ${binary:Version}), adduser, kde-wallpapers-default
 Recommends: logrotate, xserver-xorg | xserver,
- kdebase | x-session-manager | x-window-manager, xterm | x-terminal-emulator
+ kde-workspace | x-session-manager | x-window-manager, xterm | x-terminal-emulator
 Suggests: kdepasswd, kde-wallpapers
 Replaces: kde-kdm-themes, kdmtheme
 Breaks: kde-kdm-themes, kdmtheme

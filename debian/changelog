@@ -52,6 +52,9 @@ kde-workspace (4:4.7.2-0r5) UNRELEASED; urgency=low
   [ Sune Vuorela ]
   * Remove libdmtx-dev, not used directly (but thru libprison)
 
+  [ Pino Toscano ]
+  * kdm: recommend kde-workspace instead of kdebase. (Closes: #646787)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Sep 2011 20:37:44 +0200
 
 kdebase-workspace (4:4.6.5-3) unstable; urgency=low
