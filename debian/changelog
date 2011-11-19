@@ -34,7 +34,7 @@ kde-workspace (4:4.7.2-0r6) UNRELEASED; urgency=low
     - Replace libpng-dev build depend with libpng12-dev to avoid accidental
       builds against libpng packages in experimental.
   * Update installed files.
-  * Ship Oxygen style in a separate package: kde-style-oxygen. (Closes: #630012)
+  * Ship Oxygen style in a separate package: kde-style-oxygen. (Closes: #624520)
   * Ship kmenuedit in a separate package.
   * Bump sonames due to binary incompatible changes:
     - libkwineffects1abi1 -> libkwineffects1abi2
