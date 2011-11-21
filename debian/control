@@ -570,7 +570,7 @@ Package: kde-workspace-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kdebase-runtime-dbg, ${misc:Depends}
+Depends: kde-runtime-dbg, ${misc:Depends}
 Replaces: kdebase-dbg (<< 4:4.5), kdebase-runtime-dbg (<< 4:4.5),
  kdebase-workspace-dbg (<< 4:4.7.2)
 Breaks: kdebase-dbg (<< 4:4.5), kdebase-runtime-dbg (<< 4:4.5),

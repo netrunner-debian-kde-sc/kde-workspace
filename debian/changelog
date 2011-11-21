@@ -16,6 +16,8 @@ kde-workspace (4:4.7.2-0r6) UNRELEASED; urgency=low
     - kdebase-workspace-kgreet-plugins -> kde-workspace-kgreet-plugins
   * Manage the kdebase-runtime -> kde-runtime renaming:
     - Exclude kde-runtime instead of kdebase-runtime from dh_shlibdeps results.
+    - kde-workspace-dbg depends on kde-runtime-dbg instead of
+      kdebase-runtime-dbg.
   * Add the following dummy packages (which depend on kde-workspace-*):
     - kdebase-workspace
     - kdebase-workspace-bin
