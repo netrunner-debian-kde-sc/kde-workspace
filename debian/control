@@ -215,7 +215,7 @@ Description: metapackage to install all Plasma script engines
 
 Package: plasma-scriptengine-ruby
 Architecture: all
-Depends: libplasma-ruby (>= 4:4.2.0), ${misc:Depends}
+Depends: ruby-plasma, ${misc:Depends}
 Description: Ruby script engine for Plasma
  This package provides the Ruby script engine for Plasma. You have to install it
  if you want to use Plasma widgets and data engines written in Ruby.

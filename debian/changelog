@@ -56,6 +56,7 @@ kde-workspace (4:4.7.2-0r7) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * kdm: recommend kde-workspace instead of kdebase. (Closes: #646787)
+  * plasma-scriptengine-ruby: depend on ruby-plasma instead of libplasma-ruby.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Sep 2011 20:37:44 +0200
 
