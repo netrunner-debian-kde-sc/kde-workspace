@@ -1,5 +1,8 @@
 kdebase-workspace (4:4.6.5-4) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Backport upstream patch to fix compatibility with newer gpsd.
+    (Closes: #648504)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Dec 2011 19:46:21 +0100
 
