@@ -1,4 +1,4 @@
-kdebase-workspace (4:4.6.5-4) UNRELEASED; urgency=low
+kdebase-workspace (4:4.6.5-4) unstable; urgency=low
 
   [ Pino Toscano ]
   * Backport upstream patch to fix compatibility with newer gpsd.
