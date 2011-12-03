@@ -1,4 +1,4 @@
-kde-workspace (4:4.7.2-0r7) UNRELEASED; urgency=low
+kde-workspace (4:4.7.2-0r7) experimental; urgency=low
 
   * New upstream release.
 
@@ -60,7 +60,7 @@ kde-workspace (4:4.7.2-0r7) UNRELEASED; urgency=low
   * kdm: recommend kde-workspace instead of kdebase. (Closes: #646787)
   * plasma-scriptengine-ruby: depend on ruby-plasma instead of libplasma-ruby.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Sep 2011 20:37:44 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:44:18 -0300
 
 kdebase-workspace (4:4.6.5-4) unstable; urgency=low
 
