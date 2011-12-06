@@ -45,7 +45,8 @@ Depends:  kde-workspace-bin (>= ${source:Version}), ${misc:Depends},
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), 
  kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version}),
  freespacenotifier (>= ${source:Version})
-Recommends: kdm (>= ${source:Version}), kinfocenter (>= ${source:Version})
+Recommends: kdm (>= ${source:Version}), kinfocenter (>= ${source:Version}),
+ kmenuedit (>= ${source:Version})
 Breaks: kdebase-workspace (<< 4:4.7.2) 
 Replaces: kdebase-workspace (<< 4:4.7.2) 
 Description: KDE Plasma Workspace components
