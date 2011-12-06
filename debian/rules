@@ -48,4 +48,4 @@ endif
 	if [ -d debian/kdm ]; then \
 		install -p -D -m644 debian/kdm-np.pam debian/kdm/etc/pam.d/kdm-np && \
 		install -p -D -m644 debian/kdm.insserv debian/kdm/etc/insserv.conf.d/kdm; \
-    fi
+	fi
