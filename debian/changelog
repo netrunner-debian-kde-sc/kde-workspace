@@ -5,6 +5,11 @@ kde-workspace (4:4.7.4-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
   * Bump shared-desktop-ontologies build dependency to 0.8.
+  * The following dummy transitional packages are now in section "oldlibs":
+    - kdebase-workspace
+    - kdebase-workspace-bin
+    - kdebase-workspace-dev
+    - kdebase-workspace-dbg
 
   [ Felix Geyer ]
   * kde-workspace recommends kmenuedit as it's in a separate package now.

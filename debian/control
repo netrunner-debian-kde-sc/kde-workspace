@@ -60,6 +60,7 @@ Description: KDE Plasma Workspace components
  This package provides a basic KDE desktop installation.
 
 Package: kdebase-workspace
+Section: oldlibs
 Architecture: all
 Depends: ${misc:Depends}, kde-workspace
 Description: transitional package for kde-workspace
@@ -121,6 +122,7 @@ Description: core binaries for the KDE Plasma Workspace
  This package is part of the KDE base workspace module.
 
 Package: kdebase-workspace-bin
+Section: oldlibs
 Architecture: all
 Depends: ${misc:Depends}, kde-workspace-bin
 Description: transitional package for kde-workspace-bin
@@ -156,6 +158,7 @@ Description: development files for the KDE Plasma Workspace
  This package is part of the KDE base workspace module.
 
 Package: kdebase-workspace-dev
+Section: oldlibs
 Architecture: all
 Depends: ${misc:Depends}, kde-workspace-dev
 Description: transitional package for kde-workspace-dev
@@ -582,7 +585,7 @@ Description: debugging symbols for the KDE Plasma Workspaces
  binaries included in the KDE base workspace module.
 
 Package: kdebase-workspace-dbg
-Section: debug
+Section: oldlibs
 Architecture: any
 Priority: extra
 Depends: ${misc:Depends}, kde-workspace-dbg
