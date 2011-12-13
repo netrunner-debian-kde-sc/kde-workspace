@@ -20,3 +20,4 @@ enable_dlrestrcitions.diff
 kdm_vt_switching_on_kfreebsd.diff
 kwin_avoid_deep_vector_copies.diff
 upstream_gpsd-api-has-changed-and-for-GPSD_API_MAJOR_VERSION.patch
+upstream_Used-the-gps_open-return-value-as-condition-instead-.patch

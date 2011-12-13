@@ -1,0 +1,37 @@
+From 60d13c58234086816b8c241cb5a0b29539e23303 Mon Sep 17 00:00:00 2001
+From: Max Lin <max7442@gmail.com>
+Date: Thu, 3 Nov 2011 16:00:08 +0800
+Subject: [PATCH] Used the gps_open() return value as condition instead of
+ checking m_gpsdata
+
+Checking the return value of gps_open() as condition instead of checking
+m_gpsdata for GPSD_API_MAJOR_VERSION >=5, there should be prevent crash
+occurred when no gpsd running.
+
+BUG: 277036
+REVIEW: 103035
+---
+ .../dataengines/geolocation/location_gps.cpp       |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/plasma/generic/dataengines/geolocation/location_gps.cpp b/plasma/generic/dataengines/geolocation/location_gps.cpp
+index 9ed8f92..67b1b64 100644
+--- a/plasma/generic/dataengines/geolocation/location_gps.cpp
++++ b/plasma/generic/dataengines/geolocation/location_gps.cpp
+@@ -83,11 +83,11 @@ Gps::Gps(QObject* parent, const QVariantList& args)
+ {
+ #if GPSD_API_MAJOR_VERSION >= 5
+     m_gpsdata = new gps_data_t;
+-    gps_open("localhost", DEFAULT_GPSD_PORT, m_gpsdata);
++    if (gps_open("localhost", DEFAULT_GPSD_PORT, m_gpsdata) != -1) {
+ #else
+     gps_data_t* m_gpsdata = gps_open("localhost", DEFAULT_GPSD_PORT);
+-#endif
+     if (m_gpsdata) {
++#endif
+         kDebug() << "gpsd found.";
+         m_gpsd = new Gpsd(m_gpsdata);
+         connect(m_gpsd, SIGNAL(dataReady(const Plasma::DataEngine::Data&)),
+-- 
+1.7.7.3
+
