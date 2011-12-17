@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.1 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 kfreebsd-amd64 kfreebsd-i386
 libkworkspace.so.4 libkworkspace4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -111,6 +111,10 @@ libkworkspace.so.4 libkworkspace4 #MINVER#
  _ZN19ScreenPreviewWidgetD0Ev@ABI_4_0 4:4.6.1
  _ZN19ScreenPreviewWidgetD1Ev@ABI_4_0 4:4.6.1
  _ZN19ScreenPreviewWidgetD2Ev@ABI_4_0 4:4.6.1
+ (arch=!amd64)_ZN4KUrl4ListD1Ev@ABI_4_0 4:4.7.2
+ (arch=!amd64)_ZN4KUrl4ListD2Ev@ABI_4_0 4:4.7.2
+ (arch=!amd64)_ZN7SessEntD1Ev@ABI_4_0 4:4.7.2
+ (arch=!amd64)_ZN7SessEntD2Ev@ABI_4_0 4:4.7.2
  _ZNK13KActivityInfo10metaObjectEv@ABI_4_0 4:4.6.1
  _ZNK13KActivityInfo11resourceUriEv@ABI_4_0 4:4.6.1
  _ZNK13KActivityInfo12availabilityEv@ABI_4_0 4:4.6.1

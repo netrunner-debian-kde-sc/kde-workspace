@@ -10,6 +10,7 @@ kde-workspace (4:4.7.4-0r3) UNRELEASED; urgency=low
     - kdebase-workspace-bin
     - kdebase-workspace-dev
     - kdebase-workspace-dbg
+  * Confirm symbols files on more architectures with the 4.7.2 build logs.
 
   [ Felix Geyer ]
   * kde-workspace recommends kmenuedit as it's in a separate package now.
