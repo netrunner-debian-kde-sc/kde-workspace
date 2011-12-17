@@ -228,7 +228,7 @@ libkdecorations.so.4 libkdecorations4 #MINVER#
  _ZNK11KDecoration9isPreviewEv@ABI_4_0 4:4.6.1
  _ZNK11KDecoration9keepAboveEv@ABI_4_0 4:4.6.1
  _ZNK11KDecoration9keepBelowEv@ABI_4_0 4:4.6.1
-#MISSING: 4:4.7.2# (optional=templinst|arch=hurd-i386 ia64 sparc)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@ABI_4_0 4:4.6.2
+ (optional=templinst|arch=hurd-i386)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@ABI_4_0 4:4.6.2
  _ZNK17KCommonDecoration10decorationEv@ABI_4_0 4:4.6.1
  _ZNK17KCommonDecoration10isSetShadeEv@ABI_4_0 4:4.6.1
  _ZNK17KCommonDecoration10metaObjectEv@ABI_4_0 4:4.6.1
