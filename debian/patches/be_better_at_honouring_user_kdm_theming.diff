@@ -1,10 +1,10 @@
 --- a/kdm/config.def
 +++ b/kdm/config.def
-@@ -2683,7 +2683,7 @@ Key: Theme
+@@ -2688,7 +2688,7 @@ Key: Theme
  Type: string
  Default: ""
  User: greeter
--Instance: */KDMDATA "/themes/horos"
+-Instance: */KDMDATA "/themes/ariya"
 +Instance: */ "@@@ToBeReplacedByDesktopBase@@@"
  Comment: &
  Description:

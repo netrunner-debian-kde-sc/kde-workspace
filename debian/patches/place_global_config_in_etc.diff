@@ -7,7 +7,7 @@ least FTBFS, so that we have the chance to inspect.
 
 --- a/config-workspace.h.cmake
 +++ b/config-workspace.h.cmake
-@@ -121,7 +121,7 @@
+@@ -126,7 +126,7 @@
  #define KDE_BINDIR "${BIN_INSTALL_DIR}"
  
  /* KDE's configuration directory */

@@ -4,6 +4,7 @@ kde-workspace (4:4.7.95-0r0) UNRELEASED; urgency=low
 
   [ Eshat Cakar ]
   * Add myself to uploaders.
+  * Refresh patches.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jan 2012 18:52:11 +0100
 

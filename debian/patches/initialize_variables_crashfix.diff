@@ -8,7 +8,7 @@ Origin: vendor
 
 --- a/libs/kephal/service/xrandroutputs.cpp
 +++ b/libs/kephal/service/xrandroutputs.cpp
-@@ -94,7 +94,15 @@
+@@ -94,7 +94,15 @@ namespace Kephal {
      }
  
      XRandROutput::XRandROutput(XRandROutputs * parent, RROutput rrId)
@@ -42,7 +42,7 @@ Origin: vendor
      {
          m_id = id;
          m_size = size;
-@@ -39,11 +45,23 @@
+@@ -39,11 +45,23 @@ namespace Kephal {
          m_position(0, 0),
          m_connected(false),
          m_activated(false)

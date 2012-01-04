@@ -9,7 +9,7 @@ installation via kde-plasma-netbook metapackage hence this bug was a
 showstopper for this goal.
 --- a/kcontrol/workspaceoptions/workspaceoptions.cpp
 +++ b/kcontrol/workspaceoptions/workspaceoptions.cpp
-@@ -91,7 +91,7 @@ void WorkspaceOptionsModule::save()
+@@ -92,7 +92,7 @@ void WorkspaceOptionsModule::save()
  
      m_plasmaNetbookAutostart.setAutostarts(!isDesktop);
      m_plasmaNetbookAutostart.setStartPhase(KAutostart::BaseDesktop);
@@ -161,7 +161,7 @@ showstopper for this goal.
  #endif // multiple inclusion guard
 --- a/startkde.cmake
 +++ b/startkde.cmake
-@@ -287,6 +287,24 @@ else
+@@ -290,6 +290,24 @@ else
      exit 1
  fi
  
