@@ -16,4 +16,3 @@ enable_debianabimanager.diff
 initialize_variables_crashfix.diff
 enable_dlrestrcitions.diff
 kdm_vt_switching_on_kfreebsd.diff
-plasma_desktop_shell_drop_kactivities.diff
