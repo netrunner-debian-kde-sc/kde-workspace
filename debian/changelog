@@ -6,6 +6,7 @@ kde-workspace (4:4.7.95-0r0) UNRELEASED; urgency=low
   * Add myself to uploaders.
   * Refresh patches.
   * Build-depend on kdepimlibs >= 4.7.95 and new libkactivities-dev.
+  * Update not-installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jan 2012 18:52:11 +0100
 
