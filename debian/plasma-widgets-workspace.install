@@ -3,7 +3,6 @@ usr/lib/kde4/plasma_applet_activitybar.so
 usr/lib/kde4/plasma_applet_battery.so
 usr/lib/kde4/plasma_applet_calendar.so
 usr/lib/kde4/plasma_applet_clock.so
-usr/lib/kde4/plasma_applet_devicenotifier.so
 usr/lib/kde4/plasma_applet_dig_clock.so
 usr/lib/kde4/plasma_applet_icon.so
 usr/lib/kde4/plasma_applet_lockout.so
@@ -22,11 +21,18 @@ usr/lib/kde4/plasma_applet_systemtray.so
 usr/lib/kde4/plasma_applet_webbrowser.so
 usr/lib/kde4/plasma_containment_saverdesktop.so
 usr/lib/libplasma_applet-system-monitor.so.4
-usr/lib/libplasma_applet-system-monitor.so.4.7.0
+usr/lib/libplasma_applet-system-monitor.so.4.8.0
 usr/share/kde4/apps/desktoptheme/default/calendar/mini-calendar.svgz
 usr/share/kde4/apps/desktoptheme/default/system-monitor/hdd_panel.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/activities.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/battery-oxygen.svgz
+usr/share/kde4/apps/plasma/plasmoids/notifier/contents/config/main.xml
+usr/share/kde4/apps/plasma/plasmoids/notifier/contents/ui/ActionItem.qml
+usr/share/kde4/apps/plasma/plasmoids/notifier/contents/ui/config.ui
+usr/share/kde4/apps/plasma/plasmoids/notifier/contents/ui/DeviceItem.qml
+usr/share/kde4/apps/plasma/plasmoids/notifier/contents/ui/devicenotifier.qml
+usr/share/kde4/apps/plasma/plasmoids/notifier/contents/ui/StatusBar.qml
+usr/share/kde4/apps/plasma/plasmoids/notifier/metadata.desktop
 usr/share/kde4/apps/solid/actions/test-predicate-openinwindow.desktop
 usr/share/kde4/services/plasma-animator-default.desktop
 usr/share/kde4/services/plasma-applet-activitybar.desktop

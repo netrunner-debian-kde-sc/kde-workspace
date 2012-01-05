@@ -3,8 +3,6 @@ usr/lib/kde4/ion_debianweather.so
 usr/lib/kde4/ion_envcan.so
 usr/lib/kde4/ion_noaa.so
 usr/lib/kde4/ion_wettercom.so
-usr/lib/kde4/plasma-geolocation-gps.so
-usr/lib/kde4/plasma-geolocation-ip.so
 usr/lib/kde4/plasma_engine_akonadi.so
 usr/lib/kde4/plasma_engine_applicationjobs.so
 usr/lib/kde4/plasma_engine_apps.so
@@ -31,14 +29,19 @@ usr/lib/kde4/plasma_engine_systemmonitor.so
 usr/lib/kde4/plasma_engine_tasks.so
 usr/lib/kde4/plasma_engine_time.so
 usr/lib/kde4/plasma_engine_weather.so
+usr/lib/kde4/plasma-geolocation-gps.so
+usr/lib/kde4/plasma-geolocation-ip.so
 usr/share/kde4/apps/plasma/services/activities.operations
 usr/share/kde4/apps/plasma/services/applicationjobs.operations
 usr/share/kde4/apps/plasma/services/apps.operations
+usr/share/kde4/apps/plasma/services/hotplug.operations
 usr/share/kde4/apps/plasma/services/modifierkeystate.operations
 usr/share/kde4/apps/plasma/services/notifications.operations
 usr/share/kde4/apps/plasma/services/nowplaying.operations
 usr/share/kde4/apps/plasma/services/org.kde.places.operations
+usr/share/kde4/apps/plasma/services/powermanagementservice.operations
 usr/share/kde4/apps/plasma/services/share.operations
+usr/share/kde4/apps/plasma/services/soliddevice.operations
 usr/share/kde4/apps/plasma/services/statusnotifieritem.operations
 usr/share/kde4/apps/plasma/services/tasks.operations
 usr/share/kde4/apps/plasma/shareprovider/imgsusepasteorg/contents/code/main.js
@@ -103,6 +106,7 @@ usr/share/kde4/services/plasma-dataengine-weather.desktop
 usr/share/kde4/services/plasma-engine-activities.desktop
 usr/share/kde4/services/plasma-engine-akonadi.desktop
 usr/share/kde4/services/plasma-engine-metadata.desktop
+usr/share/kde4/services/plasma_engine_statusnotifieritem.desktop
 usr/share/kde4/services/plasma-geolocation-gps.desktop
 usr/share/kde4/services/plasma-geolocation-ip.desktop
 usr/share/kde4/services/plasma-layout-org.kde.plasma-desktop.findWidgets.desktop
@@ -111,5 +115,4 @@ usr/share/kde4/services/plasma-packagestructure-share.desktop
 usr/share/kde4/services/plasma-toolbox-desktoptoolbox.desktop
 usr/share/kde4/services/plasma-toolbox-nettoolbox.desktop
 usr/share/kde4/services/plasma-toolbox-paneltoolbox.desktop
-usr/share/kde4/services/plasma_engine_statusnotifieritem.desktop
 usr/share/kde4/servicetypes/plasma-geolocationprovider.desktop

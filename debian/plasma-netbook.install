@@ -10,13 +10,13 @@ usr/share/kde4/apps/desktoptheme/air-netbook/colors
 usr/share/kde4/apps/desktoptheme/air-netbook/metadata.desktop
 usr/share/kde4/apps/desktoptheme/air-netbook/widgets/background.svgz
 usr/share/kde4/apps/desktoptheme/air-netbook/widgets/panel-background.svgz
-usr/share/kde4/apps/plasma-netbook/init/00-defaultLayout.js
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-netbook.defaultPage/contents/layout.js
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-netbook.defaultPage/metadata.desktop
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-netbook.defaultPanel/contents/layout.js
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-netbook.defaultPanel/metadata.desktop
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-netbook.defaultSal/contents/layout.js
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-netbook.defaultSal/metadata.desktop
+usr/share/kde4/apps/plasma-netbook/init/00-defaultLayout.js
 usr/share/kde4/apps/plasma/services/searchlaunch.operations
 usr/share/kde4/services/plasma-applet-currentappcontrol.desktop
 usr/share/kde4/services/plasma-applet-searchbox.desktop

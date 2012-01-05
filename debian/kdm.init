@@ -47,7 +47,7 @@ setup_config () {
     KDMCFGDIR=/var/run/kdm
     KDMCFG=$KDMCFGDIR/kdmrc
     BACKGROUNDCFG=$KDMCFGDIR/backgroundrc
-    DEFAULT_KDM_THEME=/usr/share/kde4/apps/kdm/themes/horos
+    DEFAULT_KDM_THEME=/usr/share/kde4/apps/kdm/themes/ariya
 
     test -x $DAEMON || exit 0
 

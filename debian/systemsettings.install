@@ -5,6 +5,7 @@ usr/lib/kde4/kcm_colors.so
 usr/lib/kde4/kcm_fonts.so
 usr/lib/kde4/kcm_style.so
 usr/lib/libsystemsettingsview.so.2
+usr/share/applications/kde4/kdesystemsettings.desktop
 usr/share/applications/kde4/systemsettings.desktop
 usr/share/doc/kde/HTML/en/systemsettings/common
 usr/share/doc/kde/HTML/en/systemsettings/index.cache.bz2
