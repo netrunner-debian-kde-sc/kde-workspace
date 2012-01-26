@@ -1,3 +1,8 @@
+kde-workspace (4:4.7.4-2) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Jan 2012 18:14:21 +0100
+
 kde-workspace (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
