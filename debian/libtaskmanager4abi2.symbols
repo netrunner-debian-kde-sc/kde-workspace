@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 kfreebsd-amd64 kfreebsd-i386
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libtaskmanager.so.4abi2 libtaskmanager4abi2 #MINVER#
  ABI_4_2@ABI_4_2 4:4.7.1
  _ZN11TaskManager10TasksModel11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_2 4:4.7.1
@@ -332,8 +332,8 @@ libtaskmanager.so.4abi2 libtaskmanager4abi2 #MINVER#
  _ZN11TaskManager9TaskGroupD0Ev@ABI_4_2 4:4.7.1
  _ZN11TaskManager9TaskGroupD1Ev@ABI_4_2 4:4.7.1
  _ZN11TaskManager9TaskGroupD2Ev@ABI_4_2 4:4.7.1
- (arch=!amd64)_ZN4KUrl4ListD1Ev@ABI_4_2 4:4.7.2
- (arch=!amd64)_ZN4KUrl4ListD2Ev@ABI_4_2 4:4.7.2
+ (arch=!amd64 !armel !hurd-i386 !i386 !ia64 !mips !mipsel !powerpc !s390 !sparc)_ZN4KUrl4ListD1Ev@ABI_4_2 4:4.7.2
+ (arch=!amd64 !armel !hurd-i386 !i386 !ia64 !mips !mipsel !powerpc !s390 !sparc)_ZN4KUrl4ListD2Ev@ABI_4_2 4:4.7.2
  _ZNK11TaskManager10TasksModel10metaObjectEv@ABI_4_2 4:4.7.1
  _ZNK11TaskManager10TasksModel11columnCountERK11QModelIndex@ABI_4_2 4:4.7.1
  _ZNK11TaskManager10TasksModel4dataERK11QModelIndexi@ABI_4_2 4:4.7.1

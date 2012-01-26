@@ -1,5 +1,7 @@
 kde-workspace (4:4.7.4-2) UNRELEASED; urgency=low
 
+  [ José Manuel Santamaría Lema ]
+  * Confirm symbols files on all architectures.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Jan 2012 18:14:21 +0100
 
