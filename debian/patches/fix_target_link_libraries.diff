@@ -1,7 +1,7 @@
 --- a/libs/kworkspace/CMakeLists.txt
 +++ b/libs/kworkspace/CMakeLists.txt
-@@ -55,6 +55,7 @@ endif(WIN32)
- kde4_add_library(kworkspace ${LIB_MODE} ${kworkspace_LIB_SRCS})
+@@ -51,6 +51,7 @@ qt4_add_dbus_interface( kworkspace_LIB_S
+ kde4_add_library(kworkspace SHARED ${kworkspace_LIB_SRCS})
  
  target_link_libraries(kworkspace  ${KDE4_KDEUI_LIBS} ${X11_LIBRARIES} ${KDE4_PLASMA_LIBS} )
 +target_link_libraries(kworkspace  LINK_INTERFACE_LIBRARIES ${KDE4_KDEUI_LIBRARY} )
