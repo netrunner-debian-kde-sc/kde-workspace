@@ -6,7 +6,7 @@ kde-workspace (4:4.8.0-0r0) UNRELEASED; urgency=low
   * Add myself to uploaders.
   * Bump kdelibs5-dev build dependency to version 4:4.8.
   * Refresh patches.
-  * Build-depend on kdepimlibs >= 4.7.95 and new libkactivities-dev.
+  * Build-depend on kdepimlibs >= 4.8.0 and new libkactivities-dev.
   * Update not-installed files.
   * Update installed files.
 
