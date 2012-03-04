@@ -61,6 +61,7 @@ Description: KDE Plasma Workspace components
 
 Package: kdebase-workspace
 Section: oldlibs
+Priority: extra
 Architecture: all
 Depends: ${misc:Depends}, kde-workspace
 Description: transitional package for kde-workspace
@@ -123,6 +124,7 @@ Description: core binaries for the KDE Plasma Workspace
 
 Package: kdebase-workspace-bin
 Section: oldlibs
+Priority: extra
 Architecture: all
 Depends: ${misc:Depends}, kde-workspace-bin
 Description: transitional package for kde-workspace-bin
@@ -159,6 +161,7 @@ Description: development files for the KDE Plasma Workspace
 
 Package: kdebase-workspace-dev
 Section: oldlibs
+Priority: extra
 Architecture: all
 Depends: ${misc:Depends}, kde-workspace-dev
 Description: transitional package for kde-workspace-dev
