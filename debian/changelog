@@ -1,4 +1,7 @@
-kde-workspace (4:4.7.4-2) UNRELEASED; urgency=low
+kde-workspace (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+  * Update uploaders, remove Armin.
 
   [ José Manuel Santamaría Lema ]
   * Confirm symbols files on more architectures.
@@ -7,7 +10,7 @@ kde-workspace (4:4.7.4-2) UNRELEASED; urgency=low
     - kdebase-workspace-bin
     - kdebase-workspace-dev
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Jan 2012 18:14:21 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Mar 2012 16:12:45 +0100
 
 kde-workspace (4:4.7.4-1) experimental; urgency=low
 
