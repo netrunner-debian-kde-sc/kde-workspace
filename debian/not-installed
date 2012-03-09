@@ -418,6 +418,7 @@
 ./usr/lib/libkdeinit4_ksmserver.so
 ./usr/lib/libkdeinit4_ksysguard.so
 ./usr/lib/libkdeinit4_kwin.so
+./usr/lib/libkdeinit4_kwin_gles.so
 ./usr/lib/libkdeinit4_kwin_rules_dialog.so
 ./usr/lib/libkdeinit4_plasma-desktop.so
 ./usr/lib/libkdeinit4_plasma-netbook.so
