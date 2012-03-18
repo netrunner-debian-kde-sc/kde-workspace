@@ -33,7 +33,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.1),
  libqalculate-dev, libglib2.0-dev,
  libqtwebkit-dev,
  libprison-dev
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 X-Python-Version: >= 2.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde-workspace.git
