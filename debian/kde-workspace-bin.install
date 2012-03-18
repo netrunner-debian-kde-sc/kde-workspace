@@ -20,10 +20,10 @@ usr/bin/ksplashx_scale
 usr/bin/kstartupconfig4
 usr/bin/ksystraycmd
 usr/bin/oxygen-shadow-demo
-usr/bin/plasmaengineexplorer
 usr/bin/plasma-overlay
-usr/bin/plasmawallpaperviewer
 usr/bin/plasma-windowed
+usr/bin/plasmaengineexplorer
+usr/bin/plasmawallpaperviewer
 usr/bin/plasmoidviewer
 usr/bin/remote-widgets-browser
 usr/bin/solid-action-desktop-gen
@@ -52,8 +52,8 @@ usr/lib/kde4/kcm_powerdevilprofilesconfig.so
 usr/lib/kde4/kcm_randr.so
 usr/lib/kde4/kcm_screensaver.so
 usr/lib/kde4/kcm_smserver.so
-usr/lib/kde4/kcm_solid_actions.so
 usr/lib/kde4/kcm_solid.so
+usr/lib/kde4/kcm_solid_actions.so
 usr/lib/kde4/kcm_standard_actions.so
 usr/lib/kde4/kcm_workspaceoptions.so
 usr/lib/kde4/kcm_xinerama.so
@@ -111,8 +111,8 @@ usr/lib/kde4/plasma_wallpaper_image.so
 usr/lib/kde4/plugins/gui_platform/libkde.so
 usr/lib/kde4/powerdevilbrightnesscontrolaction_config.so
 usr/lib/kde4/powerdevildimdisplayaction_config.so
-usr/lib/kde4/powerdevildpmsaction_config.so
 usr/lib/kde4/powerdevildpmsaction.so
+usr/lib/kde4/powerdevildpmsaction_config.so
 usr/lib/kde4/powerdevilhandlebuttoneventsaction_config.so
 usr/lib/kde4/powerdevilrunscriptaction_config.so
 usr/lib/kde4/powerdevilsuspendsessionaction_config.so
@@ -143,6 +143,9 @@ usr/share/applications/kde4/krandrtray.desktop
 usr/share/autostart/krunner.desktop
 usr/share/kde4/apps/kcmsolidactions/solid-action-template.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/fonts.desktop
+usr/share/kde4/services/ScreenSavers/kblank.desktop
+usr/share/kde4/services/ScreenSavers/krandom.desktop
+usr/share/kde4/services/ServiceMenus/installfont.desktop
 usr/share/kde4/services/autostart.desktop
 usr/share/kde4/services/bell.desktop
 usr/share/kde4/services/clock.desktop
@@ -153,11 +156,11 @@ usr/share/kde4/services/display.desktop
 usr/share/kde4/services/fontinst.desktop
 usr/share/kde4/services/fontthumbnail.desktop
 usr/share/kde4/services/kaccess.desktop
-usr/share/kde4/services/kcmaccess.desktop
 usr/share/kde4/services/kcm_keyboard.desktop
+usr/share/kde4/services/kcm_solid.desktop
+usr/share/kde4/services/kcmaccess.desktop
 usr/share/kde4/services/kcmlaunch.desktop
 usr/share/kde4/services/kcmsmserver.desktop
-usr/share/kde4/services/kcm_solid.desktop
 usr/share/kde4/services/kded/kephal.desktop
 usr/share/kde4/services/kded/keyboard.desktop
 usr/share/kde4/services/kded/khotkeys.desktop
@@ -170,7 +173,6 @@ usr/share/kde4/services/kfontviewpart.desktop
 usr/share/kde4/services/khotkeys.desktop
 usr/share/kde4/services/ksplashthememgr.desktop
 usr/share/kde4/services/mouse.desktop
-usr/share/kde4/services/plasma_applet_keyboard.desktop
 usr/share/kde4/services/plasma-containmentactions-applauncher.desktop
 usr/share/kde4/services/plasma-containmentactions-contextmenu.desktop
 usr/share/kde4/services/plasma-containmentactions-minimalcontextmenu.desktop
@@ -181,8 +183,8 @@ usr/share/kde4/services/plasma-containmentactions-switchwindow.desktop
 usr/share/kde4/services/plasma-runner-activityrunner.desktop
 usr/share/kde4/services/plasma-runner-bookmarks.desktop
 usr/share/kde4/services/plasma-runner-calculator.desktop
-usr/share/kde4/services/plasma-runner-kill_config.desktop
 usr/share/kde4/services/plasma-runner-kill.desktop
+usr/share/kde4/services/plasma-runner-kill_config.desktop
 usr/share/kde4/services/plasma-runner-locations.desktop
 usr/share/kde4/services/plasma-runner-nepomuksearch.desktop
 usr/share/kde4/services/plasma-runner-places.desktop
@@ -196,6 +198,7 @@ usr/share/kde4/services/plasma-runner-windowedwidgets.desktop
 usr/share/kde4/services/plasma-runner-windows.desktop
 usr/share/kde4/services/plasma-wallpaper-color.desktop
 usr/share/kde4/services/plasma-wallpaper-image.desktop
+usr/share/kde4/services/plasma_applet_keyboard.desktop
 usr/share/kde4/services/powerdevilactivitiesconfig.desktop
 usr/share/kde4/services/powerdevilbrightnesscontrolaction.desktop
 usr/share/kde4/services/powerdevildimdisplayaction.desktop
@@ -208,9 +211,6 @@ usr/share/kde4/services/powerdevilsuspendsessionaction.desktop
 usr/share/kde4/services/randr.desktop
 usr/share/kde4/services/recentdocuments.desktop
 usr/share/kde4/services/screensaver.desktop
-usr/share/kde4/services/ScreenSavers/kblank.desktop
-usr/share/kde4/services/ScreenSavers/krandom.desktop
-usr/share/kde4/services/ServiceMenus/installfont.desktop
 usr/share/kde4/services/settings-power-management.desktop
 usr/share/kde4/services/settings-workspace-behavior.desktop
 usr/share/kde4/services/solid-actions.desktop

@@ -28,10 +28,10 @@ usr/share/kde4/apps/desktoptheme/default/widgets/activities.svgz
 usr/share/kde4/apps/desktoptheme/default/widgets/battery-oxygen.svgz
 usr/share/kde4/apps/plasma/plasmoids/notifier/contents/config/main.xml
 usr/share/kde4/apps/plasma/plasmoids/notifier/contents/ui/ActionItem.qml
-usr/share/kde4/apps/plasma/plasmoids/notifier/contents/ui/config.ui
 usr/share/kde4/apps/plasma/plasmoids/notifier/contents/ui/DeviceItem.qml
-usr/share/kde4/apps/plasma/plasmoids/notifier/contents/ui/devicenotifier.qml
 usr/share/kde4/apps/plasma/plasmoids/notifier/contents/ui/StatusBar.qml
+usr/share/kde4/apps/plasma/plasmoids/notifier/contents/ui/config.ui
+usr/share/kde4/apps/plasma/plasmoids/notifier/contents/ui/devicenotifier.qml
 usr/share/kde4/apps/plasma/plasmoids/notifier/metadata.desktop
 usr/share/kde4/apps/solid/actions/test-predicate-openinwindow.desktop
 usr/share/kde4/services/plasma-animator-default.desktop
