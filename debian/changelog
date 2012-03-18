@@ -10,6 +10,9 @@ kde-workspace (4:4.8.1-0r0) UNRELEASED; urgency=low
   * Update not-installed files.
   * Update installed files.
 
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.8.1.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jan 2012 18:52:11 +0100
 
 kde-workspace (4:4.7.4-2) unstable; urgency=low
