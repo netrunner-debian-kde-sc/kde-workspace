@@ -12,6 +12,20 @@ kde-workspace (4:4.8.1-0r0) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jan 2012 18:52:11 +0100
 
+kde-workspace (4:4.7.4-2) unstable; urgency=low
+
+  * Team upload. Upload to unstable.
+  * Update uploaders, remove Armin.
+
+  [ José Manuel Santamaría Lema ]
+  * Confirm symbols files on more architectures.
+  * The following dummy transitional packages have now priority "extra":
+    - kdebase-workspace
+    - kdebase-workspace-bin
+    - kdebase-workspace-dev
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 06 Mar 2012 16:12:45 +0100
+
 kde-workspace (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.

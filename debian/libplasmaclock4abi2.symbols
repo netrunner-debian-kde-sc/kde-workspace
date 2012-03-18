@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 kfreebsd-amd64 kfreebsd-i386
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libplasmaclock.so.4abi2 libplasmaclock4abi2 #MINVER#
  ABI_4_2@ABI_4_2 4:4.7.1
  _ZN11ClockApplet10popupEventEb@ABI_4_2 4:4.7.1
@@ -38,8 +38,8 @@ libplasmaclock.so.4abi2 libplasmaclock4abi2 #MINVER#
  _ZN11ClockAppletD0Ev@ABI_4_2 4:4.7.1
  _ZN11ClockAppletD1Ev@ABI_4_2 4:4.7.1
  _ZN11ClockAppletD2Ev@ABI_4_2 4:4.7.1
- (arch=!amd64)_ZN4KUrl4ListD1Ev@ABI_4_2 4:4.7.2
- (arch=!amd64)_ZN4KUrl4ListD2Ev@ABI_4_2 4:4.7.2
+ (arch=!amd64 !mips !mipsel !powerpc !s390 !sparc)_ZN4KUrl4ListD1Ev@ABI_4_2 4:4.7.2
+ (arch=!amd64 !mips !mipsel !powerpc !s390 !sparc)_ZN4KUrl4ListD2Ev@ABI_4_2 4:4.7.2
  _ZN6Plasma13CalendarTable10addHolidayE5QHashI7QString8QVariantE@ABI_4_2 4:4.7.1
  _ZN6Plasma13CalendarTable10wheelEventEP24QGraphicsSceneWheelEvent@ABI_4_2 4:4.7.1
  _ZN6Plasma13CalendarTable11dataUpdatedERK7QStringRK5QHashIS1_8QVariantE@ABI_4_2 4:4.7.1

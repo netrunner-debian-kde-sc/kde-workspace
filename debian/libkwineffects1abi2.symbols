@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 i386 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 libkwineffects.so.1abi2 libkwineffects1abi2 #MINVER#
  ABI_1_2@ABI_1_2 4:4.7.1
  _ZN4KWin10Extensions10has_damageE@ABI_1_2 4:4.7.1
@@ -302,8 +302,8 @@ libkwineffects.so.1abi2 libkwineffects1abi2 #MINVER#
  _ZN4KWin6EffectD1Ev@ABI_1_2 4:4.7.1
  _ZN4KWin6EffectD2Ev@ABI_1_2 4:4.7.1
  (optional=templinst)_ZN4KWin6MotionI7QPointFE9calculateEi@ABI_1_2 4:4.7.1
- (optional=templinst|arch=!amd64 !kfreebsd-amd64)_ZN4KWin6MotionI7QPointFEC1ERKS2_@ABI_1_2 4:4.7.2
- (optional=templinst|arch=!amd64 !kfreebsd-amd64)_ZN4KWin6MotionI7QPointFEC2ERKS2_@ABI_1_2 4:4.7.2
+ (optional=templinst|arch=!amd64 !kfreebsd-amd64 !sparc)_ZN4KWin6MotionI7QPointFEC1ERKS2_@ABI_1_2 4:4.7.2
+ (optional=templinst|arch=!amd64 !kfreebsd-amd64 !sparc)_ZN4KWin6MotionI7QPointFEC2ERKS2_@ABI_1_2 4:4.7.2
  _ZN4KWin6initGLEv@ABI_1_2 4:4.7.1
  _ZN4KWin7effectsE@ABI_1_2 4:4.7.1
  _ZN4KWin7initEGLEv@ABI_1_2 4:4.7.1
