@@ -1,10 +1,14 @@
 
 #no need to ship dev symlink
+./usr/lib/libkfontinst.so
+./usr/lib/libkfontinstui.so
 ./usr/lib/libplasmagenericshell.so
 ./usr/lib/libsystemsettingsview.so
 ./usr/lib/libplasma_applet-system-monitor.so
+./usr/lib/libpowerdevilconfigcommonprivate.so
 ./usr/lib/libpowerdevilcore.so
 ./usr/lib/liboxygenstyle.so
+./usr/lib/liboxygenstyleconfig.so
 
 # Python *.pyc files
 ./usr/share/kde4/apps/plasma_scriptengine_python/pyappletscript.pyc

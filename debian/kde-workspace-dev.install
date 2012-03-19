@@ -104,8 +104,6 @@ usr/lib/kde4/plugins/designer/ksysguardlsofwidgets.so
 usr/lib/kde4/plugins/designer/ksysguardwidgets.so
 usr/lib/libkdecorations.so
 usr/lib/libkephal.so
-usr/lib/libkfontinst.so
-usr/lib/libkfontinstui.so
 usr/lib/libkscreensaver.so
 usr/lib/libksgrd.so
 usr/lib/libksignalplotter.so
@@ -114,10 +112,8 @@ usr/lib/libkwinglesutils.so
 usr/lib/libkwinglutils.so
 usr/lib/libkworkspace.so
 usr/lib/liblsofui.so
-usr/lib/liboxygenstyleconfig.so
 usr/lib/libplasma-geolocation-interface.so
 usr/lib/libplasmaclock.so
-usr/lib/libpowerdevilconfigcommonprivate.so
 usr/lib/libprocesscore.so
 usr/lib/libprocessui.so
 usr/lib/libsolidcontrol.so
