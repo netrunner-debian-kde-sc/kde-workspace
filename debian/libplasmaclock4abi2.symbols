@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libplasmaclock.so.4abi2 libplasmaclock4abi2 #MINVER#
  ABI_4_2@ABI_4_2 4:4.7.1
  _ZN11ClockApplet10popupEventEb@ABI_4_2 4:4.7.1
@@ -13,7 +13,7 @@ libplasmaclock.so.4abi2 libplasmaclock4abi2 #MINVER#
  _ZN11ClockApplet14toolTipContentEv@ABI_4_2 4:4.7.1
  _ZN11ClockApplet15copyToClipboardEP7QAction@ABI_4_2 4:4.7.1
  _ZN11ClockApplet16constraintsEventE6QFlagsIN6Plasma10ConstraintEE@ABI_4_2 4:4.7.1
- _ZN11ClockApplet16initExtenderItemEPN6Plasma12ExtenderItemE@ABI_4_2 4:4.7.1
+#MISSING: 4:4.8.1# _ZN11ClockApplet16initExtenderItemEPN6Plasma12ExtenderItemE@ABI_4_2 4:4.7.1
  _ZN11ClockApplet16staticMetaObjectE@ABI_4_2 4:4.7.1
  _ZN11ClockApplet16updateTipContentEv@ABI_4_2 4:4.7.1
  _ZN11ClockApplet17contextualActionsEv@ABI_4_2 4:4.7.1
@@ -89,18 +89,18 @@ libplasmaclock.so.4abi2 libplasmaclock4abi2 #MINVER#
  _ZN6Plasma8Calendar11dateChangedERK5QDateS3_@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar11dateHoveredERK5QDate@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar11dateUpdatedEv@ABI_4_2 4:4.7.1
- _ZN6Plasma8Calendar11monthsPopupEv@ABI_4_2 4:4.7.1
+#MISSING: 4:4.8.1# _ZN6Plasma8Calendar11monthsPopupEv@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar11qt_metacastEPKc@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar11setCalendarEPK15KCalendarSystem@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar11setCalendarERK7QString@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar12focusInEventEP11QFocusEvent@ABI_4_2 4:4.7.1
- _ZN6Plasma8Calendar13displayEventsERK5QDate@ABI_4_2 4:4.7.1
+#MISSING: 4:4.8.1# _ZN6Plasma8Calendar13displayEventsERK5QDate@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar13focusOutEventEP11QFocusEvent@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar13keyPressEventEP9QKeyEvent@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar14configAcceptedE12KConfigGroup@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar14monthTriggeredEv@ABI_4_2 4:4.7.1
- _ZN6Plasma8Calendar14refreshWidgetsEv@ABI_4_2 4:4.7.1
+#MISSING: 4:4.8.1# _ZN6Plasma8Calendar14refreshWidgetsEv@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar14setCurrentDateERK5QDate@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar15hideYearSpinBoxEv@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar15showYearSpinBoxEv@ABI_4_2 4:4.7.1
@@ -112,7 +112,7 @@ libplasmaclock.so.4abi2 libplasmaclock4abi2 #MINVER#
  _ZN6Plasma8Calendar20clearHolidaysRegionsEv@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar25setAutomaticUpdateEnabledEb@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar28createConfigurationInterfaceEP13KConfigDialog@ABI_4_2 4:4.7.1
- _ZN6Plasma8Calendar4initERK5QDate@ABI_4_2 4:4.7.1
+#MISSING: 4:4.8.1# _ZN6Plasma8Calendar4initERK5QDate@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar7setDateERK5QDate@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar8goToWeekEi@ABI_4_2 4:4.7.1
  _ZN6Plasma8Calendar8nextYearEv@ABI_4_2 4:4.7.1
@@ -132,7 +132,7 @@ libplasmaclock.so.4abi2 libplasmaclock4abi2 #MINVER#
  _ZNK11ClockApplet14prettyTimezoneEv@ABI_4_2 4:4.7.1
  _ZNK11ClockApplet15currentTimezoneEv@ABI_4_2 4:4.7.1
  _ZNK11ClockApplet15isLocalTimezoneEv@ABI_4_2 4:4.7.1
- _ZNK11ClockApplet20getSelectedTimezonesEv@ABI_4_2 4:4.7.1
+#MISSING: 4:4.8.1# _ZNK11ClockApplet20getSelectedTimezonesEv@ABI_4_2 4:4.7.1
  _ZNK11ClockApplet21shouldDisplayTimezoneEv@ABI_4_2 4:4.7.1
  _ZNK11ClockApplet8calendarEv@ABI_4_2 4:4.7.1
  _ZNK6Plasma13CalendarTable10metaObjectEv@ABI_4_2 4:4.7.1

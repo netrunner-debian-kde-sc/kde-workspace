@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libkworkspace.so.4 libkworkspace4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -6,27 +6,27 @@ libkworkspace.so.4 libkworkspace4 #MINVER#
  _ZN10KWorkSpace11canShutDownENS_15ShutdownConfirmENS_12ShutdownTypeENS_12ShutdownModeE@ABI_4_0 4:4.6.1
  _ZN10KWorkSpace15requestShutDownENS_15ShutdownConfirmENS_12ShutdownTypeENS_12ShutdownModeE@ABI_4_0 4:4.6.1
  _ZN10KWorkSpace23propagateSessionManagerEv@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo11infoChangedEv@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo11qt_metacastEPKc@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo12stateChangedENS_5StateE@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo16staticMetaObjectE@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo17associateResourceERK4KUrlNS_12ResourceTypeE@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo17associateResourceERK4KUrlS2_@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo20disassociateResourceERK4KUrl@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo4nameERK7QString@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo5addedEv@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo7Private20activityStateChangedERK7QStringi@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo7PrivateC1EPS_RK7QString@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo7PrivateC2EPS_RK7QString@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo7removedEv@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo7startedEv@ABI_4_0 4:4.6.1
- _ZN13KActivityInfo7stoppedEv@ABI_4_0 4:4.6.1
- _ZN13KActivityInfoC1ERK7QStringP7QObject@ABI_4_0 4:4.6.1
- _ZN13KActivityInfoC2ERK7QStringP7QObject@ABI_4_0 4:4.6.1
- _ZN13KActivityInfoD0Ev@ABI_4_0 4:4.6.1
- _ZN13KActivityInfoD1Ev@ABI_4_0 4:4.6.1
- _ZN13KActivityInfoD2Ev@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo11infoChangedEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo11qt_metacastEPKc@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo12stateChangedENS_5StateE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo16staticMetaObjectE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo17associateResourceERK4KUrlNS_12ResourceTypeE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo17associateResourceERK4KUrlS2_@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo20disassociateResourceERK4KUrl@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo4nameERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo5addedEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo7Private20activityStateChangedERK7QStringi@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo7PrivateC1EPS_RK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo7PrivateC2EPS_RK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo7removedEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo7startedEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfo7stoppedEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfoC1ERK7QStringP7QObject@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfoC2ERK7QStringP7QObject@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfoD0Ev@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfoD1Ev@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN13KActivityInfoD2Ev@ABI_4_0 4:4.6.1
  _ZN15KDisplayManager10numReserveEv@ABI_4_0 4:4.6.1
  _ZN15KDisplayManager11bootOptionsER11QStringListRiS2_@ABI_4_0 4:4.6.1
  _ZN15KDisplayManager11canShutdownEv@ABI_4_0 4:4.6.1
@@ -60,42 +60,42 @@ libkworkspace.so.4 libkworkspace4 #MINVER#
  _ZN15KWindowListMenuD0Ev@ABI_4_0 4:4.6.1
  _ZN15KWindowListMenuD1Ev@ABI_4_0 4:4.6.1
  _ZN15KWindowListMenuD2Ev@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumer11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumer11qt_metacastEPKc@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumer13serviceStatusEv@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumer16resourceAccessedERK4KUrl@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumer16resourceAccessedEmRK4KUrlNS_14ResourceActionE@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumer16staticMetaObjectE@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumer20serviceStatusChangedENS_13ServiceStatusE@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumer21activitiesForResourceERK4KUrl@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumer22currentActivityChangedERK7QString@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumerC1EP7QObject@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumerC2EP7QObject@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumerD0Ev@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumerD1Ev@ABI_4_0 4:4.6.1
- _ZN17KActivityConsumerD2Ev@ABI_4_0 4:4.6.1
- _ZN19KActivityController11addActivityERK7QString@ABI_4_0 4:4.6.1
- _ZN19KActivityController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
- _ZN19KActivityController11qt_metacastEPKc@ABI_4_0 4:4.6.1
- _ZN19KActivityController12stopActivityERK7QString@ABI_4_0 4:4.6.1
- _ZN19KActivityController13activityAddedERK7QString@ABI_4_0 4:4.6.1
- _ZN19KActivityController13startActivityERK7QString@ABI_4_0 4:4.6.1
- _ZN19KActivityController14removeActivityERK7QString@ABI_4_0 4:4.6.1
- _ZN19KActivityController15activityRemovedERK7QString@ABI_4_0 4:4.6.1
- _ZN19KActivityController15setActivityIconERK7QStringS2_@ABI_4_0 4:4.6.1
- _ZN19KActivityController15setActivityNameERK7QStringS2_@ABI_4_0 4:4.6.1
- _ZN19KActivityController16resourceAccessedERK7QStringRK4KUrl@ABI_4_0 4:4.6.1
- _ZN19KActivityController16resourceAccessedERK7QStringjRK4KUrlN17KActivityConsumer14ResourceActionE@ABI_4_0 4:4.6.1
- _ZN19KActivityController16staticMetaObjectE@ABI_4_0 4:4.6.1
- _ZN19KActivityController18setCurrentActivityERK7QString@ABI_4_0 4:4.6.1
- _ZN19KActivityController7PrivateD0Ev@ABI_4_0 4:4.6.5
- _ZN19KActivityController7PrivateD1Ev@ABI_4_0 4:4.6.5
- _ZN19KActivityController7PrivateD2Ev@ABI_4_0 4:4.6.5
- _ZN19KActivityControllerC1EP7QObject@ABI_4_0 4:4.6.1
- _ZN19KActivityControllerC2EP7QObject@ABI_4_0 4:4.6.1
- _ZN19KActivityControllerD0Ev@ABI_4_0 4:4.6.1
- _ZN19KActivityControllerD1Ev@ABI_4_0 4:4.6.1
- _ZN19KActivityControllerD2Ev@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumer11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumer11qt_metacastEPKc@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumer13serviceStatusEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumer16resourceAccessedERK4KUrl@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumer16resourceAccessedEmRK4KUrlNS_14ResourceActionE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumer16staticMetaObjectE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumer20serviceStatusChangedENS_13ServiceStatusE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumer21activitiesForResourceERK4KUrl@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumer22currentActivityChangedERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumerC1EP7QObject@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumerC2EP7QObject@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumerD0Ev@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumerD1Ev@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN17KActivityConsumerD2Ev@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController11addActivityERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController11qt_metacastEPKc@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController12stopActivityERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController13activityAddedERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController13startActivityERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController14removeActivityERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController15activityRemovedERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController15setActivityIconERK7QStringS2_@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController15setActivityNameERK7QStringS2_@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController16resourceAccessedERK7QStringRK4KUrl@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController16resourceAccessedERK7QStringjRK4KUrlN17KActivityConsumer14ResourceActionE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController16staticMetaObjectE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController18setCurrentActivityERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityController7PrivateD0Ev@ABI_4_0 4:4.6.5
+#MISSING: 4:4.8.1# _ZN19KActivityController7PrivateD1Ev@ABI_4_0 4:4.6.5
+#MISSING: 4:4.8.1# _ZN19KActivityController7PrivateD2Ev@ABI_4_0 4:4.6.5
+#MISSING: 4:4.8.1# _ZN19KActivityControllerC1EP7QObject@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityControllerC2EP7QObject@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityControllerD0Ev@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityControllerD1Ev@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZN19KActivityControllerD2Ev@ABI_4_0 4:4.6.1
  _ZN19ScreenPreviewWidget10paintEventEP11QPaintEvent@ABI_4_0 4:4.6.1
  _ZN19ScreenPreviewWidget10setPreviewEPN6Plasma9WallpaperE@ABI_4_0 4:4.6.1
  _ZN19ScreenPreviewWidget10setPreviewERK7QPixmap@ABI_4_0 4:4.6.1
@@ -115,51 +115,51 @@ libkworkspace.so.4 libkworkspace4 #MINVER#
  (arch=!amd64 !mips !mipsel !powerpc !s390 !sparc)_ZN4KUrl4ListD2Ev@ABI_4_0 4:4.7.2
  (arch=!amd64 !mips !mipsel !powerpc !s390 !sparc)_ZN7SessEntD1Ev@ABI_4_0 4:4.7.2
  (arch=!amd64 !mips !mipsel !powerpc !s390 !sparc)_ZN7SessEntD2Ev@ABI_4_0 4:4.7.2
- _ZNK13KActivityInfo10metaObjectEv@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo11resourceUriEv@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo12availabilityEv@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo19associatedResourcesENS_12ResourceTypeE@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo19associatedResourcesERK4KUrl@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo2idEv@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo3uriEv@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo4iconEv@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo4nameEv@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo5stateEv@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo7Private10urlForTypeENS_12ResourceTypeE@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo7Private11infoChangedERK7QString@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo7Private5addedERK7QString@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo7Private7removedERK7QString@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo7Private7startedERK7QString@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo7Private7stoppedERK7QString@ABI_4_0 4:4.6.1
- _ZNK13KActivityInfo7isValidEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo10metaObjectEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo11resourceUriEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo12availabilityEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo19associatedResourcesENS_12ResourceTypeE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo19associatedResourcesERK4KUrl@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo2idEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo3uriEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo4iconEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo4nameEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo5stateEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo7Private10urlForTypeENS_12ResourceTypeE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo7Private11infoChangedERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo7Private5addedERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo7Private7removedERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo7Private7startedERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo7Private7stoppedERK7QString@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK13KActivityInfo7isValidEv@ABI_4_0 4:4.6.1
  _ZNK15KWindowListMenu10metaObjectEv@ABI_4_0 4:4.6.1
- _ZNK17KActivityConsumer10metaObjectEv@ABI_4_0 4:4.6.1
- _ZNK17KActivityConsumer14listActivitiesEN13KActivityInfo5StateE@ABI_4_0 4:4.6.1
- _ZNK17KActivityConsumer14listActivitiesEv@ABI_4_0 4:4.6.1
- _ZNK17KActivityConsumer15currentActivityEv@ABI_4_0 4:4.6.1
- _ZNK19KActivityController10metaObjectEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK17KActivityConsumer10metaObjectEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK17KActivityConsumer14listActivitiesEN13KActivityInfo5StateE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK17KActivityConsumer14listActivitiesEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK17KActivityConsumer15currentActivityEv@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZNK19KActivityController10metaObjectEv@ABI_4_0 4:4.6.1
  _ZNK19ScreenPreviewWidget10metaObjectEv@ABI_4_0 4:4.6.1
  _ZNK19ScreenPreviewWidget11previewRectEv@ABI_4_0 4:4.6.1
  _ZNK19ScreenPreviewWidget5ratioEv@ABI_4_0 4:4.6.1
  _ZNK19ScreenPreviewWidget7previewEv@ABI_4_0 4:4.6.1
- _ZTI13KActivityInfo@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZTI13KActivityInfo@ABI_4_0 4:4.6.1
  _ZTI15KWindowListMenu@ABI_4_0 4:4.6.1
- _ZTI17KActivityConsumer@ABI_4_0 4:4.6.1
- _ZTI19KActivityController@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZTI17KActivityConsumer@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZTI19KActivityController@ABI_4_0 4:4.6.1
  _ZTI19ScreenPreviewWidget@ABI_4_0 4:4.6.1
- _ZTIN19KActivityController7PrivateE@ABI_4_0 4:4.6.1
- _ZTS13KActivityInfo@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZTIN19KActivityController7PrivateE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZTS13KActivityInfo@ABI_4_0 4:4.6.1
  _ZTS15KWindowListMenu@ABI_4_0 4:4.6.1
- _ZTS17KActivityConsumer@ABI_4_0 4:4.6.1
- _ZTS19KActivityController@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZTS17KActivityConsumer@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZTS19KActivityController@ABI_4_0 4:4.6.1
  _ZTS19ScreenPreviewWidget@ABI_4_0 4:4.6.1
- _ZTSN19KActivityController7PrivateE@ABI_4_0 4:4.6.1
- _ZTV13KActivityInfo@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZTSN19KActivityController7PrivateE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZTV13KActivityInfo@ABI_4_0 4:4.6.1
  _ZTV15KWindowListMenu@ABI_4_0 4:4.6.1
- _ZTV17KActivityConsumer@ABI_4_0 4:4.6.1
- _ZTV19KActivityController@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZTV17KActivityConsumer@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZTV19KActivityController@ABI_4_0 4:4.6.1
  _ZTV19ScreenPreviewWidget@ABI_4_0 4:4.6.1
- _ZTVN19KActivityController7PrivateE@ABI_4_0 4:4.6.1
+#MISSING: 4:4.8.1# _ZTVN19KActivityController7PrivateE@ABI_4_0 4:4.6.1
  dlrestrictions_data@ABI_4_0 4:4.6.3
  (c++)"non-virtual thunk to KWindowListMenu::~KWindowListMenu()@ABI_4_0" 4:4.6.1
  (c++)"non-virtual thunk to ScreenPreviewWidget::~ScreenPreviewWidget()@ABI_4_0" 4:4.6.1

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 ia64 sparc
+# SymbolsHelper-Confirmed: 4:4.8.1 amd64
 libkdecorations.so.4 libkdecorations4 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -112,6 +112,8 @@ libkdecorations.so.4 libkdecorations4 #MINVER#
  _ZN18KDecorationFactory16removeDecorationEP11KDecoration@ABI_4_0 4:4.6.1
  _ZN18KDecorationFactory16resetDecorationsEm@ABI_4_0 4:4.6.1
  _ZN18KDecorationFactory17checkRequirementsEP19KDecorationProvides@ABI_4_0 4:4.6.1
+ _ZN18KDecorationFactory17closeButtonCornerEv@ABI_4_0 4:4.8.1
+ _ZN18KDecorationFactory20setCloseButtonCornerEN2Qt6CornerE@ABI_4_0 4:4.8.1
  _ZN18KDecorationFactory5resetEm@ABI_4_0 4:4.6.1
  _ZN18KDecorationFactoryC1Ev@ABI_4_0 4:4.6.1
  _ZN18KDecorationFactoryC2Ev@ABI_4_0 4:4.6.1
@@ -159,6 +161,7 @@ libkdecorations.so.4 libkdecorations4 #MINVER#
  _ZN19KDecorationUnstable23buttonToWindowOperationE6QFlagsIN2Qt11MouseButtonEE@ABI_4_0 4:4.6.1
  _ZN19KDecorationUnstable25setVisibleClientGroupItemEi@ABI_4_0 4:4.6.1
  _ZN19KDecorationUnstable6itemIdEi@ABI_4_0 4:4.6.1
+ _ZN19KDecorationUnstable6regionEN18KDecorationDefines6RegionE@ABI_4_0 4:4.8.1
  _ZN19KDecorationUnstableC1EP17KDecorationBridgeP18KDecorationFactory@ABI_4_0 4:4.6.1
  _ZN19KDecorationUnstableC2EP17KDecorationBridgeP18KDecorationFactory@ABI_4_0 4:4.6.1
  _ZN19KDecorationUnstableD0Ev@ABI_4_0 4:4.6.1
