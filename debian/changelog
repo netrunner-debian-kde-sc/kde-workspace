@@ -1,5 +1,7 @@
 kde-workspace (4:4.7.4-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Fix a typo in the description of kmenuedit. (Closes: #665404)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 23 Mar 2012 22:12:11 +0100
 
