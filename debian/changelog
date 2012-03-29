@@ -14,6 +14,11 @@ kde-workspace (4:4.8.1-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.8.1.
   * Bump Standards-Version to 3.9.3, no changes needed.
   * Update symbols files.
+  * Bump sonames due to binary incompatible changes:
+    - libplasmaclock4abi2 -> libplasmaclock4abi3
+    - libtaskmanager4abi2 -> libtaskmanager4abi3
+    - libkworkspace4 -> libkworkspace4abi1
+    - libkwineffects1abi2 -> libkwineffects1abi3
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jan 2012 18:52:11 +0100
 

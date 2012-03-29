@@ -361,10 +361,10 @@ Description: library used by decorations for the KDE window manager
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwineffects1abi2
+Package: libkwineffects1abi3
 Section: libs
 Architecture: any
-X-Debian-ABI: 2
+X-Debian-ABI: 3
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library used by effects for the KDE window manager
  This package contains a library used by effects for the KDE window manager.
@@ -456,10 +456,10 @@ Description: KSignalPlotter widget
  .
  This package is part of the KDE base workspace module.
 
-Package: libkworkspace4
+Package: libkworkspace4abi1
 Section: libs
 Architecture: any
-X-Debian-ABI: 0
+X-Debian-ABI: 1
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library for the kdebase workspace
  This package contains libraries needed for the kdebase workspace.
@@ -477,10 +477,10 @@ Description: library for ksysguard based priority scheduling
  .
  This package is part of the KDE base workspace module.
 
-Package: libplasmaclock4abi2
+Package: libplasmaclock4abi3
 Section: libs
 Architecture: any
-X-Debian-ABI: 2
+X-Debian-ABI: 3
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library for Plasma clocks
  This package contains libraries needed for Plasma clocks.
@@ -551,10 +551,10 @@ Description: library for Solid based network interface management
  .
  This package is part of the KDE base workspace module.
 
-Package: libtaskmanager4abi2
+Package: libtaskmanager4abi3
 Section: libs
 Architecture: any
-X-Debian-ABI: 2
+X-Debian-ABI: 3
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library which provides task management facilities
  This package contains libraries which provide task management facilities.
