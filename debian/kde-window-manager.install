@@ -27,8 +27,6 @@ usr/lib/kde4/libexec/kwin_opengl_test
 usr/lib/kde4/libexec/kwin_rules_dialog
 usr/lib/libkdeinit4_kwin.so
 usr/lib/libkdeinit4_kwin_rules_dialog.so
-usr/lib/libkwinglutils.so.1
-usr/lib/libkwinglutils.so.1.0.0
 usr/lib/libkwinnvidiahack.so.4
 usr/lib/libkwinnvidiahack.so.4.8.0
 usr/share/doc/kde/HTML/en/kcontrol/desktop/common
