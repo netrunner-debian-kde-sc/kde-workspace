@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.1 amd64
+# SymbolsHelper-Confirmed: 4:4.8.2 amd64
 libkwineffects.so.1abi3 libkwineffects1abi3 #MINVER#
  ABI_1_3@ABI_1_3 4:4.8.1
  _ZN4KWin10Extensions10has_damageE@ABI_1_3 4:4.8.1
@@ -129,9 +129,12 @@ libkwineffects.so.1abi3 libkwineffects1abi3 #MINVER#
  _ZN4KWin15WindowPaintDataC2EPNS_12EffectWindowE@ABI_1_3 4:4.8.1
  _ZN4KWin15toXserverRegionE7QRegion@ABI_1_3 4:4.8.1
  _ZN4KWin15xRenderRoundBoxEmRK5QRectiRK6QColor@ABI_1_3 4:4.8.1
+ _ZN4KWin16xRenderOffscreenEv@ABI_1_3 4:4.8.2
+ _ZN4KWin16xRenderPopTargetEv@ABI_1_3 4:4.8.2
  _ZN4KWin17EffectWindowGroupD0Ev@ABI_1_3 4:4.8.1
  _ZN4KWin17EffectWindowGroupD1Ev@ABI_1_3 4:4.8.1
  _ZN4KWin17EffectWindowGroupD2Ev@ABI_1_3 4:4.8.1
+ _ZN4KWin17xRenderPushTargetEPNS_14XRenderPictureE@ABI_1_3 4:4.8.2
  _ZN4KWin18WindowPrePaintData14setTransformedEv@ABI_1_3 4:4.8.1
  _ZN4KWin18WindowPrePaintData14setTranslucentEv@ABI_1_3 4:4.8.1
  _ZN4KWin19WindowMotionManager10moveWindowEPNS_12EffectWindowE6QPointdd@ABI_1_3 4:4.8.1
@@ -147,12 +150,16 @@ libkwineffects.so.1abi3 libkwineffects1abi3 #MINVER#
  _ZN4KWin19WindowMotionManagerC2Eb@ABI_1_3 4:4.8.1
  _ZN4KWin19WindowMotionManagerD1Ev@ABI_1_3 4:4.8.1
  _ZN4KWin19WindowMotionManagerD2Ev@ABI_1_3 4:4.8.1
+ _ZN4KWin19setXRenderOffscreenEb@ABI_1_3 4:4.8.2
  _ZN4KWin19xRenderBlendPictureEd@ABI_1_3 4:4.8.1
  _ZN4KWin21GlobalShortcutsEditorC1EP7QWidget@ABI_1_3 4:4.8.1
  _ZN4KWin21GlobalShortcutsEditorC2EP7QWidget@ABI_1_3 4:4.8.1
  _ZN4KWin21GlobalShortcutsEditorD0Ev@ABI_1_3 4:4.8.1
  _ZN4KWin21GlobalShortcutsEditorD1Ev@ABI_1_3 4:4.8.1
  _ZN4KWin21GlobalShortcutsEditorD2Ev@ABI_1_3 4:4.8.1
+ _ZN4KWin22xRenderOffscreenTargetEv@ABI_1_3 4:4.8.2
+ _ZN4KWin28scene_xRenderOffscreenTargetEv@ABI_1_3 4:4.8.2
+ _ZN4KWin31scene_setXRenderOffscreenTargetEP7QPixmap@ABI_1_3 4:4.8.2
  _ZN4KWin6Effect10buildQuadsEPNS_12EffectWindowERNS_14WindowQuadListE@ABI_1_3 4:4.8.1
  _ZN4KWin6Effect10drawWindowEPNS_12EffectWindowEi7QRegionRNS_15WindowPaintDataE@ABI_1_3 4:4.8.1
  _ZN4KWin6Effect11paintScreenEi7QRegionRNS_15ScreenPaintDataE@ABI_1_3 4:4.8.1
