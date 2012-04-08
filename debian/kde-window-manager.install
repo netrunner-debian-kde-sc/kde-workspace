@@ -1,5 +1,4 @@
 usr/bin/kwin
-usr/bin/kwin_gles
 usr/lib/kconf_update_bin/kwin_update_default_rules
 usr/lib/kconf_update_bin/kwin_update_tabbox_qml_settings
 usr/lib/kconf_update_bin/kwin_update_tabbox_settings
@@ -19,7 +18,6 @@ usr/lib/kde4/kwin3_oxygen.so
 usr/lib/kde4/kwin3_plastik.so
 usr/lib/kde4/kwin3_tabstrip.so
 usr/lib/kde4/kwin4_effect_builtins.so
-usr/lib/kde4/kwin4_effect_gles_builtins.so
 usr/lib/kde4/kwin_b2_config.so
 usr/lib/kde4/kwin_oxygen_config.so
 usr/lib/kde4/kwin_plastik_config.so
@@ -28,10 +26,7 @@ usr/lib/kde4/libexec/kwin_killer_helper
 usr/lib/kde4/libexec/kwin_opengl_test
 usr/lib/kde4/libexec/kwin_rules_dialog
 usr/lib/libkdeinit4_kwin.so
-usr/lib/libkdeinit4_kwin_gles.so
 usr/lib/libkdeinit4_kwin_rules_dialog.so
-usr/lib/libkwinglesutils.so.1
-usr/lib/libkwinglesutils.so.1.0.0
 usr/lib/libkwinglutils.so.1
 usr/lib/libkwinglutils.so.1.0.0
 usr/lib/libkwinnvidiahack.so.4

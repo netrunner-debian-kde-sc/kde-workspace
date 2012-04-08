@@ -14,7 +14,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.2),
  libdbusmenu-qt-dev (>= 0.6.0),
  libfontconfig-dev,
  libggadget-1.0-dev (>= 0.11.2), libggadget-qt-1.0-dev (>= 0.11.2),
- libglu1-mesa-dev, libqt4-opengl-dev, libgles2-mesa-dev [linux-any kfreebsd-any],
+ libglu1-mesa-dev, libqt4-opengl-dev,
  python-dev (>= 2.6.6-3~),
  shared-desktop-ontologies (>= 0.8),
  libpam0g-dev,
@@ -33,6 +33,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.2),
  libqalculate-dev, libglib2.0-dev,
  libqtwebkit-dev,
  libprison-dev
+Build-Conflicts: libgles2-mesa-dev
 Standards-Version: 3.9.3
 X-Python-Version: >= 2.5
 Homepage: http://www.kde.org/
