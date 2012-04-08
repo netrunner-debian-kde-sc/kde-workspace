@@ -21,6 +21,7 @@ kde-workspace (4:4.8.2-0r1) UNRELEASED; urgency=low
     - libkwineffects1abi2 -> libkwineffects1abi3
   * Drop libgles2-mesa-dev [linux-any kfreebsd-any] build dependency for now and
     add it to Build-Conflicts, this disables Open GL ES compositing in kwin.
+  * Add libkwinglutils1 package, with symbols file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jan 2012 18:52:11 +0100
 

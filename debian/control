@@ -498,6 +498,17 @@ Description: library for the Plasma geolocation
  .
  This package is part of the KDE base workspace module.
 
+Package: libkwinglutils1
+Section: libs
+Architecture: any
+X-Debian-ABI: 0
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: library used by accellaration for the KDE window manager
+ This package contains a library used by accellaration for the KDE window
+ manager. This is for the KWin verwsion which uses OpenGL.
+ .
+ This package is part of the KDE base workspace module.
+
 Package: libplasmagenericshell4
 Section: libs
 Architecture: any
