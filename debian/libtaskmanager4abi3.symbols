@@ -110,7 +110,6 @@ libtaskmanager.so.4abi3 libtaskmanager4abi3 #MINVER#
  _ZN11TaskManager12LauncherItem16toggleFullScreenEv@ABI_4_3 4:4.8.1
  _ZN11TaskManager12LauncherItem17toggleAlwaysOnTopEv@ABI_4_3 4:4.8.1
  _ZN11TaskManager12LauncherItem18associationChangedEv@ABI_4_3 4:4.8.1
- _ZN11TaskManager12LauncherItem18defaultApplicationE7QStringb@ABI_4_3 4:4.8.1
  _ZN11TaskManager12LauncherItem18setKeptBelowOthersEb@ABI_4_3 4:4.8.1
  _ZN11TaskManager12LauncherItem21toggleKeptBelowOthersEv@ABI_4_3 4:4.8.1
  _ZN11TaskManager12LauncherItem22associateItemIfMatchesEPNS_21AbstractGroupableItemE@ABI_4_3 4:4.8.1
@@ -397,6 +396,7 @@ libtaskmanager.so.4abi3 libtaskmanager4abi3 #MINVER#
  _ZNK11TaskManager12LauncherItem16demandsAttentionEv@ABI_4_3 4:4.8.1
  _ZNK11TaskManager12LauncherItem17isActionSupportedEN3NET6ActionE@ABI_4_3 4:4.8.1
  _ZNK11TaskManager12LauncherItem17isKeptBelowOthersEv@ABI_4_3 4:4.8.1
+ _ZNK11TaskManager12LauncherItem18defaultApplicationEv@ABI_4_3 4:4.8.3
  _ZNK11TaskManager12LauncherItem18isOnCurrentDesktopEv@ABI_4_3 4:4.8.1
  _ZNK11TaskManager12LauncherItem4iconEv@ABI_4_3 4:4.8.1
  _ZNK11TaskManager12LauncherItem4nameEv@ABI_4_3 4:4.8.1
