@@ -189,7 +189,6 @@ libkwineffects.so.1abi3 libkwineffects1abi3 #MINVER#
  _ZN4KWin6EffectD0Ev@ABI_1_3 4:4.8.1
  _ZN4KWin6EffectD1Ev@ABI_1_3 4:4.8.1
  _ZN4KWin6EffectD2Ev@ABI_1_3 4:4.8.1
- (optional=templinst)_ZN4KWin6MotionI7QPointFE9calculateEi@ABI_1_3 4:4.8.1
  _ZN4KWin7effectsE@ABI_1_3 4:4.8.1
  _ZN4KWin8Motion1DC1ERKS0_@ABI_1_3 4:4.8.1
  _ZN4KWin8Motion1DC1Eddd@ABI_1_3 4:4.8.1
