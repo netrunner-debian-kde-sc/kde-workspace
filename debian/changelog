@@ -11,7 +11,7 @@ kde-workspace (4:4.8.3-0r0) UNRELEASED; urgency=low
   * Update installed files.
 
   [ José Manuel Santamaría Lema ]
-  * Bump kde-sc-dev-latest build dependency to 4:4.8.2.
+  * Bump kde-sc-dev-latest build dependency to 4:4.8.3.
   * Bump Standards-Version to 3.9.3, no changes needed.
   * Update symbols files.
   * Bump sonames due to binary incompatible changes:
