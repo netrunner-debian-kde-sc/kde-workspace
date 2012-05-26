@@ -7,6 +7,7 @@
 ./usr/lib/libplasma_applet-system-monitor.so
 ./usr/lib/libpowerdevilconfigcommonprivate.so
 ./usr/lib/libpowerdevilcore.so
+./usr/lib/libpowerdevilui.so
 ./usr/lib/liboxygenstyle.so
 ./usr/lib/liboxygenstyleconfig.so
 
