@@ -31,6 +31,7 @@ kde-workspace (4:4.8.3-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Do not ship libpowerdevilui dev symlink.
+  * Update lintian-overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jan 2012 18:52:11 +0100
 

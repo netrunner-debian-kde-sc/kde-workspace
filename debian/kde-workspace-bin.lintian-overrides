@@ -1,2 +1,1 @@
-kde-workspace-bin: package-name-doesnt-match-sonames libkfontinst4 libkfontinstui4 libkhotkeysprivate4 libpowerdevilcore0 libpowerdevilui
-kde-workspace-bin: shlib-without-versioned-soname usr/lib/libpowerdevilui.so libpowerdevilui.so
+kde-workspace-bin: package-name-doesnt-match-sonames
