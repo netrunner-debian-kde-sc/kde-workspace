@@ -1,9 +1,10 @@
-kde-workspace (4:4.8.3-0r1) UNRELEASED; urgency=low
+kde-workspace (4:4.8.3-1) experimental; urgency=low
 
   * New upstream release:
     - fixes the incorrect behaviour when "show minimized windows only" option
       is used in plasma-settings. (Closes: #523862)
     - fixes the disappearing hotkey of klipper. (Closes: #651549)
+  * Team upload.
 
   [ Eshat Cakar ]
   * Add myself to uploaders.
@@ -33,7 +34,7 @@ kde-workspace (4:4.8.3-0r1) UNRELEASED; urgency=low
   * Do not ship libpowerdevilui dev symlink.
   * Update lintian-overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Jan 2012 18:52:11 +0100
+ -- Modestas Vainius <modax@debian.org>  Sun, 27 May 2012 02:01:59 +0300
 
 kde-workspace (4:4.7.4-2) unstable; urgency=low
 
