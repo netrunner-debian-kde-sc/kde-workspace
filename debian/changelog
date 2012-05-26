@@ -1,6 +1,9 @@
 kde-workspace (4:4.8.3-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - fixes the incorrect behaviour when "show minimized windows only" option
+      is used in plasma-settings. (Closes: #523862)
+    - fixes the disappearing hotkey of klipper. (Closes: #651549)
 
   [ Eshat Cakar ]
   * Add myself to uploaders.
