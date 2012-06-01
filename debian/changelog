@@ -2,6 +2,7 @@ kde-workspace (4:4.8.3-2) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Add watch file.
+  * Add nlist_ftbfs_krefreebsd.diff, avoids FTBFS'es on kfreebsd.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Jun 2012 15:36:15 +0200
 
