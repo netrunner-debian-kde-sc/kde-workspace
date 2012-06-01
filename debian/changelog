@@ -3,6 +3,8 @@ kde-workspace (4:4.8.3-2) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Add watch file.
   * Add nlist_ftbfs_krefreebsd.diff, avoids FTBFS'es on kfreebsd.
+  * Add version for libpng build depend, now it's libpng12-dev (<< 1.5), this
+    avoids building this package against the libpng packages from experimental.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Jun 2012 15:36:15 +0200
 
