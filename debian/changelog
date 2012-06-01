@@ -1,5 +1,7 @@
 kde-workspace (4:4.8.3-2) UNRELEASED; urgency=low
 
+  [ José Manuel Santamaría Lema ]
+  * Add watch file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Jun 2012 15:36:15 +0200
 
