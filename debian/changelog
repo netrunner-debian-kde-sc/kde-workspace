@@ -1,4 +1,6 @@
-kde-workspace (4:4.8.3-2) UNRELEASED; urgency=low
+kde-workspace (4:4.8.3-2) experimental; urgency=low
+
+  * Team upload.
 
   [ José Manuel Santamaría Lema ]
   * Add watch file.
@@ -6,7 +8,7 @@ kde-workspace (4:4.8.3-2) UNRELEASED; urgency=low
   * Add version for libpng build depend, now it's libpng12-dev (<< 1.5), this
     avoids building this package against the libpng packages from experimental.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Jun 2012 15:36:15 +0200
+ -- Modestas Vainius <modax@debian.org>  Sat, 02 Jun 2012 18:03:41 +0300
 
 kde-workspace (4:4.8.3-1) experimental; urgency=low
 
