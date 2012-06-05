@@ -255,7 +255,6 @@ Description: Web and Mac OS X dashboard widget support for Plasma
  This package is part of the KDE base workspace module.
 
 Package: plasma-scriptengine-googlegadgets
-Priority: extra
 Architecture: any
 Depends: ${shlibs:Depends}, google-gadgets-qt, ${misc:Depends}
 Description: Google Gadgets script engine for Plasma
