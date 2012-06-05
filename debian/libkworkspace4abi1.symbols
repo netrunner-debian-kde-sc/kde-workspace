@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.1 amd64
+# SymbolsHelper-Confirmed: 4:4.8.3 amd64 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
 libkworkspace.so.4abi1 libkworkspace4abi1 #MINVER#
  ABI_4_1@ABI_4_1 4:4.8.1
  _ZN10KWorkSpace10trimMallocEv@ABI_4_1 4:4.8.1
@@ -53,6 +53,8 @@ libkworkspace.so.4abi1 libkworkspace4abi1 #MINVER#
  _ZN19ScreenPreviewWidgetD0Ev@ABI_4_1 4:4.8.1
  _ZN19ScreenPreviewWidgetD1Ev@ABI_4_1 4:4.8.1
  _ZN19ScreenPreviewWidgetD2Ev@ABI_4_1 4:4.8.1
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN7SessEntD1Ev@ABI_4_1 4:4.8.3
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN7SessEntD2Ev@ABI_4_1 4:4.8.3
  _ZNK15KWindowListMenu10metaObjectEv@ABI_4_1 4:4.8.1
  _ZNK19ScreenPreviewWidget10metaObjectEv@ABI_4_1 4:4.8.1
  _ZNK19ScreenPreviewWidget11previewRectEv@ABI_4_1 4:4.8.1

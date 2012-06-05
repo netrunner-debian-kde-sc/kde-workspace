@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.1 amd64
+# SymbolsHelper-Confirmed: 4:4.8.3 amd64 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
 libplasmaclock.so.4abi3 libplasmaclock4abi3 #MINVER#
  ABI_4_3@ABI_4_3 4:4.8.1
  _ZN11ClockApplet10popupEventEb@ABI_4_3 4:4.8.1
@@ -127,6 +127,7 @@ libplasmaclock.so.4abi3 libplasmaclock4abi3 #MINVER#
  _ZNK11ClockApplet15isLocalTimezoneEv@ABI_4_3 4:4.8.1
  _ZNK11ClockApplet21shouldDisplayTimezoneEv@ABI_4_3 4:4.8.1
  _ZNK11ClockApplet8calendarEv@ABI_4_3 4:4.8.1
+ (optional=templinst|arch=kfreebsd-amd64 kfreebsd-i386)_ZNK12KConfigGroup9readCheckIbEET_PKcRKS1_@ABI_4_3 4:4.8.3
  _ZNK6Plasma13CalendarTable10metaObjectEv@ABI_4_3 4:4.8.1
  _ZNK6Plasma13CalendarTable11currentDateEv@ABI_4_3 4:4.8.1
  _ZNK6Plasma13CalendarTable11dateDetailsERK5QDate@ABI_4_3 4:4.8.1
