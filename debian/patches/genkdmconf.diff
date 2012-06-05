@@ -1,6 +1,6 @@
 --- a/kdm/kfrontend/genkdmconf.c
 +++ b/kdm/kfrontend/genkdmconf.c
-@@ -613,7 +613,7 @@ static const char def_xaccess[] =
+@@ -622,7 +622,7 @@ static const char def_xaccess[] =
  "# right hand sides can match.\n"
  "#\n"
  "\n"
@@ -9,7 +9,7 @@
  "\n"
  "#\n"
  "# To hardwire a specific terminal to a specific host, you can\n"
-@@ -631,7 +631,7 @@ static const char def_xaccess[] =
+@@ -640,7 +640,7 @@ static const char def_xaccess[] =
  "# so this may not work in all environments.\n"
  "#\n"
  "\n"
@@ -18,7 +18,7 @@
  "\n"
  "#\n"
  "# If you would prefer to configure the set of hosts each terminal sees,\n"
-@@ -667,16 +667,18 @@ static const char def_startup[] =
+@@ -676,16 +676,18 @@ static const char def_startup[] =
  "#! /bin/sh\n"
  "# Xstartup - run as root before session starts\n"
  "\n"
@@ -46,7 +46,7 @@
  "\n"
  "# NOTE: The session is aborted if the last command returns non-zero.\n";
  
-@@ -722,6 +724,7 @@ static const char def_session1[] =
+@@ -731,6 +733,7 @@ static const char def_session1[] =
  "    [ -f $zhome/.zprofile ] && . $zhome/.zprofile\n"
  "    [ -f $zdir/zlogin ] && . $zdir/zlogin\n"
  "    [ -f $zhome/.zlogin ] && . $zhome/.zlogin\n"
@@ -54,7 +54,7 @@
  "    ;;\n"
  "  */csh|*/tcsh)\n"
  "    # [t]cshrc is always sourced automatically.\n"
-@@ -739,36 +742,8 @@ static const char def_session2[] =
+@@ -748,36 +751,8 @@ static const char def_session2[] =
  "    ;;\n"
  "esac\n"
  "\n"
@@ -93,7 +93,7 @@
  
  static const char def_background[] =
  "[Desktop0]\n"
-@@ -1119,29 +1094,6 @@ getInitTab(void)
+@@ -1128,29 +1103,6 @@ getInitTab(void)
  
      if (maxTTY)
          return;

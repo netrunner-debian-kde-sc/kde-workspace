@@ -9,7 +9,7 @@ not stable and structures frequently conflict.
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -261,3 +261,10 @@ install(EXPORT kdeworkspaceLibraryTarget
+@@ -264,3 +264,10 @@ install(EXPORT kdeworkspaceLibraryTarget
  
  # Add support for DebianABIManager
  include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)

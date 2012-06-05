@@ -4,6 +4,7 @@ kde-workspace (4:4.8.4-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
+  * Refresh patches to make them apply without any offset.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jun 2012 16:48:51 +0200
 

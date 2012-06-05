@@ -139,7 +139,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  # ifdef XDMCP
 --- a/kdm/kfrontend/genkdmconf.c
 +++ b/kdm/kfrontend/genkdmconf.c
-@@ -1538,7 +1538,8 @@ static void
+@@ -1547,7 +1547,8 @@ static void
  upd_servervts(Entry *ce, Section *cs ATTR_UNUSED)
  {
      if (!ce->active) { /* there is only the Global one */
@@ -149,7 +149,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
          getInitTab();
          ASPrintf((char **)&ce->value, "-%d", maxTTY + 1);
          ce->active = ce->written = True;
-@@ -1550,14 +1551,19 @@ static void
+@@ -1559,14 +1560,19 @@ static void
  upd_consolettys(Entry *ce, Section *cs ATTR_UNUSED)
  {
      if (!ce->active) { /* there is only the Global one */
@@ -170,7 +170,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
          if (buf) {
              ce->value = buf + 1;
              ce->active = ce->written = True;
-@@ -3190,7 +3196,7 @@ int main(int argc, char **argv)
+@@ -3199,7 +3205,7 @@ int main(int argc, char **argv)
              }
          }
      }
