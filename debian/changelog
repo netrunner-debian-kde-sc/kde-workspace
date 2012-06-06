@@ -6,7 +6,7 @@ kde-workspace (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
   * Refresh patches to make them apply without any offset.
   * Confirm symbols files on more architectures with the 4.8.3 build logs.
-  * Set plasma-scriptengine-googlegadgets priority to 'extra'. This fixes the
+  * Set plasma-scriptengine-googlegadgets priority to 'optional'. This fixes the
     following lintian warning:
     - package-depends-on-lower-priority-package plasma-scriptengines:optional
       depends on plasma-scriptengine-googlegadgets:extra
