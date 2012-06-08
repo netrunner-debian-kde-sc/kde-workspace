@@ -1,4 +1,4 @@
-kde-workspace (4:4.8.4-0r3) UNRELEASED; urgency=low
+kde-workspace (4:4.8.4-0r6) UNRELEASED; urgency=low
 
   * New upstream release.
     - fixes krunner crash. (Closes: #675888)
