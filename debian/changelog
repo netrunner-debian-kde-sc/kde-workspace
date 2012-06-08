@@ -10,6 +10,9 @@ kde-workspace (4:4.8.4-0r2) UNRELEASED; urgency=low
   * Refresh patches to make them apply without any offset.
   * Confirm symbols files on more architectures with the 4.8.3 build logs.
   * Set plasma-scriptengine-googlegadgets priority to 'optional'. This fixes the
+  * Move various documentation files about windows behaviour from
+    kde-workspace-data to kde-window-manager.
+  * Set plasma-scriptengine-googlegadgets priority to 'extra'. This fixes the
     following lintian warning:
     - package-depends-on-lower-priority-package plasma-scriptengines:optional
       depends on plasma-scriptengine-googlegadgets:extra
