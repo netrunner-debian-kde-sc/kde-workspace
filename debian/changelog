@@ -12,6 +12,7 @@ kde-workspace (4:4.8.4-0r2) UNRELEASED; urgency=low
   * Set plasma-scriptengine-googlegadgets priority to 'optional'. This fixes the
   * Move various documentation files about windows behaviour from
     kde-workspace-data to kde-window-manager.
+  * Add new files to install for 4.8.4.
   * Set plasma-scriptengine-googlegadgets priority to 'extra'. This fixes the
     following lintian warning:
     - package-depends-on-lower-priority-package plasma-scriptengines:optional
