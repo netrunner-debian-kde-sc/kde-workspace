@@ -19,3 +19,4 @@ kdm_vt_switching_on_kfreebsd.diff
 nlist_ftbfs_krefreebsd.diff
 process_table_unclickable.diff
 new_beams_custom_plots.diff
+relax_kdelibs_dependency.diff

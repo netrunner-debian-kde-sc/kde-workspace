@@ -18,6 +18,10 @@ kde-workspace (4:4.8.4-0r6) UNRELEASED; urgency=low
     - package-depends-on-lower-priority-package plasma-scriptengines:optional
       depends on plasma-scriptengine-googlegadgets:extra
 
+  [ Modestas Vainius ]
+  * Relax kde-workspace dependency on kdelibs so we can build with kde4libs
+    4.8.3 (patch relax_kdelibs_dependency.diff).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jun 2012 16:48:51 +0200
 
 kde-workspace (4:4.8.3-2) experimental; urgency=low
