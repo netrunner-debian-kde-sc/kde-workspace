@@ -1,7 +1,8 @@
-kde-workspace (4:4.8.4-0r6) UNRELEASED; urgency=low
+kde-workspace (4:4.8.4-1) unstable; urgency=low
 
   * New upstream release.
     - fixes krunner crash. (Closes: #675888)
+  * Team upload.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
@@ -22,7 +23,7 @@ kde-workspace (4:4.8.4-0r6) UNRELEASED; urgency=low
   * Relax kde-workspace dependency on kdelibs so we can build with kde4libs
     4.8.3 (patch relax_kdelibs_dependency.diff).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 05 Jun 2012 16:48:51 +0200
+ -- Modestas Vainius <modax@debian.org>  Sat, 09 Jun 2012 18:09:56 +0300
 
 kde-workspace (4:4.8.3-2) experimental; urgency=low
 
