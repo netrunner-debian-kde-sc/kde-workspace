@@ -4,7 +4,7 @@ dh = --with=python2
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 libpkgs_addsubst_allLibraries = kde-workspace-dev
-libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
+libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages) kde-style-oxygen
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
 BINARYVERSION := $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Version: //')
