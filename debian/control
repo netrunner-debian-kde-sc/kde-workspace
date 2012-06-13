@@ -45,7 +45,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kde-workspace.git
 
 Package: kde-workspace
 Architecture: all
-Depends:  kde-workspace-bin (>= ${source:Version}), ${misc:Depends},
+Depends: kde-workspace-bin (>= ${source:Version}), ${misc:Depends},
  klipper (>= ${source:Version}), ksysguard (>= ${source:Version}), 
  kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version}),
  freespacenotifier (>= ${source:Version})
@@ -361,7 +361,7 @@ Architecture: any
 X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library used by decorations for the KDE window manager
- This package contains a library used by decorations of the KDE  window
+ This package contains a library used by decorations of the KDE window
  manager.
  .
  This package is part of the KDE base workspace module.
