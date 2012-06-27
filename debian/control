@@ -476,9 +476,9 @@ Section: libs
 Architecture: any
 X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: library for ksysguard based priority scheduling
- This package contains libraries needed for ksysguard based scheduling
- priority of a process.
+Description: library for ksysguard's list of open files
+ This package contains a library of ksysguard that shows a graphical
+ view of the list of open files of running processes.
  .
  This package is part of the KDE base workspace module.
 
