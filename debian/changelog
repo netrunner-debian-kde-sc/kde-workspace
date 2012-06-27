@@ -6,6 +6,7 @@ kde-workspace (4:4.8.4-3) UNRELEASED; urgency=low
   * Backport upstream commit b798928ac8b9c6acf804b5cd4101d8a2a860654a to sort
     the plasma-desktop init .js scripts;
     patch upstream_make-sure-scripts-are-executed-sorted.patch.
+  * Improve the description of libkwinglutils1. (Closes: #678416)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 11 Jun 2012 13:03:28 +0200
 
