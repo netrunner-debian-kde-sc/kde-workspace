@@ -8,6 +8,9 @@ kde-workspace (4:4.8.4-3) UNRELEASED; urgency=low
     patch upstream_make-sure-scripts-are-executed-sorted.patch.
   * Improve the description of libkwinglutils1. (Closes: #678416)
   * Rewrite the description of liblsofui4. (Closes: #592553)
+  * Backport upstream commit da6e2b49fd2a30aca167ae37ef3e3fd1c7d3bc58 to fix
+    XDMCP login in kdm; patch
+    upstream_centralize-interaction-notification-handling.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 11 Jun 2012 13:03:28 +0200
 

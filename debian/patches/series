@@ -22,3 +22,4 @@ new_beams_custom_plots.diff
 relax_kdelibs_dependency.diff
 hurd.diff
 upstream_make-sure-scripts-are-executed-sorted.patch
+upstream_centralize-interaction-notification-handling.patch
