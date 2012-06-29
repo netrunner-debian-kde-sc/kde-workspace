@@ -1,5 +1,7 @@
 kde-workspace (4:4.8.4-3) UNRELEASED; urgency=low
 
+  * Team upload.
+
   [ Pino Toscano ]
   * Fix build failure on Hurd; patch hurd.diff.
   * Remove a couple of double spaces in control.
