@@ -1,5 +1,8 @@
 kde-workspace (4:4.8.4-4) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Add breaks/replaces in kde-window-manager against kdebase-workspace-data
+    << 4.7.2. (Closes: #684972)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200
 

@@ -346,8 +346,8 @@ Package: kde-window-manager
 Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
-Breaks: kde-workspace-data (<< 4:4.8.4-0r5)
-Replaces: kde-workspace-data (<< 4:4.8.4-0r5)
+Breaks: kdebase-workspace-data (<< 4:4.7.2), kde-workspace-data (<< 4:4.8.4-0r5)
+Replaces: kdebase-workspace-data (<< 4:4.7.2), kde-workspace-data (<< 4:4.8.4-0r5)
 Provides: x-window-manager
 Description: K window manager (KWin)
  This package contains KWin, the KDE window manager, featuring 
