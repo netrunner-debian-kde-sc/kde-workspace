@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.8.4 armel armhf mips mipsel sparc
 libkwineffects.so.1abi3 libkwineffects1abi3 #MINVER#
  ABI_1_3@ABI_1_3 4:4.8.1
  _ZN4KWin10Extensions10has_damageE@ABI_1_3 4:4.8.1
@@ -29,7 +29,7 @@ libkwineffects.so.1abi3 libkwineffects1abi3 #MINVER#
  _ZN4KWin10Extensions8has_syncE@ABI_1_3 4:4.8.1
  _ZN4KWin10Extensions9has_randrE@ABI_1_3 4:4.8.1
  _ZN4KWin11EffectFrame15enableCrossFadeEb@ABI_1_3 4:4.8.1
- _ZN4KWin11EffectFrame20setCrossFadeProgressEd@ABI_1_3 4:4.8.1
+ (subst)_ZN4KWin11EffectFrame20setCrossFadeProgressE{qreal}@ABI_1_3 4:4.8.1
  _ZN4KWin11EffectFrameC1Ev@ABI_1_3 4:4.8.1
  _ZN4KWin11EffectFrameC2Ev@ABI_1_3 4:4.8.1
  _ZN4KWin11EffectFrameD0Ev@ABI_1_3 4:4.8.1
@@ -83,7 +83,7 @@ libkwineffects.so.1abi3 libkwineffects1abi3 #MINVER#
  _ZN4KWin14EffectsHandler17sendReloadMessageERK7QString@ABI_1_3 4:4.8.1
  _ZN4KWin14EffectsHandler17windowUnminimizedEPNS_12EffectWindowE@ABI_1_3 4:4.8.1
  _ZN4KWin14EffectsHandler20clientGroupItemAddedEPNS_12EffectWindowES2_@ABI_1_3 4:4.8.1
- _ZN4KWin14EffectsHandler20windowOpacityChangedEPNS_12EffectWindowEdd@ABI_1_3 4:4.8.1
+ (subst)_ZN4KWin14EffectsHandler20windowOpacityChangedEPNS_12EffectWindowE{qreal}{qreal}@ABI_1_3 4:4.8.1
  _ZN4KWin14EffectsHandler21numberDesktopsChangedEi@ABI_1_3 4:4.8.1
  _ZN4KWin14EffectsHandler22clientGroupItemRemovedEPNS_12EffectWindowES2_@ABI_1_3 4:4.8.1
  _ZN4KWin14EffectsHandler23clientGroupItemSwitchedEPNS_12EffectWindowES2_@ABI_1_3 4:4.8.1
@@ -191,9 +191,10 @@ libkwineffects.so.1abi3 libkwineffects1abi3 #MINVER#
  _ZN4KWin6EffectD0Ev@ABI_1_3 4:4.8.1
  _ZN4KWin6EffectD1Ev@ABI_1_3 4:4.8.1
  _ZN4KWin6EffectD2Ev@ABI_1_3 4:4.8.1
- (optional=templinst|arch=ia64 powerpc s390 s390x)_ZN4KWin6MotionI7QPointFE9calculateEi@ABI_1_3 4:4.8.3
- (optional=templinst|arch=ia64 powerpc s390)_ZN4KWin6MotionI7QPointFEC1ERKS2_@ABI_1_3 4:4.8.3
- (optional=templinst|arch=ia64 powerpc s390)_ZN4KWin6MotionI7QPointFEC2ERKS2_@ABI_1_3 4:4.8.3
+ (optional=templinst|arch=mips mipsel)_ZN4KWin6MotionI7QPointFE6finishEv@ABI_1_3 4:4.8.4
+ (optional=templinst)_ZN4KWin6MotionI7QPointFE9calculateEi@ABI_1_3 4:4.8.3
+ (optional=templinst|arch=armhf ia64 mips mipsel powerpc s390)_ZN4KWin6MotionI7QPointFEC1ERKS2_@ABI_1_3 4:4.8.3
+ (optional=templinst|arch=armhf ia64 mips mipsel powerpc s390)_ZN4KWin6MotionI7QPointFEC2ERKS2_@ABI_1_3 4:4.8.3
  _ZN4KWin7effectsE@ABI_1_3 4:4.8.1
  _ZN4KWin8Motion1DC1ERKS0_@ABI_1_3 4:4.8.1
  _ZN4KWin8Motion1DC1Eddd@ABI_1_3 4:4.8.1
