@@ -8,6 +8,7 @@ kde-workspace (4:4.8.5-0r0) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Confirm symbols from buildds' logs.
+  * Remove process_table_unclickable.diff. Already present upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200
 
