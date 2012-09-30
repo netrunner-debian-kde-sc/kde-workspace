@@ -1,4 +1,6 @@
-kde-workspace (4:4.8.4-4) UNRELEASED; urgency=low
+kde-workspace (4:4.8.5-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Pino Toscano ]
   * Add breaks/replaces in kde-window-manager against kdebase-workspace-data
