@@ -17,7 +17,6 @@ initialize_variables_crashfix.diff
 enable_dlrestrcitions.diff
 kdm_vt_switching_on_kfreebsd.diff
 nlist_ftbfs_krefreebsd.diff
-new_beams_custom_plots.diff
 relax_kdelibs_dependency.diff
 hurd.diff
 upstream_make-sure-scripts-are-executed-sorted.patch
