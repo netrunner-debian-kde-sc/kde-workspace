@@ -11,6 +11,7 @@ kde-workspace (4:4.8.5-0r0) UNRELEASED; urgency=low
   * Remove patches already applied upstream.
     - process_table_unclickable.diff.
     - new_beams_custom_plots.diff.
+    - upstream_make-sure-scripts-are-executed-sorted.patch.
   * Refresh relax_kdelibs_dependency.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200
