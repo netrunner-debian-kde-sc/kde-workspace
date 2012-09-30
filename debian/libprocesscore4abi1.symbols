@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.8.4 armel armhf hurd-i386
 libprocesscore.so.4abi1 libprocesscore4abi1 #MINVER#
 * Build-Depends-Package: kdebase-workspace-dev
  ABI_4_1@ABI_4_1 4:4.6.1
@@ -47,8 +47,6 @@ libprocesscore.so.4abi1 libprocesscore4abi1 #MINVER#
  _ZN9KSysGuard7ProcessC1ExxPS0_@ABI_4_1 4:4.6.1
  _ZN9KSysGuard7ProcessC2Ev@ABI_4_1 4:4.6.1
  _ZN9KSysGuard7ProcessC2ExxPS0_@ABI_4_1 4:4.6.1
- (arch=!amd64 !i386 !ia64 !mips !mipsel !powerpc !s390 !s390x !sparc)_ZN9KSysGuard7ProcessD1Ev@ABI_4_1 4:4.7.2
- (arch=!amd64 !i386 !ia64 !mips !mipsel !powerpc !s390 !s390x !sparc)_ZN9KSysGuard7ProcessD2Ev@ABI_4_1 4:4.7.2
  _ZN9KSysGuard9Processes10addProcessEll@ABI_4_1 4:4.6.1
  _ZN9KSysGuard9Processes10runCommandERK7QStringi@ABI_4_1 4:4.6.1
  _ZN9KSysGuard9Processes10sendSignalEli@ABI_4_1 4:4.6.1
