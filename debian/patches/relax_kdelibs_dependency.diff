@@ -2,6 +2,7 @@ From: Modestas Vainius <modax@debian.org>
 Subject: Relax kde-workspace dependency on kdelibs
 Origin: vendor
 Forwarded: not-needed
+Last-Update: 2012-09-30
 
 Otherwise we can't build with 4.8.3. Moreoever, such a strict dependency is
 pretty pointless anyway.
