@@ -19,4 +19,3 @@ kdm_vt_switching_on_kfreebsd.diff
 nlist_ftbfs_krefreebsd.diff
 relax_kdelibs_dependency.diff
 hurd.diff
-upstream_centralize-interaction-notification-handling.patch
