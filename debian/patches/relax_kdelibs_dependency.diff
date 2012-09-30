@@ -12,7 +12,7 @@ pretty pointless anyway.
  
  #search packages used by KDE
  set(QT_MIN_VERSION "4.7.0")
--set(KDE_MIN_VERSION "4.8.4")
+-set(KDE_MIN_VERSION "4.8.5")
 +set(KDE_MIN_VERSION "4.8.0")
  set(SOPRANO_MIN_VERSION "2.5.63")
  
