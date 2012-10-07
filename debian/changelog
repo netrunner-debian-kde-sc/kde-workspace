@@ -1,6 +1,7 @@
 kde-workspace (4:4.8.5-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
+  * The package (re)building switches to XZ compression. (Closes: #688761)
 
   [ Pino Toscano ]
   * Add breaks/replaces in kde-window-manager against kdebase-workspace-data
