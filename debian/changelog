@@ -1,4 +1,4 @@
-kde-workspace (4:4.8.4-4) UNRELEASED; urgency=low
+kde-workspace (4:4.8.4-4) unstable; urgency=low
 
   * New upstream release.
   * The package (re)building switches to XZ compression. (Closes: #688761)
@@ -11,7 +11,7 @@ kde-workspace (4:4.8.4-4) UNRELEASED; urgency=low
   * Confirm symbols from buildds' logs.
   * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 21 Oct 2012 11:07:11 -0300
 
 kde-workspace (4:4.8.4-3) unstable; urgency=low
 
