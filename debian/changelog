@@ -1,12 +1,12 @@
 kde-workspace (4:4.8.4-5) UNRELEASED; urgency=low
 
-
+  * Remove "New upstream release" from the previous changelog entry
+    (Closes: ##691302). Thanks Filipus Klutiero.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:06:28 -0300
 
 kde-workspace (4:4.8.4-4) unstable; urgency=low
 
-  * New upstream release.
   * The package (re)building switches to XZ compression. (Closes: #688761)
 
   [ Pino Toscano ]
