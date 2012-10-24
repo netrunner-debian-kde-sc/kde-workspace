@@ -1,6 +1,21 @@
 kde-workspace (4:4.8.5-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove patches already applied upstream.
+    - process_table_unclickable.diff.
+    - new_beams_custom_plots.diff.
+    - upstream_make-sure-scripts-are-executed-sorted.patch.
+    - upstream_centralize-interaction-notification-handling.patch.
+  * Refresh relax_kdelibs_dependency.diff.
+  * Remove "New upstream release" from the previous changelog entry
+    (Closes: ##691302). Thanks Filipus Klutiero.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200
+
+kde-workspace (4:4.8.4-4) unstable; urgency=low
+
   * The package (re)building switches to XZ compression. (Closes: #688761)
 
   [ Pino Toscano ]
@@ -9,14 +24,9 @@ kde-workspace (4:4.8.5-0r0) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Confirm symbols from buildds' logs.
-  * Remove patches already applied upstream.
-    - process_table_unclickable.diff.
-    - new_beams_custom_plots.diff.
-    - upstream_make-sure-scripts-are-executed-sorted.patch.
-    - upstream_centralize-interaction-notification-handling.patch.
-  * Refresh relax_kdelibs_dependency.diff.
+  * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 21 Oct 2012 11:07:11 -0300
 
 kde-workspace (4:4.8.4-3) unstable; urgency=low
 
