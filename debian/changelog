@@ -13,6 +13,10 @@ kde-workspace (4:4.8.4-5) UNRELEASED; urgency=low
     53f6eca921a44a1f5e567b92d45ea84599afea74 to make powermanagementprofilesrc
     read as cascading config, and 9994e178b790b03a464c335e624366f82f0da643 for
     kwinrc.
+  * Backport upstream commit 5b35757fc3613a18e2d784af53d1d23ebe295028 to
+    improve the sorting of init .js files (followup of the changes backported
+    in 4:4.8.4-3 with upstream_make-sure-scripts-are-executed-sorted.patch);
+    patch upstream_Make-sure-the-plasma-desktop-scripts-are-sorted-in-t.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:06:28 -0300
 
