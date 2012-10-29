@@ -23,3 +23,4 @@ relax_kdelibs_dependency.diff
 hurd.diff
 upstream_make-sure-scripts-are-executed-sorted.patch
 upstream_centralize-interaction-notification-handling.patch
+upstream_Check-if-attention-demanding-status-has-changed-when.patch

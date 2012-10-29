@@ -4,6 +4,12 @@ kde-workspace (4:4.8.4-5) UNRELEASED; urgency=low
   * Remove "New upstream release" from the previous changelog entry
     (Closes: #691302). Thanks Filipus Klutiero.
 
+  [ Pino Toscano ]
+  * Backport upstream commit 89161c40e064958aa192b2202670316671d7e377 to fix
+    the "demand" status of windows in the taskbar widget; patch
+    upstream_Check-if-attention-demanding-status-has-changed-when.patch.
+    (Closes: #685334)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:06:28 -0300
 
 kde-workspace (4:4.8.4-4) unstable; urgency=low
