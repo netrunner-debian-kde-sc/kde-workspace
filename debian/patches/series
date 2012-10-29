@@ -24,3 +24,6 @@ hurd.diff
 upstream_make-sure-scripts-are-executed-sorted.patch
 upstream_centralize-interaction-notification-handling.patch
 upstream_Check-if-attention-demanding-status-has-changed-when.patch
+upstream_Use-the-CascadeConfig-flag-as-this-allows-the-KCM-to.patch
+upstream_Use-cascaded-configs-for-other-modules-as-well.patch
+upstream_Fix-the-kwin-KCM-to-read-cascaded-configs.patch
