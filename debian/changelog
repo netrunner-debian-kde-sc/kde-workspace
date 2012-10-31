@@ -17,6 +17,8 @@ kde-workspace (4:4.8.4-5) UNRELEASED; urgency=low
     improve the sorting of init .js files (followup of the changes backported
     in 4:4.8.4-3 with upstream_make-sure-scripts-are-executed-sorted.patch);
     patch upstream_Make-sure-the-plasma-desktop-scripts-are-sorted-in-t.patch.
+  * Fix encoding of the Polish debconf translation; thanks David Prévot.
+    (Closes: #691953)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:06:28 -0300
 
