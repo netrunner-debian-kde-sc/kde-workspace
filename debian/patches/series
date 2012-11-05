@@ -28,3 +28,4 @@ upstream_Use-the-CascadeConfig-flag-as-this-allows-the-KCM-to.patch
 upstream_Use-cascaded-configs-for-other-modules-as-well.patch
 upstream_Fix-the-kwin-KCM-to-read-cascaded-configs.patch
 upstream_Make-sure-the-plasma-desktop-scripts-are-sorted-in-t.patch
+upstream_Fix-deletion-of-preferred-application-launchers.patch
