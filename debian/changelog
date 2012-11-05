@@ -20,6 +20,7 @@ kde-workspace (4:4.8.4-5) UNRELEASED; urgency=low
 
   [ Debconf translation updates ]
   * Fix encoding of Polish (thanks to David Prévot). (Closes: #691953)
+  * Fix encoding of Spanish (thanks to Camaleón). (Closes: #692209)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:06:28 -0300
 
