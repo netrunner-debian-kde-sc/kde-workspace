@@ -9,7 +9,7 @@ For more information about DebianABIManager, refer to
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -261,3 +261,6 @@ install(EXPORT kdeworkspaceLibraryTarget
+@@ -251,3 +251,6 @@ install(EXPORT kdeworkspaceLibraryTarget
          NAMESPACE ${KDE4WORKSPACE_TARGET_PREFIX}
          DESTINATION ${_KDE4WorkspaceConfig_INSTALL_DIR}
          FILE KDE4WorkspaceLibraryTargets.cmake )
