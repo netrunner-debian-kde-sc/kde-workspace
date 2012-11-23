@@ -42,6 +42,10 @@ usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.findWidgets/c
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.findWidgets/metadata.desktop
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.photoActivity/contents/layout.js
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.photoActivity/metadata.desktop
+usr/share/kde4/apps/plasma/packages/org.kde.desktop.activitymanager/contents/ui/.directory
+usr/share/kde4/apps/plasma/packages/org.kde.desktop.activitymanager/contents/ui/ActivityDelegate.qml
+usr/share/kde4/apps/plasma/packages/org.kde.desktop.activitymanager/contents/ui/main.qml
+usr/share/kde4/apps/plasma/packages/org.kde.desktop.activitymanager/metadata.desktop
 usr/share/kde4/config.kcfg/plasma-shell-desktop.kcfg
 usr/share/kde4/config/activities.knsrc
 usr/share/kde4/config/plasma-themes.knsrc

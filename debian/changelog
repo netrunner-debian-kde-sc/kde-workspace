@@ -16,6 +16,7 @@ kde-workspace (4:4.9.3-0r0) UNRELEASED; urgency=low
     - drop relax_kdelibs_dependency.diff, no longer needed.
     - extend place_global_config_in_etc.diff.
     - refresh other patches to make them apply without any offset.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200
 

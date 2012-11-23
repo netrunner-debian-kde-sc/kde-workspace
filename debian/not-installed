@@ -428,3 +428,6 @@
 ./usr/lib/libkdeinit4_plasma-netbook.so
 ./usr/lib/libkdeinit4_plasma-windowed.so
 
+#Mo need to install these Messages.sh
+./usr/share/kde4/apps/plasma/packages/org.kde.desktop.activitymanager/Messages.sh
+./usr/share/kde4/apps/plasma/packages/org.kde.desktop.widgetexplorer/Messages.sh

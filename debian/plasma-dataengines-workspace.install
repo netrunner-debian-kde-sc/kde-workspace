@@ -19,6 +19,7 @@ usr/lib/kde4/plasma_engine_hotplug.so
 usr/lib/kde4/plasma_engine_keystate.so
 usr/lib/kde4/plasma_engine_metadata.so
 usr/lib/kde4/plasma_engine_mouse.so
+usr/lib/kde4/plasma_engine_mpris2.so
 usr/lib/kde4/plasma_engine_network.so
 usr/lib/kde4/plasma_engine_notifications.so
 usr/lib/kde4/plasma_engine_nowplaying.so
@@ -36,6 +37,7 @@ usr/share/kde4/apps/plasma/services/applicationjobs.operations
 usr/share/kde4/apps/plasma/services/apps.operations
 usr/share/kde4/apps/plasma/services/hotplug.operations
 usr/share/kde4/apps/plasma/services/modifierkeystate.operations
+usr/share/kde4/apps/plasma/services/mpris2.operations
 usr/share/kde4/apps/plasma/services/notifications.operations
 usr/share/kde4/apps/plasma/services/nowplaying.operations
 usr/share/kde4/apps/plasma/services/org.kde.places.operations
@@ -81,6 +83,7 @@ usr/share/kde4/services/plasma-dataengine-geolocation.desktop
 usr/share/kde4/services/plasma-dataengine-hotplug.desktop
 usr/share/kde4/services/plasma-dataengine-keystate.desktop
 usr/share/kde4/services/plasma-dataengine-mouse.desktop
+usr/share/kde4/services/plasma-dataengine-mpris2.desktop
 usr/share/kde4/services/plasma-dataengine-network.desktop
 usr/share/kde4/services/plasma-dataengine-notifications.desktop
 usr/share/kde4/services/plasma-dataengine-nowplaying.desktop

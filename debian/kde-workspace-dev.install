@@ -5,6 +5,7 @@ usr/include/kdecorationbridge.h
 usr/include/kdecorationfactory.h
 usr/include/kgreeterplugin.h
 usr/include/kscreensaver.h
+usr/include/kscreensaver_export.h
 usr/include/kscreensaver_vroot.h
 usr/include/ksgrd/SensorAgent.h
 usr/include/ksgrd/SensorClient.h
