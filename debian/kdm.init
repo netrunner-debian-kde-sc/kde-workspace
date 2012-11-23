@@ -3,7 +3,7 @@
 # Provides:          kdm
 # Required-Start:    $local_fs $remote_fs
 # Required-Stop:     $local_fs $remote_fs
-# Should-Start:      console-screen kbd acpid dbus hal krb5-kdc
+# Should-Start:      console-screen kbd acpid dbus krb5-kdc
 # Should-Stop:       console-screen kbd
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
