@@ -177,6 +177,8 @@ Package: plasma-dataengines-workspace
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: ksysguardd (= ${binary:Version})
+Breaks: kde-workspace-bin (<< 4:4.9.3)
+Replaces: kde-workspace-bin (<< 4:4.9.3)
 Description: KDE Plasma data engines
  This package contains standard Plasma data engines shipped in KDE Plasma
  workspace. These engines are needed by the standard KDE base

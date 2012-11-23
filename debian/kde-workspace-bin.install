@@ -98,8 +98,6 @@ usr/lib/kde4/plasma_containmentactions_paste.so
 usr/lib/kde4/plasma_containmentactions_switchactivity.so
 usr/lib/kde4/plasma_containmentactions_switchdesktop.so
 usr/lib/kde4/plasma_containmentactions_switchwindow.so
-usr/lib/kde4/plasma_engine_activities.so
-usr/lib/kde4/plasma_engine_share.so
 usr/lib/kde4/plasma_packagestructure_share.so
 usr/lib/kde4/plasma_toolbox_desktoptoolbox.so
 usr/lib/kde4/plasma_toolbox_nettoolbox.so
