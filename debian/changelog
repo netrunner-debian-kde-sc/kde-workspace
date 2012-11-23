@@ -21,6 +21,7 @@ kde-workspace (4:4.9.3-0r0) UNRELEASED; urgency=low
     - usr/lib/kde4/plasma_engine_activities.so
     - usr/lib/kde4/plasma_engine_share.so
     (*.install files were updated and added the necessary Breaks/Replaces)
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200
 

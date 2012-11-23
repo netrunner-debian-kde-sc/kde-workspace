@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 powerpc s390 s390x
+# SymbolsHelper-Confirmed: 4:4.9.3 amd64
 libplasmaclock.so.4abi3 libplasmaclock4abi3 #MINVER#
  ABI_4_3@ABI_4_3 4:4.8.1
  _ZN11ClockApplet10popupEventEb@ABI_4_3 4:4.8.1
@@ -88,6 +88,7 @@ libplasmaclock.so.4abi3 libplasmaclock4abi3 #MINVER#
  _ZN6Plasma8Calendar11dateUpdatedEv@ABI_4_3 4:4.8.1
  _ZN6Plasma8Calendar11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_3 4:4.8.1
  _ZN6Plasma8Calendar11qt_metacastEPKc@ABI_4_3 4:4.8.1
+ _ZN6Plasma8Calendar11resizeEventEP25QGraphicsSceneResizeEvent@ABI_4_3 4:4.9.3
  _ZN6Plasma8Calendar11setCalendarEPK15KCalendarSystem@ABI_4_3 4:4.8.1
  _ZN6Plasma8Calendar11setCalendarERK7QString@ABI_4_3 4:4.8.1
  _ZN6Plasma8Calendar12focusInEventEP11QFocusEvent@ABI_4_3 4:4.8.1

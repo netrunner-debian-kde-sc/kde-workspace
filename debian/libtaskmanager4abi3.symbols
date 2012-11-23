@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.3 amd64
+# SymbolsHelper-Confirmed: 4:4.9.3 amd64
 libtaskmanager.so.4abi3 libtaskmanager4abi3 #MINVER#
  ABI_4_3@ABI_4_3 4:4.8.3
  _ZN11TaskManager10TasksModel11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_3 4:4.8.3
@@ -133,6 +133,7 @@ libtaskmanager.so.4abi3 libtaskmanager4abi3 #MINVER#
  _ZN11TaskManager14GroupPopupMenuD0Ev@ABI_4_3 4:4.8.3
  _ZN11TaskManager14GroupPopupMenuD1Ev@ABI_4_3 4:4.8.3
  _ZN11TaskManager14GroupPopupMenuD2Ev@ABI_4_3 4:4.8.3
+ _ZN11TaskManager18standardTaskActionENS_10TaskActionEPNS_8TaskItemEP7QObject@ABI_4_3 4:4.9.3
  _ZN11TaskManager20GroupingStrategyMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_3 4:4.8.3
  _ZN11TaskManager20GroupingStrategyMenu11qt_metacastEPKc@ABI_4_3 4:4.8.3
  _ZN11TaskManager20GroupingStrategyMenu16staticMetaObjectE@ABI_4_3 4:4.8.3
@@ -153,6 +154,7 @@ libtaskmanager.so.4abi3 libtaskmanager4abi3 #MINVER#
  _ZN11TaskManager21AbstractGroupableItemD0Ev@ABI_4_3 4:4.8.3
  _ZN11TaskManager21AbstractGroupableItemD1Ev@ABI_4_3 4:4.8.3
  _ZN11TaskManager21AbstractGroupableItemD2Ev@ABI_4_3 4:4.8.3
+ _ZN11TaskManager22standardGroupingActionENS_14GroupingActionEPNS_21AbstractGroupableItemEPNS_12GroupManagerEP7QObject@ABI_4_3 4:4.9.3
  _ZN11TaskManager23AbstractSortingStrategy10handleItemEPNS_21AbstractGroupableItemE@ABI_4_3 4:4.8.3
  _ZN11TaskManager23AbstractSortingStrategy11handleGroupEPNS_9TaskGroupE@ABI_4_3 4:4.8.3
  _ZN11TaskManager23AbstractSortingStrategy11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_3 4:4.8.3
