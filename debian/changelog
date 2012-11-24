@@ -22,6 +22,7 @@ kde-workspace (4:4.8.4-5) UNRELEASED; urgency=low
     upstream_Fix-deletion-of-preferred-application-launchers.patch.
     (Closes: #686131)
   * Drop hal from kdm.init. (Closes: #694021)
+  * Make kde-workspace-bin ship a /etc/kde4 directory. (Closes: #694253)
 
   [ Debconf translation updates ]
   * Fix encoding of Polish (thanks to David Prévot). (Closes: #691953)
