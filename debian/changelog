@@ -22,6 +22,11 @@ kde-workspace (4:4.9.3-0r0) UNRELEASED; urgency=low
     - usr/lib/kde4/plasma_engine_share.so
     (*.install files were updated and added the necessary Breaks/Replaces)
   * Update symbols files.
+  * Bump sonames and rename packages due to binary incompatible changes:
+    - libkdecorations4 -> libkdecorations4abi1
+    - libkwineffects1abi3 -> libkwineffects1abi4
+    - libkwinglutils1 -> libkwinglutils1abi1
+    - libkworkspace4abi1 -> libkworkspace4abi2
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200
 
