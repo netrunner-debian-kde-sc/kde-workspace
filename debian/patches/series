@@ -29,3 +29,4 @@ upstream_Use-cascaded-configs-for-other-modules-as-well.patch
 upstream_Fix-the-kwin-KCM-to-read-cascaded-configs.patch
 upstream_Make-sure-the-plasma-desktop-scripts-are-sorted-in-t.patch
 upstream_Fix-deletion-of-preferred-application-launchers.patch
+upstream_dont-fail-to-render-gtk-menus.diff
