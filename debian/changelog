@@ -3,6 +3,9 @@ kde-workspace (4:4.8.4-5) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove "New upstream release" from the previous changelog entry
     (Closes: #691302). Thanks Filipus Klutiero.
+  * sessreg was merged in kdm:
+    - Drop the use-sessreg option in kdm.options and it's man page, as it is
+      no longer needed.
 
   [ Pino Toscano ]
   * Backport upstream commit 89161c40e064958aa192b2202670316671d7e377 to fix
