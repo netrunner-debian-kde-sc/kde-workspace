@@ -29,6 +29,7 @@ kde-workspace (4:4.8.4-5) UNRELEASED; urgency=low
     (Closes: #686131)
   * Drop hal from kdm.init. (Closes: #694021)
   * Make kde-workspace-bin ship a /etc/kde4 directory. (Closes: #694253)
+  * Make kde-workspace-bin explicitly depend on qdbus, used by startkde.
 
   [ Debconf translation updates ]
   * Fix encoding of Polish (thanks to David Prévot). (Closes: #691953)
