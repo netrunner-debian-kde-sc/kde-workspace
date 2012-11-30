@@ -35,11 +35,6 @@ kde-workspace (4:4.8.4-5) UNRELEASED; urgency=low
   * Fix encoding of Polish (thanks to David Prévot). (Closes: #691953)
   * Fix encoding of Spanish (thanks to Camaleón). (Closes: #692209)
 
-  [ José Manuel Santamaría Lema ]
-  * Backport upstream commit 0b7e46ddd6d3894f246512429b7a03e10fb3f53d to fix a
-    bug which breaks the rendering of gtk menus (you can't see them sometimes);
-    patch upstream_dont-fail-to-render-gtk-menus.diff. (Closes: #690428)
-
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:06:28 -0300
 
 kde-workspace (4:4.8.4-4) unstable; urgency=low
