@@ -1,4 +1,4 @@
-kde-workspace (4:4.8.4-5) UNRELEASED; urgency=low
+kde-workspace (4:4.8.4-5) unstable; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove "New upstream release" from the previous changelog entry
@@ -34,7 +34,7 @@ kde-workspace (4:4.8.4-5) UNRELEASED; urgency=low
   * Fix encoding of Polish (thanks to David Prévot). (Closes: #691953)
   * Fix encoding of Spanish (thanks to Camaleón). (Closes: #692209)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Oct 2012 17:06:28 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 03 Dec 2012 18:26:16 -0300
 
 kde-workspace (4:4.8.4-4) unstable; urgency=low
 
