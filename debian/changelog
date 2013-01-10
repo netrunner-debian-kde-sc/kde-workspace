@@ -1,4 +1,4 @@
-kde-workspace (4:4.9.5-0r0) UNRELEASED; urgency=low
+kde-workspace (4:4.9.5-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -30,6 +30,7 @@ kde-workspace (4:4.9.5-0r0) UNRELEASED; urgency=low
     - libkwineffects1abi3 -> libkwineffects1abi4
     - libkwinglutils1 -> libkwinglutils1abi1
     - libkworkspace4abi1 -> libkworkspace4abi2
+  * Add lintian overrides for hardening-no-fortify-functions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200
 
