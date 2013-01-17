@@ -17,7 +17,6 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  zlib1g-dev,
  libdbusmenu-qt-dev (>= 0.6.0),
  libfontconfig-dev,
- libggadget-1.0-dev (>= 0.11.2), libggadget-qt-1.0-dev (>= 0.11.2),
  libglu1-mesa-dev, libqt4-opengl-dev,
  python-dev (>= 2.6.6-3~),
  shared-desktop-ontologies (>= 0.8),
@@ -207,7 +206,7 @@ Depends: plasma-scriptengine-javascript (>= 4:4.2.95),
  plasma-scriptengine-ruby (>= ${source:Version}),
  plasma-scriptengine-python (>= ${source:Version}),
  plasma-scriptengine-webkit (>= ${source:Version}),
- plasma-scriptengine-googlegadgets (>= ${source:Version}), ${misc:Depends}
+ ${misc:Depends}
 Recommends: plasma-scriptengine-superkaramba
 Suggests: plasma-scriptengine-kimono
 Description: metapackage to install all Plasma script engines
@@ -252,17 +251,6 @@ Description: Web and Mac OS X dashboard widget support for Plasma
  for the webpage widgets written in HTML and JavaScript and for the Apple
  Mac OS X dashboard widgets. You have to install this package if you want to be
  able to load these widgets in your Plasma shell.
- .
- This package is part of the KDE base workspace module.
-
-Package: plasma-scriptengine-googlegadgets
-Architecture: any
-Depends: ${shlibs:Depends}, google-gadgets-qt, ${misc:Depends}
-Description: Google Gadgets script engine for Plasma
- This package contains the Google Gadgets script engine for Plasma. It enables
- Plasma to serve as a Google Gadgets host and allows one to load and use any
- gadget as if it was a Plasma widget. It also integrates download and
- installation of new gadgets from the official Google Desktop Gadgets website.
  .
  This package is part of the KDE base workspace module.
 

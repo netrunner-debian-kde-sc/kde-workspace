@@ -1,5 +1,9 @@
 kde-workspace (4:4.8.4-6) UNRELEASED; urgency=low
 
+  [ José Manuel Santamaría Lema ]
+  * Remove plasma-scriptengine-googlegadgets, it's unmaintaned, buggy, and the
+    few widgets which would work have good replacements in plasma.
+    (Closes: #664225)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 17 Jan 2013 09:13:01 +0100
 
