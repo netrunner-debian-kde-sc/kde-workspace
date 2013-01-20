@@ -5,6 +5,10 @@ kde-workspace (4:4.8.4-6) UNRELEASED; urgency=low
     few widgets which would work have good replacements in plasma.
     (Closes: #664225)
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add Breaks+Replaces to kde-style-oxygen against kdebase-runtime << 4:4.7.2
+    (Closes: #697668).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 17 Jan 2013 09:13:01 +0100
 
 kde-workspace (4:4.8.4-5) unstable; urgency=low
