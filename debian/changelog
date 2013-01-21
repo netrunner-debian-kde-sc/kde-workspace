@@ -1,4 +1,4 @@
-kde-workspace (4:4.8.4-6) UNRELEASED; urgency=low
+kde-workspace (4:4.8.4-6) unstable; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Remove plasma-scriptengine-googlegadgets, it's unmaintaned, buggy, and the
@@ -9,7 +9,7 @@ kde-workspace (4:4.8.4-6) UNRELEASED; urgency=low
   * Add Breaks+Replaces to kde-style-oxygen against kdebase-runtime << 4:4.7.2
     (Closes: #697668).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 17 Jan 2013 09:13:01 +0100
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 21 Jan 2013 11:32:51 -0300
 
 kde-workspace (4:4.8.4-5) unstable; urgency=low
 
