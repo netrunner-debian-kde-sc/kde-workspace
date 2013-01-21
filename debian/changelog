@@ -8,6 +8,7 @@ kde-workspace (4:4.8.4-6) unstable; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add Breaks+Replaces to kde-style-oxygen against kdebase-runtime << 4:4.7.2
     (Closes: #697668).
+  * Confirm symbols files from buildds' logs.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 21 Jan 2013 11:32:51 -0300
 
