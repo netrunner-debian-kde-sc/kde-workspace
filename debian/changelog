@@ -12,7 +12,7 @@ kde-workspace (4:4.8.4-6) unstable; urgency=low
     - From buildds' logs.
     - Using the current build.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 21 Jan 2013 11:32:51 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 21 Jan 2013 13:12:08 -0300
 
 kde-workspace (4:4.8.4-5) unstable; urgency=low
 
