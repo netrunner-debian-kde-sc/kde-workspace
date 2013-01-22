@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:4.9.3 amd64
-libkdecorations.so.4abi1 libkworkspace4abi1 #MINVER#
+libkdecorations.so.4abi1 libkdecorations4abi1 #MINVER#
  ABI_4_1@ABI_4_1 4:4.9.3
  _ZN11KDecoration10setDesktopEi@ABI_4_1 4:4.9.3
  _ZN11KDecoration11closeWindowEv@ABI_4_1 4:4.9.3
