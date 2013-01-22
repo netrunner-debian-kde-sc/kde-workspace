@@ -1,4 +1,4 @@
-kde-workspace (4:4.9.5-0r1) UNRELEASED; urgency=low
+kde-workspace (4:4.9.5-0r2) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -15,6 +15,16 @@ kde-workspace (4:4.9.5-0r1) UNRELEASED; urgency=low
   * Bump kdepimlibs5-dev build dependency to 4:4.9.
   * Update patches:
     - drop relax_kdelibs_dependency.diff, no longer needed.
+    - drop upstream_Check-if-attention-demanding-status-has-changed-when.patch,
+      applied upstream.
+    - drop upstream_Use-the-CascadeConfig-flag-as-this-allows-the-KCM-to.patch,
+      applied upstream.
+    - drop upstream_Fix-the-kwin-KCM-to-read-cascaded-configs.patch, applied
+      upstream.
+    - drop upstream_Make-sure-the-plasma-desktop-scripts-are-sorted-in-t.patch,
+      applied upstream.
+    - drop upstream_Fix-deletion-of-preferred-application-launchers.patch,
+      applied upstream.
     - extend place_global_config_in_etc.diff.
     - refresh other patches to make them apply without any offset.
   * Update installed files.
