@@ -8,8 +8,6 @@ kde-workspace (4:4.9.5-0r1) UNRELEASED; urgency=low
     - new_beams_custom_plots.diff.
     - upstream_make-sure-scripts-are-executed-sorted.patch.
     - upstream_centralize-interaction-notification-handling.patch.
-  * Remove "New upstream release" from the previous changelog entry
-    (Closes: ##691302). Thanks Filipus Klutiero.
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.9.5.
@@ -33,6 +31,60 @@ kde-workspace (4:4.9.5-0r1) UNRELEASED; urgency=low
   * Add lintian overrides for hardening-no-fortify-functions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200
+
+kde-workspace (4:4.8.4-6) unstable; urgency=low
+
+  [ José Manuel Santamaría Lema ]
+  * Remove plasma-scriptengine-googlegadgets, it's unmaintaned, buggy, and the
+    few widgets which would work have good replacements in plasma.
+    (Closes: #664225)
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add Breaks+Replaces to kde-style-oxygen against kdebase-runtime << 4:4.7.2
+    (Closes: #697668).
+  * Confirm symbols files:
+    - From buildds' logs.
+    - Using the current build.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 21 Jan 2013 13:12:08 -0300
+
+kde-workspace (4:4.8.4-5) unstable; urgency=low
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove "New upstream release" from the previous changelog entry
+    (Closes: #691302). Thanks Filipus Klutiero.
+  * sessreg was merged in kdm (Closes: #692730):
+    - Drop the use-sessreg option in kdm.options and its man page, as it is
+      no longer needed.
+    - Do not set UseSessReg to false in debian/patches/kdmrc_defaults.diff.
+      The bug it solved has dissapeared during the merge.
+    Thanks Wolfgang Schweer and Petter Reinholdtsen for digging into this.
+
+  [ Pino Toscano ]
+  * Backport upstream commit 89161c40e064958aa192b2202670316671d7e377 to fix
+    the "demand" status of windows in the taskbar widget; patch
+    upstream_Check-if-attention-demanding-status-has-changed-when.patch.
+    (Closes: #685334)
+  * Backport upstream commits d0343319fcfc249a38c79171be727d7133984eeb and
+    53f6eca921a44a1f5e567b92d45ea84599afea74 to make powermanagementprofilesrc
+    read as cascading config, and 9994e178b790b03a464c335e624366f82f0da643 for
+    kwinrc.
+  * Backport upstream commit 5b35757fc3613a18e2d784af53d1d23ebe295028 to
+    improve the sorting of init .js files (followup of the changes backported
+    in 4:4.8.4-3 with upstream_make-sure-scripts-are-executed-sorted.patch);
+    patch upstream_Make-sure-the-plasma-desktop-scripts-are-sorted-in-t.patch.
+  * Backport upstream commit 70cd86a5eef103137e64f2e3868a5bd2d58d71d7 to fix
+    the deletion of launchers of preferred applications; patch
+    upstream_Fix-deletion-of-preferred-application-launchers.patch.
+    (Closes: #686131)
+  * Make kde-workspace-bin ship a /etc/kde4 directory. (Closes: #694253)
+  * Make kde-workspace-bin explicitly depend on qdbus, used by startkde.
+
+  [ Debconf translation updates ]
+  * Fix encoding of Polish (thanks to David Prévot). (Closes: #691953)
+  * Fix encoding of Spanish (thanks to Camaleón). (Closes: #692209)
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 03 Dec 2012 18:26:16 -0300
 
 kde-workspace (4:4.8.4-4) unstable; urgency=low
 

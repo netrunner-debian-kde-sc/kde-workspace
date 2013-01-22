@@ -45,15 +45,6 @@
  Update: upd_sessionsdirs
  Comment:
   The directories containing session type definitions in .desktop format,
-@@ -2006,7 +2006,7 @@ Description:
- 
- Key: UseSessReg
- Type: bool
--Default: true
-+Default: false
- User: core
- Instance: #*/!
- Comment:
 @@ -2097,9 +2097,9 @@ Description:
  
  Key: GreetString

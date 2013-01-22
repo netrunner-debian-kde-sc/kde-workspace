@@ -63,12 +63,6 @@ is provided.  If this option is disabled (the Debian default), kdm will be
 not be stopped or started during an install or upgrade; the administrator
 will have to do so by hand (with \(oq/etc/init.d/kdm restart\(cq, or by
 rebooting the system) before the newly installed kdm binary is used.
-.TP
-.B use\-sessreg
-If this option is enabled (the Debian default), the sessreg program will be
-invoked to register X sessions managed by kdm in the utmp and wtmp files.
-Otherwise, it is not, and the utmp and wtmp files will have no record of
-kdm sessions.
 .PP
 Users of older versions of the Debian system should note that the
 \(oqrun\-xconsole\(cq option has been removed.  Shell scripts named
@@ -82,6 +76,5 @@ manual page for more information.
 .SH AUTHOR
 This manpage was written by Branden Robinson for the Debian Project.
 .SH SEE ALSO
-.BR sessreg (1x),
 .BR xmessage (1x),
 .BR kdm (1x)

@@ -52,7 +52,7 @@ msgid ""
 "for the X Window System."
 msgstr ""
 "Un gestor de sesiones es un programa que le permite ingresar"
-"gr�ficamente en el sistema desde el entorno X Window."
+"gráficamente en el sistema desde el entorno X Window."
 
 #. Type: select
 #. Description
@@ -61,7 +61,7 @@ msgid ""
 "Only one display manager can manage a given X server, but multiple display "
 "manager packages are installed. Please select which display manager should "
 "run by default."
-msgstr "Cada servidor X s�lo puede ser gestionado por un �nico gestor de sesiones, pero hay instalados varios paquetes de gestores de sesiones. Por favor, seleccione qu� gestor desea utilizar por omisi�n."
+msgstr "Cada servidor X sólo puede ser gestionado por un único gestor de sesiones, pero hay instalados varios paquetes de gestores de sesiones. Por favor, seleccione qué gestor desea utilizar por omisión."
 
 #. Type: select
 #. Description
@@ -72,14 +72,14 @@ msgid ""
 "accordingly, edit each of their init scripts in /etc/init.d, and disable the "
 "check for a default display manager."
 msgstr ""
-"Se pueden ejecutar varios gestores de sesiones simult�neamente si se "
-"configuran para que gestionen servidores diferentes. Para ello, configure cada uno de los gestores de sesiones apropiadamente, edite sus guiones de inicio en /etc/init.d, y deshabilite la comprobaci�n de un gestor de sesiones predeterminado."
+"Se pueden ejecutar varios gestores de sesiones simultáneamente si se "
+"configuran para que gestionen servidores diferentes. Para ello, configure cada uno de los gestores de sesiones apropiadamente, edite sus guiones de inicio en /etc/init.d, y deshabilite la comprobación de un gestor de sesiones predeterminado."
 
 #. Type: boolean
 #. Description
 #: ../kdm.templates:3001
 msgid "Stop the kdm daemon?"
-msgstr "�Desea detener el daemon kdm?"
+msgstr "¿Desea detener el daemon kdm?"
 
 #. Type: boolean
 #. Description
@@ -87,7 +87,7 @@ msgstr "�Desea detener el daemon kdm?"
 msgid ""
 "The K Desktop manager (kdm) daemon is typically stopped on package upgrade "
 "and removal, but it appears to be managing at least one running X session."
-msgstr "Normalmente se detiene el daemon del gestor de sesiones de KDE (kdm) al actualizar o borrar el paquete, pero parece que est� gestionando al menos una sesi�n X activa."
+msgstr "Normalmente se detiene el daemon del gestor de sesiones de KDE (kdm) al actualizar o borrar el paquete, pero parece que está gestionando al menos una sesión X activa."
 
 #. Type: boolean
 #. Description
@@ -96,5 +96,5 @@ msgid ""
 "If kdm is stopped now, any X sessions it manages will be terminated. "
 "Otherwise, the new version will take effect the next time the daemon is "
 "restarted."
-msgstr "Si detiene kdm ahora, se finalizar�n todas las sesiones X que est� gestionando. La otra posibilidad es mantener kdm en ejecuci�n, con lo que la nueva versi�n no se activar� hasta la pr�xima vez que se reinicie el daemon."
+msgstr "Si detiene kdm ahora, se finalizarán todas las sesiones X que está gestionando. La otra posibilidad es mantener kdm en ejecución, con lo que la nueva versión no se activará hasta la próxima vez que se reinicie el daemon."
 
