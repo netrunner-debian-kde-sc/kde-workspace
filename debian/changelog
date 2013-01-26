@@ -38,6 +38,14 @@ kde-workspace (4:4.9.5-0r2) UNRELEASED; urgency=low
     - libkwineffects1abi3 -> libkwineffects1abi4
     - libkwinglutils1 -> libkwinglutils1abi1
     - libkworkspace4abi1 -> libkworkspace4abi2
+  * Add Breaks against kwin styles which wouldn't work with this latest
+    kde-window-manager release:
+    - kdeartwork-theme-window (<< 4:4.9.5)
+    - kwin-style-qtcurve (<< 1.8.14-2+)
+    - kde-style-bespin (<< 0.r1552-1+)
+    - kwin-style-crystal (<< 2.2.1)
+    - kwin-style-dekorator
+    - kde-style-skulpture
   * Add lintian overrides for hardening-no-fortify-functions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200

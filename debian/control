@@ -337,7 +337,10 @@ Package: kde-window-manager
 Section: x11
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
-Breaks: kdebase-workspace-data (<< 4:4.7.2), kde-workspace-data (<< 4:4.8.4-0r5)
+Breaks: kdebase-workspace-data (<< 4:4.7.2), kde-workspace-data (<< 4:4.8.4-0r5),
+ kdeartwork-theme-window (<< 4:4.9.5), kwin-style-qtcurve (<< 1.8.14-2+),
+ kde-style-bespin (<< 0.r1552-1+), kwin-style-crystal (<< 2.2.1),
+ kwin-style-dekorator, kde-style-skulpture
 Replaces: kdebase-workspace-data (<< 4:4.7.2), kde-workspace-data (<< 4:4.8.4-0r5)
 Provides: x-window-manager
 Description: K window manager (KWin)
