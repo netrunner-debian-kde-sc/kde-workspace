@@ -4,7 +4,7 @@
  Type: string
  Default: ""
  User: greeter
--Instance: */KDMDATA "/themes/ariya"
+-Instance: */KDMDATA "/themes/elarun"
 +Instance: */ "@@@ToBeReplacedByDesktopBase@@@"
  Comment: &
  Description:
