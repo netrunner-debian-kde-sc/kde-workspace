@@ -1,6 +1,6 @@
 --- a/kcontrol/fonts/fonts.cpp
 +++ b/kcontrol/fonts/fonts.cpp
-@@ -523,13 +523,13 @@ KFonts::KFonts(QWidget *parent, const QV
+@@ -525,13 +525,13 @@ KFonts::KFonts(QWidget *parent, const QV
    QFont f1("Monospace", 16;
    QFont f2("Sans Serif", 16); // toolbar
  #else

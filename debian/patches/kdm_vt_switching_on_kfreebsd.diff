@@ -125,7 +125,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  #endif
 --- a/kdm/backend/client.c
 +++ b/kdm/backend/client.c
-@@ -1339,7 +1339,11 @@ startClient(volatile int *pid)
+@@ -1349,7 +1349,11 @@ startClient(volatile int *pid)
      
  # ifdef HAVE_VTS
      if (td->serverVT > 0)
