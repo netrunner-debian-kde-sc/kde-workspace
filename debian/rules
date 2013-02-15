@@ -11,7 +11,8 @@ BINARYVERSION := $(shell dpkg-parsechangelog | grep '^Version: ' | sed 's/^Versi
 DEB_HOST_ARCH_OS := $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DKDE4_KDM_PAM_SERVICE=kdm -DKDE4_COMMON_PAM_SERVICE=kdm
+	$(overridden_command) -- -DKDE4_KDM_PAM_SERVICE=kdm -DKDE4_COMMON_PAM_SERVICE=kdm \
+		-DKDE4_BUILD_TESTS=false
 
 override_dh_auto_install:
 	$(overridden_command)
