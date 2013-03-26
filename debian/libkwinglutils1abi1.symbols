@@ -6,7 +6,6 @@ libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  _ZN4KWin10GLPlatform15versionToStringEx@ABI_1_1 4:4.9.3
  _ZN4KWin10GLPlatform17chipClassToStringENS_9ChipClassE@ABI_1_1 4:4.9.3
  _ZN4KWin10GLPlatform6detectENS_23OpenGLPlatformInterfaceE@ABI_1_1 4:4.10.1
-#MISSING: 4:4.10.1# _ZN4KWin10GLPlatform6detectEv@ABI_1_1 4:4.9.3
  _ZN4KWin10GLPlatformC1Ev@ABI_1_1 4:4.9.3
  _ZN4KWin10GLPlatformC2Ev@ABI_1_1 4:4.9.3
  _ZN4KWin10GLPlatformD1Ev@ABI_1_1 4:4.9.3
@@ -21,7 +20,6 @@ libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  _ZN4KWin11glUniform4fE@ABI_1_1 4:4.9.3
  _ZN4KWin12checkGLErrorEPKc@ABI_1_1 4:4.9.3
  _ZN4KWin12glBindBufferE@ABI_1_1 4:4.9.3
-#MISSING: 4:4.10.1# _ZN4KWin12glBlendColorE@ABI_1_1 4:4.9.3
  _ZN4KWin12glBufferDataE@ABI_1_1 4:4.9.3
  _ZN4KWin12glGenBuffersE@ABI_1_1 4:4.9.3
  _ZN4KWin12glUniform1fvE@ABI_1_1 4:4.9.3
@@ -109,11 +107,7 @@ libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  _ZN4KWin15glDeleteBuffersE@ABI_1_1 4:4.9.3
  _ZN4KWin15glDeleteProgramE@ABI_1_1 4:4.9.3
  _ZN4KWin15glIsFramebufferE@ABI_1_1 4:4.9.3
-#MISSING: 4:4.10.1# _ZN4KWin15glXCreatePixmapE@ABI_1_1 4:4.9.3
-#MISSING: 4:4.10.1# _ZN4KWin15glXCreateWindowE@ABI_1_1 4:4.9.3
-#MISSING: 4:4.10.1# _ZN4KWin15glXGetFBConfigsE@ABI_1_1 4:4.9.3
  _ZN4KWin15glXGetVideoSyncE@ABI_1_1 4:4.9.3
-#MISSING: 4:4.10.1# _ZN4KWin15glXSwapIntervalE@ABI_1_1 4:4.9.3
  _ZN4KWin16GLTexturePrivate10initStaticEv@ABI_1_1 4:4.9.3
  _ZN4KWin16GLTexturePrivate20sSaturationSupportedE@ABI_1_1 4:4.9.3
  _ZN4KWin16GLTexturePrivate21sNPOTTextureSupportedE@ABI_1_1 4:4.9.3
@@ -132,8 +126,6 @@ libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  _ZN4KWin16glIsRenderbufferE@ABI_1_1 4:4.9.3
  _ZN4KWin16glVertexAttrib1fE@ABI_1_1 4:4.9.3
  _ZN4KWin16glXCopySubBufferE@ABI_1_1 4:4.9.3
-#MISSING: 4:4.10.1# _ZN4KWin16glXDestroyPixmapE@ABI_1_1 4:4.9.3
-#MISSING: 4:4.10.1# _ZN4KWin16glXDestroyWindowE@ABI_1_1 4:4.9.3
  _ZN4KWin16glXQueryDrawableE@ABI_1_1 4:4.9.3
  _ZN4KWin16glXWaitVideoSyncE@ABI_1_1 4:4.9.3
  _ZN4KWin17glBindFramebufferE@ABI_1_1 4:4.9.3
@@ -148,7 +140,6 @@ libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  _ZN4KWin18glGetShaderInfoLogE@ABI_1_1 4:4.9.3
  _ZN4KWin18glProgramStringARBE@ABI_1_1 4:4.9.3
  _ZN4KWin18glResolveFunctionsENS_23OpenGLPlatformInterfaceE@ABI_1_1 4:4.10.1
-#MISSING: 4:4.10.1# _ZN4KWin18glResolveFunctionsEv@ABI_1_1 4:4.9.3
  _ZN4KWin18glUniformMatrix4fvE@ABI_1_1 4:4.9.3
  _ZN4KWin18glXBindTexImageEXTE@ABI_1_1 4:4.9.3
  _ZN4KWin18glXSwapIntervalEXTE@ABI_1_1 4:4.10.1
@@ -162,7 +153,6 @@ libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  _ZN4KWin20glBindAttribLocationE@ABI_1_1 4:4.9.3
  _ZN4KWin20glDeleteFramebuffersE@ABI_1_1 4:4.9.3
  _ZN4KWin20glGetUniformLocationE@ABI_1_1 4:4.9.3
-#MISSING: 4:4.10.1# _ZN4KWin20glXGetFBConfigAttribE@ABI_1_1 4:4.9.3
  _ZN4KWin21glDeleteRenderbuffersE@ABI_1_1 4:4.9.3
  _ZN4KWin21glRenderbufferStorageE@ABI_1_1 4:4.9.3
  _ZN4KWin21glVertexAttribPointerE@ABI_1_1 4:4.9.3
@@ -171,7 +161,6 @@ libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  _ZN4KWin22glFramebufferTexture2DE@ABI_1_1 4:4.9.3
  _ZN4KWin22glFramebufferTexture3DE@ABI_1_1 4:4.9.3
  _ZN4KWin24glCheckFramebufferStatusE@ABI_1_1 4:4.9.3
-#MISSING: 4:4.10.1# _ZN4KWin24glXGetVisualFromFBConfigE@ABI_1_1 4:4.9.3
  _ZN4KWin25glEnableVertexAttribArrayE@ABI_1_1 4:4.9.3
  _ZN4KWin25glFramebufferRenderbufferE@ABI_1_1 4:4.9.3
  _ZN4KWin26glDisableVertexAttribArrayE@ABI_1_1 4:4.9.3
@@ -179,7 +168,6 @@ libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  _ZN4KWin28glProgramLocalParameter4fARBE@ABI_1_1 4:4.9.3
  _ZN4KWin37glGetFramebufferAttachmentParameterivE@ABI_1_1 4:4.9.3
  _ZN4KWin6initGLENS_23OpenGLPlatformInterfaceE@ABI_1_1 4:4.10.1
-#MISSING: 4:4.10.1# _ZN4KWin6initGLEv@ABI_1_1 4:4.9.3
  _ZN4KWin7initEGLEv@ABI_1_1 4:4.9.3
  _ZN4KWin7initGLXEv@ABI_1_1 4:4.9.3
  _ZN4KWin8GLShader10setUniformENS0_10IntUniformEi@ABI_1_1 4:4.9.3

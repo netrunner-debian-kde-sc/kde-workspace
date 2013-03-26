@@ -172,7 +172,6 @@ libkdecorations.so.4abi1 libkdecorations4abi1 #MINVER#
  _ZN19KDecorationUnstable16staticMetaObjectE@ABI_4_1 4:4.9.3
  _ZN19KDecorationUnstable23buttonToWindowOperationE6QFlagsIN2Qt11MouseButtonEE@ABI_4_1 4:4.9.3
  _ZN19KDecorationUnstable5untabElRK5QRect@ABI_4_1 4:4.9.3
-#MISSING: 4:4.10.1# _ZN19KDecorationUnstable6regionEN18KDecorationDefines6RegionE@ABI_4_1 4:4.9.3
  _ZN19KDecorationUnstable8closeTabEl@ABI_4_1 4:4.9.3
  _ZN19KDecorationUnstableC1EP17KDecorationBridgeP18KDecorationFactory@ABI_4_1 4:4.9.3
  _ZN19KDecorationUnstableC2EP17KDecorationBridgeP18KDecorationFactory@ABI_4_1 4:4.9.3

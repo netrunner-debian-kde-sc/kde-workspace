@@ -69,8 +69,6 @@ libkwineffects.so.1abi4 libkwineffects1abi4 #MINVER#
  _ZN4KWin12PaintClipperC2ERK7QRegion@ABI_1_4 4:4.9.3
  _ZN4KWin12PaintClipperD1Ev@ABI_1_4 4:4.9.3
  _ZN4KWin12PaintClipperD2Ev@ABI_1_4 4:4.9.3
-#MISSING: 4:4.10.1# _ZN4KWin12RotationDataC1Ev@ABI_1_4 4:4.9.3
-#MISSING: 4:4.10.1# _ZN4KWin12RotationDataC2Ev@ABI_1_4 4:4.9.3
  _ZN4KWin14EffectsHandler10tabRemovedEPNS_12EffectWindowES2_@ABI_1_4 4:4.9.3
  _ZN4KWin14EffectsHandler11hideOutlineEv@ABI_1_4 4:4.9.3
  _ZN4KWin14EffectsHandler11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_4 4:4.9.3
