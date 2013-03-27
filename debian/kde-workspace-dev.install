@@ -120,12 +120,12 @@ usr/lib/libsolidcontrol.so
 usr/lib/libsolidcontrolifaces.so
 usr/lib/libtaskmanager.so
 usr/lib/libweather_ion.so
-usr/share/dbus-1/interfaces/org.freedesktop.ScreenSaver.xml
+usr/share/dbus-1/interfaces/com.canonical.AppMenu.Registrar.xml
 usr/share/dbus-1/interfaces/org.kde.KSMServerInterface.xml
 usr/share/dbus-1/interfaces/org.kde.KWin.xml
+usr/share/dbus-1/interfaces/org.kde.kded.appmenu.xml
 usr/share/dbus-1/interfaces/org.kde.khotkeys.xml
 usr/share/dbus-1/interfaces/org.kde.krunner.App.xml
-usr/share/dbus-1/interfaces/org.kde.screensaver.xml
 usr/share/kde4/apps/cmake/modules/FindCkConnector.cmake
 usr/share/kde4/apps/cmake/modules/FindDBus.cmake
 usr/share/kde4/apps/cmake/modules/FindGooglegadgets.cmake

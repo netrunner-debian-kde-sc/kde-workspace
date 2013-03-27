@@ -22,12 +22,9 @@ usr/bin/ksystraycmd
 usr/bin/oxygen-shadow-demo
 usr/bin/plasma-overlay
 usr/bin/plasma-windowed
-usr/bin/plasmaengineexplorer
-usr/bin/plasmawallpaperviewer
-usr/bin/plasmoidviewer
-usr/bin/remote-widgets-browser
 usr/bin/solid-action-desktop-gen
 usr/bin/startkde
+usr/lib/kconf_update_bin/force_krunner_lock_shortcut_unreg
 usr/lib/kconf_update_bin/krdb_clearlibrarypath
 usr/lib/kde4/fontthumbnail.so
 usr/lib/kde4/kcm_access.so
@@ -56,9 +53,11 @@ usr/lib/kde4/kcm_solid.so
 usr/lib/kde4/kcm_solid_actions.so
 usr/lib/kde4/kcm_standard_actions.so
 usr/lib/kde4/kcm_workspaceoptions.so
+usr/lib/kde4/kded_appmenu.so
 usr/lib/kde4/kded_kephal.so
 usr/lib/kde4/kded_keyboard.so
 usr/lib/kde4/kded_khotkeys.so
+usr/lib/kde4/kded_ktouchpadenabler.so
 usr/lib/kde4/kded_kwrited.so
 usr/lib/kde4/kded_powerdevil.so
 usr/lib/kde4/kded_randrmonitor.so
@@ -89,7 +88,7 @@ usr/lib/kde4/libexec/fontinst_x11
 usr/lib/kde4/libexec/kcheckpass
 usr/lib/kde4/libexec/kcmdatetimehelper
 usr/lib/kde4/libexec/kfontprint
-usr/lib/kde4/libexec/kscreenlocker
+usr/lib/kde4/libexec/kscreenlocker_greet
 usr/lib/kde4/plasma_applet_keyboard.so
 usr/lib/kde4/plasma_containmentactions_applauncher.so
 usr/lib/kde4/plasma_containmentactions_contextmenu.so
@@ -156,9 +155,11 @@ usr/share/kde4/services/kcm_solid.desktop
 usr/share/kde4/services/kcmaccess.desktop
 usr/share/kde4/services/kcmlaunch.desktop
 usr/share/kde4/services/kcmsmserver.desktop
+usr/share/kde4/services/kded/appmenu.desktop
 usr/share/kde4/services/kded/kephal.desktop
 usr/share/kde4/services/kded/keyboard.desktop
 usr/share/kde4/services/kded/khotkeys.desktop
+usr/share/kde4/services/kded/ktouchpadenabler.desktop
 usr/share/kde4/services/kded/kwrited.desktop
 usr/share/kde4/services/kded/powerdevil.desktop
 usr/share/kde4/services/kded/randrmonitor.desktop
@@ -219,6 +220,4 @@ usr/share/kde4/servicetypes/screensaver.desktop
 usr/share/kde4/servicetypes/solid-device-type.desktop
 usr/share/kde4/servicetypes/solidmodemmanager.desktop
 usr/share/kde4/servicetypes/solidnetworkmanager.desktop
-usr/share/man/man1/plasmaengineexplorer.1
-usr/share/man/man1/plasmapkg.1
-usr/share/man/man1/plasmoidviewer.1
+usr/share/kde4/servicetypes/solidremotecontrolmanager.desktop

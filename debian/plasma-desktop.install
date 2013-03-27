@@ -1,4 +1,5 @@
 usr/bin/plasma-desktop
+usr/lib/kconf_update_bin/notifications-to-orgkdenotifications
 usr/lib/kconf_update_bin/plasma-add-shortcut-to-menu
 usr/lib/kconf_update_bin/plasma-to-plasma-desktop
 usr/lib/kde4/krunner_plasma-desktop.so
@@ -25,6 +26,7 @@ usr/share/doc/kde/HTML/en/plasma-desktop/system-tray-settings.png
 usr/share/doc/kde/HTML/en/plasma-desktop/system-tray-up-arrow.png
 usr/share/doc/kde/HTML/en/plasma-desktop/taskbar-settings.png
 usr/share/kde4/apps/katepart/syntax/plasma-desktop-js.xml
+usr/share/kde4/apps/kconf_update/notifications-to-orgkdenotifications.upd
 usr/share/kde4/apps/kconf_update/plasma-add-shortcut-to-menu.upd
 usr/share/kde4/apps/kconf_update/plasma-to-plasmadesktop-shortcuts.upd
 usr/share/kde4/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd
