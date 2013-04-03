@@ -33,6 +33,7 @@ usr/share/kde4/apps/kconf_update/plasmarc-to-plasmadesktoprc.upd
 usr/share/kde4/apps/plasma-desktop/init/00-defaultLayout.js
 usr/share/kde4/apps/plasma-desktop/plasma-desktop.notifyrc
 usr/share/kde4/apps/plasma-desktop/updates/addShowActivitiesManagerPlasmoid.js
+usr/share/kde4/apps/plasma-desktop/updates/set-hidden-single-vd-pager.js
 usr/share/kde4/apps/plasma-desktop/updates/systray-to-notifications-widget.js
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.SaL/contents/layout.js
 usr/share/kde4/apps/plasma/layout-templates/org.kde.plasma-desktop.SaL/metadata.desktop

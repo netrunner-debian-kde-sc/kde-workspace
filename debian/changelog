@@ -1,4 +1,4 @@
-kde-workspace (4:4.10.1-0r0) UNRELEASED; urgency=low
+kde-workspace (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -64,7 +64,11 @@ kde-workspace (4:4.10.1-0r0) UNRELEASED; urgency=low
     - kde-style-skulpture
   * Add lintian overrides for hardening-no-fortify-functions.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 Aug 2012 11:34:25 +0200
+  [ Sune Vuorela ]
+  * Update install files
+  * Clean up uploaders
+
+ -- Sune Vuorela <sune@debian.org>  Wed, 03 Apr 2013 18:28:15 +0000
 
 kde-workspace (4:4.8.4-6) unstable; urgency=low
 
