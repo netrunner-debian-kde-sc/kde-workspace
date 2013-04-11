@@ -1,3 +1,9 @@
+kde-workspace (4:4.10.2-2) UNRELEASED; urgency=low
+
+  * Shuffle around some build-deps hoping to cheat aptitude.
+
+ -- Sune Vuorela <sune@debian.org>  Thu, 11 Apr 2013 19:59:10 +0000
+
 kde-workspace (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
