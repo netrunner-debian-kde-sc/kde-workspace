@@ -1,5 +1,7 @@
 kde-workspace (4:4.10.2-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * kdm.init: set Elarun as the default wallpaper, as it is set upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 15:45:44 +0200
 
