@@ -1,3 +1,8 @@
+kde-workspace (4:4.10.2-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 15:45:44 +0200
+
 kde-workspace (4:4.10.2-2) experimental; urgency=low
 
   * Shuffle around some build-deps hoping to cheat aptitude.
