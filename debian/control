@@ -113,7 +113,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, iso-codes,
  plasma-desktop (= ${binary:Version}) | plasma-netbook (= ${binary:Version}),
  kde-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils,
- kde-workspace-kgreet-plugins (= ${binary:Version}), qdbus
+ kde-workspace-kgreet-plugins (= ${binary:Version}), qdbus,
+ kde-runtime (>= 4:4:10.2)
 Recommends: plasma-scriptengines, polkit-kde-1 (>= 0.99) | policykit-1-gnome,
  upower [linux-any]
 Suggests: x11-xkb-utils
