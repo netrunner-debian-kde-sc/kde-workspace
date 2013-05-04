@@ -5,6 +5,9 @@ kde-workspace (4:4.10.2-3) UNRELEASED; urgency=low
   * Manually set the kde-runtime dependency in kde-workspace-bin to 4:4:10.2.
     (Closes: #705871)
 
+  [ Maximiliano Curia ]
+  * Bump compat/debhelper to 9.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 15:45:44 +0200
 
 kde-workspace (4:4.10.2-2) experimental; urgency=low

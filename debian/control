@@ -9,7 +9,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
  Eshat Cakar <info@eshat.de>,
  Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
- cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
  kdepimlibs5-dev (>= 4:4.10.2), libkactivities-dev (>= 4:4.10),
  nepomuk-core-dev (>= 4:4.10.2),
  libstrigiqtdbusclient-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3),
