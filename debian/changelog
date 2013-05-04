@@ -7,6 +7,7 @@ kde-workspace (4:4.10.2-3) UNRELEASED; urgency=low
 
   [ Maximiliano Curia ]
   * Bump compat/debhelper to 9.
+  * Update genkdmconf.1 manpage.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 15:45:44 +0200
 

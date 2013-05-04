@@ -36,13 +36,15 @@ installed.
 .SH OPTIONS
 .TP
 .BI \-\-in \ /path/to/new/kdm\-config\-dir
-In which directory to put the new configuration. You can use this to support a $(DESTDIR), but not to change the final location of the installation \- the paths inside the files are not affected.
+In which directory to put the new configuration. You can use this to support a
+$(DESTDIR), but not to change the final location of the installation \- the
+paths inside the files are not affected.
 .br
 Default is \fI/etc/kde4/kdm\fP.
 .TP
 .BI \-\-old\-xdm \ /path/to/old/xdm\-dir
 Where to look for the config files of an \fBxdm\fP / older \fBkdm\fP. Default is to scan
-.IR /etc/X11/kdm , \ $XLIBDIR/kdm , \ /etc/X11/xdm , \ $XLIBDIR/xdm ;
+.IR /etc/X11/kdm , \ $XLIBDIR/kdm ;
 there in turn look for \fIkdm\-config\fP and \fIxdm\-config\fP.
 .br
 Note that you possibly need to use \fB\-\-no\-old\-kde\fP to make this take effect.
@@ -50,8 +52,8 @@ Note that you possibly need to use \fB\-\-no\-old\-kde\fP to make this take effe
 .BI \-\-old\-kde \ /path/to/old/kde\-config\-dir
 Where to look for the \fIkdmrc\fP of an older \fBkdm\fP.
 .br
-.RI Default\ is\ to\ scan\  /etc/kde4 \ and\ { /usr,/usr/local ,
-.RI { /opt,/usr/local }{ kde3,kde,kde2,kde1 }} /share/config .
+Default is to scan \fI/etc/kde4\fP and
+{\fI/usr\fP,\:\fI/usr/local\fP,\:{\fI/opt\fP,\:\fI/usr/local\fP}\fI/\fP\:{\fIkde3\fP,\:\fIkde\fP,\:\fIkde2\fP,\:\fIkde1\fP}}\:\fI/share/config\fP.
 .TP
 .B \-\-no\-old
 Don't look at older xdm/kdm configurations, just create default config.
