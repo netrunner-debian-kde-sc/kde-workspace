@@ -17,7 +17,7 @@ _Description: Default display manager:
 Template: kdm/daemon_name
 Type: string
 Default: /usr/bin/kdm
-Description: internal use only
+Description: for internal use
  This template is never shown to the user and does not require translation.
 
 Template: kdm/stop_running_server_with_children
