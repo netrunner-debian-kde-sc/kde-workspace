@@ -1,4 +1,6 @@
-kde-workspace (4:4.10.2-3) UNRELEASED; urgency=low
+kde-workspace (4:4.10.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Pino Toscano ]
   * kdm.init: set Elarun as the default wallpaper, as it is set upstream.
@@ -13,7 +15,7 @@ kde-workspace (4:4.10.2-3) UNRELEASED; urgency=low
   * Small fix in kdm manpage.
   * Reshuffle build-deps to reduce resolver tries.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Apr 2013 15:45:44 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 May 2013 11:47:11 +0200
 
 kde-workspace (4:4.10.2-2) experimental; urgency=low
 
