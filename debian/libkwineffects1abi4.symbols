@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.1 amd64
+# SymbolsHelper-Confirmed: 4:4.10.3 amd64
 libkwineffects.so.1abi4 libkwineffects1abi4 #MINVER#
  ABI_1_4@ABI_1_4 4:4.9.3
  _ZN4KWin10Extensions10has_damageE@ABI_1_4 4:4.9.3
@@ -132,6 +132,7 @@ libkwineffects.so.1abi4 libkwineffects1abi4 #MINVER#
  _ZN4KWin15AnimationEffect16staticMetaObjectE@ABI_1_4 4:4.9.3
  _ZN4KWin15AnimationEffect19updateLayerRepaintsEv@ABI_1_4 4:4.9.3
  _ZN4KWin15AnimationEffect24_expandedGeometryChangedEPNS_12EffectWindowERK5QRect@ABI_1_4 4:4.9.3
+ _ZN4KWin15AnimationEffect25disconnectGeometryChangesEv@ABI_1_4 4:4.10.3
  _ZN4KWin15AnimationEffect4initEv@ABI_1_4 4:4.9.3
  _ZN4KWin15AnimationEffect7animateEPNS_12EffectWindowENS0_9AttributeEjiNS_4FPx2E12QEasingCurveiS4_@ABI_1_4 4:4.9.3
  _ZN4KWin15AnimationEffect7s_clockE@ABI_1_4 4:4.10.1

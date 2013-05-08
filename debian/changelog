@@ -14,6 +14,7 @@ kde-workspace (4:4.10.3-1) UNRELEASED; urgency=low
   * Add a basic kinfocenter manpage.
   * Small fix in kdm manpage.
   * Reshuffle build-deps to reduce resolver tries.
+  * Update libkwineffects1abi4 symbols file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 May 2013 11:47:11 +0200
 
