@@ -666,120 +666,123 @@ Other used licenses:
 ksysguard/
 ------
 
-Copyright: © 1999-2003 Chris Schlaeger <cs@kde.org>
-Copyright: © 2001-2003, 2006 Tobias Koenig <tokoe@kde.org>
-Copyright: © 2002-2003 Nadeem Hasan <nhasan@kde.org>
-Copyright: © 1984, 1989-1990, 1992 William LeFebvre
-Copyright: © 2006-2008 John Tapsell <tapsell@kde.org> <john.tapsell@kde.org>
-Copyright: © 2006-2007 Greg Martyn <greg.martyn@gmail.com>
-Copyright: © 1999-2000 Hans Petter <bieker@kde.org>
-Copyright: © 1984, 1989 Rice University
-Copyright: © 1989-1990, 1992 Northwestern University
-Copyright: © 2003 Stephan Uhlmann <su@su2.info>
-Copyright: © 2001 Carsten Kroll <ckroll@pinnaclesys.com>
-Copyright: © 2005 Sirtaj Singh Kang <taj@kde.org>
-Copyright: © 2001 Irix Support
+Files: ksysguard/*
+Copyright: 1999-2001, Chris Schlaeger <cs@kde.org>
+           2010-2011, David Naylor <naylor.b.david@gmail.com>
+           2006-2007, Greg Martyn <greg.martyn@gmail.com>
+           1999,2000, Hans Petter Bieker <bieker@kde.org>
+           2006-2007, John Tapsell <tapsell@kde.org>
+           2003, Nadeem Hasan <nhasan@kde.org>
+           2001,2003,2006, Tobias Koenig <tokoe@kde.org>
+License: GPL-2+
+
+Files: ksysguard/gui/HostConnector.cpp
+       ksysguard/gui/HostConnector.h
+       ksysguard/gui/SensorBrowser.cpp
+       ksysguard/gui/SensorBrowser.h
+       ksysguard/gui/SensorDisplayLib/BarGraph.cpp
+       ksysguard/gui/SensorDisplayLib/BarGraph.h
+       ksysguard/gui/SensorDisplayLib/DancingBars.cpp
+       ksysguard/gui/SensorDisplayLib/DancingBars.h
+       ksysguard/gui/SensorDisplayLib/DummyDisplay.cpp
+       ksysguard/gui/SensorDisplayLib/DummyDisplay.h
+       ksysguard/gui/SensorDisplayLib/FancyPlotter.cpp
+       ksysguard/gui/SensorDisplayLib/FancyPlotter.h
+       ksysguard/gui/SensorDisplayLib/ListView.cpp
+       ksysguard/gui/SensorDisplayLib/ListView.h
+       ksysguard/gui/SensorDisplayLib/MultiMeter.cpp
+       ksysguard/gui/SensorDisplayLib/MultiMeter.h
+       ksysguard/gui/SensorDisplayLib/ProcessController.cpp
+       ksysguard/gui/SensorDisplayLib/ProcessController.h
+       ksysguard/gui/SensorDisplayLib/SensorDisplay.cpp
+       ksysguard/gui/SensorDisplayLib/SensorDisplay.h
+       ksysguard/gui/SignalIDs.h
+       ksysguard/gui/StyleEngine.cpp
+       ksysguard/gui/StyleEngine.h
+       ksysguard/gui/WorkSheet.cpp
+       ksysguard/gui/WorkSheet.h
+       ksysguard/gui/WorkSheetSettings.cpp
+       ksysguard/gui/WorkSheetSettings.h
+       ksysguard/gui/Workspace.cpp
+       ksysguard/gui/Workspace.h
+       ksysguard/gui/ksysguard.cpp
+       ksysguard/gui/ksysguard.h
+Copyright: 1999-2002, Chris Schlaeger <cs@kde.org>
+           2006-2008, John Tapsell <john.tapsell@kde.org>
+           2001, Tobias Koenig <tokoe@kde.org>
+License: GPL-2 or GPL-3
 
 
-License for all components unless stated otherwise:
---
-  GNU General Public License, version 2 or later (GPL-2+)
+Files: ksysguard/ksysguardd/FreeBSD/netdev.c
+       ksysguard/ksysguardd/FreeBSD/netdev.h
+       ksysguard/ksysguardd/Irix/LoadAvg.c
+       ksysguard/ksysguardd/Irix/Memory.c
+       ksysguard/ksysguardd/Irix/NetDev.c
+       ksysguard/ksysguardd/Irix/NetDev.h
+       ksysguard/ksysguardd/Irix/ProcessList.c
+       ksysguard/ksysguardd/Linux/Memory.c
+       ksysguard/ksysguardd/Linux/ProcessList.c
+       ksysguard/ksysguardd/Linux/acpi.c
+       ksysguard/ksysguardd/Linux/acpi.h
+       ksysguard/ksysguardd/Linux/apm.c
+       ksysguard/ksysguardd/Linux/apm.h
+       ksysguard/ksysguardd/Linux/cpuinfo.c
+       ksysguard/ksysguardd/Linux/cpuinfo.h
+       ksysguard/ksysguardd/Linux/diskstat.c
+       ksysguard/ksysguardd/Linux/diskstat.h
+       ksysguard/ksysguardd/Linux/i8k.c
+       ksysguard/ksysguardd/Linux/i8k.h
+       ksysguard/ksysguardd/Linux/lmsensors.c
+       ksysguard/ksysguardd/Linux/lmsensors.h
+       ksysguard/ksysguardd/Linux/loadavg.c
+       ksysguard/ksysguardd/Linux/loadavg.h
+       ksysguard/ksysguardd/Linux/logfile.c
+       ksysguard/ksysguardd/Linux/logfile.h
+       ksysguard/ksysguardd/Linux/netdev.c
+       ksysguard/ksysguardd/Linux/netdev.h
+       ksysguard/ksysguardd/Linux/netstat.c
+       ksysguard/ksysguardd/Linux/netstat.h
+       ksysguard/ksysguardd/Linux/stat.c
+       ksysguard/ksysguardd/Linux/stat.h
+       ksysguard/ksysguardd/NetBSD/apm.c
+       ksysguard/ksysguardd/NetBSD/apm.h
+       ksysguard/ksysguardd/NetBSD/diskstat.c
+       ksysguard/ksysguardd/NetBSD/diskstat.h
+       ksysguard/ksysguardd/NetBSD/loadavg.c
+       ksysguard/ksysguardd/NetBSD/loadavg.h
+       ksysguard/ksysguardd/NetBSD/logfile.c
+       ksysguard/ksysguardd/NetBSD/logfile.h
+       ksysguard/ksysguardd/NetBSD/netdev.c
+       ksysguard/ksysguardd/NetBSD/netdev.h
+       ksysguard/ksysguardd/PWUIDCache.c
+       ksysguard/ksysguardd/PWUIDCache.h
+       ksysguard/ksysguardd/Solaris/LoadAvg.c
+       ksysguard/ksysguardd/Solaris/Memory.c
+       ksysguard/ksysguardd/Solaris/NetDev.c
+       ksysguard/ksysguardd/Solaris/ProcessList.c
+       ksysguard/ksysguardd/Tru64/LoadAvg.c
+       ksysguard/ksysguardd/Tru64/Memory.c
+       ksysguard/ksysguardd/Tru64/NetDev.c
+       ksysguard/ksysguardd/conf.c
+       ksysguard/ksysguardd/conf.h
+       ksysguard/ksysguardd/ksysguardd.c
+       ksysguard/ksysguardd/ksysguardd.h
+       ksysguard/ksysguardd/modules.h
+Copyright: 1999-2003, Chris Schlaeger <cs@kde.org>
+           2006, John Tapsell <john.tapsell@kde.org>
+           2005, Sirtaj Singh Kang <taj@kde.org>
+           2003, Stephan Uhlmann <su@su2.info>
+           2001-2003, Tobias Koenig <tokoe@kde.org
+License: GPL-2
 
-    ? gui/setscheduler.c
-
-  On Debian systems, the complete text of the
-  GNU General Public License version 2 can be found in
-  /usr/share/common-licenses/GPL-2
---
-
-Other used licenses:
---
-  GNU General Public License, version 2 (GPL-2)
-    44 file(s) are licensed under this license:
-
-    gui/* excluding:
-    -+ gui/KSGAppletSettings.cc
-    -+ gui/KSGAppletSettings.h
-    -+ gui/SharedSettings.h
-    -+ gui/TimerSettings.cc
-    -+ gui/TimerSettings.h
-    + gui/SensorDisplayLib/BarGraph.cc
-    + gui/SensorDisplayLib/BarGraph.h
-    + gui/SensorDisplayLib/DancingBars.cc
-    + gui/SensorDisplayLib/DancingBars.h
-    + gui/SensorDisplayLib/DummyDisplay.cc
-    + gui/SensorDisplayLib/DummyDisplay.h
-    + gui/SensorDisplayLib/FancyPlotter.cc
-    + gui/SensorDisplayLib/FancyPlotter.h
-    + gui/SensorDisplayLib/ListView.cc
-    + gui/SensorDisplayLib/ListView.h
-    + gui/SensorDisplayLib/MultiMeter.cc
-    + gui/SensorDisplayLib/MultiMeter.h
-    + gui/SensorDisplayLib/ProcessController.cc
-    + gui/SensorDisplayLib/ProcessController.h
-    + gui/SensorDisplayLib/SensorDisplay.cc
-    + gui/SensorDisplayLib/SensorDisplay.h
-    + gui/SensorDisplayLib/SignalPlotter.cc
-    + gui/SensorDisplayLib/SignalPlotter.h
-    gui/ksgrd/*
-
-  On Debian systems, the complete text of the
-  GNU General Public License version 2 can be found in
-  /usr/share/common-licenses/GPL-2
---
-
---
-  GNU General Public License (GPL-any)
-    62 file(s) are licensed under this license:
-
-    + gui/SharedSettings.h
-    ksysguardd/* excluding:
-    -+ ksysguardd/Command.c
-    -+ ksysguardd/Command.h
-    -? ksysguardd/config-ksysguardd.h.cmake
-    + ksysguardd/FreeBSD/netdev.c
-    + ksysguardd/FreeBSD/netdev.h
-    + ksysguardd/Irix/LoadAvg.c
-    + ksysguardd/Irix/Memory.c
-    + ksysguardd/Irix/NetDev.c
-    + ksysguardd/Irix/NetDev.h
-    + ksysguardd/Irix/ProcessList.c
-    ksysguardd/Linux/* excluding:
-    -+ ksysguardd/Linux/Memory.h
-    -+ ksysguardd/Linux/ProcessList.h
-    ksysguardd/NetBSD/* excluding:
-    -+ ksysguardd/NetBSD/CPU.c
-    -+ ksysguardd/NetBSD/CPU.h
-    -+ ksysguardd/NetBSD/Memory.c
-    -+ ksysguardd/NetBSD/Memory.h
-    -+ ksysguardd/NetBSD/ProcessList.c
-    -+ ksysguardd/NetBSD/ProcessList.h
-    + ksysguardd/Solaris/LoadAvg.c
-    + ksysguardd/Solaris/Memory.c
-    + ksysguardd/Solaris/NetDev.c
-    + ksysguardd/Solaris/ProcessList.c
-    + ksysguardd/Tru64/LoadAvg.c
-    + ksysguardd/Tru64/Memory.c
-    + ksysguardd/Tru64/NetDev.c
-
-  On Debian systems, the complete text of the
-  GNU General Public License can be found in
-  /usr/share/common-licenses/GPL
---
-
---
-  GNU Library General Public License, version 2 or later (LGPL-2+)
-    4 file(s) are licensed under this license:
-
-    CContLib/*
-    + gui/KSGAppletSettings.cc
-    + gui/KSGAppletSettings.h
-
-  On Debian systems, the complete text of the
-  GNU Library General Public License version 2 can be found in
-  /usr/share/common-licenses/LGPL-2
---
-
+Files: ksysguard/gui/ksortfilterproxymodel.cpp
+       ksysguard/gui/ksortfilterproxymodel.h
+       ksysguard/ksysguardd/CContLib/ccont.c
+       ksysguard/ksysguardd/CContLib/ccont.h
+Copyright: 2009, John Tapsell <tapsell@kde.org>
+           2007,2008, Omat Holding B.V. <info@omat.nl>
+           2002, Tobias Koenig <tokoe@kde.org>
+License: LGPL-2+
 
 ------
 ksystraycmd/
@@ -1089,544 +1092,982 @@ License for all components is:
 libs/
 ------
 
-Copyright: © 2006-2008 Will Stephenson <wstephenson@kde.org>
-Copyright: © 2008 Aike J Sommer <dev@aikesommer.name>
-Copyright: © 2005-2007 Kevin Ottens <ervin@kde.org>
-Copyright: © 2006-2009 John Tapsell <tapsell@kde.org> <john.tapsell@kde.org> <john.tapsell@kdemail.net>
-Copyright: © 2006-2007 Daniel Gollub <dgollub@suse.de>
-Copyright: © 2008 Christian Mollekopf <chrigi_1@hotmail.com>
-Copyright: © 2007-2008 Sebastian Trueg <trueg@kde.org>
-Copyright: © 2007 Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
-Copyright: © 2000-2005, 2008 Oswald Buddenhagen <ossi@kde.org>
-Copyright: © 2000-2001 Matthias Elter <elter@kde.org>
-Copyright: © 1999-2001 Chris Schlaeger <cs@kde.org>
-Copyright: © 2007 Juan González <jaguilera@opsiland.info>
-Copyright: © 1997-1998, 2000 Steffen Hansen <hansen@kde.org>
-Copyright: © 2008 Tom Patzig <tpatzig@suse.de>
-Copyright: © 2001 Richard Moore <rich@kde.org>
-Copyright: © 2006-2007 David Faure <faure@kde.org>
-Copyright: © 2007-2008 Riccardo Iaconelli <riccardo@kde.org>
-Copyright: © 2008-2009 Davide Bettio <davide.bettio@kdemail.net>
-Copyright: © 2007-2008 Harry Bock <hbock@providence.edu>
-Copyright: © 2002-2003 Hamish Rodda <rodda@kde.org>
-Copyright: © 2007 Trent Waddington <trent.waddington@gmail.com>
-Copyright: © 2007 Manolo Valdes <nolis71cu@gmail.com>
-Copyright: © 2000 Matthias Ettrich <ettrich@kde.org>
-Copyright: © 2008 Dirk Mueller <mueller@kde.org>
-Copyright: © 1997 Matthias Kalle Dalheimer <kalle@kde.org>
-Copyright: © 2008 Laurent Montel <montel@kde.org>
-Copyright: © 2007-2008 Sebastian Kuegler <sebas@kde.org>
-Copyright: © 2008 Dario Freddi <drf54321@gmail.com>
-Copyright: © 2007 Adriaan de Groot <groot@kde.org>
-Copyright: © 2007 Mark Davies <mark@mcs.vuw.ac.nz>
-Copyright: © 2003 Fabian Kaiser <xfk@softpro.de>
-Copyright: © 2008 Aaron Seigo <aseigo@kde.org>
-Copyright: © 2007 Lubos Lunak <l.lunak@kde.org>
-Copyright: © 2005 Stephan Kulow <coolo@kde.org>
-Copyright: © 2009 Jussi Kekkonen <tmt@ubuntu.com>
-Copyright: © 2009 John Layt <john@layt.net>
-Copyright: © 2008 Marco Martin <notmart@gmail.com>
-Copyright: © 2009 by Ana Cecília Martins <anaceciliamb@gmail.com>
-Copyright: © 2008 Petri Damsten <damu@iki.fi>
-Copyright: © 2009 Chani Armitage <chani@kde.org>
---
+Files: libs/*
+Copyright: 2008-2011, Aaron Seigo <aseigo@kde.org>
+           2007, Adriaan de Groot <groot@kde.org>
+           2010, Alex Hornung <ahornung@gmail.com>
+           2009, Ana Cecília Martins <anaceciliamb@gmail.com>
+           2011, Andrius da Costa Ribas <andriusmao@gmail.com>
+           2009, Chani Armitage <chani@kde.org>
+           1999-2001, Chris Schlaeger <cs@kde.org>
+           2006-2007, David Faure <faure@kde.org>
+           2008-2010, Davide Bettio <davide.bettio@kdemail.net>
+           2003, Fabian Kaiser <xfk@softpro.de>
+           2007, Ivan Cukic <ivan.cukic+kde@gmail.com>
+           2009, John Layt <john@layt.net>
+           2006-2009, John Tapsell <john.tapsell@kde.org>
+           2008, Laurent Montel <montel@kde.org>
+           2007, Lubos Lunak <l.lunak@kde.org>
+           2007, Manolo Valdes <nolis71cu@gmail.com>
+           2008-2009, Marco Martin <notmart@gmail.com>
+           2007, Mark Davies <mark@mcs.vuw.ac.nz>
+           1997, Matthias Kalle Dalheimer (kalle@kde.org)
+           2003-2004, Oswald Buddenhagen <ossi@kde.org>
+           2009, Pino Toscano <pino@kde.org>
+           2007, Trent Waddington <trent.waddington@gmail.com>
+           2005, Stephan Kulow <coolo@kde.org>
+           2004-2005, Oswald Buddenhagen <ossi@kde.org>
+License: LGPL-2+
 
-License for all components unless stated otherwise:
---
-  GNU Library General Public License, version 2 (LGPL-2)
-    However, the license of 37 file(s) was not explicitly specified
+Files: libs/kdm/kgreet_classic.cpp
+       libs/kdm/kgreet_classic.h
+       libs/kdm/kgreet_generic.cpp
+       libs/kdm/kgreet_generic.h
+       libs/kdm/kgreet_winbind.cpp
+       libs/kdm/kgreet_winbind.h
+       libs/kephal/client/dbusconfigurations.cpp
+       libs/kephal/client/dbusconfigurations.h
+       libs/kephal/client/dbusoutputs.cpp
+       libs/kephal/client/dbusoutputs.h
+       libs/kephal/client/dbusscreens.cpp
+       libs/kephal/client/dbusscreens.h
+       libs/kephal/client/libkephal.cpp
+       libs/kephal/client/noconfigurations.cpp
+       libs/kephal/client/noconfigurations.h
+       libs/kephal/kephal/configurations.cpp
+       libs/kephal/kephal/configurations.h
+       libs/kephal/kephal/desktopwidgetoutputs.cpp
+       libs/kephal/kephal/desktopwidgetoutputs.h
+       libs/kephal/kephal/kephal.h
+       libs/kephal/kephal/kephal_export.h
+       libs/kephal/kephal/outputs.cpp
+       libs/kephal/kephal/outputs.h
+       libs/kephal/kephal/screens.cpp
+       libs/kephal/kephal/screens.h
+       libs/kephal/kephal/simpleoutput.cpp
+       libs/kephal/kephal/simpleoutput.h
+       libs/kephal/kephal/simplescreen.cpp
+       libs/kephal/kephal/simplescreen.h
+       libs/kephal/service/backend.h
+       libs/kephal/service/backendconfigurations.cpp
+       libs/kephal/service/backendconfigurations.h
+       libs/kephal/service/backendoutputs.cpp
+       libs/kephal/service/backendoutputs.h
+       libs/kephal/service/configurationscreens.cpp
+       libs/kephal/service/configurationscreens.h
+       libs/kephal/service/dbus/dbusapi_configurations.cpp
+       libs/kephal/service/dbus/dbusapi_configurations.h
+       libs/kephal/service/dbus/dbusapi_outputs.cpp
+       libs/kephal/service/dbus/dbusapi_outputs.h
+       libs/kephal/service/dbus/dbusapi_screens.cpp
+       libs/kephal/service/dbus/dbusapi_screens.h
+       libs/kephal/service/edid.h
+       libs/kephal/service/externalconfiguration.cpp
+       libs/kephal/service/externalconfiguration.h
+       libs/kephal/service/kephald.cpp
+       libs/kephal/service/kephald.h
+       libs/kephal/service/kephalservice.cpp
+       libs/kephal/service/kephalservice.h
+       libs/kephal/service/outputscreens.cpp
+       libs/kephal/service/outputscreens.h
+       libs/kephal/service/standalonekephald.cpp
+       libs/kephal/service/xml/configurations_xml.cpp
+       libs/kephal/service/xml/configurations_xml.h
+       libs/kephal/service/xml/xmlnodehandler.cpp
+       libs/kephal/service/xml/xmlnodehandler.h
+       libs/kephal/service/xml/xmlnodehandler.h.cpp
+       libs/kephal/service/xml/xmltype.cpp
+       libs/kephal/service/xml/xmltype.h
+       libs/kephal/service/xmlconfiguration.cpp
+       libs/kephal/service/xmlconfiguration.h
+       libs/kephal/service/xmlconfigurations.cpp
+       libs/kephal/service/xmlconfigurations.h
+       libs/kephal/service/xrandr12/randr.cpp
+       libs/kephal/service/xrandr12/randr.h
+       libs/kephal/service/xrandr12/randrcrtc.cpp
+       libs/kephal/service/xrandr12/randrcrtc.h
+       libs/kephal/service/xrandr12/randrdisplay.cpp
+       libs/kephal/service/xrandr12/randrdisplay.h
+       libs/kephal/service/xrandr12/randrmode.cpp
+       libs/kephal/service/xrandr12/randrmode.h
+       libs/kephal/service/xrandr12/randroutput.cpp
+       libs/kephal/service/xrandr12/randroutput.h
+       libs/kephal/service/xrandr12/randrscreen.cpp
+       libs/kephal/service/xrandr12/randrscreen.h
+       libs/kephal/service/xrandroutputs.cpp
+       libs/kephal/service/xrandroutputs.h
+       libs/kephal/tests/kephalapp.cpp
+       libs/kephal/tests/kephalapp.h
+       libs/ksysguard/processcore/atop_p.h
+       libs/plasmaclock/clockapplet.cpp
+       libs/plasmaclock/clockapplet.h
+       libs/plasmagenericshell/backgrounddialog.cpp
+       libs/plasmagenericshell/backgrounddialog.h
+       libs/plasmagenericshell/wallpaperpreview.cpp
+       libs/plasmagenericshell/wallpaperpreview.h
+Copyright: 2008, Aike J Sommer <dev@aikesommer.name>
+           2008-2009, Davide Bettio <davide.bettio@kdemail.net>
+           2008, Dirk Mueller <mueller@kde.org>
+           2007, Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+           2002-2003, Hamish Rodda <rodda@kde.org>
+           2007-2008, Harry Bock <hbock@providence.edu>
+           2007, Ivan Cukic <ivan.cukic+kde@gmail.com>
+           2009, John Layt <john@layt.net>
+           2008, Laurent Montel <montel@kde.org>
+           2000-2008, Oswald Buddenhagen <ossi@kde.org>
+           2007, Paolo Capriotti <p.capriotti@gmail.com>
+           2008, Petri Damsten <damu@iki.fi>
+           2007-2008, Riccardo Iaconelli <riccardo@kde.org>
+           2007-2008, Sebastian Kuegler <sebas@kde.org>
+           1997-2000, Steffen Hansen <hansen@kde.org>
+License: GPL-2+
 
+Files: libs/ksysguard/ksgrd/SensorAgent.cpp
+       libs/ksysguard/ksgrd/SensorAgent.h
+       libs/ksysguard/ksgrd/SensorClient.h
+       libs/ksysguard/ksgrd/SensorManager.cpp
+       libs/ksysguard/ksgrd/SensorManager.h
+       libs/ksysguard/ksgrd/SensorShellAgent.cpp
+       libs/ksysguard/ksgrd/SensorShellAgent.h
+       libs/ksysguard/ksgrd/SensorSocketAgent.cpp
+       libs/ksysguard/ksgrd/SensorSocketAgent.h
+       libs/ksysguard/signalplotter/kgraphicssignalplotter.cpp
+       libs/ksysguard/signalplotter/kgraphicssignalplotter.h
+       libs/ksysguard/signalplotter/ksignalplotter.cpp
+       libs/ksysguard/signalplotter/ksignalplotter.h
+       libs/ksysguard/signalplotter/ksignalplotter_p.h
+Copyright: 1999-2001, Chris Schlaeger <cs@kde.org>
+           2006-2009, John Tapsell <tapsell@kde.org>
+License: GPL-2 or GPL-3
 
-  On Debian systems, the complete text of the
-  GNU Library General Public License version 2 can be found in
-  /usr/share/common-licenses/LGPL-2
---
+Files: libs/kephal/kephal/desktopwidgetscreens.cpp
+       libs/kephal/kephal/desktopwidgetscreens.h
+       libs/solid/control/networkipv4config.cpp
+       libs/solid/control/networkipv4config.h
+Copyright: 2008-2010, Will Stephenson <wstephenson@kde.org>
+License: GPL-2+ or GPL-3+ with KDE e.V. exception
 
-Other used licenses:
---
-  GNU General Public License, version 2 or later (GPL-2+)
-    86 file(s) are licensed under this license:
+Files: libs/plasmagenericshell/scripting/backportglobal.h
+Copyright: 1992,2007, Trolltech ASA.
+License: GPL-2
 
-    kdm/* excluding:
-    -+ kdm/kgreeterplugin.h
-    kephal/configurations/*
-    kephal/configurations/dbus/*
-    kephal/configurations/xml/*
-    kephal/kded_kephal/* excluding:
-    -? kephal/kded_kephal/config-kephal.h.cmake
-    kephal/kded_kephal/dbus/*
-    kephal/kephal/*
-    kephal/kephalapp/*
-    kephal/kephald/*
-    + kephal/libkephal/libkephal.cpp
-    kephal/outputs/*
-    kephal/outputs/dbus/*
-    kephal/outputs/desktopwidget/*
-    kephal/outputs/xrandr/*
-    kephal/screens/*
-    kephal/screens/configuration/*
-    kephal/screens/dbus/*
-    kephal/screens/output/*
-    kephal/xml/*
-    kephal/xrandr12/*
-    + kworkspace/kdisplaymanager.cpp
-    + kworkspace/kdisplaymanager.h
-    + plasmaclock/clockapplet.cpp
-    + plasmaclock/clockapplet.h
-    + plasmaclock/clocknumber.cpp
-    + plasmaclock/clocknumber.h
-    + solid/control/networkipv4config.cpp
-    + solid/control/networkipv4config.h
-    + taskmanager/taskgroup.h
-    + taskmanager/taskitem.h
+Files: libs/oxygen/oxygenhelper.cpp
+       libs/oxygen/oxygenhelper.h
+       libs/oxygen/oxygentileset.cpp
+       libs/oxygen/oxygentileset.h
+       libs/plasmagenericshell/scripting/rect.cpp
+       libs/solid/control/authentication.cpp
+       libs/solid/control/authentication.h
+       libs/solid/control/backends/fakenet/fakenetworkinterface.cpp
+       libs/solid/control/backends/fakenet/fakenetworkinterface.h
+       libs/solid/control/backends/fakenet/fakenetworkmanager.cpp
+       libs/solid/control/backends/fakenet/fakenetworkmanager.h
+       libs/solid/control/backends/fakenet/module.cpp
+       libs/solid/control/backends/fakenet/tests/fakenetworktest.cpp
+       libs/solid/control/backends/fakenet/tests/fakenetworktest.h
+       libs/solid/control/frontendobject.cpp
+       libs/solid/control/frontendobject_p.h
+       libs/solid/control/ifaces/authentication.cpp
+       libs/solid/control/ifaces/authentication.h
+       libs/solid/control/ifaces/modemcdmainterface.h
+       libs/solid/control/ifaces/modemgsmcardinterface.h
+       libs/solid/control/ifaces/modemgsmcontactsinterface.h
+       libs/solid/control/ifaces/modemgsmhsointerface.h
+       libs/solid/control/ifaces/modemgsmnetworkinterface.h
+       libs/solid/control/ifaces/modemgsmsmsinterface.h
+       libs/solid/control/ifaces/modemgsmussdinterface.h
+       libs/solid/control/ifaces/modeminterface.cpp
+       libs/solid/control/ifaces/modeminterface.h
+       libs/solid/control/ifaces/modemlocationinterface.h
+       libs/solid/control/ifaces/modemmanager.cpp
+       libs/solid/control/ifaces/modemmanager.h
+       libs/solid/control/ifaces/modemmanagerinterface.cpp
+       libs/solid/control/ifaces/modemmanagerinterface.h
+       libs/solid/control/ifaces/networkinterface.cpp
+       libs/solid/control/ifaces/networkinterface.h
+       libs/solid/control/ifaces/networkmanager.cpp
+       libs/solid/control/ifaces/networkmanager.h
+       libs/solid/control/ifaces/wirednetworkinterface.cpp
+       libs/solid/control/ifaces/wirednetworkinterface.h
+       libs/solid/control/ifaces/wirelessnetworkinterface.cpp
+       libs/solid/control/ifaces/wirelessnetworkinterface.h
+       libs/solid/control/managerbase.cpp
+       libs/solid/control/managerbase_p.h
+       libs/solid/control/modemcdmainterface.cpp
+       libs/solid/control/modemcdmainterface.h
+       libs/solid/control/modemgsmcardinterface.cpp
+       libs/solid/control/modemgsmcardinterface.h
+       libs/solid/control/modemgsmcontactsinterface.cpp
+       libs/solid/control/modemgsmcontactsinterface.h
+       libs/solid/control/modemgsmhsointerface.cpp
+       libs/solid/control/modemgsmhsointerface.h
+       libs/solid/control/modemgsmnetworkinterface.cpp
+       libs/solid/control/modemgsmnetworkinterface.h
+       libs/solid/control/modemgsmsmsinterface.cpp
+       libs/solid/control/modemgsmsmsinterface.h
+       libs/solid/control/modemgsmussdinterface.cpp
+       libs/solid/control/modemgsmussdinterface.h
+       libs/solid/control/modeminterface.cpp
+       libs/solid/control/modeminterface.h
+       libs/solid/control/modeminterface_p.h
+       libs/solid/control/modemlocationinterface.cpp
+       libs/solid/control/modemlocationinterface.h
+       libs/solid/control/modemmanager.cpp
+       libs/solid/control/modemmanager.h
+       libs/solid/control/modemmanager_p.h
+       libs/solid/control/modemmanagerinterface.cpp
+       libs/solid/control/modemmanagerinterface.h
+       libs/solid/control/modemmanagerinterface_p.h
+       libs/solid/control/network_p.h
+       libs/solid/control/networking.cpp
+       libs/solid/control/networking.h
+       libs/solid/control/networking_p.h
+       libs/solid/control/networkinterface.cpp
+       libs/solid/control/networkinterface.h
+       libs/solid/control/networkinterface_p.h
+       libs/solid/control/networkmanager.cpp
+       libs/solid/control/networkmanager.h
+       libs/solid/control/networkmanager_p.h
+       libs/solid/control/singletondefs.h
+       libs/solid/control/soliddefs_p.h
+       libs/solid/control/tests/solidnettest.cpp
+       libs/solid/control/tests/solidnettest.h
+       libs/solid/control/wirednetworkinterface.cpp
+       libs/solid/control/wirednetworkinterface.h
+       libs/solid/control/wirednetworkinterface_p.h
+       libs/solid/control/wirelessnetworkinterface.cpp
+       libs/solid/control/wirelessnetworkinterface.h
+       libs/solid/control/wirelessnetworkinterface_p.h
+Copyright: 2007, Casper Boemann <cbr@boemann.dk>
+           2007, Fredrik Höglund <fredrik@kde.org>
+           2009-2010, Hugo Pereira Da Costa <hugo@oxygen-icons.org>
+           2005-2007, Kevin Ottens <ervin@kde.org>
+           2010-2011, Lamarque Souza <lamarque@gmail.com>
+           2008, Long Huynh Huu <long.upcase@googlemail.com>
+           2007, Matthew Woehlke <mw_triad@users.sourceforge.net>
+           2007, Richard J. Moore <rich@kde.org>
+           2006-2008, Will Stephenson <wstephenson@kde.org>
+License: LGPL-2
 
-  On Debian systems, the complete text of the
-  GNU General Public License version 2 can be found in
-  /usr/share/common-licenses/GPL-2
---
+Files: libs/solid/control/backends/fakenet/fakeaccesspoint.cpp
+       libs/solid/control/backends/fakenet/fakeaccesspoint.h
+       libs/solid/control/backends/fakenet/fakewirednetworkinterface.cpp
+       libs/solid/control/backends/fakenet/fakewirednetworkinterface.h
+       libs/solid/control/backends/fakenet/fakewirelessnetworkinterface.cpp
+       libs/solid/control/backends/fakenet/fakewirelessnetworkinterface.h
+       libs/solid/control/ifaces/modemcdmainterface.cpp
+       libs/solid/control/ifaces/modemgsmcardinterface.cpp
+       libs/solid/control/ifaces/modemgsmcontactsinterface.cpp
+       libs/solid/control/ifaces/modemgsmhsointerface.cpp
+       libs/solid/control/ifaces/modemgsmnetworkinterface.cpp
+       libs/solid/control/ifaces/modemgsmsmsinterface.cpp
+       libs/solid/control/ifaces/modemgsmussdinterface.cpp
+       libs/solid/control/ifaces/modemlocationinterface.cpp
+       libs/solid/control/ifaces/networkbtinterface.cpp
+       libs/solid/control/ifaces/networkbtinterface.h
+       libs/solid/control/ifaces/networkcdmainterface.cpp
+       libs/solid/control/ifaces/networkcdmainterface.h
+       libs/solid/control/ifaces/networkgsminterface.cpp
+       libs/solid/control/ifaces/networkgsminterface.h
+       libs/solid/control/ifaces/networkserialinterface.cpp
+       libs/solid/control/ifaces/networkserialinterface.h
+       libs/solid/control/ifaces/wirelessaccesspoint.cpp
+       libs/solid/control/ifaces/wirelessaccesspoint.h
+       libs/solid/control/modemcdmainterface_p.h
+       libs/solid/control/modemgsmcardinterface_p.h
+       libs/solid/control/modemgsmcontactsinterface_p.h
+       libs/solid/control/modemgsmhsointerface_p.h
+       libs/solid/control/modemgsmnetworkinterface_p.h
+       libs/solid/control/modemgsmsmsinterface_p.h
+       libs/solid/control/modemgsmussdinterface_p.h
+       libs/solid/control/modemlocationinterface_p.h
+       libs/solid/control/networkbtinterface.cpp
+       libs/solid/control/networkbtinterface.h
+       libs/solid/control/networkbtinterface_p.h
+       libs/solid/control/networkcdmainterface.cpp
+       libs/solid/control/networkcdmainterface.h
+       libs/solid/control/networkcdmainterface_p.h
+       libs/solid/control/networkgsminterface.cpp
+       libs/solid/control/networkgsminterface.h
+       libs/solid/control/networkgsminterface_p.h
+       libs/solid/control/networkserialinterface.cpp
+       libs/solid/control/networkserialinterface.h
+       libs/solid/control/networkserialinterface_p.h
+       libs/solid/control/wirelessaccesspoint.cpp
+       libs/solid/control/wirelessaccesspoint.h
+Copyright: 2008-2011, Aaron J. Seigo <aseigo@kde.org>
+           2010-2011, Lamarque Souza <lamarque@gmail.com>
+           2008, Will Stephenson <wstephenson@kde.org>
+License: LGPL-2.1 or LGPL-3 or later approved by KDE e.V.
 
---
-  GNU Library General Public License, version 2 or later (LGPL-2+)
-    50 file(s) are licensed under this license:
-
-    + kdm/kgreeterplugin.h
-    ksysguard/lsofui/* excluding:
-    -? ksysguard/lsofui/lsof.cpp
-    ksysguard/processcore/*
-    ksysguard/processui/*
-    ksysguard/tests/*
-    + kworkspace/interface_util.h
-    + kworkspace/kworkspace.cpp
-    + kworkspace/kworkspace.h
-    + kworkspace/kworkspace_p.h
-    + nepomukquery/nepomukquery_export.h
-    + nepomukqueryclient/nepomukqueryclient_export.h
-    plasmaclock/* excluding:
-    -+ plasmaclock/clockapplet.cpp
-    -+ plasmaclock/clockapplet.h
-    -+ plasmaclock/clocknumber.cpp
-    -+ plasmaclock/clocknumber.h
-    + solid/control/solid_control_export.h
-
-  On Debian systems, the complete text of the
-  GNU Library General Public License version 2 can be found in
-  /usr/share/common-licenses/LGPL-2
---
-
---
-  GNU Lesser General Public License, version 2.1 or later (LGPL-2.1+)
-    24 file(s) are licensed under this license:
-
-    + solid/control/networkcdmainterface.cpp
-    + solid/control/networkcdmainterface.h
-    + solid/control/networkcdmainterface_p.h
-    + solid/control/networkgsminterface.cpp
-    + solid/control/networkgsminterface.h
-    + solid/control/networkgsminterface_p.h
-    + solid/control/networkserialinterface.cpp
-    + solid/control/networkserialinterface.h
-    + solid/control/networkserialinterface_p.h
-    + solid/control/wirelessaccesspoint.cpp
-    + solid/control/wirelessaccesspoint.h
-    solid/control/backends/fakenet/* excluding:
-    -+ solid/control/backends/fakenet/fakenetworkinterface.cpp
-    -+ solid/control/backends/fakenet/fakenetworkinterface.h
-    -+ solid/control/backends/fakenet/fakenetworkmanager.cpp
-    -+ solid/control/backends/fakenet/fakenetworkmanager.h
-    -+ solid/control/backends/fakenet/module.cpp
-    + solid/control/ifaces/networkcdmainterface.cpp
-    + solid/control/ifaces/networkcdmainterface.h
-    + solid/control/ifaces/networkgsminterface.cpp
-    + solid/control/ifaces/networkgsminterface.h
-    + solid/control/ifaces/networkserialinterface.cpp
-    + solid/control/ifaces/wirelessaccesspoint.cpp
-    + solid/control/ifaces/wirelessaccesspoint.h
-
-  On Debian systems, the complete text of the
-  GNU Lesser General Public License version 2.1 can be found in
-  /usr/share/common-licenses/LGPL-2.1
---
-
---
-  GNU Library/Lesser General Public License (LGPL-any)
-    1 file(s) are licensed under this license:
-
-    + solid/control/ifaces/networkserialinterface.h
-
-  On Debian systems, the complete text of the
-  GNU Library/Lesser General Public License can be found in
-  /usr/share/common-licenses/LGPL
---
-
---
-  BSD-ish
-    + kworkspace/kwindowlistmenu.cpp
-    + kworkspace/kwindowlistmenu.h
-    taskmanager/* excluding:
-    -+ taskmanager/taskgroup.h
-    -+ taskmanager/taskitem.h
-    taskmanager/strategies/*
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in
-    all copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
-    AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
-    AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-    CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
+Files: libs/kworkspace/kwindowlistmenu.cpp
+       libs/kworkspace/kwindowlistmenu.h
+       libs/oxygen/oxygenanimation.cpp
+       libs/oxygen/oxygenanimation.h
+       libs/oxygen/oxygenanimationconfigitem.cpp
+       libs/oxygen/oxygenanimationconfigitem.h
+       libs/oxygen/oxygenbaseanimationconfigwidget.cpp
+       libs/oxygen/oxygenbaseanimationconfigwidget.h
+       libs/oxygen/oxygengenericanimationconfigitem.cpp
+       libs/oxygen/oxygengenericanimationconfigitem.h
+       libs/oxygen/oxygenitemmodel.cpp
+       libs/oxygen/oxygenitemmodel.h
+       libs/oxygen/oxygenlistmodel.h
+       libs/oxygen/oxygenshadowcache.cpp
+       libs/oxygen/oxygenshadowcache.h
+       libs/oxygen/oxygenshadowconfiguration.cpp
+       libs/oxygen/oxygenshadowconfiguration.h
+       libs/taskmanager/abstractgroupableitem.cpp
+       libs/taskmanager/abstractgroupableitem.h
+       libs/taskmanager/abstractgroupingstrategy.cpp
+       libs/taskmanager/abstractgroupingstrategy.h
+       libs/taskmanager/abstractsortingstrategy.cpp
+       libs/taskmanager/abstractsortingstrategy.h
+       libs/taskmanager/groupmanager.cpp
+       libs/taskmanager/groupmanager.h
+       libs/taskmanager/launcherconfig.cpp
+       libs/taskmanager/launcherconfig.h
+       libs/taskmanager/launcheritem.cpp
+       libs/taskmanager/launcheritem.h
+       libs/taskmanager/launcherproperties.cpp
+       libs/taskmanager/launcherproperties.h
+       libs/taskmanager/startup.cpp
+       libs/taskmanager/startup.h
+       libs/taskmanager/strategies/alphasortingstrategy.cpp
+       libs/taskmanager/strategies/alphasortingstrategy.h
+       libs/taskmanager/strategies/desktopsortingstrategy.cpp
+       libs/taskmanager/strategies/desktopsortingstrategy.h
+       libs/taskmanager/strategies/manualgroupingstrategy.cpp
+       libs/taskmanager/strategies/manualgroupingstrategy.h
+       libs/taskmanager/strategies/manualsortingstrategy.cpp
+       libs/taskmanager/strategies/manualsortingstrategy.h
+       libs/taskmanager/strategies/programgroupingstrategy.cpp
+       libs/taskmanager/strategies/programgroupingstrategy.h
+       libs/taskmanager/task.cpp
+       libs/taskmanager/task.h
+       libs/taskmanager/task_p.h
+       libs/taskmanager/task_win.cpp
+       libs/taskmanager/task_x11.cpp
+       libs/taskmanager/taskactions.cpp
+       libs/taskmanager/taskactions.h
+       libs/taskmanager/taskactions_p.h
+       libs/taskmanager/taskgroup.cpp
+       libs/taskmanager/taskgroup.h
+       libs/taskmanager/taskitem.cpp
+       libs/taskmanager/taskitem.h
+       libs/taskmanager/taskmanager.cpp
+       libs/taskmanager/taskmanager.h
+       libs/taskmanager/taskmanager_export.h
+       libs/taskmanager/tasksmodel.cpp
+       libs/taskmanager/tasksmodel.h
+Copyright: 2008-2010, Aaron Seigo <aseigo@kde.org
+           2010, Anton Kreuzkamp <akreuzkamp@web.de>
+           2008, Christian Mollekopf <chrigi_1@hotmail.com>
+           2011, Craig Drummond <craig@kde.org>
+           2009-2010, Hugo Pereira Da Costa <hugo.pereira@free.fr>
+           2010, Hugo Pereira Da Costa <hugo@oxygen-icons.org>
+           2000-2001, Matthias Elter <elter@kde.org>
+           2001, Richard Moore <rich@kde.org>
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ------
 plasma/
 ------
 
-Copyright: © 2006-2009 Aaron Seigo <aseigo@kde.org>
-Copyright: © 2007 Robert Knight <robertknight@gmail.com>
-Copyright: © 2008 Jason Stubbs <jasonbstubbs@gmail.com>
-Copyright: © 2007-2008 Petri Damsten <damu@iki.fi>
-Copyright: © 2007-2008 Alex Merry <alex.merry@kdemail.net>
-Copyright: © 2007-2010 Marco Martin <notmart@gmail.com>
-Copyright: © 2008-2009 Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
-Copyright: © 2007-2008 Alexis Ménard <darktears31@gmail.com>
-Copyright: © 2007, 2009 Ivan Cukic <ivan.cukic+kde@gmail.com>
-Copyright: © 2007-2008 Richard J. Moore <rich@kde.org>
-Copyright: © 2007 Paolo Capriotti <p.capriotti@gmail.com>
-Copyright: © 2007-2008 Google Inc.
-Copyright: © 2007 Zack Rusin <zack@kde.org>
-Copyright: © 2007-2009 Shawn Starr <shawn.starr@rogers.com>
-Copyright: © 2008 Chani Armitage <chanika@gmail.com> <chani@kde.org>
-Copyright: © 2008-2009 Sebastian Sauer <mail@dipe.org> <trueg@kde.org>
-Copyright: © 2007 Christopher Blauvelt <cblauvelt@gmail.com>
-Copyright: © 2007 Kevin Ottens <ervin@kde.org>
-Copyright: © 2008 Sebastian Kügler <sebas@kde.org>
-Copyright: © 2008-2009 Alain Boyer <alainboyer@gmail.com>
-Copyright: © 2007-2008 Sebastian Kuegler <sebas@kde.org>
-Copyright: © 2008 Simon Edwards <simon@simonzone.com>
-Copyright: © 2007-2008 Riccardo Iaconelli <riccardo@kde.org>
-Copyright: © 2008 Dmitry Suzdalev <dimsuz@gmail.com>
-Copyright: © 2007-2008 Teemu Rytilahti <tpr@d5k.net> <tpr@iki.fi>
-Copyright: © 2007 Matt Broadstone <mbroadst@gmail.com> <mbroadst@kde.org>
-Copyright: © 2007, 2009 Pino Toscano <pino@kde.org>
-Copyright: © 2008-2009 Lukas Appelhans <l.appelhans@gmx.de>
-Copyright: © 2007 Fredrik Höglund <fredrik@kde.org>
-Copyright: © 2008 Ambroz Bizjak <ambro@b4ever.net>
-Copyright: © 2007 André Duffeck <duffeck@kde.org>
-Copyright: © 2008 Dario Freddi <drf54321@gmail.com> <drf@kdemod.ath.cx>
-Copyright: © 2007 Tobias Koenig <tokoe@kde.org>
-Copyright: © 2008 Beat Wolf <asraniel@fryx.ch>
-Copyright: © 2006-2009John Tapsell <tapsell@kde.org>
-Copyright: © 2008 Andrew Lake <jamboarder@yahoo.com>
-Copyright: © 2003 Scott Wheeler <wheeler@kde.org>
-Copyright: © 2006-2007 David Faure <faure@kde.org>
-Copyright: © 2008 Montel Laurent <montel@kde.org>
-Copyright: © 2008 Davide Bettio <davide.bettio@kdemail.net>
-Copyright: © 2007 Daniel Laidig <d.laidig@gmx.de>
-Copyright: © 2005 Rafal Rzepecki <divide@users.sourceforge.net>
-Copyright: © 2007 Barış Metin <baris@pardus.org.tr>
-Copyright: © 2007 Percy Leonhardt <percy@eris23.de>
-Copyright: © 2007 Menard Alexis <darktears31@gmail.com>
-Copyright: © 2007 Glenn Ergeerts <glenn.ergeerts@telenet.be>
-Copyright: © 2007 Jeff Cooper <weirdsox11@gmail.com>
-Copyright: © 2006 Hamish Rodda <rodda@kde.org>
-Copyright: © 2008 David Edmundson <kde@davidedmundson.co.uk>
-Copyright: © 2008 Stefan Buller <hikingpete@cain.afraid.org>
-Copyright: © 2007 Thomas Georgiou <TAGeorgiou@gmail.com>
-Copyright: © 2007 Frerich Raabe <raabe@kde.org>
-Copyright: © 1999-2000 Chris Schlaeger <cs@kde.org>
-Copyright: © 2008 Aaron J. Seigo
-Copyright: © 2008 Aleix Pol <aleixpol@gmail.com>
-Copyright: © 2007 Richard Moore <rich@kde.org>
-Copyright: © 2002 Will Stephenson <will@stevello.free-online.co.uk>
-Copyright: © 2005-2007 Siraj Razick
-Copyright: © 2007 Luka Renko <lure@kubuntu.org>
-Copyright: © 2007 Maor Vanmak <mvanmak1@gmail.com>
-Copyright: © 1992-2007 Trolltech ASA. All Rights Reserved.
-Copyright: © 2009 Michal Dutkiewicz aka Emdek <emdeck@gmail.com>
-Copyright: © 2009 by Jacopo De Simoi <wilderkde@gmail.com> 
-Copyright: © 2009 by Giulio Camuffo <giuliocamuffo@gmail.com>
-Copyright: © 2009 by Frederik Gladhorn <gladhorn@kde.org> 
-Copyright: © 2009 Anne-Marie Mahfouf <annma@kde.org>
-Copyright: © 2009 Jan Gerrit Marker <jangerrit@weiler-marker.com>
-Copyright: © 2009 by Artur Duque de Souza <asouza@kde.org>
+Files: plasma/*
+Copyright: 2005-2010, Aaron Seigo <aseigo@kde.org>
+           2009, Alain Boyer <alainboyer@gmail.com>
+2007-2008, Alex Merry <alex.merry@kdemail.net>
+2008, Alexis Ménard <darktears31@gmail.com>
+           2009, Ana Cecília Martins <anaceciliamb@gmail.com>
+           2008, Andrew Lake <jamboarder@yahoo.com>
+           2007, André Duffeck <duffeck@kde.org>
+           2009, Artur Duque de Souza <asouza@kde.org>
+           2008, Bruno Virlet <bvirlet@kdemail.net>
+           2008-2010, Chani Armitage <chani@kde.org>
+           2009, Christian Loose <christian.loose@kdemail.net>
+           2008, David Edmundson <kde@davidedmundson.co.uk>
+           2007, David Faure <faure@kde.org>
+           2008-2011, Davide Bettio <davide.bettio@kdemail.net>
+           2008, Dmitry Suzdalev <dimsuz@gmail.com>
+           2010, Frederik Gladhorn <gladhorn@kde.org>
+           2007-2012, Glenn Ergeerts <marco.gulino@gmail.com>
+           2002-2008, Hamish Rodda<rodda@kde.org>
+           2007-2010, Ivan Cukic <ivan.cukic@kde.org>
+           2010, Jacopo De Simoi <wilderkde@gmail.com>
+           2009, Jan Gerrit Marker <jangerrit@weiler-marker.com>
+           2009,2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2007, Kevin Ottens <ervin@kde.org>
+           2010, Klarälvdalens Datakonsult AB
+           2007-2010, Marco Martin <notmart@gmail.com>
+           2011, Martin Gräßlin <mgraesslin@kde.org>
+           2007, Matt Broadstone <mbroadst@kde.org>
+           2010, Matteo Agostinelli <agostinelli@gmail.com>
+           2010, Matthieu Gallien <matthieu_gallien@yahoo.fr>
+           2007-2008, Ménard Alexis <darktears31@gmail.com>
+           2007-2009, Petri Damsten <damu@iki.fi>
+           2009, Petri Damstén <damu@iki.fi>
+           2007, Pino Toscano <pino@kde.org>
+           2012, Reza Fatahilah Shah <rshah0385@kireihana.com>
+           2007, Riccardo Iaconelli <riccardo@kde.org>
+           2008-2010, Richard Dale <richard.j.dale@gmail.com>
+           2007, Robert Knight <robertknight@gmail.com>
+           2008, Ryan P. Bitanga <ryan.bitanga@gmail.com>
+           2008-2011, Sebastian Kügler <sebas@kde.org>
+           2008-2009, Sebastian Sauer <mail@dipe.org>
+           2007-2009, Shawn Starr <shawn.starr@rogers.com>
+           2008, Simon Edwards <simon@simonzone.com>
+           1998-2000, Stephan Kulow <coolo@kde.org>
+           2007, Tobias Koenig <tokoe@kde.org>
+           2007-2009, Urs Wolfer <uwolfer@kde.org>
+           2007, Volker Krause <vkrause@kde.org>
+License: LGPL-2+
 
-License for all components unless stated otherwise:
+Files: plasma/desktop/applets/pager/model.cpp
+       plasma/desktop/applets/pager/model.h
+       plasma/desktop/applets/pager/pager.cpp
+       plasma/desktop/applets/pager/pager.h
+       plasma/desktop/applets/tasks/abstracttaskitem.cpp
+       plasma/desktop/applets/tasks/abstracttaskitem.h
+       plasma/desktop/applets/tasks/applauncheritem.cpp
+       plasma/desktop/applets/tasks/applauncheritem.h
+       plasma/desktop/applets/tasks/taskgroupitem.cpp
+       plasma/desktop/applets/tasks/taskgroupitem.h
+       plasma/desktop/applets/tasks/taskitemlayout.cpp
+       plasma/desktop/applets/tasks/taskitemlayout.h
+       plasma/desktop/applets/tasks/tasks.cpp
+       plasma/desktop/applets/tasks/tasks.h
+       plasma/desktop/applets/tasks/windowtaskitem.cpp
+       plasma/desktop/applets/tasks/windowtaskitem.h
+       plasma/desktop/applets/trash/trash.cpp
+       plasma/desktop/applets/trash/trash.h
+       plasma/desktop/applets/windowlist/WindowList.cpp
+       plasma/desktop/applets/windowlist/WindowList.h
+       plasma/desktop/containments/desktop/desktoplayout.cpp
+       plasma/desktop/containments/desktop/desktoplayout.h
+       plasma/desktop/containments/desktop/itemspace.cpp
+       plasma/desktop/containments/desktop/itemspace.h
+       plasma/desktop/shell/accessibility/accessibleplasmaview.cpp
+       plasma/desktop/shell/accessibility/accessibleplasmaview.h
+       plasma/desktop/shell/activity.cpp
+       plasma/desktop/shell/activity.h
+       plasma/desktop/shell/desktopview.h
+       plasma/desktop/shell/klistconfirmationdialog.cpp
+       plasma/desktop/shell/klistconfirmationdialog.h
+       plasma/desktop/shell/main.cpp
+       plasma/desktop/shell/panelappletoverlay.cpp
+       plasma/desktop/shell/panelappletoverlay.h
+       plasma/desktop/shell/plasmaapp.h
+       plasma/generic/applets/activitybar/activitybar.cpp
+       plasma/generic/applets/activitybar/activitybar.h
+       plasma/generic/applets/analog-clock/clock.cpp
+       plasma/generic/applets/analog-clock/clock.h
+       plasma/generic/applets/calendar/calendar.cpp
+       plasma/generic/applets/calendar/calendar.h
+       plasma/generic/applets/digital-clock/clock.cpp
+       plasma/generic/applets/digital-clock/clock.h
+       plasma/generic/applets/icon/icon.cpp
+       plasma/generic/applets/icon/icon.h
+       plasma/generic/applets/panelspacer/panelspacer.cpp
+       plasma/generic/applets/panelspacer/panelspacer.h
+       plasma/generic/applets/quicklaunch/icongridlayout.cpp
+       plasma/generic/applets/quicklaunch/icongridlayout.h
+       plasma/generic/applets/quicklaunch/launcher.cpp
+       plasma/generic/applets/quicklaunch/launcher.h
+       plasma/generic/applets/quicklaunch/launcherdata.cpp
+       plasma/generic/applets/quicklaunch/launcherdata.h
+       plasma/generic/applets/quicklaunch/launchergrid.cpp
+       plasma/generic/applets/quicklaunch/launchergrid.h
+       plasma/generic/applets/quicklaunch/popup.cpp
+       plasma/generic/applets/quicklaunch/popup.h
+       plasma/generic/applets/quicklaunch/popuplauncherlist.cpp
+       plasma/generic/applets/quicklaunch/popuplauncherlist.h
+       plasma/generic/applets/quicklaunch/quicklaunch.cpp
+       plasma/generic/applets/quicklaunch/quicklaunch.h
+       plasma/generic/applets/systemtray/core/manager.cpp
+       plasma/generic/applets/systemtray/core/manager.h
+       plasma/generic/applets/systemtray/core/protocol.cpp
+       plasma/generic/applets/systemtray/core/protocol.h
+       plasma/generic/applets/systemtray/core/task.cpp
+       plasma/generic/applets/systemtray/core/task.h
+       plasma/generic/applets/systemtray/protocols/dbussystemtray/dbussystemtrayprotocol.cpp
+       plasma/generic/applets/systemtray/protocols/dbussystemtray/dbussystemtrayprotocol.h
+       plasma/generic/applets/systemtray/protocols/dbussystemtray/dbussystemtraytask.cpp
+       plasma/generic/applets/systemtray/protocols/dbussystemtray/dbussystemtraytask.h
+       plasma/generic/applets/systemtray/protocols/fdo/fdographicswidget.cpp
+       plasma/generic/applets/systemtray/protocols/fdo/fdographicswidget.h
+       plasma/generic/applets/systemtray/protocols/fdo/fdonotification.cpp
+       plasma/generic/applets/systemtray/protocols/fdo/fdonotification.h
+       plasma/generic/applets/systemtray/protocols/fdo/fdoprotocol.cpp
+       plasma/generic/applets/systemtray/protocols/fdo/fdoprotocol.h
+       plasma/generic/applets/systemtray/protocols/fdo/fdoselectionmanager.cpp
+       plasma/generic/applets/systemtray/protocols/fdo/fdoselectionmanager.h
+       plasma/generic/applets/systemtray/protocols/fdo/fdotask.cpp
+       plasma/generic/applets/systemtray/protocols/fdo/fdotask.h
+       plasma/generic/applets/systemtray/protocols/fdo/x11embedcontainer.cpp
+       plasma/generic/applets/systemtray/protocols/fdo/x11embedcontainer.h
+       plasma/generic/applets/systemtray/protocols/fdo/x11embeddelegate.cpp
+       plasma/generic/applets/systemtray/protocols/fdo/x11embeddelegate.h
+       plasma/generic/applets/systemtray/protocols/fdo/x11embedpainter.cpp
+       plasma/generic/applets/systemtray/protocols/fdo/x11embedpainter.h
+       plasma/generic/applets/systemtray/protocols/plasmoid/plasmoidtask.cpp
+       plasma/generic/applets/systemtray/protocols/plasmoid/plasmoidtask.h
+       plasma/generic/applets/systemtray/protocols/plasmoid/plasmoidtaskprotocol.cpp
+       plasma/generic/applets/systemtray/protocols/plasmoid/plasmoidtaskprotocol.h
+       plasma/generic/applets/systemtray/ui/applet.cpp
+       plasma/generic/applets/systemtray/ui/applet.h
+       plasma/generic/applets/systemtray/ui/mouseredirectarea.cpp
+       plasma/generic/applets/systemtray/ui/mouseredirectarea.h
+       plasma/generic/applets/systemtray/ui/widgetitem.cpp
+       plasma/generic/applets/systemtray/ui/widgetitem.h
+       plasma/generic/applets/webbrowser/browsermessagebox.cpp
+       plasma/generic/applets/webbrowser/browsermessagebox.h
+       plasma/generic/applets/webbrowser/errorpage.h
+       plasma/generic/applets/webbrowser/webbrowser.cpp
+       plasma/generic/applets/webbrowser/webbrowser.h
+       plasma/generic/applets/webbrowser/webbrowserpage.cpp
+       plasma/generic/applets/webbrowser/webbrowserpage.h
+       plasma/generic/applets/webbrowser/webviewoverlay.cpp
+       plasma/generic/applets/webbrowser/webviewoverlay.h
+       plasma/generic/dataengines/activities/ActivityData.cpp
+       plasma/generic/dataengines/activities/ActivityData.h
+       plasma/generic/dataengines/calendar/akonadi/calendar.cpp
+       plasma/generic/dataengines/calendar/akonadi/calendar.h
+       plasma/generic/dataengines/calendar/akonadi/calendar_p.h
+       plasma/generic/dataengines/calendar/akonadi/collectionselection.cpp
+       plasma/generic/dataengines/calendar/akonadi/collectionselection.h
+       plasma/generic/dataengines/calendar/akonadi/utils.cpp
+       plasma/generic/dataengines/calendar/akonadi/utils.h
+       plasma/generic/dataengines/filebrowser/filebrowserengine.cpp
+       plasma/generic/dataengines/filebrowser/filebrowserengine.h
+       plasma/generic/dataengines/geolocation/geolocation.cpp
+       plasma/generic/dataengines/geolocation/geolocation.h
+       plasma/generic/dataengines/geolocation/geolocationprovider.cpp
+       plasma/generic/dataengines/geolocation/geolocationprovider.h
+       plasma/generic/dataengines/geolocation/location_gps.cpp
+       plasma/generic/dataengines/geolocation/location_gps.h
+       plasma/generic/dataengines/geolocation/location_ip.cpp
+       plasma/generic/dataengines/geolocation/location_ip.h
+       plasma/generic/dataengines/metadata/metadata_engine.cpp
+       plasma/generic/dataengines/metadata/metadata_engine.h
+       plasma/generic/dataengines/nowplaying/playerinterface/mpris/mprisdbustypes.cpp
+       plasma/generic/dataengines/share/plugin_share_package.cpp
+       plasma/generic/dataengines/share/share_package.cpp
+       plasma/generic/dataengines/share/share_package.h
+       plasma/generic/dataengines/share/shareengine.cpp
+       plasma/generic/dataengines/share/shareengine.h
+       plasma/generic/dataengines/share/shareprovider.cpp
+       plasma/generic/dataengines/share/shareprovider.h
+       plasma/generic/dataengines/share/shareservice.cpp
+       plasma/generic/dataengines/share/shareservice.h
+       plasma/generic/dataengines/statusnotifieritem/statusnotifieritem_engine.cpp
+       plasma/generic/dataengines/statusnotifieritem/statusnotifieritem_engine.h
+       plasma/generic/dataengines/statusnotifieritem/statusnotifieritemsource.cpp
+       plasma/generic/dataengines/statusnotifieritem/statusnotifieritemsource.h
+       plasma/generic/dataengines/statusnotifieritem/systemtraytypes.cpp
+       plasma/generic/dataengines/statusnotifieritem/systemtraytypes.h
+       plasma/generic/dataengines/time/solarsystem.cpp
+       plasma/generic/dataengines/time/solarsystem.h
+       plasma/generic/dataengines/weather/ions/bbcukmet/ion_bbcukmet.cpp
+       plasma/generic/dataengines/weather/ions/bbcukmet/ion_bbcukmet.h
+       plasma/generic/dataengines/weather/ions/envcan/ion_envcan.cpp
+       plasma/generic/dataengines/weather/ions/envcan/ion_envcan.h
+       plasma/generic/dataengines/weather/ions/noaa/ion_noaa.cpp
+       plasma/generic/dataengines/weather/ions/noaa/ion_noaa.h
+       plasma/generic/dataengines/weather/ions/wetter.com/ion_wettercom.cpp
+       plasma/generic/dataengines/weather/ions/wetter.com/ion_wettercom.h
+       plasma/generic/dataengines/weather/weatherengine.cpp
+       plasma/generic/dataengines/weather/weatherengine.h
+       plasma/generic/runners/powerdevil/PowerDevilRunner.cpp
+       plasma/generic/runners/powerdevil/PowerDevilRunner.h
+       plasma/generic/runners/shell/shell_config.cpp
+       plasma/generic/runners/shell/shell_config.h
+       plasma/generic/runners/solid/devicewrapper.cpp
+       plasma/generic/runners/solid/devicewrapper.h
+       plasma/generic/runners/solid/solidrunner.cpp
+       plasma/generic/runners/solid/solidrunner.h
+       plasma/generic/runners/windows/windowsrunner.cpp
+       plasma/generic/runners/windows/windowsrunner.h
+       plasma/generic/shells/plasma-windowed/main.cpp
+       plasma/generic/shells/plasma-windowed/plasmaapp.h
+       plasma/generic/shells/plasma-windowed/singleview.h
+       plasma/generic/wallpapers/color/backgrounddelegate.cpp
+       plasma/generic/wallpapers/color/backgrounddelegate.h
+       plasma/generic/wallpapers/color/backgroundlistmodel.cpp
+       plasma/generic/wallpapers/color/backgroundlistmodel.h
+       plasma/generic/wallpapers/image/backgrounddelegate.cpp
+       plasma/generic/wallpapers/image/backgrounddelegate.h
+       plasma/generic/wallpapers/image/backgroundlistmodel.cpp
+       plasma/generic/wallpapers/image/backgroundlistmodel.h
+       plasma/generic/wallpapers/image/image.cpp
+       plasma/generic/wallpapers/image/image.h
+       plasma/generic/wallpapers/image/removebutton.cpp
+       plasma/generic/wallpapers/image/removebutton.h
+       plasma/generic/wallpapers/image/removebuttonmanager.cpp
+       plasma/generic/wallpapers/image/removebuttonmanager.h
+       plasma/netbook/applets/currentappcontrol/currentappcontrol.cpp
+       plasma/netbook/applets/currentappcontrol/currentappcontrol.h
+       plasma/netbook/shell/main.cpp
+       plasma/netbook/shell/netpanelcontroller.cpp
+       plasma/netbook/shell/netpanelcontroller.h
+       plasma/netbook/shell/netview.h
+       plasma/netbook/shell/plasmaapp.h
+       plasma/screensaver/shell/backgrounddialog.cpp
+       plasma/screensaver/shell/backgrounddialog.h
+       plasma/screensaver/shell/main.cpp
+       plasma/screensaver/shell/plasmaapp.cpp
+       plasma/screensaver/shell/plasmaapp.h
+Copyright: 2006-2009, Aaron Seigo <aseigo@kde.org>
+           2008, Alex Merry <alex.merry@kdemail.net>
+           2008, Alexis Ménard <darktears31@gmail.com>
+           2008, Ambroz Bizjak <ambro@b4ever.net>
+           2010, Andras Mantia <andras@kdab.com>
+           2009, Anne-Marie Mahfouf <annma@kde.org>
+           2010, Anton Kreuzkamp <akreuzkamp@web.de>
+           2009-2010, Artur Duque de Souza <asouza@kde.org>
+           2008-2010, Chani Armitage <chani@kde.org>
+           2008, Christian Mollekopf chrigi_1@fastmail.fm
+           2007, Daniel Laidig <d.laidig@gmx.de>
+           2010, Dario Andres Rodriguez <andresbajotierra@gmail.com>
+           2008, Dario Freddi <drf@kdemod.ath.cx>
+           2008-2010, Davide Bettio <davide.bettio@kdemail.net>
+           2012, Dmitry Ashkadov <dmitry.ashkadov@gmail.com>
+           2009, Frank Osterfeld <osterfeld@kde.org>
+           2012, Frederik Gladhorn <gladhorn@kde.org>
+           2010-2011, Ingomar Wesp <ingomar@wesp.name>
+           2007-2011, Ivan Cukic <ivan.cukic+kde@gmail.com>
+           2009, Jacopo De Simoi <wilderkde@gmail.com>
+           2008, Jason Stubbs <jasonbstubbs@gmail.com>
+           2009, John Layt <john@layt.net>
+           2009,2010, Klarälvdalens Datakonsult AB, a KDAB Group company <info@kdab.com>
+           2008-2009, Lukas Appelhans <l.appelhans@gmx.de>
+           2012, Luís Gabriel Lima <lampih@gmail.com>
+           2007-2010, Marco Martin <notmart@gmail.com>
+           2009, Martin Gräßlin <kde@martin-graesslin.com>
+           2009, Matthieu Gallien <matthieu_gallien@yahoo.fr>
+           2009, Michal Dutkiewicz aka Emdek <emdeck@gmail.com>
+           2008, Montel Laurent <montel@kde.org>
+           2007, Paolo Capriotti <p.capriotti@gmail.com>
+           2008, Peter Penz <peter.penz@gmx.at>
+           2008-2009, Petri Damsten <damu@iki.fi>
+           2009, Petri Damstén <damu@iki.fi>
+           2012, ROSA <support@rosalab.ru>
+           2012, Reza Fatahilah Shah <rshah0385@kireihana.com>
+           2007-2008, Riccardo Iaconelli <riccardo@kde.org>
+           2007, Robert Knight <robertknight@gmail.com>
+           2007-2008, Sebastian Kuegler <sebas@kde.org>
+           2007,2008,2010, Sebastian Kügler <sebas@kde.org>
+           2008, Sebastian Sauer
+           2007-2011, Shawn Starr <shawn.starr@rogers.com>
+           2011, Teo Mrnjavac <teo@kde.org>
+           2009, Thilo-Alexander Ginkel <thilo@ginkel.com>
+License: GPL-2+
 
---
-  GNU Library General Public License, version 2 or later (LGPL-2+)
-    However, the license of 66 file(s) was not explicitly specified:
 
-    scriptengines/javascript/tests/script-nowplaying/contents/code/*
-    scriptengines/qedjescript/*
+Files: plasma/desktop/runners/plasma-desktop/plasma-desktop-runner.cpp
+       plasma/desktop/runners/plasma-desktop/plasma-desktop-runner.h
+       plasma/desktop/shell/configupdates/notifications-to-orgkdenotifications.cpp
+       plasma/desktop/shell/configupdates/plasma-add-shortcut-to-menu.cpp
+       plasma/desktop/shell/configupdates/plasma-to-plasma-desktop.cpp
+       plasma/desktop/shell/desktopview.cpp
+       plasma/generic/applets/system-monitor/applet.cpp
+       plasma/generic/applets/system-monitor/applet.h
+       plasma/generic/applets/system-monitor/cpu.cpp
+       plasma/generic/applets/system-monitor/cpu.h
+       plasma/generic/applets/system-monitor/hdd.cpp
+       plasma/generic/applets/system-monitor/hdd.h
+       plasma/generic/applets/system-monitor/hdd_activity.cpp
+       plasma/generic/applets/system-monitor/hdd_activity.h
+       plasma/generic/applets/system-monitor/hwinfo.cpp
+       plasma/generic/applets/system-monitor/hwinfo.h
+       plasma/generic/applets/system-monitor/net.cpp
+       plasma/generic/applets/system-monitor/net.h
+       plasma/generic/applets/system-monitor/plotter.cpp
+       plasma/generic/applets/system-monitor/plotter.h
+       plasma/generic/applets/system-monitor/ram.cpp
+       plasma/generic/applets/system-monitor/ram.h
+       plasma/generic/applets/system-monitor/system-monitor.cpp
+       plasma/generic/applets/system-monitor/system-monitor.h
+       plasma/generic/applets/system-monitor/temperature-offset-delegate.cpp
+       plasma/generic/applets/system-monitor/temperature-offset-delegate.h
+       plasma/generic/applets/system-monitor/temperature.cpp
+       plasma/generic/applets/system-monitor/temperature.h
+       plasma/generic/applets/webbrowser/bookmarkitem.cpp
+       plasma/generic/applets/webbrowser/bookmarkitem.h
+       plasma/generic/dataengines/activities/activityjob.cpp
+       plasma/generic/dataengines/activities/activityjob.h
+       plasma/generic/dataengines/applicationjobs/jobaction.cpp
+       plasma/generic/dataengines/applicationjobs/jobaction.h
+       plasma/generic/dataengines/applicationjobs/jobcontrol.cpp
+       plasma/generic/dataengines/applicationjobs/jobcontrol.h
+       plasma/generic/dataengines/applicationjobs/kuiserverengine.cpp
+       plasma/generic/dataengines/applicationjobs/kuiserverengine.h
+       plasma/generic/dataengines/apps/appjob.cpp
+       plasma/generic/dataengines/apps/appjob.h
+       plasma/generic/dataengines/apps/appsengine.cpp
+       plasma/generic/dataengines/apps/appsengine.h
+       plasma/generic/dataengines/apps/appservice.cpp
+       plasma/generic/dataengines/apps/appservice.h
+       plasma/generic/dataengines/apps/appsource.cpp
+       plasma/generic/dataengines/apps/appsource.h
+       plasma/generic/dataengines/dict/dictengine.cpp
+       plasma/generic/dataengines/dict/dictengine.h
+       plasma/generic/dataengines/executable/executable.cpp
+       plasma/generic/dataengines/executable/executable.h
+       plasma/generic/dataengines/favicons/faviconprovider.h
+       plasma/generic/dataengines/hotplug/hotplugjob.cpp
+       plasma/generic/dataengines/hotplug/hotplugjob.h
+       plasma/generic/dataengines/hotplug/hotplugservice.cpp
+       plasma/generic/dataengines/hotplug/hotplugservice.h
+       plasma/generic/dataengines/mouse/cursornotificationhandler.cpp
+       plasma/generic/dataengines/mouse/cursornotificationhandler.h
+       plasma/generic/dataengines/mouse/mouseengine.cpp
+       plasma/generic/dataengines/mouse/mouseengine.h
+       plasma/generic/dataengines/mpris2/mpris2engine.cpp
+       plasma/generic/dataengines/mpris2/mpris2engine.h
+       plasma/generic/dataengines/network/networkengine.cpp
+       plasma/generic/dataengines/network/networkengine.h
+       plasma/generic/dataengines/notifications/notificationaction.cpp
+       plasma/generic/dataengines/notifications/notificationaction.h
+       plasma/generic/dataengines/notifications/notificationservice.cpp
+       plasma/generic/dataengines/notifications/notificationservice.h
+       plasma/generic/dataengines/nowplaying/nowplayingengine.cpp
+       plasma/generic/dataengines/nowplaying/nowplayingengine.h
+       plasma/generic/dataengines/nowplaying/playerinterface/juk.cpp
+       plasma/generic/dataengines/nowplaying/playerinterface/juk.h
+       plasma/generic/dataengines/nowplaying/playerinterface/mpris/mpris.cpp
+       plasma/generic/dataengines/nowplaying/playerinterface/mpris/mpris.h
+       plasma/generic/dataengines/nowplaying/playerinterface/mpris2/mpris2.cpp
+       plasma/generic/dataengines/nowplaying/playerinterface/mpris2/mpris2.h
+       plasma/generic/dataengines/nowplaying/playerinterface/player.h
+       plasma/generic/dataengines/nowplaying/playerinterface/xmms.cpp
+       plasma/generic/dataengines/nowplaying/playerinterface/xmms.h
+       plasma/generic/dataengines/places/placesengine.cpp
+       plasma/generic/dataengines/places/placesengine.h
+       plasma/generic/dataengines/powermanagement/powermanagementengine.cpp
+       plasma/generic/dataengines/powermanagement/powermanagementengine.h
+       plasma/generic/dataengines/powermanagement/powermanagementjob.cpp
+       plasma/generic/dataengines/powermanagement/powermanagementjob.h
+       plasma/generic/dataengines/rss/rss.cpp
+       plasma/generic/dataengines/rss/rss.h
+       plasma/generic/dataengines/soliddevice/devicesignalmapmanager.cpp
+       plasma/generic/dataengines/soliddevice/devicesignalmapmanager.h
+       plasma/generic/dataengines/soliddevice/devicesignalmapper.cpp
+       plasma/generic/dataengines/soliddevice/devicesignalmapper.h
+       plasma/generic/dataengines/soliddevice/hddtemp.cpp
+       plasma/generic/dataengines/soliddevice/hddtemp.h
+       plasma/generic/dataengines/soliddevice/soliddeviceengine.cpp
+       plasma/generic/dataengines/soliddevice/soliddeviceengine.h
+       plasma/generic/dataengines/soliddevice/soliddevicejob.cpp
+       plasma/generic/dataengines/soliddevice/soliddevicejob.h
+       plasma/generic/dataengines/soliddevice/soliddeviceservice.cpp
+       plasma/generic/dataengines/soliddevice/soliddeviceservice.h
+       plasma/generic/dataengines/statusnotifieritem/statusnotifieritemjob.cpp
+       plasma/generic/dataengines/statusnotifieritem/statusnotifieritemjob.h
+       plasma/generic/dataengines/statusnotifieritem/statusnotifieritemservice.cpp
+       plasma/generic/dataengines/statusnotifieritem/statusnotifieritemservice.h
+       plasma/generic/dataengines/systemmonitor/systemmonitor.cpp
+       plasma/generic/dataengines/systemmonitor/systemmonitor.h
+       plasma/generic/dataengines/tasks/taskjob.cpp
+       plasma/generic/dataengines/tasks/taskjob.h
+       plasma/generic/dataengines/tasks/tasksengine.cpp
+       plasma/generic/dataengines/tasks/tasksengine.h
+       plasma/generic/dataengines/tasks/taskservice.cpp
+       plasma/generic/dataengines/tasks/taskservice.h
+       plasma/generic/dataengines/tasks/tasksource.cpp
+       plasma/generic/dataengines/tasks/tasksource.h
+       plasma/generic/runners/activities/activityrunner.cpp
+       plasma/generic/runners/activities/activityrunner.h
+       plasma/generic/runners/calculator/calculatorrunner.cpp
+       plasma/generic/runners/calculator/calculatorrunner.h
+       plasma/generic/runners/locations/locationrunner.cpp
+       plasma/generic/runners/locations/locationrunner.h
+       plasma/generic/runners/nepomuksearch/nepomuksearchrunner.cpp
+       plasma/generic/runners/nepomuksearch/nepomuksearchrunner.h
+       plasma/generic/runners/services/servicerunner.cpp
+       plasma/generic/runners/services/servicerunner.h
+       plasma/generic/runners/sessions/sessionrunner.cpp
+       plasma/generic/runners/sessions/sessionrunner.h
+       plasma/generic/runners/shell/shellrunner.cpp
+       plasma/generic/runners/shell/shellrunner.h
+       plasma/generic/runners/webshortcuts/webshortcutrunner.cpp
+       plasma/generic/runners/webshortcuts/webshortcutrunner.h
+       plasma/generic/runners/windowedwidgets/windowedwidgetsrunner.cpp
+       plasma/generic/runners/windowedwidgets/windowedwidgetsrunner.h
+       plasma/generic/shells/plasma-windowed/singleview.cpp
+       plasma/netbook/shell/netview.cpp
+Copyright: 2006-2011, Aaron Seigo <aseigo@kde.org>
+           2008, Alain Boyer <alainboyer@gmail.com>
+           2007-2012, Alex Merry <alex.merry@kdemail.net>
+           2007, Barış Metin <baris@pardus.org.tr>
+           2009, Chani Armitage <chani@kde.org>
+           2007, Christopher Blauvelt <cblauvelt@gmail.com>
+           2008, Dario Freddi <drf54321@gmail.com>
+           2006, David Faure <faure@kde.org>
+           2011, Elvis Stansvik <elvstone@gmail.com>
+           2007, Fredrik Höglund <fredrik@kde.org>
+           2007, Jeff Cooper <weirdsox11@gmail.com>
+           2007, John Tapsell <tapsell@kde.org>
+           2007, Maor Vanmak <mvanmak1@gmail.com>
+           2008-2012, Marco Martin <mart@kde.org>
+           2007, Matt Broadstone <mbroadst@gmail.com>
+           2010, Matteo Agostinelli <agostinelli@gmail.com>
+           2009, Matthieu Gallien <matthieu_gallien@yahoo.fr>
+           2009, Michael Pyne <mpyne@purinchu.net>
+           2010, Michel Lafon-Puyo <michel.lafonpuyo@gmail.com>
+           2007, Percy Leonhardt <percy@eris23.de>
+           2007-2010, Petri Damsten <damu@iki.fi>
+           2007, Richard Moore <rich@kde.org>
+           2008, Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
+           2007, Robert Knight <robertknight@gmail.com>
+           2007-2008, Sebastian Kuegler <sebas@kde.org>
+           2011, Sebastian Kügler <sebas@kde.org>
+           2008, Sebastian Trueg <trueg@kde.org>
+           2011-2012, Shaun Reich <shaun.reich@kdemail.net>
+           2007, Teemu Rytilahti <tpr@iki.fi>
+           2007, Thomas Georgiou <TAGeorgiou@gmail.com>
+           2007, Tobias Koenig <tokoe@kde.org>
+           2011, Viranch Mehta <viranch.mehta@gmail.com>
+           2012-2013, Vishesh Handa <me@vhanda.in>
+           2002, Will Stephenson <will@stevello.free-online.co.uk>
+License: LGPL-2
 
-  On Debian systems, the complete text of the
-  GNU Library General Public License version 2 can be found in
-  /usr/share/common-licenses/LGPL-2
---
+Files: plasma/desktop/shell/panelapplethandle.cpp
+       plasma/desktop/shell/panelapplethandle.h
+       plasma/desktop/shell/supportinformation.cpp
+       plasma/desktop/shell/supportinformation.h
+       plasma/generic/dataengines/keystate/keyservice.h
+       plasma/generic/dataengines/mpris2/multiplexedservice.cpp
+       plasma/generic/dataengines/mpris2/multiplexedservice.h
+       plasma/generic/dataengines/mpris2/multiplexer.cpp
+       plasma/generic/dataengines/mpris2/multiplexer.h
+       plasma/generic/dataengines/mpris2/playeractionjob.cpp
+       plasma/generic/dataengines/mpris2/playeractionjob.h
+       plasma/generic/dataengines/mpris2/playercontainer.cpp
+       plasma/generic/dataengines/mpris2/playercontainer.h
+       plasma/generic/dataengines/mpris2/playercontrol.cpp
+       plasma/generic/dataengines/mpris2/playercontrol.h
+       plasma/generic/dataengines/nowplaying/playeractionjob.cpp
+       plasma/generic/dataengines/nowplaying/playeractionjob.h
+       plasma/generic/dataengines/nowplaying/playercontainer.cpp
+       plasma/generic/dataengines/nowplaying/playercontainer.h
+       plasma/generic/dataengines/nowplaying/playercontrol.cpp
+       plasma/generic/dataengines/nowplaying/playercontrol.h
+       plasma/generic/dataengines/nowplaying/playerinterface/dbuswatcher.cpp
+       plasma/generic/dataengines/nowplaying/playerinterface/dbuswatcher.h
+       plasma/generic/dataengines/nowplaying/playerinterface/juk_p.h
+       plasma/generic/dataengines/nowplaying/playerinterface/mpris/mpris_p.h
+       plasma/generic/dataengines/nowplaying/playerinterface/mpris2/mpris2_p.h
+       plasma/generic/dataengines/nowplaying/playerinterface/player.cpp
+       plasma/generic/dataengines/nowplaying/playerinterface/playerfactory.h
+       plasma/generic/dataengines/nowplaying/playerinterface/pollingwatcher.h
+       plasma/generic/dataengines/nowplaying/playerinterface/xmms_p.h
+       plasma/generic/dataengines/places/jobs.h
+       plasma/generic/dataengines/places/modeljob.h
+       plasma/generic/dataengines/places/placeservice.cpp
+       plasma/generic/dataengines/places/placeservice.h
+       plasma/generic/dataengines/places/setupdevicejob.cpp
+       plasma/generic/dataengines/places/setupdevicejob.h
+       plasma/generic/wallpapers/color/itemsview.cpp
+       plasma/generic/wallpapers/color/itemsview.h
+       plasma/generic/wallpapers/image/itemsview.cpp
+       plasma/generic/wallpapers/image/itemsview.h
+Copyright: 2009, Aaron Seigo aseigo@kde.org
+           2008-2012, Alex Merry <alex.merry@kdemail.net>
+           2013, David Edmundson <kde@davidedmundson.co.uk>
+           2010, Frederik Gladhorn <gladhorn@kde.org>
+           2010, Marco Martin <notmart@gmail.com>
+License: LGPL-2.1+
 
-Other used licenses:
---
-  BSD-like License (BSD)
-    3 file(s) are licensed under this license:
+Files: plasma/generic/dataengines/weather/ions/debianweather/iondebianweather.cpp
+       plasma/generic/dataengines/weather/ions/debianweather/iondebianweather.h
+       plasma/generic/scriptengines/webkit/bundle.cpp
+       plasma/generic/scriptengines/webkit/bundle.h
+       plasma/generic/scriptengines/webkit/dashboard_plugin.cpp
+       plasma/generic/scriptengines/webkit/dashboardapplet.cpp
+       plasma/generic/scriptengines/webkit/dashboardapplet.h
+       plasma/generic/scriptengines/webkit/dashboardjs.cpp
+       plasma/generic/scriptengines/webkit/dashboardjs.h
+       plasma/generic/scriptengines/webkit/plasmajs.cpp
+       plasma/generic/scriptengines/webkit/plasmajs.h
+       plasma/generic/scriptengines/webkit/plasmawebapplet.cpp
+       plasma/generic/scriptengines/webkit/plasmawebapplet.h
+       plasma/generic/scriptengines/webkit/webapplet.cpp
+       plasma/generic/scriptengines/webkit/webapplet.h
+       plasma/generic/scriptengines/webkit/webapplet_package.cpp
+       plasma/generic/scriptengines/webkit/webapplet_package.h
+       plasma/generic/scriptengines/webkit/webapplet_plugin.cpp
+       plasma/generic/scriptengines/webkit/webpage.cpp
+       plasma/generic/scriptengines/webkit/webpage.h
+Copyright: 2008, Beat Wolf <asraniel@fryx.ch>
+           2008, Petri Damstén <damu@iki.fi>
+           2011, Sune Vuorela <sune@vuorela.dk>
+           2007, Zack Rusin <zack@kde.org>
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
 
-    generic/tools/plasmoidviewer/*
-  | Copyright 2007 Frerich Raabe <raabe@kde.org>
-  | Copyright 2007 Aaron Seigo <aseigo@kde.org>
-  | Copyright 2008 Aleix Pol <aleixpol@gmail.com>
-  |
-  | Redistribution and use in source and binary forms, with or without
-  | modification, are permitted provided that the following conditions
-  | are met:
-  |
-  | 1. Redistributions of source code must retain the above copyright
-  |    notice, this list of conditions and the following disclaimer.
-  | 2. Redistributions in binary form must reproduce the above copyright
-  |    notice, this list of conditions and the following disclaimer in the
-  |    documentation and/or other materials provided with the distribution.
-  |
-  | THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
-  | IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
-  | OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-  | IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
-  | INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
-  | NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-  | DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-  | THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-  | (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-  | THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
---
+Files: plasma/generic/scriptengines/google_gadgets/floating_decorator.cpp
+       plasma/generic/scriptengines/google_gadgets/floating_decorator.h
+       plasma/generic/scriptengines/google_gadgets/ggl_applet_script.cpp
+       plasma/generic/scriptengines/google_gadgets/ggl_applet_script.h
+       plasma/generic/scriptengines/google_gadgets/ggl_extensions.h
+       plasma/generic/scriptengines/google_gadgets/ggl_package.cpp
+       plasma/generic/scriptengines/google_gadgets/ggl_package.h
+       plasma/generic/scriptengines/google_gadgets/panel_decorator.cpp
+       plasma/generic/scriptengines/google_gadgets/panel_decorator.h
+       plasma/generic/scriptengines/google_gadgets/plasma_host.cpp
+       plasma/generic/scriptengines/google_gadgets/plasma_host.h
+       plasma/generic/scriptengines/google_gadgets/plasma_view_host.cpp
+       plasma/generic/scriptengines/google_gadgets/plasma_view_host.h
+       plasma/generic/scriptengines/google_gadgets/plasma_view_host_internal.h
+       plasma/generic/scriptengines/google_gadgets/popout_decorator.cpp
+       plasma/generic/scriptengines/google_gadgets/popout_decorator.h
+Copyright: 2007-2009, Google Inc
+License: Apache-2
 
---
-  GNU General Public License, version 2 (GPL-2)
-    15 file(s) are licensed under this license:
+Files: plasma/generic/runners/kill/killrunner.cpp
+       plasma/generic/runners/kill/killrunner.h
+       plasma/generic/runners/kill/killrunner_config.cpp
+       plasma/generic/runners/kill/killrunner_config.h
+Copyright: 2009, Jan Gerrit Marker <jangerrit@weiler-marker.com>
+License: LGPL-2.1 or LGPL-3 or later approved by KDE e.V.
 
-    + applets/tasks/layoutwidget.cpp
-    dataengines/*
-    + scriptengines/javascript/backportglobal.h
-
-  On Debian systems, the complete text of the
-  GNU General Public License version 2 can be found in
-  /usr/share/common-licenses/GPL-2
---
-
---
-  GNU General Public License, version 2 or later (GPL-2+)
-    138 file(s) are licensed under this license:
-
-    applets/activitybar/*
-    applets/analog-clock/*
-    applets/battery/*
-    applets/calendar/*
-    + applets/devicenotifier/devicenotifier.cpp
-    + applets/devicenotifier/devicenotifier.h
-    + applets/devicenotifier/notifierdialog.h
-    applets/digital-clock/*
-    applets/icon/*
-    applets/lock_logout/*
-    applets/pager/*
-    applets/quicklaunch/*
-    applets/systemtray/core/*
-    applets/systemtray/protocols/fdo/*
-    applets/systemtray/protocols/jobs/*
-    applets/systemtray/protocols/notifications/*
-    applets/systemtray/protocols/plasmoid/*
-    applets/systemtray/ui/* excluding:
-    -+ applets/systemtray/ui/notificationwidget.cpp
-    -+ applets/systemtray/ui/notificationwidget.h
-    applets/tasks/* excluding:
-    -? applets/tasks/layoutwidget.cpp
-    applets/trash/*
-    + applets/webbrowser/webbrowser.cpp
-    + applets/webbrowser/webbrowser.h
-    containments/desktop/* excluding:
-    -+ containments/desktop/desktop.cpp
-    -+ containments/desktop/desktop.h
-    dataengines/filebrowser/*
-    + dataengines/nowplaying/playerinterface/mpris/mprisdbustypes.cpp
-    dataengines/weather/*
-    dataengines/weather/ions/* excluding:
-    -+ dataengines/weather/ions/ion.cpp
-    -+ dataengines/weather/ions/ion.h
-    -+ dataengines/weather/ions/ion_export.h
-    -+ dataengines/weather/ions/weatherutils.cpp
-    -+ dataengines/weather/ions/weatherutils.h
-    runners/powerdevil/*
-    + runners/shell/shell_config.cpp
-    + runners/shell/shell_config.h
-    + shells/common/wallpaperpreview.cpp
-    + shells/common/wallpaperpreview.h
-    + shells/desktop/backgrounddialog.cpp
-    + shells/desktop/backgrounddialog.h
-    + shells/desktop/desktopview.h
-    + shells/desktop/main.cpp
-    + shells/desktop/panelappletoverlay.cpp
-    + shells/desktop/panelappletoverlay.h
-    + shells/desktop/plasmaapp.h
-    shells/screensaver/* excluding:
-    -+ shells/screensaver/savercorona.cpp
-    -+ shells/screensaver/savercorona.h
-    -+ shells/screensaver/saverview.cpp
-    -+ shells/screensaver/saverview.h
-    tools/desktopthemedetails/*
-    tools/engineexplorer/* excluding:
-    -+ tools/engineexplorer/ktreeviewsearchline.cpp
-    -+ tools/engineexplorer/ktreeviewsearchline.h
-    tools/plasmapkg/*
-    wallpapers/image/*
-
-  On Debian systems, the complete text of the
-  GNU General Public License version 2 can be found in
-  /usr/share/common-licenses/GPL-2
---
-
---
-  GNU General Public License (GPL-any)
-    1 file(s) are licensed under this license:
-
-    + dataengines/systemmonitor/sensorclient.h
-
-  On Debian systems, the complete text of the
-  GNU General Public License can be found in
-  /usr/share/common-licenses/GPL
---
-
---
-  GNU Library General Public License, version 2 (LGPL-2)
-    102 file(s) are licensed under this license:
-
-    applets/system-monitor/* excluding:
-    -+ applets/system-monitor/monitorbutton.cpp
-    -+ applets/system-monitor/monitorbutton.h
-    -+ applets/system-monitor/monitoricon.cpp
-    -+ applets/system-monitor/monitoricon.h
-    -? applets/system-monitor/sm_export.h
-    + applets/webbrowser/bookmarkitem.cpp
-    + applets/webbrowser/bookmarkitem.h
-    dataengines/applicationjobs/*
-    dataengines/dict/*
-    dataengines/executable/*
-    dataengines/mouse/*
-    dataengines/network/*
-    dataengines/notifications/* excluding:
-    -+ dataengines/notifications/notificationsengine.cpp
-    -+ dataengines/notifications/notificationsengine.h
-    + dataengines/nowplaying/nowplayingengine.cpp
-    + dataengines/nowplaying/nowplayingengine.h
-    + dataengines/nowplaying/playerinterface/juk.cpp
-    + dataengines/nowplaying/playerinterface/juk.h
-    + dataengines/nowplaying/playerinterface/player.h
-    + dataengines/nowplaying/playerinterface/xmms.cpp
-    + dataengines/nowplaying/playerinterface/xmms.h
-    + dataengines/nowplaying/playerinterface/mpris/mpris.cpp
-    + dataengines/nowplaying/playerinterface/mpris/mpris.h
-    + dataengines/places/placesengine.cpp
-    + dataengines/places/placesengine.h
-    dataengines/powermanagement/*
-    dataengines/rss/*
-    dataengines/soliddevice/*
-    dataengines/systemmonitor/* excluding:
-    -+ dataengines/systemmonitor/sensorclient.h
-    dataengines/tasks/*
-    runners/calculator/*
-    runners/locations/*
-    runners/nepomuksearch/*
-    runners/services/*
-    runners/sessions/*
-    + runners/shell/shellrunner.cpp
-    + runners/shell/shellrunner.h
-    runners/webshortcuts/*
-    + scriptengines/javascript/bind_dataengine.h
-    + scriptengines/javascript/javascriptrunner.cpp
-    + scriptengines/javascript/javascriptrunner.h
-    + scriptengines/javascript/simplejavascriptapplet.cpp
-    + scriptengines/javascript/simplejavascriptapplet.h
-    scriptengines/javascript/qtgui/*
-    + shells/desktop/desktopview.cpp
-    shells/desktop/configupdates/*
-    + tools/engineexplorer/ktreeviewsearchline.cpp
-    + tools/engineexplorer/ktreeviewsearchline.h
-
-  On Debian systems, the complete text of the
-  GNU Library General Public License version 2 can be found in
-  /usr/share/common-licenses/LGPL-2
---
-
---
-  GNU Lesser General Public License, version 2.1 or later (LGPL-2.1+)
-    22 file(s) are licensed under this license:
-
-    dataengines/nowplaying/* excluding:
-    -? dataengines/nowplaying/config-nowplaying.cmake
-    -+ dataengines/nowplaying/nowplayingengine.cpp
-    -+ dataengines/nowplaying/nowplayingengine.h
-    + dataengines/nowplaying/playerinterface/dbuswatcher.cpp
-    + dataengines/nowplaying/playerinterface/dbuswatcher.h
-    + dataengines/nowplaying/playerinterface/juk_p.h
-    + dataengines/nowplaying/playerinterface/player.cpp
-    + dataengines/nowplaying/playerinterface/playerfactory.h
-    + dataengines/nowplaying/playerinterface/pollingwatcher.h
-    + dataengines/nowplaying/playerinterface/xmms_p.h
-    + dataengines/nowplaying/playerinterface/mpris/mpris_p.h
-    dataengines/places/* excluding:
-    -+ dataengines/places/placesengine.cpp
-    -+ dataengines/places/placesengine.h
-    + scriptengines/webkit/dashboard/AppleClasses/AppleAnimator.js
-    + scriptengines/webkit/dashboard/AppleClasses/AppleScrollArea.js
-
-  On Debian systems, the complete text of the
-  GNU Lesser General Public License version 2.1 can be found in
-  /usr/share/common-licenses/LGPL-2.1
---
-
---
-  Apache license
-    scriptengines/google_gadgets/*
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-
-    seee /usr/share/common-licenses/Apache-2.0 for full text.
-
---
-  BSD-ish
-    scriptengines/webkit/* excluding:
-      dashboard/*
-	Permission is hereby granted, free of charge, to any person obtaining a copy
-	of this software and associated documentation files (the "Software"), to deal
-	in the Software without restriction, including without limitation the rights
-	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-	copies of the Software, and to permit persons to whom the Software is
-	furnished to do so, subject to the following conditions:
-
-	The above copyright notice and this permission notice shall be included in
-	all copies or substantial portions of the Software.
-
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-	THE SOFTWARE.
---
+Files: plasma/generic/dataengines/systemmonitor/sensorclient.h
+Copyright: 1999-2000, Chris Schlaeger <cs@kde.org>
+           2006, John Tapsell <tapsell@kde.org>
+License: GPL-2
 
 ------
 policykit-kde
@@ -1846,12 +2287,177 @@ License for all components is:
   /usr/share/common-licenses/LGPL-3
 --
 
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
 
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of version 2 or later of the GNU General Public
+ License as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
+License: GPL-2 or GPL-3
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public
+ License version 2 or at your option version 3 as published by
+ the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2', and the
+ complete text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3`.
 
--------------------------------------------------------------------------------
+License: GPL-2
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of version 2 of the GNU General Public
+ License as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 
-The Debian packaging is © 2007-2010, Debian Qt/KDE Maintainers
-<debian-qt-kde@lists.debian.org> and is licensed under the GPL, 
-see `/usr/share/common-licenses/GPL'.
+License: GPL-2+ or GPL-3+ with KDE e.V. exception
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2', and the
+ complete text of the GNU General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3`.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1 or LGPL-3 or later approved by KDE e.V.
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public 
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1',
+ and the complete text of the GNU Lesser General Public License version 3
+ can be found in `/usr/share/common-licenses/LGPL-3`.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: Apache-2
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+      http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0 can be
+ found in `/usr/share/common-licenses/Apache-2.0`.
 
