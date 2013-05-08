@@ -1,6 +1,7 @@
 From: Modestas Vainius <modax@debian.org>
 Subject: Use DebianABIManager for this source package. It's Debian-specific.
 Forwarded: not-needed
+Last-Update: 2013-02-15
 
 For more information about DebianABIManager, refer to
 /usr/share/doc/pkg-kde-tools/README.DebianABIManager (pkg-kde-tools (>= 0.12)).

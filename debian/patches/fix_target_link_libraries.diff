@@ -1,3 +1,7 @@
+From: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Subject: Fix target link libraries
+Forwarded: not-needed
+Last-Update: 2012-01-30
 --- a/libs/kworkspace/CMakeLists.txt
 +++ b/libs/kworkspace/CMakeLists.txt
 @@ -51,6 +51,7 @@ qt4_add_dbus_interface( kworkspace_LIB_S

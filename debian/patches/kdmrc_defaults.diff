@@ -1,3 +1,7 @@
+From: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Subject: Sets Debian specific defaults
+Forwarded: not-needed
+Last-Update: 2012-11-26
 --- a/kdm/config.def
 +++ b/kdm/config.def
 @@ -52,11 +52,11 @@

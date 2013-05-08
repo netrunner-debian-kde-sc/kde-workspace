@@ -1,3 +1,7 @@
+From: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Subject: Fallback to default X location (Debian specific)
+Forwarded: not-needed
+Last-Update: 2011-08-29
 --- a/kdm/backend/dm.c
 +++ b/kdm/backend/dm.c
 @@ -629,7 +629,13 @@ startRemoteLogin(struct display *d)

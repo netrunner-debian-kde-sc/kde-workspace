@@ -1,3 +1,7 @@
+From: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Subject: Use dejavu as default font
+Forwarded: not-needed
+Last-Update: 2013-02-15
 --- a/kcontrol/fonts/fonts.cpp
 +++ b/kcontrol/fonts/fonts.cpp
 @@ -525,13 +525,13 @@ KFonts::KFonts(QWidget *parent, const QV

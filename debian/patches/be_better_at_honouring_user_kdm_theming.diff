@@ -1,3 +1,7 @@
+From: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Subject: Honour user KDM themeing
+Forwarded: not-needed
+Last-Update: 2013-02-15
 --- a/kdm/config.def
 +++ b/kdm/config.def
 @@ -2688,7 +2688,7 @@ Key: Theme
