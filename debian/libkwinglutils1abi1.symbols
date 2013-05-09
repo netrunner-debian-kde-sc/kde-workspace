@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.1 amd64
+# SymbolsHelper-Confirmed: 4:4.10.3 amd64
 libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  ABI_1_1@ABI_1_1 4:4.9.3
  _ZN4KWin10GLPlatform10s_platformE@ABI_1_1 4:4.9.3
@@ -128,6 +128,7 @@ libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  _ZN4KWin16glXCopySubBufferE@ABI_1_1 4:4.9.3
  _ZN4KWin16glXQueryDrawableE@ABI_1_1 4:4.9.3
  _ZN4KWin16glXWaitVideoSyncE@ABI_1_1 4:4.9.3
+ _ZN4KWin17eglCreateImageKHRE@ABI_1_1 4:4.10.3
  _ZN4KWin17glBindFramebufferE@ABI_1_1 4:4.9.3
  _ZN4KWin17glBlitFramebufferE@ABI_1_1 4:4.9.3
  _ZN4KWin17glGenFramebuffersE@ABI_1_1 4:4.9.3
@@ -135,6 +136,8 @@ libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  _ZN4KWin17glValidateProgramE@ABI_1_1 4:4.9.3
  _ZN4KWin17glXGetProcAddressE@ABI_1_1 4:4.9.3
  _ZN4KWin17nearestPowerOfTwoEi@ABI_1_1 4:4.9.3
+ _ZN4KWin18eglDestroyImageKHRE@ABI_1_1 4:4.10.3
+ _ZN4KWin18eglPostSubBufferNVE@ABI_1_1 4:4.10.3
  _ZN4KWin18glBindRenderbufferE@ABI_1_1 4:4.9.3
  _ZN4KWin18glGenRenderbuffersE@ABI_1_1 4:4.9.3
  _ZN4KWin18glGetShaderInfoLogE@ABI_1_1 4:4.9.3
@@ -144,6 +147,7 @@ libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  _ZN4KWin18glXBindTexImageEXTE@ABI_1_1 4:4.9.3
  _ZN4KWin18glXSwapIntervalEXTE@ABI_1_1 4:4.10.1
  _ZN4KWin18glXSwapIntervalSGIE@ABI_1_1 4:4.10.1
+ _ZN4KWin19eglResolveFunctionsEv@ABI_1_1 4:4.10.3
  _ZN4KWin19glDeleteProgramsARBE@ABI_1_1 4:4.9.3
  _ZN4KWin19glGetAttribLocationE@ABI_1_1 4:4.9.3
  _ZN4KWin19glGetProgramInfoLogE@ABI_1_1 4:4.9.3
@@ -164,6 +168,7 @@ libkwinglutils.so.1abi1 libkwinglutils1abi1 #MINVER#
  _ZN4KWin25glEnableVertexAttribArrayE@ABI_1_1 4:4.9.3
  _ZN4KWin25glFramebufferRenderbufferE@ABI_1_1 4:4.9.3
  _ZN4KWin26glDisableVertexAttribArrayE@ABI_1_1 4:4.9.3
+ _ZN4KWin28glEGLImageTargetTexture2DOESE@ABI_1_1 4:4.10.3
  _ZN4KWin28glGetRenderbufferParameterivE@ABI_1_1 4:4.9.3
  _ZN4KWin28glProgramLocalParameter4fARBE@ABI_1_1 4:4.9.3
  _ZN4KWin37glGetFramebufferAttachmentParameterivE@ABI_1_1 4:4.9.3

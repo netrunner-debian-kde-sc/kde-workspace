@@ -18,6 +18,7 @@ kde-workspace (4:4.10.3-1) UNRELEASED; urgency=low
   * Add DEP3 headers.
   * Add a basic kmenuedit manpage.
   * Add basic manpages for ksysguard and ksysguardd.
+  * Update libkwinglutils1abi1 symbols file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 May 2013 11:47:11 +0200
 
