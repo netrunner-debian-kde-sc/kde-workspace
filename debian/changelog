@@ -1,4 +1,4 @@
-kde-workspace (4:4.10.3-1) UNRELEASED; urgency=low
+kde-workspace (4:4.10.3-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -20,7 +20,7 @@ kde-workspace (4:4.10.3-1) UNRELEASED; urgency=low
   * Add basic manpages for ksysguard and ksysguardd.
   * Update libkwinglutils1abi1 symbols file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 May 2013 11:47:11 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 13 May 2013 09:57:18 +0200
 
 kde-workspace (4:4.10.2-2) experimental; urgency=low
 
