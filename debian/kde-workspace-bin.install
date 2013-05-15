@@ -57,7 +57,6 @@ usr/lib/kde4/kded_appmenu.so
 usr/lib/kde4/kded_kephal.so
 usr/lib/kde4/kded_keyboard.so
 usr/lib/kde4/kded_khotkeys.so
-usr/lib/kde4/kded_ktouchpadenabler.so
 usr/lib/kde4/kded_kwrited.so
 usr/lib/kde4/kded_powerdevil.so
 usr/lib/kde4/kded_randrmonitor.so
@@ -159,7 +158,6 @@ usr/share/kde4/services/kded/appmenu.desktop
 usr/share/kde4/services/kded/kephal.desktop
 usr/share/kde4/services/kded/keyboard.desktop
 usr/share/kde4/services/kded/khotkeys.desktop
-usr/share/kde4/services/kded/ktouchpadenabler.desktop
 usr/share/kde4/services/kded/kwrited.desktop
 usr/share/kde4/services/kded/powerdevil.desktop
 usr/share/kde4/services/kded/randrmonitor.desktop

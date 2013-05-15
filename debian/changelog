@@ -1,8 +1,8 @@
 kde-workspace (4:4.10.3-2) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Make kde-workspace-bin Break+Replaces kdetouchpadenabler. It's already
-    part of kde-workspace.
+  * Create package ktouchpadenabler from this source, as it has been merged
+    in it.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 May 2013 16:01:44 -0300
 

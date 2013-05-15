@@ -124,11 +124,10 @@ Recommends: plasma-scriptengines, polkit-kde-1 (>= 0.99) | policykit-1-gnome,
  upower [linux-any]
 Suggests: x11-xkb-utils
 Replaces: kcontrol, ktip, libkfontinst4, ksplash, kdesktop,
- kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), kdebase-workspace-bin (<< 4:4.7.2),
- ktouchpadenabler
+ kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), kdebase-workspace-bin (<< 4:4.7.2)
 Breaks: kcontrol, ktip, libkfontinst4, kdesktop, ksplash,
  kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), kdebase-workspace-bin (<< 4:4.7.2),
- polkit-kde-1 (<< 0.99), ktouchpadenabler
+ polkit-kde-1 (<< 0.99)
 Description: core binaries for the KDE Plasma Workspace
  This package contains miscellaneous programs needed for a basic desktop
  installation. Among other standard KDE Workspace components, the package
@@ -619,3 +618,13 @@ Depends: ${misc:Depends}, kde-workspace-dbg
 Description: transitional package for kde-workspace-dbg
  This is a dummy transitional package for kde-workspace-dbg and can be safely
  removed after the installation is complete.
+
+Package: ktouchpadenabler
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: ktouchpadenabler (<< 0.1.1-1), kde-workspace-bin (<< 4:4.10.3-2~)
+Replaces: ktouchpadenabler (<< 0.1.1-1), kde-workspace-bin (<< 4:4.10.3-2~)
+Description: kded daemon to enable/disable touchpad
+ ktouchpadenabler is a kded daemon to enable and disable the system's touchpad
+ by listening for XF86XK_TouchpadToggle, XF86XK_TouchpadOn, and
+ XF86XK_TouchpadOff key events.
