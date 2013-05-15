@@ -124,10 +124,11 @@ Recommends: plasma-scriptengines, polkit-kde-1 (>= 0.99) | policykit-1-gnome,
  upower [linux-any]
 Suggests: x11-xkb-utils
 Replaces: kcontrol, ktip, libkfontinst4, ksplash, kdesktop,
- kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), kdebase-workspace-bin (<< 4:4.7.2) 
+ kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), kdebase-workspace-bin (<< 4:4.7.2),
+ ktouchpadenabler
 Breaks: kcontrol, ktip, libkfontinst4, kdesktop, ksplash,
  kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), kdebase-workspace-bin (<< 4:4.7.2),
- polkit-kde-1 (<< 0.99)
+ polkit-kde-1 (<< 0.99), ktouchpadenabler
 Description: core binaries for the KDE Plasma Workspace
  This package contains miscellaneous programs needed for a basic desktop
  installation. Among other standard KDE Workspace components, the package
