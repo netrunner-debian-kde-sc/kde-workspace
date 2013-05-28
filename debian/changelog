@@ -1,15 +1,4 @@
-kde-workspace (4:4.10.3-2) UNRELEASED; urgency=low
-
-  [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Create package ktouchpadenabler from this source, as it has been merged
-    in it.
-
-  [ Diane Trout]
-  * Fix typo in kde-workspace-bin dependency string.
-
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 15 May 2013 16:01:44 -0300
-
-kde-workspace (4:4.10.3-1) unstable; urgency=low
+kde-workspace (4:4.10.3-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -31,7 +20,14 @@ kde-workspace (4:4.10.3-1) unstable; urgency=low
   * Add basic manpages for ksysguard and ksysguardd.
   * Update libkwinglutils1abi1 symbols file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 13 May 2013 09:57:18 +0200
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Create package ktouchpadenabler from this source, as it has been merged
+    in it.
+
+  [ Diane Trout]
+  * Fix typo in kde-workspace-bin dependency string.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 May 2013 10:41:25 +0200
 
 kde-workspace (4:4.10.2-2) experimental; urgency=low
 
