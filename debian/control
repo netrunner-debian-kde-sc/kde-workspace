@@ -50,8 +50,8 @@ Build-Conflicts: libgles2-mesa-dev
 Standards-Version: 3.9.3
 X-Python-Version: >= 2.5
 Homepage: http://www.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kde-workspace.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kde-workspace.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kde-workspace.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kde-workspace.git
 
 Package: kde-workspace
 Architecture: all
