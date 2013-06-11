@@ -30,6 +30,7 @@ kde-workspace (4:4.10.4-1) UNRELEASED; urgency=low
   [ Maximiliano Curia ]
   * Update vcs fields.
   * Update libkwinglutils1abi1 symbols file.
+  * Remove the -c0 parameter to dh_makeshlibs invocation.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Jun 2013 16:06:09 +0200
 
