@@ -5,6 +5,7 @@ kde-workspace (4:4.10.5-1) UNRELEASED; urgency=low
   [ Maximiliano Curia ]
   * Update libkwineffects1abi4 symbols.
   * New patch: add_kdefakes_for_strlcpy_and_strlcat.diff.
+  * Update symbols.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Delete kde-window-manager.README.Debian. It is not relevant anymore.

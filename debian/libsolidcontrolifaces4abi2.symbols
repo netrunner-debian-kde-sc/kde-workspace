@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.1 amd64
+# SymbolsHelper-Confirmed: 4:4.10.5 amd64
 libsolidcontrolifaces.so.4abi2 libsolidcontrolifaces4abi2 #MINVER#
  ABI_4_2@ABI_4_2 4:4.7.1
  _ZN5Solid7Control6Ifaces11AccessPoint11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_2 4:4.7.1
@@ -171,10 +171,10 @@ libsolidcontrolifaces.so.4abi2 libsolidcontrolifaces4abi2 #MINVER#
  _ZTVN5Solid7Control6Ifaces24ModemGsmNetworkInterfaceE@ABI_4_2 4:4.7.1
  _ZTVN5Solid7Control6Ifaces24WirelessNetworkInterfaceE@ABI_4_2 4:4.7.1
  _ZTVN5Solid7Control6Ifaces25ModemGsmContactsInterfaceE@ABI_4_2 4:4.7.1
- (c++)"construction vtable for Solid::Control::Ifaces::GsmNetworkInterface-in-Solid::Control::Ifaces::BtNetworkInterface@ABI_4_2" 4:4.7.1
- (c++)"construction vtable for Solid::Control::Ifaces::SerialNetworkInterface-in-Solid::Control::Ifaces::BtNetworkInterface@ABI_4_2" 4:4.7.1
- (c++)"construction vtable for Solid::Control::Ifaces::SerialNetworkInterface-in-Solid::Control::Ifaces::CdmaNetworkInterface@ABI_4_2" 4:4.7.1
- (c++)"construction vtable for Solid::Control::Ifaces::SerialNetworkInterface-in-Solid::Control::Ifaces::GsmNetworkInterface@ABI_4_2" 4:4.7.1
+ (optional=gccinternal|c++)"construction vtable for Solid::Control::Ifaces::GsmNetworkInterface-in-Solid::Control::Ifaces::BtNetworkInterface@ABI_4_2" 4:4.7.1
+ (optional=gccinternal|c++)"construction vtable for Solid::Control::Ifaces::SerialNetworkInterface-in-Solid::Control::Ifaces::BtNetworkInterface@ABI_4_2" 4:4.7.1
+ (optional=gccinternal|c++)"construction vtable for Solid::Control::Ifaces::SerialNetworkInterface-in-Solid::Control::Ifaces::CdmaNetworkInterface@ABI_4_2" 4:4.7.1
+ (optional=gccinternal|c++)"construction vtable for Solid::Control::Ifaces::SerialNetworkInterface-in-Solid::Control::Ifaces::GsmNetworkInterface@ABI_4_2" 4:4.7.1
  dlrestrictions_data@ABI_4_2 4:4.7.1
  (c++)"virtual thunk to Solid::Control::Ifaces::BtNetworkInterface::~BtNetworkInterface()@ABI_4_2" 4:4.7.1
  (c++)"virtual thunk to Solid::Control::Ifaces::CdmaNetworkInterface::~CdmaNetworkInterface()@ABI_4_2" 4:4.7.1
