@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.9.3 amd64
+# SymbolsHelper-Confirmed: 4:4.10.5 amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x x32
 libkworkspace.so.4abi2 libkworkspace4abi2 #MINVER#
  ABI_4_2@ABI_4_2 4:4.9.3
  _ZN10KWorkSpace11canShutDownENS_15ShutdownConfirmENS_12ShutdownTypeENS_12ShutdownModeE@ABI_4_2 4:4.9.3
@@ -45,7 +45,7 @@ libkworkspace.so.4abi2 libkworkspace4abi2 #MINVER#
  _ZN19ScreenPreviewWidget11resizeEventEP12QResizeEvent@ABI_4_2 4:4.9.3
  _ZN19ScreenPreviewWidget12imageDroppedERK7QString@ABI_4_2 4:4.9.3
  _ZN19ScreenPreviewWidget16staticMetaObjectE@ABI_4_2 4:4.9.3
- _ZN19ScreenPreviewWidget8setRatioEd@ABI_4_2 4:4.9.3
+ (subst)_ZN19ScreenPreviewWidget8setRatioE{qreal}@ABI_4_2 4:4.9.3
  _ZN19ScreenPreviewWidget9dropEventEP10QDropEvent@ABI_4_2 4:4.9.3
  _ZN19ScreenPreviewWidgetC1EP7QWidget@ABI_4_2 4:4.9.3
  _ZN19ScreenPreviewWidgetC2EP7QWidget@ABI_4_2 4:4.9.3
