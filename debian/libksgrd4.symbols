@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libksgrd.so.4 libksgrd4 #MINVER#
-* Build-Depends-Package: kdebase-workspace-dev
+* Build-Depends-Package: kde-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN5KSGRD11SensorAgent11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN5KSGRD11SensorAgent11qt_metacastEPKc@ABI_4_0 4:4.6.1

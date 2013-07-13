@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libkscreensaver.so.5 libkscreensaver5 #MINVER#
-* Build-Depends-Package: kdebase-workspace-dev
+* Build-Depends-Package: kde-workspace-dev
  ABI_5_0@ABI_5_0 4:4.6.1
  _Z16kScreenSaverMainiPPcR21KScreenSaverInterface@ABI_5_0 4:4.6.1
  _ZN12KScreenSaver11qt_metacallEN11QMetaObject4CallEiPPv@ABI_5_0 4:4.6.1

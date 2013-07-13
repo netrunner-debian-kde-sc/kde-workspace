@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libweather_ion.so.6 libweather-ion6 #MINVER#
-* Build-Depends-Package: kdebase-workspace-dev
+* Build-Depends-Package: kde-workspace-dev
  ABI_6_0@ABI_6_0 4:4.6.1
  _ZN12IonInterface11forceUpdateEPS_RK7QString@ABI_6_0 4:4.6.1
  _ZN12IonInterface11qt_metacallEN11QMetaObject4CallEiPPv@ABI_6_0 4:4.6.1

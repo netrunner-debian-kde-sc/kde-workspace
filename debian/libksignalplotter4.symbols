@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.3 amd64
 libksignalplotter.so.4 libksignalplotter4 #MINVER#
-* Build-Depends-Package: kdebase-workspace-dev
+* Build-Depends-Package: kde-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter10paintEventEP11QPaintEvent@ABI_4_0 4:4.6.1
  _ZN14KSignalPlotter10removeBeamEi@ABI_4_0 4:4.6.1

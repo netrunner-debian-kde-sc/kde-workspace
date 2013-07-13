@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.3 amd64
 liblsofui.so.4 liblsofui4 #MINVER#
-* Build-Depends-Package: kdebase-workspace-dev
+* Build-Depends-Package: kde-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN11KLsofWidget11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN11KLsofWidget11qt_metacastEPKc@ABI_4_0 4:4.6.1

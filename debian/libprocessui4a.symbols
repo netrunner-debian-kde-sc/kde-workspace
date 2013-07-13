@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libprocessui.so.4 libprocessui4a #MINVER#
-* Build-Depends-Package: kdebase-workspace-dev
+* Build-Depends-Package: kde-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN11KTextEditVT11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN11KTextEditVT11qt_metacastEPKc@ABI_4_0 4:4.6.1
