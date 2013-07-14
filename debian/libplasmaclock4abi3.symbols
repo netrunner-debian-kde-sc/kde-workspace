@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.10.5 amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x x32
 libplasmaclock.so.4abi3 libplasmaclock4abi3 #MINVER#
+* Build-Depends-Package: kde-workspace-dev
  ABI_4_3@ABI_4_3 4:4.8.1
  _ZN11ClockApplet10popupEventEb@ABI_4_3 4:4.8.1
  _ZN11ClockApplet10wheelEventEP24QGraphicsSceneWheelEvent@ABI_4_3 4:4.8.1

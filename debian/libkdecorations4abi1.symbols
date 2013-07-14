@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.10.1 amd64
 libkdecorations.so.4abi1 libkdecorations4abi1 #MINVER#
+* Build-Depends-Package: kde-workspace-dev
  ABI_4_1@ABI_4_1 4:4.9.3
  _ZN11KDecoration10menuHiddenEv@ABI_4_1 4:4.10.1
  _ZN11KDecoration10setDesktopEi@ABI_4_1 4:4.9.3

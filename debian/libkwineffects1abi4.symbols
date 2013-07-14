@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.10.5 amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x x32
 libkwineffects.so.1abi4 libkwineffects1abi4 #MINVER#
+* Build-Depends-Package: kde-workspace-dev
  ABI_1_4@ABI_1_4 4:4.9.3
  _ZN4KWin10Extensions10has_damageE@ABI_1_4 4:4.9.3
  _ZN4KWin10Extensions12data_opcodesE@ABI_1_4 4:4.9.3

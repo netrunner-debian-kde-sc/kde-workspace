@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.7.1 amd64
 libsolidcontrol.so.4abi2 libsolidcontrol4abi2 #MINVER#
+* Build-Depends-Package: kde-workspace-dev
  ABI_4_2@ABI_4_2 4:4.7.1
  _ZN5Solid7Control10IPv4ConfigC1ERK5QListINS0_11IPv4AddressEERKS2_IjERK11QStringListRKS2_INS0_9IPv4RouteEE@ABI_4_2 4:4.7.1
  _ZN5Solid7Control10IPv4ConfigC1ERKS1_@ABI_4_2 4:4.7.1
