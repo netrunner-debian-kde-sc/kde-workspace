@@ -5,6 +5,10 @@ kde-workspace (4:4.10.5-2) UNRELEASED; urgency=low
   * Replace kdebase-workspace-dev with kde-workspace-dev in
     Build-Depends-Package of symbols files, and add it where missing.
 
+  [ Maximiliano Curia ]
+  * New patch: krunner_iceweasel_bookmarks.patch, thanks to Guido
+    Loupias <guidol@lavabit.com>. (Closes: #646612)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 13 Jul 2013 23:27:28 +0200
 
 kde-workspace (4:4.10.5-1) unstable; urgency=low

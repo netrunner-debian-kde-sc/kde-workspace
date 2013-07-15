@@ -19,3 +19,4 @@ kdm_vt_switching_on_kfreebsd.diff
 nlist_ftbfs_krefreebsd.diff
 hurd.diff
 add_kdefakes_for_strlcpy_and_strlcat.diff
+krunner_iceweasel_bookmarks.patch
