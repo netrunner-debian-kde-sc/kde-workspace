@@ -1,5 +1,8 @@
 kde-workspace (4:4.10.5-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Fix breaks/replaces of ktouchpadenabler: remove the ones against itself,
+    adjust version of kde-workspace-bin.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Jul 2013 15:20:50 +0200
 
