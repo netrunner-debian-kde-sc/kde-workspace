@@ -1,3 +1,8 @@
+kde-workspace (4:4.10.5-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Jul 2013 15:20:50 +0200
+
 kde-workspace (4:4.10.5-2) unstable; urgency=low
 
   [ Pino Toscano ]
