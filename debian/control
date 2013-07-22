@@ -216,7 +216,6 @@ Description: plasma widgets and containments for the KDE Plasma Workspace
 Package: plasma-scriptengines
 Architecture: all
 Depends: plasma-scriptengine-javascript (>= 4:4.2.95),
-# plasma-scriptengine-qedje (>= ${source:Version}),
  plasma-scriptengine-ruby (>= ${source:Version}),
  plasma-scriptengine-python (>= ${source:Version}),
  plasma-scriptengine-webkit (>= ${source:Version}),
@@ -228,15 +227,6 @@ Description: metapackage to install all Plasma script engines
  module provides and suggests script engines from other official KDE modules.
  .
  This package is part of the KDE base workspace module.
-
-#Package: plasma-scriptengine-qedje
-#Architecture: any
-#Depends: ${shlibs:Depends}, ${misc:Depends}
-#Description: QEdje script engine for Plasma
-# This package provides the Edje script engine for Plasma. You have to install it
-# if you want to use Plasma widgets and data engines written in Edje.
-# .
-# This package is part of the KDE base workspace module.
 
 Package: plasma-scriptengine-ruby
 Architecture: all
