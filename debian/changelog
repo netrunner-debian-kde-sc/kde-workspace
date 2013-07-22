@@ -10,6 +10,7 @@ kde-workspace (4:4.10.5-3) UNRELEASED; urgency=low
   * Backport upstream commit 2c810db3e41d56ad7dd8ec3436f3cf3abcc31983 to fix
     pixmap leaks in the system tray Plasma widget, CVE-2013-4133; patch
     upstream_Fix-pixmap-leak-when-the-tray-icon-changes-e.g.-when.patch.
+  * Remove obsolete and outdated installgen.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Jul 2013 15:20:50 +0200
 
