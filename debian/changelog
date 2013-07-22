@@ -3,6 +3,10 @@ kde-workspace (4:4.10.5-3) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Fix breaks/replaces of ktouchpadenabler: remove the ones against itself,
     adjust version of kde-workspace-bin.
+  * Backport upstream commit 45b7f137fbc0b942fd2c9b4e8d8c1f0293e64ba7 to fix
+    NULL pointer dereference in kcheckpass and kdm, CVE-2013-4132; patch
+    upstream_kdm-kcheckpass-Check-for-NULL-return-from-crypt-3-an.patch.
+    (Closes: #717180)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Jul 2013 15:20:50 +0200
 
