@@ -1,2 +1,0 @@
-kdm: hardening-no-fortify-functions usr/lib/kde4/kcm_kdm.so
-kdm: hardening-no-fortify-functions usr/lib/kde4/libexec/krootimage
