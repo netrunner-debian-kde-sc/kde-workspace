@@ -1,4 +1,4 @@
-kde-workspace (4:4.10.5-3) UNRELEASED; urgency=low
+kde-workspace (4:4.10.5-3) unstable; urgency=low
 
   [ Pino Toscano ]
   * Fix breaks/replaces of ktouchpadenabler: remove the ones against itself,
@@ -15,7 +15,7 @@ kde-workspace (4:4.10.5-3) UNRELEASED; urgency=low
   [ Maximiliano Curia ]
   * Remove unused kdm lintian-overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 21 Jul 2013 15:20:50 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 02 Aug 2013 13:31:59 +0200
 
 kde-workspace (4:4.10.5-2) unstable; urgency=low
 
