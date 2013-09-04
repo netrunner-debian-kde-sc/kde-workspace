@@ -149,7 +149,7 @@ Description: transitional package for kde-workspace-bin
 
 Package: kde-workspace-data
 Architecture: all
-Depends: oxygencursors, ${misc:Depends}, ${perl:Depends}
+Depends: oxygencursors, ${misc:Depends}, ${perl:Depends}, kde-base-artwork
 Replaces: ksmserver, ktip, ksplash, libplasma1,
  kdebase-runtime-data (<< 4:4.5), kde-icons-mono (<< 4:4.6.80),
  kdebase-workspace-data (<< 4:4.7.2) 
