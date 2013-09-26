@@ -201,6 +201,15 @@ kde-workspace (4:4.11.2-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Sep 2013 15:51:17 +0200
 
+kde-workspace (4:4.11.1-0ubuntu5) saucy; urgency=low
+
+  * Add kubuntu_avoid_zic_and_deep_copy_timezone_data.diff
+    It does not use zic when available as zic is broken. Also adds symlink
+    handling, when a tz file is a symlink, it gets the link target and
+    copies that instead. This prevents broken symlinks. (LP: #1206199)
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Thu, 26 Sep 2013 16:09:27 +0200
+
 kde-workspace (4:4.10.5-3) unstable; urgency=low
 
   [ Pino Toscano ]
