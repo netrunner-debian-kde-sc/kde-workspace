@@ -548,27 +548,6 @@ Description: library for ksysguard process user interface
  .
  This package is part of the KDE base workspace module.
 
-Package: libsolidcontrol4abi2
-Section: libs
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-X-Debian-ABI: 2
-Description: library for Solid based network management
- This package contains libraries needed for Solid based network management.
- .
- This package is part of the KDE base workspace module.
-
-Package: libsolidcontrolifaces4abi2
-Section: libs
-Architecture: any
-X-Debian-ABI: 2
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: library for Solid based network interface management
- This package contains libraries needed for Solid based network interface
- management.
- .
- This package is part of the KDE base workspace module.
-
 Package: libtaskmanager4abi3
 Section: libs
 Architecture: any
