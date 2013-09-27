@@ -350,15 +350,15 @@ Breaks: kdebase-workspace-data (<< 4:4.7.2), kde-workspace-data (<< 4:4.8.4-0r5)
 Replaces: kdebase-workspace-data (<< 4:4.7.2), kde-workspace-data (<< 4:4.8.4-0r5)
 Provides: x-window-manager
 Description: K window manager (KWin)
- This package contains KWin, the KDE window manager, featuring 
+ This package contains KWin, the KDE window manager, featuring
  hardware-accelerated compositing effects.
  .
  This package is part of the KDE base workspace module.
 
-Package: libkdecorations4abi1
+Package: libkdecorations4abi2
 Section: libs
 Architecture: any
-X-Debian-ABI: 1
+X-Debian-ABI: 2
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library used by decorations for the KDE window manager
  This package contains a library used by decorations of the KDE window
@@ -366,10 +366,10 @@ Description: library used by decorations for the KDE window manager
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwineffects1abi4
+Package: libkwineffects1abi5
 Section: libs
 Architecture: any
-X-Debian-ABI: 4
+X-Debian-ABI: 5
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library used by effects for the KDE window manager
  This package contains a library used by effects for the KDE window manager.
@@ -484,10 +484,10 @@ Description: library for ksysguard's list of open files
  .
  This package is part of the KDE base workspace module.
 
-Package: libplasmaclock4abi3
+Package: libplasmaclock4abi4
 Section: libs
 Architecture: any
-X-Debian-ABI: 3
+X-Debian-ABI: 4
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library for Plasma clocks
  This package contains libraries needed for Plasma clocks.
@@ -504,10 +504,10 @@ Description: library for the Plasma geolocation
  .
  This package is part of the KDE base workspace module.
 
-Package: libkwinglutils1abi1
+Package: libkwinglutils1abi2
 Section: libs
 Architecture: any
-X-Debian-ABI: 1
+X-Debian-ABI: 2
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library with OpenGL utilities for the KDE window manager
  This package contains a library with OpenGL utilities used by the KDE window
@@ -548,10 +548,10 @@ Description: library for ksysguard process user interface
  .
  This package is part of the KDE base workspace module.
 
-Package: libtaskmanager4abi3
+Package: libtaskmanager4abi4
 Section: libs
 Architecture: any
-X-Debian-ABI: 3
+X-Debian-ABI: 4
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library which provides task management facilities
  This package contains libraries which provide task management facilities.
