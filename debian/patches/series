@@ -1,5 +1,3 @@
-upstream_kdm-kcheckpass-Check-for-NULL-return-from-crypt-3-an.patch
-upstream_Fix-pixmap-leak-when-the-tray-icon-changes-e.g.-when.patch
 kdm_does_not_wreak_havoc.diff
 kdmrc_defaults.diff
 genkdmconf.diff

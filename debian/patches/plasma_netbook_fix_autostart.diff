@@ -7,9 +7,11 @@ This patch should fully fix problems with startup of plasma-netbook when
 plasma-desktop is NOT installed. We aim to support "plasma-desktop"-less
 installation via kde-plasma-netbook metapackage hence this bug was a
 showstopper for this goal.
---- a/kcontrol/workspaceoptions/workspaceoptions.cpp
-+++ b/kcontrol/workspaceoptions/workspaceoptions.cpp
-@@ -92,7 +92,7 @@ void WorkspaceOptionsModule::save()
+Index: kde-workspace/kcontrol/workspaceoptions/workspaceoptions.cpp
+===================================================================
+--- kde-workspace.orig/kcontrol/workspaceoptions/workspaceoptions.cpp	2013-09-27 09:19:35.568440190 +0000
++++ kde-workspace/kcontrol/workspaceoptions/workspaceoptions.cpp	2013-09-27 09:19:35.560440504 +0000
+@@ -92,7 +92,7 @@
  
      m_plasmaNetbookAutostart.setAutostarts(!isDesktop);
      m_plasmaNetbookAutostart.setStartPhase(KAutostart::BaseDesktop);
@@ -18,9 +20,11 @@ showstopper for this goal.
      m_plasmaNetbookAutostart.setAllowedEnvironments(QStringList()<<"KDE");
  
      m_krunnerAutostart.setAutostarts(isDesktop);
---- a/plasma/netbook/shell/main.cpp
-+++ b/plasma/netbook/shell/main.cpp
-@@ -40,10 +40,16 @@ KDE_EXPORT int kdemain(int argc, char **
+Index: kde-workspace/plasma/netbook/shell/main.cpp
+===================================================================
+--- kde-workspace.orig/plasma/netbook/shell/main.cpp	2013-09-27 09:19:35.568440190 +0000
++++ kde-workspace/plasma/netbook/shell/main.cpp	2013-09-27 09:19:35.560440504 +0000
+@@ -40,10 +40,16 @@
  
  
      bool customGraphicsSystem = false;
@@ -38,7 +42,7 @@ showstopper for this goal.
          }
      }
  
-@@ -58,9 +64,16 @@ KDE_EXPORT int kdemain(int argc, char **
+@@ -58,9 +64,16 @@
      options.add("nodesktop", ki18n("Starts as a normal application instead of as the primary user interface"));
      options.add("opengl", ki18n("Use OpenGL to draw the main screen"));
      options.add("screen <geometry>", ki18n("The geometry of the screen"), "800x480");
@@ -55,8 +59,10 @@ showstopper for this goal.
      QApplication::setWindowIcon(KIcon("plasma"));
      app->disableSessionManagement(); // autostarted
      int rc = app->exec();
---- a/plasma/netbook/shell/plasmaapp.cpp
-+++ b/plasma/netbook/shell/plasmaapp.cpp
+Index: kde-workspace/plasma/netbook/shell/plasmaapp.cpp
+===================================================================
+--- kde-workspace.orig/plasma/netbook/shell/plasmaapp.cpp	2013-09-27 09:19:35.568440190 +0000
++++ kde-workspace/plasma/netbook/shell/plasmaapp.cpp	2013-09-27 09:19:35.560440504 +0000
 @@ -33,6 +33,7 @@
  #include <KStandardAction>
  #include <KWindowSystem>
@@ -65,7 +71,7 @@ showstopper for this goal.
  
  #include <ksmserver_interface.h>
  
-@@ -320,7 +321,8 @@ PlasmaApp::PlasmaApp()
+@@ -320,7 +321,8 @@
        m_autoHideControlBar(true),
        m_unHideTimer(0),
        m_shadowWindow(0),
@@ -75,7 +81,7 @@ showstopper for this goal.
  {
      PlasmaApp::suspendStartup(true);
      KGlobal::locale()->insertCatalog("libplasma");
-@@ -328,6 +330,13 @@ PlasmaApp::PlasmaApp()
+@@ -328,6 +330,13 @@
  
  
      KCmdLineArgs *args = KCmdLineArgs::parsedArgs();
@@ -89,7 +95,7 @@ showstopper for this goal.
      bool isDesktop = args->isSet("desktop");
      if (isDesktop) {
          KCrash::setFlags(KCrash::AutoRestart);
-@@ -397,6 +406,38 @@ PlasmaApp::~PlasmaApp()
+@@ -397,6 +406,38 @@
  {
  }
  
@@ -128,9 +134,11 @@ showstopper for this goal.
  void PlasmaApp::cleanup()
  {
      if (m_corona) {
---- a/plasma/netbook/shell/plasmaapp.h
-+++ b/plasma/netbook/shell/plasmaapp.h
-@@ -87,6 +87,12 @@ public:
+Index: kde-workspace/plasma/netbook/shell/plasmaapp.h
+===================================================================
+--- kde-workspace.orig/plasma/netbook/shell/plasmaapp.h	2013-09-27 09:19:35.568440190 +0000
++++ kde-workspace/plasma/netbook/shell/plasmaapp.h	2013-09-27 09:19:35.560440504 +0000
+@@ -87,6 +87,12 @@
       */
      bool isDesktop() const;
  
@@ -143,7 +151,7 @@ showstopper for this goal.
      void showWidgetExplorer(Plasma::Containment *containment);
  
  public Q_SLOTS:
-@@ -105,6 +111,7 @@ private:
+@@ -105,6 +111,7 @@
      void reserveStruts();
      void createUnhideTrigger();
      void destroyUnHideTrigger();
@@ -151,7 +159,7 @@ showstopper for this goal.
  
  private Q_SLOTS:
      void cleanup();
-@@ -152,6 +159,7 @@ private:
+@@ -152,6 +159,7 @@
      QTimer *m_unHideTimer;
      ShadowWindow *m_shadowWindow;
      int m_startupSuspendWaitCount;
@@ -159,9 +167,11 @@ showstopper for this goal.
  };
  
  #endif // multiple inclusion guard
---- a/startkde.cmake
-+++ b/startkde.cmake
-@@ -278,6 +278,24 @@ else
+Index: kde-workspace/startkde.cmake
+===================================================================
+--- kde-workspace.orig/startkde.cmake	2013-09-27 09:19:35.568440190 +0000
++++ kde-workspace/startkde.cmake	2013-09-27 09:19:35.564440346 +0000
+@@ -282,6 +282,24 @@
      exit 1
  fi
  

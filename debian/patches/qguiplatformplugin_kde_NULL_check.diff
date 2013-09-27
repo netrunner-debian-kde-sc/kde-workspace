@@ -4,9 +4,11 @@ Author: "Dr. David Alan Gilbert" <debian@treblig.org>
 Signed-By: Didier Raboud <didier@raboud.com>
 Bugs-Debian: #603480
 Last-Update: 2010-11-28
---- a/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp
-+++ b/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp
-@@ -247,7 +247,9 @@ public: // File Dialog integration
+Index: kde-workspace/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp
+===================================================================
+--- kde-workspace.orig/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp	2013-09-27 09:22:01.826710926 +0000
++++ kde-workspace/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp	2013-09-27 09:22:01.818711239 +0000
+@@ -250,7 +250,9 @@
              kdefd->setConfirmOverwrite(qfd->confirmOverwrite());
              kdefd->setSelection(qfd->selectedFiles().value(0));
          }

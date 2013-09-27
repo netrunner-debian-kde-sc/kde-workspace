@@ -8,12 +8,14 @@ For more information about DebianABIManager, refer to
 
 
 
---- a/CMakeLists.txt
-+++ b/CMakeLists.txt
-@@ -267,3 +267,6 @@ install(EXPORT kdeworkspaceLibraryTarget
-         NAMESPACE ${KDE4WORKSPACE_TARGET_PREFIX}
+Index: kde-workspace/CMakeLists.txt
+===================================================================
+--- kde-workspace.orig/CMakeLists.txt	2013-09-27 09:22:39.945217631 +0000
++++ kde-workspace/CMakeLists.txt	2013-09-27 09:23:07.988119020 +0000
+@@ -357,4 +357,5 @@
          DESTINATION ${_KDE4WorkspaceConfig_INSTALL_DIR}
          FILE KDE4WorkspaceLibraryTargets.cmake )
-+
+ 
+-
 +# Add support for DebianABIManager
 +include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)

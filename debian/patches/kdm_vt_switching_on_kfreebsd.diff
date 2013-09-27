@@ -10,9 +10,11 @@ vt2 on bootup and locking up keyboard/mouse input.
 
 This revision of the patch is pretty hackish. What is more, it does not cover
 FreeBSD (only kFreeBSD) while it could perfectly do so.
---- a/kdm/backend/dm.c
-+++ b/kdm/backend/dm.c
-@@ -47,7 +47,13 @@ from the copyright holder.
+Index: kde-workspace/kdm/backend/dm.c
+===================================================================
+--- kde-workspace.orig/kdm/backend/dm.c	2013-09-27 09:23:30.607232875 +0000
++++ kde-workspace/kdm/backend/dm.c	2013-09-27 09:23:30.595233345 +0000
+@@ -47,7 +47,13 @@
  
  #ifdef HAVE_VTS
  # include <sys/ioctl.h>
@@ -26,7 +28,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  #endif
  
  static void sigHandler(int n);
-@@ -349,7 +355,12 @@ updateNow(void)
+@@ -349,7 +355,12 @@
  int
  TTYtoVT(const char *tty)
  {
@@ -40,7 +42,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  }
  
  int
-@@ -1051,9 +1062,15 @@ reapChildren(void)
+@@ -1051,9 +1062,15 @@
                      } else {
                          int con = open("/dev/console", O_RDONLY);
                          if (con >= 0) {
@@ -57,7 +59,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
                                  int vt = 1;
                                  struct display *di;
                                  for (di = displays; di; di = di->next)
-@@ -1066,7 +1083,9 @@ reapChildren(void)
+@@ -1066,7 +1083,9 @@
                                          vt = di->serverVT;
                                  ioctl(con, VT_ACTIVATE, vt);
                              }
@@ -67,7 +69,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
                              close(con);
                          }
                      }
-@@ -1339,16 +1358,41 @@ static int activeVTs;
+@@ -1339,16 +1358,41 @@
  static int
  getBusyVTs(void)
  {
@@ -112,9 +114,11 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
      }
      return activeVTs;
  }
---- a/kdm/backend/greet.h
-+++ b/kdm/backend/greet.h
-@@ -53,7 +53,7 @@ from the copyright holder.
+Index: kde-workspace/kdm/backend/greet.h
+===================================================================
+--- kde-workspace.orig/kdm/backend/greet.h	2013-09-27 09:23:30.607232875 +0000
++++ kde-workspace/kdm/backend/greet.h	2013-09-27 09:23:30.595233345 +0000
+@@ -53,7 +53,7 @@
  # define USE_SYSLOG
  #endif
  
@@ -123,9 +127,11 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  /* This needs to be run-time configurable, additionally. */
  # define HAVE_VTS
  #endif
---- a/kdm/backend/client.c
-+++ b/kdm/backend/client.c
-@@ -1349,7 +1349,11 @@ startClient(volatile int *pid)
+Index: kde-workspace/kdm/backend/client.c
+===================================================================
+--- kde-workspace.orig/kdm/backend/client.c	2013-09-27 09:23:30.607232875 +0000
++++ kde-workspace/kdm/backend/client.c	2013-09-27 09:23:30.595233345 +0000
+@@ -1352,7 +1352,11 @@
      
  # ifdef HAVE_VTS
      if (td->serverVT > 0)
@@ -137,9 +143,11 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  # endif
      isLocal = ((td->displayType & d_location) == dLocal);
  # ifdef XDMCP
---- a/kdm/kfrontend/genkdmconf.c
-+++ b/kdm/kfrontend/genkdmconf.c
-@@ -1547,7 +1547,8 @@ static void
+Index: kde-workspace/kdm/kfrontend/genkdmconf.c
+===================================================================
+--- kde-workspace.orig/kdm/kfrontend/genkdmconf.c	2013-09-27 09:23:30.607232875 +0000
++++ kde-workspace/kdm/kfrontend/genkdmconf.c	2013-09-27 09:23:30.599233189 +0000
+@@ -1547,7 +1547,8 @@
  upd_servervts(Entry *ce, Section *cs ATTR_UNUSED)
  {
      if (!ce->active) { /* there is only the Global one */
@@ -149,7 +157,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
          getInitTab();
          ASPrintf((char **)&ce->value, "-%d", maxTTY + 1);
          ce->active = ce->written = True;
-@@ -1559,14 +1560,19 @@ static void
+@@ -1559,14 +1560,19 @@
  upd_consolettys(Entry *ce, Section *cs ATTR_UNUSED)
  {
      if (!ce->active) { /* there is only the Global one */
@@ -170,7 +178,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
          if (buf) {
              ce->value = buf + 1;
              ce->active = ce->written = True;
-@@ -3199,7 +3205,7 @@ int main(int argc, char **argv)
+@@ -3198,7 +3204,7 @@
              }
          }
      }
@@ -179,9 +187,11 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
      if (!stat("/etc/debian_version", &st)) { /* debian */
          defminuid = "1000";
          defmaxuid = "29999";
---- a/kdm/config.def
-+++ b/kdm/config.def
-@@ -873,7 +873,7 @@ Description:
+Index: kde-workspace/kdm/config.def
+===================================================================
+--- kde-workspace.orig/kdm/config.def	2013-09-27 09:23:30.607232875 +0000
++++ kde-workspace/kdm/config.def	2013-09-27 09:23:30.599233189 +0000
+@@ -873,7 +873,7 @@
   This option is for operating systems (<acronym>OS</acronym>s) with support
   for virtual terminals (<acronym>VT</acronym>s), by both &kdm; and the
   <acronym>OS</acronym>s itself.
@@ -190,9 +200,11 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
   </para><para>
   When &kdm; switches to console mode, it starts monitoring all
   <acronym>TTY</acronym> lines listed here (without the leading
---- a/kdm/backend/util.c
-+++ b/kdm/backend/util.c
-@@ -54,6 +54,15 @@ from the copyright holder.
+Index: kde-workspace/kdm/backend/util.c
+===================================================================
+--- kde-workspace.orig/kdm/backend/util.c	2013-09-27 09:23:30.607232875 +0000
++++ kde-workspace/kdm/backend/util.c	2013-09-27 09:23:30.599233189 +0000
+@@ -54,6 +54,15 @@
  # include <sys/utsname.h>
  #endif
  
@@ -208,7 +220,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  void *
  Calloc(size_t nmemb, size_t size)
  {
-@@ -663,6 +672,29 @@ hexToBinary(char *out, const char *in)
+@@ -663,6 +672,29 @@
  
  #undef atox
  
@@ -238,7 +250,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  /* X -from ip6-addr does not work here, so i don't know whether this is needed.
  #define IP6_MAGIC
  */
-@@ -682,6 +714,10 @@ listSessions(int flags, struct display *
+@@ -682,6 +714,10 @@
  #else
      STRUCTUTMP *ut;
  #endif
@@ -249,7 +261,7 @@ FreeBSD (only kFreeBSD) while it could perfectly do so.
  
      for (di = displays; di; di = di->next)
          if (((flags & lstRemote) || (di->displayType & d_location) == dLocal) &&
-@@ -713,11 +749,19 @@ listSessions(int flags, struct display *
+@@ -713,11 +749,19 @@
                  if (!(flags & lstRemote))
                      continue;
              } else {
