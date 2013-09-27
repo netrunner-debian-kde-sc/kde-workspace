@@ -5,6 +5,7 @@ kde-workspace (4:4.11.1-0r0) UNRELEASED; urgency=low
   * Update build-dependencies.
   * Remove libsolidcontrol4abi2 and libsolidcontrolifaces4abi2 packages,
     removed by upstream.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:14:59 +0200
 

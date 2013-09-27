@@ -21,7 +21,6 @@ usr/lib/kde4/plasma_engine_keystate.so
 usr/lib/kde4/plasma_engine_metadata.so
 usr/lib/kde4/plasma_engine_mouse.so
 usr/lib/kde4/plasma_engine_mpris2.so
-usr/lib/kde4/plasma_engine_network.so
 usr/lib/kde4/plasma_engine_notifications.so
 usr/lib/kde4/plasma_engine_nowplaying.so
 usr/lib/kde4/plasma_engine_places.so
@@ -48,6 +47,7 @@ usr/share/kde4/apps/plasma/services/share.operations
 usr/share/kde4/apps/plasma/services/soliddevice.operations
 usr/share/kde4/apps/plasma/services/statusnotifieritem.operations
 usr/share/kde4/apps/plasma/services/tasks.operations
+usr/share/kde4/apps/plasma/shareprovider/im9/
 usr/share/kde4/apps/plasma/shareprovider/imgsusepasteorg/contents/code/main.js
 usr/share/kde4/apps/plasma/shareprovider/imgsusepasteorg/metadata.desktop
 usr/share/kde4/apps/plasma/shareprovider/imgur/contents/code/main.js
@@ -86,12 +86,12 @@ usr/share/kde4/services/plasma-dataengine-hotplug.desktop
 usr/share/kde4/services/plasma-dataengine-keystate.desktop
 usr/share/kde4/services/plasma-dataengine-mouse.desktop
 usr/share/kde4/services/plasma-dataengine-mpris2.desktop
-usr/share/kde4/services/plasma-dataengine-network.desktop
 usr/share/kde4/services/plasma-dataengine-notifications.desktop
 usr/share/kde4/services/plasma-dataengine-nowplaying.desktop
 usr/share/kde4/services/plasma-dataengine-places.desktop
 usr/share/kde4/services/plasma-dataengine-powermanagement.desktop
 usr/share/kde4/services/plasma-dataengine-rss.desktop
+usr/share/kde4/services/plasma-dataengine-share-addon-im9.desktop
 usr/share/kde4/services/plasma-dataengine-share-addon-imgsusepasteorg.desktop
 usr/share/kde4/services/plasma-dataengine-share-addon-imgur.desktop
 usr/share/kde4/services/plasma-dataengine-share-addon-kde.desktop

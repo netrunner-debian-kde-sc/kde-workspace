@@ -49,7 +49,6 @@ usr/lib/kde4/kcm_powerdevilprofilesconfig.so
 usr/lib/kde4/kcm_randr.so
 usr/lib/kde4/kcm_screensaver.so
 usr/lib/kde4/kcm_smserver.so
-usr/lib/kde4/kcm_solid.so
 usr/lib/kde4/kcm_solid_actions.so
 usr/lib/kde4/kcm_standard_actions.so
 usr/lib/kde4/kcm_workspaceoptions.so
@@ -107,11 +106,10 @@ usr/lib/kde4/powerdevilbrightnesscontrolaction_config.so
 usr/lib/kde4/powerdevildimdisplayaction_config.so
 usr/lib/kde4/powerdevildpmsaction.so
 usr/lib/kde4/powerdevildpmsaction_config.so
+usr/lib/kde4/powerdevilkeyboardbrightnesscontrolaction_config.so
 usr/lib/kde4/powerdevilhandlebuttoneventsaction_config.so
 usr/lib/kde4/powerdevilrunscriptaction_config.so
 usr/lib/kde4/powerdevilsuspendsessionaction_config.so
-usr/lib/kde4/solid_fakenet.so
-usr/lib/kde4/solid_wicd.so
 usr/lib/libkdeinit4_kaccess.so
 usr/lib/libkdeinit4_kcminit.so
 usr/lib/libkdeinit4_kcminit_startup.so
@@ -150,7 +148,6 @@ usr/share/kde4/services/fontinst.desktop
 usr/share/kde4/services/fontthumbnail.desktop
 usr/share/kde4/services/kaccess.desktop
 usr/share/kde4/services/kcm_keyboard.desktop
-usr/share/kde4/services/kcm_solid.desktop
 usr/share/kde4/services/kcmaccess.desktop
 usr/share/kde4/services/kcmlaunch.desktop
 usr/share/kde4/services/kcmsmserver.desktop
@@ -199,6 +196,7 @@ usr/share/kde4/services/powerdevildimdisplayaction.desktop
 usr/share/kde4/services/powerdevildpmsaction.desktop
 usr/share/kde4/services/powerdevilglobalconfig.desktop
 usr/share/kde4/services/powerdevilhandlebuttoneventsaction.desktop
+usr/share/kde4/services/powerdevilkeyboardbrightnesscontrolaction.desktop
 usr/share/kde4/services/powerdevilprofilesconfig.desktop
 usr/share/kde4/services/powerdevilrunscriptaction.desktop
 usr/share/kde4/services/powerdevilsuspendsessionaction.desktop
@@ -208,14 +206,9 @@ usr/share/kde4/services/screensaver.desktop
 usr/share/kde4/services/settings-power-management.desktop
 usr/share/kde4/services/settings-workspace-behavior.desktop
 usr/share/kde4/services/solid-actions.desktop
-usr/share/kde4/services/solidbackends/solid_fakenet.desktop
-usr/share/kde4/services/solidbackends/solid_wicd.desktop
 usr/share/kde4/services/standard_actions.desktop
 usr/share/kde4/services/workspaceoptions.desktop
 usr/share/kde4/servicetypes/plasma_shareprovider.desktop
 usr/share/kde4/servicetypes/powerdevilaction.desktop
 usr/share/kde4/servicetypes/screensaver.desktop
 usr/share/kde4/servicetypes/solid-device-type.desktop
-usr/share/kde4/servicetypes/solidmodemmanager.desktop
-usr/share/kde4/servicetypes/solidnetworkmanager.desktop
-usr/share/kde4/servicetypes/solidremotecontrolmanager.desktop
