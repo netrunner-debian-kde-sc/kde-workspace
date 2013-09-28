@@ -8,6 +8,7 @@ kde-workspace (4:4.11.1-0r0) UNRELEASED; urgency=low
   * Update install files.
   * Bump abi versions for library packages.
   * Add new binary package libkwinglesutils1.
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:14:59 +0200
 
