@@ -1,6 +1,8 @@
 kde-workspace (4:4.11.1-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
+
+  [ Maximiliano Curia ]
   * Refresh patches, remove patches already applied.
   * Update build-dependencies.
   * Remove libsolidcontrol4abi2 and libsolidcontrolifaces4abi2 packages,
@@ -10,7 +12,11 @@ kde-workspace (4:4.11.1-0r0) UNRELEASED; urgency=low
   * Add new binary package libkwinglesutils1.
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Sep 2013 20:14:59 +0200
+  [ Pino Toscano ]
+  * Make kde-workspace-data depend on kde-base-artwork, as it contains the
+    base/default artwork used when desktop-base is not installed.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Sep 2013 15:51:17 +0200
 
 kde-workspace (4:4.10.5-3) unstable; urgency=low
 
