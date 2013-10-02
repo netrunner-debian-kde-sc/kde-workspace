@@ -47,11 +47,11 @@ Build-Depends: kdepimlibs5-dev (>= 4:4.10.2),
  libxcb-render-util0-dev, libx11-xcb-dev, libxcb-xtest0-dev,
  libxcb-keysyms1-dev,
  libqjson-dev,
- libgles2-mesa-dev,
  libwayland-dev,
  udev,
  libudev-dev,
  libdlrestrictions-dev (>= 0.14)
+Build-Conflicts: libgles2-mesa-dev
 Standards-Version: 3.9.4
 X-Python-Version: >= 2.5
 Homepage: http://www.kde.org/
@@ -501,17 +501,6 @@ X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: library for the Plasma geolocation
  This package contains libraries needed for the Plasma geolocation.
- .
- This package is part of the KDE base workspace module.
-
-Package: libkwinglesutils1
-Section: libs
-Architecture: any
-X-Debian-ABI: 0
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: library with OpenGLES utilities for the KDE window manager
- This package contains a library with OpenGLES utilities used by the KDE window
- manager.
  .
  This package is part of the KDE base workspace module.
 

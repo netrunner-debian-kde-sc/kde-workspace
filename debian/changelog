@@ -11,13 +11,11 @@ kde-workspace (4:4.11.2-0r0) UNRELEASED; urgency=low
   * Bump abi versions for library packages.
   * Add new binary package libkwinglesutils1.
   * Update symbols files.
+  * Disable kwin_gles.
 
   [ Pino Toscano ]
   * Make kde-workspace-data depend on kde-base-artwork, as it contains the
     base/default artwork used when desktop-base is not installed.
-
-  [ Maximiliano Curia ]
-  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Sep 2013 15:51:17 +0200
 
