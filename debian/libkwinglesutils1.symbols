@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.11.2 amd64
 libkwinglesutils.so.1 libkwinglesutils1 #MINVER#
  ABI_1_0@ABI_1_0 4:4.11.1
  _ZN4KWin10GLPlatform10s_platformE@ABI_1_0 4:4.11.1
@@ -100,11 +100,13 @@ libkwinglesutils.so.1 libkwinglesutils1 #MINVER#
  _ZN4KWin15glGetnUniformfvE@ABI_1_0 4:4.11.1
  _ZN4KWin16GLTexturePrivate10initStaticEv@ABI_1_0 4:4.11.1
  _ZN4KWin16GLTexturePrivate12updateMatrixEv@ABI_1_0 4:4.11.1
- _ZN4KWin16GLTexturePrivate18sTextureFormatBGRAE@ABI_1_0 4:4.11.1
+ _ZN4KWin16GLTexturePrivate14sTextureFormatE@ABI_1_0 4:4.11.2
  _ZN4KWin16GLTexturePrivate20sSaturationSupportedE@ABI_1_0 4:4.11.1
  _ZN4KWin16GLTexturePrivate21sNPOTTextureSupportedE@ABI_1_0 4:4.11.1
+ _ZN4KWin16GLTexturePrivate22s_textureObjectCounterE@ABI_1_0 4:4.11.2
  _ZN4KWin16GLTexturePrivate27sFramebufferObjectSupportedE@ABI_1_0 4:4.11.1
  _ZN4KWin16GLTexturePrivate4bindEv@ABI_1_0 4:4.11.1
+ _ZN4KWin16GLTexturePrivate5s_fboE@ABI_1_0 4:4.11.2
  _ZN4KWin16GLTexturePrivate6unbindEv@ABI_1_0 4:4.11.1
  _ZN4KWin16GLTexturePrivate8onDamageEv@ABI_1_0 4:4.11.1
  _ZN4KWin16GLTexturePrivateC1Ev@ABI_1_0 4:4.11.1
@@ -176,6 +178,7 @@ libkwinglesutils.so.1 libkwinglesutils1 #MINVER#
  _ZN4KWin9GLTexture4loadERK6QImagej@ABI_1_0 4:4.11.1
  _ZN4KWin9GLTexture4loadERK7QPixmapj@ABI_1_0 4:4.11.1
  _ZN4KWin9GLTexture4loadERK7QString@ABI_1_0 4:4.11.1
+ _ZN4KWin9GLTexture5clearEv@ABI_1_0 4:4.11.2
  _ZN4KWin9GLTexture6renderE7QRegionRK5QRectb@ABI_1_0 4:4.11.1
  _ZN4KWin9GLTexture6unbindEv@ABI_1_0 4:4.11.1
  _ZN4KWin9GLTexture6updateERK6QImageRK6QPointRK5QRect@ABI_1_0 4:4.11.1

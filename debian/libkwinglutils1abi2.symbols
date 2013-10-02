@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.11.2 amd64
 libkwinglutils.so.1abi2 libkwinglutils1abi2 #MINVER#
  ABI_1_2@ABI_1_2 4:4.11.1
  _ZN4KWin10GLPlatform10s_platformE@ABI_1_2 4:4.11.1
@@ -137,11 +137,13 @@ libkwinglutils.so.1abi2 libkwinglutils1abi2 #MINVER#
  _ZN4KWin15glXGetVideoSyncE@ABI_1_2 4:4.11.1
  _ZN4KWin16GLTexturePrivate10initStaticEv@ABI_1_2 4:4.11.1
  _ZN4KWin16GLTexturePrivate12updateMatrixEv@ABI_1_2 4:4.11.1
- _ZN4KWin16GLTexturePrivate18sTextureFormatBGRAE@ABI_1_2 4:4.11.1
+ _ZN4KWin16GLTexturePrivate14sTextureFormatE@ABI_1_2 4:4.11.2
  _ZN4KWin16GLTexturePrivate20sSaturationSupportedE@ABI_1_2 4:4.11.1
  _ZN4KWin16GLTexturePrivate21sNPOTTextureSupportedE@ABI_1_2 4:4.11.1
+ _ZN4KWin16GLTexturePrivate22s_textureObjectCounterE@ABI_1_2 4:4.11.2
  _ZN4KWin16GLTexturePrivate27sFramebufferObjectSupportedE@ABI_1_2 4:4.11.1
  _ZN4KWin16GLTexturePrivate4bindEv@ABI_1_2 4:4.11.1
+ _ZN4KWin16GLTexturePrivate5s_fboE@ABI_1_2 4:4.11.2
  _ZN4KWin16GLTexturePrivate6unbindEv@ABI_1_2 4:4.11.1
  _ZN4KWin16GLTexturePrivate8onDamageEv@ABI_1_2 4:4.11.1
  _ZN4KWin16GLTexturePrivateC1Ev@ABI_1_2 4:4.11.1
@@ -158,7 +160,6 @@ libkwinglutils.so.1abi2 libkwinglutils1abi2 #MINVER#
  _ZN4KWin16glXCopySubBufferE@ABI_1_2 4:4.11.1
  _ZN4KWin16glXQueryDrawableE@ABI_1_2 4:4.11.1
  _ZN4KWin16glXWaitVideoSyncE@ABI_1_2 4:4.11.1
- _ZN4KWin17eglCreateImageKHRE@ABI_1_2 4:4.11.1
  _ZN4KWin17glBindFramebufferE@ABI_1_2 4:4.11.1
  _ZN4KWin17glBindVertexArrayE@ABI_1_2 4:4.11.1
  _ZN4KWin17glBlitFramebufferE@ABI_1_2 4:4.11.1
@@ -172,8 +173,6 @@ libkwinglutils.so.1abi2 libkwinglutils1abi2 #MINVER#
  _ZN4KWin17glVertexAttribI4iE@ABI_1_2 4:4.11.1
  _ZN4KWin17glXGetProcAddressE@ABI_1_2 4:4.11.1
  _ZN4KWin17nearestPowerOfTwoEi@ABI_1_2 4:4.11.1
- _ZN4KWin18eglDestroyImageKHRE@ABI_1_2 4:4.11.1
- _ZN4KWin18eglPostSubBufferNVE@ABI_1_2 4:4.11.1
  _ZN4KWin18glBindRenderbufferE@ABI_1_2 4:4.11.1
  _ZN4KWin18glGenRenderbuffersE@ABI_1_2 4:4.11.1
  _ZN4KWin18glGetBufferSubDataE@ABI_1_2 4:4.11.1
@@ -194,7 +193,6 @@ libkwinglutils.so.1abi2 libkwinglutils1abi2 #MINVER#
  _ZN4KWin18glXBindTexImageEXTE@ABI_1_2 4:4.11.1
  _ZN4KWin18glXSwapIntervalEXTE@ABI_1_2 4:4.11.1
  _ZN4KWin18glXSwapIntervalSGIE@ABI_1_2 4:4.11.1
- _ZN4KWin19eglResolveFunctionsEv@ABI_1_2 4:4.11.1
  _ZN4KWin19glCopyBufferSubDataE@ABI_1_2 4:4.11.1
  _ZN4KWin19glDeleteProgramsARBE@ABI_1_2 4:4.11.1
  _ZN4KWin19glGetAttribLocationE@ABI_1_2 4:4.11.1
@@ -232,7 +230,6 @@ libkwinglutils.so.1abi2 libkwinglutils1abi2 #MINVER#
  _ZN4KWin25glFramebufferRenderbufferE@ABI_1_2 4:4.11.1
  _ZN4KWin26glDisableVertexAttribArrayE@ABI_1_2 4:4.11.1
  _ZN4KWin26glXCreateContextAttribsARBE@ABI_1_2 4:4.11.1
- _ZN4KWin28glEGLImageTargetTexture2DOESE@ABI_1_2 4:4.11.1
  _ZN4KWin28glGetRenderbufferParameterivE@ABI_1_2 4:4.11.1
  _ZN4KWin28glProgramLocalParameter4fARBE@ABI_1_2 4:4.11.1
  _ZN4KWin33glDrawElementsInstancedBaseVertexE@ABI_1_2 4:4.11.1
@@ -289,6 +286,7 @@ libkwinglutils.so.1abi2 libkwinglutils1abi2 #MINVER#
  _ZN4KWin9GLTexture4loadERK6QImagej@ABI_1_2 4:4.11.1
  _ZN4KWin9GLTexture4loadERK7QPixmapj@ABI_1_2 4:4.11.1
  _ZN4KWin9GLTexture4loadERK7QString@ABI_1_2 4:4.11.1
+ _ZN4KWin9GLTexture5clearEv@ABI_1_2 4:4.11.2
  _ZN4KWin9GLTexture6renderE7QRegionRK5QRectb@ABI_1_2 4:4.11.1
  _ZN4KWin9GLTexture6unbindEv@ABI_1_2 4:4.11.1
  _ZN4KWin9GLTexture6updateERK6QImageRK6QPointRK5QRect@ABI_1_2 4:4.11.1
