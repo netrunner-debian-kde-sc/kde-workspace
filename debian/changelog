@@ -1,6 +1,6 @@
 kde-workspace (4:4.11.2-1) experimental; urgency=low
 
-  * New upstream release.
+  * New upstream release (Closes: #711769).
 
   [ Maximiliano Curia ]
   * Refresh patches, remove patches already applied.
