@@ -1,11 +1,11 @@
-kde-workspace (4:4.11.2-1r1) UNRELEASED; urgency=low
+kde-workspace (4:4.11.2-2) experimental; urgency=low
 
   * Prepare new revision (Closes: #711769).
 
   [ Maximiliano Curia ]
   * Update build-dependencies.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 18 Oct 2013 10:12:28 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Oct 2013 13:16:28 +0200
 
 kde-workspace (4:4.11.2-1) experimental; urgency=low
 
