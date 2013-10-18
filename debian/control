@@ -9,7 +9,8 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Eshat Cakar <info@eshat.de>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kdepimlibs5-dev (>= 4:4.10.2),
+Build-Depends: kdelibs5-dev (>= 4:4.11),
+ kdepimlibs5-dev (>= 4:4.11),
  nepomuk-core-dev (>= 4:4.10.2),
  libkactivities-dev (>= 4:4.10),
  kde-sc-dev-latest (>= 4:4.10.2),
@@ -47,9 +48,8 @@ Build-Depends: kdepimlibs5-dev (>= 4:4.10.2),
  libxcb-render-util0-dev, libx11-xcb-dev, libxcb-xtest0-dev,
  libxcb-keysyms1-dev,
  libqjson-dev,
- libwayland-dev,
- udev,
- libudev-dev,
+ udev [linux-any],
+ libudev-dev [linux-any],
  libdlrestrictions-dev (>= 0.14)
 Build-Conflicts: libgles2-mesa-dev
 Standards-Version: 3.9.4
