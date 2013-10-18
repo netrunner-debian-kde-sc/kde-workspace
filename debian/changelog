@@ -1,6 +1,12 @@
+kde-workspace (4:4.11.2-1r1) UNRELEASED; urgency=low
+
+  * Prepare new revision (Closes: #711769).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 18 Oct 2013 10:12:28 +0200
+
 kde-workspace (4:4.11.2-1) experimental; urgency=low
 
-  * New upstream release (Closes: #711769).
+  * New upstream release.
 
   [ Maximiliano Curia ]
   * Refresh patches, remove patches already applied.
