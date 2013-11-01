@@ -1,5 +1,8 @@
 kde-workspace (4:4.11.2-4) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add calls to pam_selinux module in pam files (Closes: #677438, #664808).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Nov 2013 17:31:09 -0300
 
 kde-workspace (4:4.11.2-3) experimental; urgency=low
