@@ -361,6 +361,8 @@ Section: libs
 Architecture: any
 X-Debian-ABI: 2
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libkdecorations4abi1
+Replaces: libkdecorations4abi1
 Description: library used by decorations for the KDE window manager
  This package contains a library used by decorations of the KDE window
  manager.
