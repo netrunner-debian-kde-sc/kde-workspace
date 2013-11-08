@@ -6,9 +6,9 @@ Bugs-Debian: #603480
 Last-Update: 2010-11-28
 Index: kde-workspace/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp
 ===================================================================
---- kde-workspace.orig/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp	2013-09-27 09:22:01.826710926 +0000
-+++ kde-workspace/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp	2013-09-27 09:22:01.818711239 +0000
-@@ -250,7 +250,9 @@
+--- kde-workspace.orig/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp	2013-11-08 16:32:02.168862770 +0100
++++ kde-workspace/qguiplatformplugin_kde/qguiplatformplugin_kde.cpp	2013-11-08 16:32:02.164862932 +0100
+@@ -249,7 +249,9 @@
              kdefd->setConfirmOverwrite(qfd->confirmOverwrite());
              kdefd->setSelection(qfd->selectedFiles().value(0));
          }

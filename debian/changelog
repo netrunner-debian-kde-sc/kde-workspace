@@ -8,6 +8,7 @@ kde-workspace (4:4.11.3-1) UNRELEASED; urgency=low
   * New upstream release.
   * Update build dependencies.
   * Force removal/rebuild of old kwin styles.
+  * Refresh patches.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 15:42:23 +0100
 
