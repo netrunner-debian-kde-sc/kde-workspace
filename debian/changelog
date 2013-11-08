@@ -6,6 +6,7 @@ kde-workspace (4:4.11.3-1) UNRELEASED; urgency=low
 
   [ Maximiliano Curia ]
   * New upstream release.
+  * Update build dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 15:42:23 +0100
 
