@@ -9,6 +9,9 @@ kde-workspace (4:4.11.3-1) UNRELEASED; urgency=low
   * Update build dependencies.
   * Force removal/rebuild of old kwin styles.
   * Refresh patches.
+  * Refresh armhf symbols.
+  * Refresh kfreebsd-i386 symbols.
+  * Refresh s390x symbols.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 15:42:23 +0100
 

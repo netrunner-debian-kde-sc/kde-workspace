@@ -1,10 +1,10 @@
-# SymbolsHelper-Confirmed: 4:4.11.2 amd64 sparc
+# SymbolsHelper-Confirmed: 4:4.11.2 amd64 armhf s390x sparc
 libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  ABI_1_5@ABI_1_5 4:4.11.1
  _ZN4KWin10Extensions18non_native_pixmapsE@ABI_1_5 4:4.11.1
  _ZN4KWin10Extensions4initEv@ABI_1_5 4:4.11.1
  _ZN4KWin11EffectFrame15enableCrossFadeEb@ABI_1_5 4:4.11.1
- _ZN4KWin11EffectFrame20setCrossFadeProgressEd@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin11EffectFrame20setCrossFadeProgressE{qreal}@ABI_1_5 4:4.11.1
  _ZN4KWin11EffectFrameC1Ev@ABI_1_5 4:4.11.1
  _ZN4KWin11EffectFrameC2Ev@ABI_1_5 4:4.11.1
  _ZN4KWin11EffectFrameD0Ev@ABI_1_5 4:4.11.1
@@ -72,10 +72,10 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZN4KWin14EffectsHandler17windowUnminimizedEPNS_12EffectWindowE@ABI_1_5 4:4.11.1
  _ZN4KWin14EffectsHandler20screenLockingChangedEb@ABI_1_5 4:4.11.1
  _ZN4KWin14EffectsHandler20stackingOrderChangedEv@ABI_1_5 4:4.11.1
- _ZN4KWin14EffectsHandler20windowOpacityChangedEPNS_12EffectWindowEdd@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin14EffectsHandler20windowOpacityChangedEPNS_12EffectWindowE{qreal}{qreal}@ABI_1_5 4:4.11.1
  _ZN4KWin14EffectsHandler20windowPaddingChangedEPNS_12EffectWindowERK5QRect@ABI_1_5 4:4.11.1
  _ZN4KWin14EffectsHandler21numberDesktopsChangedEj@ABI_1_5 4:4.11.1
- _ZN4KWin14EffectsHandler21screenEdgeApproachingENS_14ElectricBorderEdRK5QRect@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin14EffectsHandler21screenEdgeApproachingENS_14ElectricBorderE{qreal}RK5QRect@ABI_1_5 4:4.11.1
  _ZN4KWin14EffectsHandler21screenGeometryChangedERK5QSize@ABI_1_5 4:4.11.1
  _ZN4KWin14EffectsHandler21windowModalityChangedEPNS_12EffectWindowE@ABI_1_5 4:4.11.1
  _ZN4KWin14EffectsHandler22currentActivityChangedERK7QString@ABI_1_5 4:4.11.1
@@ -134,19 +134,19 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZN4KWin15ScreenPaintDataaSERKS0_@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDatamLERK9QVector2D@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDatamLERK9QVector3D@ABI_1_5 4:4.11.1
- _ZN4KWin15ScreenPaintDatamLEd@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin15ScreenPaintDatamLE{qreal}@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDatapLERK6QPoint@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDatapLERK7QPointF@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDatapLERK9QVector2D@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDatapLERK9QVector3D@ABI_1_5 4:4.11.1
- _ZN4KWin15WindowPaintData10setOpacityEd@ABI_1_5 4:4.11.1
- _ZN4KWin15WindowPaintData13setBrightnessEd@ABI_1_5 4:4.11.1
- _ZN4KWin15WindowPaintData15multiplyOpacityEd@ABI_1_5 4:4.11.1
- _ZN4KWin15WindowPaintData18multiplyBrightnessEd@ABI_1_5 4:4.11.1
- _ZN4KWin15WindowPaintData18multiplySaturationEd@ABI_1_5 4:4.11.1
- _ZN4KWin15WindowPaintData20setCrossFadeProgressEd@ABI_1_5 4:4.11.1
- _ZN4KWin15WindowPaintData20setDecorationOpacityEd@ABI_1_5 4:4.11.1
- _ZN4KWin15WindowPaintData25multiplyDecorationOpacityEd@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin15WindowPaintData10setOpacityE{qreal}@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin15WindowPaintData13setBrightnessE{qreal}@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin15WindowPaintData15multiplyOpacityE{qreal}@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin15WindowPaintData18multiplyBrightnessE{qreal}@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin15WindowPaintData18multiplySaturationE{qreal}@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin15WindowPaintData20setCrossFadeProgressE{qreal}@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin15WindowPaintData20setDecorationOpacityE{qreal}@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin15WindowPaintData25multiplyDecorationOpacityE{qreal}@ABI_1_5 4:4.11.1
  _ZN4KWin15WindowPaintDataC1EPNS_12EffectWindowE@ABI_1_5 4:4.11.1
  _ZN4KWin15WindowPaintDataC1ERKS0_@ABI_1_5 4:4.11.1
  _ZN4KWin15WindowPaintDataC2EPNS_12EffectWindowE@ABI_1_5 4:4.11.1
@@ -156,7 +156,7 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZN4KWin15WindowPaintDataD2Ev@ABI_1_5 4:4.11.1
  _ZN4KWin15WindowPaintDatamLERK9QVector2D@ABI_1_5 4:4.11.1
  _ZN4KWin15WindowPaintDatamLERK9QVector3D@ABI_1_5 4:4.11.1
- _ZN4KWin15WindowPaintDatamLEd@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin15WindowPaintDatamLE{qreal}@ABI_1_5 4:4.11.1
  _ZN4KWin15WindowPaintDatapLERK6QPoint@ABI_1_5 4:4.11.1
  _ZN4KWin15WindowPaintDatapLERK7QPointF@ABI_1_5 4:4.11.1
  _ZN4KWin15WindowPaintDatapLERK9QVector2D@ABI_1_5 4:4.11.1
@@ -221,7 +221,7 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZN4KWin6EffectD0Ev@ABI_1_5 4:4.11.1
  _ZN4KWin6EffectD1Ev@ABI_1_5 4:4.11.1
  _ZN4KWin6EffectD2Ev@ABI_1_5 4:4.11.1
- (optional=templinst|arch=sparc)_ZN4KWin6MotionI7QPointFE9calculateEi@ABI_1_5 4:4.11.2
+ (optional=templinst|arch=s390x sparc)_ZN4KWin6MotionI7QPointFE9calculateEi@ABI_1_5 4:4.11.2
  _ZN4KWin7effectsE@ABI_1_5 4:4.11.1
  _ZN4KWin8Motion1DC1ERKS0_@ABI_1_5 4:4.11.1
  _ZN4KWin8Motion1DC1Eddd@ABI_1_5 4:4.11.1
@@ -237,18 +237,18 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZN4KWin8Motion2DD2Ev@ABI_1_5 4:4.11.1
  _ZN4KWin9PaintData15setRotationAxisEN2Qt4AxisE@ABI_1_5 4:4.11.1
  _ZN4KWin9PaintData15setRotationAxisERK9QVector3D@ABI_1_5 4:4.11.1
- _ZN4KWin9PaintData15setXTranslationEd@ABI_1_5 4:4.11.1
- _ZN4KWin9PaintData15setYTranslationEd@ABI_1_5 4:4.11.1
- _ZN4KWin9PaintData15setZTranslationEd@ABI_1_5 4:4.11.1
- _ZN4KWin9PaintData16setRotationAngleEd@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin9PaintData15setXTranslationE{qreal}@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin9PaintData15setYTranslationE{qreal}@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin9PaintData15setZTranslationE{qreal}@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin9PaintData16setRotationAngleE{qreal}@ABI_1_5 4:4.11.1
  _ZN4KWin9PaintData17setRotationOriginERK9QVector3D@ABI_1_5 4:4.11.1
  _ZN4KWin9PaintData8setScaleERK9QVector2D@ABI_1_5 4:4.11.1
  _ZN4KWin9PaintData8setScaleERK9QVector3D@ABI_1_5 4:4.11.1
- _ZN4KWin9PaintData9setXScaleEd@ABI_1_5 4:4.11.1
- _ZN4KWin9PaintData9setYScaleEd@ABI_1_5 4:4.11.1
- _ZN4KWin9PaintData9setZScaleEd@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin9PaintData9setXScaleE{qreal}@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin9PaintData9setYScaleE{qreal}@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin9PaintData9setZScaleE{qreal}@ABI_1_5 4:4.11.1
  _ZN4KWin9PaintData9translateERK9QVector3D@ABI_1_5 4:4.11.1
- _ZN4KWin9PaintData9translateEddd@ABI_1_5 4:4.11.1
+ (subst)_ZN4KWin9PaintData9translateE{qreal}{qreal}{qreal}@ABI_1_5 4:4.11.1
  _ZN4KWin9PaintDataC1Ev@ABI_1_5 4:4.11.1
  _ZN4KWin9PaintDataC2Ev@ABI_1_5 4:4.11.1
  _ZN4KWin9PaintDataD0Ev@ABI_1_5 4:4.11.1
@@ -342,7 +342,7 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZNK4KWin15AnimationEffect8progressERKNS_7AniDataE@ABI_1_5 4:4.11.1
  _ZNK4KWin15WindowPaintData10brightnessEv@ABI_1_5 4:4.11.1
  _ZNK4KWin15WindowPaintData10saturationEv@ABI_1_5 4:4.11.1
- _ZNK4KWin15WindowPaintData13setSaturationEd@ABI_1_5 4:4.11.1
+ (subst)_ZNK4KWin15WindowPaintData13setSaturationE{qreal}@ABI_1_5 4:4.11.1
  _ZNK4KWin15WindowPaintData17crossFadeProgressEv@ABI_1_5 4:4.11.1
  _ZNK4KWin15WindowPaintData17decorationOpacityEv@ABI_1_5 4:4.11.1
  _ZNK4KWin15WindowPaintData6screenEv@ABI_1_5 4:4.11.1

@@ -40,8 +40,10 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZN10ToolButtonD2Ev@Base 4:4.11.1
  (optional=templinst)_ZN11QMetaTypeIdI26QUiTranslatableStringValueE14qt_metatype_idEv@Base 4:4.11.1
  (optional=templinst)_ZN11QMetaTypeIdI5QListIP7QWidgetEE14qt_metatype_idEv@Base 4:4.11.1
- _ZN11QStringListD1Ev@Base 4:4.11.1
- _ZN11QStringListD2Ev@Base 4:4.11.1
+ (optional=gccinternal|arch=s390x)_ZN11QStringListC1ERKS_@Base 4:4.11.2
+ (optional=gccinternal|arch=s390x)_ZN11QStringListC2ERKS_@Base 4:4.11.2
+ (optional=gccinternal)_ZN11QStringListD1Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN11QStringListD2Ev@Base 4:4.11.1
  _ZN12PanelShadows10getMarginsERiS0_S0_S0_@Base 4:4.11.1
  _ZN12PanelShadows11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
  _ZN12PanelShadows11qt_metacastEPKc@Base 4:4.11.1
@@ -1022,6 +1024,8 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZN16WallpaperPreviewD0Ev@Base 4:4.11.1
  _ZN16WallpaperPreviewD1Ev@Base 4:4.11.1
  _ZN16WallpaperPreviewD2Ev@Base 4:4.11.1
+ (optional=templinst|arch=s390x)_ZN17QForeachContainerI11QStringListEC1ERKS0_@Base 4:4.11.2
+ (optional=templinst|arch=s390x)_ZN17QForeachContainerI11QStringListEC2ERKS0_@Base 4:4.11.2
  _ZN18WorkspaceScripting11Containment10setDesktopEi@Base 4:4.11.1
  _ZN18WorkspaceScripting11Containment10widgetByIdEP14QScriptContextP13QScriptEngine@Base 4:4.11.1
  _ZN18WorkspaceScripting11Containment11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
@@ -1183,6 +1187,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZN5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE11deleteNode2EPN9QHashData4NodeE@Base 4:4.11.1
  (optional=templinst)_ZN5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE13detach_helperEv@Base 4:4.11.1
  (optional=templinst)_ZN5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.11.1
+ (optional=templinst|arch=s390x)_ZN5QListI10QByteArrayE13detach_helperEi@Base 4:4.11.2
  (optional=templinst)_ZN5QListI10QByteArrayE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListI10QByteArrayE6appendERKS0_@Base 4:4.11.1
  (optional=templinst)_ZN5QListI10QByteArrayE7reserveEi@Base 4:4.11.1
@@ -1222,9 +1227,12 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZN5QListIP30QDesignerCustomWidgetInterfaceED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIP30QDesignerCustomWidgetInterfaceED2Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIP7QObjectE13detach_helperEi@Base 4:4.11.1
+ (optional=templinst|arch=s390x)_ZN5QListIP7QObjectE13detach_helperEv@Base 4:4.11.2
+ (optional=templinst|arch=s390x)_ZN5QListIP7QObjectE6appendERKS1_@Base 4:4.11.2
  (optional=templinst)_ZN5QListIP7QObjectE9removeAllERKS1_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIP7QObjectEpLERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIP7QWidgetE13detach_helperEi@Base 4:4.11.1
+ (optional=templinst|arch=s390x)_ZN5QListIP7QWidgetE13detach_helperEv@Base 4:4.11.2
  (optional=templinst)_ZN5QListIP7QWidgetE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIP7QWidgetE6appendERKS1_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIP7QWidgetE9removeAllERKS1_@Base 4:4.11.1
@@ -1236,6 +1244,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZN5QListIPN13QFormInternal10DomIncludeEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal10DomIncludeEED2Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal11DomPropertyEE13detach_helperEi@Base 4:4.11.1
+ (optional=templinst|arch=s390x)_ZN5QListIPN13QFormInternal11DomPropertyEE13detach_helperEv@Base 4:4.11.2
  (optional=templinst)_ZN5QListIPN13QFormInternal11DomPropertyEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal11DomPropertyEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal11DomPropertyEE6appendERKS2_@Base 4:4.11.1
@@ -1258,6 +1267,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomColorRoleEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomColorRoleEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomColorRoleEED2Ev@Base 4:4.11.1
+ (optional=templinst|arch=s390x)_ZN5QListIPN13QFormInternal13DomConnectionEE13detach_helperEi@Base 4:4.11.2
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomConnectionEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomConnectionEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomConnectionEE6appendERKS2_@Base 4:4.11.1
@@ -1278,11 +1288,13 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomActionGroupEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomActionGroupEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomActionGroupEED2Ev@Base 4:4.11.1
+ (optional=templinst|arch=s390x)_ZN5QListIPN13QFormInternal14DomButtonGroupEE13detach_helperEi@Base 4:4.11.2
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEED2Ev@Base 4:4.11.1
+ (optional=templinst|arch=s390x)_ZN5QListIPN13QFormInternal15DomCustomWidgetEE13detach_helperEi@Base 4:4.11.2
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomCustomWidgetEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomCustomWidgetEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomCustomWidgetEE6appendERKS2_@Base 4:4.11.1
@@ -1320,6 +1332,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZN5QListIPN13QFormInternal7DomItemEEC2ERKS3_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal7DomItemEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal7DomItemEED2Ev@Base 4:4.11.1
+ (optional=templinst|arch=s390x)_ZN5QListIPN13QFormInternal8DomColorEE13detach_helperEi@Base 4:4.11.2
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomColorEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomColorEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomColorEE6appendERKS2_@Base 4:4.11.1
@@ -1387,14 +1400,16 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZN6Plasma14WidgetExplorerD0Ev@Base 4:4.11.1
  _ZN6Plasma14WidgetExplorerD1Ev@Base 4:4.11.1
  _ZN6Plasma14WidgetExplorerD2Ev@Base 4:4.11.1
- _ZN6QDebugC1E9QtMsgType@Base 4:4.11.1
- _ZN6QDebugC2E9QtMsgType@Base 4:4.11.1
+ (optional=external|arch=!s390x)_ZN6QDebugC1E9QtMsgType@Base 4:4.11.1
+ (optional=external|arch=!s390x)_ZN6QDebugC2E9QtMsgType@Base 4:4.11.1
+ (optional=external|arch=s390x)_ZN7QStringC1ERK13QLatin1String@Base 4:4.11.2
+ (optional=external|arch=s390x)_ZN7QStringC2ERK13QLatin1String@Base 4:4.11.2
  (optional=templinst)_ZN7QVectorI19QXmlStreamAttributeE7reallocEii@Base 4:4.11.1
  (optional=templinst)_ZN7QVectorI19QXmlStreamAttributeED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN7QVectorI19QXmlStreamAttributeED2Ev@Base 4:4.11.1
  (optional=templinst)_ZN7QVectorI5QPairId6QColorEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN7QVectorI5QPairId6QColorEED2Ev@Base 4:4.11.1
- _ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 4:4.11.1
+ (optional=external|arch=!s390x)_ZN8QToolBox7addItemEP7QWidgetRK7QString@Base 4:4.11.1
  _ZN9QUiLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
  _ZN9QUiLoader11qt_metacastEPKc@Base 4:4.11.1
  _ZN9QUiLoader12createActionEP7QObjectRK7QString@Base 4:4.11.1
@@ -1416,6 +1431,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZN9QUiLoaderD2Ev@Base 4:4.11.1
  _ZNK10ToolButton10alphaValueEv@Base 4:4.11.1
  _ZNK10ToolButton10metaObjectEv@Base 4:4.11.1
+ (optional=external|arch=s390x)_ZNK11QDockWidget13isAreaAllowedEN2Qt14DockWidgetAreaE@Base 4:4.11.2
  _ZNK12PanelShadows10metaObjectEv@Base 4:4.11.1
  _ZNK13QFormInternal10DomInclude5writeER16QXmlStreamWriterRK7QString@Base 4:4.11.1
  _ZNK13QFormInternal10DomPalette5writeER16QXmlStreamWriterRK7QString@Base 4:4.11.1
@@ -1579,6 +1595,9 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZNK18WorkspaceScripting6Widget5indexEv@Base 4:4.11.1
  _ZNK18WorkspaceScripting6Widget6appletEv@Base 4:4.11.1
  _ZNK18WorkspaceScripting6Widget8geometryEv@Base 4:4.11.1
+ (optional=templinst|arch=s390x)_ZNK4QMapI7QStringP30QDesignerCustomWidgetInterfaceE6valuesEv@Base 4:4.11.2
+ (optional=templinst|arch=s390x)_ZNK4QMapI7QStringbE4keysEv@Base 4:4.11.2
+ (optional=templinst|arch=s390x)_ZNK5QHashI10QByteArraybE4keysEv@Base 4:4.11.2
  (optional=templinst)_ZNK5QHashI10QByteArraybE8findNodeERKS0_Pj@Base 4:4.11.1
  (optional=templinst)_ZNK5QHashI7QString5QPairIN2Qt12ItemDataRoleES3_EE8findNodeERKS0_Pj@Base 4:4.11.1
  (optional=templinst)_ZNK5QHashI7QString5QPairIPN13QFormInternal14DomButtonGroupEP12QButtonGroupEE8findNodeERKS0_Pj@Base 4:4.11.1
@@ -1588,6 +1607,11 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZNK5QHashI7QStringP7QActionE8findNodeERKS0_Pj@Base 4:4.11.1
  (optional=templinst)_ZNK5QHashI7QStringPN13QFormInternal11DomPropertyEE5valueERKS0_@Base 4:4.11.1
  (optional=templinst)_ZNK5QHashI7QStringPN13QFormInternal11DomPropertyEE8findNodeERKS0_Pj@Base 4:4.11.1
+ (optional=templinst|arch=s390x)_ZNK5QHashIP6QLabel7QStringE8findNodeERKS1_Pj@Base 4:4.11.2
+ (optional=templinst|arch=s390x)_ZNK5QHashIP7QObjectbE8findNodeERKS1_Pj@Base 4:4.11.2
+ (optional=templinst|arch=s390x)_ZNK5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE8findNodeERKS3_Pj@Base 4:4.11.2
+ (optional=templinst|arch=s390x)_ZNK5QListIP7QObjectE7indexOfERKS1_i@Base 4:4.11.2
+ (optional=templinst)_ZNK5QListIP7QWidgetE7indexOfERKS1_i@Base 4:4.11.2
  _ZNK6Plasma14WidgetExplorer10metaObjectEv@Base 4:4.11.1
  _ZNK6Plasma14WidgetExplorer11containmentEv@Base 4:4.11.1
  _ZNK6Plasma14WidgetExplorer11filterModelEv@Base 4:4.11.1
@@ -1668,7 +1692,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZTVN6Plasma14WidgetExplorerE@Base 4:4.11.1
  (optional=templinst)_ZZN11QMetaTypeIdI26QUiTranslatableStringValueE14qt_metatype_idEvE11metatype_id@Base 4:4.11.1
  (optional=templinst)_ZZN11QMetaTypeIdI5QListIP7QWidgetEE14qt_metatype_idEvE11metatype_id@Base 4:4.11.1
- _ZplRK7QStringS1_@Base 4:4.11.1
+ (optional=external|arch=s390x)_ZplRK7QStringS1_@Base 4:4.11.1
  dlrestrictions_data@Base 4:4.11.1
  (c++)"non-virtual thunk to BackgroundDialog::~BackgroundDialog()@Base" 4:4.11.1
  (c++)"non-virtual thunk to Plasma::WidgetExplorer::focusInEvent(QFocusEvent*)@Base" 4:4.11.1
