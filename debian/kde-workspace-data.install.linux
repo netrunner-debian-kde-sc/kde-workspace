@@ -1,3 +1,6 @@
+etc/dbus-1/system.d/org.kde.powerdevil.backlighthelper.conf
+usr/share/dbus-1/system-services/org.kde.powerdevil.backlighthelper.service
+usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy
 usr/share/doc/kde/HTML/en/kcontrol/joystick/common
 usr/share/doc/kde/HTML/en/kcontrol/joystick/index.cache.bz2
 usr/share/doc/kde/HTML/en/kcontrol/joystick/index.docbook

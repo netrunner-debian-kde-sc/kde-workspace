@@ -79,7 +79,6 @@ usr/lib/kde4/krunner_solid.so
 usr/lib/kde4/krunner_webshortcuts.so
 usr/lib/kde4/krunner_windowedwidgets.so
 usr/lib/kde4/krunner_windows.so
-usr/lib/kde4/libexec/backlighthelper
 usr/lib/kde4/libexec/fontinst
 usr/lib/kde4/libexec/fontinst_helper
 usr/lib/kde4/libexec/fontinst_x11
