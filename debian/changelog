@@ -1,22 +1,22 @@
-kde-workspace (4:4.11.3-1) UNRELEASED; urgency=low
+kde-workspace (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add calls to pam_selinux module in pam files (Closes: #677438, #664808).
     Thanks Laurent Bigonville for the patch.
 
   [ Maximiliano Curia ]
-  * New upstream release.
   * Update build dependencies.
   * Force removal/rebuild of old kwin styles.
   * Refresh patches.
-  * Refresh armhf symbols.
   * Refresh kfreebsd-i386 symbols.
   * Refresh s390x symbols.
   * Update nlist_ftbfs_krefreebsd.diff, replace with a wrapper include.
   * Update install files for kfreebsd.
   * Refresh armhf symbols.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 15:42:23 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Nov 2013 23:49:06 +0100
 
 kde-workspace (4:4.11.2-3) experimental; urgency=low
 
