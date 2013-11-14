@@ -171,7 +171,8 @@ Description: shared data files for the KDE Plasma Workspace
 Package: kde-workspace-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${allLibraries},
- ${sameVersionDep:kdelibs5-dev:kde-workspace-bin}
+ ${sameVersionDep:kdelibs5-dev:kde-workspace-bin}, libx11-xcb-dev,
+ mesa-common-dev, libxcb-xfixes0-dev
 Breaks: kdebase-workspace-dev (<< 4:4.7.2)
 Replaces: kdebase-workspace-dev (<< 4:4.7.2)
 Description: development files for the KDE Plasma Workspace
