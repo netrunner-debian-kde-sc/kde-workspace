@@ -1,9 +1,9 @@
-kde-workspace (4:4.11.3-2) UNRELEASED; urgency=low
+kde-workspace (4:4.11.3-2) unstable; urgency=low
 
   * kde-workspace-dev: Add missing dependencies, thanks to Adam D.
     Barratt. (Closes: #729587)
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 14 Nov 2013 23:49:00 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 14 Nov 2013 23:57:34 +0100
 
 kde-workspace (4:4.11.3-1) unstable; urgency=low
 
