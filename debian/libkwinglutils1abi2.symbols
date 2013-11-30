@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.2 amd64 i386 mipsel sparc
+# SymbolsHelper-Confirmed: 4:4.11.3 kfreebsd-i386
 libkwinglutils.so.1abi2 libkwinglutils1abi2 #MINVER#
  ABI_1_2@ABI_1_2 4:4.11.1
  _ZN4KWin10GLPlatform10s_platformE@ABI_1_2 4:4.11.1
@@ -160,7 +160,6 @@ libkwinglutils.so.1abi2 libkwinglutils1abi2 #MINVER#
  _ZN4KWin16glXCopySubBufferE@ABI_1_2 4:4.11.1
  _ZN4KWin16glXQueryDrawableE@ABI_1_2 4:4.11.1
  _ZN4KWin16glXWaitVideoSyncE@ABI_1_2 4:4.11.1
- (optional=external|arch=kfreebsd-i386)_ZN4KWin17eglCreateImageKHRE@ABI_1_2 4:4.11.3
  _ZN4KWin17glBindFramebufferE@ABI_1_2 4:4.11.1
  _ZN4KWin17glBindVertexArrayE@ABI_1_2 4:4.11.1
  _ZN4KWin17glBlitFramebufferE@ABI_1_2 4:4.11.1
@@ -174,8 +173,6 @@ libkwinglutils.so.1abi2 libkwinglutils1abi2 #MINVER#
  _ZN4KWin17glVertexAttribI4iE@ABI_1_2 4:4.11.1
  _ZN4KWin17glXGetProcAddressE@ABI_1_2 4:4.11.1
  _ZN4KWin17nearestPowerOfTwoEi@ABI_1_2 4:4.11.1
- (optional=external|arch=kfreebsd-i386)_ZN4KWin18eglDestroyImageKHRE@ABI_1_2 4:4.11.3
- (optional=external|arch=kfreebsd-i386)_ZN4KWin18eglPostSubBufferNVE@ABI_1_2 4:4.11.3
  _ZN4KWin18glBindRenderbufferE@ABI_1_2 4:4.11.1
  _ZN4KWin18glGenRenderbuffersE@ABI_1_2 4:4.11.1
  _ZN4KWin18glGetBufferSubDataE@ABI_1_2 4:4.11.1
@@ -196,7 +193,6 @@ libkwinglutils.so.1abi2 libkwinglutils1abi2 #MINVER#
  _ZN4KWin18glXBindTexImageEXTE@ABI_1_2 4:4.11.1
  _ZN4KWin18glXSwapIntervalEXTE@ABI_1_2 4:4.11.1
  _ZN4KWin18glXSwapIntervalSGIE@ABI_1_2 4:4.11.1
- (optional=external|arch=kfreebsd-i386)_ZN4KWin19eglResolveFunctionsEv@ABI_1_2 4:4.11.3
  _ZN4KWin19glCopyBufferSubDataE@ABI_1_2 4:4.11.1
  _ZN4KWin19glDeleteProgramsARBE@ABI_1_2 4:4.11.1
  _ZN4KWin19glGetAttribLocationE@ABI_1_2 4:4.11.1
@@ -234,7 +230,6 @@ libkwinglutils.so.1abi2 libkwinglutils1abi2 #MINVER#
  _ZN4KWin25glFramebufferRenderbufferE@ABI_1_2 4:4.11.1
  _ZN4KWin26glDisableVertexAttribArrayE@ABI_1_2 4:4.11.1
  _ZN4KWin26glXCreateContextAttribsARBE@ABI_1_2 4:4.11.1
- (optional=external|arch=kfreebsd-i386)_ZN4KWin28glEGLImageTargetTexture2DOESE@ABI_1_2 4:4.11.3
  _ZN4KWin28glGetRenderbufferParameterivE@ABI_1_2 4:4.11.1
  _ZN4KWin28glProgramLocalParameter4fARBE@ABI_1_2 4:4.11.1
  _ZN4KWin33glDrawElementsInstancedBaseVertexE@ABI_1_2 4:4.11.1

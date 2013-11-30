@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.3 armhf
+# SymbolsHelper-Confirmed: 4:4.11.3 alpha armel armhf mips
 libkworkspace.so.4abi2 libkworkspace4abi2 #MINVER#
 * Build-Depends-Package: kde-workspace-dev
  ABI_4_2@ABI_4_2 4:4.9.3
@@ -53,10 +53,10 @@ libkworkspace.so.4abi2 libkworkspace4abi2 #MINVER#
  _ZN19ScreenPreviewWidgetD0Ev@ABI_4_2 4:4.9.3
  _ZN19ScreenPreviewWidgetD1Ev@ABI_4_2 4:4.9.3
  _ZN19ScreenPreviewWidgetD2Ev@ABI_4_2 4:4.9.3
- (optional=gccinternal|arch=mipsel sparc)_ZN7SessEntC1Ev@ABI_4_2 4:4.11.2
- (optional=gccinternal|arch=mipsel sparc)_ZN7SessEntC2Ev@ABI_4_2 4:4.11.2
- (optional=gccinternal|arch=armhf mipsel)_ZN7SessEntD1Ev@ABI_4_2 4:4.11.2
- (optional=gccinternal|arch=armhf mipsel)_ZN7SessEntD2Ev@ABI_4_2 4:4.11.2
+ (optional=gccinternal|arch=alpha armel mips mipsel sparc)_ZN7SessEntC1Ev@ABI_4_2 4:4.11.2
+ (optional=gccinternal|arch=alpha armel mips mipsel sparc)_ZN7SessEntC2Ev@ABI_4_2 4:4.11.2
+ (optional=gccinternal|arch=armhf mips mipsel)_ZN7SessEntD1Ev@ABI_4_2 4:4.11.2
+ (optional=gccinternal|arch=armhf mips mipsel)_ZN7SessEntD2Ev@ABI_4_2 4:4.11.2
  _ZNK15KWindowListMenu10metaObjectEv@ABI_4_2 4:4.9.3
  _ZNK19ScreenPreviewWidget10metaObjectEv@ABI_4_2 4:4.9.3
  _ZNK19ScreenPreviewWidget11previewRectEv@ABI_4_2 4:4.9.3

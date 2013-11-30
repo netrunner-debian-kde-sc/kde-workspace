@@ -1,5 +1,7 @@
 kde-workspace (4:4.11.3-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 30 Nov 2013 20:39:37 +0100
 
