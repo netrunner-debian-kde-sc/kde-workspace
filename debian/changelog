@@ -1,4 +1,6 @@
-kde-workspace (4:4.11.3-4) UNRELEASED; urgency=medium
+kde-workspace (4:4.11.5-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove extra comma in debian/changelog's Uploaders field.
