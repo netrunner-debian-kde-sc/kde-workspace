@@ -53,7 +53,7 @@ Build-Depends: kdelibs5-dev (>= 4:4.11),
  libudev-dev [linux-any],
  libdlrestrictions-dev (>= 0.14)
 Build-Conflicts: libgles2-mesa-dev
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 X-Python-Version: >= 2.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kde-workspace.git

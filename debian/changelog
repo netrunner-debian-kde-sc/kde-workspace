@@ -2,6 +2,7 @@ kde-workspace (4:4.11.3-3) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Update symbols files.
+  * Bump Standards-Version to 3.9.5, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 30 Nov 2013 20:39:37 +0100
 
