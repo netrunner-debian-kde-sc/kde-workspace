@@ -76,10 +76,10 @@ usr/share/kde4/config/kwineffect.knsrc
 usr/share/kde4/config/kwinscripts.knsrc
 usr/share/kde4/config/kwinswitcher.knsrc
 usr/share/kde4/services/desktop.desktop
-usr/share/kde4/services/kwin/
 usr/share/kde4/services/kwin-script-desktopchangeosd.desktop
 usr/share/kde4/services/kwin-script-synchronizeskipswitcher.desktop
 usr/share/kde4/services/kwin-script-videowall.desktop
+usr/share/kde4/services/kwin/
 usr/share/kde4/services/kwinactions.desktop
 usr/share/kde4/services/kwinadvanced.desktop
 usr/share/kde4/services/kwincompositing.desktop

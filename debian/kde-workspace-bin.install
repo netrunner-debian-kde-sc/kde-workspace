@@ -105,8 +105,8 @@ usr/lib/kde4/powerdevilbrightnesscontrolaction_config.so
 usr/lib/kde4/powerdevildimdisplayaction_config.so
 usr/lib/kde4/powerdevildpmsaction.so
 usr/lib/kde4/powerdevildpmsaction_config.so
-usr/lib/kde4/powerdevilkeyboardbrightnesscontrolaction_config.so
 usr/lib/kde4/powerdevilhandlebuttoneventsaction_config.so
+usr/lib/kde4/powerdevilkeyboardbrightnesscontrolaction_config.so
 usr/lib/kde4/powerdevilrunscriptaction_config.so
 usr/lib/kde4/powerdevilsuspendsessionaction_config.so
 usr/lib/libkdeinit4_kaccess.so
