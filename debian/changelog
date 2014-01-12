@@ -1,13 +1,13 @@
-kde-workspace (4:4.11.3-3) UNRELEASED; urgency=low
+kde-workspace (4:4.11.3-3) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Update symbols files.
   * Bump Standards-Version to 3.9.5, no changes required.
   * kdm.init: remove hal from Should-Start. (Closes: #694021)
   * Remove the kdm_config, kdm_greet and krootimage man pages, since those
     helpers are shipped in the private libexec directory.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 30 Nov 2013 20:39:37 +0100
+ -- Pino Toscano <pino@debian.org>  Sun, 12 Jan 2014 17:19:26 +0100
 
 kde-workspace (4:4.11.3-2) unstable; urgency=low
 
