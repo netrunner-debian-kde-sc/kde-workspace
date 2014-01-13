@@ -9,49 +9,74 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Eshat Cakar <info@eshat.de>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kdelibs5-dev (>= 4:4.11),
- kdepimlibs5-dev (>= 4:4.11),
- nepomuk-core-dev (>= 4:4.11),
- libkactivities-dev (>= 4:4.11),
- kde-sc-dev-latest (>= 4:4.11),
- cmake (>= 2.8.6), debhelper (>= 9), pkg-kde-tools (>= 0.14),
- libstrigiqtdbusclient-dev (>= 0.6.3), libstreamanalyzer-dev (>= 0.6.3),
- libqimageblitz-dev (>= 1:0.0.4-2),
- zlib1g-dev,
- libdbusmenu-qt-dev (>= 0.6.0),
- libfontconfig-dev,
- libglu1-mesa-dev, libqt4-opengl-dev,
- python-dev (>= 2.6.6-3~),
- libsoprano-dev (>= 2.7.56),
- shared-desktop-ontologies (>= 0.8),
- libpam0g-dev,
- libnm-util-dev (>= 0.9) [linux-any],
- network-manager-dev (>= 0.9) [linux-any],
- libraw1394-dev [linux-any],
- libusb-dev,
- libpci-dev,
- libakonadi-dev (>= 1.1.95),
- libboost-dev (>= 1.34),
- libgps-dev (>= 2.90),
- libck-connector-dev,
- libdbus-1-dev,
- libsensors4-dev [linux-any],
- libdevstat-dev [kfreebsd-any],
- libxkbfile-dev, libxrandr-dev, libxrender-dev, libxcomposite-dev, libxdamage-dev,
- libxfixes-dev, libxft-dev, libxtst-dev, libxss-dev, libsm-dev, libxinerama-dev, libxi-dev,
- libpng12-dev (<< 1.5), libjpeg-dev, libxcursor-dev,
- libqalculate-dev, libglib2.0-dev,
- libqtwebkit-dev,
- libprison-dev,
- libxcb-composite0-dev, libxcb-damage0-dev, libxcb-xfixes0-dev,
- libxcb-render0-dev, libxcb-randr0-dev, libxcb-shape0-dev,
- libxcb-shm0-dev, libxcb-sync0-dev, libxcb-image0-dev,
- libxcb-render-util0-dev, libx11-xcb-dev, libxcb-xtest0-dev,
- libxcb-keysyms1-dev,
- libqjson-dev,
- udev [linux-any],
- libudev-dev [linux-any],
- libdlrestrictions-dev (>= 0.14)
+Build-Depends: cmake (>= 2.8.6),
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               kdepimlibs5-dev (>= 4:4.11),
+               libakonadi-dev (>= 1.1.95),
+               libboost-dev (>= 1.34),
+               libck-connector-dev,
+               libdbus-1-dev,
+               libdbusmenu-qt-dev (>= 0.6.0),
+               libdevstat-dev [kfreebsd-any],
+               libdlrestrictions-dev (>= 0.14),
+               libfontconfig-dev,
+               libglib2.0-dev,
+               libglu1-mesa-dev,
+               libgps-dev (>= 2.90),
+               libjpeg-dev,
+               libkactivities-dev (>= 4:4.11),
+               libnm-util-dev (>= 0.9) [linux-any],
+               libpam0g-dev,
+               libpci-dev,
+               libpng12-dev (<< 1.5),
+               libprison-dev,
+               libqalculate-dev,
+               libqimageblitz-dev (>= 1:0.0.4-2),
+               libqjson-dev,
+               libqt4-opengl-dev,
+               libqtwebkit-dev,
+               libraw1394-dev [linux-any],
+               libsensors4-dev [linux-any],
+               libsm-dev,
+               libsoprano-dev (>= 2.7.56),
+               libstreamanalyzer-dev (>= 0.6.3),
+               libstrigiqtdbusclient-dev (>= 0.6.3),
+               libudev-dev [linux-any],
+               libusb-dev,
+               libx11-xcb-dev,
+               libxcb-composite0-dev,
+               libxcb-damage0-dev,
+               libxcb-image0-dev,
+               libxcb-keysyms1-dev,
+               libxcb-randr0-dev,
+               libxcb-render-util0-dev,
+               libxcb-render0-dev,
+               libxcb-shape0-dev,
+               libxcb-shm0-dev,
+               libxcb-sync0-dev,
+               libxcb-xfixes0-dev,
+               libxcb-xtest0-dev,
+               libxcomposite-dev,
+               libxcursor-dev,
+               libxdamage-dev,
+               libxfixes-dev,
+               libxft-dev,
+               libxi-dev,
+               libxinerama-dev,
+               libxkbfile-dev,
+               libxrandr-dev,
+               libxrender-dev,
+               libxss-dev,
+               libxtst-dev,
+               nepomuk-core-dev (>= 4:4.11),
+               network-manager-dev (>= 0.9) [linux-any],
+               pkg-kde-tools (>= 0.14),
+               python-dev (>= 2.6.6-3~),
+               shared-desktop-ontologies (>= 0.8),
+               udev [linux-any],
+               zlib1g-dev
 Build-Conflicts: libgles2-mesa-dev
 Standards-Version: 3.9.5
 X-Python-Version: >= 2.5
@@ -61,12 +86,16 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kde-workspace.git
 
 Package: kde-workspace
 Architecture: all
-Depends: kde-workspace-bin (>= ${source:Version}), ${misc:Depends},
- klipper (>= ${source:Version}), ksysguard (>= ${source:Version}),
- kde-window-manager (>= ${source:Version}), systemsettings (>= ${source:Version}),
- freespacenotifier (>= ${source:Version})
-Recommends: kdm (>= ${source:Version}), kinfocenter (>= ${source:Version}),
- kmenuedit (>= ${source:Version})
+Depends: freespacenotifier (>= ${source:Version}),
+         kde-window-manager (>= ${source:Version}),
+         kde-workspace-bin (>= ${source:Version}),
+         klipper (>= ${source:Version}),
+         ksysguard (>= ${source:Version}),
+         systemsettings (>= ${source:Version}),
+         ${misc:Depends}
+Recommends: kdm (>= ${source:Version}),
+            kinfocenter (>= ${source:Version}),
+            kmenuedit (>= ${source:Version})
 Breaks: kdebase-workspace (<< 4:4.7.2)
 Replaces: kdebase-workspace (<< 4:4.7.2)
 Description: KDE Plasma Workspace components
@@ -83,19 +112,22 @@ Package: kdebase-workspace
 Section: oldlibs
 Priority: extra
 Architecture: all
-Depends: ${misc:Depends}, kde-workspace
+Depends: kde-workspace, ${misc:Depends}
 Description: transitional package for kde-workspace
  This is a dummy transitional package for kde-workspace and can be safely
  removed after the installation is complete.
 
 Package: plasma-desktop
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
- plasma-widgets-workspace (= ${binary:Version}), kde-wallpapers-default
+Depends: kde-wallpapers-default,
+         plasma-widgets-workspace (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: kde-workspace
 Replaces: kdebase-workspace-bin (<< 4:4.5), kdebase-workspace-data (<< 4:4.5)
-Breaks: kdebase-workspace-bin (<< 4:4.5), kdebase-workspace-data (<< 4:4.5),
- plasma-widget-networkmanagement (<< 0.1+git20110422.810bc16-1+)
+Breaks: kdebase-workspace-bin (<< 4:4.5),
+        kdebase-workspace-data (<< 4:4.5),
+        plasma-widget-networkmanagement (<< 0.1+git20110422.810bc16-1+)
 Description: KDE Plasma workspace for desktop and laptop computers
  Provides the environment for running and managing applications and integrating
  interaction of applications. It is designed as generic environment for all
@@ -107,8 +139,10 @@ Description: KDE Plasma workspace for desktop and laptop computers
 
 Package: plasma-netbook
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
- plasma-widgets-workspace (= ${binary:Version}), kde-wallpapers-default
+Depends: kde-wallpapers-default,
+         plasma-widgets-workspace (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: kde-workspace
 Description: KDE Plasma workspace for netbook computers
  Provides the environment for running and managing applications and integrating
@@ -121,19 +155,37 @@ Description: KDE Plasma workspace for netbook computers
 
 Package: kde-workspace-bin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, iso-codes,
- plasma-desktop (= ${binary:Version}) | plasma-netbook (= ${binary:Version}),
- kde-workspace-data (= ${source:Version}), x11-utils, x11-xserver-utils,
- kde-workspace-kgreet-plugins (= ${binary:Version}), qdbus,
- kde-runtime (>= 4:4.10.2)
-Recommends: plasma-scriptengines, polkit-kde-1 (>= 0.99) | policykit-1-gnome,
- upower [linux-any]
+Depends: iso-codes,
+         kde-runtime (>= 4:4.10.2),
+         kde-workspace-data (= ${source:Version}),
+         kde-workspace-kgreet-plugins (= ${binary:Version}),
+         plasma-desktop (= ${binary:Version}) | plasma-netbook (= ${binary:Version}),
+         qdbus,
+         x11-utils,
+         x11-xserver-utils,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: plasma-scriptengines,
+            polkit-kde-1 (>= 0.99) | policykit-1-gnome,
+            upower [linux-any]
 Suggests: x11-xkb-utils
-Replaces: kcontrol, ktip, libkfontinst4, ksplash, kdesktop,
- kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), kdebase-workspace-bin (<< 4:4.7.2)
-Breaks: kcontrol, ktip, libkfontinst4, kdesktop, ksplash,
- kdebase-runtime (<< 4:4.5), kdebase-data (<< 4:4.5), kdebase-workspace-bin (<< 4:4.7.2),
- polkit-kde-1 (<< 0.99)
+Replaces: kcontrol,
+          kdebase-data (<< 4:4.5),
+          kdebase-runtime (<< 4:4.5),
+          kdebase-workspace-bin (<< 4:4.7.2),
+          kdesktop,
+          ksplash,
+          ktip,
+          libkfontinst4
+Breaks: kcontrol,
+        kdebase-data (<< 4:4.5),
+        kdebase-runtime (<< 4:4.5),
+        kdebase-workspace-bin (<< 4:4.7.2),
+        kdesktop,
+        ksplash,
+        ktip,
+        libkfontinst4,
+        polkit-kde-1 (<< 0.99)
 Description: core binaries for the KDE Plasma Workspace
  This package contains miscellaneous programs needed for a basic desktop
  installation. Among other standard KDE Workspace components, the package
@@ -147,20 +199,28 @@ Package: kdebase-workspace-bin
 Section: oldlibs
 Priority: extra
 Architecture: all
-Depends: ${misc:Depends}, kde-workspace-bin
+Depends: kde-workspace-bin, ${misc:Depends}
 Description: transitional package for kde-workspace-bin
  This is a dummy transitional package for kde-workspace-bin and can be safely
  removed after the installation is complete.
 
 Package: kde-workspace-data
 Architecture: all
-Depends: oxygencursors, ${misc:Depends}, ${perl:Depends}, kde-base-artwork
-Replaces: ksmserver, ktip, ksplash, libplasma1,
- kdebase-runtime-data (<< 4:4.5), kde-icons-mono (<< 4:4.6.80),
- kdebase-workspace-data (<< 4:4.7.2)
-Breaks: ksmserver, ktip, ksplash, libplasma1,
- kdebase-runtime-data (<< 4:4.5), kde-icons-mono (<< 4:4.6.80),
- kdebase-workspace-data (<< 4:4.7.2)
+Depends: kde-base-artwork, oxygencursors, ${misc:Depends}, ${perl:Depends}
+Replaces: kde-icons-mono (<< 4:4.6.80),
+          kdebase-runtime-data (<< 4:4.5),
+          kdebase-workspace-data (<< 4:4.7.2),
+          ksmserver,
+          ksplash,
+          ktip,
+          libplasma1
+Breaks: kde-icons-mono (<< 4:4.6.80),
+        kdebase-runtime-data (<< 4:4.5),
+        kdebase-workspace-data (<< 4:4.7.2),
+        ksmserver,
+        ksplash,
+        ktip,
+        libplasma1
 Recommends: kde-wallpapers
 Description: shared data files for the KDE Plasma Workspace
  This package contains architecture-independent shared data files needed for a
@@ -170,9 +230,13 @@ Description: shared data files for the KDE Plasma Workspace
 
 Package: kde-workspace-dev
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${allLibraries},
- ${sameVersionDep:kdelibs5-dev:kde-workspace-bin}, libx11-xcb-dev,
- mesa-common-dev, libxcb-xfixes0-dev
+Depends: libx11-xcb-dev,
+         libxcb-xfixes0-dev,
+         mesa-common-dev,
+         ${allLibraries},
+         ${misc:Depends},
+         ${sameVersionDep:kdelibs5-dev:kde-workspace-bin},
+         ${shlibs:Depends}
 Breaks: kdebase-workspace-dev (<< 4:4.7.2)
 Replaces: kdebase-workspace-dev (<< 4:4.7.2)
 Description: development files for the KDE Plasma Workspace
@@ -185,14 +249,14 @@ Package: kdebase-workspace-dev
 Section: oldlibs
 Priority: extra
 Architecture: all
-Depends: ${misc:Depends}, kde-workspace-dev
+Depends: kde-workspace-dev, ${misc:Depends}
 Description: transitional package for kde-workspace-dev
  This is a dummy transitional package for kde-workspace-dev and can be safely
  removed after the installation is complete.
 
 Package: plasma-dataengines-workspace
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: ksysguardd (= ${binary:Version})
 Breaks: kde-workspace-bin (<< 4:4.9.3)
 Replaces: kde-workspace-bin (<< 4:4.9.3)
@@ -206,7 +270,9 @@ Description: KDE Plasma data engines
 
 Package: plasma-widgets-workspace
 Architecture: any
-Depends: ${shlibs:Depends}, plasma-dataengines-workspace (= ${binary:Version}), ${misc:Depends}
+Depends: plasma-dataengines-workspace (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Provides: notification-daemon
 Description: plasma widgets and containments for the KDE Plasma Workspace
  This package contains standard Plasma widgets and containments shipped in the
@@ -222,10 +288,10 @@ Description: plasma widgets and containments for the KDE Plasma Workspace
 Package: plasma-scriptengines
 Architecture: all
 Depends: plasma-scriptengine-javascript (>= 4:4.2.95),
- plasma-scriptengine-ruby (>= ${source:Version}),
- plasma-scriptengine-python (>= ${source:Version}),
- plasma-scriptengine-webkit (>= ${source:Version}),
- ${misc:Depends}
+         plasma-scriptengine-python (>= ${source:Version}),
+         plasma-scriptengine-ruby (>= ${source:Version}),
+         plasma-scriptengine-webkit (>= ${source:Version}),
+         ${misc:Depends}
 Recommends: plasma-scriptengine-superkaramba
 Suggests: plasma-scriptengine-kimono
 Description: metapackage to install all Plasma script engines
@@ -245,8 +311,10 @@ Description: Ruby script engine for Plasma
 
 Package: plasma-scriptengine-python
 Architecture: all
-Depends: ${python:Depends}, python-kde4 (>= 4:4.6.80), ${misc:Depends},
- python-qt4-dbus
+Depends: python-kde4 (>= 4:4.6.80),
+         python-qt4-dbus,
+         ${misc:Depends},
+         ${python:Depends}
 Description: Python script engine for Plasma
  This package provides the Python script engine for Plasma. You have to install
  it if you want to use Plasma widgets and data engines written in Python.
@@ -255,7 +323,7 @@ Description: Python script engine for Plasma
 
 Package: plasma-scriptengine-webkit
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Web and Mac OS X dashboard widget support for Plasma
  This package provides the WebKit script engine for Plasma which adds support
  for the webpage widgets written in HTML and JavaScript and for the Apple
@@ -266,7 +334,7 @@ Description: Web and Mac OS X dashboard widget support for Plasma
 
 Package: freespacenotifier
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: free space notification module for KDE
  This module notifies the user when /home or one of the other directories
  which you can configure it to monitor are running out of space.
@@ -278,11 +346,19 @@ Description: free space notification module for KDE
 Package: kdm
 Section: x11
 Architecture: any
-Depends: ${shlibs:Depends}, debconf | debconf-2.0, lsb-base (>= 3.2-14), consolekit, ${misc:Depends},
- kde-workspace-kgreet-plugins (= ${binary:Version}), adduser, kde-wallpapers-default
-Recommends: logrotate, xserver-xorg | xserver,
- kde-workspace | x-session-manager | x-window-manager, xterm | x-terminal-emulator
-Suggests: kdepasswd, kde-wallpapers
+Depends: adduser,
+         consolekit,
+         debconf | debconf-2.0,
+         kde-wallpapers-default,
+         kde-workspace-kgreet-plugins (= ${binary:Version}),
+         lsb-base (>= 3.2-14),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: kde-workspace | x-session-manager | x-window-manager,
+            logrotate,
+            xserver-xorg | xserver,
+            xterm | x-terminal-emulator
+Suggests: kde-wallpapers, kdepasswd
 Replaces: kde-kdm-themes, kdmtheme
 Breaks: kde-kdm-themes, kdmtheme
 Provides: x-display-manager
@@ -299,7 +375,7 @@ Description: KDE Display Manager for X11
 Package: kinfocenter
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kcontrol
 Breaks: kcontrol
 Description: system information viewer
@@ -311,7 +387,7 @@ Description: system information viewer
 Package: klipper
 Section: x11
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: clipboard manager
  Klipper is a clipboard manager. It stores a history of the clipboard
  contents and can automatically perform actions when certain items are
@@ -322,7 +398,7 @@ Description: clipboard manager
 Package: ksysguardd
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: System Guard Daemon
  System Guard Daemon can be installed on a remote system so that the KDE
  System Guard can connect to and monitor it.
@@ -332,7 +408,7 @@ Description: System Guard Daemon
 Package: ksysguard
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ksysguardd (= ${binary:Version})
+Depends: ksysguardd (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: process monitor and system statistics
  System Guard allows you to monitor various statistics about your system.
  .
@@ -344,12 +420,17 @@ Description: process monitor and system statistics
 Package: kde-window-manager
 Section: x11
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
-Breaks: kdebase-workspace-data (<< 4:4.7.2), kde-workspace-data (<< 4:4.8.4-0r5),
- kdeartwork-theme-window (<< 4:4.9.5), kwin-style-qtcurve (<< 1.8.14-2+),
- kde-style-bespin (<< 0.r1552-1+), kwin-style-crystal (<< 2.2.1),
- kwin-style-dekorator, kde-style-skulpture
-Replaces: kdebase-workspace-data (<< 4:4.7.2), kde-workspace-data (<< 4:4.8.4-0r5)
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Breaks: kde-style-bespin (<< 0.r1552-1+),
+        kde-style-skulpture,
+        kde-workspace-data (<< 4:4.8.4-0r5),
+        kdeartwork-theme-window (<< 4:4.9.5),
+        kdebase-workspace-data (<< 4:4.7.2),
+        kwin-style-crystal (<< 2.2.1),
+        kwin-style-dekorator,
+        kwin-style-qtcurve (<< 1.8.14-2+)
+Replaces: kde-workspace-data (<< 4:4.8.4-0r5),
+          kdebase-workspace-data (<< 4:4.7.2)
 Provides: x-window-manager
 Description: K window manager (KWin)
  This package contains KWin, the KDE window manager, featuring
@@ -361,7 +442,7 @@ Package: libkdecorations4abi2
 Section: libs
 Architecture: any
 X-Debian-ABI: 2
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkdecorations4abi1
 Replaces: libkdecorations4abi1
 Description: library used by decorations for the KDE window manager
@@ -374,7 +455,7 @@ Package: libkwineffects1abi5
 Section: libs
 Architecture: any
 X-Debian-ABI: 5
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library used by effects for the KDE window manager
  This package contains a library used by effects for the KDE window manager.
  .
@@ -382,7 +463,7 @@ Description: library used by effects for the KDE window manager
 
 Package: systemsettings
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: System Settings
  System Settings is an improved user interface for configuring the desktop
  and other aspects of the system.
@@ -392,7 +473,7 @@ Description: System Settings
 Package: kde-workspace-kgreet-plugins
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kdebase-workspace-kgreet-plugins (<< 4:4.7.2)
 Replaces: kdebase-workspace-kgreet-plugins (<< 4:4.7.2)
 Description: KDE greet libraries for authentication
@@ -402,11 +483,13 @@ Description: KDE greet libraries for authentication
 
 Package: kde-style-oxygen
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2),
- kdebase-runtime (<< 4:4.7.2)
-Replaces: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2),
- kdebase-runtime (<< 4:4.7.2)
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kdebase-runtime (<< 4:4.7.2),
+        kdebase-workspace-bin (<< 4:4.7.2),
+        kdebase-workspace-data (<< 4:4.7.2)
+Replaces: kdebase-runtime (<< 4:4.7.2),
+          kdebase-workspace-bin (<< 4:4.7.2),
+          kdebase-workspace-data (<< 4:4.7.2)
 Description: Oxygen widget style
  This package provides the Oxygen widget style. It may be used for KDE and Qt
  applications.
@@ -415,9 +498,10 @@ Description: Oxygen widget style
 
 Package: kmenuedit
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)
-Replaces: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)
+Replaces: kdebase-workspace-bin (<< 4:4.7.2),
+          kdebase-workspace-data (<< 4:4.7.2)
 Description: XDG menu editor
  This package provides a menu editor which may be used to edit the KDE Plasma
  workspaces menu or any other XDG menu.
@@ -428,7 +512,7 @@ Package: libkephal4abi1
 Section: libs
 Architecture: any
 X-Debian-ABI: 1
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: API for easier handling of multihead systems
  This package contains libraries needed for Kephal's D-Bus API.
  .
@@ -438,7 +522,7 @@ Package: libkscreensaver5
 Section: libs
 Architecture: any
 X-Debian-ABI: 0
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library of the KDE Screensaver system
  This package contains libraries needed for kscreensaver.
  .
@@ -448,7 +532,7 @@ Package: libksgrd4
 Section: libs
 Architecture: any
 X-Debian-ABI: 0
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for ksysguard
  This package contains the library needed for ksysguard, the KDE process
  monitor and system statistics application, and for applications and Plasma
@@ -460,7 +544,7 @@ Package: libksignalplotter4
 Section: libs
 Architecture: any
 X-Debian-ABI: 0
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KSignalPlotter widget
  This library contains the KSignalPlotter widget, which is a widget that
  draws a real time graph of data that updates continually.
@@ -471,7 +555,7 @@ Package: libkworkspace4abi2
 Section: libs
 Architecture: any
 X-Debian-ABI: 2
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for the kdebase workspace
  This package contains libraries needed for the kdebase workspace.
  .
@@ -481,7 +565,7 @@ Package: liblsofui4
 Section: libs
 Architecture: any
 X-Debian-ABI: 0
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for ksysguard's list of open files
  This package contains a library of ksysguard that shows a graphical
  view of the list of open files of running processes.
@@ -492,7 +576,7 @@ Package: libplasmaclock4abi4
 Section: libs
 Architecture: any
 X-Debian-ABI: 4
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for Plasma clocks
  This package contains libraries needed for Plasma clocks.
  .
@@ -502,7 +586,7 @@ Package: libplasma-geolocation-interface4
 Section: libs
 Architecture: any
 X-Debian-ABI: 0
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for the Plasma geolocation
  This package contains libraries needed for the Plasma geolocation.
  .
@@ -512,7 +596,7 @@ Package: libkwinglutils1abi2
 Section: libs
 Architecture: any
 X-Debian-ABI: 2
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library with OpenGL utilities for the KDE window manager
  This package contains a library with OpenGL utilities used by the KDE window
  manager.
@@ -522,7 +606,7 @@ Description: library with OpenGL utilities for the KDE window manager
 Package: libplasmagenericshell4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: shared elements for all the plasma shells
  This library contains elements shared by the plasma desktop shell,
  the plasma netbook shell and the plasma screensaver overlay.
@@ -533,7 +617,7 @@ Package: libprocesscore4abi1
 Section: libs
 Architecture: any
 X-Debian-ABI: 1
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for ksysguard based process view
  This package contains libraries needed for ksysguard based process view.
  .
@@ -543,7 +627,7 @@ Package: libprocessui4a
 Section: libs
 Architecture: any
 X-Debian-ABI: 0
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Provides: libprocessui4-api
 Replaces: libprocessui4, libprocessui4-api
 Breaks: libprocessui4, libprocessui4-api
@@ -556,7 +640,7 @@ Package: libtaskmanager4abi4
 Section: libs
 Architecture: any
 X-Debian-ABI: 4
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library which provides task management facilities
  This package contains libraries which provide task management facilities.
  .
@@ -567,7 +651,7 @@ Section: libs
 Architecture: any
 X-Debian-ABI: 0
 X-CMake-Target: weather_ion
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library which provides an interface for weather information services
  This package contains the library used to implement new ions (i.e. information
  fetching plugins) for the Plasma weather engine.
@@ -579,10 +663,12 @@ Section: debug
 Architecture: any
 Priority: extra
 Depends: kde-runtime-dbg, ${misc:Depends}
-Replaces: kdebase-dbg (<< 4:4.5), kdebase-runtime-dbg (<< 4:4.5),
- kdebase-workspace-dbg (<< 4:4.7.2)
-Breaks: kdebase-dbg (<< 4:4.5), kdebase-runtime-dbg (<< 4:4.5),
- kdebase-workspace-dbg (<< 4:4.7.2)
+Replaces: kdebase-dbg (<< 4:4.5),
+          kdebase-runtime-dbg (<< 4:4.5),
+          kdebase-workspace-dbg (<< 4:4.7.2)
+Breaks: kdebase-dbg (<< 4:4.5),
+        kdebase-runtime-dbg (<< 4:4.5),
+        kdebase-workspace-dbg (<< 4:4.7.2)
 Suggests: kde-workspace (>= ${source:Version})
 Description: debugging symbols for the KDE Plasma Workspaces
  This package contains debugging files used to investigate problems with
@@ -592,14 +678,14 @@ Package: kdebase-workspace-dbg
 Section: oldlibs
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, kde-workspace-dbg
+Depends: kde-workspace-dbg, ${misc:Depends}
 Description: transitional package for kde-workspace-dbg
  This is a dummy transitional package for kde-workspace-dbg and can be safely
  removed after the installation is complete.
 
 Package: ktouchpadenabler
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: kde-workspace-bin (<< 4:4.10.4-1~)
 Replaces: kde-workspace-bin (<< 4:4.10.4-1~)
 Description: kded daemon to enable/disable touchpad
