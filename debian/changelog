@@ -1,3 +1,10 @@
+kde-workspace (4:4.11.3-4) UNRELEASED; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove extra comma in debian/changelog's Uploaders field.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jan 2014 21:12:20 -0300
+
 kde-workspace (4:4.11.3-3) unstable; urgency=medium
 
   * Team upload.
