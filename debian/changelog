@@ -2,7 +2,8 @@ kde-workspace (4:4.11.3-4) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove extra comma in debian/changelog's Uploaders field.
-  * Enable EGLS version of KWin. This option may benefit some of our user base.
+  * Enable EGLS version of KWin. This option may benefit some of our users
+    (Closes: #688801).
     - Remove the build-conflict against libgles2-mesa-dev and add it as a
       dependency.
     - Add the new generated files to kde-window-manager's install file.
