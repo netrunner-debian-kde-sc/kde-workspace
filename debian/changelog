@@ -5,6 +5,7 @@ kde-workspace (4:4.11.3-4) UNRELEASED; urgency=medium
   * Enable EGLS version of KWin. This option may benefit some of our user base.
     - Remove the build-conflict against libgles2-mesa-dev and add it as a
       dependency.
+    - Add the new generated files to kde-window-manager's install file.
 
   [ Dmitry Shachnev ]
   * Build-depend on libxcb-sync-dev instead of removed libxcb-sync0-dev.
