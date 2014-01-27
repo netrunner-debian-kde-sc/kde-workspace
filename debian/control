@@ -22,7 +22,7 @@ Build-Depends: cmake (>= 2.8.6),
                libdevstat-dev [kfreebsd-any],
                libdlrestrictions-dev (>= 0.14),
                libfontconfig-dev,
-               libgles2-mesa-dev,
+               libgles2-mesa-dev [!hurd-i386 !m68k !powerpcspe !x32],
                libglib2.0-dev,
                libglu1-mesa-dev,
                libgps-dev (>= 2.90),
@@ -601,6 +601,17 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library with OpenGL utilities for the KDE window manager
  This package contains a library with OpenGL utilities used by the KDE window
  manager.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libkwinglesutils1
+Section: libs
+Architecture: alpha amd64 armel armhf hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sh4 sparc
+X-Debian-ABI: 0
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library with OpenGL/ES utilities for the KDE window manager
+ This package contains a library with OpenGL/ES utilities used by the KDE
+ window manager.
  .
  This package is part of the KDE base workspace module.
 
