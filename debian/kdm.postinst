@@ -63,7 +63,7 @@ for HOST in "" \
   fi
 done
 # or if it's already running
-if start-stop-daemon --stop --quiet --signal 0 --pid /var/run/kdm.pid --name kdm; then
+if start-stop-daemon --stop --quiet --signal 0 --pidfile /var/run/kdm.pid --name kdm; then
   NOSTART=yes
 fi
 # or if the options file says not to
