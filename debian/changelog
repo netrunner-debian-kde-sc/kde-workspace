@@ -15,6 +15,7 @@ kde-workspace (4:4.11.5-1) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Add autopkgtests.
+  * Add abi-compliance-checker info.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jan 2014 21:12:20 -0300
 
