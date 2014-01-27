@@ -49,7 +49,7 @@ if grep -qs ^restart-on-upgrade /etc/kde4/kdm/kdm.options ||
     # any children?
     PARENTS=$(pidof /usr/bin/kdm || true)
     CHILDREN=
-    if [ -n "$PARENTS" ]; then    
+    if [ -n "$PARENTS" ]; then
       for PROCESS in $PARENTS; do
         # make sure we got numbers back
         [ $PROCESS -eq $PROCESS ] 2> /dev/null ||
