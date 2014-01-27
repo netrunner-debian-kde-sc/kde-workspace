@@ -19,6 +19,7 @@ kde-workspace (4:4.11.5-1) UNRELEASED; urgency=medium
   * Split libkwinglesutils package.
   * Fix lintian error message: maintainer-script-should-not-use-adduser-
     system-without-home.
+  * Add symbols for libkwinglesutils1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jan 2014 21:12:20 -0300
 
