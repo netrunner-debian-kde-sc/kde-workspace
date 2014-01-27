@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.3 alpha armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc x32
+# SymbolsHelper-Confirmed: 4:4.11.5 amd64
 libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst|arch=!alpha !ia64 !powerpc !ppc64 !s390x !sparc)_Z10qDeleteAllIN5QListIPN13QFormInternal10DomIncludeEE14const_iteratorEEvT_S6_@Base 4:4.11.1
  (optional=templinst|arch=x32)_Z10qDeleteAllIN5QListIPN13QFormInternal11DomPropertyEE14const_iteratorEEvT_S6_@Base 4:4.11.3
@@ -1694,7 +1694,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst|arch=ppc64 s390x)_ZNK5QHashIP7QObjectbE8findNodeERKS1_Pj@Base 4:4.11.2
  (optional=templinst|arch=ppc64 s390x)_ZNK5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE8findNodeERKS3_Pj@Base 4:4.11.2
  (optional=templinst|arch=alpha ia64 powerpc ppc64 s390x sparc)_ZNK5QListIP7QObjectE7indexOfERKS1_i@Base 4:4.11.2
- (optional=templinst|arch=!armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !x32)_ZNK5QListIP7QWidgetE7indexOfERKS1_i@Base 4:4.11.2
+ (optional=templinst|arch=!amd64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !x32)_ZNK5QListIP7QWidgetE7indexOfERKS1_i@Base 4:4.11.2
  _ZNK6Plasma14WidgetExplorer10metaObjectEv@Base 4:4.11.1
  _ZNK6Plasma14WidgetExplorer11containmentEv@Base 4:4.11.1
  _ZNK6Plasma14WidgetExplorer11filterModelEv@Base 4:4.11.1
@@ -1775,7 +1775,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZTVN6Plasma14WidgetExplorerE@Base 4:4.11.1
  (optional=templinst)_ZZN11QMetaTypeIdI26QUiTranslatableStringValueE14qt_metatype_idEvE11metatype_id@Base 4:4.11.1
  (optional=templinst)_ZZN11QMetaTypeIdI5QListIP7QWidgetEE14qt_metatype_idEvE11metatype_id@Base 4:4.11.1
- (optional=external|arch=armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel x32)_ZplRK7QStringS1_@Base 4:4.11.1
+ (optional=external|arch=amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel x32)_ZplRK7QStringS1_@Base 4:4.11.1
  dlrestrictions_data@Base 4:4.11.1
  (c++)"non-virtual thunk to BackgroundDialog::~BackgroundDialog()@Base" 4:4.11.1
  (c++)"non-virtual thunk to Plasma::WidgetExplorer::focusInEvent(QFocusEvent*)@Base" 4:4.11.1
