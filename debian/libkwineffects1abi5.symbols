@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.3 alpha ia64 powerpc ppc64
+# SymbolsHelper-Confirmed: 4:4.11.6 amd64
 libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  ABI_1_5@ABI_1_5 4:4.11.1
  _ZN4KWin10Extensions18non_native_pixmapsE@ABI_1_5 4:4.11.1
@@ -79,6 +79,7 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZN4KWin14EffectsHandler21screenGeometryChangedERK5QSize@ABI_1_5 4:4.11.1
  _ZN4KWin14EffectsHandler21windowModalityChangedEPNS_12EffectWindowE@ABI_1_5 4:4.11.1
  _ZN4KWin14EffectsHandler22currentActivityChangedERK7QString@ABI_1_5 4:4.11.1
+ _ZN4KWin14EffectsHandler22desktopPresenceChangedEPNS_12EffectWindowEii@ABI_1_5 4:4.11.6
  _ZN4KWin14EffectsHandler23currentTabAboutToChangeEPNS_12EffectWindowES2_@ABI_1_5 4:4.11.1
  _ZN4KWin14EffectsHandler26windowGeometryShapeChangedEPNS_12EffectWindowERK5QRect@ABI_1_5 4:4.11.1
  _ZN4KWin14EffectsHandler26windowStepUserMovedResizedEPNS_12EffectWindowERK5QRect@ABI_1_5 4:4.11.1
@@ -290,6 +291,7 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZNK4KWin12EffectWindow18decorationHasAlphaEv@ABI_1_5 4:4.11.1
  _ZNK4KWin12EffectWindow18isOnCurrentDesktopEv@ABI_1_5 4:4.11.1
  _ZNK4KWin12EffectWindow19isOnCurrentActivityEv@ABI_1_5 4:4.11.1
+ _ZNK4KWin12EffectWindow19skipsCloseAnimationEv@ABI_1_5 4:4.11.6
  _ZNK4KWin12EffectWindow1xEv@ABI_1_5 4:4.11.1
  _ZNK4KWin12EffectWindow1yEv@ABI_1_5 4:4.11.1
  _ZNK4KWin12EffectWindow22isMovableAcrossScreensEv@ABI_1_5 4:4.11.1
