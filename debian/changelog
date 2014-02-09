@@ -1,10 +1,10 @@
-kde-workspace (4:4.11.6-1) UNRELEASED; urgency=medium
+kde-workspace (4:4.11.6-1~) UNRELEASED; urgency=medium
 
   * Fix typo in kdm.postinst.
   * New upstream release.
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 20:59:38 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Feb 2014 11:23:11 +0100
 
 kde-workspace (4:4.11.5-1) unstable; urgency=medium
 
