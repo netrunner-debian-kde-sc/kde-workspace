@@ -1,4 +1,4 @@
-kde-workspace (4:4.11.6-1) experimental; urgency=medium
+kde-workspace (4:4.11.6-1) unstable; urgency=medium
 
   * Fix typo in kdm.postinst.
   * New upstream release.
