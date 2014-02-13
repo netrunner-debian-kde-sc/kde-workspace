@@ -1,3 +1,9 @@
+kde-workspace (4:4.11.6-3) UNRELEASED; urgency=medium
+
+  * Fix patch: empty_target_kwinglesutils
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 13 Feb 2014 09:58:42 +0100
+
 kde-workspace (4:4.11.6-2) unstable; urgency=medium
 
   * Update symbols files.
