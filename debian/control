@@ -160,6 +160,7 @@ Depends: iso-codes,
          kde-runtime (>= 4:4.10.2),
          kde-workspace-data (= ${source:Version}),
          kde-workspace-kgreet-plugins (= ${binary:Version}),
+         kscreen,
          plasma-desktop (= ${binary:Version}) | plasma-netbook (= ${binary:Version}),
          qdbus,
          x11-utils,
@@ -705,3 +706,11 @@ Description: kded daemon to enable/disable touchpad
  ktouchpadenabler is a kded daemon to enable and disable the system's touchpad
  by listening for XF86XK_TouchpadToggle, XF86XK_TouchpadOn, and
  XF86XK_TouchpadOff key events.
+
+Package: kde-workspace-randr
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Conflicts: kde-workspace-bin (<< 4:4.11.6-3~)
+Breaks: kde-workspace-bin (<< 4:4.11.6-3~)
+Description: randr tools from kde-workspace
+ Screen resize and rotate tools from KDE Workspace.

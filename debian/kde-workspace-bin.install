@@ -8,8 +8,6 @@ usr/bin/kdostartupconfig4
 usr/bin/kfontinst
 usr/bin/kfontview
 usr/bin/krandom.kss
-usr/bin/krandrstartup
-usr/bin/krandrtray
 usr/bin/krdb
 usr/bin/krunner
 usr/bin/ksmserver
@@ -46,7 +44,6 @@ usr/lib/kde4/kcm_launch.so
 usr/lib/kde4/kcm_powerdevilactivitiesconfig.so
 usr/lib/kde4/kcm_powerdevilglobalconfig.so
 usr/lib/kde4/kcm_powerdevilprofilesconfig.so
-usr/lib/kde4/kcm_randr.so
 usr/lib/kde4/kcm_screensaver.so
 usr/lib/kde4/kcm_smserver.so
 usr/lib/kde4/kcm_solid_actions.so
@@ -58,7 +55,6 @@ usr/lib/kde4/kded_keyboard.so
 usr/lib/kde4/kded_khotkeys.so
 usr/lib/kde4/kded_kwrited.so
 usr/lib/kde4/kded_powerdevil.so
-usr/lib/kde4/kded_randrmonitor.so
 usr/lib/kde4/kded_statusnotifierwatcher.so
 usr/lib/kde4/keyboard_layout_widget.so
 usr/lib/kde4/kfontviewpart.so
@@ -129,7 +125,6 @@ usr/lib/libpowerdevilui.so.4
 usr/lib/libpowerdevilui.so.4.*
 usr/lib/strigi/strigita_font.so
 usr/share/applications/kde4/kfontview.desktop
-usr/share/applications/kde4/krandrtray.desktop
 usr/share/autostart/krunner.desktop
 usr/share/kde4/apps/kcmsolidactions/solid-action-template.desktop
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/fonts.desktop
@@ -156,7 +151,6 @@ usr/share/kde4/services/kded/keyboard.desktop
 usr/share/kde4/services/kded/khotkeys.desktop
 usr/share/kde4/services/kded/kwrited.desktop
 usr/share/kde4/services/kded/powerdevil.desktop
-usr/share/kde4/services/kded/randrmonitor.desktop
 usr/share/kde4/services/kded/statusnotifierwatcher.desktop
 usr/share/kde4/services/keys.desktop
 usr/share/kde4/services/kfontviewpart.desktop
@@ -199,7 +193,6 @@ usr/share/kde4/services/powerdevilkeyboardbrightnesscontrolaction.desktop
 usr/share/kde4/services/powerdevilprofilesconfig.desktop
 usr/share/kde4/services/powerdevilrunscriptaction.desktop
 usr/share/kde4/services/powerdevilsuspendsessionaction.desktop
-usr/share/kde4/services/randr.desktop
 usr/share/kde4/services/recentdocuments.desktop
 usr/share/kde4/services/screensaver.desktop
 usr/share/kde4/services/settings-power-management.desktop

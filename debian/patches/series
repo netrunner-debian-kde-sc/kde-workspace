@@ -21,3 +21,5 @@ hurd.diff
 add_kdefakes_for_strlcpy_and_strlcat.diff
 krunner_iceweasel_bookmarks.patch
 empty_target_kwinglesutils
+kubuntu_kcm_display_add_kscreen.diff
+kubuntu_no_krandr.diff
