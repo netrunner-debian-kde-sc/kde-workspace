@@ -1,11 +1,14 @@
 kde-workspace (4:4.11.6-3~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
-  * Fix patch: empty_target_kwinglesutils
   * Import kubuntu's patch: kubuntu_no_krandr.diff
   * Import kubuntu's patch: kubuntu_kcm_display_add_kscreen.diff
   * Split kde-workspace-krandr from kde-workspace-bin, in order to let
     kscreen to take over.
+
+  [ Pino Toscano ]
+  * Drop wrong patch empty_target_kwinglesutils, as it is a pkg-kde-tools
+    issue which will be fixed there.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Feb 2014 11:54:45 +0100
 
