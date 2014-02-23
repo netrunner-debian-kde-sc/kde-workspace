@@ -5,6 +5,8 @@ kde-workspace (4:4.11.6-3~) UNRELEASED; urgency=medium
   * Import kubuntu's patch: kubuntu_kcm_display_add_kscreen.diff
   * Split kde-workspace-krandr from kde-workspace-bin, in order to let
     kscreen to take over.
+  * New patch: upstream_explicitly_request_a_window-drawable, thanks to Ralf
+    Jung. (Closes: #739691)
 
   [ Pino Toscano ]
   * Drop wrong patch empty_target_kwinglesutils, as it is a pkg-kde-tools

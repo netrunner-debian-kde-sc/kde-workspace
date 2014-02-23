@@ -1,0 +1,20 @@
+commit ea7653821e83dc691ebcf8254c03eedc82c02d5f
+Author: Ralf Jung <post@ralfj.de>
+Date:   Fri Feb 21 17:42:40 2014 +0100
+
+    Explicitly request a Window-drawable
+    
+    REVIEW: 115937
+
+diff --git a/kwin/glxbackend.cpp b/kwin/glxbackend.cpp
+index ef2a989..172b32a 100644
+--- a/kwin/glxbackend.cpp
++++ b/kwin/glxbackend.cpp
+@@ -265,6 +265,7 @@ bool GlxBackend::initFbConfig()
+ {
+     const int attribs[] = {
+         GLX_RENDER_TYPE,    GLX_RGBA_BIT,
++        GLX_DRAWABLE_TYPE,  GLX_WINDOW_BIT,
+         GLX_RED_SIZE,       1,
+         GLX_GREEN_SIZE,     1,
+         GLX_BLUE_SIZE,      1,
