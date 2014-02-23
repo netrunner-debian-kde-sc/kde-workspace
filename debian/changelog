@@ -12,6 +12,9 @@ kde-workspace (4:4.11.6-3~) UNRELEASED; urgency=medium
   * Drop wrong patch empty_target_kwinglesutils, as it is a pkg-kde-tools
     issue which will be fixed there.
 
+  [ Maximiliano Curia ]
+  * Bump build-dep version for pkg-kde-tools.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Feb 2014 11:54:45 +0100
 
 kde-workspace (4:4.11.6-2) unstable; urgency=medium
