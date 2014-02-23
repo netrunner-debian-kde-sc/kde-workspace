@@ -1,4 +1,4 @@
-kde-workspace (4:4.11.6-3~) UNRELEASED; urgency=medium
+kde-workspace (4:4.11.6-3) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Import kubuntu's patch: kubuntu_no_krandr.diff
@@ -15,7 +15,7 @@ kde-workspace (4:4.11.6-3~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Bump build-dep version for pkg-kde-tools.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Feb 2014 11:54:45 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 24 Feb 2014 00:00:42 +0100
 
 kde-workspace (4:4.11.6-2) unstable; urgency=medium
 
