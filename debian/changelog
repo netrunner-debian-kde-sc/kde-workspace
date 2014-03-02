@@ -2,6 +2,7 @@ kde-workspace (4:4.11.7-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * New patch: effect_gles_link_against_gles
+  * Remove upstream patch: upstream_explicitly_request_a_window-drawable
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 02 Mar 2014 11:20:51 +0100
 
