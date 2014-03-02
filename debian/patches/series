@@ -23,3 +23,4 @@ krunner_iceweasel_bookmarks.patch
 kubuntu_kcm_display_add_kscreen.diff
 kubuntu_no_krandr.diff
 upstream_explicitly_request_a_window-drawable
+effect_gles_link_against_gles
