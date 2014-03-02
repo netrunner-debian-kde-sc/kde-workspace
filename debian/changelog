@@ -1,8 +1,9 @@
-kde-workspace (4:4.11.6-4) UNRELEASED; urgency=medium
+kde-workspace (4:4.11.7-1) UNRELEASED; urgency=medium
 
+  * New upstream release.
   * New patch: effect_gles_link_against_gles
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 02 Mar 2014 11:12:24 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 02 Mar 2014 11:20:51 +0100
 
 kde-workspace (4:4.11.6-3) unstable; urgency=medium
 
