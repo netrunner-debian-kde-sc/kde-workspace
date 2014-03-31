@@ -1,3 +1,9 @@
+kde-workspace (4:4.11.8-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Mar 2014 22:46:28 +0200
+
 kde-workspace (4:4.11.7-1) unstable; urgency=medium
 
   * New upstream release.
