@@ -1,9 +1,9 @@
-kde-workspace (4:4.11.8-1) UNRELEASED; urgency=medium
+kde-workspace (4:4.11.8-1) unstable; urgency=medium
 
   * New upstream release.
   * Remove patch: krunner_iceweasel_bookmarks.patch applied upstream
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Mar 2014 22:46:28 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Apr 2014 11:21:07 +0200
 
 kde-workspace (4:4.11.7-1) unstable; urgency=medium
 
