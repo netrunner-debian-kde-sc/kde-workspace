@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64
+# SymbolsHelper-Confirmed: 4:4.11.9 amd64
 libkephal.so.4abi1 libkephal4abi1 #MINVER#
 * Build-Depends-Package: kde-workspace-dev
  ABI_4_1@ABI_4_1 4:4.6.1
@@ -15,9 +15,9 @@ libkephal.so.4abi1 libkephal4abi1 #MINVER#
  _ZN6Kephal6Screen4geomEv@ABI_4_1 4:4.6.1
  _ZN6Kephal6ScreenC1EP7QObject@ABI_4_1 4:4.6.1
  _ZN6Kephal6ScreenC2EP7QObject@ABI_4_1 4:4.6.1
- _ZN6Kephal6ScreenD0Ev@ABI_4_1 4:4.6.5
- _ZN6Kephal6ScreenD1Ev@ABI_4_1 4:4.6.5
- _ZN6Kephal6ScreenD2Ev@ABI_4_1 4:4.6.5
+ (optional=gccinternal|arch=!amd64)_ZN6Kephal6ScreenD0Ev@ABI_4_1 4:4.6.5
+ (optional=gccinternal|arch=!amd64)_ZN6Kephal6ScreenD1Ev@ABI_4_1 4:4.6.5
+ (optional=gccinternal|arch=!amd64)_ZN6Kephal6ScreenD2Ev@ABI_4_1 4:4.6.5
  _ZN6Kephal7Screens10s_instanceE@ABI_4_1 4:4.6.1
  _ZN6Kephal7Screens11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.6.1
  _ZN6Kephal7Screens11qt_metacastEPKc@ABI_4_1 4:4.6.1

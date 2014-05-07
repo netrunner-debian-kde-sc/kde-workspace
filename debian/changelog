@@ -12,6 +12,7 @@ kde-workspace (4:4.11.9-1~) UNRELEASED; urgency=medium
   * New upstream patch: 0012-Fix-wrong-icons.patch
   * New upstream patch: 0015-added-window-title-to-sizeGrip-for-easier-
     tracking-i.patch
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 07 May 2014 20:24:36 +0200
 

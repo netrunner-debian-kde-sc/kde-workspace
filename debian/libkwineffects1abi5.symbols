@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.8 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x
+# SymbolsHelper-Confirmed: 4:4.11.9 amd64
 libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  ABI_1_5@ABI_1_5 4:4.11.1
  _ZN4KWin10Extensions18non_native_pixmapsE@ABI_1_5 4:4.11.1
@@ -222,7 +222,7 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZN4KWin6EffectD0Ev@ABI_1_5 4:4.11.1
  _ZN4KWin6EffectD1Ev@ABI_1_5 4:4.11.1
  _ZN4KWin6EffectD2Ev@ABI_1_5 4:4.11.1
- (optional=templinst|arch=amd64 sparc)_ZN4KWin6MotionI7QPointFE9calculateEi@ABI_1_5 4:4.11.2
+ (optional=templinst|arch=sparc)_ZN4KWin6MotionI7QPointFE9calculateEi@ABI_1_5 4:4.11.2
  (optional=templinst|arch=ia64)_ZN4KWin6MotionI7QPointFEC1ERKS2_@ABI_1_5 4:4.11.3
  (optional=templinst|arch=ia64)_ZN4KWin6MotionI7QPointFEC2ERKS2_@ABI_1_5 4:4.11.3
  _ZN4KWin7effectsE@ABI_1_5 4:4.11.1
