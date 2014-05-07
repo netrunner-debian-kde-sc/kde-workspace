@@ -12,8 +12,8 @@ This revision of the patch is pretty hackish. What is more, it does not cover
 FreeBSD (only kFreeBSD) while it could perfectly do so.
 Index: kde-workspace/kdm/backend/dm.c
 ===================================================================
---- kde-workspace.orig/kdm/backend/dm.c	2013-09-27 09:23:30.607232875 +0000
-+++ kde-workspace/kdm/backend/dm.c	2013-09-27 09:23:30.595233345 +0000
+--- kde-workspace.orig/kdm/backend/dm.c	2014-05-07 20:21:11.614072291 +0200
++++ kde-workspace/kdm/backend/dm.c	2014-05-07 20:21:11.610072455 +0200
 @@ -47,7 +47,13 @@
  
  #ifdef HAVE_VTS
@@ -28,7 +28,7 @@ Index: kde-workspace/kdm/backend/dm.c
  #endif
  
  static void sigHandler(int n);
-@@ -349,7 +355,12 @@
+@@ -357,7 +363,12 @@
  int
  TTYtoVT(const char *tty)
  {
@@ -42,7 +42,7 @@ Index: kde-workspace/kdm/backend/dm.c
  }
  
  int
-@@ -1051,9 +1062,15 @@
+@@ -1062,9 +1073,15 @@
                      } else {
                          int con = open("/dev/console", O_RDONLY);
                          if (con >= 0) {
@@ -59,7 +59,7 @@ Index: kde-workspace/kdm/backend/dm.c
                                  int vt = 1;
                                  struct display *di;
                                  for (di = displays; di; di = di->next)
-@@ -1066,7 +1083,9 @@
+@@ -1077,7 +1094,9 @@
                                          vt = di->serverVT;
                                  ioctl(con, VT_ACTIVATE, vt);
                              }
@@ -69,7 +69,7 @@ Index: kde-workspace/kdm/backend/dm.c
                              close(con);
                          }
                      }
-@@ -1339,16 +1358,41 @@
+@@ -1350,16 +1369,41 @@
  static int
  getBusyVTs(void)
  {
@@ -116,8 +116,8 @@ Index: kde-workspace/kdm/backend/dm.c
  }
 Index: kde-workspace/kdm/backend/greet.h
 ===================================================================
---- kde-workspace.orig/kdm/backend/greet.h	2013-09-27 09:23:30.607232875 +0000
-+++ kde-workspace/kdm/backend/greet.h	2013-09-27 09:23:30.595233345 +0000
+--- kde-workspace.orig/kdm/backend/greet.h	2014-05-07 20:21:11.614072291 +0200
++++ kde-workspace/kdm/backend/greet.h	2014-05-07 20:21:11.610072455 +0200
 @@ -53,7 +53,7 @@
  # define USE_SYSLOG
  #endif
@@ -129,8 +129,8 @@ Index: kde-workspace/kdm/backend/greet.h
  #endif
 Index: kde-workspace/kdm/backend/client.c
 ===================================================================
---- kde-workspace.orig/kdm/backend/client.c	2013-09-27 09:23:30.607232875 +0000
-+++ kde-workspace/kdm/backend/client.c	2013-09-27 09:23:30.595233345 +0000
+--- kde-workspace.orig/kdm/backend/client.c	2014-05-07 20:21:11.614072291 +0200
++++ kde-workspace/kdm/backend/client.c	2014-05-07 20:21:11.610072455 +0200
 @@ -1352,7 +1352,11 @@
      
  # ifdef HAVE_VTS
@@ -145,8 +145,8 @@ Index: kde-workspace/kdm/backend/client.c
  # ifdef XDMCP
 Index: kde-workspace/kdm/kfrontend/genkdmconf.c
 ===================================================================
---- kde-workspace.orig/kdm/kfrontend/genkdmconf.c	2013-09-27 09:23:30.607232875 +0000
-+++ kde-workspace/kdm/kfrontend/genkdmconf.c	2013-09-27 09:23:30.599233189 +0000
+--- kde-workspace.orig/kdm/kfrontend/genkdmconf.c	2014-05-07 20:21:11.614072291 +0200
++++ kde-workspace/kdm/kfrontend/genkdmconf.c	2014-05-07 20:21:11.610072455 +0200
 @@ -1547,7 +1547,8 @@
  upd_servervts(Entry *ce, Section *cs ATTR_UNUSED)
  {
@@ -189,8 +189,8 @@ Index: kde-workspace/kdm/kfrontend/genkdmconf.c
          defmaxuid = "29999";
 Index: kde-workspace/kdm/config.def
 ===================================================================
---- kde-workspace.orig/kdm/config.def	2013-09-27 09:23:30.607232875 +0000
-+++ kde-workspace/kdm/config.def	2013-09-27 09:23:30.599233189 +0000
+--- kde-workspace.orig/kdm/config.def	2014-05-07 20:21:11.614072291 +0200
++++ kde-workspace/kdm/config.def	2014-05-07 20:21:11.610072455 +0200
 @@ -873,7 +873,7 @@
   This option is for operating systems (<acronym>OS</acronym>s) with support
   for virtual terminals (<acronym>VT</acronym>s), by both &kdm; and the
@@ -202,8 +202,8 @@ Index: kde-workspace/kdm/config.def
   <acronym>TTY</acronym> lines listed here (without the leading
 Index: kde-workspace/kdm/backend/util.c
 ===================================================================
---- kde-workspace.orig/kdm/backend/util.c	2013-09-27 09:23:30.607232875 +0000
-+++ kde-workspace/kdm/backend/util.c	2013-09-27 09:23:30.599233189 +0000
+--- kde-workspace.orig/kdm/backend/util.c	2014-05-07 20:21:11.614072291 +0200
++++ kde-workspace/kdm/backend/util.c	2014-05-07 20:21:11.614072291 +0200
 @@ -54,6 +54,15 @@
  # include <sys/utsname.h>
  #endif
