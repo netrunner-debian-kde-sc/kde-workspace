@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.2 i386 kfreebsd-i386 powerpc sparc
+# SymbolsHelper-Confirmed: 4:4.11.8 i386 kfreebsd-i386 powerpc sparc
 libkwinglesutils.so.1 libkwinglesutils1 #MINVER#
  ABI_1_0@ABI_1_0 4:4.11.5
  _ZN4KWin10GLPlatform10s_platformE@ABI_1_0 4:4.11.5

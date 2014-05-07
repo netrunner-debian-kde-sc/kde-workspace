@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.2 s390x
+# SymbolsHelper-Confirmed: 4:4.11.8 s390x
 libkworkspace.so.4abi2 libkworkspace4abi2 #MINVER#
 * Build-Depends-Package: kde-workspace-dev
  ABI_4_2@ABI_4_2 4:4.9.3
