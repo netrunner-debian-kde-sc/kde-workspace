@@ -23,3 +23,10 @@ kubuntu_kcm_display_add_kscreen.diff
 kubuntu_no_krandr.diff
 effect_gles_link_against_gles
 unlink_testsock
+0001-Trigger-the-Present-Windows-effect-when-control-clic.patch
+0002-Fix-crash-after-dismissing-the-context-menu-of-a-jus.patch
+0004-connect-to-the-right-signal.patch
+0009-Do-not-popup-during-initialization.patch
+0010-Fix-crash-when-DesktopNames-isn-t-set.patch
+0012-Fix-wrong-icons.patch
+0015-added-window-title-to-sizeGrip-for-easier-tracking-i.patch

@@ -2,6 +2,16 @@ kde-workspace (4:4.11.9-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update 4:4.11.8 symbols.
+  * New upstream patch: 0001-Trigger-the-Present-Windows-effect-when-
+    control-clic.patch
+  * New upstream patch: 0002-Fix-crash-after-dismissing-the-context-
+    menu-of-a-jus.patch
+  * New upstream patch: 0004-connect-to-the-right-signal.patch
+  * New upstream patch: 0009-Do-not-popup-during-initialization.patch
+  * New upstream patch: 0010-Fix-crash-when-DesktopNames-isn-t-set.patch
+  * New upstream patch: 0012-Fix-wrong-icons.patch
+  * New upstream patch: 0015-added-window-title-to-sizeGrip-for-easier-
+    tracking-i.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 07 May 2014 19:36:10 +0200
 
