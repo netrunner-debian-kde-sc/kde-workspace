@@ -1,4 +1,4 @@
-kde-workspace (4:4.11.9-1) UNRELEASED; urgency=medium
+kde-workspace (4:4.11.9-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update 4:4.11.8 symbols.
@@ -13,7 +13,7 @@ kde-workspace (4:4.11.9-1) UNRELEASED; urgency=medium
   * New upstream patch: 0015-added-window-title-to-sizeGrip-for-easier-
     tracking-i.patch
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 07 May 2014 19:36:10 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 07 May 2014 20:24:36 +0200
 
 kde-workspace (4:4.11.8-1) unstable; urgency=medium
 
