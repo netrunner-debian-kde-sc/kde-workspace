@@ -3,6 +3,10 @@ kde-workspace (4:4.11.11-1) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Switch the libpng12-dev build dependency to libpng-dev.
 
+  [ Philip Muškovac ]
+  * add subtle.desktop to kdm.install
+  * drop removed solid-hardware docs from kde-workspace-data.install
+
   [ Maximiliano Curia ]
   * New upstream release.
   * Remove upstream patch: 0001-Trigger-the-Present-Windows-effect-when-

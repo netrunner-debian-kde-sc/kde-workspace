@@ -88,6 +88,7 @@ usr/share/kde4/apps/kdm/sessions/qvwm.desktop
 usr/share/kde4/apps/kdm/sessions/ratpoison.desktop
 usr/share/kde4/apps/kdm/sessions/sapphire.desktop
 usr/share/kde4/apps/kdm/sessions/sawfish.desktop
+usr/share/kde4/apps/kdm/sessions/subtle.desktop
 usr/share/kde4/apps/kdm/sessions/twm.desktop
 usr/share/kde4/apps/kdm/sessions/ude.desktop
 usr/share/kde4/apps/kdm/sessions/vtwm.desktop
