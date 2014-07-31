@@ -18,6 +18,7 @@ kde-workspace (4:4.11.11-1) UNRELEASED; urgency=medium
     easier-tracking-i.patch
   * Remove unused patch: 50_icon_in_oxygen_title_bar.diff
   * Refresh patches.
+  * Drop KDM ConsoleKit support.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 13:35:32 +0200
 
