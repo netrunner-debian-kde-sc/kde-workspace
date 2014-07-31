@@ -2,9 +2,11 @@ From: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Subject: Fallback to default X location (Debian specific)
 Forwarded: not-needed
 Last-Update: 2011-08-29
---- a/kdm/backend/dm.c
-+++ b/kdm/backend/dm.c
-@@ -629,7 +629,13 @@ startRemoteLogin(struct display *d)
+Index: kde-workspace/kdm/backend/dm.c
+===================================================================
+--- kde-workspace.orig/kdm/backend/dm.c	2014-07-31 18:05:25.926140713 +0200
++++ kde-workspace/kdm/backend/dm.c	2014-07-31 18:05:25.922140876 +0200
+@@ -640,7 +640,13 @@
              exit(1);
          debug("exec %\"[s\n", argv);
          (void)execv(argv[0], argv);
@@ -19,9 +21,11 @@ Last-Update: 2011-08-29
          exit(1);
      case -1:
          logError("Forking X server for remote login failed: %m");
---- a/kdm/backend/server.c
-+++ b/kdm/backend/server.c
-@@ -97,6 +97,12 @@ startServerOnce(void)
+Index: kde-workspace/kdm/backend/server.c
+===================================================================
+--- kde-workspace.orig/kdm/backend/server.c	2014-07-31 18:05:25.926140713 +0200
++++ kde-workspace/kdm/backend/server.c	2014-07-31 18:05:25.922140876 +0200
+@@ -97,6 +97,12 @@
           */
          (void)Signal(SIGUSR1, SIG_IGN);
          (void)execv(argv[0], argv);
