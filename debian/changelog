@@ -1,4 +1,4 @@
-kde-workspace (4:4.11.11-1~) UNRELEASED; urgency=medium
+kde-workspace (4:4.11.11-1) unstable; urgency=medium
 
   [ Pino Toscano ]
   * Switch the libpng12-dev build dependency to libpng-dev.
@@ -24,7 +24,7 @@ kde-workspace (4:4.11.11-1~) UNRELEASED; urgency=medium
   * Refresh patches.
   * Drop KDM ConsoleKit support.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 31 Jul 2014 21:13:21 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Aug 2014 09:36:36 +0200
 
 kde-workspace (4:4.11.9-1) unstable; urgency=medium
 
