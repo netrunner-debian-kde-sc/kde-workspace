@@ -45,5 +45,6 @@ Depends: kde-workspace,
          kdebase-workspace-dbg,
          ktouchpadenabler,
          @builddeps@, build-essential,
-         xvfb, xauth, dbus-x11
+         xvfb, xauth, dbus-x11,
+         dh-acc
 Restrictions: rw-build-tree
