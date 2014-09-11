@@ -1,11 +1,11 @@
-kde-workspace (4:4.11.11-2~) UNRELEASED; urgency=medium
+kde-workspace (4:4.11.11-2) unstable; urgency=medium
 
   * kdm: Remove xdm documentation from the README.Debian file. (Closes:
     #247196)
   * Add ppc64el to libkwinglesutils1. (Closes: 760942) Thanks to
     Aurelien Jarno
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Sep 2014 18:16:06 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 11 Sep 2014 20:52:15 +0200
 
 kde-workspace (4:4.11.11-1) unstable; urgency=medium
 
