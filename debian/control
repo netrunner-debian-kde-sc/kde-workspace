@@ -605,7 +605,7 @@ Description: library with OpenGL utilities for the KDE window manager
 
 Package: libkwinglesutils1
 Section: libs
-Architecture: alpha amd64 armel armhf hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sh4 sparc
+Architecture: alpha amd64 armel armhf hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x sh4 sparc
 X-Debian-ABI: 0
 X-CMake-Target: kwinglesutils
 Depends: ${misc:Depends}, ${shlibs:Depends}
