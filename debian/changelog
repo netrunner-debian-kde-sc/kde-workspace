@@ -1,11 +1,11 @@
-kde-workspace (4:4.11.12-1~) UNRELEASED; urgency=medium
+kde-workspace (4:4.11.12-1) unstable; urgency=medium
 
   * New upstream release (4.11.12).
   * New patch: check_if_SensorMgr
   * New patch: ksysguardd_acpi_valgrind_complain
   * Update symbols files.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Sep 2014 20:36:27 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 21 Sep 2014 16:29:38 +0200
 
 kde-workspace (4:4.11.11-2) unstable; urgency=medium
 
