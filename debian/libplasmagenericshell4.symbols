@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.8 powerpc s390x sparc
+# SymbolsHelper-Confirmed: 4:4.11.12 amd64
 libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst|arch=!alpha !ia64 !ppc64 !sparc)_Z10qDeleteAllIN5QListIPN13QFormInternal10DomIncludeEE14const_iteratorEEvT_S6_@Base 4:4.11.1
  (optional=templinst|arch=x32)_Z10qDeleteAllIN5QListIPN13QFormInternal11DomPropertyEE14const_iteratorEEvT_S6_@Base 4:4.11.3
@@ -54,8 +54,8 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZN10ToolButtonD0Ev@Base 4:4.11.1
  _ZN10ToolButtonD1Ev@Base 4:4.11.1
  _ZN10ToolButtonD2Ev@Base 4:4.11.1
- (optional=templinst|arch=!alpha !ia64 !ppc64 !sparc !x32)_ZN11QMetaTypeIdI26QUiTranslatableStringValueE14qt_metatype_idEv@Base 4:4.11.1
- (optional=templinst|arch=!alpha !ia64 !ppc64 !sparc !x32)_ZN11QMetaTypeIdI5QListIP7QWidgetEE14qt_metatype_idEv@Base 4:4.11.1
+ (optional=templinst|arch=!amd64 !alpha !ia64 !ppc64 !sparc !x32)_ZN11QMetaTypeIdI26QUiTranslatableStringValueE14qt_metatype_idEv@Base 4:4.11.1
+ (optional=templinst|arch=!amd64 !alpha !ia64 !ppc64 !sparc !x32)_ZN11QMetaTypeIdI5QListIP7QWidgetEE14qt_metatype_idEv@Base 4:4.11.1
  (optional=gccinternal|arch=alpha ia64 ppc64 sparc)_ZN11QStringListC1ERKS_@Base 4:4.11.2
  (optional=gccinternal|arch=sparc)_ZN11QStringListC1Ev@Base 4:4.11.8
  (optional=gccinternal|arch=alpha ia64 ppc64 sparc)_ZN11QStringListC2ERKS_@Base 4:4.11.2
@@ -1168,8 +1168,8 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst|arch=!x32)_ZN4QMapI7QStringbE6insertERKS0_RKb@Base 4:4.11.1
  (optional=templinst)_ZN5QHashI10QByteArraybE11deleteNode2EPN9QHashData4NodeE@Base 4:4.11.1
  (optional=templinst)_ZN5QHashI10QByteArraybE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.11.1
- (optional=templinst)_ZN5QHashI10QByteArraybED1Ev@Base 4:4.11.1
- (optional=templinst)_ZN5QHashI10QByteArraybED2Ev@Base 4:4.11.1
+ (optional=templinst|arch=!amd64)_ZN5QHashI10QByteArraybED1Ev@Base 4:4.11.1
+ (optional=templinst|arch=!amd64)_ZN5QHashI10QByteArraybED2Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QHashI7QString5QPairIN2Qt12ItemDataRoleES3_EE11deleteNode2EPN9QHashData4NodeE@Base 4:4.11.1
  (optional=templinst)_ZN5QHashI7QString5QPairIN2Qt12ItemDataRoleES3_EE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.11.1
  (optional=templinst)_ZN5QHashI7QString5QPairIPN13QFormInternal14DomButtonGroupEP12QButtonGroupEE11deleteNode2EPN9QHashData4NodeE@Base 4:4.11.1
@@ -1449,8 +1449,8 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomWidgetEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomWidgetEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomWidgetEED2Ev@Base 4:4.11.1
- (optional=templinst|arch=!alpha !ia64 !ppc64 !sparc)_ZN5QPairI7QStringS0_ED1Ev@Base 4:4.11.1
- (optional=templinst|arch=!alpha !ia64 !ppc64 !sparc)_ZN5QPairI7QStringS0_ED2Ev@Base 4:4.11.1
+ (optional=templinst|arch=!alpha !amd64 !ia64 !ppc64 !sparc)_ZN5QPairI7QStringS0_ED1Ev@Base 4:4.11.1
+ (optional=templinst|arch=!alpha !amd64 !ia64 !ppc64 !sparc)_ZN5QPairI7QStringS0_ED2Ev@Base 4:4.11.1
  _ZN6Plasma14WidgetExplorer11applicationEv@Base 4:4.11.1
  _ZN6Plasma14WidgetExplorer11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
  _ZN6Plasma14WidgetExplorer11qt_metacastEPKc@Base 4:4.11.1
@@ -1481,8 +1481,8 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZN6Plasma14WidgetExplorerD0Ev@Base 4:4.11.1
  _ZN6Plasma14WidgetExplorerD1Ev@Base 4:4.11.1
  _ZN6Plasma14WidgetExplorerD2Ev@Base 4:4.11.1
- (optional=external)_ZN6QDebugC1E9QtMsgType@Base 4:4.11.1
- (optional=external)_ZN6QDebugC2E9QtMsgType@Base 4:4.11.1
+ (optional=external|arch=!amd64)_ZN6QDebugC1E9QtMsgType@Base 4:4.11.1
+ (optional=external|arch=!amd64)_ZN6QDebugC2E9QtMsgType@Base 4:4.11.1
  (optional=templinst|arch=sparc)_ZN6QQueueI5QPairIPN13QFormInternal7DomItemEP15QTreeWidgetItemEED1Ev@Base 4:4.11.3
  (optional=templinst|arch=sparc)_ZN6QQueueI5QPairIPN13QFormInternal7DomItemEP15QTreeWidgetItemEED2Ev@Base 4:4.11.3
  (optional=external|arch=armhf mips mipsel powerpc s390x x32)_ZN7QString5clearEv@Base 4:4.11.3
