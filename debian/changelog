@@ -2,6 +2,7 @@ kde-workspace (4:4.11.12-1~) UNRELEASED; urgency=medium
 
   * New upstream release (4.11.12).
   * New patch: check_if_SensorMgr
+  * New patch: ksysguardd_acpi_valgrind_complain
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Sep 2014 20:36:27 +0200
 

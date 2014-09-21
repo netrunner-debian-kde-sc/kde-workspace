@@ -25,3 +25,4 @@ effect_gles_link_against_gles
 unlink_testsock
 kubuntu_avoid_zic_and_deep_copy_timezone_data.diff
 check_if_SensorMgr
+ksysguardd_acpi_valgrind_complain
