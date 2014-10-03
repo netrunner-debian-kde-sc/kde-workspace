@@ -1,12 +1,12 @@
-kde-workspace (4:4.11.12-2) UNRELEASED; urgency=medium
+kde-workspace (4:4.11.12-2) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
   * Add arm64 to libkwinglesutils1's archs list, thus allowing dpkg-shlibdeps
     to properly finish it's job.
   * Update symbols files with buildds' logs.
   * Remove myself from Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 03 Oct 2014 16:34:54 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 03 Oct 2014 19:25:57 -0300
 
 kde-workspace (4:4.11.12-1) unstable; urgency=medium
 
