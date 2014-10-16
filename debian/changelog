@@ -1,6 +1,7 @@
 kde-workspace (4:4.11.13-1~) UNRELEASED; urgency=medium
 
   * New upstream release (4.11.13).
+  * Update symbols files from buildds logs (4:4.11.12-2).
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Oct 2014 14:10:35 +0200
 

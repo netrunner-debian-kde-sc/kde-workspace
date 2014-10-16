@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.12 alpha sparc
+# SymbolsHelper-Confirmed: 4:4.11.12 alpha arm64 armel hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 ppc64el sparc x32
 libkworkspace.so.4abi2 libkworkspace4abi2 #MINVER#
 * Build-Depends-Package: kde-workspace-dev
  ABI_4_2@ABI_4_2 4:4.9.3
@@ -55,8 +55,8 @@ libkworkspace.so.4abi2 libkworkspace4abi2 #MINVER#
  _ZN19ScreenPreviewWidgetD2Ev@ABI_4_2 4:4.9.3
  (optional=gccinternal|arch=alpha armel mips mipsel)_ZN7SessEntC1Ev@ABI_4_2 4:4.11.2
  (optional=gccinternal|arch=alpha armel mips mipsel)_ZN7SessEntC2Ev@ABI_4_2 4:4.11.2
- (optional=gccinternal)_ZN7SessEntD1Ev@ABI_4_2 4:4.11.2
- (optional=gccinternal)_ZN7SessEntD2Ev@ABI_4_2 4:4.11.2
+ (optional=gccinternal|arch=alpha sparc)_ZN7SessEntD1Ev@ABI_4_2 4:4.11.2
+ (optional=gccinternal|arch=alpha sparc)_ZN7SessEntD2Ev@ABI_4_2 4:4.11.2
  _ZNK15KWindowListMenu10metaObjectEv@ABI_4_2 4:4.9.3
  _ZNK19ScreenPreviewWidget10metaObjectEv@ABI_4_2 4:4.9.3
  _ZNK19ScreenPreviewWidget11previewRectEv@ABI_4_2 4:4.9.3
