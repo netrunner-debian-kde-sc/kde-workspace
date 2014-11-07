@@ -1,6 +1,7 @@
 kde-workspace (4:4.11.13-2~) UNRELEASED; urgency=medium
 
-  * 
+  * New patch: upstream_do_not_pass_ntpUtility_as_an_argument.patch fix
+    for https://www.kde.org/info/security/advisory-20141106-1.txt
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Nov 2014 09:07:20 +0100
 
