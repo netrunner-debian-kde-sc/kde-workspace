@@ -392,7 +392,7 @@ kde-workspace (4:4.10.2-1) experimental; urgency=low
     - drop upstream_Fix-deletion-of-preferred-application-launchers.patch,
       applied upstream.
     - extend place_global_config_in_etc.diff.
-    - update be_better_at_honouring_user_kdm_theming.diff. 
+    - update be_better_at_honouring_user_kdm_theming.diff.
     - refresh other patches to make them apply without any offset.
   * Pass -DKDE4_BUILD_TESTS=false to cmake to keep the tests disabled.
   * Update installed files.
@@ -526,7 +526,7 @@ kde-workspace (4:4.8.4-1) unstable; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
-  * Add process_table_unclickable.diff. 
+  * Add process_table_unclickable.diff.
   * Add new_beams_custom_plots.diff.
   * Refresh patches to make them apply without any offset.
   * Confirm symbols files on more architectures with the 4.8.3 build logs.
@@ -680,7 +680,7 @@ kde-workspace (4:4.7.2-1) experimental; urgency=low
   * Add relationships because of the new, split kde-wallpapers source package:
     - plasma-desktop, plasma-netbook and kdm depend on kde-wallpapers-default.
     - kde-workspace-data recommends kde-wallpapers.
-    - kdm suggests kde-wallpapers. 
+    - kdm suggests kde-wallpapers.
   * Update lintian overrides.
 
   [ Sune Vuorela ]
