@@ -76,11 +76,11 @@ Build-Depends: cmake (>= 2.8.6),
                shared-desktop-ontologies (>= 0.8),
                udev [linux-any],
                zlib1g-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 X-Python-Version: >= 2.5
 XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kde-workspace.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-sc/kde-workspace.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kde-workspace.git
 
 Package: kde-workspace

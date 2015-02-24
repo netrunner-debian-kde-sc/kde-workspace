@@ -6,6 +6,7 @@ kde-workspace (4:4.11.16-1~) UNRELEASED; urgency=medium
   * Remove upstream patch:
     upstream_validate_timezone_name_before_setting.patch
   * Refresh patches.
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Feb 2015 20:05:32 +0100
 
