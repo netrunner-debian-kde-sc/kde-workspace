@@ -18,7 +18,9 @@ override_dh_auto_install:
 	$(overridden_command)
 	chmod a-x debian/tmp/usr/share/autostart/klipper.desktop
 
-.PHONY: override_dh_auto_test
+override_dh_auto_test:
+	# Disable dh_auto_test at build time
+	:
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kde-workspace-dbg
