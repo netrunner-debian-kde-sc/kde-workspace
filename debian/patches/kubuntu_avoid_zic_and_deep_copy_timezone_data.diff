@@ -6,11 +6,11 @@ Forwarded: not-needed
 Author: Harald Sitter <apachelogger@kubuntu.org>
 Bug-Ubuntu: https://bugs.launchpad.net/ubuntu/+source/kde-workspace/+bug/1206199
 Last-Update: 2013-09-26
-Index: kde-workspace-4.11.1/kcontrol/dateandtime/helper.cpp
+Index: kde-workspace/kcontrol/dateandtime/helper.cpp
 ===================================================================
---- kde-workspace-4.11.1.orig/kcontrol/dateandtime/helper.cpp	2013-09-26 15:37:48.767903170 +0200
-+++ kde-workspace-4.11.1/kcontrol/dateandtime/helper.cpp	2013-09-26 15:47:28.471903101 +0200
-@@ -177,11 +177,20 @@
+--- kde-workspace.orig/kcontrol/dateandtime/helper.cpp	2015-02-24 11:58:45.179209435 +0100
++++ kde-workspace/kcontrol/dateandtime/helper.cpp	2015-02-24 11:58:45.139210968 +0100
+@@ -196,11 +196,20 @@
  #else
          QString tz = "/usr/share/zoneinfo/" + selectedzone;
  

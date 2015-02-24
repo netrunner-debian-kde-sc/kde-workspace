@@ -26,5 +26,3 @@ unlink_testsock
 kubuntu_avoid_zic_and_deep_copy_timezone_data.diff
 check_if_SensorMgr
 ksysguardd_acpi_valgrind_complain
-upstream_do_not_pass_ntpUtility_as_an_argument.patch
-upstream_validate_timezone_name_before_setting.patch

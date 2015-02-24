@@ -7,8 +7,8 @@ least FTBFS, so that we have the chance to inspect.
 
 Index: kde-workspace/config-workspace.h.cmake
 ===================================================================
---- kde-workspace.orig/config-workspace.h.cmake	2013-11-08 16:31:33.918010238 +0100
-+++ kde-workspace/config-workspace.h.cmake	2013-11-08 16:31:33.914010400 +0100
+--- kde-workspace.orig/config-workspace.h.cmake	2015-02-24 11:58:15.944329598 +0100
++++ kde-workspace/config-workspace.h.cmake	2015-02-24 11:58:15.876332203 +0100
 @@ -129,7 +129,7 @@
  #define KDE_BINDIR "${BIN_INSTALL_DIR}"
  
@@ -20,8 +20,8 @@ Index: kde-workspace/config-workspace.h.cmake
  #define KDE_DATADIR "${DATA_INSTALL_DIR}"
 Index: kde-workspace/kdm/kcm/main.cpp
 ===================================================================
---- kde-workspace.orig/kdm/kcm/main.cpp	2013-11-08 16:31:33.918010238 +0100
-+++ kde-workspace/kdm/kcm/main.cpp	2013-11-08 16:31:33.914010400 +0100
+--- kde-workspace.orig/kdm/kcm/main.cpp	2015-02-24 11:58:15.944329598 +0100
++++ kde-workspace/kdm/kcm/main.cpp	2015-02-24 11:58:15.876332203 +0100
 @@ -282,7 +282,7 @@
      QString tempConfigName = pTempConfigFile->fileName();
  
@@ -42,8 +42,8 @@ Index: kde-workspace/kdm/kcm/main.cpp
      KSharedConfigPtr pTempConfig = KSharedConfig::openConfig(tempBackgroundConfigName);
 Index: kde-workspace/kdm/config.def
 ===================================================================
---- kde-workspace.orig/kdm/config.def	2013-11-08 16:31:33.918010238 +0100
-+++ kde-workspace/kdm/config.def	2013-11-08 16:31:33.914010400 +0100
+--- kde-workspace.orig/kdm/config.def	2015-02-24 11:58:15.944329598 +0100
++++ kde-workspace/kdm/config.def	2015-02-24 11:58:15.884331897 +0100
 @@ -29,7 +29,7 @@
  #define RCVERMAJOR 2
  #define RCVERMINOR 4
@@ -55,8 +55,8 @@ Index: kde-workspace/kdm/config.def
  #include <sys/param.h> /* for #define BSD */
 Index: kde-workspace/kdm/kfrontend/kdmctl.c
 ===================================================================
---- kde-workspace.orig/kdm/kfrontend/kdmctl.c	2013-11-08 16:31:33.918010238 +0100
-+++ kde-workspace/kdm/kfrontend/kdmctl.c	2013-11-08 16:31:33.914010400 +0100
+--- kde-workspace.orig/kdm/kfrontend/kdmctl.c	2015-02-24 11:58:15.944329598 +0100
++++ kde-workspace/kdm/kfrontend/kdmctl.c	2015-02-24 11:58:15.884331897 +0100
 @@ -148,7 +148,7 @@
  {
      char *dpy = getenv("DISPLAY");
@@ -68,8 +68,8 @@ Index: kde-workspace/kdm/kfrontend/kdmctl.c
  
 Index: kde-workspace/kdm/kfrontend/genkdmconf.c
 ===================================================================
---- kde-workspace.orig/kdm/kfrontend/genkdmconf.c	2013-11-08 16:31:33.918010238 +0100
-+++ kde-workspace/kdm/kfrontend/genkdmconf.c	2013-11-08 16:31:33.914010400 +0100
+--- kde-workspace.orig/kdm/kfrontend/genkdmconf.c	2015-02-24 11:58:15.944329598 +0100
++++ kde-workspace/kdm/kfrontend/genkdmconf.c	2015-02-24 11:58:15.884331897 +0100
 @@ -2926,7 +2926,7 @@
  
  
@@ -98,8 +98,8 @@ Index: kde-workspace/kdm/kfrontend/genkdmconf.c
  "    Do not look at older xdm/kdm configurations, just create default config.\n"
 Index: kde-workspace/kdm/kcm/helper.cpp
 ===================================================================
---- kde-workspace.orig/kdm/kcm/helper.cpp	2013-11-08 16:31:33.918010238 +0100
-+++ kde-workspace/kdm/kcm/helper.cpp	2013-11-08 16:31:33.914010400 +0100
+--- kde-workspace.orig/kdm/kcm/helper.cpp	2015-02-24 11:58:15.944329598 +0100
++++ kde-workspace/kdm/kcm/helper.cpp	2015-02-24 11:58:15.884331897 +0100
 @@ -131,9 +131,9 @@
      QString tempConfigName = args.value("tempkdmrcfile").toString();
      QString tempBackgroundConfigName = args.value("tempbackgroundrcfile").toString();
@@ -123,9 +123,9 @@ Index: kde-workspace/kdm/kcm/helper.cpp
  
 Index: kde-workspace/kcontrol/dateandtime/helper.cpp
 ===================================================================
---- kde-workspace.orig/kcontrol/dateandtime/helper.cpp	2013-11-08 16:31:33.918010238 +0100
-+++ kde-workspace/kcontrol/dateandtime/helper.cpp	2013-11-08 16:31:33.914010400 +0100
-@@ -58,7 +58,7 @@
+--- kde-workspace.orig/kcontrol/dateandtime/helper.cpp	2015-02-24 11:58:15.944329598 +0100
++++ kde-workspace/kcontrol/dateandtime/helper.cpp	2015-02-24 11:58:15.896331437 +0100
+@@ -68,7 +68,7 @@
    int ret = 0;
  
    // write to the system config file
@@ -136,8 +136,8 @@ Index: kde-workspace/kcontrol/dateandtime/helper.cpp
      config_file.close();
 Index: kde-workspace/ksmserver/shutdowndlg.cpp
 ===================================================================
---- kde-workspace.orig/ksmserver/shutdowndlg.cpp	2013-11-08 16:31:33.918010238 +0100
-+++ kde-workspace/ksmserver/shutdowndlg.cpp	2013-11-08 16:31:33.914010400 +0100
+--- kde-workspace.orig/ksmserver/shutdowndlg.cpp	2015-02-24 11:58:15.944329598 +0100
++++ kde-workspace/ksmserver/shutdowndlg.cpp	2015-02-24 11:58:15.904331131 +0100
 @@ -203,7 +203,7 @@
      mapSpdMethods->insert("HibernateState", QVariant::fromValue(spdMethods.contains(Solid::PowerManagement::HibernateState)));
      context->setContextProperty("spdMethods", mapSpdMethods);
