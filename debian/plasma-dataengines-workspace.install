@@ -18,7 +18,6 @@ usr/lib/kde4/plasma_engine_filebrowser.so
 usr/lib/kde4/plasma_engine_geolocation.so
 usr/lib/kde4/plasma_engine_hotplug.so
 usr/lib/kde4/plasma_engine_keystate.so
-usr/lib/kde4/plasma_engine_metadata.so
 usr/lib/kde4/plasma_engine_mouse.so
 usr/lib/kde4/plasma_engine_mpris2.so
 usr/lib/kde4/plasma_engine_notifications.so
@@ -110,7 +109,6 @@ usr/share/kde4/services/plasma-dataengine-time.desktop
 usr/share/kde4/services/plasma-dataengine-weather.desktop
 usr/share/kde4/services/plasma-engine-activities.desktop
 usr/share/kde4/services/plasma-engine-akonadi.desktop
-usr/share/kde4/services/plasma-engine-metadata.desktop
 usr/share/kde4/services/plasma-geolocation-gps.desktop
 usr/share/kde4/services/plasma-geolocation-ip.desktop
 usr/share/kde4/services/plasma-layout-org.kde.plasma-desktop.findWidgets.desktop

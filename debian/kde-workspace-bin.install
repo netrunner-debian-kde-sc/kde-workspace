@@ -64,7 +64,6 @@ usr/lib/kde4/krunner_bookmarksrunner.so
 usr/lib/kde4/krunner_calculatorrunner.so
 usr/lib/kde4/krunner_kill.so
 usr/lib/kde4/krunner_locations.so
-usr/lib/kde4/krunner_nepomuksearchrunner.so
 usr/lib/kde4/krunner_placesrunner.so
 usr/lib/kde4/krunner_powerdevil.so
 usr/lib/kde4/krunner_recentdocuments.so
@@ -170,7 +169,6 @@ usr/share/kde4/services/plasma-runner-calculator.desktop
 usr/share/kde4/services/plasma-runner-kill.desktop
 usr/share/kde4/services/plasma-runner-kill_config.desktop
 usr/share/kde4/services/plasma-runner-locations.desktop
-usr/share/kde4/services/plasma-runner-nepomuksearch.desktop
 usr/share/kde4/services/plasma-runner-places.desktop
 usr/share/kde4/services/plasma-runner-powerdevil.desktop
 usr/share/kde4/services/plasma-runner-services.desktop
