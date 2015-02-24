@@ -1,4 +1,4 @@
-kde-workspace (4:4.11.16-1~) UNRELEASED; urgency=medium
+kde-workspace (4:4.11.16-1) experimental; urgency=medium
 
   * New upstream release.
   * Remove upstream patch:
@@ -8,7 +8,7 @@ kde-workspace (4:4.11.16-1~) UNRELEASED; urgency=medium
   * Refresh patches.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Feb 2015 20:05:32 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 16:37:31 +0100
 
 kde-workspace (4:4.11.13-2) unstable; urgency=medium
 
