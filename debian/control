@@ -85,15 +85,15 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kde-workspace.git
 Package: kde-workspace
 Architecture: all
 Depends: freespacenotifier (>= ${source:Version}),
-         kde-window-manager (>= ${source:Version}),
          kde-workspace-bin (>= ${source:Version}),
          klipper (>= ${source:Version}),
-         ksysguard (>= ${source:Version}),
-         systemsettings (>= ${source:Version}),
+#         kde-window-manager (>= ${source:Version}),
+#         ksysguard (>= ${source:Version}),
+#         systemsettings (>= ${source:Version}),
          ${misc:Depends}
 Recommends: kdm (>= ${source:Version}),
-            kinfocenter (>= ${source:Version}),
-            kmenuedit (>= ${source:Version})
+#            kinfocenter (>= ${source:Version}),
+#            kmenuedit (>= ${source:Version})
 Breaks: kdebase-workspace (<< 4:4.7.2)
 Replaces: kdebase-workspace (<< 4:4.7.2)
 Description: KDE Plasma Workspace components
@@ -115,25 +115,25 @@ Description: transitional package for kde-workspace
  This is a dummy transitional package for kde-workspace and can be safely
  removed after the installation is complete.
 
-Package: plasma-desktop
-Architecture: any
-Depends: kde-wallpapers-default,
-         plasma-widgets-workspace (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: kde-workspace
-Replaces: kdebase-workspace-bin (<< 4:4.5), kdebase-workspace-data (<< 4:4.5)
-Breaks: kdebase-workspace-bin (<< 4:4.5),
-        kdebase-workspace-data (<< 4:4.5),
-        plasma-widget-networkmanagement (<< 0.1+git20110422.810bc16-1+)
-Description: KDE Plasma workspace for desktop and laptop computers
- Provides the environment for running and managing applications and integrating
- interaction of applications. It is designed as generic environment for all
- kinds of desktop applications, not only applications built on the KDE Platform.
- It integrates best with applications following the standards used by the KDE
- Platform.
- .
- This package is part of the KDE base workspace module.
+# Package: plasma-desktop
+# Architecture: any
+# Depends: kde-wallpapers-default,
+#          plasma-widgets-workspace (= ${binary:Version}),
+#          ${misc:Depends},
+#          ${shlibs:Depends}
+# Recommends: kde-workspace
+# Replaces: kdebase-workspace-bin (<< 4:4.5), kdebase-workspace-data (<< 4:4.5)
+# Breaks: kdebase-workspace-bin (<< 4:4.5),
+#         kdebase-workspace-data (<< 4:4.5),
+#         plasma-widget-networkmanagement (<< 0.1+git20110422.810bc16-1+)
+# Description: KDE Plasma workspace for desktop and laptop computers
+#  Provides the environment for running and managing applications and integrating
+#  interaction of applications. It is designed as generic environment for all
+#  kinds of desktop applications, not only applications built on the KDE Platform.
+#  It integrates best with applications following the standards used by the KDE
+#  Platform.
+#  .
+#  This package is part of the KDE base workspace module.
 
 Package: plasma-netbook
 Architecture: any
@@ -157,8 +157,6 @@ Depends: iso-codes,
          kde-runtime (>= 4:4.10.2),
          kde-workspace-data (= ${source:Version}),
          kde-workspace-kgreet-plugins (= ${binary:Version}),
-         kscreen,
-         plasma-desktop (= ${binary:Version}) | plasma-netbook (= ${binary:Version}),
          qdbus,
          x11-utils,
          x11-xserver-utils,
@@ -256,7 +254,6 @@ Description: transitional package for kde-workspace-dev
 Package: plasma-dataengines-workspace
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: ksysguardd (= ${binary:Version})
 Breaks: kde-workspace-bin (<< 4:4.9.3)
 Replaces: kde-workspace-bin (<< 4:4.9.3)
 Description: KDE Plasma data engines
@@ -370,17 +367,17 @@ Description: KDE Display Manager for X11
  .
  This package is part of the KDE base workspace module.
 
-Package: kinfocenter
-Section: utils
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kcontrol
-Breaks: kcontrol
-Description: system information viewer
- KInfoCenter provides you with a graphical overview of various aspects of your
- system, such as memory usage, storage capacity, and attached devices.
- .
- This package is part of the KDE base workspace module.
+# Package: kinfocenter
+# Section: utils
+# Architecture: any
+# Depends: ${misc:Depends}, ${shlibs:Depends}
+# Replaces: kcontrol
+# Breaks: kcontrol
+# Description: system information viewer
+#  KInfoCenter provides you with a graphical overview of various aspects of your
+#  system, such as memory usage, storage capacity, and attached devices.
+#  .
+#  This package is part of the KDE base workspace module.
 
 Package: klipper
 Section: x11
@@ -393,48 +390,48 @@ Description: clipboard manager
  .
  This package is part of the KDE base workspace module.
 
-Package: ksysguardd
-Section: utils
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: System Guard Daemon
- System Guard Daemon can be installed on a remote system so that the KDE
- System Guard can connect to and monitor it.
- .
- This package is part of the KDE base workspace module.
+# Package: ksysguardd
+# Section: utils
+# Architecture: any
+# Depends: ${misc:Depends}, ${shlibs:Depends}
+# Description: System Guard Daemon
+#  System Guard Daemon can be installed on a remote system so that the KDE
+#  System Guard can connect to and monitor it.
+#  .
+#  This package is part of the KDE base workspace module.
+#
+# Package: ksysguard
+# Section: utils
+# Architecture: any
+# Depends: ksysguardd (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+# Description: process monitor and system statistics
+#  System Guard allows you to monitor various statistics about your system.
+#  .
+#  In addition to monitoring the local system, it can connect to remote systems
+#  running the System Guard Daemon, which is in the 'ksysguardd' package.
+#  .
+#  This package is part of the KDE base workspace module.
 
-Package: ksysguard
-Section: utils
-Architecture: any
-Depends: ksysguardd (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Description: process monitor and system statistics
- System Guard allows you to monitor various statistics about your system.
- .
- In addition to monitoring the local system, it can connect to remote systems
- running the System Guard Daemon, which is in the 'ksysguardd' package.
- .
- This package is part of the KDE base workspace module.
-
-Package: kde-window-manager
-Section: x11
-Architecture: any
-Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
-Breaks: kde-style-bespin (<< 0.r1552-1+),
-        kde-style-skulpture,
-        kde-workspace-data (<< 4:4.8.4-0r5),
-        kdeartwork-theme-window (<< 4:4.9.5),
-        kdebase-workspace-data (<< 4:4.7.2),
-        kwin-style-crystal (<< 2.2.1),
-        kwin-style-dekorator,
-        kwin-style-qtcurve (<< 1.8.14-2+)
-Replaces: kde-workspace-data (<< 4:4.8.4-0r5),
-          kdebase-workspace-data (<< 4:4.7.2)
-Provides: x-window-manager
-Description: K window manager (KWin)
- This package contains KWin, the KDE window manager, featuring
- hardware-accelerated compositing effects.
- .
- This package is part of the KDE base workspace module.
+# Package: kde-window-manager
+# Section: x11
+# Architecture: any
+# Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+# Breaks: kde-style-bespin (<< 0.r1552-1+),
+#         kde-style-skulpture,
+#         kde-workspace-data (<< 4:4.8.4-0r5),
+#         kdeartwork-theme-window (<< 4:4.9.5),
+#         kdebase-workspace-data (<< 4:4.7.2),
+#         kwin-style-crystal (<< 2.2.1),
+#         kwin-style-dekorator,
+#         kwin-style-qtcurve (<< 1.8.14-2+)
+# Replaces: kde-workspace-data (<< 4:4.8.4-0r5),
+#           kdebase-workspace-data (<< 4:4.7.2)
+# Provides: x-window-manager
+# Description: K window manager (KWin)
+#  This package contains KWin, the KDE window manager, featuring
+#  hardware-accelerated compositing effects.
+#  .
+#  This package is part of the KDE base workspace module.
 
 Package: libkdecorations4abi2
 Section: libs
@@ -459,14 +456,14 @@ Description: library used by effects for the KDE window manager
  .
  This package is part of the KDE base workspace module.
 
-Package: systemsettings
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: System Settings
- System Settings is an improved user interface for configuring the desktop
- and other aspects of the system.
- .
- This package is part of the KDE base workspace module.
+# Package: systemsettings
+# Architecture: any
+# Depends: ${misc:Depends}, ${shlibs:Depends}
+# Description: System Settings
+#  System Settings is an improved user interface for configuring the desktop
+#  and other aspects of the system.
+#  .
+#  This package is part of the KDE base workspace module.
 
 Package: kde-workspace-kgreet-plugins
 Section: libs
@@ -494,17 +491,17 @@ Description: Oxygen widget style
  .
  This package is part of the KDE base workspace module.
 
-Package: kmenuedit
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)
-Replaces: kdebase-workspace-bin (<< 4:4.7.2),
-          kdebase-workspace-data (<< 4:4.7.2)
-Description: XDG menu editor
- This package provides a menu editor which may be used to edit the KDE Plasma
- workspaces menu or any other XDG menu.
- .
- This package is part of the KDE base workspace module.
+# Package: kmenuedit
+# Architecture: any
+# Depends: ${misc:Depends}, ${shlibs:Depends}
+# Breaks: kdebase-workspace-bin (<< 4:4.7.2), kdebase-workspace-data (<< 4:4.7.2)
+# Replaces: kdebase-workspace-bin (<< 4:4.7.2),
+#           kdebase-workspace-data (<< 4:4.7.2)
+# Description: XDG menu editor
+#  This package provides a menu editor which may be used to edit the KDE Plasma
+#  workspaces menu or any other XDG menu.
+#  .
+#  This package is part of the KDE base workspace module.
 
 Package: libkephal4abi1
 Section: libs
