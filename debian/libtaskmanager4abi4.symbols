@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.1 amd64
+# SymbolsHelper-Confirmed: 4:4.11.22 amd64
 libtaskmanager.so.4abi4 libtaskmanager4abi4 #MINVER#
  ABI_4_4@ABI_4_4 4:4.11.1
  _ZN11TaskManager10TasksModel11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_4 4:4.11.1
@@ -44,25 +44,25 @@ libtaskmanager.so.4abi4 libtaskmanager4abi4 #MINVER#
  _ZN11TaskManager11ToolTipMenu5eventEP6QEvent@ABI_4_4 4:4.11.1
  _ZN11TaskManager11ToolTipMenuC1EP7QWidgetRK7QString@ABI_4_4 4:4.11.1
  _ZN11TaskManager11ToolTipMenuC2EP7QWidgetRK7QString@ABI_4_4 4:4.11.1
- _ZN11TaskManager11ToolTipMenuD0Ev@ABI_4_4 4:4.11.1
- _ZN11TaskManager11ToolTipMenuD1Ev@ABI_4_4 4:4.11.1
- _ZN11TaskManager11ToolTipMenuD2Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager11ToolTipMenuD0Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager11ToolTipMenuD1Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager11ToolTipMenuD2Ev@ABI_4_4 4:4.11.1
  _ZN11TaskManager12AdvancedMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_4 4:4.11.1
  _ZN11TaskManager12AdvancedMenu11qt_metacastEPKc@ABI_4_4 4:4.11.1
  _ZN11TaskManager12AdvancedMenu16staticMetaObjectE@ABI_4_4 4:4.11.1
  _ZN11TaskManager12AdvancedMenuC1EP7QWidgetPNS_21AbstractGroupableItemEPNS_12GroupManagerE@ABI_4_4 4:4.11.1
  _ZN11TaskManager12AdvancedMenuC2EP7QWidgetPNS_21AbstractGroupableItemEPNS_12GroupManagerE@ABI_4_4 4:4.11.1
- _ZN11TaskManager12AdvancedMenuD0Ev@ABI_4_4 4:4.11.1
- _ZN11TaskManager12AdvancedMenuD1Ev@ABI_4_4 4:4.11.1
- _ZN11TaskManager12AdvancedMenuD2Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager12AdvancedMenuD0Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager12AdvancedMenuD1Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager12AdvancedMenuD2Ev@ABI_4_4 4:4.11.1
  _ZN11TaskManager12DesktopsMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_4 4:4.11.1
  _ZN11TaskManager12DesktopsMenu11qt_metacastEPKc@ABI_4_4 4:4.11.1
  _ZN11TaskManager12DesktopsMenu16staticMetaObjectE@ABI_4_4 4:4.11.1
  _ZN11TaskManager12DesktopsMenuC1EP7QWidgetPNS_21AbstractGroupableItemE@ABI_4_4 4:4.11.1
  _ZN11TaskManager12DesktopsMenuC2EP7QWidgetPNS_21AbstractGroupableItemE@ABI_4_4 4:4.11.1
- _ZN11TaskManager12DesktopsMenuD0Ev@ABI_4_4 4:4.11.1
- _ZN11TaskManager12DesktopsMenuD1Ev@ABI_4_4 4:4.11.1
- _ZN11TaskManager12DesktopsMenuD2Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager12DesktopsMenuD0Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager12DesktopsMenuD1Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager12DesktopsMenuD2Ev@ABI_4_4 4:4.11.1
  _ZN11TaskManager12GroupManager11addLauncherERK4KUrlRK5QIconRK7QStringS9_S9_i@ABI_4_4 4:4.11.1
  _ZN11TaskManager12GroupManager11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_4 4:4.11.1
  _ZN11TaskManager12GroupManager11qt_metacastEPKc@ABI_4_4 4:4.11.1
@@ -132,18 +132,18 @@ libtaskmanager.so.4abi4 libtaskmanager4abi4 #MINVER#
  _ZN11TaskManager14GroupPopupMenu16staticMetaObjectE@ABI_4_4 4:4.11.1
  _ZN11TaskManager14GroupPopupMenuC1EP7QWidgetPNS_9TaskGroupEPNS_12GroupManagerE@ABI_4_4 4:4.11.1
  _ZN11TaskManager14GroupPopupMenuC2EP7QWidgetPNS_9TaskGroupEPNS_12GroupManagerE@ABI_4_4 4:4.11.1
- _ZN11TaskManager14GroupPopupMenuD0Ev@ABI_4_4 4:4.11.1
- _ZN11TaskManager14GroupPopupMenuD1Ev@ABI_4_4 4:4.11.1
- _ZN11TaskManager14GroupPopupMenuD2Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager14GroupPopupMenuD0Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager14GroupPopupMenuD1Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager14GroupPopupMenuD2Ev@ABI_4_4 4:4.11.1
  _ZN11TaskManager18standardTaskActionENS_10TaskActionEPNS_8TaskItemEP7QObject@ABI_4_4 4:4.11.1
  _ZN11TaskManager20GroupingStrategyMenu11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_4 4:4.11.1
  _ZN11TaskManager20GroupingStrategyMenu11qt_metacastEPKc@ABI_4_4 4:4.11.1
  _ZN11TaskManager20GroupingStrategyMenu16staticMetaObjectE@ABI_4_4 4:4.11.1
  _ZN11TaskManager20GroupingStrategyMenuC1EP7QWidgetPNS_21AbstractGroupableItemEPNS_12GroupManagerE@ABI_4_4 4:4.11.1
  _ZN11TaskManager20GroupingStrategyMenuC2EP7QWidgetPNS_21AbstractGroupableItemEPNS_12GroupManagerE@ABI_4_4 4:4.11.1
- _ZN11TaskManager20GroupingStrategyMenuD0Ev@ABI_4_4 4:4.11.1
- _ZN11TaskManager20GroupingStrategyMenuD1Ev@ABI_4_4 4:4.11.1
- _ZN11TaskManager20GroupingStrategyMenuD2Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager20GroupingStrategyMenuD0Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager20GroupingStrategyMenuD1Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager20GroupingStrategyMenuD2Ev@ABI_4_4 4:4.11.1
  _ZN11TaskManager21AbstractGroupableItem11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_4 4:4.11.1
  _ZN11TaskManager21AbstractGroupableItem11qt_metacastEPKc@ABI_4_4 4:4.11.1
  _ZN11TaskManager21AbstractGroupableItem14setParentGroupEPNS_9TaskGroupE@ABI_4_4 4:4.11.1
@@ -299,9 +299,9 @@ libtaskmanager.so.4abi4 libtaskmanager4abi4 #MINVER#
  _ZN11TaskManager9BasicMenuC2EP7QWidgetPNS_12LauncherItemEPNS_12GroupManagerE5QListIP7QActionESA_@ABI_4_4 4:4.11.1
  _ZN11TaskManager9BasicMenuC2EP7QWidgetPNS_8TaskItemEPNS_12GroupManagerE5QListIP7QActionESA_i@ABI_4_4 4:4.11.1
  _ZN11TaskManager9BasicMenuC2EP7QWidgetPNS_9TaskGroupEPNS_12GroupManagerE5QListIP7QActionESA_i@ABI_4_4 4:4.11.1
- _ZN11TaskManager9BasicMenuD0Ev@ABI_4_4 4:4.11.1
- _ZN11TaskManager9BasicMenuD1Ev@ABI_4_4 4:4.11.1
- _ZN11TaskManager9BasicMenuD2Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager9BasicMenuD0Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager9BasicMenuD1Ev@ABI_4_4 4:4.11.1
+ (optional=gccinternal)_ZN11TaskManager9BasicMenuD2Ev@ABI_4_4 4:4.11.1
  _ZN11TaskManager9TaskGroup11itemRemovedEPNS_21AbstractGroupableItemE@ABI_4_4 4:4.11.1
  _ZN11TaskManager9TaskGroup11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_4 4:4.11.1
  _ZN11TaskManager9TaskGroup11qt_metacastEPKc@ABI_4_4 4:4.11.1
@@ -580,9 +580,9 @@ libtaskmanager.so.4abi4 libtaskmanager4abi4 #MINVER#
  _ZTVN11TaskManager9BasicMenuE@ABI_4_4 4:4.11.1
  _ZTVN11TaskManager9TaskGroupE@ABI_4_4 4:4.11.1
  dlrestrictions_data@ABI_4_4 4:4.11.1
- (c++)"non-virtual thunk to TaskManager::AdvancedMenu::~AdvancedMenu()@ABI_4_4" 4:4.11.1
- (c++)"non-virtual thunk to TaskManager::BasicMenu::~BasicMenu()@ABI_4_4" 4:4.11.1
- (c++)"non-virtual thunk to TaskManager::DesktopsMenu::~DesktopsMenu()@ABI_4_4" 4:4.11.1
- (c++)"non-virtual thunk to TaskManager::GroupPopupMenu::~GroupPopupMenu()@ABI_4_4" 4:4.11.1
- (c++)"non-virtual thunk to TaskManager::GroupingStrategyMenu::~GroupingStrategyMenu()@ABI_4_4" 4:4.11.1
- (c++)"non-virtual thunk to TaskManager::ToolTipMenu::~ToolTipMenu()@ABI_4_4" 4:4.11.1
+ (optional=gccinternal|c++)"non-virtual thunk to TaskManager::AdvancedMenu::~AdvancedMenu()@ABI_4_4" 4:4.11.1
+ (optional=gccinternal|c++)"non-virtual thunk to TaskManager::BasicMenu::~BasicMenu()@ABI_4_4" 4:4.11.1
+ (optional=gccinternal|c++)"non-virtual thunk to TaskManager::DesktopsMenu::~DesktopsMenu()@ABI_4_4" 4:4.11.1
+ (optional=gccinternal|c++)"non-virtual thunk to TaskManager::GroupPopupMenu::~GroupPopupMenu()@ABI_4_4" 4:4.11.1
+ (optional=gccinternal|c++)"non-virtual thunk to TaskManager::GroupingStrategyMenu::~GroupingStrategyMenu()@ABI_4_4" 4:4.11.1
+ (optional=gccinternal|c++)"non-virtual thunk to TaskManager::ToolTipMenu::~ToolTipMenu()@ABI_4_4" 4:4.11.1

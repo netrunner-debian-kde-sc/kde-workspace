@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.12 sparc
+# SymbolsHelper-Confirmed: 4:4.11.22 amd64
 libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  ABI_1_5@ABI_1_5 4:4.11.1
  _ZN4KWin10Extensions18non_native_pixmapsE@ABI_1_5 4:4.11.1
@@ -99,8 +99,8 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZN4KWin14XRenderPictureC2ERK6QImage@ABI_1_5 4:4.11.1
  _ZN4KWin14XRenderPictureC2ERK7QPixmap@ABI_1_5 4:4.11.1
  _ZN4KWin14XRenderPictureC2Eji@ABI_1_5 4:4.11.1
- _ZN4KWin14XRenderPictureD1Ev@ABI_1_5 4:4.11.1
- _ZN4KWin14XRenderPictureD2Ev@ABI_1_5 4:4.11.1
+ (optional=gccinternal)_ZN4KWin14XRenderPictureD1Ev@ABI_1_5 4:4.11.1
+ (optional=gccinternal)_ZN4KWin14XRenderPictureD2Ev@ABI_1_5 4:4.11.1
  _ZN4KWin15AnimationEffect11paintWindowEPNS_12EffectWindowEi7QRegionRNS_15WindowPaintDataE@ABI_1_5 4:4.11.1
  _ZN4KWin15AnimationEffect11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_5 4:4.11.1
  _ZN4KWin15AnimationEffect11qt_metacastEPKc@ABI_1_5 4:4.11.1
@@ -122,16 +122,16 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZN4KWin15AnimationEffect9p_animateEPNS_12EffectWindowENS0_9AttributeEjiNS_4FPx2E12QEasingCurveiS4_b@ABI_1_5 4:4.11.1
  _ZN4KWin15AnimationEffectC1Ev@ABI_1_5 4:4.11.1
  _ZN4KWin15AnimationEffectC2Ev@ABI_1_5 4:4.11.1
- _ZN4KWin15AnimationEffectD0Ev@ABI_1_5 4:4.11.1
- _ZN4KWin15AnimationEffectD1Ev@ABI_1_5 4:4.11.1
- _ZN4KWin15AnimationEffectD2Ev@ABI_1_5 4:4.11.1
+ (optional=gccinternal)_ZN4KWin15AnimationEffectD0Ev@ABI_1_5 4:4.11.1
+ (optional=gccinternal)_ZN4KWin15AnimationEffectD1Ev@ABI_1_5 4:4.11.1
+ (optional=gccinternal)_ZN4KWin15AnimationEffectD2Ev@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDataC1ERKS0_@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDataC1Ev@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDataC2ERKS0_@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDataC2Ev@ABI_1_5 4:4.11.1
- _ZN4KWin15ScreenPaintDataD0Ev@ABI_1_5 4:4.11.1
- _ZN4KWin15ScreenPaintDataD1Ev@ABI_1_5 4:4.11.1
- _ZN4KWin15ScreenPaintDataD2Ev@ABI_1_5 4:4.11.1
+ (optional=gccinternal)_ZN4KWin15ScreenPaintDataD0Ev@ABI_1_5 4:4.11.1
+ (optional=gccinternal)_ZN4KWin15ScreenPaintDataD1Ev@ABI_1_5 4:4.11.1
+ (optional=gccinternal)_ZN4KWin15ScreenPaintDataD2Ev@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDataaSERKS0_@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDatamLERK9QVector2D@ABI_1_5 4:4.11.1
  _ZN4KWin15ScreenPaintDatamLERK9QVector3D@ABI_1_5 4:4.11.1
@@ -187,9 +187,9 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZN4KWin19xRenderBlendPictureEd@ABI_1_5 4:4.11.1
  _ZN4KWin21GlobalShortcutsEditorC1EP7QWidget@ABI_1_5 4:4.11.1
  _ZN4KWin21GlobalShortcutsEditorC2EP7QWidget@ABI_1_5 4:4.11.1
- _ZN4KWin21GlobalShortcutsEditorD0Ev@ABI_1_5 4:4.11.1
- _ZN4KWin21GlobalShortcutsEditorD1Ev@ABI_1_5 4:4.11.1
- _ZN4KWin21GlobalShortcutsEditorD2Ev@ABI_1_5 4:4.11.1
+ (optional=gccinternal)_ZN4KWin21GlobalShortcutsEditorD0Ev@ABI_1_5 4:4.11.1
+ (optional=gccinternal)_ZN4KWin21GlobalShortcutsEditorD1Ev@ABI_1_5 4:4.11.1
+ (optional=gccinternal)_ZN4KWin21GlobalShortcutsEditorD2Ev@ABI_1_5 4:4.11.1
  _ZN4KWin22xRenderOffscreenTargetEv@ABI_1_5 4:4.11.1
  _ZN4KWin28scene_xRenderOffscreenTargetEv@ABI_1_5 4:4.11.1
  _ZN4KWin31scene_setXRenderOffscreenTargetEj@ABI_1_5 4:4.11.1
@@ -403,4 +403,4 @@ libkwineffects.so.1abi5 libkwineffects1abi5 #MINVER#
  _ZTVN4KWin9PaintDataE@ABI_1_5 4:4.11.1
  _ZZN4KWin10connectionEvE5s_con@ABI_1_5 4:4.11.1
  dlrestrictions_data@ABI_1_5 4:4.11.1
- (c++)"non-virtual thunk to KWin::GlobalShortcutsEditor::~GlobalShortcutsEditor()@ABI_1_5" 4:4.11.1
+ (optional=gccinternal|c++)"non-virtual thunk to KWin::GlobalShortcutsEditor::~GlobalShortcutsEditor()@ABI_1_5" 4:4.11.1

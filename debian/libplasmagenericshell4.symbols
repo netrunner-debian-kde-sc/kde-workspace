@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.11.12 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x sparc x32
+# SymbolsHelper-Confirmed: 4:4.11.22 amd64
 libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst|arch=!ia64 !sparc)_Z10qDeleteAllIN5QListIPN13QFormInternal10DomIncludeEE14const_iteratorEEvT_S6_@Base 4:4.11.1
  (optional=templinst|arch=!ia64 !sparc)_Z10qDeleteAllIN5QListIPN13QFormInternal11DomResourceEE14const_iteratorEEvT_S6_@Base 4:4.11.1
@@ -23,8 +23,8 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_Z24qMetaTypeConstructHelperI5QListIP7QWidgetEEPvPKT_@Base 4:4.11.1
  (optional=gccinternal|arch=sparc)_ZN10QByteArrayC1ERKS_@Base 4:4.11.8
  (optional=gccinternal|arch=sparc)_ZN10QByteArrayC2ERKS_@Base 4:4.11.8
- _ZN10QByteArrayD1Ev@Base 4:4.11.1
- _ZN10QByteArrayD2Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN10QByteArrayD1Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN10QByteArrayD2Ev@Base 4:4.11.1
  _ZN10ToolButton10enterEventEP6QEvent@Base 4:4.11.1
  _ZN10ToolButton10leaveEventEP6QEvent@Base 4:4.11.1
  _ZN10ToolButton10paintEventEP11QPaintEvent@Base 4:4.11.1
@@ -38,9 +38,9 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZN10ToolButton9setActionEP7QAction@Base 4:4.11.1
  _ZN10ToolButtonC1EP7QWidget@Base 4:4.11.1
  _ZN10ToolButtonC2EP7QWidget@Base 4:4.11.1
- _ZN10ToolButtonD0Ev@Base 4:4.11.1
- _ZN10ToolButtonD1Ev@Base 4:4.11.1
- _ZN10ToolButtonD2Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN10ToolButtonD0Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN10ToolButtonD1Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN10ToolButtonD2Ev@Base 4:4.11.1
  (optional=gccinternal|arch=ia64 sparc)_ZN11QStringListC1ERKS_@Base 4:4.11.2
  (optional=gccinternal|arch=sparc)_ZN11QStringListC1Ev@Base 4:4.11.8
  (optional=gccinternal|arch=ia64 sparc)_ZN11QStringListC2ERKS_@Base 4:4.11.2
@@ -62,9 +62,9 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZN12PanelShadows9addWindowEPK7QWidget@Base 4:4.11.1
  _ZN12PanelShadowsC1EP7QObject@Base 4:4.11.1
  _ZN12PanelShadowsC2EP7QObject@Base 4:4.11.1
- _ZN12PanelShadowsD0Ev@Base 4:4.11.1
- _ZN12PanelShadowsD1Ev@Base 4:4.11.1
- _ZN12PanelShadowsD2Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN12PanelShadowsD0Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN12PanelShadowsD1Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN12PanelShadowsD2Ev@Base 4:4.11.1
  _ZN13QFormInternal10DomInclude4readER16QXmlStreamReader@Base 4:4.11.1
  _ZN13QFormInternal10DomInclude5clearEb@Base 4:4.11.1
  _ZN13QFormInternal10DomIncludeC1Ev@Base 4:4.11.1
@@ -502,8 +502,8 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZN13QFormInternal17QFormBuilderExtra16CustomWidgetDataC1Ev@Base 4:4.11.1
  _ZN13QFormInternal17QFormBuilderExtra16CustomWidgetDataC2EPKNS_15DomCustomWidgetE@Base 4:4.11.1
  _ZN13QFormInternal17QFormBuilderExtra16CustomWidgetDataC2Ev@Base 4:4.11.1
- (arch=!ia64)_ZN13QFormInternal17QFormBuilderExtra16CustomWidgetDataD1Ev@Base 4:4.11.3
- (arch=!ia64)_ZN13QFormInternal17QFormBuilderExtra16CustomWidgetDataD2Ev@Base 4:4.11.3
+ (optional=gccinternal|arch=!ia64)_ZN13QFormInternal17QFormBuilderExtra16CustomWidgetDataD1Ev@Base 4:4.11.3
+ (optional=gccinternal|arch=!ia64)_ZN13QFormInternal17QFormBuilderExtra16CustomWidgetDataD2Ev@Base 4:4.11.3
  _ZN13QFormInternal17QFormBuilderExtra16boxLayoutStretchEPK10QBoxLayout@Base 4:4.11.1
  _ZN13QFormInternal17QFormBuilderExtra16clearTextBuilderEv@Base 4:4.11.1
  _ZN13QFormInternal17QFormBuilderExtra18setResourceBuilderEPNS_16QResourceBuilderE@Base 4:4.11.1
@@ -998,9 +998,9 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZN15WallpaperWidget15settingsChangedEb@Base 4:4.11.1
  _ZN15WallpaperWidget16staticMetaObjectE@Base 4:4.11.1
  _ZN15WallpaperWidget8modifiedEb@Base 4:4.11.1
- _ZN15WallpaperWidgetD0Ev@Base 4:4.11.1
- _ZN15WallpaperWidgetD1Ev@Base 4:4.11.1
- _ZN15WallpaperWidgetD2Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN15WallpaperWidgetD0Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN15WallpaperWidgetD1Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN15WallpaperWidgetD2Ev@Base 4:4.11.1
  _ZN16BackgroundDialog10hasChangedEv@Base 4:4.11.1
  _ZN16BackgroundDialog10saveConfigEv@Base 4:4.11.1
  _ZN16BackgroundDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
@@ -1031,8 +1031,8 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZN16WallpaperPreviewD0Ev@Base 4:4.11.1
  _ZN16WallpaperPreviewD1Ev@Base 4:4.11.1
  _ZN16WallpaperPreviewD2Ev@Base 4:4.11.1
- (optional=templinst|arch=ia64 sparc)_ZN17QForeachContainerI11QStringListEC1ERKS0_@Base 4:4.11.2
- (optional=templinst|arch=ia64 sparc)_ZN17QForeachContainerI11QStringListEC2ERKS0_@Base 4:4.11.2
+ (optional=templinst|arch=amd64 ia64 sparc)_ZN17QForeachContainerI11QStringListEC1ERKS0_@Base 4:4.11.2
+ (optional=templinst|arch=amd64 ia64 sparc)_ZN17QForeachContainerI11QStringListEC2ERKS0_@Base 4:4.11.2
  _ZN18WorkspaceScripting11Containment10setDesktopEi@Base 4:4.11.1
  _ZN18WorkspaceScripting11Containment10widgetByIdEP14QScriptContextP13QScriptEngine@Base 4:4.11.1
  _ZN18WorkspaceScripting11Containment11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.11.1
@@ -1060,9 +1060,9 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZN18WorkspaceScripting12AppInterface8setThemeERK7QString@Base 4:4.11.1
  _ZN18WorkspaceScripting12AppInterfaceC1EPNS_12ScriptEngineE@Base 4:4.11.1
  _ZN18WorkspaceScripting12AppInterfaceC2EPNS_12ScriptEngineE@Base 4:4.11.1
- _ZN18WorkspaceScripting12AppInterfaceD0Ev@Base 4:4.11.1
- _ZN18WorkspaceScripting12AppInterfaceD1Ev@Base 4:4.11.1
- _ZN18WorkspaceScripting12AppInterfaceD2Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN18WorkspaceScripting12AppInterfaceD0Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN18WorkspaceScripting12AppInterfaceD1Ev@Base 4:4.11.1
+ (optional=gccinternal)_ZN18WorkspaceScripting12AppInterfaceD2Ev@Base 4:4.11.1
  _ZN18WorkspaceScripting12ScriptEngine10activitiesEP14QScriptContextP13QScriptEngine@Base 4:4.11.1
  _ZN18WorkspaceScripting12ScriptEngine10configFileEP14QScriptContextP13QScriptEngine@Base 4:4.11.1
  _ZN18WorkspaceScripting12ScriptEngine10fileExistsEP14QScriptContextP13QScriptEngine@Base 4:4.11.1
@@ -1197,6 +1197,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZN5QHashIPKN13QFormInternal20QAbstractFormBuilderEPNS0_17QFormBuilderExtraEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:4.11.1
  (optional=templinst|arch=alpha armel armhf ia64 mips mipsel powerpc ppc64 ppc64el s390x sparc)_ZN5QListI10QByteArrayE13detach_helperEi@Base 4:4.11.2
  (optional=templinst|arch=!alpha !arm64 !hppa !mips !mipsel)_ZN5QListI10QByteArrayE18detach_helper_growEii@Base 4:4.11.1
+ (optional=templinst)_ZN5QListI10QByteArrayE4freeEPN9QListData4DataE@Base 4:4.11.22
  (optional=templinst)_ZN5QListI10QByteArrayE6appendERKS0_@Base 4:4.11.1
  (optional=templinst|arch=!armel !armhf !s390x !sparc)_ZN5QListI10QByteArrayE7reserveEi@Base 4:4.11.1
  (optional=templinst)_ZN5QListI10QByteArrayED1Ev@Base 4:4.11.1
@@ -1230,6 +1231,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst|arch=sparc)_ZN5QListI5QPairIS0_IN2Qt12ItemDataRoleES2_E7QStringEE9node_copyEPNS6_4NodeES8_S8_@Base 4:4.11.3
  (optional=templinst)_ZN5QListI5QPairIS0_IN2Qt12ItemDataRoleES2_E7QStringEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListI5QPairIS0_IN2Qt12ItemDataRoleES2_E7QStringEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListI7QStringE4freeEPN9QListData4DataE@Base 4:4.11.22
  (optional=templinst|arch=!ia64 !sparc)_ZN5QListI7QStringEC1ERKS1_@Base 4:4.11.1
  (optional=templinst|arch=!ia64 !sparc)_ZN5QListI7QStringEC2ERKS1_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIP30QDesignerCustomWidgetInterfaceE13detach_helperEi@Base 4:4.11.1
@@ -1237,7 +1239,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZN5QListIP30QDesignerCustomWidgetInterfaceE6appendERKS1_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIP30QDesignerCustomWidgetInterfaceED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIP30QDesignerCustomWidgetInterfaceED2Ev@Base 4:4.11.1
- (optional=templinst|arch=sparc)_ZN5QListIP7QActionE13detach_helperEi@Base 4:4.11.12
+ (optional=templinst|arch=amd64 sparc)_ZN5QListIP7QActionE13detach_helperEi@Base 4:4.11.12
  (optional=templinst)_ZN5QListIP7QObjectE13detach_helperEi@Base 4:4.11.1
  (optional=templinst|arch=ia64 sparc)_ZN5QListIP7QObjectE13detach_helperEv@Base 4:4.11.2
  (optional=templinst)_ZN5QListIP7QObjectE9removeAllERKS1_@Base 4:4.11.1
@@ -1249,6 +1251,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZN5QListIP7QWidgetE9removeAllERKS1_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIP7QWidgetED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIP7QWidgetED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal10DomIncludeEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal10DomIncludeEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal10DomIncludeEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal10DomIncludeEE6appendERKS2_@Base 4:4.11.1
@@ -1263,79 +1266,91 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZN5QListIPN13QFormInternal11DomPropertyEEC2ERKS3_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal11DomPropertyEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal11DomPropertyEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal11DomResourceEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal11DomResourceEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal11DomResourceEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal11DomResourceEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal11DomResourceEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal11DomResourceEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal12DomActionRefEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomActionRefEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomActionRefEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomActionRefEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomActionRefEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomActionRefEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal12DomColorRoleEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomColorRoleEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomColorRoleEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomColorRoleEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomColorRoleEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal12DomColorRoleEED2Ev@Base 4:4.11.1
- (optional=templinst|arch=ia64 sparc)_ZN5QListIPN13QFormInternal13DomConnectionEE13detach_helperEi@Base 4:4.11.2
+ (optional=templinst|arch=amd64 ia64 sparc)_ZN5QListIPN13QFormInternal13DomConnectionEE13detach_helperEi@Base 4:4.11.2
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomConnectionEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomConnectionEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomConnectionEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomConnectionEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomConnectionEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal13DomLayoutItemEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomLayoutItemEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomLayoutItemEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomLayoutItemEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomLayoutItemEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomLayoutItemEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal13DomWidgetDataEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomWidgetDataEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomWidgetDataEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomWidgetDataEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomWidgetDataEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal13DomWidgetDataEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal14DomActionGroupEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomActionGroupEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomActionGroupEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomActionGroupEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomActionGroupEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomActionGroupEED2Ev@Base 4:4.11.1
- (optional=templinst|arch=ia64 sparc)_ZN5QListIPN13QFormInternal14DomButtonGroupEE13detach_helperEi@Base 4:4.11.2
+ (optional=templinst|arch=amd64 ia64 sparc)_ZN5QListIPN13QFormInternal14DomButtonGroupEE13detach_helperEi@Base 4:4.11.2
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal14DomButtonGroupEED2Ev@Base 4:4.11.1
- (optional=templinst|arch=ia64 sparc)_ZN5QListIPN13QFormInternal15DomCustomWidgetEE13detach_helperEi@Base 4:4.11.2
+ (optional=templinst|arch=amd64 ia64 sparc)_ZN5QListIPN13QFormInternal15DomCustomWidgetEE13detach_helperEi@Base 4:4.11.2
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomCustomWidgetEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomCustomWidgetEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomCustomWidgetEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomCustomWidgetEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomCustomWidgetEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal15DomGradientStopEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomGradientStopEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomGradientStopEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomGradientStopEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomGradientStopEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomGradientStopEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal15DomPropertyDataEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomPropertyDataEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomPropertyDataEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomPropertyDataEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomPropertyDataEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal15DomPropertyDataEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal17DomConnectionHintEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal17DomConnectionHintEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal17DomConnectionHintEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal17DomConnectionHintEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal17DomConnectionHintEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal17DomConnectionHintEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal30DomStringPropertySpecificationEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal30DomStringPropertySpecificationEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal30DomStringPropertySpecificationEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal30DomStringPropertySpecificationEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal30DomStringPropertySpecificationEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal30DomStringPropertySpecificationEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal6DomRowEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal6DomRowEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal6DomRowEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal6DomRowEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal6DomRowEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal6DomRowEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal7DomItemEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal7DomItemEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal7DomItemEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal7DomItemEE6appendERKS2_@Base 4:4.11.1
@@ -1343,22 +1358,25 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst|arch=!ia64 !sparc)_ZN5QListIPN13QFormInternal7DomItemEEC2ERKS3_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal7DomItemEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal7DomItemEED2Ev@Base 4:4.11.1
- (optional=templinst|arch=ia64 sparc)_ZN5QListIPN13QFormInternal8DomColorEE13detach_helperEi@Base 4:4.11.2
+ (optional=templinst|arch=amd64 ia64 sparc)_ZN5QListIPN13QFormInternal8DomColorEE13detach_helperEi@Base 4:4.11.2
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomColorEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomColorEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomColorEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomColorEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomColorEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal8DomImageEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomImageEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomImageEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomImageEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomImageEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal8DomImageEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal9DomActionEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomActionEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomActionEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomActionEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomActionEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomActionEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal9DomColumnEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomColumnEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomColumnEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomColumnEE6appendERKS2_@Base 4:4.11.1
@@ -1366,16 +1384,19 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst|arch=alpha armhf mips mipsel s390x)_ZN5QListIPN13QFormInternal9DomColumnEEC2ERKS3_@Base 4:4.11.3
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomColumnEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomColumnEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal9DomLayoutEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomLayoutEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomLayoutEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomLayoutEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomLayoutEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomLayoutEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal9DomScriptEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomScriptEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomScriptEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomScriptEE6appendERKS2_@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomScriptEED1Ev@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomScriptEED2Ev@Base 4:4.11.1
+ (optional=templinst)_ZN5QListIPN13QFormInternal9DomWidgetEE13detach_helperEi@Base 4:4.11.22
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomWidgetEE18detach_helper_growEii@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomWidgetEE5clearEv@Base 4:4.11.1
  (optional=templinst)_ZN5QListIPN13QFormInternal9DomWidgetEE6appendERKS2_@Base 4:4.11.1
@@ -1610,9 +1631,9 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  _ZNK18WorkspaceScripting6Widget6appletEv@Base 4:4.11.1
  _ZNK18WorkspaceScripting6Widget8geometryEv@Base 4:4.11.1
  (optional=templinst|arch=alpha arm64 armhf hppa mips mipsel powerpc ppc64 s390x)_ZNK4QMapI7QStringP30QDesignerCustomWidgetInterfaceE15mutableFindNodeEPPN8QMapData4NodeERKS0_@Base 4:4.11.3
- (optional=templinst|arch=armel sparc)_ZNK4QMapI7QStringP30QDesignerCustomWidgetInterfaceE6valuesEv@Base 4:4.11.2
- (optional=templinst|arch=armel sparc)_ZNK4QMapI7QStringbE4keysEv@Base 4:4.11.2
- (optional=templinst|arch=armel armhf s390x sparc)_ZNK5QHashI10QByteArraybE4keysEv@Base 4:4.11.2
+ (optional=templinst|arch=amd64 armel sparc)_ZNK4QMapI7QStringP30QDesignerCustomWidgetInterfaceE6valuesEv@Base 4:4.11.2
+ (optional=templinst|arch=amd64 armel sparc)_ZNK4QMapI7QStringbE4keysEv@Base 4:4.11.2
+ (optional=templinst|arch=amd64 armel armhf s390x sparc)_ZNK5QHashI10QByteArraybE4keysEv@Base 4:4.11.2
  (optional=templinst)_ZNK5QHashI10QByteArraybE8findNodeERKS0_Pj@Base 4:4.11.1
  (optional=templinst)_ZNK5QHashI7QString5QPairIN2Qt12ItemDataRoleES3_EE8findNodeERKS0_Pj@Base 4:4.11.1
  (optional=templinst)_ZNK5QHashI7QString5QPairIPN13QFormInternal14DomButtonGroupEP12QButtonGroupEE8findNodeERKS0_Pj@Base 4:4.11.1
@@ -1622,7 +1643,7 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (optional=templinst)_ZNK5QHashI7QStringP7QActionE8findNodeERKS0_Pj@Base 4:4.11.1
  (optional=templinst)_ZNK5QHashI7QStringPN13QFormInternal11DomPropertyEE5valueERKS0_@Base 4:4.11.1
  (optional=templinst)_ZNK5QHashI7QStringPN13QFormInternal11DomPropertyEE8findNodeERKS0_Pj@Base 4:4.11.1
- (optional=templinst|arch=ia64 sparc)_ZNK5QListIP7QObjectE7indexOfERKS1_i@Base 4:4.11.2
+ (optional=templinst|arch=amd64 ia64 sparc)_ZNK5QListIP7QObjectE7indexOfERKS1_i@Base 4:4.11.2
  (optional=templinst|arch=sparc)_ZNK5QListIP7QWidgetE7indexOfERKS1_i@Base 4:4.11.8
  _ZNK6Plasma14WidgetExplorer10metaObjectEv@Base 4:4.11.1
  _ZNK6Plasma14WidgetExplorer11containmentEv@Base 4:4.11.1
@@ -1711,6 +1732,6 @@ libplasmagenericshell.so.4 libplasmagenericshell4 #MINVER#
  (c++)"non-virtual thunk to Plasma::WidgetExplorer::keyPressEvent(QKeyEvent*)@Base" 4:4.11.1
  (c++)"non-virtual thunk to Plasma::WidgetExplorer::~WidgetExplorer()@Base" 4:4.11.1
  (c++)"non-virtual thunk to QFormInternal::QAbstractFormBuilderGadget::~QAbstractFormBuilderGadget()@Base" 4:4.11.1
- (c++)"non-virtual thunk to ToolButton::~ToolButton()@Base" 4:4.11.1
+ (optional=gccinternal|c++)"non-virtual thunk to ToolButton::~ToolButton()@Base" 4:4.11.1
  (c++)"non-virtual thunk to WallpaperPreview::~WallpaperPreview()@Base" 4:4.11.1
- (c++)"non-virtual thunk to WallpaperWidget::~WallpaperWidget()@Base" 4:4.11.1
+ (optional=gccinternal|c++)"non-virtual thunk to WallpaperWidget::~WallpaperWidget()@Base" 4:4.11.1

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64
+# SymbolsHelper-Confirmed: 4:4.11.22 amd64
 libplasma-geolocation-interface.so.4 libplasma-geolocation-interface4 #MINVER#
 * Build-Depends-Package: kde-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -19,9 +19,9 @@ libplasma-geolocation-interface.so.4 libplasma-geolocation-interface4 #MINVER#
  _ZN19GeolocationProvider7updatedEv@ABI_4_0 4:4.6.1
  _ZN19GeolocationProviderC1EP7QObjectRK5QListI8QVariantE@ABI_4_0 4:4.6.1
  _ZN19GeolocationProviderC2EP7QObjectRK5QListI8QVariantE@ABI_4_0 4:4.6.1
- _ZN19GeolocationProviderD0Ev@ABI_4_0 4:4.6.5
- _ZN19GeolocationProviderD1Ev@ABI_4_0 4:4.6.5
- _ZN19GeolocationProviderD2Ev@ABI_4_0 4:4.6.5
+ (optional=gccinternal)_ZN19GeolocationProviderD0Ev@ABI_4_0 4:4.6.5
+ (optional=gccinternal)_ZN19GeolocationProviderD1Ev@ABI_4_0 4:4.6.5
+ (optional=gccinternal)_ZN19GeolocationProviderD2Ev@ABI_4_0 4:4.6.5
  _ZNK19GeolocationProvider10metaObjectEv@ABI_4_0 4:4.6.1
  _ZNK19GeolocationProvider11isAvailableEv@ABI_4_0 4:4.6.1
  _ZNK19GeolocationProvider14updateTriggersEv@ABI_4_0 4:4.6.1

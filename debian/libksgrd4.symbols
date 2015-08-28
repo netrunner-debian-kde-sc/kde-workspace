@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64
+# SymbolsHelper-Confirmed: 4:4.11.22 amd64
 libksgrd.so.4 libksgrd4 #MINVER#
 * Build-Depends-Package: kde-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -27,9 +27,9 @@ libksgrd.so.4 libksgrd4 #MINVER#
  _ZN5KSGRD13SensorManager11sendRequestERK7QStringS3_PNS_12SensorClientEi@ABI_4_0 4:4.6.1
  _ZN5KSGRD13SensorManager12MessageEventC1ERK7QString@ABI_4_0 4:4.6.1
  _ZN5KSGRD13SensorManager12MessageEventC2ERK7QString@ABI_4_0 4:4.6.1
- _ZN5KSGRD13SensorManager12MessageEventD0Ev@ABI_4_0 4:4.6.5
- _ZN5KSGRD13SensorManager12MessageEventD1Ev@ABI_4_0 4:4.6.5
- _ZN5KSGRD13SensorManager12MessageEventD2Ev@ABI_4_0 4:4.6.5
+ (optional=gccinternal)_ZN5KSGRD13SensorManager12MessageEventD0Ev@ABI_4_0 4:4.6.5
+ (optional=gccinternal)_ZN5KSGRD13SensorManager12MessageEventD1Ev@ABI_4_0 4:4.6.5
+ (optional=gccinternal)_ZN5KSGRD13SensorManager12MessageEventD2Ev@ABI_4_0 4:4.6.5
  _ZN5KSGRD13SensorManager13resynchronizeERK7QString@ABI_4_0 4:4.6.1
  _ZN5KSGRD13SensorManager14readPropertiesERK12KConfigGroup@ABI_4_0 4:4.6.1
  _ZN5KSGRD13SensorManager14savePropertiesER12KConfigGroup@ABI_4_0 4:4.6.1

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64
+# SymbolsHelper-Confirmed: 4:4.11.22 amd64
 libprocessui.so.4 libprocessui4a #MINVER#
 * Build-Depends-Package: kde-workspace-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -11,9 +11,9 @@ libprocessui.so.4 libprocessui4a #MINVER#
  _ZN11KTextEditVT23setParseAnsiEscapeCodesEb@ABI_4_0 4:4.6.1
  _ZN11KTextEditVTC1EP7QWidget@ABI_4_0 4:4.6.1
  _ZN11KTextEditVTC2EP7QWidget@ABI_4_0 4:4.6.1
- _ZN11KTextEditVTD0Ev@ABI_4_0 4:4.6.5
- _ZN11KTextEditVTD1Ev@ABI_4_0 4:4.6.5
- _ZN11KTextEditVTD2Ev@ABI_4_0 4:4.6.5
+ (optional=gccinternal)_ZN11KTextEditVTD0Ev@ABI_4_0 4:4.6.5
+ (optional=gccinternal)_ZN11KTextEditVTD1Ev@ABI_4_0 4:4.6.5
+ (optional=gccinternal)_ZN11KTextEditVTD2Ev@ABI_4_0 4:4.6.5
  _ZN12ProcessModel10getProcessEx@ABI_4_0 4:4.6.1
  _ZN12ProcessModel10setIoUnitsENS_5UnitsE@ABI_4_0 4:4.6.1
  _ZN12ProcessModel11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
@@ -142,4 +142,4 @@ libprocessui.so.4 libprocessui4a #MINVER#
  _ZTV20KSysGuardProcessList@ABI_4_0 4:4.6.1
  dlrestrictions_data@ABI_4_0 4:4.6.3
  (c++)"non-virtual thunk to KSysGuardProcessList::~KSysGuardProcessList()@ABI_4_0" 4:4.6.1
- (c++)"non-virtual thunk to KTextEditVT::~KTextEditVT()@ABI_4_0" 4:4.6.5
+ (optional=gccinternal|c++)"non-virtual thunk to KTextEditVT::~KTextEditVT()@ABI_4_0" 4:4.6.5
