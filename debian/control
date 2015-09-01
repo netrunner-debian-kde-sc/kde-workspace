@@ -476,20 +476,20 @@ Description: KDE greet libraries for authentication
  .
  This package is part of the KDE base workspace module.
 
-Package: kde-style-oxygen
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kdebase-runtime (<< 4:4.7.2),
-        kdebase-workspace-bin (<< 4:4.7.2),
-        kdebase-workspace-data (<< 4:4.7.2)
-Replaces: kdebase-runtime (<< 4:4.7.2),
-          kdebase-workspace-bin (<< 4:4.7.2),
-          kdebase-workspace-data (<< 4:4.7.2)
-Description: Oxygen widget style
- This package provides the Oxygen widget style. It may be used for KDE and Qt
- applications.
- .
- This package is part of the KDE base workspace module.
+# Package: kde-style-oxygen
+# Architecture: any
+# Depends: ${misc:Depends}, ${shlibs:Depends}
+# Breaks: kdebase-runtime (<< 4:4.7.2),
+#         kdebase-workspace-bin (<< 4:4.7.2),
+#         kdebase-workspace-data (<< 4:4.7.2)
+# Replaces: kdebase-runtime (<< 4:4.7.2),
+#           kdebase-workspace-bin (<< 4:4.7.2),
+#           kdebase-workspace-data (<< 4:4.7.2)
+# Description: Oxygen widget style
+#  This package provides the Oxygen widget style. It may be used for KDE and Qt
+#  applications.
+#  .
+#  This package is part of the KDE base workspace module.
 
 # Package: kmenuedit
 # Architecture: any
