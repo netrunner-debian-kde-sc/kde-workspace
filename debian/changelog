@@ -1,3 +1,21 @@
+kde-workspace (4:4.11.22-3) unstable; urgency=medium
+
+  * Team upload.
+  * Convert plasma-netbook into an arch all transitional package that depends
+    on plasma-desktop due to the lack of a netbook specific U/I in Plasma 5
+  * Stop building plasma-widgets-workspace binary as is it no longer needed
+  * Stop building plasma-scriptengines binary as it is no longer useful
+  * Drop kde-workspace-bin Reccomends of plasma-scriptengines
+  * Stop building plasma-scriptengine-ruby as it is no longer useful
+  * Stop building plasma-scriptengine-python as it is no longer useful
+  * Stop building plasma-scriptengine-webkit as it is no longer useful 
+  * Stop building kde-workspace-dbg since it makes the package take forever
+    to upload and there's little value for this unmaintained code
+  * Remove obsolete kdebase-* transitional packages (already in a stable
+    release)
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 10 Sep 2015 16:03:41 -0400
+
 kde-workspace (4:4.11.22-2) unstable; urgency=medium
 
   * Remove kde-style-oxygen binary package. It's a transitional package

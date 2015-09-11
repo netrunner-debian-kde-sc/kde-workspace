@@ -22,9 +22,6 @@ override_dh_auto_test:
 	# Disable dh_auto_test at build time
 	:
 
-override_dh_strip:
-	$(overridden_command) --dbg-package=kde-workspace-dbg
-
 override_dh_makeshlibs:
 	$(overridden_command) -pplasma-desktop -Xlibkickoff.so
 	$(overridden_command) --remaining-packages
